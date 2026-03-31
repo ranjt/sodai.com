@@ -409,8 +409,8 @@ footer{background:var(--dark);color:rgba(255,255,255,.7);margin-top:0;}
     <div class="logo" onclick="showPage('shop')">
       <div class="logo-mark">🛒</div>
       <div class="logo-words">
-        <span class="logo-en">Amar Ar Bazar</span>
-        <span class="logo-bn">আমার আর বাজার</span>
+        <span class="logo-en">Amarar Bazar</span>
+        <span class="logo-bn">আমরার বাজার</span>
       </div>
     </div>
     <div class="h-search">
@@ -449,8 +449,8 @@ footer{background:var(--dark);color:rgba(255,255,255,.7);margin-top:0;}
     <div class="sb-logo-wrap">
       <div class="sb-logo-icon">🛒</div>
       <div>
-        <div class="sb-logo-en">Amar Ar Bazar</div>
-        <div class="sb-logo-bn">আমার আর বাজার</div>
+        <div class="sb-logo-en">Amarar Bazar</div>
+        <div class="sb-logo-bn">আমরার বাজার</div>
       </div>
     </div>
     <div class="sb-tagline" data-t="sbTagline">Your trusted daily grocery partner — fresh, fast & affordable.</div>
@@ -993,7 +993,7 @@ function setLang(l){
 //  LOAD SHEET — exact same logic as your original
 // ══════════════════════════════════════════════════
 function loadSheet(){
-  setStatus('loading','⏳ '+(lang==='bn'?'গুগল শিট থেকে লোড হচ্ছে…':'Loading live prices from Google Sheets…'));
+  setStatus('loading','⏳ '+(lang==='bn'?'সরাসরি মূল্য লোড করা হচ্ছে...':'Loading live prices'));
   fetch(PRODUCT_CSV+'&t='+Date.now(),{cache:'no-store'})
     .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.text();})
     .then(csv=>{
@@ -1002,7 +1002,7 @@ function loadSheet(){
       products=rows;
       setStatus('ok','✅ '+(lang==='bn'
         ?products.length+'টি পণ্য লাইভ লোড হয়েছে ✓'
-        :products.length+' products loaded live from your Google Sheet ✓'));
+        :products.length+' products loaded live ✓'));
       renderProducts(getFiltered());
     })
     .catch(()=>{
