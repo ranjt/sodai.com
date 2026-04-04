@@ -4,27 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Amrar Bazar | আমরার বাজার</title>
-<meta name="description" content="আমরার বাজার - বাংলা ফার্স্ট, মোবাইল ফার্স্ট দৈনন্দিন অনলাইন শপিং ওয়েবসাইট।">
+<meta name="description" content="আমরার বাজার - Blinkit inspired, mobile-first daily shopping website with Bangla-first UX and a Chaldal-style cart drawer.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --green:#1a6b3a;
-  --green-2:#2d9b57;
-  --green-soft:#e8f5ee;
+  --green-2:#2f9a58;
+  --green-soft:#e9f6ee;
   --orange:#f4752a;
-  --orange-2:#ff924d;
-  --orange-soft:#fff2e9;
-  --cream:#faf8f3;
-  --surface:#fff;
-  --surface-2:#f6f1e8;
-  --ink:#172319;
-  --muted:#66756c;
-  --line:#e8e0d2;
-  --shadow:0 18px 48px rgba(13,33,19,.10);
-  --shadow-soft:0 8px 22px rgba(13,33,19,.08);
-  --max:1280px;
+  --yellow:#f8d44d;
+  --cream:#f8f5ee;
+  --surface:#ffffff;
+  --surface-2:#f4efe5;
+  --ink:#1b241c;
+  --muted:#69766f;
+  --line:#e6dfd2;
+  --shadow:0 18px 44px rgba(18,31,20,.10);
+  --shadow-soft:0 8px 20px rgba(18,31,20,.08);
+  --max:1320px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -32,379 +31,1149 @@ body{
   font-family:'DM Sans',sans-serif;
   color:var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(244,117,42,.08), transparent 28%),
-    radial-gradient(circle at top right, rgba(26,107,58,.07), transparent 24%),
+    radial-gradient(circle at top left, rgba(248,212,77,.12), transparent 24%),
+    radial-gradient(circle at top right, rgba(26,107,58,.06), transparent 24%),
     var(--cream);
   overflow-x:hidden;
 }
 body.bn{font-family:'Hind Siliguri',sans-serif}
-body.cart-open{overflow:hidden}
-a{text-decoration:none;color:inherit}
+body.nav-open,body.cart-open{overflow:hidden}
 button,input,select,textarea{font:inherit}
 button{border:none;background:none;cursor:pointer}
+a{text-decoration:none;color:inherit}
 img{display:block;max-width:100%}
-.shell{max-width:var(--max);margin:0 auto;padding:0 20px}
+.shell{max-width:var(--max);margin:0 auto;padding:0 18px}
 
-.topbar{background:#111a13;color:#fff;font-size:13px}
-.topbar-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 0}
-.lang-switch{display:flex;gap:6px;background:rgba(255,255,255,.08);padding:4px;border-radius:999px}
-.lang-switch button{padding:6px 12px;border-radius:999px;color:#fff;font-weight:800;opacity:.8}
-.lang-switch button.active{background:var(--green);opacity:1}
+.topbar{
+  background:#0f1711;
+  color:#fff;
+  font-size:12px;
+}
+.topbar-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+  padding:8px 0;
+}
+.lang-switch{
+  display:flex;
+  gap:6px;
+  padding:4px;
+  border-radius:999px;
+  background:rgba(255,255,255,.08);
+}
+.lang-switch button{
+  padding:6px 12px;
+  border-radius:999px;
+  color:#fff;
+  font-size:12px;
+  font-weight:800;
+  opacity:.82;
+}
+.lang-switch button.active{
+  background:var(--green);
+  opacity:1;
+}
 
 .header{
-  position:sticky;top:0;z-index:60;
+  position:sticky;
+  top:0;
+  z-index:50;
+  background:rgba(248,245,238,.94);
   backdrop-filter:blur(14px);
-  background:rgba(250,248,243,.92);
-  border-bottom:1px solid rgba(232,224,210,.95);
+  border-bottom:1px solid rgba(230,223,210,.92);
 }
 .header-row{
   display:grid;
-  grid-template-columns:auto minmax(260px,1fr) auto;
-  gap:16px;
+  grid-template-columns:auto minmax(230px,1fr) auto;
+  gap:14px;
   align-items:center;
-  padding:14px 0;
+  padding:12px 0;
 }
-.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.left-cluster{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:0;
+}
+.menu-btn{
+  width:42px;
+  height:42px;
+  border-radius:14px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  font-size:18px;
+  color:var(--ink);
+  flex-shrink:0;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:0;
+}
 .brand-mark{
-  width:48px;height:48px;border-radius:16px;
-  background:linear-gradient(135deg,var(--green),#0f522d);
-  display:grid;place-items:center;color:#fff;font-size:24px;
-  box-shadow:var(--shadow-soft)
+  width:48px;
+  height:48px;
+  border-radius:16px;
+  background:linear-gradient(135deg,var(--yellow),#f4be27);
+  color:#1f3b10;
+  display:grid;
+  place-items:center;
+  font-size:24px;
+  font-weight:900;
+  flex-shrink:0;
 }
-.brand-copy strong{display:block;font-size:20px;line-height:1}
-.brand-copy span{display:block;margin-top:5px;font-size:12px;color:var(--muted)}
-.search{position:relative}
+.brand-copy strong{
+  display:block;
+  font-size:20px;
+  line-height:1;
+}
+.brand-copy span{
+  display:block;
+  margin-top:4px;
+  color:var(--muted);
+  font-size:12px;
+}
+.search-wrap{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:12px;
+  align-items:center;
+}
+.delivery-card{
+  min-width:210px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:10px 14px;
+  box-shadow:var(--shadow-soft);
+}
+.delivery-card strong{
+  display:block;
+  font-size:15px;
+}
+.delivery-card span{
+  display:block;
+  color:var(--muted);
+  font-size:12px;
+  margin-top:2px;
+}
+.search{
+  position:relative;
+}
 .search input{
-  width:100%;border:2px solid var(--line);background:var(--surface);
-  border-radius:999px;padding:14px 50px 14px 18px;outline:none
+  width:100%;
+  border:1.5px solid var(--line);
+  background:var(--surface);
+  border-radius:18px;
+  padding:14px 50px 14px 16px;
+  outline:none;
 }
-.search input:focus{border-color:var(--green);box-shadow:0 0 0 4px rgba(26,107,58,.1)}
+.search input:focus{
+  border-color:var(--green);
+  box-shadow:0 0 0 4px rgba(26,107,58,.08);
+}
 .search button{
-  position:absolute;right:6px;top:6px;width:40px;height:40px;border-radius:50%;
-  background:var(--green);color:#fff
+  position:absolute;
+  right:6px;
+  top:6px;
+  width:38px;
+  height:38px;
+  border-radius:12px;
+  background:var(--green);
+  color:#fff;
 }
-.header-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}
-.soft-btn,.cart-btn,.help-btn{
-  border-radius:999px;padding:12px 16px;font-weight:800;white-space:nowrap
+.header-actions{
+  display:flex;
+  align-items:center;
+  gap:8px;
 }
-.soft-btn{background:var(--surface);border:1.5px solid var(--line);color:var(--green)}
-.help-btn{background:var(--green-soft);color:var(--green)}
+.header-chip,.cart-btn{
+  border-radius:16px;
+  padding:12px 14px;
+  font-weight:800;
+  white-space:nowrap;
+}
+.header-chip{
+  background:var(--surface);
+  border:1px solid var(--line);
+  color:var(--ink);
+}
 .cart-btn{
-  display:flex;align-items:center;gap:8px;background:var(--green);color:#fff;
-  box-shadow:0 12px 24px rgba(26,107,58,.22)
+  background:var(--green);
+  color:#fff;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  box-shadow:0 12px 24px rgba(26,107,58,.22);
 }
 .cart-count{
-  min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:var(--orange);
-  display:grid;place-items:center;font-size:12px
+  min-width:22px;
+  height:22px;
+  padding:0 6px;
+  border-radius:999px;
+  background:var(--orange);
+  display:grid;
+  place-items:center;
+  font-size:12px;
 }
 
-.hero{padding:22px 0 16px}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(290px,.9fr);gap:18px}
-.hero-main,.hero-side{border-radius:28px;overflow:hidden;position:relative}
-.hero-main{
-  background:linear-gradient(135deg,#13552f 0%,#1a6b3a 45%,#2d9b57 100%);
-  color:#fff;padding:34px;min-height:340px;box-shadow:var(--shadow)
+.cat-strip{
+  padding:10px 0 12px;
 }
-.hero-main::before{
-  content:"";position:absolute;inset:0;
-  background:
-    radial-gradient(circle at 86% 20%, rgba(255,255,255,.16), transparent 18%),
-    radial-gradient(circle at 86% 78%, rgba(255,255,255,.08), transparent 20%);
+.cat-scroll{
+  display:flex;
+  gap:8px;
+  overflow:auto;
+  scrollbar-width:none;
 }
-.hero-copy{position:relative;z-index:1;max-width:620px}
-.hero-chip{
-  display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:8px 14px;
-  background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.18);font-size:13px
+.cat-scroll::-webkit-scrollbar{display:none}
+.cat-pill{
+  flex:0 0 auto;
+  border:1.5px solid var(--line);
+  background:var(--surface);
+  border-radius:999px;
+  padding:10px 14px;
+  font-size:13px;
+  font-weight:800;
 }
-.hero h1{font-size:clamp(32px,5vw,56px);line-height:1.08;margin:16px 0 12px}
-.hero p{max-width:560px;color:rgba(255,255,255,.9);font-size:15px;line-height:1.7}
-.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
-.primary-btn,.ghost-btn{
-  border-radius:999px;padding:14px 22px;font-weight:900
+.cat-pill.active{
+  background:var(--green);
+  border-color:var(--green);
+  color:#fff;
 }
-.primary-btn{background:var(--orange);color:#fff}
-.ghost-btn{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.2)}
-.hero-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:24px}
-.hero-points div{
-  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);
-  border-radius:18px;padding:12px 14px;font-size:13px
-}
-.hero-side{
-  background:linear-gradient(180deg,var(--surface),#fffaf5);
-  border:1px solid var(--line);padding:22px
-}
-.hero-side h2{font-size:23px;margin-bottom:8px}
-.hero-side p{color:var(--muted);font-size:14px;line-height:1.6}
-.side-list{display:grid;gap:12px;margin-top:16px}
-.side-item{
-  display:flex;gap:12px;align-items:flex-start;background:var(--surface);
-  border:1px solid var(--line);border-radius:18px;padding:14px
-}
-.side-icon{
-  width:44px;height:44px;border-radius:14px;background:var(--green-soft);
-  display:grid;place-items:center;font-size:22px;flex-shrink:0
-}
-.side-item strong{display:block;margin-bottom:4px}
-.side-item span{display:block;color:var(--muted);font-size:13px}
 
-.quick-help{
-  display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin:18px 0 6px
+.hero{
+  padding:6px 0 14px;
 }
-.help-card{
-  background:var(--surface);border:1px solid var(--line);border-radius:22px;
-  padding:18px;box-shadow:var(--shadow-soft)
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.45fr) minmax(0,.95fr);
+  gap:14px;
 }
-.help-card strong{display:block;margin-bottom:6px}
-.help-card p{color:var(--muted);font-size:13px;line-height:1.6}
+.hero-banner{
+  background:linear-gradient(135deg,#4e8448 0%,#5a9446 28%,#89ba55 60%,#e8ec9d 100%);
+  border-radius:28px;
+  overflow:hidden;
+  position:relative;
+  min-height:300px;
+  box-shadow:var(--shadow);
+}
+.hero-banner::after{
+  content:"🥛 🍌 🍅 🥚 🥬";
+  position:absolute;
+  right:26px;
+  bottom:18px;
+  font-size:70px;
+  letter-spacing:10px;
+  opacity:.18;
+}
+.hero-copy{
+  position:relative;
+  z-index:1;
+  color:#fff;
+  padding:34px;
+  max-width:560px;
+}
+.hero-copy h1{
+  font-size:clamp(34px,5vw,56px);
+  line-height:1.05;
+}
+.hero-copy p{
+  margin-top:14px;
+  max-width:480px;
+  font-size:16px;
+  line-height:1.65;
+  color:rgba(255,255,255,.92);
+}
+.hero-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:24px;
+}
+.hero-actions button{
+  border-radius:14px;
+  padding:13px 20px;
+  font-weight:900;
+}
+.hero-primary{
+  background:#fff;
+  color:var(--ink);
+}
+.hero-secondary{
+  border:1px solid rgba(255,255,255,.24);
+  color:#fff;
+  background:rgba(255,255,255,.12);
+}
+.side-promos{
+  display:grid;
+  gap:14px;
+}
+.promo-card{
+  min-height:143px;
+  border-radius:24px;
+  padding:22px 20px;
+  overflow:hidden;
+  position:relative;
+  box-shadow:var(--shadow-soft);
+}
+.promo-card h3{
+  font-size:28px;
+  line-height:1.05;
+  max-width:220px;
+}
+.promo-card p{
+  margin-top:8px;
+  max-width:220px;
+  font-size:14px;
+  line-height:1.55;
+}
+.promo-card button{
+  margin-top:18px;
+  border-radius:12px;
+  padding:10px 16px;
+  font-weight:900;
+  background:rgba(0,0,0,.72);
+  color:#fff;
+}
+.promo-card .promo-art{
+  position:absolute;
+  right:16px;
+  bottom:8px;
+  font-size:68px;
+  opacity:.16;
+}
+.promo-pharmacy{background:linear-gradient(135deg,#58cfd1,#70ddd7);color:#fff}
+.promo-restaurant{background:linear-gradient(135deg,#ffd34e,#ffc62c);color:#2a2414}
 
-.section{padding:14px 0}
+.section{
+  padding:14px 0;
+}
 .section-head{
-  display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:14px
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  gap:12px;
+  margin-bottom:14px;
 }
-.section-head h2{font-size:24px}
-.section-head p{color:var(--muted);font-size:14px}
-.meta{color:var(--green);font-weight:800;font-size:14px}
-
-.rail{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-.rail-card{
-  background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:18px;
-  box-shadow:var(--shadow-soft)
+.section-head h2{
+  font-size:24px;
 }
-.rail-card h3{font-size:18px;margin-bottom:6px}
-.rail-card p{font-size:13px;color:var(--muted);line-height:1.6}
-.mini-list{display:grid;gap:10px;margin-top:14px}
-.mini-item{
-  display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:center;
-  background:var(--surface-2);border:1px solid var(--line);border-radius:18px;padding:10px 12px
+.section-head p{
+  font-size:14px;
+  color:var(--muted);
 }
-.mini-media{
-  width:56px;height:56px;border-radius:14px;background:var(--surface);
-  overflow:hidden;display:grid;place-items:center;font-size:28px
-}
-.mini-media img{width:100%;height:100%;object-fit:cover}
-.mini-item h4{font-size:14px;margin-bottom:2px}
-.mini-item p{font-size:12px;color:var(--muted)}
-.mini-item strong{font-size:15px;color:var(--green)}
-.mini-item button{
-  border-radius:999px;background:var(--green);color:#fff;padding:10px 14px;font-weight:800
+.meta{
+  color:var(--green);
+  font-weight:800;
+  font-size:14px;
 }
 
-.category-nav{
-  display:flex;gap:10px;overflow:auto;scrollbar-width:none;padding-bottom:4px
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
 }
-.category-nav::-webkit-scrollbar{display:none}
-.cat-btn{
-  flex:0 0 auto;border:1.5px solid var(--line);background:var(--surface);
-  color:var(--ink);border-radius:999px;padding:11px 16px;font-size:14px;font-weight:800
+.service-card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:18px 16px;
+  box-shadow:var(--shadow-soft);
 }
-.cat-btn.active{background:var(--green);border-color:var(--green);color:#fff}
+.service-icon{
+  width:52px;
+  height:52px;
+  border-radius:16px;
+  display:grid;
+  place-items:center;
+  font-size:24px;
+  background:var(--green-soft);
+  margin-bottom:12px;
+}
+.service-card strong{
+  display:block;
+  font-size:16px;
+}
+.service-card span{
+  display:block;
+  margin-top:6px;
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.55;
+}
+
+.category-grid{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:14px;
+}
+.category-card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:16px 14px;
+  text-align:center;
+  box-shadow:var(--shadow-soft);
+}
+.category-card .icon{
+  width:58px;
+  height:58px;
+  margin:0 auto 10px;
+  border-radius:18px;
+  display:grid;
+  place-items:center;
+  font-size:28px;
+  background:var(--surface-2);
+}
+.category-card strong{
+  display:block;
+  font-size:14px;
+}
+.category-card span{
+  display:block;
+  margin-top:4px;
+  color:var(--muted);
+  font-size:12px;
+}
 
 .status-bar{
-  margin-top:14px;border-radius:18px;padding:12px 16px;font-size:14px;font-weight:700
+  border-radius:18px;
+  padding:12px 16px;
+  font-size:14px;
+  font-weight:700;
+  margin-top:14px;
 }
-.status-bar.loading{background:#fff7dd;color:#8b6100;border:1px solid #f3cb68}
-.status-bar.ok{background:var(--green-soft);color:var(--green);border:1px solid rgba(26,107,58,.2)}
-.status-bar.error{background:#fff1ef;color:#bf470d;border:1px solid rgba(244,117,42,.25)}
+.status-bar.loading{background:#fff8e0;border:1px solid #efcb6e;color:#8f6200}
+.status-bar.ok{background:var(--green-soft);border:1px solid rgba(26,107,58,.18);color:var(--green)}
+.status-bar.error{background:#fff1ef;border:1px solid rgba(244,117,42,.24);color:#bf470d}
 
-.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:14px;
+}
 .product-card{
-  background:var(--surface);border:1px solid var(--line);border-radius:24px;overflow:hidden;
-  box-shadow:var(--shadow-soft);transition:.2s ease
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:var(--shadow-soft);
 }
-.product-card:hover{transform:translateY(-4px)}
 .product-top{
-  position:relative;height:180px;background:linear-gradient(135deg,#f7f2e8,#eee4d1)
+  position:relative;
+  height:168px;
+  background:linear-gradient(135deg,#f7f1e5,#ece2cc);
 }
-.product-photo{width:100%;height:100%;object-fit:cover}
-.product-emoji{width:100%;height:100%;display:grid;place-items:center;font-size:72px}
+.product-photo{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.product-emoji{
+  width:100%;
+  height:100%;
+  display:grid;
+  place-items:center;
+  font-size:66px;
+}
 .badge-row{
-  position:absolute;top:12px;left:12px;right:12px;display:flex;justify-content:space-between;gap:8px
+  position:absolute;
+  top:10px;
+  left:10px;
+  right:10px;
+  display:flex;
+  justify-content:space-between;
+  gap:8px;
 }
 .badge,.stock-chip{
-  border-radius:999px;padding:5px 10px;font-size:11px;font-weight:900
+  border-radius:999px;
+  padding:5px 9px;
+  font-size:11px;
+  font-weight:900;
 }
-.badge{background:var(--orange);color:#fff;text-transform:capitalize}
+.badge{
+  background:var(--orange);
+  color:#fff;
+  text-transform:capitalize;
+}
 .badge.green{background:var(--green)}
-.stock-chip{background:rgba(255,255,255,.9);color:var(--ink)}
+.stock-chip{
+  background:rgba(255,255,255,.92);
+}
 .stock-in{color:var(--green)}
-.stock-low{color:#bb6b10}
+.stock-low{color:#b06d12}
 .stock-out{color:#bf470d}
-.product-body{padding:16px}
-.product-cat{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
-.product-name{margin-top:6px;font-size:17px;font-weight:900;line-height:1.35;min-height:46px}
-.product-unit{font-size:13px;color:var(--muted);margin-top:4px}
-.product-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;margin-top:14px}
-.price-wrap .old{font-size:12px;color:var(--muted);text-decoration:line-through}
-.price-wrap .new{font-size:24px;font-weight:900;color:var(--green);line-height:1}
-.price-wrap .new span{display:block;font-size:12px;color:var(--muted);font-weight:700;margin-top:4px}
+.product-body{
+  padding:14px;
+}
+.product-cat{
+  color:var(--muted);
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-weight:800;
+}
+.product-name{
+  margin-top:6px;
+  font-size:16px;
+  font-weight:900;
+  line-height:1.35;
+  min-height:44px;
+}
+.product-unit{
+  margin-top:4px;
+  color:var(--muted);
+  font-size:12px;
+}
+.product-bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  gap:10px;
+  margin-top:12px;
+}
+.price-wrap .old{
+  font-size:12px;
+  color:var(--muted);
+  text-decoration:line-through;
+}
+.price-wrap .new{
+  font-size:22px;
+  color:var(--green);
+  font-weight:900;
+  line-height:1;
+}
+.price-wrap .new span{
+  display:block;
+  margin-top:4px;
+  font-size:12px;
+  color:var(--muted);
+  font-weight:700;
+}
 .add-btn{
-  width:42px;height:42px;border-radius:50%;background:var(--green);color:#fff;font-size:24px
+  width:40px;
+  height:40px;
+  border-radius:14px;
+  background:var(--green);
+  color:#fff;
+  font-size:24px;
 }
-.qty-control{display:flex;align-items:center;gap:8px}
+.qty-control{
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
 .qty-control button{
-  width:34px;height:34px;border-radius:50%;background:var(--green-soft);color:var(--green);
-  font-size:18px;font-weight:900
+  width:30px;
+  height:30px;
+  border-radius:10px;
+  background:var(--green-soft);
+  color:var(--green);
+  font-size:18px;
+  font-weight:900;
 }
-.qty-control span{min-width:22px;text-align:center;font-weight:900}
+.qty-control span{
+  min-width:22px;
+  text-align:center;
+  font-weight:900;
+}
 
-.track-wrap,.insight-wrap{
-  display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.8fr);gap:16px
+.cart-overlay,.nav-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(10,18,12,.45);
+  backdrop-filter:blur(3px);
+  opacity:0;
+  visibility:hidden;
+  transition:.2s ease;
 }
-.track-card,.insight-card{
-  background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:22px;box-shadow:var(--shadow-soft)
+.cart-overlay{z-index:80}
+.nav-overlay{z-index:70}
+.cart-overlay.open,.nav-overlay.open{
+  opacity:1;
+  visibility:visible;
 }
-.track-form{display:flex;gap:10px;margin-top:16px}
-.track-form input{
-  flex:1;border:2px solid var(--line);background:var(--surface-2);border-radius:16px;padding:13px 14px;outline:none
+.sidebar{
+  position:fixed;
+  top:0;
+  left:0;
+  width:320px;
+  max-width:92vw;
+  height:100dvh;
+  background:var(--surface);
+  z-index:75;
+  transform:translateX(-100%);
+  transition:.24s ease;
+  box-shadow:18px 0 38px rgba(18,31,20,.14);
+  display:flex;
+  flex-direction:column;
 }
-.track-form input:focus{border-color:var(--green);box-shadow:0 0 0 4px rgba(26,107,58,.08)}
-.track-form button{
-  border-radius:16px;background:var(--green);color:#fff;padding:13px 18px;font-weight:900;white-space:nowrap
+.sidebar.open{transform:translateX(0)}
+.sidebar-head{
+  padding:22px 20px 16px;
+  background:linear-gradient(135deg,#1d6a39,#2f9a58);
+  color:#fff;
 }
-.order-list{display:grid;gap:12px;margin-top:16px}
-.order-card{
-  border:1px solid var(--line);border-radius:20px;background:var(--surface-2);padding:14px
+.sidebar-head strong{
+  display:block;
+  font-size:24px;
 }
-.order-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
-.order-top strong{display:block;font-size:16px}
-.order-top span{display:block;color:var(--muted);font-size:12px;margin-top:2px}
-.order-status{
-  border-radius:999px;padding:6px 10px;font-size:11px;font-weight:900;background:var(--green-soft);color:var(--green)
+.sidebar-head span{
+  display:block;
+  margin-top:6px;
+  font-size:13px;
+  color:rgba(255,255,255,.82);
 }
-.order-items{margin-top:10px;font-size:13px;color:var(--muted);line-height:1.7}
-.insight-grid{display:grid;gap:12px}
-.insight-box{
-  border-radius:20px;background:linear-gradient(135deg,var(--orange-soft),#fff7f1);border:1px solid #f7dcc8;padding:16px
+.sidebar-body{
+  flex:1;
+  overflow:auto;
+  padding:14px 12px 18px;
 }
-.insight-box strong{display:block;margin-bottom:6px}
-.insight-box p{font-size:13px;color:#8e592d;line-height:1.6}
+.side-title{
+  padding:8px 10px;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+.side-link{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  width:100%;
+  text-align:left;
+  padding:12px 12px;
+  border-radius:16px;
+}
+.side-link:hover,.side-link.active{
+  background:var(--green-soft);
+}
+.side-link .icon{
+  width:36px;
+  height:36px;
+  border-radius:12px;
+  display:grid;
+  place-items:center;
+  background:var(--surface-2);
+  font-size:18px;
+  flex-shrink:0;
+}
+.side-link strong{
+  display:block;
+  font-size:14px;
+}
+.side-link span{
+  display:block;
+  margin-top:2px;
+  color:var(--muted);
+  font-size:12px;
+}
+.sidebar-foot{
+  padding:14px 16px 20px;
+  border-top:1px solid var(--line);
+  display:grid;
+  gap:8px;
+}
+.sidebar-foot a{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:12px 14px;
+  border-radius:14px;
+  background:var(--surface-2);
+  font-weight:800;
+}
 
-.cart-overlay{
-  position:fixed;inset:0;background:rgba(10,18,12,.45);backdrop-filter:blur(3px);z-index:80;
-  opacity:0;visibility:hidden;transition:.2s ease
-}
-.cart-overlay.open{opacity:1;visibility:visible}
 .cart-panel{
-  position:fixed;top:0;right:0;width:min(500px,100vw);height:100dvh;background:var(--surface);z-index:90;
-  transform:translateX(100%);transition:.26s ease;display:flex;flex-direction:column;box-shadow:-12px 0 40px rgba(13,33,19,.14)
+  position:fixed;
+  top:0;
+  right:0;
+  width:min(470px,100vw);
+  height:100dvh;
+  background:var(--surface);
+  z-index:90;
+  transform:translateX(100%);
+  transition:.26s ease;
+  box-shadow:-12px 0 40px rgba(18,31,20,.14);
+  display:flex;
+  flex-direction:column;
 }
 .cart-panel.open{transform:translateX(0)}
-.cart-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 20px;border-bottom:1px solid var(--line)}
-.cart-head h3{font-size:24px}
-.icon-btn{width:40px;height:40px;border-radius:50%;background:var(--surface-2)}
-.cart-tabs{display:grid;grid-template-columns:1fr 1fr;padding:8px;gap:8px;border-bottom:1px solid var(--line)}
-.cart-tab{padding:11px 14px;border-radius:999px;font-weight:900;color:var(--muted)}
-.cart-tab.active{background:var(--green);color:#fff}
-.cart-content{flex:1;overflow:auto;min-height:0}
-.cart-view{display:none;padding:18px 20px}
+.cart-head{
+  padding:18px 20px 16px;
+  border-bottom:1px solid var(--line);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+}
+.cart-head h3{
+  font-size:24px;
+}
+.icon-btn{
+  width:38px;
+  height:38px;
+  border-radius:12px;
+  background:var(--surface-2);
+}
+.cart-tabs{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+  padding:8px;
+  border-bottom:1px solid var(--line);
+}
+.cart-tab{
+  border-radius:999px;
+  padding:11px 14px;
+  font-weight:900;
+  color:var(--muted);
+}
+.cart-tab.active{
+  background:var(--green);
+  color:#fff;
+}
+.cart-content{
+  flex:1;
+  min-height:0;
+  overflow:auto;
+}
+.cart-view{
+  display:none;
+  padding:18px 20px;
+}
 .cart-view.active{display:block}
-.empty-cart{min-height:260px;display:grid;place-items:center;text-align:center;color:var(--muted)}
-.empty-cart strong{display:block;color:var(--ink);margin-bottom:6px}
-.cart-items{display:grid;gap:14px}
+.empty-cart{
+  min-height:250px;
+  display:grid;
+  place-items:center;
+  text-align:center;
+  color:var(--muted);
+}
+.empty-cart strong{
+  display:block;
+  color:var(--ink);
+  margin-bottom:6px;
+}
+.cart-items{
+  display:grid;
+  gap:12px;
+}
 .cart-item{
-  display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;
-  padding:14px;border-radius:20px;background:var(--surface-2);border:1px solid var(--line)
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  gap:12px;
+  align-items:center;
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:var(--surface-2);
 }
 .cart-item-media{
-  width:48px;height:48px;border-radius:14px;background:var(--surface);overflow:hidden;display:grid;place-items:center;font-size:28px
+  width:46px;
+  height:46px;
+  border-radius:14px;
+  background:var(--surface);
+  overflow:hidden;
+  display:grid;
+  place-items:center;
+  font-size:26px;
 }
-.cart-item-media img{width:100%;height:100%;object-fit:cover}
-.cart-item h4{font-size:15px;margin-bottom:3px}
-.cart-item p{font-size:12px;color:var(--muted)}
-.cart-item strong{display:block;color:var(--green);margin-top:4px;font-size:15px}
-.form-grid{display:grid;gap:14px}
-.field label{display:block;margin-bottom:6px;font-size:13px;font-weight:900}
+.cart-item-media img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.cart-item h4{
+  font-size:15px;
+}
+.cart-item p{
+  margin-top:3px;
+  color:var(--muted);
+  font-size:12px;
+}
+.cart-item strong{
+  display:block;
+  margin-top:4px;
+  color:var(--green);
+  font-size:15px;
+}
+.form-grid{
+  display:grid;
+  gap:14px;
+}
+.field label{
+  display:block;
+  margin-bottom:6px;
+  font-size:13px;
+  font-weight:900;
+}
 .field input,.field textarea,.field select{
-  width:100%;border:2px solid var(--line);background:var(--surface-2);border-radius:16px;padding:13px 14px;outline:none
+  width:100%;
+  border:1.5px solid var(--line);
+  background:var(--surface-2);
+  border-radius:16px;
+  padding:13px 14px;
+  outline:none;
 }
 .field input:focus,.field textarea:focus,.field select:focus{
-  border-color:var(--green);box-shadow:0 0 0 4px rgba(26,107,58,.08);background:var(--surface)
+  border-color:var(--green);
+  box-shadow:0 0 0 4px rgba(26,107,58,.08);
+  background:var(--surface);
 }
-.field textarea{resize:vertical;min-height:88px}
-.two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.save-row{display:flex;gap:8px;flex-wrap:wrap}
+.field textarea{
+  resize:vertical;
+  min-height:86px;
+}
+.two-col{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+.save-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
 .save-tag{
-  border-radius:999px;padding:8px 12px;background:var(--green-soft);color:var(--green);font-size:12px;font-weight:800
+  padding:8px 12px;
+  border-radius:999px;
+  background:var(--green-soft);
+  color:var(--green);
+  font-size:12px;
+  font-weight:900;
 }
 .cart-footer{
-  border-top:1px solid var(--line);padding:18px 20px calc(18px + env(safe-area-inset-bottom));background:var(--surface)
+  padding:18px 20px calc(18px + env(safe-area-inset-bottom));
+  border-top:1px solid var(--line);
+  background:var(--surface);
 }
-.summary-row{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:14px;margin-bottom:8px}
-.summary-row.total{color:var(--ink);font-size:20px;font-weight:900;padding-top:12px;border-top:1px solid var(--line)}
+.summary-row{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  font-size:14px;
+  color:var(--muted);
+  margin-bottom:8px;
+}
+.summary-row.total{
+  padding-top:12px;
+  border-top:1px solid var(--line);
+  color:var(--ink);
+  font-size:20px;
+  font-weight:900;
+}
 .delivery-note{
-  display:flex;gap:8px;align-items:flex-start;border-radius:16px;background:var(--orange-soft);
-  color:#a85a15;padding:12px 14px;margin:12px 0 8px;font-size:13px
+  display:flex;
+  gap:8px;
+  align-items:flex-start;
+  border-radius:16px;
+  background:#fff2dd;
+  color:#a4600d;
+  padding:12px 14px;
+  margin:12px 0 8px;
+  font-size:13px;
 }
-.action-btn{width:100%;padding:15px 18px;border-radius:999px;font-weight:900;margin-top:8px}
+.action-btn{
+  width:100%;
+  padding:14px 18px;
+  border-radius:16px;
+  font-weight:900;
+  margin-top:8px;
+}
 .action-btn.primary{background:var(--green);color:#fff}
 .action-btn.secondary{background:var(--orange);color:#fff}
-.action-btn.ghost{border:2px solid var(--green);color:var(--green)}
-.action-btn:disabled{opacity:.5;cursor:not-allowed}
+.action-btn.ghost{border:1.5px solid var(--green);color:var(--green)}
+.action-btn:disabled{opacity:.55;cursor:not-allowed}
 
 .mobile-cart-bar{
-  position:fixed;left:14px;right:14px;bottom:14px;z-index:55;display:none;
-  justify-content:space-between;align-items:center;gap:12px;background:var(--green);color:#fff;
-  border-radius:20px;padding:14px 16px;box-shadow:0 18px 30px rgba(26,107,58,.28)
+  position:fixed;
+  left:14px;
+  right:14px;
+  bottom:14px;
+  z-index:55;
+  display:none;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  background:var(--green);
+  color:#fff;
+  border-radius:18px;
+  padding:14px 16px;
+  box-shadow:0 18px 32px rgba(26,107,58,.28);
 }
 .mobile-cart-bar.show{display:none}
-.mobile-cart-bar small{display:block;opacity:.8;font-size:11px}
-.mobile-cart-bar strong{display:block;font-size:18px}
-.mobile-cart-bar button{background:#fff;color:var(--green);border-radius:999px;padding:12px 16px;font-weight:900}
+.mobile-cart-bar small{
+  display:block;
+  opacity:.82;
+  font-size:11px;
+}
+.mobile-cart-bar strong{
+  display:block;
+  font-size:18px;
+}
+.mobile-cart-bar button{
+  background:#fff;
+  color:var(--green);
+  border-radius:14px;
+  padding:11px 14px;
+  font-weight:900;
+}
 
 .modal{
-  position:fixed;inset:0;display:none;place-items:center;padding:18px;background:rgba(10,18,12,.45);z-index:100
+  position:fixed;
+  inset:0;
+  z-index:100;
+  display:none;
+  place-items:center;
+  padding:18px;
+  background:rgba(10,18,12,.45);
 }
 .modal.open{display:grid}
 .modal-card{
-  width:min(440px,100%);background:var(--surface);border-radius:28px;padding:28px;text-align:center;box-shadow:var(--shadow)
+  width:min(420px,100%);
+  background:var(--surface);
+  border-radius:28px;
+  padding:28px;
+  text-align:center;
+  box-shadow:var(--shadow);
 }
-.modal-card h3{font-size:26px;margin:10px 0 8px}
-.modal-card p{color:var(--muted);line-height:1.7}
+.modal-card h3{
+  font-size:26px;
+  margin:10px 0 8px;
+}
+.modal-card p{
+  color:var(--muted);
+  line-height:1.7;
+}
 .order-id{
-  display:inline-block;margin:14px 0;border-radius:999px;background:var(--green-soft);color:var(--green);
-  padding:10px 16px;font-weight:900
+  display:inline-block;
+  margin:14px 0;
+  padding:10px 16px;
+  border-radius:999px;
+  background:var(--green-soft);
+  color:var(--green);
+  font-weight:900;
 }
 .toast{
-  position:fixed;left:50%;bottom:24px;transform:translate(-50%,80px);background:var(--ink);color:#fff;
-  border-radius:999px;padding:12px 18px;z-index:120;opacity:0;transition:.25s ease;
-  max-width:min(92vw,520px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis
+  position:fixed;
+  left:50%;
+  bottom:22px;
+  transform:translate(-50%,80px);
+  background:var(--ink);
+  color:#fff;
+  border-radius:999px;
+  padding:12px 18px;
+  z-index:120;
+  opacity:0;
+  transition:.24s ease;
+  max-width:min(92vw,520px);
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
-.toast.show{transform:translate(-50%,0);opacity:1}
-.spin{display:inline-block;width:16px;height:16px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite}
+.toast.show{
+  transform:translate(-50%,0);
+  opacity:1;
+}
+.spin{
+  display:inline-block;
+  width:16px;
+  height:16px;
+  border:2px solid rgba(255,255,255,.3);
+  border-top-color:#fff;
+  border-radius:50%;
+  animation:spin .7s linear infinite;
+}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-.footer-card{
-  margin:18px 0 36px;background:#14341f;color:#fff;border-radius:28px;padding:28px;
-  display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:20px
+@media (max-width:1180px){
+  .hero-grid,.service-grid{grid-template-columns:1fr 1fr}
+  .category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .hero-banner{min-height:280px}
 }
-.footer-card h4{font-size:16px;margin-bottom:10px}
-.footer-card p{color:rgba(255,255,255,.74);font-size:14px;line-height:1.7}
-.footer-card ul{list-style:none;display:grid;gap:8px;font-size:14px;color:rgba(255,255,255,.82)}
-
-@media (max-width:1080px){
-  .hero-grid,.track-wrap,.insight-wrap,.footer-card,.quick-help{grid-template-columns:1fr}
-  .hero-points{grid-template-columns:1fr}
-}
-@media (max-width:860px){
-  .header-row{grid-template-columns:1fr}
+@media (max-width:980px){
+  .header-row,.search-wrap{grid-template-columns:1fr}
   .header-actions{justify-content:flex-start}
+  .hero-grid{grid-template-columns:1fr}
+  .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:640px){
   .shell{padding:0 14px}
-  .hero-main,.hero-side,.track-card,.insight-card,.modal-card,.footer-card{padding:20px}
-  .topbar-row,.section-head{align-items:flex-start}
-  .section-head{flex-direction:column}
-  .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-  .product-top{height:150px}
-  .product-name{font-size:15px;min-height:40px}
-  .price-wrap .new{font-size:20px}
+  .topbar-row,.section-head{
+    align-items:flex-start;
+  }
+  .section-head{
+    flex-direction:column;
+  }
+  .brand-mark{
+    width:42px;
+    height:42px;
+    border-radius:14px;
+    font-size:21px;
+  }
+  .menu-btn{
+    width:38px;
+    height:38px;
+    border-radius:12px;
+    font-size:16px;
+  }
+  .brand-copy strong{font-size:18px}
+  .brand-copy span{font-size:11px}
+  .delivery-card{
+    min-width:0;
+    padding:10px 12px;
+  }
+  .delivery-card strong{font-size:14px}
+  .search input{
+    padding:13px 46px 13px 14px;
+    border-radius:16px;
+  }
+  .search button{
+    width:36px;
+    height:36px;
+    border-radius:10px;
+  }
+  .header-chip{
+    padding:10px 12px;
+    font-size:13px;
+  }
+  .header-actions{
+    gap:8px;
+  }
+  .cart-btn{
+    display:none;
+  }
+  .hero-copy{
+    padding:22px;
+  }
+  .hero-copy h1{
+    font-size:34px;
+    line-height:1.12;
+  }
+  .hero-copy p{
+    font-size:14px;
+  }
+  .hero-actions button{
+    width:100%;
+    text-align:center;
+  }
+  .promo-card{
+    min-height:132px;
+    padding:18px 18px;
+  }
+  .promo-card h3{
+    font-size:24px;
+    max-width:180px;
+  }
+  .promo-card .promo-art{
+    font-size:52px;
+    right:10px;
+    bottom:6px;
+  }
+  .service-grid{
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+  }
+  .service-card{
+    padding:14px;
+    border-radius:20px;
+  }
+  .service-icon{
+    width:42px;
+    height:42px;
+    border-radius:14px;
+    font-size:20px;
+    margin-bottom:10px;
+  }
+  .service-card strong{
+    font-size:14px;
+  }
+  .service-card span{
+    font-size:12px;
+  }
+  .category-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:10px;
+  }
+  .category-card{
+    padding:14px 12px;
+    border-radius:20px;
+  }
+  .category-card .icon{
+    width:46px;
+    height:46px;
+    border-radius:14px;
+    font-size:22px;
+    margin-bottom:8px;
+  }
+  .category-card strong{
+    font-size:13px;
+  }
+  .category-card span{
+    font-size:11px;
+  }
+  .product-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:10px;
+  }
+  .product-top{
+    height:140px;
+  }
+  .product-emoji{
+    font-size:52px;
+  }
+  .badge,.stock-chip{
+    font-size:10px;
+    padding:4px 8px;
+  }
+  .product-body{
+    padding:12px;
+  }
+  .product-name{
+    font-size:14px;
+    min-height:38px;
+  }
+  .product-unit{
+    font-size:11px;
+  }
+  .price-wrap .new{
+    font-size:18px;
+  }
+  .add-btn{
+    width:34px;
+    height:34px;
+    border-radius:12px;
+    font-size:20px;
+  }
+  .qty-control button{
+    width:26px;
+    height:26px;
+    border-radius:8px;
+    font-size:15px;
+  }
+  .qty-control span{
+    min-width:18px;
+    font-size:13px;
+  }
   .cart-panel{
-    width:100vw;border-radius:24px 24px 0 0;top:auto;bottom:0;height:min(92dvh,780px);transform:translateY(100%)
+    width:100vw;
+    top:auto;
+    bottom:0;
+    height:min(92dvh,780px);
+    transform:translateY(100%);
+    border-radius:24px 24px 0 0;
   }
   .cart-panel.open{transform:translateY(0)}
-  .two-col,.track-form{grid-template-columns:1fr;display:grid}
-  .track-form button{width:100%}
-  .cart-btn{display:none}
+  .two-col{
+    grid-template-columns:1fr;
+  }
   .mobile-cart-bar.show{display:flex}
 }
 </style>
@@ -412,7 +1181,7 @@ img{display:block;max-width:100%}
 <body class="bn">
 <div class="topbar">
   <div class="shell topbar-row">
-    <div data-t="topbarNote">ঢাকার জন্য দ্রুত ডেলিভারি · বাংলা ফার্স্ট · মোবাইল ফার্স্ট শপিং</div>
+    <div data-t="topbarNote">ঢাকার জন্য দ্রুত ডেলিভারি · বাংলা ফার্স্ট · মোবাইল স্টেবল ডিজাইন</div>
     <div class="lang-switch">
       <button id="btnBn" class="active" onclick="setLang('bn')">বাংলা</button>
       <button id="btnEn" onclick="setLang('en')">English</button>
@@ -422,187 +1191,149 @@ img{display:block;max-width:100%}
 
 <header class="header">
   <div class="shell header-row">
-    <a class="brand" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
-      <div class="brand-mark">🛒</div>
-      <div class="brand-copy">
-        <strong>Amrar Bazar</strong>
-        <span data-t="brandSub">আমরার বাজার · daily essentials delivered</span>
+    <div class="left-cluster">
+      <button class="menu-btn" onclick="openSidebar()" aria-label="Open menu">☰</button>
+      <a class="brand" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
+        <div class="brand-mark">ab</div>
+        <div class="brand-copy">
+          <strong>Amrar Bazar</strong>
+          <span data-t="brandSub">আমরার বাজার · grocery, pharmacy, restaurant</span>
+        </div>
+      </a>
+    </div>
+    <div class="search-wrap">
+      <div class="delivery-card">
+        <strong data-t="deliveryFast">৪৫ মিনিটে ডেলিভারি</strong>
+        <span data-t="deliveryLocation">ঢাকা সিটি · আপনার ঠিকানায় দ্রুত পাঠানো হবে</span>
       </div>
-    </a>
-    <div class="search">
-      <input id="searchInput" type="text" placeholder="পণ্য খুঁজুন..." oninput="filterProducts()">
-      <button aria-label="Search">🔍</button>
+      <div class="search">
+        <input id="searchInput" type="text" placeholder="পণ্য খুঁজুন..." oninput="filterProducts()">
+        <button aria-label="Search">🔍</button>
+      </div>
     </div>
     <div class="header-actions">
-      <a class="help-btn" id="callBtn" href="#">📞 <span data-t="callNow">কল করুন</span></a>
-      <a class="help-btn" id="waBtn" href="#" target="_blank" rel="noreferrer">💬 WhatsApp</a>
-      <button class="soft-btn" onclick="loadSheet()"><span data-t="syncBtn">দাম আপডেট</span></button>
+      <a class="header-chip" id="callBtn" href="#">📞 <span data-t="callBtn">কল</span></a>
+      <a class="header-chip" id="waBtn" href="#" target="_blank" rel="noreferrer">💬 WhatsApp</a>
+      <button class="header-chip" onclick="loadSheet()">🔄 <span data-t="syncBtn">আপডেট</span></button>
       <button class="cart-btn" onclick="openCart()">🛒 <span data-t="cartBtn">কার্ট</span> <span class="cart-count" id="cartCount">0</span></button>
     </div>
   </div>
+  <div class="shell cat-strip">
+    <div class="cat-scroll" id="catNav"></div>
+  </div>
 </header>
+
+<div class="nav-overlay" id="navOverlay" onclick="closeSidebar()"></div>
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-head">
+    <strong>Amrar Bazar</strong>
+    <span data-t="sidebarSub">বাংলা ফার্স্ট, মোবাইল-ফার্স্ট দৈনন্দিন বাজার</span>
+  </div>
+  <div class="sidebar-body" id="sidebarBody">
+    <div class="side-title" data-t="sideMain">Main Menu</div>
+    <button class="side-link active" onclick="scrollToSection('shopArea');closeSidebar()">
+      <span class="icon">🏪</span>
+      <span><strong data-t="menuShop">শপ</strong><span data-t="menuShopSub">সব পণ্য, category, deals</span></span>
+    </button>
+    <button class="side-link" onclick="scrollToSection('serviceArea');closeSidebar()">
+      <span class="icon">⚡</span>
+      <span><strong data-t="menuServices">সার্ভিস</strong><span data-t="menuServicesSub">grocery, pharmacy, restaurant</span></span>
+    </button>
+    <button class="side-link" onclick="openCart();closeSidebar()">
+      <span class="icon">🧺</span>
+      <span><strong data-t="menuCart">কার্ট</strong><span data-t="menuCartSub">Chaldal-style cart drawer</span></span>
+    </button>
+    <div class="side-title" data-t="sideCategories">Categories</div>
+    <div id="sidebarCats"></div>
+  </div>
+  <div class="sidebar-foot">
+    <a id="sideCallBtn" href="#">📞 <span data-t="menuCall">এখন কল করুন</span></a>
+    <a id="sideWaBtn" href="#" target="_blank" rel="noreferrer">💬 <span data-t="menuWhatsApp">WhatsApp সাহায্য</span></a>
+  </div>
+</aside>
 
 <main>
   <section class="hero">
     <div class="shell hero-grid">
-      <div class="hero-main">
+      <div class="hero-banner">
         <div class="hero-copy">
-          <div class="hero-chip">⚡ <span data-t="heroChip">৪৫ মিনিটের এক্সপ্রেস ডেলিভারি</span></div>
-          <h1 data-t="heroTitle">দৈনন্দিন বাজার,<br>এখন আরও সহজ</h1>
-          <p data-t="heroText">Bangla first, mobile first, sheet-driven daily shopping experience। টপ-সেলিং পণ্য, ডিল, স্টক স্ট্যাটাস, quick help, saved address আর order tracking এক জায়গায়।</p>
+          <h1 data-t="heroTitle">প্রতিদিনের বাজার,<br>আরও দ্রুত, আরও পরিষ্কার</h1>
+          <p data-t="heroText">Blinkit-inspired main shopping layout, Chaldal-inspired cart drawer, বাংলা ফার্স্ট content, এবং mobile-first clean interface যাতে আপনার অধিকাংশ phone users সহজে অর্ডার করতে পারে।</p>
           <div class="hero-actions">
-            <button class="primary-btn" onclick="scrollToSection('shopArea')" data-t="heroPrimary">এখনই কেনাকাটা</button>
-            <button class="ghost-btn" onclick="scrollToSection('trackArea')" data-t="heroSecondary">অর্ডার ট্র্যাক</button>
-          </div>
-          <div class="hero-points">
-            <div><strong data-t="heroP1T">Product photo ready</strong><br><span data-t="heroP1S">Sheet-এ image URL দিলে photo show হবে</span></div>
-            <div><strong data-t="heroP2T">Delivery slot</strong><br><span data-t="heroP2S">Checkout-এ area ও সময় বাছাই</span></div>
-            <div><strong data-t="heroP3T">Retention UX</strong><br><span data-t="heroP3S">Repeat last order ও saved address</span></div>
+            <button class="hero-primary" onclick="scrollToSection('shopArea')" data-t="heroPrimary">এখনই কেনাকাটা</button>
+            <button class="hero-secondary" onclick="openCart()" data-t="heroSecondary">কার্ট খুলুন</button>
           </div>
         </div>
       </div>
-      <aside class="hero-side">
-        <h2 data-t="sideTitle">World-class shopping flow</h2>
-        <p data-t="sideText">এই সেটআপে daily shopping websites-এর core UX pattern রাখা হয়েছে: merchandising rails, trust actions, cart drawer, delivery choice, stock feedback, এবং low-friction reorder flow।</p>
-        <div class="side-list">
-          <div class="side-item">
-            <div class="side-icon">🌿</div>
-            <div><strong data-t="side1T">Top-selling visibility</strong><span data-t="side1S">Popular today, best deals, and product-first merchandising</span></div>
-          </div>
-          <div class="side-item">
-            <div class="side-icon">📱</div>
-            <div><strong data-t="side2T">Mobile stability</strong><span data-t="side2S">Nothing should go outside the screen, with a bottom cart bar</span></div>
-          </div>
-          <div class="side-item">
-            <div class="side-icon">📦</div>
-            <div><strong data-t="side3T">Operational readiness</strong><span data-t="side3S">Google Sheets products, Apps Script orders, CSV order tracking support</span></div>
-          </div>
+      <div class="side-promos">
+        <div class="promo-card promo-pharmacy">
+          <h3 data-t="promoPharmacyTitle">Pharmacy at your doorstep</h3>
+          <p data-t="promoPharmacyText">ওষুধ, স্যানিটাইজার, health essentials দ্রুত অর্ডার করুন।</p>
+          <button onclick="filterCat('medicine')" data-t="promoBtn">Order now</button>
+          <div class="promo-art">💊</div>
         </div>
-      </aside>
+        <div class="promo-card promo-restaurant">
+          <h3 data-t="promoRestaurantTitle">Restaurant meals fast</h3>
+          <p data-t="promoRestaurantText">বিরিয়ানি, snacks, instant food আর daily add-ons একসাথে নিন।</p>
+          <button onclick="filterCat('snacks')" data-t="promoBtn">Order now</button>
+          <div class="promo-art">🍲</div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="shell">
-    <div class="quick-help">
-      <div class="help-card">
-        <strong data-t="help1T">Popular today</strong>
-        <p data-t="help1S">Fast-moving products that help users shop quickly without too much browsing.</p>
+  <section class="shell section" id="serviceArea">
+    <div class="section-head">
+      <div>
+        <h2 data-t="serviceTitle">Main shopping blocks</h2>
+        <p data-t="serviceText">Blinkit-এর মতো clean service entry points, daily shopping focus</p>
       </div>
-      <div class="help-card">
-        <strong data-t="help2T">Saved details</strong>
-        <p data-t="help2S">Returning users get saved address and repeat-order support to reduce friction.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="service-icon">🛍️</div>
+        <strong data-t="service1T">Daily grocery</strong>
+        <span data-t="service1S">সবজি, চাল, ডাল, তেল, ডেইরি, snacks</span>
       </div>
-      <div class="help-card">
-        <strong data-t="help3T">Quick trust actions</strong>
-        <p data-t="help3S">Header call and WhatsApp buttons increase confidence for real customers.</p>
+      <div class="service-card">
+        <div class="service-icon">💊</div>
+        <strong data-t="service2T">Pharmacy</strong>
+        <span data-t="service2S">daily medicine এবং health essentials</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🍽️</div>
+        <strong data-t="service3T">Restaurant add-ons</strong>
+        <span data-t="service3S">ready-to-eat, snacks, fast meal items</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🚚</div>
+        <strong data-t="service4T">Fast delivery</strong>
+        <span data-t="service4S">wide clean mobile flow and faster checkout</span>
       </div>
     </div>
   </section>
 
   <section class="shell section">
-    <div class="rail">
-      <div class="rail-card">
-        <h3 data-t="popularTitle">Popular today</h3>
-        <p data-t="popularText">High-demand daily essentials that users often buy first.</p>
-        <div class="mini-list" id="popularRail"></div>
+    <div class="section-head">
+      <div>
+        <h2 data-t="categoryTitle">Featured categories</h2>
+        <p data-t="categoryText">Main item, grocery, pharmacy, restaurant-like flow</p>
       </div>
-      <div class="rail-card">
-        <h3 data-t="dealTitle">Best deals</h3>
-        <p data-t="dealText">Discounted or promo-ready items that can increase conversion.</p>
-        <div class="mini-list" id="dealRail"></div>
-      </div>
-      <div class="rail-card">
-        <h3 data-t="repeatTitle">Repeat last order</h3>
-        <p data-t="repeatText">Perfect for daily shoppers who buy similar items again and again.</p>
-        <div class="mini-list" id="repeatRail"></div>
-      </div>
+      <div class="meta" id="resultMeta">0 items</div>
     </div>
+    <div class="category-grid" id="categoryGrid"></div>
+    <div class="status-bar loading" id="statusBar">⏳ <span id="statusMsg">Google Sheet থেকে পণ্য লোড হচ্ছে...</span></div>
   </section>
 
   <section class="shell section" id="shopArea">
     <div class="section-head">
       <div>
-        <h2 data-t="catTitle">ক্যাটাগরি থেকে কিনুন</h2>
-        <p data-t="catText">যা দরকার, দ্রুত খুঁজুন</p>
-      </div>
-      <div class="meta" id="resultMeta">0 items</div>
-    </div>
-    <div class="category-nav" id="catNav"></div>
-    <div class="status-bar loading" id="statusBar">⏳ <span id="statusMsg">Google Sheet থেকে পণ্য লোড হচ্ছে...</span></div>
-  </section>
-
-  <section class="shell section">
-    <div class="section-head">
-      <div>
         <h2 id="productTitle">সব পণ্য</h2>
-        <p data-t="productsSub">প্রাইস, স্টক, ছবি, ডিল এবং সহজ কার্ট কন্ট্রোলসহ প্রোডাক্ট তালিকা</p>
+        <p data-t="productsSub">smaller mobile icon, stable layout, clean card spacing, and quick add-to-cart flow</p>
       </div>
       <div class="meta" id="activeMeta">0 টি পণ্য</div>
     </div>
     <div class="product-grid" id="productGrid"></div>
-  </section>
-
-  <section class="shell section" id="trackArea">
-    <div class="track-wrap">
-      <div class="track-card">
-        <div class="section-head" style="margin-bottom:0">
-          <div>
-            <h2 data-t="trackTitle">অর্ডার ট্র্যাক করুন</h2>
-            <p data-t="trackText">Google Sheet order feed publish করলে live tracking list দেখানো যাবে। না থাকলে recent local orders দেখানো হবে।</p>
-          </div>
-        </div>
-        <div class="track-form">
-          <input id="trackPhone" type="tel" placeholder="01XXXXXXXXX">
-          <button id="trackBtn" onclick="trackOrders()" data-t="trackBtn">অর্ডার খুঁজুন</button>
-        </div>
-        <div style="color:#bf470d;font-size:13px;margin-top:8px;min-height:18px" id="trackError"></div>
-        <div class="order-list" id="orderList"></div>
-      </div>
-      <div class="insight-card">
-        <h2 data-t="insightTitle">আরও ভালো করার উপায়</h2>
-        <div class="insight-grid">
-          <div class="insight-box">
-            <strong data-t="insight1T">Real product image</strong>
-            <p data-t="insight1S">Sheet-এ `image` বা `image_url` column দিন। top sellers-এর জন্য studio-style photos conversion বাড়ায়।</p>
-          </div>
-          <div class="insight-box">
-            <strong data-t="insight2T">Stock operations</strong>
-            <p data-t="insight2S">`stock_status` field ব্যবহার করুন: `in`, `low`, `out`। এতে oversell কমবে।</p>
-          </div>
-          <div class="insight-box">
-            <strong data-t="insight3T">Growth suggestions</strong>
-            <p data-t="insight3S">Next: OTP login, saved favorites, geo-based delivery fee, offer banners, analytics, SEO category pages.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="shell">
-    <footer class="footer-card">
-      <div>
-        <h4>Amrar Bazar</h4>
-        <p data-t="footerIntro">এই single-page storefront এখন অনেক বেশি real shopping ready: product photo support, stock status, deals rail, reorder flow, saved address, delivery slot, quick help, এবং sheet-based tracking support।</p>
-      </div>
-      <div>
-        <h4 data-t="footerOpsTitle">Operations</h4>
-        <ul>
-          <li data-t="footerOps1">Google Sheet product source</li>
-          <li data-t="footerOps2">Apps Script order capture</li>
-          <li data-t="footerOps3">Published CSV tracking support</li>
-          <li data-t="footerOps4">Firebase Hosting ready</li>
-        </ul>
-      </div>
-      <div>
-        <h4 data-t="footerNextTitle">Next-level roadmap</h4>
-        <ul>
-          <li data-t="footerNext1">OTP account + favorites</li>
-          <li data-t="footerNext2">Payment-specific flow</li>
-          <li data-t="footerNext3">Offer engine + coupon</li>
-          <li data-t="footerNext4">Real delivery area logic</li>
-        </ul>
-      </div>
-    </footer>
   </section>
 </main>
 
@@ -691,7 +1422,7 @@ img{display:block;max-width:100%}
   <div class="cart-footer">
     <div class="summary-row"><span data-t="subtotal">সাব-টোটাল</span><strong id="subtotalAmt">৳0</strong></div>
     <div class="summary-row"><span data-t="delivery">ডেলিভারি</span><strong id="deliveryAmt">৳40</strong></div>
-    <div class="delivery-note">🚴 <span data-t="deliveryNote">৳৬০০+ অর্ডারে ডেলিভারি ফ্রি</span></div>
+    <div class="delivery-note">🚚 <span data-t="deliveryNote">৳৬০০+ অর্ডারে ডেলিভারি ফ্রি</span></div>
     <div class="summary-row total"><span data-t="total">মোট</span><strong id="totalAmt">৳0</strong></div>
     <button id="btnCheckout" class="action-btn primary" onclick="goCheckout()" data-t="btnCheckout">চেকআউটে যান</button>
     <button id="btnPlaceOrder" class="action-btn secondary" onclick="placeOrder()" style="display:none" data-t="btnPlaceOrder">অর্ডার কনফার্ম করুন</button>
@@ -722,59 +1453,54 @@ img{display:block;max-width:100%}
 <script>
 const PRODUCT_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRVO8UIFvM3nGkpdWimi5bhkezwsQE1p4lFT7SNI7l_TcBv6W8xZFeAoz5DoFYplYbrUOki9b3ZzNp6/pub?output=csv';
 const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzGYtVEUa0qDZFk_8rKhRESgiSFEcU-VrlHMTgDK-a74yPjzt2vpjYLSFN9EoFHxoz3Ew/exec';
-const ORDER_CSV = '';
 const SUPPORT_PHONE = '01700000000';
 const SUPPORT_WHATSAPP = '8801700000000';
 const DELIVERY_FEE = 40;
 const FREE_DELIVERY = 600;
-const CATS = ['all','vegetables','fruits','grocery','dairy','meat','medicine','bakery','snacks','beverage','personal'];
+const CATS = ['all','grocery','vegetables','fruits','medicine','snacks','beverage','personal'];
 
 const T = {
   bn:{
-    topbarNote:'ঢাকার জন্য দ্রুত ডেলিভারি · বাংলা ফার্স্ট · মোবাইল ফার্স্ট শপিং',
-    brandSub:'আমরার বাজার · daily essentials delivered',
-    callNow:'কল করুন',
-    syncBtn:'দাম আপডেট',
+    topbarNote:'ঢাকার জন্য দ্রুত ডেলিভারি · বাংলা ফার্স্ট · মোবাইল স্টেবল ডিজাইন',
+    brandSub:'আমরার বাজার · grocery, pharmacy, restaurant',
+    deliveryFast:'৪৫ মিনিটে ডেলিভারি',
+    deliveryLocation:'ঢাকা সিটি · আপনার ঠিকানায় দ্রুত পাঠানো হবে',
+    callBtn:'কল',
+    syncBtn:'আপডেট',
     cartBtn:'কার্ট',
-    heroChip:'৪৫ মিনিটের এক্সপ্রেস ডেলিভারি',
-    heroTitle:'দৈনন্দিন বাজার,<br>এখন আরও সহজ',
-    heroText:'Bangla first, mobile first, sheet-driven daily shopping experience। টপ-সেলিং পণ্য, ডিল, স্টক স্ট্যাটাস, quick help, saved address আর order tracking এক জায়গায়।',
+    sidebarSub:'বাংলা ফার্স্ট, মোবাইল-ফার্স্ট দৈনন্দিন বাজার',
+    sideMain:'Main Menu',
+    menuShop:'শপ',
+    menuShopSub:'সব পণ্য, category, deals',
+    menuServices:'সার্ভিস',
+    menuServicesSub:'grocery, pharmacy, restaurant',
+    menuCart:'কার্ট',
+    menuCartSub:'Chaldal-style cart drawer',
+    sideCategories:'Categories',
+    menuCall:'এখন কল করুন',
+    menuWhatsApp:'WhatsApp সাহায্য',
+    heroTitle:'প্রতিদিনের বাজার,<br>আরও দ্রুত, আরও পরিষ্কার',
+    heroText:'Blinkit-inspired main shopping layout, Chaldal-inspired cart drawer, বাংলা ফার্স্ট content, এবং mobile-first clean interface যাতে আপনার অধিকাংশ phone users সহজে অর্ডার করতে পারে।',
     heroPrimary:'এখনই কেনাকাটা',
-    heroSecondary:'অর্ডার ট্র্যাক',
-    heroP1T:'Product photo ready', heroP1S:'Sheet-এ image URL দিলে photo show হবে',
-    heroP2T:'Delivery slot', heroP2S:'Checkout-এ area ও সময় বাছাই',
-    heroP3T:'Retention UX', heroP3S:'Repeat last order ও saved address',
-    sideTitle:'World-class shopping flow',
-    sideText:'এই সেটআপে daily shopping websites-এর core UX pattern রাখা হয়েছে: merchandising rails, trust actions, cart drawer, delivery choice, stock feedback, এবং low-friction reorder flow।',
-    side1T:'Top-selling visibility', side1S:'Popular today, best deals, and product-first merchandising',
-    side2T:'Mobile stability', side2S:'Nothing should go outside the screen, with a bottom cart bar',
-    side3T:'Operational readiness', side3S:'Google Sheets products, Apps Script orders, CSV order tracking support',
-    help1T:'Popular today', help1S:'Fast-moving products that users often buy first.',
-    help2T:'Saved details', help2S:'Returning users get saved address and repeat-order support to reduce friction.',
-    help3T:'Quick trust actions', help3S:'Header call and WhatsApp buttons increase confidence for real customers.',
-    popularTitle:'আজকের জনপ্রিয়', popularText:'দৈনন্দিন সবচেয়ে বেশি বিক্রি হওয়া পণ্য',
-    dealTitle:'সেরা ডিল', dealText:'ডিসকাউন্ট বা promo-ready items',
-    repeatTitle:'আগের অর্ডার আবার', repeatText:'রিপিট ক্রেতাদের জন্য দ্রুত reorder',
-    catTitle:'ক্যাটাগরি থেকে কিনুন', catText:'যা দরকার, দ্রুত খুঁজুন',
-    productsSub:'প্রাইস, স্টক, ছবি, ডিল এবং সহজ কার্ট কন্ট্রোলসহ প্রোডাক্ট তালিকা',
-    trackTitle:'অর্ডার ট্র্যাক করুন',
-    trackText:'Google Sheet order feed publish করলে live tracking list দেখানো যাবে। না থাকলে recent local orders দেখানো হবে।',
-    trackBtn:'অর্ডার খুঁজুন',
-    insightTitle:'আরও ভালো করার উপায়',
-    insight1T:'Real product image', insight1S:'Sheet-এ `image` বা `image_url` column দিন। top sellers-এর জন্য studio-style photos conversion বাড়ায়।',
-    insight2T:'Stock operations', insight2S:'`stock_status` field ব্যবহার করুন: `in`, `low`, `out`। এতে oversell কমবে।',
-    insight3T:'Growth suggestions', insight3S:'Next: OTP login, saved favorites, geo-based delivery fee, offer banners, analytics, SEO category pages.',
-    footerIntro:'এই single-page storefront এখন অনেক বেশি real shopping ready: product photo support, stock status, deals rail, reorder flow, saved address, delivery slot, quick help, এবং sheet-based tracking support।',
-    footerOpsTitle:'Operations',
-    footerOps1:'Google Sheet product source',
-    footerOps2:'Apps Script order capture',
-    footerOps3:'Published CSV tracking support',
-    footerOps4:'Firebase Hosting ready',
-    footerNextTitle:'Next-level roadmap',
-    footerNext1:'OTP account + favorites',
-    footerNext2:'Payment-specific flow',
-    footerNext3:'Offer engine + coupon',
-    footerNext4:'Real delivery area logic',
+    heroSecondary:'কার্ট খুলুন',
+    promoPharmacyTitle:'Pharmacy at your doorstep',
+    promoPharmacyText:'ওষুধ, স্যানিটাইজার, health essentials দ্রুত অর্ডার করুন।',
+    promoRestaurantTitle:'Restaurant meals fast',
+    promoRestaurantText:'বিরিয়ানি, snacks, instant food আর daily add-ons একসাথে নিন।',
+    promoBtn:'Order now',
+    serviceTitle:'Main shopping blocks',
+    serviceText:'Blinkit-এর মতো clean service entry points, daily shopping focus',
+    service1T:'Daily grocery',
+    service1S:'সবজি, চাল, ডাল, তেল, ডেইরি, snacks',
+    service2T:'Pharmacy',
+    service2S:'daily medicine এবং health essentials',
+    service3T:'Restaurant add-ons',
+    service3S:'ready-to-eat, snacks, fast meal items',
+    service4T:'Fast delivery',
+    service4S:'wide clean mobile flow and faster checkout',
+    categoryTitle:'Featured categories',
+    categoryText:'Main item, grocery, pharmacy, restaurant-like flow',
+    productsSub:'smaller mobile icon, stable layout, clean card spacing, and quick add-to-cart flow',
     cartHead:'আপনার কার্ট',
     tabCart:'কার্ট',
     tabCheckout:'চেকআউট',
@@ -802,7 +1528,7 @@ const T = {
     searchPlaceholder:'পণ্য খুঁজুন...',
     loadingSheet:'Google Sheet থেকে পণ্য লোড হচ্ছে...',
     loadedSheet:'টি পণ্য লাইভ লোড হয়েছে',
-    fallbackSheet:'Fallback পণ্য দেখানো হচ্ছে। Firebase-এ publish করলে sheet sync আরও ভালো কাজ করবে।',
+    fallbackSheet:'Fallback পণ্য দেখানো হচ্ছে। publish করার পরে sheet sync আরও ভালো কাজ করবে।',
     totalItems:'মোট পণ্য',
     resultCount:'টি পণ্য',
     noItems:'কোনো পণ্য পাওয়া যায়নি',
@@ -816,76 +1542,68 @@ const T = {
     noSavedAddress:'কোনো saved address নেই',
     chooseSavedAddress:'Saved address বেছে নিন',
     successText:'আপনার অর্ডার সফলভাবে গ্রহণ করা হয়েছে। খুব শিগগিরই কনফার্মেশন দেওয়া হবে।',
-    orderNotConfigured:'ORDER_CSV এখনো সেট করা হয়নি। আপাতত local recent orders দেখানো হচ্ছে।',
-    orderNoMatch:'এই নম্বরে কোনো অর্ডার পাওয়া যায়নি।',
-    orderSearchError:'অর্ডার লোড করতে সমস্যা হয়েছে।',
-    orderRecentTitle:'সাম্প্রতিক অর্ডার',
     stockIn:'In stock',
     stockLow:'Low stock',
     stockOut:'Out of stock',
-    repeatEmpty:'এখনও কোনো previous order save হয়নি',
-    repeatAction:'আবার নিন',
-    dealBadge:'deal',
-    popularBadge:'popular',
     cats:{
       all:'সব পণ্য',
+      grocery:'🌾 গ্রোসারি',
       vegetables:'🥦 সবজি',
       fruits:'🍎 ফল',
-      grocery:'🌾 মুদি',
-      dairy:'🥛 দুগ্ধ ও ডিম',
-      meat:'🥩 মাছ ও মাংস',
-      medicine:'💊 ওষুধ',
-      bakery:'🍞 বেকারি',
-      snacks:'🍿 স্ন্যাকস',
+      medicine:'💊 ফার্মেসি',
+      snacks:'🍿 রেস্টুরেন্ট / স্ন্যাকস',
       beverage:'🥤 পানীয়',
-      personal:'🧴 পার্সোনাল কেয়ার'
+      personal:'🧴 কেয়ার'
+    },
+    categoryCards:{
+      grocery:{title:'Grocery',sub:'চাল, ডাল, তেল'},
+      medicine:{title:'Pharmacy',sub:'ওষুধ ও essentials'},
+      vegetables:{title:'Vegetables',sub:'তাজা সবজি'},
+      fruits:{title:'Fruits',sub:'daily fruit picks'},
+      snacks:{title:'Restaurant',sub:'snacks & ready items'}
     }
   },
   en:{
-    topbarNote:'Fast delivery across Dhaka · Bangla first · Mobile first shopping',
-    brandSub:'Amrar Bazar · daily essentials delivered',
-    callNow:'Call now',
-    syncBtn:'Sync prices',
+    topbarNote:'Fast delivery across Dhaka · Bangla first · Stable mobile design',
+    brandSub:'Amrar Bazar · grocery, pharmacy, restaurant',
+    deliveryFast:'Delivery in 45 minutes',
+    deliveryLocation:'Dhaka city · fast delivery to your location',
+    callBtn:'Call',
+    syncBtn:'Sync',
     cartBtn:'Cart',
-    heroChip:'45-minute express delivery',
-    heroTitle:'Daily shopping,<br>made more usable',
-    heroText:'A Bangla-first, mobile-first, sheet-driven daily shopping experience with top sellers, deals, stock status, quick help, saved address and order tracking in one place.',
+    sidebarSub:'Bangla-first, mobile-first daily shopping',
+    sideMain:'Main Menu',
+    menuShop:'Shop',
+    menuShopSub:'all products, categories, deals',
+    menuServices:'Services',
+    menuServicesSub:'grocery, pharmacy, restaurant',
+    menuCart:'Cart',
+    menuCartSub:'Chaldal-style cart drawer',
+    sideCategories:'Categories',
+    menuCall:'Call now',
+    menuWhatsApp:'WhatsApp help',
+    heroTitle:'Daily shopping,<br>faster and cleaner',
+    heroText:'A Blinkit-inspired storefront with a Chaldal-inspired cart drawer, Bangla-first content, and a cleaner mobile-first interface for your mostly-phone-based users.',
     heroPrimary:'Shop now',
-    heroSecondary:'Track order',
-    heroP1T:'Product photo ready', heroP1S:'If your sheet has image URLs, photos will show',
-    heroP2T:'Delivery slot', heroP2S:'Users can choose area and delivery time',
-    heroP3T:'Retention UX', heroP3S:'Repeat last order and saved address support',
-    sideTitle:'World-class shopping flow',
-    sideText:'This version includes common UX patterns from serious daily-shopping websites: merchandising rails, trust actions, cart drawer, delivery choice, stock feedback, and low-friction reorder flow.',
-    side1T:'Top-selling visibility', side1S:'Popular today, best deals, and product-first merchandising',
-    side2T:'Mobile stability', side2S:'Nothing should go outside the screen, with a bottom cart bar',
-    side3T:'Operational readiness', side3S:'Google Sheets products, Apps Script orders, CSV order tracking support',
-    help1T:'Popular today', help1S:'Fast-moving products that users often buy first.',
-    help2T:'Saved details', help2S:'Returning users get saved address and repeat-order support to reduce friction.',
-    help3T:'Quick trust actions', help3S:'Header call and WhatsApp buttons increase confidence for real customers.',
-    popularTitle:'Popular today', popularText:'High-demand daily essentials',
-    dealTitle:'Best deals', dealText:'Discounted or promo-ready items',
-    repeatTitle:'Repeat last order', repeatText:'Quick reorder flow for repeat customers',
-    catTitle:'Shop by category', catText:'Find what you need faster',
-    productsSub:'A cleaner product grid with price, stock, photo, deals and simple cart controls',
-    trackTitle:'Track your order',
-    trackText:'If you publish a Google Sheet order CSV feed, live tracking can appear here. Otherwise recent local orders are shown.',
-    trackBtn:'Find order',
-    insightTitle:'How to make it better',
-    insight1T:'Real product image', insight1S:'Add `image` or `image_url` columns in the sheet. Studio-style photos usually improve conversion.',
-    insight2T:'Stock operations', insight2S:'Use `stock_status` values: `in`, `low`, `out` to reduce overselling.',
-    insight3T:'Growth suggestions', insight3S:'Next: OTP login, saved favorites, geo-based delivery fee, offer banners, analytics, SEO category pages.',
-    footerIntro:'This storefront is now much more shopping-ready: product photo support, stock status, merchandising rails, reorder flow, saved address, delivery slot, quick help, and sheet-based tracking support.',
-    footerOpsTitle:'Operations',
-    footerOps1:'Google Sheet product source',
-    footerOps2:'Apps Script order capture',
-    footerOps3:'Published CSV tracking support',
-    footerOps4:'Firebase Hosting ready',
-    footerNextTitle:'Next-level roadmap',
-    footerNext1:'OTP account + favorites',
-    footerNext2:'Payment-specific flow',
-    footerNext3:'Offer engine + coupon',
-    footerNext4:'Real delivery area logic',
+    heroSecondary:'Open cart',
+    promoPharmacyTitle:'Pharmacy at your doorstep',
+    promoPharmacyText:'Order medicine, sanitizer, and health essentials quickly.',
+    promoRestaurantTitle:'Restaurant meals fast',
+    promoRestaurantText:'Biryani, snacks, instant food and daily add-ons together.',
+    promoBtn:'Order now',
+    serviceTitle:'Main shopping blocks',
+    serviceText:'Blinkit-like clean service entry points for daily shopping',
+    service1T:'Daily grocery',
+    service1S:'vegetables, rice, lentils, oil, dairy, snacks',
+    service2T:'Pharmacy',
+    service2S:'daily medicine and health essentials',
+    service3T:'Restaurant add-ons',
+    service3S:'ready-to-eat, snacks, fast meal items',
+    service4T:'Fast delivery',
+    service4S:'wide clean mobile flow and faster checkout',
+    categoryTitle:'Featured categories',
+    categoryText:'Main item, grocery, pharmacy, restaurant-like flow',
+    productsSub:'smaller mobile icon, stable layout, clean card spacing, and quick add-to-cart flow',
     cartHead:'Your cart',
     tabCart:'Cart',
     tabCheckout:'Checkout',
@@ -913,7 +1631,7 @@ const T = {
     searchPlaceholder:'Search products...',
     loadingSheet:'Loading products from Google Sheet...',
     loadedSheet:'products loaded live',
-    fallbackSheet:'Fallback products are showing. After publishing to Firebase, sheet sync should behave better.',
+    fallbackSheet:'Fallback products are showing. After publishing, sheet sync should behave better.',
     totalItems:'total items',
     resultCount:'items',
     noItems:'No products found',
@@ -927,79 +1645,69 @@ const T = {
     noSavedAddress:'No saved address',
     chooseSavedAddress:'Choose a saved address',
     successText:'Your order has been received successfully. You will get confirmation shortly.',
-    orderNotConfigured:'ORDER_CSV is not configured yet. Showing recent local orders for now.',
-    orderNoMatch:'No orders found for this phone number.',
-    orderSearchError:'Could not load orders.',
-    orderRecentTitle:'Recent orders',
     stockIn:'In stock',
     stockLow:'Low stock',
     stockOut:'Out of stock',
-    repeatEmpty:'No previous order saved yet',
-    repeatAction:'Re-add',
-    dealBadge:'deal',
-    popularBadge:'popular',
     cats:{
       all:'All items',
+      grocery:'🌾 Grocery',
       vegetables:'🥦 Vegetables',
       fruits:'🍎 Fruits',
-      grocery:'🌾 Grocery',
-      dairy:'🥛 Dairy & Eggs',
-      meat:'🥩 Fish & Meat',
-      medicine:'💊 Medicine',
-      bakery:'🍞 Bakery',
-      snacks:'🍿 Snacks',
+      medicine:'💊 Pharmacy',
+      snacks:'🍿 Restaurant / Snacks',
       beverage:'🥤 Beverages',
-      personal:'🧴 Personal Care'
+      personal:'🧴 Care'
+    },
+    categoryCards:{
+      grocery:{title:'Grocery',sub:'rice, lentils, oil'},
+      medicine:{title:'Pharmacy',sub:'medicine and essentials'},
+      vegetables:{title:'Vegetables',sub:'fresh vegetables'},
+      fruits:{title:'Fruits',sub:'daily fruit picks'},
+      snacks:{title:'Restaurant',sub:'snacks & ready items'}
     }
   }
 };
 
 const FALLBACK = [
-  {id:1,name_en:'Fresh Spinach',name_bn:'তাজা পালং শাক',category:'vegetables',emoji:'🥬',price:25,unit:'250g',badge:'fresh',stock_status:'in',popular:true},
+  {id:1,name_en:'Fresh Spinach',name_bn:'তাজা পালং শাক',category:'vegetables',emoji:'🥬',price:25,unit:'250g',badge:'fresh',stock_status:'in'},
   {id:2,name_en:'Tomatoes',name_bn:'টমেটো',category:'vegetables',emoji:'🍅',price:35,unit:'500g',badge:'',stock_status:'in'},
   {id:3,name_en:'Potatoes',name_bn:'আলু',category:'vegetables',emoji:'🥔',price:40,unit:'1kg',badge:'',stock_status:'in'},
   {id:4,name_en:'Onions',name_bn:'পেঁয়াজ',category:'vegetables',emoji:'🧅',price:50,unit:'1kg',badge:'',stock_status:'low'},
-  {id:5,name_en:'Bananas',name_bn:'কলা',category:'fruits',emoji:'🍌',price:60,unit:'1 dozen',badge:'',stock_status:'in',popular:true},
-  {id:6,name_en:'Apples',name_bn:'আপেল',category:'fruits',emoji:'🍎',price:120,unit:'1kg',badge:'',stock_status:'in'},
-  {id:7,name_en:'Mangoes',name_bn:'আম',category:'fruits',emoji:'🥭',price:150,unit:'1kg',badge:'seasonal',stock_status:'low',deal_price:130},
-  {id:8,name_en:'Rice',name_bn:'চাল',category:'grocery',emoji:'🌾',price:180,unit:'1kg',badge:'',stock_status:'in'},
-  {id:9,name_en:'Soybean Oil',name_bn:'সয়াবিন তেল',category:'grocery',emoji:'🫙',price:180,unit:'1 ltr',badge:'popular',stock_status:'in',popular:true},
-  {id:10,name_en:'Lentil (Dal)',name_bn:'মসুর ডাল',category:'grocery',emoji:'🫘',price:100,unit:'500g',badge:'',stock_status:'in'},
-  {id:11,name_en:'Fresh Milk',name_bn:'তাজা দুধ',category:'dairy',emoji:'🥛',price:70,unit:'1 ltr',badge:'daily',stock_status:'in',popular:true},
-  {id:12,name_en:'Eggs',name_bn:'ডিম',category:'dairy',emoji:'🥚',price:130,unit:'12 pcs',badge:'',stock_status:'low'},
-  {id:13,name_en:'Paneer',name_bn:'পনির',category:'dairy',emoji:'🧀',price:90,unit:'200g',badge:'fresh',stock_status:'in'},
-  {id:14,name_en:'Chicken',name_bn:'মুরগি',category:'meat',emoji:'🍗',price:280,unit:'1kg',badge:'fresh',stock_status:'in',popular:true},
-  {id:15,name_en:'Beef',name_bn:'গরুর মাংস',category:'meat',emoji:'🥩',price:650,unit:'1kg',badge:'',stock_status:'low',deal_price:590},
-  {id:16,name_en:'Rui Fish',name_bn:'রুই মাছ',category:'meat',emoji:'🐟',price:350,unit:'1kg',badge:'',stock_status:'in'},
-  {id:17,name_en:'Paracetamol',name_bn:'প্যারাসিটামল',category:'medicine',emoji:'💊',price:25,unit:'10 tabs',badge:'',stock_status:'in'},
-  {id:18,name_en:'Vitamin C',name_bn:'ভিটামিন সি',category:'medicine',emoji:'🍊',price:120,unit:'30 tabs',badge:'',stock_status:'in'},
-  {id:19,name_en:'Thermometer',name_bn:'থার্মোমিটার',category:'medicine',emoji:'🌡️',price:250,unit:'1 pc',badge:'new',stock_status:'low'},
-  {id:20,name_en:'Bread',name_bn:'পাউরুটি',category:'bakery',emoji:'🍞',price:50,unit:'400g',badge:'daily',stock_status:'in'},
-  {id:21,name_en:'Biscuits',name_bn:'বিস্কুট',category:'bakery',emoji:'🍪',price:35,unit:'200g',badge:'',stock_status:'in'},
-  {id:22,name_en:'Instant Noodles',name_bn:'ইন্সট্যান্ট নুডলস',category:'snacks',emoji:'🍜',price:35,unit:'1 pack',badge:'popular',stock_status:'in',popular:true},
-  {id:23,name_en:'Chips',name_bn:'চিপস',category:'snacks',emoji:'🍿',price:40,unit:'100g',badge:'',stock_status:'in'},
-  {id:24,name_en:'Tea Leaves',name_bn:'চা পাতা',category:'beverage',emoji:'🍵',price:120,unit:'250g',badge:'',stock_status:'in'},
-  {id:25,name_en:'Mineral Water',name_bn:'মিনারেল ওয়াটার',category:'beverage',emoji:'💧',price:25,unit:'1.5 ltr',badge:'',stock_status:'in'},
-  {id:26,name_en:'Shampoo',name_bn:'শ্যাম্পু',category:'personal',emoji:'🧴',price:150,unit:'200ml',badge:'',stock_status:'in'},
-  {id:27,name_en:'Soap',name_bn:'সাবান',category:'personal',emoji:'🧼',price:40,unit:'100g',badge:'',stock_status:'in'}
+  {id:5,name_en:'Apples',name_bn:'আপেল',category:'fruits',emoji:'🍎',price:120,unit:'1kg',badge:'',stock_status:'in'},
+  {id:6,name_en:'Bananas',name_bn:'কলা',category:'fruits',emoji:'🍌',price:60,unit:'1 dozen',badge:'popular',stock_status:'in'},
+  {id:7,name_en:'Rice',name_bn:'চাল',category:'grocery',emoji:'🌾',price:180,unit:'1kg',badge:'',stock_status:'in'},
+  {id:8,name_en:'Soybean Oil',name_bn:'সয়াবিন তেল',category:'grocery',emoji:'🫙',price:180,unit:'1 ltr',badge:'popular',stock_status:'in'},
+  {id:9,name_en:'Lentil (Dal)',name_bn:'মসুর ডাল',category:'grocery',emoji:'🫘',price:100,unit:'500g',badge:'',stock_status:'in'},
+  {id:10,name_en:'Fresh Milk',name_bn:'তাজা দুধ',category:'grocery',emoji:'🥛',price:70,unit:'1 ltr',badge:'daily',stock_status:'in'},
+  {id:11,name_en:'Eggs',name_bn:'ডিম',category:'grocery',emoji:'🥚',price:130,unit:'12 pcs',badge:'',stock_status:'low'},
+  {id:12,name_en:'Paracetamol',name_bn:'প্যারাসিটামল',category:'medicine',emoji:'💊',price:25,unit:'10 tabs',badge:'',stock_status:'in'},
+  {id:13,name_en:'Vitamin C',name_bn:'ভিটামিন সি',category:'medicine',emoji:'🍊',price:120,unit:'30 tabs',badge:'',stock_status:'in'},
+  {id:14,name_en:'Thermometer',name_bn:'থার্মোমিটার',category:'medicine',emoji:'🌡️',price:250,unit:'1 pc',badge:'new',stock_status:'low'},
+  {id:15,name_en:'Instant Noodles',name_bn:'ইন্সট্যান্ট নুডলস',category:'snacks',emoji:'🍜',price:35,unit:'1 pack',badge:'popular',stock_status:'in'},
+  {id:16,name_en:'Chips',name_bn:'চিপস',category:'snacks',emoji:'🍿',price:40,unit:'100g',badge:'',stock_status:'in'},
+  {id:17,name_en:'Sandwich',name_bn:'স্যান্ডউইচ',category:'snacks',emoji:'🥪',price:95,unit:'1 pc',badge:'',stock_status:'in'},
+  {id:18,name_en:'Mineral Water',name_bn:'মিনারেল ওয়াটার',category:'beverage',emoji:'💧',price:25,unit:'1.5 ltr',badge:'',stock_status:'in'},
+  {id:19,name_en:'Tea Leaves',name_bn:'চা পাতা',category:'beverage',emoji:'🍵',price:120,unit:'250g',badge:'',stock_status:'in'},
+  {id:20,name_en:'Soap',name_bn:'সাবান',category:'personal',emoji:'🧼',price:40,unit:'100g',badge:'',stock_status:'in'},
+  {id:21,name_en:'Shampoo',name_bn:'শ্যাম্পু',category:'personal',emoji:'🧴',price:150,unit:'200ml',badge:'',stock_status:'in'}
 ];
 
 let lang = localStorage.getItem('amrar-lang') || 'bn';
 let products = [...FALLBACK];
 let cart = JSON.parse(localStorage.getItem('amrar-cart') || '{}');
 let savedAddresses = JSON.parse(localStorage.getItem('amrar-saved-addresses') || '[]');
-let localOrders = JSON.parse(localStorage.getItem('amrar-local-orders') || '[]');
-let lastOrder = JSON.parse(localStorage.getItem('amrar-last-order') || 'null');
+let toastTimer;
 let activeCat = 'all';
 let searchTerm = '';
-let toastTimer;
 
 function byId(id){ return document.getElementById(id); }
 function saveCart(){ localStorage.setItem('amrar-cart', JSON.stringify(cart)); }
 
-function setupQuickLinks(){
+function setupLinks(){
   byId('callBtn').href = `tel:${SUPPORT_PHONE}`;
   byId('waBtn').href = `https://wa.me/${SUPPORT_WHATSAPP}`;
+  byId('sideCallBtn').href = `tel:${SUPPORT_PHONE}`;
+  byId('sideWaBtn').href = `https://wa.me/${SUPPORT_WHATSAPP}`;
 }
 
 function setLang(nextLang){
@@ -1014,8 +1722,9 @@ function setLang(nextLang){
     const value = T[lang][el.dataset.t];
     if (value !== undefined) el.innerHTML = value;
   });
-  buildCategoryNav();
-  renderRails();
+  renderCategoryPills();
+  renderSidebarCategories();
+  renderCategoryGrid();
   renderProducts(getFilteredProducts());
   renderSavedAddressOptions();
   updateCartUI();
@@ -1030,10 +1739,10 @@ function csvRow(row){
   const out = [];
   let cur = '';
   let quoted = false;
-  for (const ch of row) {
-    if (ch === '"') quoted = !quoted;
-    else if (ch === ',' && !quoted) { out.push(cur); cur = ''; }
-    else cur += ch;
+  for (const char of row) {
+    if (char === '"') quoted = !quoted;
+    else if (char === ',' && !quoted) { out.push(cur); cur = ''; }
+    else cur += char;
   }
   out.push(cur);
   return out.map((v) => v.replace(/^"|"$/g, '').trim());
@@ -1061,8 +1770,7 @@ function parseCSV(text){
       unit: row.unit || 'pcs',
       badge: row.badge || '',
       image: row.image || row.image_url || row.photo || '',
-      stock_status: (row.stock_status || row.stock || 'in').toLowerCase(),
-      popular: ['1','true','yes','popular'].includes((row.popular || '').toLowerCase())
+      stock_status: (row.stock_status || row.stock || 'in').toLowerCase()
     };
   }).filter(Boolean);
 }
@@ -1082,25 +1790,70 @@ async function loadSheet(){
     const csv = await res.text();
     const rows = parseCSV(csv);
     if (!rows.length) throw new Error('empty');
-    products = rows.map((item) => ({...item, popular: item.popular || item.badge === 'popular'}));
+    products = rows;
     setStatus('ok', `${products.length} ${T[lang].loadedSheet}`);
   }catch(error){
     products = [...FALLBACK];
     setStatus('ok', T[lang].fallbackSheet);
   }
-  renderRails();
   renderProducts(getFilteredProducts());
+  renderCategoryGrid();
 }
 
-function buildCategoryNav(){
+function effectivePrice(product){
+  return product.deal_price && product.deal_price > 0 ? product.deal_price : product.price;
+}
+
+function stockKey(status){
+  if (status === 'out') return 'stockOut';
+  if (status === 'low') return 'stockLow';
+  return 'stockIn';
+}
+
+function stockClass(status){
+  if (status === 'out') return 'stock-out';
+  if (status === 'low') return 'stock-low';
+  return 'stock-in';
+}
+
+function badgeClass(badge){
+  return ['fresh','daily','popular'].includes(badge) ? 'green' : '';
+}
+
+function renderCategoryPills(){
   byId('catNav').innerHTML = CATS.map((cat) => `
-    <button class="cat-btn${activeCat === cat ? ' active' : ''}" onclick="filterCat('${cat}')">${T[lang].cats[cat] || cat}</button>
+    <button class="cat-pill${activeCat === cat ? ' active' : ''}" onclick="filterCat('${cat}')">${T[lang].cats[cat] || cat}</button>
   `).join('');
+}
+
+function renderSidebarCategories(){
+  byId('sidebarCats').innerHTML = CATS.filter((cat) => cat !== 'all').map((cat) => `
+    <button class="side-link${activeCat === cat ? ' active' : ''}" onclick="filterCat('${cat}');scrollToSection('shopArea');closeSidebar()">
+      <span class="icon">${(T[lang].cats[cat] || '').split(' ')[0] || '🛍️'}</span>
+      <span><strong>${(T[lang].cats[cat] || cat).replace(/^[^\s]+\s/, '')}</strong><span>${cat}</span></span>
+    </button>
+  `).join('');
+}
+
+function renderCategoryGrid(){
+  const cards = ['grocery','medicine','vegetables','fruits','snacks'];
+  byId('categoryGrid').innerHTML = cards.map((cat) => {
+    const copy = T[lang].categoryCards[cat];
+    const icon = (T[lang].cats[cat] || '').split(' ')[0] || '🛍️';
+    return `
+      <button class="category-card" onclick="filterCat('${cat}');scrollToSection('shopArea')">
+        <span class="icon">${icon}</span>
+        <strong>${copy.title}</strong>
+        <span>${copy.sub}</span>
+      </button>`;
+  }).join('');
+  byId('resultMeta').textContent = `${products.length} ${T[lang].totalItems}`;
 }
 
 function filterCat(cat){
   activeCat = cat;
-  buildCategoryNav();
+  renderCategoryPills();
+  renderSidebarCategories();
   renderProducts(getFilteredProducts());
 }
 
@@ -1121,86 +1874,27 @@ function getFilteredProducts(){
   });
 }
 
-function stockKey(status){
-  if (status === 'out') return 'stockOut';
-  if (status === 'low') return 'stockLow';
-  return 'stockIn';
-}
-
-function stockClass(status){
-  if (status === 'out') return 'stock-out';
-  if (status === 'low') return 'stock-low';
-  return 'stock-in';
-}
-
-function badgeClass(badge){
-  return ['fresh','daily','popular'].includes(badge) ? 'green' : '';
-}
-
-function effectivePrice(product){
-  return product.deal_price && product.deal_price > 0 ? product.deal_price : product.price;
-}
-
-function mediaHTML(product, className){
-  if (product.image) {
-    return `<img src="${product.image}" alt="${product.name_en}" class="${className}">`;
-  }
-  return `<div class="${className === 'product-photo' ? 'product-emoji' : ''}">${product.emoji}</div>`;
-}
-
-function renderMiniList(targetId, list, emptyText, addLabel){
-  const target = byId(targetId);
-  if (!list.length) {
-    target.innerHTML = `<div style="color:var(--muted);font-size:13px">${emptyText}</div>`;
-    return;
-  }
-  target.innerHTML = list.slice(0, 3).map((product) => {
-    const name = lang === 'bn' ? product.name_bn : product.name_en;
-    return `
-      <div class="mini-item">
-        <div class="mini-media">${product.image ? `<img src="${product.image}" alt="${product.name_en}">` : product.emoji}</div>
-        <div>
-          <h4>${name}</h4>
-          <p>${product.unit}</p>
-          <strong>৳${effectivePrice(product)}</strong>
-        </div>
-        <button onclick="inc(${product.id})">${addLabel}</button>
-      </div>`;
-  }).join('');
-}
-
-function renderRails(){
-  const popular = products.filter((p) => p.popular || p.badge === 'popular' || p.badge === 'daily');
-  const deals = products.filter((p) => p.deal_price && p.deal_price > 0);
-  const repeat = lastOrder ? lastOrder.items.map((item) => products.find((p) => p.id === item.id)).filter(Boolean) : [];
-  renderMiniList('popularRail', popular, T[lang].noItems, '+');
-  renderMiniList('dealRail', deals, T[lang].noItems, '+');
-  renderMiniList('repeatRail', repeat, T[lang].repeatEmpty, T[lang].repeatAction);
-}
-
 function renderProducts(list){
   const label = activeCat === 'all' ? T[lang].cats.all : (T[lang].cats[activeCat] || activeCat);
   byId('productTitle').textContent = label.replace(/^[^\s]+\s/, '');
   byId('activeMeta').textContent = `${list.length} ${T[lang].resultCount}`;
-  byId('resultMeta').textContent = `${products.length} ${T[lang].totalItems}`;
   const grid = byId('productGrid');
   if (!list.length) {
-    grid.innerHTML = `<div class="help-card" style="grid-column:1/-1"><strong>${T[lang].noItems}</strong><p>${T[lang].productsSub}</p></div>`;
+    grid.innerHTML = `<div class="service-card" style="grid-column:1/-1"><strong>${T[lang].noItems}</strong><span>${T[lang].productsSub}</span></div>`;
     return;
   }
   grid.innerHTML = list.map((product) => {
     const name = lang === 'bn' ? product.name_bn : product.name_en;
     const qty = cart[product.id] || 0;
     const control = product.stock_status === 'out'
-      ? `<button class="soft-btn" style="padding:10px 12px;color:#bf470d;border-color:#f0c6b0" disabled>${T[lang].stockOut}</button>`
+      ? `<button class="header-chip" style="padding:9px 10px;font-size:12px;color:#bf470d;border-color:#efc6b7" disabled>${T[lang].stockOut}</button>`
       : qty > 0
         ? `<div class="qty-control"><button onclick="dec(${product.id})">−</button><span>${qty}</span><button onclick="inc(${product.id})">+</button></div>`
         : `<button class="add-btn" onclick="inc(${product.id})">+</button>`;
-    const price = effectivePrice(product);
     return `
       <article class="product-card">
         <div class="product-top">
-          ${product.image ? `<img src="${product.image}" alt="${product.name_en}" class="product-photo">` : `<div class="product-emoji">${product.emoji}</div>`}
+          ${product.image ? `<img class="product-photo" src="${product.image}" alt="${product.name_en}">` : `<div class="product-emoji">${product.emoji}</div>`}
           <div class="badge-row">
             <div>${product.badge ? `<span class="badge ${badgeClass(product.badge)}">${product.badge}</span>` : ''}</div>
             <span class="stock-chip ${stockClass(product.stock_status)}">${T[lang][stockKey(product.stock_status)]}</span>
@@ -1213,7 +1907,7 @@ function renderProducts(list){
           <div class="product-bottom">
             <div class="price-wrap">
               ${product.deal_price && product.deal_price > 0 ? `<div class="old">৳${product.price}</div>` : ''}
-              <div class="new">৳${price}<span>/${product.unit}</span></div>
+              <div class="new">৳${effectivePrice(product)}<span>/${product.unit}</span></div>
             </div>
             <div id="ctrl-${product.id}">${control}</div>
           </div>
@@ -1229,7 +1923,7 @@ function refreshControl(id){
   if (!product) return;
   const qty = cart[id] || 0;
   slot.innerHTML = product.stock_status === 'out'
-    ? `<button class="soft-btn" style="padding:10px 12px;color:#bf470d;border-color:#f0c6b0" disabled>${T[lang].stockOut}</button>`
+    ? `<button class="header-chip" style="padding:9px 10px;font-size:12px;color:#bf470d;border-color:#efc6b7" disabled>${T[lang].stockOut}</button>`
     : qty > 0
       ? `<div class="qty-control"><button onclick="dec(${id})">−</button><span>${qty}</span><button onclick="inc(${id})">+</button></div>`
       : `<button class="add-btn" onclick="inc(${id})">+</button>`;
@@ -1242,8 +1936,7 @@ function inc(id){
   saveCart();
   refreshControl(id);
   updateCartUI();
-  const name = lang === 'bn' ? product.name_bn : product.name_en;
-  showToast(`${product.emoji} ${name} ${T[lang].addToast}`);
+  showToast(`${product.emoji} ${(lang === 'bn' ? product.name_bn : product.name_en)} ${T[lang].addToast}`);
 }
 
 function dec(id){
@@ -1268,7 +1961,7 @@ function renderCartItems(){
   const wrap = byId('cartItemsWrap');
   const entries = Object.entries(cart).filter(([, qty]) => qty > 0);
   if (!entries.length) {
-    wrap.innerHTML = `<div class="empty-cart"><div><div style="font-size:60px;margin-bottom:12px">🧺</div><strong>${T[lang].emptyCartTitle}</strong><div>${T[lang].emptyCartText}</div></div></div>`;
+    wrap.innerHTML = `<div class="empty-cart"><div><div style="font-size:58px;margin-bottom:12px">🧺</div><strong>${T[lang].emptyCartTitle}</strong><div>${T[lang].emptyCartText}</div></div></div>`;
     return;
   }
   wrap.innerHTML = `<div class="cart-items">${
@@ -1307,39 +2000,12 @@ function updateCartUI(){
   renderCartItems();
 }
 
-function switchTab(tab){
-  byId('tabCart').classList.toggle('active', tab === 'cart');
-  byId('tabCheckout').classList.toggle('active', tab === 'checkout');
-  byId('viewCart').classList.toggle('active', tab === 'cart');
-  byId('viewCheckout').classList.toggle('active', tab === 'checkout');
-  byId('btnCheckout').style.display = tab === 'cart' ? '' : 'none';
-  byId('btnPlaceOrder').style.display = tab === 'checkout' ? '' : 'none';
-  byId('btnBack').style.display = tab === 'checkout' ? '' : 'none';
-}
-
-function openCart(){
-  document.body.classList.add('cart-open');
-  byId('cartOverlay').classList.add('open');
-  byId('cartPanel').classList.add('open');
-  byId('cartPanel').setAttribute('aria-hidden', 'false');
-}
-
-function closeCart(){
-  document.body.classList.remove('cart-open');
-  byId('cartOverlay').classList.remove('open');
-  byId('cartPanel').classList.remove('open');
-  byId('cartPanel').setAttribute('aria-hidden', 'true');
-}
-
-function goCheckout(){
-  if (!Object.keys(cart).length) return;
-  switchTab('checkout');
-}
-
 function renderSavedAddressOptions(){
   const select = byId('savedAddressSelect');
-  const first = `<option value="">${savedAddresses.length ? T[lang].chooseSavedAddress : T[lang].noSavedAddress}</option>`;
-  select.innerHTML = first + savedAddresses.map((item, index) => `<option value="${index}">${item.name} · ${item.area}</option>`).join('');
+  const options = savedAddresses.length
+    ? `<option value="">${T[lang].chooseSavedAddress}</option>` + savedAddresses.map((item, index) => `<option value="${index}">${item.name} · ${item.area}</option>`).join('')
+    : `<option value="">${T[lang].noSavedAddress}</option>`;
+  select.innerHTML = options;
 }
 
 function saveCurrentAddress(){
@@ -1365,12 +2031,45 @@ function applySavedAddress(index){
   byId('fAddr').value = item.address;
 }
 
-function storeOrderLocally(order){
-  localOrders.unshift(order);
-  localOrders = localOrders.slice(0, 15);
-  lastOrder = order;
-  localStorage.setItem('amrar-local-orders', JSON.stringify(localOrders));
-  localStorage.setItem('amrar-last-order', JSON.stringify(lastOrder));
+function switchTab(tab){
+  byId('tabCart').classList.toggle('active', tab === 'cart');
+  byId('tabCheckout').classList.toggle('active', tab === 'checkout');
+  byId('viewCart').classList.toggle('active', tab === 'cart');
+  byId('viewCheckout').classList.toggle('active', tab === 'checkout');
+  byId('btnCheckout').style.display = tab === 'cart' ? '' : 'none';
+  byId('btnPlaceOrder').style.display = tab === 'checkout' ? '' : 'none';
+  byId('btnBack').style.display = tab === 'checkout' ? '' : 'none';
+}
+
+function openSidebar(){
+  document.body.classList.add('nav-open');
+  byId('sidebar').classList.add('open');
+  byId('navOverlay').classList.add('open');
+}
+
+function closeSidebar(){
+  document.body.classList.remove('nav-open');
+  byId('sidebar').classList.remove('open');
+  byId('navOverlay').classList.remove('open');
+}
+
+function openCart(){
+  document.body.classList.add('cart-open');
+  byId('cartPanel').classList.add('open');
+  byId('cartOverlay').classList.add('open');
+  byId('cartPanel').setAttribute('aria-hidden', 'false');
+}
+
+function closeCart(){
+  document.body.classList.remove('cart-open');
+  byId('cartPanel').classList.remove('open');
+  byId('cartOverlay').classList.remove('open');
+  byId('cartPanel').setAttribute('aria-hidden', 'true');
+}
+
+function goCheckout(){
+  if (!Object.keys(cart).length) return;
+  switchTab('checkout');
 }
 
 async function placeOrder(){
@@ -1382,7 +2081,6 @@ async function placeOrder(){
   const address = byId('fAddr').value.trim();
   const payment = byId('fPay').value;
   const note = byId('fNote').value.trim();
-
   if (!name) return showToast(T[lang].needName);
   if (!phone) return showToast(T[lang].needPhone);
   if (!address) return showToast(T[lang].needAddress);
@@ -1390,45 +2088,32 @@ async function placeOrder(){
   const {subtotal, delivery, total} = cartTotals();
   const items = Object.entries(cart).map(([id, qty]) => {
     const product = products.find((item) => item.id === Number(id));
-    return product ? {
-      id: product.id,
-      qty,
-      name_en: product.name_en,
-      name_bn: product.name_bn,
-      unit: product.unit,
-      price: effectivePrice(product),
-      image: product.image || '',
-      line: `${product.name_en} x${qty} = ৳${effectivePrice(product) * qty}`
-    } : null;
-  }).filter(Boolean);
+    return product ? `${product.name_en} x${qty} = ৳${effectivePrice(product) * qty}` : '';
+  }).filter(Boolean).join(' | ');
 
   const orderId = `AB-${Date.now().toString().slice(-6)}`;
-  const timestamp = new Date().toLocaleString('en-GB', {
-    timeZone:'Asia/Dhaka',
-    day:'2-digit',
-    month:'short',
-    year:'numeric',
-    hour:'2-digit',
-    minute:'2-digit'
-  });
-
-  const order = {
-    timestamp,
+  const payload = {
+    timestamp: new Date().toLocaleString('en-GB', {
+      timeZone:'Asia/Dhaka',
+      day:'2-digit',
+      month:'short',
+      year:'numeric',
+      hour:'2-digit',
+      minute:'2-digit'
+    }),
     order_id: orderId,
     name,
     phone,
     alt_phone: alt,
     area,
-    slot,
+    delivery_slot: slot,
     address,
     payment_method: payment,
     items,
-    items_text: items.map((item) => item.line).join(' | '),
     subtotal,
     delivery_charge: delivery,
     total,
-    special_request: note,
-    status: 'Pending'
+    special_request: note
   };
 
   const button = byId('btnPlaceOrder');
@@ -1441,7 +2126,7 @@ async function placeOrder(){
       method:'POST',
       mode:'no-cors',
       headers:{'Content-Type':'text/plain'},
-      body:JSON.stringify(order)
+      body:JSON.stringify(payload)
     });
   }catch(error){
     console.warn(error);
@@ -1449,102 +2134,21 @@ async function placeOrder(){
 
   button.disabled = false;
   button.innerHTML = original;
-  storeOrderLocally(order);
-
   cart = {};
   saveCart();
   ['fName','fPhone','fAlt','fAddr','fNote'].forEach((id) => { byId(id).value = ''; });
-  byId('trackPhone').value = phone;
-  renderRails();
   switchTab('cart');
   updateCartUI();
   renderProducts(getFilteredProducts());
   closeCart();
-
   byId('orderIdText').textContent = orderId;
   byId('successText').textContent = T[lang].successText;
   byId('successModal').classList.add('open');
 }
 
-function statusClass(status){
-  const low = String(status || '').toLowerCase();
-  if (low.includes('deliver')) return 'background:#e8f5ee;color:#1a6b3a';
-  if (low.includes('pack')) return 'background:#fff4e6;color:#bb6b10';
-  if (low.includes('cancel')) return 'background:#fff1ef;color:#bf470d';
-  return 'background:#eef7ef;color:#1a6b3a';
+function closeModal(){
+  byId('successModal').classList.remove('open');
 }
-
-function renderOrderList(orders, phone){
-  const target = byId('orderList');
-  if (!orders.length) {
-    target.innerHTML = `<div class="order-card"><div class="order-items">${phone ? T[lang].orderNoMatch : T[lang].orderRecentTitle}</div></div>`;
-    return;
-  }
-  target.innerHTML = orders.map((order) => {
-    const itemsText = Array.isArray(order.items)
-      ? order.items.map((item) => `${lang === 'bn' ? item.name_bn : item.name_en} x${item.qty}`).join(', ')
-      : String(order.items || order.items_text || '');
-    return `
-      <div class="order-card">
-        <div class="order-top">
-          <div>
-            <strong>${order.order_id || 'AB-000000'}</strong>
-            <span>${order.timestamp || ''}</span>
-          </div>
-          <div class="order-status" style="${statusClass(order.status)}">${order.status || 'Pending'}</div>
-        </div>
-        <div class="order-items">${itemsText}</div>
-        <div class="order-items">৳${order.total || 0} · ${order.payment_method || ''} · ${order.area || ''} · ${order.slot || ''}</div>
-      </div>`;
-  }).join('');
-}
-
-function parseOrderCSV(text){
-  const lines = text.trim().split('\n');
-  if (lines.length < 2) return [];
-  const headers = csvRow(lines[0]).map((h) => h.toLowerCase().replace(/ /g, '_').trim());
-  return lines.slice(1).map((line) => {
-    const cols = csvRow(line);
-    if (!cols.join('').trim()) return null;
-    const row = {};
-    headers.forEach((header, i) => { row[header] = (cols[i] || '').trim(); });
-    return row;
-  }).filter(Boolean);
-}
-
-async function trackOrders(){
-  const phone = byId('trackPhone').value.trim();
-  byId('trackError').textContent = '';
-  const button = byId('trackBtn');
-  const original = button.innerHTML;
-  if (!phone || phone.length < 7) {
-    byId('trackError').textContent = lang === 'bn' ? 'সঠিক মোবাইল নম্বর দিন' : 'Enter a valid mobile number';
-    return;
-  }
-
-  if (!ORDER_CSV) {
-    byId('trackError').textContent = T[lang].orderNotConfigured;
-    renderOrderList(localOrders.filter((order) => String(order.phone).replace(/\s/g, '') === phone.replace(/\s/g, '')), phone);
-    return;
-  }
-
-  button.innerHTML = `<span class="spin"></span>`;
-  button.disabled = true;
-  try{
-    const res = await fetch(`${ORDER_CSV}&t=${Date.now()}`, {cache:'no-store'});
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const csv = await res.text();
-    const orders = parseOrderCSV(csv).filter((row) => String(row.phone || '').replace(/\s/g, '') === phone.replace(/\s/g, ''));
-    renderOrderList(orders, phone);
-  }catch(error){
-    byId('trackError').textContent = T[lang].orderSearchError;
-    renderOrderList(localOrders.filter((order) => String(order.phone).replace(/\s/g, '') === phone.replace(/\s/g, '')), phone);
-  }
-  button.innerHTML = original;
-  button.disabled = false;
-}
-
-function closeModal(){ byId('successModal').classList.remove('open'); }
 
 function showToast(message){
   const toast = byId('toast');
@@ -1556,14 +2160,16 @@ function showToast(message){
 
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') {
+    closeSidebar();
     closeCart();
     closeModal();
   }
 });
 
-setupQuickLinks();
-buildCategoryNav();
-renderRails();
+setupLinks();
+renderCategoryPills();
+renderSidebarCategories();
+renderCategoryGrid();
 renderProducts(products);
 renderSavedAddressOptions();
 switchTab('cart');
