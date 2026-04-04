@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Amrar Bazar | আমরার বাজার</title>
-<meta name="description" content="Bangla-first, mobile-first daily shopping website with location-based products, offers, GPS checkout, and a clean cart drawer.">
+<meta name="description" content="Bangla-first, mobile-first daily shopping website with location-based products, offers, address-first checkout, and a clean cart drawer.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -42,6 +42,7 @@ body{
 }
 body.bn{font-family:'Hind Siliguri',sans-serif}
 body.nav-open,body.cart-open,body.location-open{overflow:hidden}
+body.focus-mode .footer{display:none}
 body.theme-kulaura{
   --hero-start:#2b6a42;
   --hero-mid:#4a955d;
@@ -212,6 +213,13 @@ img{display:block;max-width:100%}
 .header-chip{
   background:var(--surface);
   border:1px solid var(--line);
+}
+.header-chip.compact{
+  padding:11px 12px;
+  min-width:44px;
+  justify-content:center;
+  display:inline-flex;
+  align-items:center;
 }
 .cart-btn{
   background:var(--green);
@@ -646,7 +654,7 @@ img{display:block;max-width:100%}
   border-radius:28px;
   padding:28px;
   display:grid;
-  grid-template-columns:1.4fr 1fr 1fr;
+  grid-template-columns:1.4fr 1fr 1fr 1.1fr;
   gap:20px;
 }
 .footer-card h4{
@@ -664,6 +672,41 @@ img{display:block;max-width:100%}
   gap:8px;
   font-size:14px;
   color:rgba(255,255,255,.82);
+}
+.footer-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:14px;
+}
+.footer-links a{
+  color:#fff;
+  opacity:.92;
+  font-size:13px;
+  border-bottom:1px solid rgba(255,255,255,.22);
+}
+.footer-app{
+  display:grid;
+  gap:10px;
+}
+.footer-badge{
+  border:1px solid rgba(255,255,255,.15);
+  border-radius:16px;
+  padding:10px 12px;
+  font-size:13px;
+  color:rgba(255,255,255,.88);
+  background:rgba(255,255,255,.05);
+}
+.footer-bottom{
+  margin-top:18px;
+  padding-top:16px;
+  border-top:1px solid rgba(255,255,255,.12);
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  color:rgba(255,255,255,.72);
+  font-size:13px;
 }
 
 .cart-overlay,.nav-overlay,.location-overlay{
@@ -1006,6 +1049,11 @@ img{display:block;max-width:100%}
   box-shadow:0 18px 32px rgba(26,107,58,.28);
 }
 .mobile-cart-bar.show{display:none}
+.mobile-cart-actions{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
 .mobile-cart-bar small{
   display:block;
   opacity:.82;
@@ -1022,6 +1070,39 @@ img{display:block;max-width:100%}
   padding:11px 14px;
   font-weight:900;
 }
+.mobile-cart-bar .mini-cart-btn{
+  min-width:44px;
+  padding:11px 0;
+  border-radius:14px;
+}
+
+.floating-cart{
+  position:fixed;
+  right:22px;
+  bottom:22px;
+  z-index:58;
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+  min-width:82px;
+  padding:12px 14px;
+  border-radius:18px;
+  background:var(--green);
+  color:#fff;
+  box-shadow:0 18px 32px rgba(26,107,58,.28);
+}
+.floating-cart small{
+  opacity:.8;
+  font-size:11px;
+}
+.floating-cart strong{
+  font-size:14px;
+}
+.floating-cart span{
+  font-size:16px;
+  font-weight:900;
+}
+.floating-cart.hidden{display:none}
 
 .location-modal{
   position:fixed;
@@ -1059,6 +1140,10 @@ img{display:block;max-width:100%}
   border-radius:22px;
   padding:20px;
   background:var(--surface-2);
+}
+.location-option.active{
+  border-color:var(--green);
+  box-shadow:0 0 0 3px rgba(26,107,58,.08);
 }
 .location-option strong{
   display:block;
@@ -1153,6 +1238,8 @@ img{display:block;max-width:100%}
   .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:640px){
+  main{padding-bottom:104px}
+  body.focus-mode main{padding-bottom:120px}
   .shell{padding:0 14px}
   .topbar-row,.section-head{align-items:flex-start}
   .section-head{flex-direction:column}
@@ -1189,6 +1276,13 @@ img{display:block;max-width:100%}
   .header-chip{
     padding:10px 12px;
     font-size:13px;
+  }
+  .header-actions{
+    gap:6px;
+  }
+  .header-chip.compact{
+    padding:10px 11px;
+    min-width:40px;
   }
   .cart-btn{display:none}
   .hero-copy{
@@ -1312,7 +1406,23 @@ img{display:block;max-width:100%}
   .cart-panel.open{transform:translateY(0)}
   .two-col,.location-grid{grid-template-columns:1fr}
   .mobile-cart-bar.show{display:flex}
-  .footer{display:none}
+  .floating-cart{display:none}
+  .footer{
+    margin-bottom:110px;
+  }
+  body.focus-mode .footer{display:none}
+  .footer-card{
+    border-radius:24px;
+    padding:22px 18px;
+  }
+  .footer-bottom{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+}
+
+@media (min-width:641px){
+  body.focus-mode .floating-cart.hidden{display:none}
 }
 </style>
 </head>
@@ -1350,8 +1460,7 @@ img{display:block;max-width:100%}
       </div>
     </div>
     <div class="header-actions">
-      <a class="header-chip" id="callBtn" href="#">📞 <span data-t="callBtn">কল</span></a>
-      <a class="header-chip" id="waBtn" href="#" target="_blank" rel="noreferrer">💬 WhatsApp</a>
+      <a class="header-chip compact" id="waBtn" href="#" target="_blank" rel="noreferrer" aria-label="WhatsApp">💬</a>
       <button class="header-chip" onclick="loadProductsForLocation()"><span data-t="syncBtn">আপডেট</span></button>
       <button class="cart-btn" onclick="openCart()">🛒 <span data-t="cartBtn">কার্ট</span> <span class="cart-count" id="cartCount">0</span></button>
     </div>
@@ -1394,7 +1503,6 @@ img{display:block;max-width:100%}
     <div id="sidebarCats"></div>
   </div>
   <div class="sidebar-foot">
-    <a id="sideCallBtn" href="#">📞 <span data-t="menuCall">এখন কল করুন</span></a>
     <a id="sideWaBtn" href="#" target="_blank" rel="noreferrer">💬 <span data-t="menuWhatsApp">WhatsApp সাহায্য</span></a>
   </div>
 </aside>
@@ -1493,26 +1601,43 @@ img{display:block;max-width:100%}
     <div class="shell">
       <div class="footer-card">
         <div>
+          <div class="footer-links">
+            <a href="#" onclick="openLocationModal();return false;" data-t="footerCity1">Kulaura</a>
+            <a href="#" onclick="openLocationModal();return false;" data-t="footerCity2">Brahmanbaria</a>
+          </div>
           <h4>Amrar Bazar</h4>
-          <p data-t="footerIntro">This version keeps the current design direction but adds location-based sheets, offer logic, restaurant-ready cards, GPS checkout capture, and a more stable mobile UX for real daily shopping.</p>
+          <p data-t="footerIntro">This version keeps the current design direction, improves location-based sheet loading, and adds a more stable mobile shopping flow for real daily orders.</p>
         </div>
         <div>
-          <h4 data-t="footerConfigTitle">Config Notes</h4>
+          <h4 data-t="footerAboutTitle">About</h4>
           <ul>
-            <li data-t="footerConfig1">Separate sheet per location</li>
-            <li data-t="footerConfig2">Google Drive image support</li>
-            <li data-t="footerConfig3">Offer auto-calculation</li>
-            <li data-t="footerConfig4">Simple address-first checkout</li>
+            <li data-t="footerAbout1">About us</li>
+            <li data-t="footerAbout2">Terms of use</li>
+            <li data-t="footerAbout3">Privacy policy</li>
+            <li data-t="footerAbout4">Refund policy</li>
           </ul>
         </div>
         <div>
-          <h4 data-t="footerNextTitle">Next Upgrade</h4>
+          <h4 data-t="footerSupportTitle">Customer service</h4>
           <ul>
-            <li data-t="footerNext1">OTP login + saved profile</li>
-            <li data-t="footerNext2">Realtime stock quantity</li>
-            <li data-t="footerNext3">Analytics + SEO landing pages</li>
-            <li data-t="footerNext4">Location-aware delivery fee logic</li>
+            <li data-t="footerSupport1">Contact us</li>
+            <li data-t="footerSupport2">Delivery help</li>
+            <li data-t="footerSupport3">Order tracking</li>
+            <li data-t="footerSupport4">FAQ</li>
           </ul>
+        </div>
+        <div>
+          <h4 data-t="footerBusinessTitle">For daily operation</h4>
+          <div class="footer-app">
+            <div class="footer-badge" data-t="footerBusiness1">Separate sheet per location</div>
+            <div class="footer-badge" data-t="footerBusiness2">Google Drive image support</div>
+            <div class="footer-badge" data-t="footerBusiness3">Offer auto-calculation</div>
+            <div class="footer-badge" data-t="footerBusiness4">Address-first checkout</div>
+          </div>
+        </div>
+        <div class="footer-bottom" style="grid-column:1/-1">
+          <span data-t="footerCopy">© 2026 Amrar Bazar</span>
+          <span data-t="footerContact">WhatsApp support available from header and sidebar</span>
         </div>
       </div>
     </div>
@@ -1609,8 +1734,17 @@ img{display:block;max-width:100%}
     <small data-t="mobileCartLabel">কার্টে আছে</small>
     <strong id="mobileCartSummary">0 items · ৳0</strong>
   </div>
-  <button onclick="openCart()" data-t="mobileCartBtn">কার্ট খুলুন</button>
+  <div class="mobile-cart-actions">
+    <button class="mini-cart-btn" onclick="openCart()" aria-label="Open cart">🛒</button>
+    <button onclick="openCart()" data-t="mobileCartBtn">কার্ট খুলুন</button>
+  </div>
 </div>
+
+<button class="floating-cart hidden" id="floatingCart" onclick="openCart()" aria-label="Open cart">
+  <small data-t="floatingCartLabel">কার্ট</small>
+  <strong id="floatingCartCount">0 items</strong>
+  <span id="floatingCartTotal">৳0</span>
+</button>
 
 <div class="location-overlay" id="locationOverlay" onclick="closeLocationModal()"></div>
 <div class="location-modal" id="locationModal">
@@ -1654,7 +1788,9 @@ const LOCATION_SHEETS = {
     subtitle_bn: 'tea garden / natural theme',
     subtitle_en: 'tea garden / natural theme',
     theme: 'theme-kulaura',
-    productCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRVO8UIFvM3nGkpdWimi5bhkezwsQE1p4lFT7SNI7l_TcBv6W8xZFeAoz5DoFYplYbrUOki9b3ZzNp6/pub?output=csv'
+    productCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRVO8UIFvM3nGkpdWimi5bhkezwsQE1p4lFT7SNI7l_TcBv6W8xZFeAoz5DoFYplYbrUOki9b3ZzNp6/pub?output=csv',
+    orderScript: 'PASTE_KULAURA_WEB_APP_URL_HERE',
+    orderCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSyEQHdTkPdp-lu9S4AG2_gQ71viYeTJC04dyoAflsgqtBzJLZKQhjNQHGQEIBA-EfD3jxOwFQ5x0BN/pub?output=csv'
   },
   brahmanbaria: {
     title_bn: 'Brahmanbaria',
@@ -1662,12 +1798,12 @@ const LOCATION_SHEETS = {
     subtitle_bn: 'cultural / traditional theme',
     subtitle_en: 'cultural / traditional theme',
     theme: 'theme-brahmanbaria',
-    productCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS3zf7tuIqYMBqtDFYJf-l1saBvO-DNAnGqEMdfJXhexJfjKMJw3Vjt9gOYjRTMqO1Cy7m7D2qpV0fR/pub?output=csv'
+    productCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS3zf7tuIqYMBqtDFYJf-l1saBvO-DNAnGqEMdfJXhexJfjKMJw3Vjt9gOYjRTMqO1Cy7m7D2qpV0fR/pub?output=csv',
+    orderScript: 'PASTE_BRAHMANBARIA_WEB_APP_URL_HERE',
+    orderCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSmQ7Rt7LKtBPJzXg3nOskf7gtheJgMGCitDqtezj887OUCkSXgkKGFvw8S_UvE5wY8l9Indcd00QvS/pub?output=csv'
   }
 };
 
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzGYtVEUa0qDZFk_8rKhRESgiSFEcU-VrlHMTgDK-a74yPjzt2vpjYLSFN9EoFHxoz3Ew/exec';
-const SUPPORT_PHONE = '01625913150';
 const SUPPORT_WHATSAPP = '8801625913150';
 const DELIVERY_FEE = 40;
 const FREE_DELIVERY = 1000;
@@ -1677,7 +1813,6 @@ const T = {
   bn:{
     topbarNote:'বাংলা ফার্স্ট, মোবাইল ফার্স্ট বাজার অভিজ্ঞতা',
     brandSub:'location-based grocery, pharmacy, restaurant',
-    callBtn:'কল',
     syncBtn:'আপডেট',
     cartBtn:'কার্ট',
     sidebarSub:'লোকেশনভিত্তিক বাজার, অফার, ফার্মেসি, রেস্টুরেন্ট',
@@ -1689,7 +1824,6 @@ const T = {
     menuCart:'কার্ট',
     menuCartSub:'Chaldal-style drawer',
     sideCategories:'Categories',
-    menuCall:'এখন কল করুন',
     menuWhatsApp:'WhatsApp সাহায্য',
     heroTitle:'লোকেশনভিত্তিক প্রতিদিনের বাজার',
     heroText:'Blinkit-inspired top flow, Chaldal-style cart drawer, Bangla-first loading, location-based sheet switching, and a cleaner mobile shopping experience for your real customers.',
@@ -1713,17 +1847,26 @@ const T = {
     categoryTitle:'Featured categories',
     categoryText:'main item, grocery, pharmacy, restaurant, offers',
     productsSub:'অফার, ডিসকাউন্ট, restaurant label, stable mobile cards, and accurate cart state',
-    footerIntro:'This version keeps the current design direction but adds location-based sheets, offer logic, restaurant-ready cards, GPS checkout capture, and a more stable mobile UX for real daily shopping.',
-    footerConfigTitle:'Config Notes',
-    footerConfig1:'Separate sheet per location',
-    footerConfig2:'Google Drive image support',
-    footerConfig3:'Offer auto-calculation',
-    footerConfig4:'Simple address-first checkout',
-    footerNextTitle:'Next Upgrade',
-    footerNext1:'OTP login + saved profile',
-    footerNext2:'Realtime stock quantity',
-    footerNext3:'Analytics + SEO landing pages',
-    footerNext4:'Location-aware delivery fee logic',
+    footerCity1:'Kulaura',
+    footerCity2:'Brahmanbaria',
+    footerIntro:'এই ভার্সনে একই ডিজাইন রেখেই location-based sheet loading, offer logic আর stable mobile shopping flow উন্নত করা হয়েছে।',
+    footerAboutTitle:'About',
+    footerAbout1:'About us',
+    footerAbout2:'Terms of use',
+    footerAbout3:'Privacy policy',
+    footerAbout4:'Refund policy',
+    footerSupportTitle:'Customer service',
+    footerSupport1:'Contact us',
+    footerSupport2:'Delivery help',
+    footerSupport3:'Order tracking',
+    footerSupport4:'FAQ',
+    footerBusinessTitle:'For daily operation',
+    footerBusiness1:'Separate sheet per location',
+    footerBusiness2:'Google Drive image support',
+    footerBusiness3:'Offer auto-calculation',
+    footerBusiness4:'Address-first checkout',
+    footerCopy:'© 2026 Amrar Bazar',
+    footerContact:'WhatsApp support header এবং sidebar থেকে পাওয়া যাবে',
     cartHead:'আপনার কার্ট',
     tabCart:'কার্ট',
     tabCheckout:'চেকআউট',
@@ -1747,6 +1890,7 @@ const T = {
     btnBack:'কার্টে ফিরে যান',
     mobileCartLabel:'কার্টে আছে',
     mobileCartBtn:'কার্ট খুলুন',
+    floatingCartLabel:'কার্ট',
     locationModalTitle:'লোকেশন বেছে নিন',
     locationModalText:'প্রতিটি লোকেশনের জন্য আলাদা Google Sheet থাকবে, তাই পণ্য ও দাম লোকেশন অনুযায়ী আলাদা লোড হবে।',
     locationKulaura:'Kulaura',
@@ -1760,6 +1904,7 @@ const T = {
     loadingSheet:'লোকেশন অনুযায়ী Google Sheet থেকে পণ্য লোড হচ্ছে...',
     loadedSheet:'টি পণ্য লাইভ লোড হয়েছে',
     fallbackSheet:'Fallback পণ্য দেখানো হচ্ছে। লোকেশন sheet URL সেট করলে লাইভ পণ্য আসবে।',
+    sheetEmpty:'Sheet লোড হয়েছে, কিন্তু usable row পাওয়া যায়নি। header নাম ঠিক আছে কি না দেখুন।',
     chooseLocationFirst:'পণ্য দেখতে আগে একটি লোকেশন বেছে নিন',
     totalItems:'মোট পণ্য',
     resultCount:'টি পণ্য',
@@ -1774,6 +1919,7 @@ const T = {
     noSavedAddress:'কোনো saved address নেই',
     chooseSavedAddress:'Saved address বেছে নিন',
     successText:'আপনার অর্ডার সফলভাবে গ্রহণ করা হয়েছে। খুব শিগগিরই কনফার্মেশন দেওয়া হবে।',
+    orderSavedLocal:'লোকাল কনফার্মেশন দেখানো হয়েছে। Apps Script web app URL যোগ করলে order sheet-এও যাবে।',
     stockIn:'In stock',
     stockLow:'Low stock',
     stockOut:'Out of stock',
@@ -1805,7 +1951,6 @@ const T = {
   en:{
     topbarNote:'Bangla-first, mobile-first shopping experience',
     brandSub:'location-based grocery, pharmacy, restaurant',
-    callBtn:'Call',
     syncBtn:'Sync',
     cartBtn:'Cart',
     sidebarSub:'Location-based grocery, offers, pharmacy, restaurant',
@@ -1817,7 +1962,6 @@ const T = {
     menuCart:'Cart',
     menuCartSub:'Chaldal-style drawer',
     sideCategories:'Categories',
-    menuCall:'Call now',
     menuWhatsApp:'WhatsApp help',
     heroTitle:'Location-based daily shopping',
     heroText:'Blinkit-inspired top flow, Chaldal-style cart drawer, Bangla-first loading, location-based sheet switching, and a cleaner mobile shopping experience for real customers.',
@@ -1841,17 +1985,26 @@ const T = {
     categoryTitle:'Featured categories',
     categoryText:'main item, grocery, pharmacy, restaurant, offers',
     productsSub:'offers, discount display, restaurant labels, stable mobile cards, and accurate cart state',
-    footerIntro:'This version keeps the current design direction but adds location-based sheets, offer logic, restaurant-ready cards, GPS checkout capture, and a more stable mobile UX for real daily shopping.',
-    footerConfigTitle:'Config Notes',
-    footerConfig1:'Separate sheet per location',
-    footerConfig2:'Google Drive image support',
-    footerConfig3:'Offer auto-calculation',
-    footerConfig4:'Simple address-first checkout',
-    footerNextTitle:'Next Upgrade',
-    footerNext1:'OTP login + saved profile',
-    footerNext2:'Realtime stock quantity',
-    footerNext3:'Analytics + SEO landing pages',
-    footerNext4:'Location-aware delivery fee logic',
+    footerCity1:'Kulaura',
+    footerCity2:'Brahmanbaria',
+    footerIntro:'This version keeps the same design direction while improving location-based sheet loading and a more stable mobile shopping flow.',
+    footerAboutTitle:'About',
+    footerAbout1:'About us',
+    footerAbout2:'Terms of use',
+    footerAbout3:'Privacy policy',
+    footerAbout4:'Refund policy',
+    footerSupportTitle:'Customer service',
+    footerSupport1:'Contact us',
+    footerSupport2:'Delivery help',
+    footerSupport3:'Order tracking',
+    footerSupport4:'FAQ',
+    footerBusinessTitle:'For daily operation',
+    footerBusiness1:'Separate sheet per location',
+    footerBusiness2:'Google Drive image support',
+    footerBusiness3:'Offer auto-calculation',
+    footerBusiness4:'Address-first checkout',
+    footerCopy:'© 2026 Amrar Bazar',
+    footerContact:'WhatsApp support is available from the header and sidebar',
     cartHead:'Your cart',
     tabCart:'Cart',
     tabCheckout:'Checkout',
@@ -1875,6 +2028,7 @@ const T = {
     btnBack:'Back to cart',
     mobileCartLabel:'In cart',
     mobileCartBtn:'Open cart',
+    floatingCartLabel:'Cart',
     locationModalTitle:'Choose a location',
     locationModalText:'Each location uses a separate Google Sheet, so products and prices will load differently by location.',
     locationKulaura:'Kulaura',
@@ -1888,6 +2042,7 @@ const T = {
     loadingSheet:'Loading products from the selected location sheet...',
     loadedSheet:'products loaded live',
     fallbackSheet:'Fallback products are showing. Set location sheet URLs for live data.',
+    sheetEmpty:'The sheet loaded, but no usable rows were found. Check your header names.',
     chooseLocationFirst:'Choose a location first to view products',
     totalItems:'total items',
     resultCount:'items',
@@ -1902,6 +2057,7 @@ const T = {
     noSavedAddress:'No saved address',
     chooseSavedAddress:'Choose a saved address',
     successText:'Your order has been received successfully. You will get confirmation shortly.',
+    orderSavedLocal:'Local confirmation was shown. Add an Apps Script web app URL to also save orders into your sheet.',
     stockIn:'In stock',
     stockLow:'Low stock',
     stockOut:'Out of stock',
@@ -1950,7 +2106,7 @@ const FALLBACK = [
 let lang = localStorage.getItem('amrar-lang') || 'bn';
 let selectedLocation = localStorage.getItem('amrar-location') || '';
 let products = [];
-let cart = {};
+let cart = JSON.parse(localStorage.getItem('amrar-cart') || '{}');
 let savedAddresses = JSON.parse(localStorage.getItem('amrar-saved-addresses') || '[]');
 let toastTimer;
 let activeCat = 'all';
@@ -1968,9 +2124,7 @@ function saveCart(){
 }
 
 function setupLinks(){
-  byId('callBtn').href = `tel:${SUPPORT_PHONE}`;
   byId('waBtn').href = `https://wa.me/${SUPPORT_WHATSAPP}`;
-  byId('sideCallBtn').href = `tel:${SUPPORT_PHONE}`;
   byId('sideWaBtn').href = `https://wa.me/${SUPPORT_WHATSAPP}`;
 }
 
@@ -1994,11 +2148,15 @@ function updateLocationUI(){
   if (!selectedLocation || !LOCATION_SHEETS[selectedLocation]) {
     byId('locationTitle').textContent = T[lang].locationTitleEmpty;
     byId('locationSubtitle').textContent = T[lang].locationSubtitleEmpty;
+    document.querySelectorAll('.location-option').forEach((button) => button.classList.remove('active'));
     return;
   }
   const config = LOCATION_SHEETS[selectedLocation];
   byId('locationTitle').textContent = lang === 'bn' ? config.title_bn : config.title_en;
   byId('locationSubtitle').textContent = lang === 'bn' ? config.subtitle_bn : config.subtitle_en;
+  document.querySelectorAll('.location-option').forEach((button) => {
+    button.classList.toggle('active', button.getAttribute('onclick')?.includes(`'${selectedLocation}'`));
+  });
 }
 
 function setLang(nextLang){
@@ -2034,31 +2192,50 @@ function setStatus(type, message){
   bar.innerHTML = `${icon} <span id="statusMsg">${message}</span>`;
 }
 
+function normalizeHeader(header){
+  return String(header)
+    .toLowerCase()
+    .trim()
+    .replace(/\uFEFF/g, '')
+    .replace(/[^\p{L}\p{N}]+/gu, '_')
+    .replace(/^_+|_+$/g, '');
+}
+
+function firstValue(row, keys){
+  for (const key of keys) {
+    const value = row[key];
+    if (value !== undefined && value !== null && String(value).trim() !== '') return String(value).trim();
+  }
+  return '';
+}
+
 function parseCSV(text){
   const lines = text.trim().split('\n');
   if (lines.length < 2) return [];
-  const headers = csvRow(lines[0]).map((h) => h.toLowerCase().trim());
+  const headers = csvRow(lines[0]).map(normalizeHeader);
   return lines.slice(1).map((line, index) => {
     const cols = csvRow(line);
     if (!cols.join('').trim()) return null;
     const row = {};
     headers.forEach((header, i) => { row[header] = (cols[i] || '').trim(); });
-    const nameEn = row.name_en || row.name || '';
+    const activeValue = firstValue(row, ['active','is_active','enabled']);
+    if (activeValue && ['false','0','no','off','inactive'].includes(activeValue.toLowerCase())) return null;
+    const nameEn = firstValue(row, ['name_en','name','product_name_en','title_en','item_name_en','item_name']);
     if (!nameEn) return null;
     return {
-      id: parseInt(row.id, 10) || index + 1,
+      id: parseInt(firstValue(row, ['id','product_id','sku']), 10) || index + 1,
       name_en: nameEn,
-      name_bn: row.name_bn || nameEn,
-      category: normalizeCategory(row.category || 'grocery'),
-      emoji: row.emoji || '📦',
-      current_price: parseFloat(row.current_price || row.price || row.current || '0') || 0,
-      previous_price: parseFloat(row.previous_price || row.old_price || row.previous || row.mrp || '0') || 0,
-      unit: row.unit || 'pcs',
-      badge: row.badge || '',
-      image: normalizeDriveImage(row.image || row.image_url || row.photo || row.drive_image || ''),
-      stock_status: normalizeStockStatus(row.stock_status || row.stock || 'in'),
-      restaurant_name: row.restaurant_name || row.restaurant || '',
-      food_category: row.food_category || row.menu_category || '',
+      name_bn: firstValue(row, ['name_bn','product_name_bn','title_bn']) || nameEn,
+      category: normalizeCategory(firstValue(row, ['category','category_name','type']) || 'grocery'),
+      emoji: firstValue(row, ['emoji']) || '📦',
+      current_price: parseFloat(firstValue(row, ['current_price','current','price','selling_price','sale_price']) || '0') || 0,
+      previous_price: parseFloat(firstValue(row, ['previous_price','old_price','previous','mrp','regular_price']) || '0') || 0,
+      unit: firstValue(row, ['unit','size']) || 'pcs',
+      badge: firstValue(row, ['badge','tag']),
+      image: normalizeDriveImage(firstValue(row, ['image','image_url','photo','drive_image','image_link'])),
+      stock_status: normalizeStockStatus(firstValue(row, ['stock_status','stock','availability']) || 'in'),
+      restaurant_name: firstValue(row, ['restaurant_name','restaurant','vendor_name']),
+      food_category: firstValue(row, ['food_category','menu_category','sub_category']),
       location: selectedLocation
     };
   }).filter(Boolean);
@@ -2081,7 +2258,13 @@ function csvRow(row){
 
 function normalizeCategory(raw){
   const value = String(raw).toLowerCase().trim();
-  if (['restaurant','food','meal','snacks','restaurant/snacks'].includes(value)) return 'restaurant';
+  if (['restaurant','restaurant_food','food','meal','snacks','restaurant_snacks'].includes(value)) return 'restaurant';
+  if (['vegetable','vegetables'].includes(value)) return 'vegetables';
+  if (['fruit','fruits'].includes(value)) return 'fruits';
+  if (['medicine','pharmacy','medicines','health'].includes(value)) return 'medicine';
+  if (['beverage','beverages','drink','drinks'].includes(value)) return 'beverage';
+  if (['personal','hygiene','cleaning','personal_care','cleaning_supplies'].includes(value)) return 'personal';
+  if (['fish','protein','meat','grocery','groceries','staples'].includes(value)) return 'grocery';
   if (value === 'offer' || value === 'offers') return 'offers';
   return value || 'grocery';
 }
@@ -2151,7 +2334,10 @@ async function loadProductsForLocation(){
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const csv = await res.text();
     const rows = parseCSV(csv);
-    if (!rows.length) throw new Error('empty');
+    if (!rows.length) {
+      setStatus('error', T[lang].sheetEmpty);
+      throw new Error('empty');
+    }
     products = rows;
     setStatus('ok', `${products.length} ${T[lang].loadedSheet}`);
   }catch(error){
@@ -2213,6 +2399,7 @@ function getFilteredProducts(){
 
 function toggleFocusMode(){
   const focused = activeCat !== 'all';
+  document.body.classList.toggle('focus-mode', focused);
   document.querySelectorAll('.focus-hide').forEach((el) => el.classList.toggle('hidden', focused));
   byId('focusHeader').classList.toggle('show', focused);
   const focusLabel = activeCat === 'offers' ? T[lang].cats.offers : (T[lang].cats[activeCat] || T[lang].cats.all);
@@ -2385,6 +2572,9 @@ function updateCartUI(){
   byId('btnCheckout').disabled = count === 0;
   byId('mobileCartSummary').textContent = `${count} ${lang === 'bn' ? 'টি পণ্য' : 'items'} · ৳${total}`;
   byId('mobileCartBar').classList.toggle('show', count > 0);
+  byId('floatingCartCount').textContent = `${count} ${lang === 'bn' ? 'টি' : 'items'}`;
+  byId('floatingCartTotal').textContent = `৳${total}`;
+  byId('floatingCart').classList.toggle('hidden', count === 0 || window.innerWidth <= 640);
   renderCartItems();
 }
 
@@ -2507,6 +2697,7 @@ async function placeOrder(){
   }).filter(Boolean).join(' | ');
 
   const orderId = `AB-${Date.now().toString().slice(-6)}`;
+  const orderScript = selectedLocation && LOCATION_SHEETS[selectedLocation] ? LOCATION_SHEETS[selectedLocation].orderScript : '';
   const payload = {
     timestamp: new Date().toLocaleString('en-GB', {
       timeZone:'Asia/Dhaka',
@@ -2538,12 +2729,16 @@ async function placeOrder(){
   button.innerHTML = `<span class="spin"></span> ${lang === 'bn' ? 'অর্ডার পাঠানো হচ্ছে...' : 'Submitting order...'}`;
 
   try{
-    await fetch(SCRIPT_URL, {
-      method:'POST',
-      mode:'no-cors',
-      headers:{'Content-Type':'text/plain'},
-      body:JSON.stringify(payload)
-    });
+    if (orderScript && !orderScript.includes('PASTE_')) {
+      await fetch(orderScript, {
+        method:'POST',
+        mode:'no-cors',
+        headers:{'Content-Type':'text/plain'},
+        body:JSON.stringify(payload)
+      });
+    } else {
+      showToast(T[lang].orderSavedLocal);
+    }
   }catch(error){
     console.warn(error);
   }
@@ -2590,7 +2785,10 @@ document.addEventListener('keydown', (event) => {
 });
 
 window.addEventListener('scroll', handleMobileSticky, {passive:true});
-window.addEventListener('resize', handleMobileSticky);
+window.addEventListener('resize', () => {
+  handleMobileSticky();
+  updateCartUI();
+});
 
 setupLinks();
 setThemeForLocation(selectedLocation);
