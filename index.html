@@ -1952,7 +1952,6 @@ let selectedLocation = localStorage.getItem('amrar-location') || '';
 let products = [];
 let cart = {};
 let savedAddresses = JSON.parse(localStorage.getItem('amrar-saved-addresses') || '[]');
-let gpsState = JSON.parse(localStorage.getItem('amrar-gps-state') || 'null');
 let toastTimer;
 let activeCat = 'all';
 let searchTerm = '';
@@ -2020,7 +2019,6 @@ function setLang(nextLang){
   renderCategoryGrid();
   renderProducts(getFilteredProducts());
   renderSavedAddressOptions();
-  renderGPSState();
   updateCartUI();
 }
 
@@ -2403,7 +2401,7 @@ function saveCurrentAddress(){
   const phone = byId('fPhone').value.trim();
   const address = byId('fAddr').value.trim();
   if (!name || !phone || !address) return showToast(lang === 'bn' ? 'নাম, মোবাইল, ঠিকানা দিন' : 'Enter name, phone and address');
-  savedAddresses.unshift({name, phone, address, gps: gpsState || null});
+  savedAddresses.unshift({name, phone, address});
   savedAddresses = savedAddresses.slice(0, 5);
   localStorage.setItem('amrar-saved-addresses', JSON.stringify(savedAddresses));
   renderSavedAddressOptions();
@@ -2417,48 +2415,6 @@ function applySavedAddress(index){
   byId('fName').value = item.name;
   byId('fPhone').value = item.phone;
   byId('fAddr').value = item.address;
-  gpsState = item.gps || gpsState;
-  localStorage.setItem('amrar-gps-state', JSON.stringify(gpsState));
-  renderGPSState();
-}
-
-function renderGPSState(){
-  if (!gpsState || !gpsState.latitude || !gpsState.longitude) {
-    byId('gpsTitle').textContent = T[lang].gpsWaiting;
-    byId('gpsStatus').textContent = T[lang].gpsHelp;
-    return;
-  }
-  byId('gpsTitle').textContent = T[lang].gpsReady;
-  byId('gpsStatus').textContent = `Lat: ${gpsState.latitude.toFixed(6)}, Lng: ${gpsState.longitude.toFixed(6)}, Accuracy: ${Math.round(gpsState.accuracy || 0)}m`;
-}
-
-function detectGPS(){
-  if (!navigator.geolocation) {
-    showToast(T[lang].gpsDenied);
-    return;
-  }
-  byId('gpsTitle').textContent = T[lang].gpsDetecting;
-  byId('gpsStatus').textContent = '';
-  navigator.geolocation.getCurrentPosition((position) => {
-    gpsState = {
-      latitude: position.coords.latitude,
-      longitude: position.coords.longitude,
-      accuracy: position.coords.accuracy,
-      captured_at: new Date().toISOString()
-    };
-    localStorage.setItem('amrar-gps-state', JSON.stringify(gpsState));
-    renderGPSState();
-  }, () => {
-    gpsState = null;
-    localStorage.removeItem('amrar-gps-state');
-    byId('gpsTitle').textContent = T[lang].gpsDenied;
-    byId('gpsStatus').textContent = T[lang].gpsHelp;
-    showToast(T[lang].gpsDenied);
-  }, {
-    enableHighAccuracy: true,
-    timeout: 12000,
-    maximumAge: 0
-  });
 }
 
 function switchTab(tab){
@@ -2542,7 +2498,6 @@ async function placeOrder(){
 
   if (!name) return showToast(T[lang].needName);
   if (!phone) return showToast(T[lang].needPhone);
-  if (!gpsState || !gpsState.latitude || !gpsState.longitude) return showToast(T[lang].needGPS);
   if (!address) return showToast(T[lang].needAddress);
 
   const {subtotal, delivery, total} = cartTotals();
@@ -2568,10 +2523,6 @@ async function placeOrder(){
     phone,
     alt_phone: alt,
     address_details: address,
-    gps_latitude: gpsState.latitude,
-    gps_longitude: gpsState.longitude,
-    gps_accuracy_m: gpsState.accuracy,
-    gps_address_text: address,
     delivery_slot: slot,
     payment_method: payment,
     items,
@@ -2647,7 +2598,6 @@ renderCategoryPills();
 renderSidebarCategories();
 renderCategoryGrid();
 renderSavedAddressOptions();
-renderGPSState();
 toggleFocusMode();
 setLang(lang);
 updateCartUI();
