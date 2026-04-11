@@ -35,9 +35,8 @@ body{
   font-family:'DM Sans',sans-serif;
   color:var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(248,207,72,.12), transparent 24%),
-    radial-gradient(circle at top right, rgba(26,107,58,.06), transparent 24%),
-    var(--cream);
+    radial-gradient(circle at top left, rgba(248,207,72,.10), transparent 20%),
+    linear-gradient(180deg,#fffdf8 0%,#f8f4ea 100%);
   overflow-x:hidden;
 }
 body.bn{font-family:'Hind Siliguri',sans-serif}
@@ -59,51 +58,39 @@ button{border:none;background:none;cursor:pointer}
 img{display:block;max-width:100%}
 .shell{max-width:var(--max);margin:0 auto;padding:0 18px}
 
-.topbar{
-  background:#101813;
-  color:#fff;
-  font-size:12px;
-}
-.topbar-row{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:12px;
-  flex-wrap:wrap;
-  padding:8px 0;
-}
 .lang-switch{
   display:flex;
-  gap:6px;
+  gap:4px;
   padding:4px;
   border-radius:999px;
-  background:rgba(255,255,255,.08);
+  background:#f3efe5;
+  border:1px solid var(--line);
 }
 .lang-switch button{
-  padding:6px 12px;
+  padding:8px 12px;
   border-radius:999px;
   font-size:12px;
   font-weight:900;
-  color:#fff;
-  opacity:.82;
+  color:var(--muted);
+  opacity:1;
 }
 .lang-switch button.active{
   background:var(--green);
-  opacity:1;
+  color:#fff;
 }
 
 .header{
   position:sticky;
   top:0;
   z-index:60;
-  background:rgba(248,245,238,.95);
+  background:rgba(255,255,252,.96);
   backdrop-filter:blur(14px);
-  border-bottom:1px solid rgba(231,223,210,.95);
+  border-bottom:1px solid rgba(231,223,210,.8);
 }
 .header-row{
   display:grid;
-  grid-template-columns:auto minmax(250px,1fr) auto;
-  gap:14px;
+  grid-template-columns:auto minmax(220px,320px) minmax(320px,1fr) auto;
+  gap:12px;
   align-items:center;
   padding:12px 0;
 }
@@ -117,7 +104,7 @@ img{display:block;max-width:100%}
   width:42px;
   height:42px;
   border-radius:14px;
-  background:var(--surface);
+  background:#fff;
   border:1px solid var(--line);
   font-size:18px;
 }
@@ -142,6 +129,7 @@ img{display:block;max-width:100%}
   display:block;
   font-size:20px;
   line-height:1;
+  letter-spacing:-.02em;
 }
 .brand-copy span{
   display:block;
@@ -149,20 +137,16 @@ img{display:block;max-width:100%}
   font-size:12px;
   color:var(--muted);
 }
-.search-area{
-  display:grid;
-  grid-template-columns:auto minmax(0,1fr);
-  gap:12px;
-  align-items:center;
-}
+.search-area{min-width:0}
 .location-chip{
-  min-width:240px;
-  background:var(--surface);
+  min-width:0;
+  background:#fff;
   border:1px solid var(--line);
-  border-radius:18px;
-  padding:10px 14px;
+  border-radius:20px;
+  padding:12px 16px;
   box-shadow:var(--shadow-soft);
   text-align:left;
+  position:relative;
 }
 .location-chip strong{
   display:block;
@@ -174,15 +158,22 @@ img{display:block;max-width:100%}
   color:var(--muted);
   font-size:12px;
 }
+.location-chip::before{
+  content:"📍";
+  position:absolute;
+  right:14px;
+  top:14px;
+  font-size:18px;
+}
 .search{
   position:relative;
 }
 .search input{
   width:100%;
-  background:var(--surface);
+  background:#fff;
   border:1.5px solid var(--line);
-  border-radius:18px;
-  padding:14px 48px 14px 16px;
+  border-radius:20px;
+  padding:15px 52px 15px 18px;
   outline:none;
 }
 .search input:focus{
@@ -193,8 +184,8 @@ img{display:block;max-width:100%}
   position:absolute;
   right:6px;
   top:6px;
-  width:38px;
-  height:38px;
+  width:40px;
+  height:40px;
   border-radius:12px;
   background:var(--green);
   color:#fff;
@@ -211,7 +202,7 @@ img{display:block;max-width:100%}
   white-space:nowrap;
 }
 .header-chip{
-  background:var(--surface);
+  background:#fff;
   border:1px solid var(--line);
 }
 .header-chip.compact{
@@ -241,8 +232,8 @@ img{display:block;max-width:100%}
 }
 
 .cat-strip{
-  padding:10px 0 12px;
-  background:rgba(248,245,238,.95);
+  padding:8px 0 14px;
+  background:rgba(255,255,252,.95);
 }
 .cat-strip.sticky-only{
   box-shadow:0 8px 18px rgba(13,31,19,.06);
@@ -270,45 +261,48 @@ img{display:block;max-width:100%}
 }
 
 .hero{
-  padding:8px 0 14px;
+  padding:14px 0 14px;
 }
 .hero-grid{
   display:grid;
-  grid-template-columns:minmax(0,1.45fr) minmax(0,.95fr);
-  gap:14px;
+  grid-template-columns:minmax(0,1.35fr) minmax(0,.95fr);
+  gap:16px;
 }
 .hero-banner{
-  min-height:315px;
-  border-radius:28px;
+  min-height:360px;
+  border-radius:32px;
   overflow:hidden;
   position:relative;
-  background:linear-gradient(135deg,var(--hero-start) 0%,var(--hero-mid) 42%,var(--hero-end) 100%);
+  background:
+    radial-gradient(circle at 85% 24%, rgba(255,255,255,.55), transparent 18%),
+    linear-gradient(90deg,var(--hero-start) 0%,var(--hero-mid) 48%,var(--hero-end) 100%);
   box-shadow:var(--shadow);
 }
 .hero-banner::after{
   content:"🥛 🍌 🍅 🥚 🥬";
   position:absolute;
-  right:24px;
-  bottom:18px;
-  font-size:72px;
-  letter-spacing:10px;
-  opacity:.18;
+  right:28px;
+  bottom:24px;
+  font-size:84px;
+  letter-spacing:12px;
+  opacity:.2;
 }
 .hero-copy{
   position:relative;
   z-index:1;
-  padding:34px;
+  padding:34px 34px 30px;
   max-width:560px;
   color:#fff;
 }
 .hero-copy h1{
-  font-size:clamp(34px,5vw,56px);
-  line-height:1.05;
+  font-size:clamp(34px,5vw,58px);
+  line-height:1.02;
+  letter-spacing:-.03em;
 }
 .hero-copy p{
   margin-top:14px;
-  font-size:16px;
-  line-height:1.65;
+  font-size:17px;
+  line-height:1.6;
   color:rgba(255,255,255,.92);
 }
 .hero-actions{
@@ -336,15 +330,15 @@ img{display:block;max-width:100%}
   gap:14px;
 }
 .promo-card{
-  min-height:150px;
-  border-radius:24px;
-  padding:22px 20px;
+  min-height:172px;
+  border-radius:28px;
+  padding:24px 22px;
   position:relative;
   overflow:hidden;
   box-shadow:var(--shadow-soft);
 }
 .promo-card h3{
-  font-size:28px;
+  font-size:30px;
   line-height:1.05;
   max-width:210px;
 }
@@ -366,11 +360,11 @@ img{display:block;max-width:100%}
   position:absolute;
   right:14px;
   bottom:8px;
-  font-size:66px;
-  opacity:.16;
+  font-size:78px;
+  opacity:.18;
 }
-.promo-pharmacy{background:linear-gradient(135deg,#58cfd1,#72ddd9);color:#fff}
-.promo-restaurant{background:linear-gradient(135deg,#ffd34e,#ffc62c);color:#2b2415}
+.promo-pharmacy{background:linear-gradient(135deg,#66d3d5,#8ae0de);color:#fff}
+.promo-restaurant{background:linear-gradient(135deg,#ffd44c,#ffca33);color:#2b2415}
 
 .section{padding:14px 0}
 .section-head{
@@ -386,14 +380,14 @@ img{display:block;max-width:100%}
 
 .service-grid{
   display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
+  grid-template-columns:repeat(3,minmax(0,1fr));
   gap:14px;
 }
 .service-card{
-  background:var(--surface);
+  background:#fff;
   border:1px solid var(--line);
   border-radius:24px;
-  padding:18px 16px;
+  padding:20px 18px;
   box-shadow:var(--shadow-soft);
 }
 .service-icon{
@@ -424,7 +418,7 @@ img{display:block;max-width:100%}
   gap:14px;
 }
 .category-card{
-  background:var(--surface);
+  background:#fff;
   border:1px solid var(--line);
   border-radius:24px;
   padding:16px 14px;
@@ -645,67 +639,70 @@ img{display:block;max-width:100%}
   font-weight:900;
 }
 
-.footer{
-  margin:18px auto 36px;
-}
+.footer{margin:22px auto 36px}
 .footer-card{
-  background:#163520;
-  color:#fff;
+  background:#fff;
+  color:var(--ink);
   border-radius:28px;
-  padding:28px;
-  display:grid;
-  grid-template-columns:1.4fr 1fr 1fr 1.1fr;
-  gap:20px;
+  padding:26px 28px 22px;
+  border:1px solid var(--line);
+  box-shadow:var(--shadow-soft);
 }
-.footer-card h4{
-  font-size:16px;
-  margin-bottom:10px;
+.footer-top{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  flex-wrap:wrap;
+  align-items:flex-start;
 }
-.footer-card p{
-  color:rgba(255,255,255,.74);
+.footer-top h4{
+  font-size:18px;
+  margin-bottom:6px;
+}
+.footer-top p{
+  color:var(--muted);
   font-size:14px;
   line-height:1.7;
-}
-.footer-card ul{
-  list-style:none;
-  display:grid;
-  gap:8px;
-  font-size:14px;
-  color:rgba(255,255,255,.82);
+  max-width:520px;
 }
 .footer-links{
   display:flex;
   flex-wrap:wrap;
   gap:10px;
-  margin-bottom:14px;
 }
 .footer-links a{
-  color:#fff;
-  opacity:.92;
+  color:var(--green);
   font-size:13px;
-  border-bottom:1px solid rgba(255,255,255,.22);
+  font-weight:800;
+  border-bottom:1px solid rgba(26,107,58,.18);
 }
-.footer-app{
-  display:grid;
+.footer-pill-row{
+  display:flex;
+  flex-wrap:wrap;
   gap:10px;
+  margin-top:18px;
 }
-.footer-badge{
-  border:1px solid rgba(255,255,255,.15);
-  border-radius:16px;
-  padding:10px 12px;
+.footer-pill{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding:11px 14px;
+  border-radius:999px;
+  background:#f8f4ea;
+  border:1px solid var(--line);
   font-size:13px;
-  color:rgba(255,255,255,.88);
-  background:rgba(255,255,255,.05);
+  font-weight:800;
 }
 .footer-bottom{
   margin-top:18px;
   padding-top:16px;
-  border-top:1px solid rgba(255,255,255,.12);
+  border-top:1px solid var(--line);
   display:flex;
   justify-content:space-between;
   gap:12px;
   flex-wrap:wrap;
-  color:rgba(255,255,255,.72);
+  color:var(--muted);
   font-size:13px;
 }
 
@@ -1175,6 +1172,49 @@ img{display:block;max-width:100%}
   text-align:center;
   box-shadow:var(--shadow);
 }
+.policy-modal-card{
+  width:min(760px,100%);
+  max-height:min(86dvh,900px);
+  overflow:auto;
+  background:#fff;
+  border-radius:30px;
+  padding:28px;
+  box-shadow:var(--shadow);
+}
+.policy-head{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:flex-start;
+  margin-bottom:18px;
+}
+.policy-head h3{
+  font-size:28px;
+}
+.policy-body{
+  display:grid;
+  gap:14px;
+  color:var(--muted);
+  line-height:1.75;
+  font-size:15px;
+}
+.policy-body strong{
+  color:var(--ink);
+}
+.faq-list{
+  display:grid;
+  gap:10px;
+}
+.faq-item{
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:14px 16px;
+  background:#faf7f0;
+}
+.faq-item strong{
+  display:block;
+  margin-bottom:6px;
+}
 .modal-card h3{
   font-size:26px;
   margin:10px 0 8px;
@@ -1229,10 +1269,9 @@ img{display:block;max-width:100%}
 @media (max-width:1180px){
   .hero-grid,.service-grid{grid-template-columns:1fr 1fr}
   .category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
-  .footer-card{grid-template-columns:1fr}
 }
 @media (max-width:980px){
-  .header-row,.search-area{grid-template-columns:1fr}
+  .header-row{grid-template-columns:1fr}
   .header-actions{justify-content:flex-start}
   .hero-grid{grid-template-columns:1fr}
   .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -1241,10 +1280,10 @@ img{display:block;max-width:100%}
   main{padding-bottom:104px}
   body.focus-mode main{padding-bottom:120px}
   .shell{padding:0 14px}
-  .topbar-row,.section-head{align-items:flex-start}
+  .section-head{align-items:flex-start}
   .section-head{flex-direction:column}
-  .header.mobile-compact .header-row{display:none}
-  .header.mobile-compact .cat-strip{padding-top:12px}
+  .header.mobile-compact .header-row{padding:8px 0}
+  .header.mobile-compact .cat-strip{padding-top:8px}
   .brand-mark{
     width:42px;
     height:42px;
@@ -1259,10 +1298,8 @@ img{display:block;max-width:100%}
   }
   .brand-copy strong{font-size:18px}
   .brand-copy span{font-size:11px}
-  .location-chip{
-    min-width:0;
-    padding:10px 12px;
-  }
+  .header-row{gap:10px}
+  .location-chip{padding:10px 12px}
   .location-chip strong{font-size:14px}
   .search input{
     padding:13px 46px 13px 14px;
@@ -1279,6 +1316,7 @@ img{display:block;max-width:100%}
   }
   .header-actions{
     gap:6px;
+    flex-wrap:wrap;
   }
   .header-chip.compact{
     padding:10px 11px;
@@ -1289,7 +1327,7 @@ img{display:block;max-width:100%}
     padding:22px;
   }
   .hero-copy h1{
-    font-size:34px;
+    font-size:32px;
     line-height:1.12;
   }
   .hero-copy p{
@@ -1312,10 +1350,7 @@ img{display:block;max-width:100%}
     right:10px;
     bottom:6px;
   }
-  .service-grid{
-    grid-template-columns:1fr 1fr;
-    gap:10px;
-  }
+  .service-grid{grid-template-columns:1fr;gap:10px}
   .service-card{
     padding:14px;
     border-radius:20px;
@@ -1415,9 +1450,20 @@ img{display:block;max-width:100%}
     border-radius:24px;
     padding:22px 18px;
   }
+  .footer-top{
+    flex-direction:column;
+  }
+  .footer-pill-row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
   .footer-bottom{
     flex-direction:column;
     align-items:flex-start;
+  }
+  .policy-modal-card{
+    padding:22px 18px;
+    border-radius:24px;
   }
 }
 
@@ -1427,16 +1473,6 @@ img{display:block;max-width:100%}
 </style>
 </head>
 <body class="bn">
-<div class="topbar">
-  <div class="shell topbar-row">
-    <div data-t="topbarNote">বাংলা ফার্স্ট, মোবাইল ফার্স্ট বাজার অভিজ্ঞতা</div>
-    <div class="lang-switch">
-      <button id="btnBn" class="active" onclick="setLang('bn')">বাংলা</button>
-      <button id="btnEn" onclick="setLang('en')">English</button>
-    </div>
-  </div>
-</div>
-
 <header class="header" id="stickyHeader">
   <div class="shell header-row">
     <div class="left-cluster">
@@ -1444,24 +1480,27 @@ img{display:block;max-width:100%}
       <a class="brand" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
         <div class="brand-mark">ab</div>
         <div class="brand-copy">
-          <strong>Amrar Bazar</strong>
-          <span data-t="brandSub">location-based grocery, pharmacy, restaurant</span>
+          <strong>amrarbazar</strong>
+          <span data-t="brandSub">fresh grocery, restaurant meals, pharmacy essentials</span>
         </div>
       </a>
     </div>
     <div class="search-area">
       <button class="location-chip" onclick="openLocationModal()">
         <strong id="locationTitle">লোকেশন সিলেক্ট করুন</strong>
-        <span id="locationSubtitle">পণ্য দেখতে আগে একটি লোকেশন বেছে নিন</span>
+        <span id="locationSubtitle">আজকের ডেলিভারির জন্য এলাকা বেছে নিন</span>
       </button>
-      <div class="search">
-        <input id="searchInput" type="text" placeholder="পণ্য খুঁজুন..." oninput="filterProducts()">
-        <button aria-label="Search">🔍</button>
-      </div>
+    </div>
+    <div class="search">
+      <input id="searchInput" type="text" placeholder="পণ্য খুঁজুন..." oninput="filterProducts()">
+      <button aria-label="Search">🔍</button>
     </div>
     <div class="header-actions">
       <a class="header-chip compact" id="waBtn" href="#" target="_blank" rel="noreferrer" aria-label="WhatsApp">💬</a>
-      <button class="header-chip" onclick="loadProductsForLocation()"><span data-t="syncBtn">আপডেট</span></button>
+      <div class="lang-switch">
+        <button id="btnBn" class="active" onclick="setLang('bn')">বাংলা</button>
+        <button id="btnEn" onclick="setLang('en')">English</button>
+      </div>
       <button class="cart-btn" onclick="openCart()">🛒 <span data-t="cartBtn">কার্ট</span> <span class="cart-count" id="cartCount">0</span></button>
     </div>
   </div>
@@ -1512,24 +1551,30 @@ img{display:block;max-width:100%}
     <div class="shell hero-grid">
       <div class="hero-banner">
         <div class="hero-copy">
-          <h1 data-t="heroTitle">লোকেশনভিত্তিক প্রতিদিনের বাজার</h1>
-          <p data-t="heroText">Blinkit-inspired top flow, Chaldal-style cart drawer, Bangla-first loading, location-based sheet switching, and a cleaner mobile shopping experience for your real customers.</p>
+          <h1 data-t="heroTitle">দ্রুত ডেলিভারিতে তাজা বাজার এখন হাতের নাগালে</h1>
+          <p data-t="heroText">গrocery, restaurant আর pharmacy essentials এখন এক জায়গায়। আপনার লোকেশন বেছে নিলেই দেখা যাবে আজকের দাম, অফার আর সবচেয়ে প্রয়োজনীয় পণ্য।</p>
           <div class="hero-actions">
-            <button class="hero-primary" onclick="scrollToSection('shopSection')" data-t="heroPrimary">এখনই কেনাকাটা</button>
+            <button class="hero-primary" onclick="scrollToSection('shopSection')" data-t="heroPrimary">এখনই শপিং শুরু করুন</button>
             <button class="hero-secondary" onclick="openLocationModal()" data-t="heroSecondary">লোকেশন বদলান</button>
           </div>
         </div>
       </div>
       <div class="side-promos">
+        <div class="promo-card" style="background:linear-gradient(135deg,#fff6d4,#ffe07d);color:#27301f">
+          <h3 data-t="promoGroceryTitle">Fresh grocery every day</h3>
+          <p data-t="promoGroceryText">সকালের রান্না থেকে রাতের বাজার, সব দরকারি পণ্য একসাথে অর্ডার করুন।</p>
+          <button onclick="filterCat('grocery')" data-t="promoBtn">Order now</button>
+          <div class="promo-art">🛒</div>
+        </div>
         <div class="promo-card promo-pharmacy">
           <h3 data-t="promoPharmacyTitle">Pharmacy at your doorstep</h3>
-          <p data-t="promoPharmacyText">ওষুধ, স্যানিটাইজার ও health essentials দ্রুত অর্ডার করুন।</p>
+          <p data-t="promoPharmacyText">বিশ্বাসযোগ্য pharmacy essentials, everyday medicine আর quick health support।</p>
           <button onclick="filterCat('medicine')" data-t="promoBtn">Order now</button>
           <div class="promo-art">💊</div>
         </div>
         <div class="promo-card promo-restaurant">
           <h3 data-t="promoRestaurantTitle">Restaurant meals fast</h3>
-          <p data-t="promoRestaurantText">ফুড ইমেজ, রেস্টুরেন্ট নাম, snacks আর quick meals একসাথে দেখান।</p>
+          <p data-t="promoRestaurantText">প্রিয় রেস্টুরেন্টের meals, snacks আর quick bites এখন আরও সহজে অর্ডার করুন।</p>
           <button onclick="filterCat('restaurant')" data-t="promoBtn">Order now</button>
           <div class="promo-art">🍲</div>
         </div>
@@ -1548,23 +1593,18 @@ img{display:block;max-width:100%}
       <div class="service-grid">
         <div class="service-card">
           <div class="service-icon">🛍️</div>
-          <strong data-t="service1T">Daily grocery</strong>
-          <span data-t="service1S">চাল, ডাল, তেল, সবজি, ফল, দৈনন্দিন essentials</span>
+          <strong data-t="service1T">আজকের বাজার</strong>
+          <span data-t="service1S">তাজা সবজি, চাল-ডাল, তেল, ফল আর ঘরের প্রয়োজনীয় সবকিছু</span>
         </div>
         <div class="service-card">
           <div class="service-icon">💊</div>
-          <strong data-t="service2T">Pharmacy</strong>
-          <span data-t="service2S">ওষুধ, স্বাস্থ্যপণ্য, quick need items</span>
+          <strong data-t="service2T">ফার্মেসি</strong>
+          <span data-t="service2S">প্রতিদিনের health essentials, medicine আর personal care</span>
         </div>
         <div class="service-card">
           <div class="service-icon">🍽️</div>
-          <strong data-t="service3T">Restaurant</strong>
-          <span data-t="service3S">restaurant name + food image based listing</span>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">🏷️</div>
-          <strong data-t="service4T">Offers</strong>
-          <span data-t="service4S">current price vs previous price auto discount display</span>
+          <strong data-t="service3T">রেস্টুরেন্ট</strong>
+          <span data-t="service3S">গরম গরম meals, snacks আর family favourites দ্রুত পৌঁছে যাবে</span>
         </div>
       </div>
     </div>
@@ -1600,42 +1640,27 @@ img{display:block;max-width:100%}
   <footer class="footer">
     <div class="shell">
       <div class="footer-card">
-        <div>
+        <div class="footer-top">
+          <div>
+            <h4>amrarbazar</h4>
+            <p data-t="footerIntro">প্রতিদিনের বাজার, প্রিয় খাবার আর প্রয়োজনীয় ফার্মেসি পণ্য এখন আরও সহজ, দ্রুত আর নির্ভরযোগ্যভাবে আপনার দরজায়।</p>
+          </div>
           <div class="footer-links">
             <a href="#" onclick="openLocationModal();return false;" data-t="footerCity1">Kulaura</a>
             <a href="#" onclick="openLocationModal();return false;" data-t="footerCity2">Brahmanbaria</a>
           </div>
-          <h4>Amrar Bazar</h4>
-          <p data-t="footerIntro">This version keeps the current design direction, improves location-based sheet loading, and adds a more stable mobile shopping flow for real daily orders.</p>
         </div>
-        <div>
-          <h4 data-t="footerAboutTitle">About</h4>
-          <ul>
-            <li data-t="footerAbout1">About us</li>
-            <li data-t="footerAbout2">Terms of use</li>
-            <li data-t="footerAbout3">Privacy policy</li>
-            <li data-t="footerAbout4">Refund policy</li>
-          </ul>
+        <div class="footer-pill-row">
+          <button class="footer-pill" onclick="openInfoModal('about')" data-t="footerAbout1">About us</button>
+          <button class="footer-pill" onclick="openInfoModal('terms')" data-t="footerAbout2">Terms of use</button>
+          <button class="footer-pill" onclick="openInfoModal('privacy')" data-t="footerAbout3">Privacy policy</button>
+          <button class="footer-pill" onclick="openInfoModal('refund')" data-t="footerAbout4">Refund policy</button>
+          <button class="footer-pill" onclick="openInfoModal('contact')" data-t="footerSupport1">Contact us</button>
+          <button class="footer-pill" onclick="openInfoModal('delivery')" data-t="footerSupport2">Delivery help</button>
+          <button class="footer-pill" onclick="openInfoModal('tracking')" data-t="footerSupport3">Order tracking</button>
+          <button class="footer-pill" onclick="openInfoModal('faq')" data-t="footerSupport4">FAQ</button>
         </div>
-        <div>
-          <h4 data-t="footerSupportTitle">Customer service</h4>
-          <ul>
-            <li data-t="footerSupport1">Contact us</li>
-            <li data-t="footerSupport2">Delivery help</li>
-            <li data-t="footerSupport3">Order tracking</li>
-            <li data-t="footerSupport4">FAQ</li>
-          </ul>
-        </div>
-        <div>
-          <h4 data-t="footerBusinessTitle">For daily operation</h4>
-          <div class="footer-app">
-            <div class="footer-badge" data-t="footerBusiness1">Separate sheet per location</div>
-            <div class="footer-badge" data-t="footerBusiness2">Google Drive image support</div>
-            <div class="footer-badge" data-t="footerBusiness3">Offer auto-calculation</div>
-            <div class="footer-badge" data-t="footerBusiness4">Address-first checkout</div>
-          </div>
-        </div>
-        <div class="footer-bottom" style="grid-column:1/-1">
+        <div class="footer-bottom">
           <span data-t="footerCopy">© 2026 Amrar Bazar</span>
           <span data-t="footerContact">WhatsApp support available from header and sidebar</span>
         </div>
@@ -1774,6 +1799,18 @@ img{display:block;max-width:100%}
   </div>
 </div>
 
+<div class="modal" id="infoModal" onclick="if(event.target===this) closeInfoModal()">
+  <div class="policy-modal-card">
+    <div class="policy-head">
+      <div>
+        <h3 id="infoModalTitle">About</h3>
+      </div>
+      <button class="icon-btn" onclick="closeInfoModal()">✕</button>
+    </div>
+    <div class="policy-body" id="infoModalBody"></div>
+  </div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script>
@@ -1805,6 +1842,7 @@ const LOCATION_SHEETS = {
 };
 
 const SUPPORT_WHATSAPP = '8801625913150';
+const SUPPORT_EMAIL = 'support@amrarbazar.com';
 const DELIVERY_FEE = 40;
 const FREE_DELIVERY = 1000;
 const CATS = ['all','offers','grocery','vegetables','fruits','medicine','restaurant','beverage','personal'];
@@ -1812,7 +1850,7 @@ const CATS = ['all','offers','grocery','vegetables','fruits','medicine','restaur
 const T = {
   bn:{
     topbarNote:'বাংলা ফার্স্ট, মোবাইল ফার্স্ট বাজার অভিজ্ঞতা',
-    brandSub:'location-based grocery, pharmacy, restaurant',
+    brandSub:'fresh grocery, restaurant meals, pharmacy essentials',
     syncBtn:'আপডেট',
     cartBtn:'কার্ট',
     sidebarSub:'লোকেশনভিত্তিক বাজার, অফার, ফার্মেসি, রেস্টুরেন্ট',
@@ -1825,31 +1863,33 @@ const T = {
     menuCartSub:'Chaldal-style drawer',
     sideCategories:'Categories',
     menuWhatsApp:'WhatsApp সাহায্য',
-    heroTitle:'লোকেশনভিত্তিক প্রতিদিনের বাজার',
-    heroText:'Blinkit-inspired top flow, Chaldal-style cart drawer, Bangla-first loading, location-based sheet switching, and a cleaner mobile shopping experience for your real customers.',
-    heroPrimary:'এখনই কেনাকাটা',
+    heroTitle:'দ্রুত ডেলিভারিতে তাজা বাজার এখন হাতের নাগালে',
+    heroText:'গrocery, restaurant আর pharmacy essentials এখন এক জায়গায়। আপনার লোকেশন বেছে নিলেই দেখা যাবে আজকের দাম, অফার আর সবচেয়ে প্রয়োজনীয় পণ্য।',
+    heroPrimary:'এখনই শপিং শুরু করুন',
     heroSecondary:'লোকেশন বদলান',
+    promoGroceryTitle:'Fresh grocery every day',
+    promoGroceryText:'সকালের রান্না থেকে রাতের বাজার, সব দরকারি পণ্য একসাথে অর্ডার করুন।',
     promoPharmacyTitle:'Pharmacy at your doorstep',
-    promoPharmacyText:'ওষুধ, স্যানিটাইজার ও health essentials দ্রুত অর্ডার করুন।',
+    promoPharmacyText:'বিশ্বাসযোগ্য pharmacy essentials, everyday medicine আর quick health support।',
     promoRestaurantTitle:'Restaurant meals fast',
-    promoRestaurantText:'ফুড ইমেজ, রেস্টুরেন্ট নাম, snacks আর quick meals একসাথে দেখান।',
+    promoRestaurantText:'প্রিয় রেস্টুরেন্টের meals, snacks আর quick bites এখন আরও সহজে অর্ডার করুন।',
     promoBtn:'Order now',
-    serviceTitle:'Main shopping blocks',
-    serviceText:'গrocery, pharmacy, restaurant, offers - all from one place',
-    service1T:'Daily grocery',
-    service1S:'চাল, ডাল, তেল, সবজি, ফল, দৈনন্দিন essentials',
-    service2T:'Pharmacy',
-    service2S:'ওষুধ, স্বাস্থ্যপণ্য, quick need items',
-    service3T:'Restaurant',
-    service3S:'restaurant name + food image based listing',
+    serviceTitle:'তিনটি সহজ শপিং জোন',
+    serviceText:'প্রতিদিনের প্রয়োজন, দ্রুত ডেলিভারি আর সহজ অর্ডারের জন্য সাজানো',
+    service1T:'আজকের বাজার',
+    service1S:'তাজা সবজি, চাল-ডাল, তেল, ফল আর ঘরের প্রয়োজনীয় সবকিছু',
+    service2T:'ফার্মেসি',
+    service2S:'প্রতিদিনের health essentials, medicine আর personal care',
+    service3T:'রেস্টুরেন্ট',
+    service3S:'গরম গরম meals, snacks আর family favourites দ্রুত পৌঁছে যাবে',
     service4T:'Offers',
     service4S:'current price vs previous price auto discount display',
-    categoryTitle:'Featured categories',
-    categoryText:'main item, grocery, pharmacy, restaurant, offers',
-    productsSub:'অফার, ডিসকাউন্ট, restaurant label, stable mobile cards, and accurate cart state',
+    categoryTitle:'জনপ্রিয় ক্যাটাগরি',
+    categoryText:'আজকের বাজারকে আরও সহজ করতে পছন্দের জোনগুলো আগে দেখুন',
+    productsSub:'আজকের দামে পছন্দের পণ্য বেছে নিন, কার্টে যোগ করুন, আর দ্রুত অর্ডার করুন',
     footerCity1:'Kulaura',
     footerCity2:'Brahmanbaria',
-    footerIntro:'এই ভার্সনে একই ডিজাইন রেখেই location-based sheet loading, offer logic আর stable mobile shopping flow উন্নত করা হয়েছে।',
+    footerIntro:'প্রতিদিনের বাজার, প্রিয় খাবার আর প্রয়োজনীয় ফার্মেসি পণ্য এখন আরও সহজ, দ্রুত আর নির্ভরযোগ্যভাবে আপনার দরজায়।',
     footerAboutTitle:'About',
     footerAbout1:'About us',
     footerAbout2:'Terms of use',
@@ -1891,21 +1931,21 @@ const T = {
     mobileCartLabel:'কার্টে আছে',
     mobileCartBtn:'কার্ট খুলুন',
     floatingCartLabel:'কার্ট',
-    locationModalTitle:'লোকেশন বেছে নিন',
-    locationModalText:'প্রতিটি লোকেশনের জন্য আলাদা Google Sheet থাকবে, তাই পণ্য ও দাম লোকেশন অনুযায়ী আলাদা লোড হবে।',
+    locationModalTitle:'আপনার ডেলিভারি এলাকা বেছে নিন',
+    locationModalText:'এলাকা বেছে নিলেই দেখা যাবে আপনার জন্য সাজানো পণ্য, অফার আর আজকের দাম।',
     locationKulaura:'Kulaura',
-    locationKulauraText:'tea garden / natural theme, Kulaura-specific products and prices',
+    locationKulauraText:'চা বাগানের আবহে সাজানো Kulaura-এর পণ্য আর দাম',
     locationBrahmanbaria:'Brahmanbaria',
-    locationBrahmanbariaText:'cultural / traditional theme, Brahmanbaria-specific products and prices',
+    locationBrahmanbariaText:'Brahmanbaria-এর জন্য লোকেশনভিত্তিক পণ্য, অফার আর ডেলিভারি',
     allProductsBtn:'সব পণ্য',
     successTitle:'অর্ডার সম্পন্ন',
     continueShopping:'কেনাকাটা চালিয়ে যান',
     searchPlaceholder:'পণ্য খুঁজুন...',
-    loadingSheet:'লোকেশন অনুযায়ী Google Sheet থেকে পণ্য লোড হচ্ছে...',
-    loadedSheet:'টি পণ্য লাইভ লোড হয়েছে',
+    loadingSheet:'আপনার এলাকার পণ্য আর দাম লোড হচ্ছে...',
+    loadedSheet:'টি পণ্য এখন শপিংয়ের জন্য প্রস্তুত',
     fallbackSheet:'Fallback পণ্য দেখানো হচ্ছে। লোকেশন sheet URL সেট করলে লাইভ পণ্য আসবে।',
     sheetEmpty:'Sheet লোড হয়েছে, কিন্তু usable row পাওয়া যায়নি। header নাম ঠিক আছে কি না দেখুন।',
-    chooseLocationFirst:'পণ্য দেখতে আগে একটি লোকেশন বেছে নিন',
+    chooseLocationFirst:'আজকের বাজার দেখতে আগে আপনার লোকেশন বেছে নিন',
     totalItems:'মোট পণ্য',
     resultCount:'টি পণ্য',
     noItems:'কোনো পণ্য পাওয়া যায়নি',
@@ -1918,7 +1958,7 @@ const T = {
     savedAddrToast:'ঠিকানা সেভ হয়েছে',
     noSavedAddress:'কোনো saved address নেই',
     chooseSavedAddress:'Saved address বেছে নিন',
-    successText:'আপনার অর্ডার সফলভাবে গ্রহণ করা হয়েছে। খুব শিগগিরই কনফার্মেশন দেওয়া হবে।',
+    successText:'আপনার অর্ডার সফলভাবে গ্রহণ করা হয়েছে। খুব শিগগিরই আমাদের টিম কনফার্ম করবে।',
     orderSavedLocal:'লোকাল কনফার্মেশন দেখানো হয়েছে। Apps Script web app URL যোগ করলে order sheet-এও যাবে।',
     stockIn:'In stock',
     stockLow:'Low stock',
@@ -1927,7 +1967,7 @@ const T = {
     discountLabel:'ছাড়',
     restaurantLabel:'Restaurant',
     locationTitleEmpty:'লোকেশন সিলেক্ট করুন',
-    locationSubtitleEmpty:'পণ্য দেখতে আগে একটি লোকেশন বেছে নিন',
+    locationSubtitleEmpty:'আজকের ডেলিভারির জন্য এলাকা বেছে নিন',
     locationSwitched:'লোকেশন বদলানো হয়েছে। কার্ট রিসেট করা হয়েছে।',
     cats:{
       all:'সব পণ্য',
@@ -1950,7 +1990,7 @@ const T = {
   },
   en:{
     topbarNote:'Bangla-first, mobile-first shopping experience',
-    brandSub:'location-based grocery, pharmacy, restaurant',
+    brandSub:'fresh grocery, restaurant meals, pharmacy essentials',
     syncBtn:'Sync',
     cartBtn:'Cart',
     sidebarSub:'Location-based grocery, offers, pharmacy, restaurant',
@@ -1963,31 +2003,33 @@ const T = {
     menuCartSub:'Chaldal-style drawer',
     sideCategories:'Categories',
     menuWhatsApp:'WhatsApp help',
-    heroTitle:'Location-based daily shopping',
-    heroText:'Blinkit-inspired top flow, Chaldal-style cart drawer, Bangla-first loading, location-based sheet switching, and a cleaner mobile shopping experience for real customers.',
-    heroPrimary:'Shop now',
+    heroTitle:'Fresh daily essentials delivered faster to your door',
+    heroText:'Grocery, restaurant meals, and pharmacy essentials now come together in one simple shopping flow. Choose your location and see live prices instantly.',
+    heroPrimary:'Start shopping',
     heroSecondary:'Change location',
+    promoGroceryTitle:'Fresh grocery every day',
+    promoGroceryText:'From kitchen basics to fresh produce, order everything you need in one go.',
     promoPharmacyTitle:'Pharmacy at your doorstep',
-    promoPharmacyText:'Order medicine, sanitizer, and health essentials quickly.',
+    promoPharmacyText:'Trusted pharmacy essentials, everyday medicine, and quick health support.',
     promoRestaurantTitle:'Restaurant meals fast',
-    promoRestaurantText:'Show food images, restaurant names, snacks and quick meals together.',
+    promoRestaurantText:'Order favorite meals, snacks, and quick bites from nearby restaurants with ease.',
     promoBtn:'Order now',
-    serviceTitle:'Main shopping blocks',
-    serviceText:'grocery, pharmacy, restaurant, offers - all from one place',
+    serviceTitle:'Three simple shopping zones',
+    serviceText:'Built to help customers browse quickly and order confidently',
     service1T:'Daily grocery',
-    service1S:'rice, lentils, oil, vegetables, fruits, essentials',
+    service1S:'fresh vegetables, staples, fruits, and household essentials',
     service2T:'Pharmacy',
-    service2S:'medicine, health items, quick needs',
+    service2S:'health essentials, medicine, and daily personal care',
     service3T:'Restaurant',
-    service3S:'restaurant name + food image based listing',
+    service3S:'hot meals, snacks, and family favorites delivered fast',
     service4T:'Offers',
     service4S:'current price vs previous price auto discount display',
-    categoryTitle:'Featured categories',
-    categoryText:'main item, grocery, pharmacy, restaurant, offers',
-    productsSub:'offers, discount display, restaurant labels, stable mobile cards, and accurate cart state',
+    categoryTitle:'Popular categories',
+    categoryText:'See the shopping zones customers use most every day',
+    productsSub:'Browse today’s prices, add items in seconds, and place orders with confidence',
     footerCity1:'Kulaura',
     footerCity2:'Brahmanbaria',
-    footerIntro:'This version keeps the same design direction while improving location-based sheet loading and a more stable mobile shopping flow.',
+    footerIntro:'Daily essentials, favorite meals, and pharmacy needs now arrive faster with a cleaner and simpler shopping experience.',
     footerAboutTitle:'About',
     footerAbout1:'About us',
     footerAbout2:'Terms of use',
@@ -2029,21 +2071,21 @@ const T = {
     mobileCartLabel:'In cart',
     mobileCartBtn:'Open cart',
     floatingCartLabel:'Cart',
-    locationModalTitle:'Choose a location',
-    locationModalText:'Each location uses a separate Google Sheet, so products and prices will load differently by location.',
+    locationModalTitle:'Choose your delivery area',
+    locationModalText:'Pick your area first to see the right products, offers, and prices for that location.',
     locationKulaura:'Kulaura',
-    locationKulauraText:'tea garden / natural theme, Kulaura-specific products and prices',
+    locationKulauraText:'Tea garden inspired selection with Kulaura-specific products and pricing',
     locationBrahmanbaria:'Brahmanbaria',
-    locationBrahmanbariaText:'cultural / traditional theme, Brahmanbaria-specific products and prices',
+    locationBrahmanbariaText:'Brahmanbaria-specific products, offers, and local delivery flow',
     allProductsBtn:'All products',
     successTitle:'Order placed',
     continueShopping:'Continue shopping',
     searchPlaceholder:'Search products...',
-    loadingSheet:'Loading products from the selected location sheet...',
-    loadedSheet:'products loaded live',
+    loadingSheet:'Loading products and prices for your location...',
+    loadedSheet:'products are ready to shop',
     fallbackSheet:'Fallback products are showing. Set location sheet URLs for live data.',
     sheetEmpty:'The sheet loaded, but no usable rows were found. Check your header names.',
-    chooseLocationFirst:'Choose a location first to view products',
+    chooseLocationFirst:'Choose your location first to explore today’s products',
     totalItems:'total items',
     resultCount:'items',
     noItems:'No products found',
@@ -2056,7 +2098,7 @@ const T = {
     savedAddrToast:'Address saved',
     noSavedAddress:'No saved address',
     chooseSavedAddress:'Choose a saved address',
-    successText:'Your order has been received successfully. You will get confirmation shortly.',
+    successText:'Your order has been received successfully. Our team will confirm it shortly.',
     orderSavedLocal:'Local confirmation was shown. Add an Apps Script web app URL to also save orders into your sheet.',
     stockIn:'In stock',
     stockLow:'Low stock',
@@ -2065,7 +2107,7 @@ const T = {
     discountLabel:'off',
     restaurantLabel:'Restaurant',
     locationTitleEmpty:'Select location',
-    locationSubtitleEmpty:'Choose a location before viewing products',
+    locationSubtitleEmpty:'Choose your delivery area to see live prices',
     locationSwitched:'Location changed. Cart has been reset.',
     cats:{
       all:'All items',
@@ -2084,6 +2126,141 @@ const T = {
       vegetables:{title:'Vegetables',sub:'fresh vegetables'},
       fruits:{title:'Fruits',sub:'daily fruit picks'},
       restaurant:{title:'Restaurant',sub:'food image + restaurant name'}
+    }
+  }
+};
+
+const INFO_CONTENT = {
+  bn: {
+    about: {
+      title: 'About Us',
+      body: `
+        <p><strong>amrarbazar</strong> প্রতিদিনের বাজারকে সহজ, দ্রুত এবং নির্ভরযোগ্য করতে তৈরি করা হয়েছে। grocery, restaurant এবং pharmacy essentials একসাথে এনে আমরা গ্রাহকদের জন্য একটি সহজ shopping experience দিতে চাই।</p>
+        <p>আমাদের লক্ষ্য হলো লোকেশনভিত্তিক সঠিক পণ্য, সঠিক দাম এবং দ্রুত ডেলিভারি নিশ্চিত করা।</p>
+      `
+    },
+    terms: {
+      title: 'Terms of Use',
+      body: `
+        <p><strong>Order acceptance:</strong> প্রতিটি অর্ডার আমাদের টিম যাচাই করার পর কনফার্ম করা হয়।</p>
+        <p><strong>Pricing:</strong> পণ্যের দাম লোকেশনভেদে পরিবর্তিত হতে পারে এবং স্টক অনুযায়ী আপডেট হবে।</p>
+        <p><strong>Availability:</strong> কোনো পণ্য out of stock হলে বিকল্প পণ্য প্রস্তাব করা হতে পারে।</p>
+        <p><strong>Delivery:</strong> নির্ধারিত স্লট ও ঠিকানার উপর ভিত্তি করে ডেলিভারি সময় ভিন্ন হতে পারে।</p>
+      `
+    },
+    privacy: {
+      title: 'Privacy Policy',
+      body: `
+        <p>আমরা আপনার নাম, ফোন নম্বর, ঠিকানা এবং অর্ডার তথ্য শুধুমাত্র ডেলিভারি ও customer support-এর জন্য ব্যবহার করি।</p>
+        <p>আপনার তথ্য তৃতীয় পক্ষের কাছে বিক্রি করা হয় না। প্রয়োজন হলে শুধুমাত্র delivery processing ও support purpose-এ ব্যবহার করা হয়।</p>
+      `
+    },
+    refund: {
+      title: 'Refund Policy',
+      body: `
+        <p>ভুল পণ্য, নষ্ট পণ্য বা ডেলিভারি সমস্যার ক্ষেত্রে আমাদের support team-এর সাথে ২৪ ঘন্টার মধ্যে যোগাযোগ করুন।</p>
+        <p>যাচাইয়ের পর উপযুক্ত ক্ষেত্রে refund, replacement বা store adjustment দেওয়া হবে।</p>
+      `
+    },
+    contact: {
+      title: 'Contact Us',
+      body: `
+        <p><strong>WhatsApp:</strong> +${SUPPORT_WHATSAPP}</p>
+        <p><strong>Email:</strong> ${SUPPORT_EMAIL}</p>
+        <p><strong>Support hours:</strong> সকাল ৮টা থেকে রাত ১১টা</p>
+      `
+    },
+    delivery: {
+      title: 'Delivery Help',
+      body: `
+        <p>অর্ডার করার সময় বাড়ি, রোড, এলাকা এবং কাছের landmark স্পষ্টভাবে লিখুন।</p>
+        <p>মোবাইল নম্বর সচল রাখুন যাতে rider সহজে যোগাযোগ করতে পারে।</p>
+        <p>Delivery slot নির্বাচন করলে আমরা আপনার অর্ডার দ্রুত প্রসেস করতে পারি।</p>
+      `
+    },
+    tracking: {
+      title: 'Order Tracking',
+      body: `
+        <p>অর্ডার প্লেস করার পর আপনার order ID সেভ করে রাখুন।</p>
+        <p>Tracking help-এর জন্য WhatsApp-এ order ID পাঠান বা customer support-এ যোগাযোগ করুন।</p>
+      `
+    },
+    faq: {
+      title: 'FAQ',
+      body: `
+        <div class="faq-list">
+          <div class="faq-item"><strong>কীভাবে অর্ডার করব?</strong><span>লোকেশন বেছে নিন, পণ্য কার্টে যোগ করুন, ঠিকানা দিন, তারপর অর্ডার কনফার্ম করুন।</span></div>
+          <div class="faq-item"><strong>ডেলিভারি চার্জ কত?</strong><span>ছোট অর্ডারে ডেলিভারি চার্জ প্রযোজ্য হবে, আর নির্দিষ্ট অর্ডারের উপরে ফ্রি ডেলিভারি মিলতে পারে।</span></div>
+          <div class="faq-item"><strong>কোন কোন পেমেন্ট নেওয়া হয়?</strong><span>Cash on Delivery, bKash, Nagad, Rocket এবং Card support রাখা হয়েছে।</span></div>
+          <div class="faq-item"><strong>ভুল পণ্য পেলে কী করব?</strong><span>২৪ ঘন্টার মধ্যে WhatsApp-এ জানালে আমাদের টিম দ্রুত সমাধান দেবে।</span></div>
+        </div>
+      `
+    }
+  },
+  en: {
+    about: {
+      title: 'About Us',
+      body: `
+        <p><strong>amrarbazar</strong> is built to make daily shopping faster, simpler, and more reliable. We bring grocery, restaurant meals, and pharmacy essentials together in one place.</p>
+        <p>Our goal is to show the right products, right prices, and smoother delivery based on the customer’s location.</p>
+      `
+    },
+    terms: {
+      title: 'Terms of Use',
+      body: `
+        <p><strong>Order acceptance:</strong> Every order is reviewed and confirmed by our team.</p>
+        <p><strong>Pricing:</strong> Prices may vary by location and are updated based on live sheet data.</p>
+        <p><strong>Availability:</strong> If an item is unavailable, a suitable alternative may be suggested.</p>
+        <p><strong>Delivery:</strong> Delivery timing may vary depending on area, slot, and order volume.</p>
+      `
+    },
+    privacy: {
+      title: 'Privacy Policy',
+      body: `
+        <p>We use your name, phone number, address, and order details only to process deliveries and customer support.</p>
+        <p>Your data is not sold to third parties and is used only for service-related communication.</p>
+      `
+    },
+    refund: {
+      title: 'Refund Policy',
+      body: `
+        <p>If you receive a wrong item, damaged item, or face a delivery issue, please contact our support team within 24 hours.</p>
+        <p>After review, eligible cases may receive a refund, replacement, or order adjustment.</p>
+      `
+    },
+    contact: {
+      title: 'Contact Us',
+      body: `
+        <p><strong>WhatsApp:</strong> +${SUPPORT_WHATSAPP}</p>
+        <p><strong>Email:</strong> ${SUPPORT_EMAIL}</p>
+        <p><strong>Support hours:</strong> 8 AM to 11 PM</p>
+      `
+    },
+    delivery: {
+      title: 'Delivery Help',
+      body: `
+        <p>Please write house, road, area, and a nearby landmark clearly while placing an order.</p>
+        <p>Keep your phone available so the rider can contact you if needed.</p>
+        <p>Choosing a delivery slot helps us process your order more smoothly.</p>
+      `
+    },
+    tracking: {
+      title: 'Order Tracking',
+      body: `
+        <p>Save your order ID after placing an order.</p>
+        <p>For tracking help, send your order ID on WhatsApp or contact customer support.</p>
+      `
+    },
+    faq: {
+      title: 'FAQ',
+      body: `
+        <div class="faq-list">
+          <div class="faq-item"><strong>How do I place an order?</strong><span>Choose your location, add products to cart, enter your address, and confirm the order.</span></div>
+          <div class="faq-item"><strong>How much is the delivery charge?</strong><span>Small orders include a delivery charge, and larger orders may qualify for free delivery.</span></div>
+          <div class="faq-item"><strong>Which payment methods are supported?</strong><span>Cash on Delivery, bKash, Nagad, Rocket, and Card are supported.</span></div>
+          <div class="faq-item"><strong>What if I receive the wrong item?</strong><span>Contact us within 24 hours on WhatsApp and our team will help quickly.</span></div>
+        </div>
+      `
     }
   }
 };
@@ -2111,6 +2288,7 @@ let savedAddresses = JSON.parse(localStorage.getItem('amrar-saved-addresses') ||
 let toastTimer;
 let activeCat = 'all';
 let searchTerm = '';
+let activeInfoKey = '';
 
 function byId(id){ return document.getElementById(id); }
 
@@ -2178,6 +2356,7 @@ function setLang(nextLang){
   renderProducts(getFilteredProducts());
   renderSavedAddressOptions();
   updateCartUI();
+  if (activeInfoKey && byId('infoModal').classList.contains('open')) openInfoModal(activeInfoKey);
 }
 
 function scrollToSection(id){
@@ -2760,6 +2939,20 @@ function closeModal(){
   byId('successModal').classList.remove('open');
 }
 
+function openInfoModal(key){
+  activeInfoKey = key;
+  const content = INFO_CONTENT[lang][key];
+  if (!content) return;
+  byId('infoModalTitle').textContent = content.title;
+  byId('infoModalBody').innerHTML = content.body;
+  byId('infoModal').classList.add('open');
+}
+
+function closeInfoModal(){
+  activeInfoKey = '';
+  byId('infoModal').classList.remove('open');
+}
+
 function showToast(message){
   const toast = byId('toast');
   toast.textContent = message;
@@ -2781,6 +2974,7 @@ document.addEventListener('keydown', (event) => {
     closeCart();
     closeLocationModal();
     closeModal();
+    closeInfoModal();
   }
 });
 
