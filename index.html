@@ -89,7 +89,7 @@ img{display:block;max-width:100%}
 }
 .header-row{
   display:grid;
-  grid-template-columns:auto minmax(220px,320px) minmax(320px,1fr) auto;
+  grid-template-columns:180px 260px minmax(420px,1fr) 220px;
   gap:12px;
   align-items:center;
   padding:12px 0;
@@ -142,28 +142,28 @@ img{display:block;max-width:100%}
   min-width:0;
   background:#fff;
   border:1px solid var(--line);
-  border-radius:20px;
-  padding:12px 16px;
+  border-radius:18px;
+  padding:10px 14px 10px 36px;
   box-shadow:var(--shadow-soft);
   text-align:left;
   position:relative;
 }
 .location-chip strong{
   display:block;
-  font-size:15px;
+  font-size:14px;
 }
 .location-chip span{
   display:block;
   margin-top:2px;
   color:var(--muted);
-  font-size:12px;
+  font-size:11px;
 }
 .location-chip::before{
   content:"📍";
   position:absolute;
-  right:14px;
-  top:14px;
-  font-size:18px;
+  left:12px;
+  top:10px;
+  font-size:16px;
 }
 .search{
   position:relative;
@@ -173,8 +173,9 @@ img{display:block;max-width:100%}
   background:#fff;
   border:1.5px solid var(--line);
   border-radius:20px;
-  padding:15px 52px 15px 18px;
+  padding:16px 52px 16px 18px;
   outline:none;
+  font-size:15px;
 }
 .search input:focus{
   border-color:var(--green);
@@ -268,43 +269,43 @@ img{display:block;max-width:100%}
 }
 .hero-grid{
   display:grid;
-  grid-template-columns:minmax(0,1.35fr) minmax(0,.95fr);
+  grid-template-columns:minmax(0,1.9fr);
   gap:16px;
 }
 .hero-banner{
-  min-height:360px;
+  min-height:420px;
   border-radius:32px;
   overflow:hidden;
   position:relative;
   background:
-    radial-gradient(circle at 85% 24%, rgba(255,255,255,.55), transparent 18%),
-    linear-gradient(90deg,var(--hero-start) 0%,var(--hero-mid) 48%,var(--hero-end) 100%);
+    radial-gradient(circle at 80% 22%, rgba(255,255,255,.6), transparent 16%),
+    linear-gradient(90deg,var(--hero-start) 0%,var(--hero-mid) 40%,var(--hero-end) 100%);
   box-shadow:var(--shadow);
 }
 .hero-banner::after{
   content:"🥛 🍌 🍅 🥚 🥬";
   position:absolute;
-  right:28px;
-  bottom:24px;
-  font-size:84px;
-  letter-spacing:12px;
-  opacity:.2;
+  right:34px;
+  bottom:38px;
+  font-size:112px;
+  letter-spacing:14px;
+  opacity:.22;
 }
 .hero-copy{
   position:relative;
   z-index:1;
-  padding:34px 34px 30px;
-  max-width:560px;
+  padding:34px 38px 30px;
+  max-width:640px;
   color:#fff;
 }
 .hero-copy h1{
-  font-size:clamp(34px,5vw,58px);
+  font-size:clamp(38px,5vw,64px);
   line-height:1.02;
   letter-spacing:-.03em;
 }
 .hero-copy p{
   margin-top:14px;
-  font-size:17px;
+  font-size:18px;
   line-height:1.6;
   color:rgba(255,255,255,.92);
 }
@@ -330,10 +331,11 @@ img{display:block;max-width:100%}
 }
 .side-promos{
   display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
   gap:14px;
 }
 .promo-card{
-  min-height:172px;
+  min-height:188px;
   border-radius:28px;
   padding:24px 22px;
   position:relative;
@@ -341,15 +343,15 @@ img{display:block;max-width:100%}
   box-shadow:var(--shadow-soft);
 }
 .promo-card h3{
-  font-size:30px;
+  font-size:24px;
   line-height:1.05;
-  max-width:210px;
+  max-width:220px;
 }
 .promo-card p{
   margin-top:8px;
   font-size:14px;
   line-height:1.55;
-  max-width:220px;
+  max-width:230px;
 }
 .promo-card button{
   margin-top:18px;
@@ -363,7 +365,7 @@ img{display:block;max-width:100%}
   position:absolute;
   right:14px;
   bottom:8px;
-  font-size:78px;
+  font-size:66px;
   opacity:.18;
 }
 .promo-pharmacy{background:linear-gradient(135deg,#66d3d5,#8ae0de);color:#fff}
@@ -495,19 +497,19 @@ img{display:block;max-width:100%}
 
 .product-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-  gap:14px;
+  grid-template-columns:repeat(auto-fill,minmax(196px,1fr));
+  gap:12px;
 }
 .product-card{
   background:var(--surface);
   border:1px solid var(--line);
-  border-radius:24px;
+  border-radius:20px;
   overflow:hidden;
   box-shadow:var(--shadow-soft);
 }
 .product-top{
   position:relative;
-  height:168px;
+  height:148px;
   background:linear-gradient(135deg,#f7f1e5,#ece2cc);
 }
 .product-photo{
@@ -515,14 +517,14 @@ img{display:block;max-width:100%}
   height:100%;
   object-fit:contain;
   object-position:center;
-  padding:10px;
+  padding:8px;
 }
 .product-emoji{
   width:100%;
   height:100%;
   display:grid;
   place-items:center;
-  font-size:66px;
+  font-size:54px;
 }
 .badge-row{
   position:absolute;
@@ -531,17 +533,17 @@ img{display:block;max-width:100%}
   right:10px;
   display:flex;
   justify-content:space-between;
-  gap:8px;
+  gap:6px;
 }
 .badge-stack{
   display:flex;
   flex-wrap:wrap;
-  gap:6px;
+  gap:4px;
 }
 .badge,.stock-chip{
   border-radius:999px;
-  padding:5px 9px;
-  font-size:11px;
+  padding:4px 8px;
+  font-size:10px;
   font-weight:900;
 }
 .badge{
@@ -557,70 +559,70 @@ img{display:block;max-width:100%}
 .stock-in{color:var(--green)}
 .stock-low{color:#b06d12}
 .stock-out{color:#bf470d}
-.product-body{padding:14px}
+.product-body{padding:12px}
 .product-cat{
   color:var(--muted);
-  font-size:11px;
+  font-size:10px;
   text-transform:uppercase;
   letter-spacing:.08em;
   font-weight:900;
 }
 .restaurant-line{
-  margin-top:6px;
+  margin-top:4px;
   color:var(--orange);
-  font-size:12px;
+  font-size:11px;
   font-weight:800;
 }
 .product-name{
-  margin-top:6px;
-  font-size:16px;
+  margin-top:5px;
+  font-size:14px;
   font-weight:900;
   line-height:1.35;
-  min-height:44px;
+  min-height:38px;
 }
 .product-unit{
   margin-top:4px;
   color:var(--muted);
-  font-size:12px;
+  font-size:11px;
 }
 .product-bottom{
   display:flex;
   justify-content:space-between;
   align-items:flex-end;
   gap:10px;
-  margin-top:12px;
+  margin-top:10px;
 }
 .price-wrap .old{
-  font-size:12px;
+  font-size:11px;
   color:var(--muted);
   text-decoration:line-through;
 }
 .price-wrap .new{
-  font-size:22px;
+  font-size:18px;
   color:var(--green);
   font-weight:900;
   line-height:1;
 }
 .price-wrap .new span{
   display:block;
-  margin-top:4px;
-  font-size:12px;
+  margin-top:2px;
+  font-size:10px;
   color:var(--muted);
   font-weight:700;
 }
 .discount-note{
-  margin-top:5px;
+  margin-top:3px;
   color:#d13b2f;
-  font-size:12px;
+  font-size:10px;
   font-weight:800;
 }
 .add-btn{
-  width:40px;
-  height:40px;
-  border-radius:14px;
+  width:34px;
+  height:34px;
+  border-radius:12px;
   background:var(--green);
   color:#fff;
-  font-size:24px;
+  font-size:20px;
 }
 .qty-control{
   display:flex;
@@ -1140,9 +1142,9 @@ img{display:block;max-width:100%}
 .location-option{
   text-align:left;
   border:1px solid var(--line);
-  border-radius:22px;
-  padding:20px;
-  background:var(--surface-2);
+  border-radius:18px;
+  padding:16px;
+  background:linear-gradient(135deg,#fff8e9,#f3efe5);
 }
 .location-option.active{
   border-color:var(--green);
@@ -1156,8 +1158,8 @@ img{display:block;max-width:100%}
   display:block;
   margin-top:6px;
   color:var(--muted);
-  font-size:13px;
-  line-height:1.6;
+  font-size:12px;
+  line-height:1.5;
 }
 
 .modal{
@@ -1273,13 +1275,16 @@ img{display:block;max-width:100%}
 .focus-hide.hidden{display:none}
 
 @media (max-width:1180px){
-  .hero-grid,.service-grid{grid-template-columns:1fr 1fr}
+  .hero-grid{grid-template-columns:1fr}
+  .side-promos{grid-template-columns:1fr 1fr 1fr}
+  .service-grid{grid-template-columns:1fr 1fr}
   .category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 @media (max-width:980px){
   .header-row{grid-template-columns:1fr}
   .header-actions{justify-content:flex-start}
   .hero-grid{grid-template-columns:1fr}
+  .side-promos{grid-template-columns:1fr}
   .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:640px){
@@ -1289,45 +1294,39 @@ img{display:block;max-width:100%}
   .section-head{align-items:flex-start}
   .section-head{flex-direction:column}
   .header.mobile-compact .header-row{padding:8px 0}
-  .brand-mark{
-    width:36px;
-    height:36px;
-    border-radius:12px;
-    font-size:18px;
-  }
   .menu-btn{
     width:36px;
     height:36px;
     border-radius:12px;
     font-size:16px;
   }
-  .brand-copy{display:none}
+  .left-cluster .brand{display:none}
   .header-row{
-    grid-template-columns:auto minmax(92px,120px) minmax(0,1fr) auto;
+    grid-template-columns:auto minmax(76px,94px) minmax(0,1fr);
     gap:8px;
     padding:8px 0;
   }
   .search-area{display:block}
   .location-chip{
-    padding:9px 12px 9px 28px;
+    padding:8px 10px 8px 24px;
     border-radius:14px;
     box-shadow:none;
   }
   .location-chip::before{
-    left:10px;
+    left:8px;
     right:auto;
-    top:9px;
-    font-size:14px;
+    top:8px;
+    font-size:12px;
   }
   .location-chip span{display:none}
   .location-chip strong{
-    font-size:13px;
+    font-size:12px;
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
   }
   .search input{
-    padding:10px 38px 10px 12px;
+    padding:10px 36px 10px 12px;
     border-radius:14px;
     font-size:13px;
   }
@@ -1340,24 +1339,7 @@ img{display:block;max-width:100%}
     font-size:13px;
   }
   .header-actions{
-    gap:6px;
-    flex-wrap:nowrap;
-    justify-content:flex-end;
-  }
-  .lang-switch,.header-chip.compact{display:none}
-  .cart-btn{
-    display:flex;
-    padding:9px 10px;
-    border-radius:14px;
-    gap:6px;
-    min-width:auto;
-    box-shadow:none;
-  }
-  .cart-btn span[data-t="cartBtn"]{display:none}
-  .cart-count{
-    min-width:18px;
-    height:18px;
-    font-size:10px;
+    display:none;
   }
   .cat-strip{display:none}
   .hero-copy{
@@ -1425,47 +1407,44 @@ img{display:block;max-width:100%}
     grid-template-columns:repeat(2,minmax(0,1fr));
     gap:10px;
   }
-  .product-top{height:140px}
+  .product-top{height:124px}
   .product-photo{
-    padding:8px;
+    padding:6px;
   }
-  .product-emoji{font-size:52px}
+  .product-emoji{font-size:44px}
   .badge,.stock-chip{
-    font-size:10px;
-    padding:4px 8px;
+    font-size:9px;
+    padding:3px 7px;
   }
-  .product-body{padding:12px}
+  .product-body{padding:10px}
   .restaurant-line{
-    font-size:11px;
+    font-size:10px;
   }
   .product-name{
-    font-size:14px;
-    min-height:38px;
+    font-size:13px;
+    min-height:34px;
   }
   .product-unit{
-    font-size:11px;
+    font-size:10px;
   }
   .price-wrap .new{
-    font-size:18px;
-  }
-  .discount-note{
-    font-size:11px;
+    font-size:16px;
   }
   .add-btn{
-    width:34px;
-    height:34px;
-    border-radius:12px;
-    font-size:20px;
+    width:30px;
+    height:30px;
+    border-radius:10px;
+    font-size:18px;
   }
   .qty-control button{
-    width:26px;
-    height:26px;
+    width:24px;
+    height:24px;
     border-radius:8px;
-    font-size:15px;
+    font-size:14px;
   }
   .qty-control span{
-    min-width:18px;
-    font-size:13px;
+    min-width:16px;
+    font-size:12px;
   }
   .cart-panel{
     width:100vw;
@@ -1624,7 +1603,7 @@ img{display:block;max-width:100%}
 <div class="nav-overlay" id="navOverlay" onclick="closeSidebar()"></div>
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-head">
-    <strong>Amrar Bazar</strong>
+    <strong><button onclick="scrollToTopAndCloseSidebar()" style="color:inherit;font:inherit;font-weight:inherit;text-align:left">amrarbazar</button></strong>
     <span data-t="sidebarSub">লোকেশনভিত্তিক বাজার, অফার, ফার্মেসি, রেস্টুরেন্ট</span>
   </div>
   <div class="sidebar-body">
@@ -1882,11 +1861,11 @@ img{display:block;max-width:100%}
     <div class="location-grid">
       <button class="location-option" onclick="selectLocation('kulaura')">
         <strong data-t="locationKulaura">Kulaura</strong>
-        <span data-t="locationKulauraText">tea garden / natural theme, Kulaura-specific products and prices</span>
+        <span data-t="locationKulauraText">Kulaura delivery zone</span>
       </button>
       <button class="location-option" onclick="selectLocation('brahmanbaria')">
         <strong data-t="locationBrahmanbaria">Brahmanbaria</strong>
-        <span data-t="locationBrahmanbariaText">cultural / traditional theme, Brahmanbaria-specific products and prices</span>
+        <span data-t="locationBrahmanbariaText">Brahmanbaria delivery zone</span>
       </button>
     </div>
   </div>
@@ -1925,8 +1904,8 @@ const LOCATION_SHEETS = {
   kulaura: {
     title_bn: 'Kulaura',
     title_en: 'Kulaura',
-    subtitle_bn: 'tea garden / natural theme',
-    subtitle_en: 'tea garden / natural theme',
+    subtitle_bn: 'Daily delivery area',
+    subtitle_en: 'Daily delivery area',
     theme: 'theme-kulaura',
     productCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRVO8UIFvM3nGkpdWimi5bhkezwsQE1p4lFT7SNI7l_TcBv6W8xZFeAoz5DoFYplYbrUOki9b3ZzNp6/pub?output=csv',
     orderScript: 'https://script.google.com/macros/s/AKfycbwgJHPIbtgUaEbupoWYlcaiPv3-1Z5tu0A-zDDvGvMVjDL__TH-Mwv2NhUBy5WpJwXwLA/exec',
@@ -1935,8 +1914,8 @@ const LOCATION_SHEETS = {
   brahmanbaria: {
     title_bn: 'Brahmanbaria',
     title_en: 'Brahmanbaria',
-    subtitle_bn: 'cultural / traditional theme',
-    subtitle_en: 'cultural / traditional theme',
+    subtitle_bn: 'Daily delivery area',
+    subtitle_en: 'Daily delivery area',
     theme: 'theme-brahmanbaria',
     productCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS3zf7tuIqYMBqtDFYJf-l1saBvO-DNAnGqEMdfJXhexJfjKMJw3Vjt9gOYjRTMqO1Cy7m7D2qpV0fR/pub?output=csv',
     orderScript: 'https://script.google.com/macros/s/AKfycbwUcXzz9vtgTRqGnbBYGO6RZt8wws4UnYtUj9CNmQpzU0PLQOdIRzmwPWtkELuSkVOivg/exec',
@@ -2037,9 +2016,9 @@ const T = {
     locationModalTitle:'আপনার ডেলিভারি এলাকা বেছে নিন',
     locationModalText:'এলাকা বেছে নিলেই দেখা যাবে আপনার জন্য সাজানো পণ্য, অফার আর আজকের দাম।',
     locationKulaura:'Kulaura',
-    locationKulauraText:'চা বাগানের আবহে সাজানো Kulaura-এর পণ্য আর দাম',
+    locationKulauraText:'Kulaura delivery zone',
     locationBrahmanbaria:'Brahmanbaria',
-    locationBrahmanbariaText:'Brahmanbaria-এর জন্য লোকেশনভিত্তিক পণ্য, অফার আর ডেলিভারি',
+    locationBrahmanbariaText:'Brahmanbaria delivery zone',
     allProductsBtn:'সব পণ্য',
     successTitle:'অর্ডার সম্পন্ন',
     continueShopping:'কেনাকাটা চালিয়ে যান',
@@ -2070,7 +2049,7 @@ const T = {
     discountLabel:'ছাড়',
     restaurantLabel:'Restaurant',
     locationTitleEmpty:'লোকেশন সিলেক্ট করুন',
-    locationSubtitleEmpty:'আজকের ডেলিভারির জন্য এলাকা বেছে নিন',
+    locationSubtitleEmpty:'ডেলিভারি এলাকা বেছে নিন',
     locationSwitched:'লোকেশন বদলানো হয়েছে। কার্ট রিসেট করা হয়েছে।',
     cats:{
       all:'সব পণ্য',
@@ -2177,9 +2156,9 @@ const T = {
     locationModalTitle:'Choose your delivery area',
     locationModalText:'Pick your area first to see the right products, offers, and prices for that location.',
     locationKulaura:'Kulaura',
-    locationKulauraText:'Tea garden inspired selection with Kulaura-specific products and pricing',
+    locationKulauraText:'Kulaura delivery zone',
     locationBrahmanbaria:'Brahmanbaria',
-    locationBrahmanbariaText:'Brahmanbaria-specific products, offers, and local delivery flow',
+    locationBrahmanbariaText:'Brahmanbaria delivery zone',
     allProductsBtn:'All products',
     successTitle:'Order placed',
     continueShopping:'Continue shopping',
@@ -2210,7 +2189,7 @@ const T = {
     discountLabel:'off',
     restaurantLabel:'Restaurant',
     locationTitleEmpty:'Select location',
-    locationSubtitleEmpty:'Choose your delivery area to see live prices',
+    locationSubtitleEmpty:'Choose your delivery area',
     locationSwitched:'Location changed. Cart has been reset.',
     cats:{
       all:'All items',
@@ -2392,6 +2371,8 @@ let toastTimer;
 let activeCat = 'all';
 let searchTerm = '';
 let activeInfoKey = '';
+let placeholderTimer;
+let placeholderIndex = 0;
 
 function byId(id){ return document.getElementById(id); }
 
@@ -2459,12 +2440,35 @@ function setLang(nextLang){
   renderProducts(getFilteredProducts());
   renderSavedAddressOptions();
   updateCartUI();
+  startSearchPlaceholderRotation();
   if (activeInfoKey && byId('infoModal').classList.contains('open')) openInfoModal(activeInfoKey);
+}
+
+function startSearchPlaceholderRotation(){
+  const input = byId('searchInput');
+  if (!input) return;
+  const samples = lang === 'bn'
+    ? ['চাল খুঁজুন...', 'ডিম খুঁজুন...', 'দুধ খুঁজুন...', 'টমেটো খুঁজুন...']
+    : ['Search rice...', 'Search eggs...', 'Search milk...', 'Search tomatoes...'];
+  clearInterval(placeholderTimer);
+  placeholderIndex = 0;
+  input.placeholder = samples[placeholderIndex];
+  placeholderTimer = setInterval(() => {
+    if (document.activeElement === input || input.value.trim()) return;
+    placeholderIndex = (placeholderIndex + 1) % samples.length;
+    input.placeholder = samples[placeholderIndex];
+  }, 1800);
 }
 
 function scrollToSection(id){
   const el = byId(id);
   if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
+}
+
+function scrollToTopAndCloseSidebar(){
+  closeSidebar();
+  resetCategoryFilter();
+  window.scrollTo({top:0,behavior:'smooth'});
 }
 
 function setStatus(type, message){
@@ -2734,36 +2738,31 @@ function renderProducts(list){
         ? `<div class="qty-control"><button onclick="dec(${product.id})">−</button><span>${qty}</span><button onclick="inc(${product.id})">+</button></div>`
         : `<button class="add-btn" onclick="inc(${product.id})">+</button>`;
 
-    const offerBadge = isDiscounted(product)
-      ? `<span class="badge offer">${T[lang].offerBadge}</span><span class="badge">${discountPercent(product)}% ${T[lang].discountLabel}</span>`
-      : '';
+    const topBadge = isDiscounted(product)
+      ? `<span class="badge offer">${discountPercent(product)}% ${T[lang].discountLabel}</span>`
+      : product.badge ? `<span class="badge ${badgeClass(product.badge)}">${product.badge}</span>` : '';
 
-    const restaurantLine = product.category === 'restaurant' && product.restaurant_name
-      ? `<div class="restaurant-line">${T[lang].restaurantLabel}: ${product.restaurant_name}${product.food_category ? ` · ${product.food_category}` : ''}</div>`
-      : '';
+    const metaLine = product.category === 'restaurant' && product.restaurant_name
+      ? `${product.restaurant_name}${product.food_category ? ` · ${product.food_category}` : ''}`
+      : product.category;
 
     return `
       <article class="product-card">
         <div class="product-top">
           ${product.image ? `<img class="product-photo" src="${product.image}" alt="${product.name_en}">` : `<div class="product-emoji">${product.emoji}</div>`}
           <div class="badge-row">
-            <div class="badge-stack">
-              ${product.badge ? `<span class="badge ${badgeClass(product.badge)}">${product.badge}</span>` : ''}
-              ${offerBadge}
-            </div>
+            <div class="badge-stack">${topBadge}</div>
             <span class="stock-chip ${stockClass(product.stock_status)}">${T[lang][stockKey(product.stock_status)]}</span>
           </div>
         </div>
         <div class="product-body">
-          <div class="product-cat">${product.category}</div>
-          ${restaurantLine}
+          <div class="product-cat">${metaLine}</div>
           <div class="product-name">${name}</div>
           <div class="product-unit">${product.unit}</div>
           <div class="product-bottom">
             <div class="price-wrap">
               ${isDiscounted(product) ? `<div class="old">৳${product.previous_price}</div>` : ''}
               <div class="new">৳${effectivePrice(product)}<span>/${product.unit}</span></div>
-              ${isDiscounted(product) ? `<div class="discount-note">${discountPercent(product)}% ${T[lang].discountLabel}</div>` : ''}
             </div>
             <div id="ctrl-${product.id}">${control}</div>
           </div>
@@ -3095,6 +3094,7 @@ renderCategoryGrid();
 renderSavedAddressOptions();
 toggleFocusMode();
 setLang(lang);
+startSearchPlaceholderRotation();
 updateCartUI();
 
 if (selectedLocation) {
