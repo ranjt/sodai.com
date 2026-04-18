@@ -89,8 +89,8 @@ img{display:block;max-width:100%}
 }
 .header-row{
   display:grid;
-  grid-template-columns:180px 260px minmax(420px,1fr) 220px;
-  gap:12px;
+  grid-template-columns:minmax(150px,190px) minmax(180px,230px) minmax(260px,1fr) auto;
+  gap:10px;
   align-items:center;
   padding:12px 0;
 }
@@ -137,7 +137,7 @@ img{display:block;max-width:100%}
   font-size:12px;
   color:var(--muted);
 }
-.search-area{min-width:0}
+.search-area,.search,.header-actions{min-width:0}
 .location-chip{
   min-width:0;
   background:#fff;
@@ -194,14 +194,15 @@ img{display:block;max-width:100%}
 .header-actions{
   display:flex;
   align-items:center;
-  gap:8px;
+  gap:6px;
+  justify-content:flex-end;
 }
 .mobile-search-btn{
   display:none;
 }
 .header-chip,.cart-btn{
   border-radius:16px;
-  padding:12px 14px;
+  padding:11px 13px;
   font-weight:900;
   white-space:nowrap;
 }
@@ -221,8 +222,11 @@ img{display:block;max-width:100%}
   color:#fff;
   display:flex;
   align-items:center;
-  gap:10px;
+  gap:8px;
   box-shadow:0 12px 24px rgba(26,107,58,.22);
+}
+.lang-switch button{
+  padding:8px 10px;
 }
 .cart-count{
   min-width:22px;
@@ -1280,6 +1284,26 @@ img{display:block;max-width:100%}
   .service-grid{grid-template-columns:1fr 1fr}
   .category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
+@media (max-width:1280px){
+  .header-row{
+    grid-template-columns:minmax(140px,180px) minmax(160px,210px) minmax(220px,1fr) auto;
+    gap:8px;
+  }
+  .brand-copy strong{font-size:18px}
+  .brand-copy span{font-size:11px}
+  .location-chip{
+    padding:9px 12px 9px 32px;
+  }
+  .location-chip strong{font-size:13px}
+  .location-chip span{font-size:10px}
+  .lang-switch button{
+    padding:7px 9px;
+    font-size:11px;
+  }
+  .cart-btn{
+    padding:10px 11px;
+  }
+}
 @media (max-width:980px){
   .header-row{grid-template-columns:1fr}
   .header-actions{justify-content:flex-start}
@@ -1796,27 +1820,15 @@ img{display:block;max-width:100%}
         <div class="save-row">
           <button class="save-tag" onclick="saveCurrentAddress()" type="button" data-t="saveAddressBtn">এই ঠিকানা সেভ করুন</button>
         </div>
-        <div class="two-col">
-          <div class="field">
-            <label for="fSlot" data-t="fieldSlot">ডেলিভারি স্লট *</label>
-            <select id="fSlot">
-              <option>Within 45 minutes</option>
-              <option>10 AM - 12 PM</option>
-              <option>12 PM - 3 PM</option>
-              <option>3 PM - 6 PM</option>
-              <option>6 PM - 9 PM</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="fPay" data-t="fieldPay">পেমেন্ট পদ্ধতি</label>
-            <select id="fPay">
-              <option>Cash on Delivery</option>
-              <option>bKash</option>
-              <option>Nagad</option>
-              <option>Rocket</option>
-              <option>Card</option>
-            </select>
-          </div>
+        <div class="field">
+          <label for="fPay" data-t="fieldPay">পেমেন্ট পদ্ধতি</label>
+          <select id="fPay">
+            <option>Cash on Delivery</option>
+            <option>bKash</option>
+            <option>Nagad</option>
+            <option>Rocket</option>
+            <option>Card</option>
+          </select>
         </div>
         <div class="field">
           <label for="fNote" data-t="fieldNote">বিশেষ নির্দেশনা</label>
@@ -2963,7 +2975,6 @@ async function placeOrder(){
   const phone = byId('fPhone').value.trim();
   const alt = byId('fAlt').value.trim();
   const address = byId('fAddr').value.trim();
-  const slot = byId('fSlot').value;
   const payment = byId('fPay').value;
   const note = byId('fNote').value.trim();
 
@@ -2995,7 +3006,6 @@ async function placeOrder(){
     phone,
     alt_phone: alt,
     address_details: address,
-    delivery_slot: slot,
     payment_method: payment,
     items,
     subtotal,
