@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Amrar Bazar | আমরার বাজার</title>
-<meta name="description" content="Bangla-first, mobile-first daily shopping website with location-based products, offers, address-first checkout, and a clean cart drawer.">
+<meta name="description" content="Bangla-first, mobile-first daily shopping website with vibrant offers, address-first checkout, and a clean cart drawer.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@ body{
   overflow-x:hidden;
 }
 body.bn{font-family:'Hind Siliguri',sans-serif}
-body.nav-open,body.cart-open,body.location-open{overflow:hidden}
+body.nav-open,body.cart-open{overflow:hidden}
 body.focus-mode .footer{display:none}
 body.theme-kulaura{
   --hero-start:#2b6a42;
@@ -89,7 +89,7 @@ img{display:block;max-width:100%}
 }
 .header-row{
   display:grid;
-  grid-template-columns:minmax(150px,190px) minmax(180px,230px) minmax(260px,1fr) auto;
+  grid-template-columns:minmax(190px,240px) minmax(320px,1fr) auto;
   gap:10px;
   align-items:center;
   padding:12px 0;
@@ -137,34 +137,7 @@ img{display:block;max-width:100%}
   font-size:12px;
   color:var(--muted);
 }
-.search-area,.search,.header-actions{min-width:0}
-.location-chip{
-  min-width:0;
-  background:#fff;
-  border:1px solid var(--line);
-  border-radius:18px;
-  padding:10px 14px 10px 36px;
-  box-shadow:var(--shadow-soft);
-  text-align:left;
-  position:relative;
-}
-.location-chip strong{
-  display:block;
-  font-size:14px;
-}
-.location-chip span{
-  display:block;
-  margin-top:2px;
-  color:var(--muted);
-  font-size:11px;
-}
-.location-chip::before{
-  content:"📍";
-  position:absolute;
-  left:12px;
-  top:10px;
-  font-size:16px;
-}
+.search,.header-actions{min-width:0}
 .search{
   position:relative;
 }
@@ -1286,16 +1259,11 @@ img{display:block;max-width:100%}
 }
 @media (max-width:1280px){
   .header-row{
-    grid-template-columns:minmax(140px,180px) minmax(160px,210px) minmax(220px,1fr) auto;
+    grid-template-columns:minmax(170px,210px) minmax(260px,1fr) auto;
     gap:8px;
   }
   .brand-copy strong{font-size:18px}
   .brand-copy span{font-size:11px}
-  .location-chip{
-    padding:9px 12px 9px 32px;
-  }
-  .location-chip strong{font-size:13px}
-  .location-chip span{font-size:10px}
   .lang-switch button{
     padding:7px 9px;
     font-size:11px;
@@ -1326,28 +1294,9 @@ img{display:block;max-width:100%}
   }
   .left-cluster .brand{display:none}
   .header-row{
-    grid-template-columns:auto minmax(76px,94px) minmax(0,1fr);
+    grid-template-columns:auto minmax(0,1fr);
     gap:8px;
     padding:8px 0;
-  }
-  .search-area{display:block}
-  .location-chip{
-    padding:8px 10px 8px 24px;
-    border-radius:14px;
-    box-shadow:none;
-  }
-  .location-chip::before{
-    left:8px;
-    right:auto;
-    top:8px;
-    font-size:12px;
-  }
-  .location-chip span{display:none}
-  .location-chip strong{
-    font-size:12px;
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
   }
   .search input{
     padding:10px 36px 10px 12px;
@@ -1591,12 +1540,6 @@ img{display:block;max-width:100%}
         </div>
       </a>
     </div>
-    <div class="search-area">
-      <button class="location-chip" onclick="openLocationModal()">
-        <strong id="locationTitle">লোকেশন সিলেক্ট করুন</strong>
-        <span id="locationSubtitle">আজকের ডেলিভারির জন্য এলাকা বেছে নিন</span>
-      </button>
-    </div>
     <div class="search">
       <input id="searchInput" type="text" placeholder="পণ্য খুঁজুন..." oninput="filterProducts()">
       <button aria-label="Search">🔍</button>
@@ -1628,17 +1571,13 @@ img{display:block;max-width:100%}
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-head">
     <strong><button onclick="scrollToTopAndCloseSidebar()" style="color:inherit;font:inherit;font-weight:inherit;text-align:left">amrarbazar</button></strong>
-    <span data-t="sidebarSub">লোকেশনভিত্তিক বাজার, অফার, ফার্মেসি, রেস্টুরেন্ট</span>
+    <span data-t="sidebarSub">প্রতিদিনের বাজার, অফার, ফার্মেসি, রেস্টুরেন্ট</span>
   </div>
   <div class="sidebar-body">
     <div class="side-title" data-t="sideMain">Main Menu</div>
     <button class="side-link active" onclick="scrollToSection('shopSection');closeSidebar()">
       <span class="icon">🏪</span>
       <span><strong data-t="menuShop">শপ</strong><span data-t="menuShopSub">সব পণ্য ও ক্যাটাগরি</span></span>
-    </button>
-    <button class="side-link" onclick="openLocationModal();closeSidebar()">
-      <span class="icon">📍</span>
-      <span><strong data-t="menuLocation">লোকেশন</strong><span data-t="menuLocationSub">Kulaura / Brahmanbaria</span></span>
     </button>
     <button class="side-link" onclick="openCart();closeSidebar()">
       <span class="icon">🧺</span>
@@ -1658,10 +1597,10 @@ img{display:block;max-width:100%}
       <div class="hero-banner">
         <div class="hero-copy">
           <h1 data-t="heroTitle">দ্রুত ডেলিভারিতে তাজা বাজার এখন হাতের নাগালে</h1>
-          <p data-t="heroText">Grocery, restaurant আর pharmacy essentials এখন এক জায়গায়। আপনার লোকেশন বেছে নিলেই দেখা যাবে আজকের দাম, অফার আর সবচেয়ে প্রয়োজনীয় পণ্য।</p>
+          <p data-t="heroText">Grocery, restaurant আর pharmacy essentials এখন এক জায়গায়। আজকের দাম, অফার আর সবচেয়ে প্রয়োজনীয় পণ্য এখন সরাসরি আপনার সামনে।</p>
           <div class="hero-actions">
             <button class="hero-primary" onclick="scrollToSection('shopSection')" data-t="heroPrimary">এখনই শপিং শুরু করুন</button>
-            <button class="hero-secondary" onclick="openLocationModal()" data-t="heroSecondary">লোকেশন বদলান</button>
+            <button class="hero-secondary" onclick="filterCat('offers');scrollToSection('shopSection')" data-t="heroSecondary">আজকের অফার দেখুন</button>
           </div>
         </div>
       </div>
@@ -1726,7 +1665,7 @@ img{display:block;max-width:100%}
         <div class="meta" id="resultMeta">0 items</div>
       </div>
       <div class="category-grid" id="categoryGrid"></div>
-      <div class="status-bar loading" id="statusBar">⏳ <span id="statusMsg">লোকেশন সিলেক্ট করলে পণ্য লোড হবে...</span></div>
+      <div class="status-bar loading" id="statusBar">⏳ <span id="statusMsg">আজকের পণ্য লোড হচ্ছে...</span></div>
     </div>
   </section>
 
@@ -1752,8 +1691,9 @@ img{display:block;max-width:100%}
             <p data-t="footerIntro">প্রতিদিনের বাজার, প্রিয় খাবার আর প্রয়োজনীয় ফার্মেসি পণ্য এখন আরও সহজ, দ্রুত আর নির্ভরযোগ্যভাবে আপনার দরজায়।</p>
           </div>
           <div class="footer-links">
-            <a href="#" onclick="openLocationModal();return false;" data-t="footerCity1">Kulaura</a>
-            <a href="#" onclick="openLocationModal();return false;" data-t="footerCity2">Brahmanbaria</a>
+            <a href="#" onclick="filterCat('grocery');scrollToSection('shopSection');return false;" data-t="footerLink1">Groceries</a>
+            <a href="#" onclick="filterCat('restaurant');scrollToSection('shopSection');return false;" data-t="footerLink2">Restaurant</a>
+            <a href="#" onclick="filterCat('medicine');scrollToSection('shopSection');return false;" data-t="footerLink3">Pharmacy</a>
           </div>
         </div>
         <div class="footer-pill-row">
@@ -1865,24 +1805,6 @@ img{display:block;max-width:100%}
   <span id="floatingCartTotal">৳0</span>
 </button>
 
-<div class="location-overlay" id="locationOverlay" onclick="closeLocationModal()"></div>
-<div class="location-modal" id="locationModal">
-  <div class="location-card">
-    <h3 data-t="locationModalTitle">লোকেশন বেছে নিন</h3>
-    <p data-t="locationModalText">প্রতিটি লোকেশনের জন্য আলাদা Google Sheet থাকবে, তাই পণ্য ও দাম লোকেশন অনুযায়ী আলাদা লোড হবে।</p>
-    <div class="location-grid">
-      <button class="location-option" onclick="selectLocation('kulaura')">
-        <strong data-t="locationKulaura">Kulaura</strong>
-        <span data-t="locationKulauraText">Kulaura delivery zone</span>
-      </button>
-      <button class="location-option" onclick="selectLocation('brahmanbaria')">
-        <strong data-t="locationBrahmanbaria">Brahmanbaria</strong>
-        <span data-t="locationBrahmanbariaText">Brahmanbaria delivery zone</span>
-      </button>
-    </div>
-  </div>
-</div>
-
 <div class="modal" id="successModal">
   <div class="modal-card">
     <div style="font-size:64px">🎉</div>
@@ -1909,8 +1831,9 @@ img{display:block;max-width:100%}
 
 <script>
 /*
-  LOCATION CONFIG
-  Paste each location's published Google Sheet CSV URL below.
+  STORE DATA
+  The website now uses one universal customer flow.
+  Change DEFAULT_STORE_KEY below if you want to switch the live product and order source.
 */
 const LOCATION_SHEETS = {
   kulaura: {
@@ -1934,6 +1857,7 @@ const LOCATION_SHEETS = {
     orderCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSmQ7Rt7LKtBPJzXg3nOskf7gtheJgMGCitDqtezj887OUCkSXgkKGFvw8S_UvE5wY8l9Indcd00QvS/pub?output=csv'
   }
 };
+const DEFAULT_STORE_KEY = 'kulaura';
 
 const SUPPORT_WHATSAPP = '8801625913150';
 const SUPPORT_EMAIL = 'support@amrarbazar.com';
@@ -1947,20 +1871,18 @@ const T = {
     brandSub:'Your Store',
     syncBtn:'আপডেট',
     cartBtn:'কার্ট',
-    sidebarSub:'লোকেশনভিত্তিক বাজার, অফার, ফার্মেসি, রেস্টুরেন্ট',
+    sidebarSub:'প্রতিদিনের বাজার, অফার, ফার্মেসি, রেস্টুরেন্ট',
     sideMain:'Main Menu',
     menuShop:'শপ',
     menuShopSub:'সব পণ্য ও ক্যাটাগরি',
-    menuLocation:'লোকেশন',
-    menuLocationSub:'Kulaura / Brahmanbaria',
     menuCart:'কার্ট',
     menuCartSub:'Chaldal-style drawer',
     sideCategories:'Categories',
     menuWhatsApp:'WhatsApp সাহায্য',
     heroTitle:'দ্রুত ডেলিভারিতে তাজা বাজার এখন হাতের নাগালে',
-    heroText:'Grocery, restaurant আর pharmacy essentials এখন এক জায়গায়। আপনার লোকেশন বেছে নিলেই দেখা যাবে আজকের দাম, অফার আর সবচেয়ে প্রয়োজনীয় পণ্য।',
+    heroText:'Grocery, restaurant আর pharmacy essentials এখন এক জায়গায়। আজকের দাম, অফার আর সবচেয়ে প্রয়োজনীয় পণ্য এখন সরাসরি আপনার সামনে।',
     heroPrimary:'এখনই শপিং শুরু করুন',
-    heroSecondary:'লোকেশন বদলান',
+    heroSecondary:'আজকের অফার দেখুন',
     promoGroceryTitle:'Fresh grocery every day',
     promoGroceryText:'সকালের রান্না থেকে রাতের বাজার, সব দরকারি পণ্য একসাথে অর্ডার করুন।',
     promoPharmacyTitle:'Pharmacy at your doorstep',
@@ -1981,8 +1903,9 @@ const T = {
     categoryTitle:'জনপ্রিয় ক্যাটাগরি',
     categoryText:'আজকের বাজারকে আরও সহজ করতে পছন্দের জোনগুলো আগে দেখুন',
     productsSub:'আজকের দামে পছন্দের পণ্য বেছে নিন, কার্টে যোগ করুন, আর দ্রুত অর্ডার করুন',
-    footerCity1:'Kulaura',
-    footerCity2:'Brahmanbaria',
+    footerLink1:'Groceries',
+    footerLink2:'Restaurant',
+    footerLink3:'Pharmacy',
     footerIntro:'প্রতিদিনের বাজার, প্রিয় খাবার আর প্রয়োজনীয় ফার্মেসি পণ্য এখন আরও সহজ, দ্রুত আর নির্ভরযোগ্যভাবে আপনার দরজায়।',
     footerAboutTitle:'About',
     footerAbout1:'About us',
@@ -2025,21 +1948,14 @@ const T = {
     mobileCartLabel:'কার্টে আছে',
     mobileCartBtn:'কার্ট খুলুন',
     floatingCartLabel:'কার্ট',
-    locationModalTitle:'আপনার ডেলিভারি এলাকা বেছে নিন',
-    locationModalText:'এলাকা বেছে নিলেই দেখা যাবে আপনার জন্য সাজানো পণ্য, অফার আর আজকের দাম।',
-    locationKulaura:'Kulaura',
-    locationKulauraText:'Kulaura delivery zone',
-    locationBrahmanbaria:'Brahmanbaria',
-    locationBrahmanbariaText:'Brahmanbaria delivery zone',
     allProductsBtn:'সব পণ্য',
     successTitle:'অর্ডার সম্পন্ন',
     continueShopping:'কেনাকাটা চালিয়ে যান',
     searchPlaceholder:'পণ্য খুঁজুন...',
-    loadingSheet:'আপনার এলাকার পণ্য আর দাম লোড হচ্ছে...',
+    loadingSheet:'আজকের পণ্য আর দাম লোড হচ্ছে...',
     loadedSheet:'টি পণ্য এখন শপিংয়ের জন্য প্রস্তুত',
-    fallbackSheet:'Fallback পণ্য দেখানো হচ্ছে। লোকেশন sheet URL সেট করলে লাইভ পণ্য আসবে।',
+    fallbackSheet:'Fallback পণ্য দেখানো হচ্ছে। product sheet URL সেট করলে লাইভ পণ্য আসবে।',
     sheetEmpty:'Sheet লোড হয়েছে, কিন্তু usable row পাওয়া যায়নি। header নাম ঠিক আছে কি না দেখুন।',
-    chooseLocationFirst:'আজকের বাজার দেখতে আগে আপনার লোকেশন বেছে নিন',
     totalItems:'মোট পণ্য',
     resultCount:'টি পণ্য',
     noItems:'কোনো পণ্য পাওয়া যায়নি',
@@ -2060,9 +1976,6 @@ const T = {
     offerBadge:'Offer',
     discountLabel:'ছাড়',
     restaurantLabel:'Restaurant',
-    locationTitleEmpty:'লোকেশন সিলেক্ট করুন',
-    locationSubtitleEmpty:'ডেলিভারি এলাকা বেছে নিন',
-    locationSwitched:'লোকেশন বদলানো হয়েছে। কার্ট রিসেট করা হয়েছে।',
     cats:{
       all:'সব পণ্য',
       offers:'🏷️ অফার',
@@ -2087,20 +2000,18 @@ const T = {
     brandSub:'Your Store',
     syncBtn:'Sync',
     cartBtn:'Cart',
-    sidebarSub:'Location-based grocery, offers, pharmacy, restaurant',
+    sidebarSub:'Daily grocery, offers, pharmacy, restaurant',
     sideMain:'Main Menu',
     menuShop:'Shop',
     menuShopSub:'all products and categories',
-    menuLocation:'Location',
-    menuLocationSub:'Kulaura / Brahmanbaria',
     menuCart:'Cart',
     menuCartSub:'Chaldal-style drawer',
     sideCategories:'Categories',
     menuWhatsApp:'WhatsApp help',
     heroTitle:'Fresh daily essentials delivered faster to your door',
-    heroText:'Grocery, restaurant meals, and pharmacy essentials now come together in one simple shopping flow. Choose your location and see live prices instantly.',
+    heroText:'Grocery, restaurant meals, and pharmacy essentials now come together in one simple shopping flow. See live prices and offers instantly.',
     heroPrimary:'Start shopping',
-    heroSecondary:'Change location',
+    heroSecondary:'See today’s offers',
     promoGroceryTitle:'Fresh grocery every day',
     promoGroceryText:'From kitchen basics to fresh produce, order everything you need in one go.',
     promoPharmacyTitle:'Pharmacy at your doorstep',
@@ -2121,8 +2032,9 @@ const T = {
     categoryTitle:'Popular categories',
     categoryText:'See the shopping zones customers use most every day',
     productsSub:'Browse today’s prices, add items in seconds, and place orders with confidence',
-    footerCity1:'Kulaura',
-    footerCity2:'Brahmanbaria',
+    footerLink1:'Groceries',
+    footerLink2:'Restaurant',
+    footerLink3:'Pharmacy',
     footerIntro:'Daily essentials, favorite meals, and pharmacy needs now arrive faster with a cleaner and simpler shopping experience.',
     footerAboutTitle:'About',
     footerAbout1:'About us',
@@ -2165,21 +2077,14 @@ const T = {
     mobileCartLabel:'In cart',
     mobileCartBtn:'Open cart',
     floatingCartLabel:'Cart',
-    locationModalTitle:'Choose your delivery area',
-    locationModalText:'Pick your area first to see the right products, offers, and prices for that location.',
-    locationKulaura:'Kulaura',
-    locationKulauraText:'Kulaura delivery zone',
-    locationBrahmanbaria:'Brahmanbaria',
-    locationBrahmanbariaText:'Brahmanbaria delivery zone',
     allProductsBtn:'All products',
     successTitle:'Order placed',
     continueShopping:'Continue shopping',
     searchPlaceholder:'Search products...',
-    loadingSheet:'Loading products and prices for your location...',
+    loadingSheet:'Loading products and prices for your store...',
     loadedSheet:'products are ready to shop',
-    fallbackSheet:'Fallback products are showing. Set location sheet URLs for live data.',
+    fallbackSheet:'Fallback products are showing. Set your product sheet URL for live data.',
     sheetEmpty:'The sheet loaded, but no usable rows were found. Check your header names.',
-    chooseLocationFirst:'Choose your location first to explore today’s products',
     totalItems:'total items',
     resultCount:'items',
     noItems:'No products found',
@@ -2200,9 +2105,6 @@ const T = {
     offerBadge:'Offer',
     discountLabel:'off',
     restaurantLabel:'Restaurant',
-    locationTitleEmpty:'Select location',
-    locationSubtitleEmpty:'Choose your delivery area',
-    locationSwitched:'Location changed. Cart has been reset.',
     cats:{
       all:'All items',
       offers:'🏷️ Offers',
@@ -2230,16 +2132,16 @@ const INFO_CONTENT = {
       title: 'About Us',
       body: `
         <p><strong>amrarbazar</strong> প্রতিদিনের বাজারকে সহজ, দ্রুত এবং নির্ভরযোগ্য করতে তৈরি করা হয়েছে। grocery, restaurant এবং pharmacy essentials একসাথে এনে আমরা গ্রাহকদের জন্য একটি সহজ shopping experience দিতে চাই।</p>
-        <p>আমাদের লক্ষ্য হলো লোকেশনভিত্তিক সঠিক পণ্য, সঠিক দাম এবং দ্রুত ডেলিভারি নিশ্চিত করা।</p>
+        <p>আমাদের লক্ষ্য হলো সঠিক পণ্য, সঠিক দাম এবং দ্রুত ডেলিভারি নিশ্চিত করা।</p>
       `
     },
     terms: {
       title: 'Terms of Use',
       body: `
         <p><strong>Order acceptance:</strong> প্রতিটি অর্ডার আমাদের টিম যাচাই করার পর কনফার্ম করা হয়।</p>
-        <p><strong>Pricing:</strong> পণ্যের দাম লোকেশনভেদে পরিবর্তিত হতে পারে এবং স্টক অনুযায়ী আপডেট হবে।</p>
+        <p><strong>Pricing:</strong> পণ্যের দাম স্টক, অফার এবং আপডেট অনুযায়ী পরিবর্তিত হতে পারে।</p>
         <p><strong>Availability:</strong> কোনো পণ্য out of stock হলে বিকল্প পণ্য প্রস্তাব করা হতে পারে।</p>
-        <p><strong>Delivery:</strong> নির্ধারিত স্লট ও ঠিকানার উপর ভিত্তি করে ডেলিভারি সময় ভিন্ন হতে পারে।</p>
+        <p><strong>Delivery:</strong> ঠিকানা, অর্ডার ভলিউম এবং অপারেশন অনুযায়ী ডেলিভারি সময় ভিন্ন হতে পারে।</p>
       `
     },
     privacy: {
@@ -2269,7 +2171,7 @@ const INFO_CONTENT = {
       body: `
         <p>অর্ডার করার সময় বাড়ি, রোড, এলাকা এবং কাছের landmark স্পষ্টভাবে লিখুন।</p>
         <p>মোবাইল নম্বর সচল রাখুন যাতে rider সহজে যোগাযোগ করতে পারে।</p>
-        <p>Delivery slot নির্বাচন করলে আমরা আপনার অর্ডার দ্রুত প্রসেস করতে পারি।</p>
+        <p>বিশেষ নির্দেশনা থাকলে checkout note-এ লিখে দিন, এতে order process করা আরও সহজ হবে।</p>
       `
     },
     tracking: {
@@ -2283,7 +2185,7 @@ const INFO_CONTENT = {
       title: 'FAQ',
       body: `
         <div class="faq-list">
-          <div class="faq-item"><strong>কীভাবে অর্ডার করব?</strong><span>লোকেশন বেছে নিন, পণ্য কার্টে যোগ করুন, ঠিকানা দিন, তারপর অর্ডার কনফার্ম করুন।</span></div>
+          <div class="faq-item"><strong>কীভাবে অর্ডার করব?</strong><span>পণ্য কার্টে যোগ করুন, ঠিকানা দিন, তারপর অর্ডার কনফার্ম করুন।</span></div>
           <div class="faq-item"><strong>ডেলিভারি চার্জ কত?</strong><span>ছোট অর্ডারে ডেলিভারি চার্জ প্রযোজ্য হবে, আর নির্দিষ্ট অর্ডারের উপরে ফ্রি ডেলিভারি মিলতে পারে।</span></div>
           <div class="faq-item"><strong>কোন কোন পেমেন্ট নেওয়া হয়?</strong><span>Cash on Delivery, bKash, Nagad, Rocket এবং Card support রাখা হয়েছে।</span></div>
           <div class="faq-item"><strong>ভুল পণ্য পেলে কী করব?</strong><span>২৪ ঘন্টার মধ্যে WhatsApp-এ জানালে আমাদের টিম দ্রুত সমাধান দেবে।</span></div>
@@ -2296,16 +2198,16 @@ const INFO_CONTENT = {
       title: 'About Us',
       body: `
         <p><strong>amrarbazar</strong> is built to make daily shopping faster, simpler, and more reliable. We bring grocery, restaurant meals, and pharmacy essentials together in one place.</p>
-        <p>Our goal is to show the right products, right prices, and smoother delivery based on the customer’s location.</p>
+        <p>Our goal is to show the right products, right prices, and smoother delivery for everyday customers.</p>
       `
     },
     terms: {
       title: 'Terms of Use',
       body: `
         <p><strong>Order acceptance:</strong> Every order is reviewed and confirmed by our team.</p>
-        <p><strong>Pricing:</strong> Prices may vary by location and are updated based on live sheet data.</p>
+        <p><strong>Pricing:</strong> Prices may change based on stock, offers, and live updates.</p>
         <p><strong>Availability:</strong> If an item is unavailable, a suitable alternative may be suggested.</p>
-        <p><strong>Delivery:</strong> Delivery timing may vary depending on area, slot, and order volume.</p>
+        <p><strong>Delivery:</strong> Delivery timing may vary depending on address, order volume, and operations.</p>
       `
     },
     privacy: {
@@ -2335,7 +2237,7 @@ const INFO_CONTENT = {
       body: `
         <p>Please write house, road, area, and a nearby landmark clearly while placing an order.</p>
         <p>Keep your phone available so the rider can contact you if needed.</p>
-        <p>Choosing a delivery slot helps us process your order more smoothly.</p>
+        <p>If you have a special instruction, mention it in the checkout note for smoother processing.</p>
       `
     },
     tracking: {
@@ -2349,7 +2251,7 @@ const INFO_CONTENT = {
       title: 'FAQ',
       body: `
         <div class="faq-list">
-          <div class="faq-item"><strong>How do I place an order?</strong><span>Choose your location, add products to cart, enter your address, and confirm the order.</span></div>
+          <div class="faq-item"><strong>How do I place an order?</strong><span>Add products to cart, enter your address, and confirm the order.</span></div>
           <div class="faq-item"><strong>How much is the delivery charge?</strong><span>Small orders include a delivery charge, and larger orders may qualify for free delivery.</span></div>
           <div class="faq-item"><strong>Which payment methods are supported?</strong><span>Cash on Delivery, bKash, Nagad, Rocket, and Card are supported.</span></div>
           <div class="faq-item"><strong>What if I receive the wrong item?</strong><span>Contact us within 24 hours on WhatsApp and our team will help quickly.</span></div>
@@ -2375,7 +2277,7 @@ const FALLBACK = [
 ];
 
 let lang = localStorage.getItem('amrar-lang') || 'bn';
-let selectedLocation = localStorage.getItem('amrar-location') || '';
+let selectedLocation = DEFAULT_STORE_KEY;
 let products = [];
 let cart = JSON.parse(localStorage.getItem('amrar-cart') || '{}');
 let savedAddresses = JSON.parse(localStorage.getItem('amrar-saved-addresses') || '[]');
@@ -2400,6 +2302,7 @@ function saveCart(){
 function setupLinks(){
   byId('waBtn').href = `https://wa.me/${SUPPORT_WHATSAPP}`;
   byId('sideWaBtn').href = `https://wa.me/${SUPPORT_WHATSAPP}`;
+  localStorage.removeItem('amrar-location');
 }
 
 function normalizeDriveImage(url){
@@ -2413,24 +2316,6 @@ function normalizeDriveImage(url){
 
 function setThemeForLocation(locationKey){
   document.body.classList.remove('theme-kulaura','theme-brahmanbaria');
-  if (locationKey && LOCATION_SHEETS[locationKey]) {
-    document.body.classList.add(LOCATION_SHEETS[locationKey].theme);
-  }
-}
-
-function updateLocationUI(){
-  if (!selectedLocation || !LOCATION_SHEETS[selectedLocation]) {
-    byId('locationTitle').textContent = T[lang].locationTitleEmpty;
-    byId('locationSubtitle').textContent = T[lang].locationSubtitleEmpty;
-    document.querySelectorAll('.location-option').forEach((button) => button.classList.remove('active'));
-    return;
-  }
-  const config = LOCATION_SHEETS[selectedLocation];
-  byId('locationTitle').textContent = lang === 'bn' ? config.title_bn : config.title_en;
-  byId('locationSubtitle').textContent = lang === 'bn' ? config.subtitle_bn : config.subtitle_en;
-  document.querySelectorAll('.location-option').forEach((button) => {
-    button.classList.toggle('active', button.getAttribute('onclick')?.includes(`'${selectedLocation}'`));
-  });
 }
 
 function setLang(nextLang){
@@ -2445,7 +2330,6 @@ function setLang(nextLang){
     const value = T[lang][el.dataset.t];
     if (value !== undefined) el.innerHTML = value;
   });
-  updateLocationUI();
   renderCategoryPills();
   renderSidebarCategories();
   renderCategoryGrid();
@@ -2614,15 +2498,7 @@ function sanitizeCart(){
 }
 
 async function loadProductsForLocation(){
-  if (!selectedLocation || !LOCATION_SHEETS[selectedLocation]) {
-    products = [];
-    renderCategoryGrid();
-    renderProducts([]);
-    setStatus('error', T[lang].chooseLocationFirst);
-    return;
-  }
-
-  const config = LOCATION_SHEETS[selectedLocation];
+  const config = LOCATION_SHEETS[selectedLocation] || LOCATION_SHEETS[DEFAULT_STORE_KEY];
   const csvUrl = config.productCsv;
   setStatus('loading', T[lang].loadingSheet);
 
@@ -2639,7 +2515,7 @@ async function loadProductsForLocation(){
     products = rows;
     setStatus('ok', `${products.length} ${T[lang].loadedSheet}`);
   }catch(error){
-    products = FALLBACK.filter((item) => item.location === selectedLocation).map((item) => ({...item, image: normalizeDriveImage(item.image || '')}));
+    products = FALLBACK.filter((item) => item.location === DEFAULT_STORE_KEY).map((item) => ({...item, image: normalizeDriveImage(item.image || '')}));
     setStatus('ok', T[lang].fallbackSheet);
   }
 
@@ -2730,11 +2606,6 @@ function renderProducts(list){
   byId('productTitle').textContent = label.replace(/^[^\s]+\s/, '');
   byId('activeMeta').textContent = `${list.length} ${T[lang].resultCount}`;
   const grid = byId('productGrid');
-
-  if (!selectedLocation) {
-    grid.innerHTML = `<div class="service-card" style="grid-column:1/-1"><strong>${T[lang].chooseLocationFirst}</strong><span>${lang === 'bn' ? 'উপরে লোকেশন সিলেক্ট করুন।' : 'Choose a location from the top selector.'}</span></div>`;
-    return;
-  }
 
   if (!list.length) {
     grid.innerHTML = `<div class="service-card" style="grid-column:1/-1"><strong>${T[lang].noItems}</strong><span>${T[lang].productsSub}</span></div>`;
@@ -2941,35 +2812,6 @@ function goCheckout(){
   switchTab('checkout');
 }
 
-function openLocationModal(){
-  document.body.classList.add('location-open');
-  byId('locationModal').classList.add('open');
-  byId('locationOverlay').classList.add('open');
-}
-
-function closeLocationModal(){
-  document.body.classList.remove('location-open');
-  byId('locationModal').classList.remove('open');
-  byId('locationOverlay').classList.remove('open');
-}
-
-function selectLocation(locationKey){
-  if (!LOCATION_SHEETS[locationKey]) return;
-  const changed = selectedLocation && selectedLocation !== locationKey;
-  selectedLocation = locationKey;
-  localStorage.setItem('amrar-location', selectedLocation);
-  setThemeForLocation(selectedLocation);
-  updateLocationUI();
-  closeLocationModal();
-  if (changed) {
-    cart = {};
-    saveCart();
-    updateCartUI();
-    showToast(T[lang].locationSwitched);
-  }
-  loadProductsForLocation();
-}
-
 async function placeOrder(){
   const name = byId('fName').value.trim();
   const phone = byId('fPhone').value.trim();
@@ -2989,7 +2831,7 @@ async function placeOrder(){
   }).filter(Boolean).join(' | ');
 
   const orderId = `AB-${Date.now().toString().slice(-6)}`;
-  const orderScript = selectedLocation && LOCATION_SHEETS[selectedLocation] ? LOCATION_SHEETS[selectedLocation].orderScript : '';
+  const orderScript = LOCATION_SHEETS[DEFAULT_STORE_KEY]?.orderScript || '';
   const payload = {
     timestamp: new Date().toLocaleString('en-GB', {
       timeZone:'Asia/Dhaka',
@@ -3000,8 +2842,8 @@ async function placeOrder(){
       minute:'2-digit'
     }),
     order_id: orderId,
-    location_key: selectedLocation,
-    location_name: selectedLocation && LOCATION_SHEETS[selectedLocation] ? LOCATION_SHEETS[selectedLocation].title_en : '',
+    location_key: 'universal',
+    location_name: 'Amrar Bazar',
     name,
     phone,
     alt_phone: alt,
@@ -3084,7 +2926,6 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') {
     closeSidebar();
     closeCart();
-    closeLocationModal();
     closeModal();
     closeInfoModal();
   }
@@ -3106,14 +2947,7 @@ toggleFocusMode();
 setLang(lang);
 startSearchPlaceholderRotation();
 updateCartUI();
-
-if (selectedLocation) {
-  loadProductsForLocation();
-} else {
-  products = [];
-  renderProducts([]);
-  openLocationModal();
-}
+loadProductsForLocation();
 </script>
 </body>
 </html>
