@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Amrar Bazar | আমরার বাজার</title>
-<meta name="description" content="Bangla-first, mobile-first daily shopping website with vibrant offers, address-first checkout, and a clean cart drawer.">
+<meta name="description" content="Bangla-first, mobile-first clothing storefront with clean product browsing, offers, and a simple cart drawer.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -242,15 +242,15 @@ img{display:block;max-width:100%}
 }
 
 .hero{
-  padding:14px 0 14px;
+  padding:10px 0 12px;
 }
 .hero-grid{
   display:grid;
   grid-template-columns:minmax(0,1.9fr);
-  gap:16px;
+  gap:14px;
 }
 .hero-banner{
-  min-height:420px;
+  min-height:320px;
   border-radius:32px;
   overflow:hidden;
   position:relative;
@@ -260,30 +260,30 @@ img{display:block;max-width:100%}
   box-shadow:var(--shadow);
 }
 .hero-banner::after{
-  content:"🥛 🍌 🍅 🥚 🥬";
+  content:"👕 👖 🧢 👟 🧒";
   position:absolute;
   right:34px;
-  bottom:38px;
-  font-size:112px;
-  letter-spacing:14px;
-  opacity:.22;
+  bottom:26px;
+  font-size:92px;
+  letter-spacing:10px;
+  opacity:.18;
 }
 .hero-copy{
   position:relative;
   z-index:1;
-  padding:34px 38px 30px;
-  max-width:640px;
+  padding:28px 34px 26px;
+  max-width:560px;
   color:#fff;
 }
 .hero-copy h1{
-  font-size:clamp(38px,5vw,64px);
-  line-height:1.02;
+  font-size:clamp(34px,4.2vw,56px);
+  line-height:1.04;
   letter-spacing:-.03em;
 }
 .hero-copy p{
-  margin-top:14px;
-  font-size:18px;
-  line-height:1.6;
+  margin-top:10px;
+  font-size:16px;
+  line-height:1.5;
   color:rgba(255,255,255,.92);
 }
 .hero-actions{
@@ -309,30 +309,30 @@ img{display:block;max-width:100%}
 .side-promos{
   display:grid;
   grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:14px;
+  gap:12px;
 }
 .promo-card{
-  min-height:188px;
+  min-height:158px;
   border-radius:28px;
-  padding:24px 22px;
+  padding:20px 20px;
   position:relative;
   overflow:hidden;
   box-shadow:var(--shadow-soft);
 }
 .promo-card h3{
-  font-size:24px;
+  font-size:22px;
   line-height:1.05;
-  max-width:220px;
+  max-width:200px;
 }
 .promo-card p{
-  margin-top:8px;
-  font-size:14px;
-  line-height:1.55;
-  max-width:230px;
+  margin-top:6px;
+  font-size:13px;
+  line-height:1.45;
+  max-width:210px;
 }
 .promo-card button{
-  margin-top:18px;
-  padding:10px 16px;
+  margin-top:14px;
+  padding:9px 14px;
   border-radius:12px;
   background:rgba(0,0,0,.72);
   color:#fff;
@@ -342,13 +342,13 @@ img{display:block;max-width:100%}
   position:absolute;
   right:14px;
   bottom:8px;
-  font-size:66px;
-  opacity:.18;
+  font-size:58px;
+  opacity:.14;
 }
 .promo-pharmacy{background:linear-gradient(135deg,#66d3d5,#8ae0de);color:#fff}
 .promo-restaurant{background:linear-gradient(135deg,#ffd44c,#ffca33);color:#2b2415}
 
-.section{padding:14px 0}
+.section{padding:12px 0}
 .section-head{
   display:flex;
   justify-content:space-between;
@@ -369,7 +369,7 @@ img{display:block;max-width:100%}
   background:#fff;
   border:1px solid var(--line);
   border-radius:24px;
-  padding:20px 18px;
+  padding:16px 16px;
   box-shadow:var(--shadow-soft);
 }
 .service-icon{
@@ -390,8 +390,8 @@ img{display:block;max-width:100%}
   display:block;
   margin-top:6px;
   color:var(--muted);
-  font-size:13px;
-  line-height:1.55;
+  font-size:12px;
+  line-height:1.45;
 }
 
 .category-grid{
@@ -474,7 +474,7 @@ img{display:block;max-width:100%}
 
 .product-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(196px,1fr));
+  grid-template-columns:repeat(auto-fill,minmax(214px,1fr));
   gap:12px;
 }
 .product-card{
@@ -486,7 +486,7 @@ img{display:block;max-width:100%}
 }
 .product-top{
   position:relative;
-  height:148px;
+  height:180px;
   background:linear-gradient(135deg,#f7f1e5,#ece2cc);
 }
 .product-photo{
@@ -494,7 +494,7 @@ img{display:block;max-width:100%}
   height:100%;
   object-fit:contain;
   object-position:center;
-  padding:8px;
+  padding:10px;
 }
 .product-emoji{
   width:100%;
@@ -539,10 +539,9 @@ img{display:block;max-width:100%}
 .product-body{padding:12px}
 .product-cat{
   color:var(--muted);
-  font-size:10px;
-  text-transform:uppercase;
-  letter-spacing:.08em;
-  font-weight:900;
+  font-size:11px;
+  letter-spacing:0;
+  font-weight:800;
 }
 .restaurant-line{
   margin-top:4px;
@@ -552,10 +551,10 @@ img{display:block;max-width:100%}
 }
 .product-name{
   margin-top:5px;
-  font-size:14px;
+  font-size:15px;
   font-weight:900;
   line-height:1.35;
-  min-height:38px;
+  min-height:40px;
 }
 .product-unit{
   margin-top:4px;
@@ -1316,26 +1315,26 @@ img{display:block;max-width:100%}
   }
   .cat-strip{display:none}
   .hero-copy{
-    padding:22px;
+    padding:20px;
   }
   .hero-copy h1{
-    font-size:32px;
-    line-height:1.12;
+    font-size:29px;
+    line-height:1.1;
   }
   .hero-copy p{
-    font-size:14px;
+    font-size:13px;
   }
   .hero-actions button{
     width:100%;
     text-align:center;
   }
   .promo-card{
-    min-height:136px;
+    min-height:128px;
     padding:18px;
   }
   .promo-card h3{
-    font-size:24px;
-    max-width:180px;
+    font-size:20px;
+    max-width:160px;
   }
   .promo-card .promo-art{
     font-size:54px;
@@ -1536,7 +1535,7 @@ img{display:block;max-width:100%}
         <div class="brand-mark">ab</div>
         <div class="brand-copy">
           <strong>amrarbazar</strong>
-          <span data-t="brandSub">Your Store</span>
+          <span data-t="brandSub">Clothing Store</span>
         </div>
       </a>
     </div>
@@ -1562,8 +1561,8 @@ img{display:block;max-width:100%}
 
 <div class="category-focus-header" id="focusHeader">
   <div class="shell focus-title">
-    <strong id="focusTitle">সব পণ্য</strong>
-    <button onclick="resetCategoryFilter()" data-t="allProductsBtn">সব পণ্য</button>
+    <strong id="focusTitle">সব পোশাক</strong>
+    <button onclick="resetCategoryFilter()" data-t="allProductsBtn">সব পোশাক</button>
   </div>
 </div>
 
@@ -1571,19 +1570,19 @@ img{display:block;max-width:100%}
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-head">
     <strong><button onclick="scrollToTopAndCloseSidebar()" style="color:inherit;font:inherit;font-weight:inherit;text-align:left">amrarbazar</button></strong>
-    <span data-t="sidebarSub">প্রতিদিনের বাজার, অফার, ফার্মেসি, রেস্টুরেন্ট</span>
+    <span data-t="sidebarSub">স্টাইলিশ পোশাক, অফার, নতুন কালেকশন</span>
   </div>
   <div class="sidebar-body">
     <div class="side-title" data-t="sideMain">Main Menu</div>
     <button class="side-link active" onclick="scrollToSection('shopSection');closeSidebar()">
       <span class="icon">🏪</span>
-      <span><strong data-t="menuShop">শপ</strong><span data-t="menuShopSub">সব পণ্য ও ক্যাটাগরি</span></span>
+      <span><strong data-t="menuShop">শপ</strong><span data-t="menuShopSub">সব পোশাক ও ক্যাটাগরি</span></span>
     </button>
     <button class="side-link" onclick="openCart();closeSidebar()">
       <span class="icon">🧺</span>
-      <span><strong data-t="menuCart">কার্ট</strong><span data-t="menuCartSub">Chaldal-style drawer</span></span>
+      <span><strong data-t="menuCart">কার্ট</strong><span data-t="menuCartSub">দ্রুত checkout</span></span>
     </button>
-    <div class="side-title" data-t="sideCategories">Categories</div>
+    <div class="side-title" data-t="sideCategories">Collections</div>
     <div id="sidebarCats"></div>
   </div>
   <div class="sidebar-foot">
@@ -1596,60 +1595,32 @@ img{display:block;max-width:100%}
     <div class="shell hero-grid">
       <div class="hero-banner">
         <div class="hero-copy">
-          <h1 data-t="heroTitle">দ্রুত ডেলিভারিতে তাজা বাজার এখন হাতের নাগালে</h1>
-          <p data-t="heroText">Grocery, restaurant আর pharmacy essentials এখন এক জায়গায়। আজকের দাম, অফার আর সবচেয়ে প্রয়োজনীয় পণ্য এখন সরাসরি আপনার সামনে।</p>
+          <h1 data-t="heroTitle">পছন্দের পোশাক, এবার একদম সহজে</h1>
+          <p data-t="heroText">শার্ট, টি-শার্ট, প্যান্ট, স্পোর্টসওয়্যার আর বাচ্চাদের পোশাক। কম কথা, আগে কালেকশন দেখুন।</p>
           <div class="hero-actions">
-            <button class="hero-primary" onclick="scrollToSection('shopSection')" data-t="heroPrimary">এখনই শপিং শুরু করুন</button>
-            <button class="hero-secondary" onclick="filterCat('offers');scrollToSection('shopSection')" data-t="heroSecondary">আজকের অফার দেখুন</button>
+            <button class="hero-primary" onclick="scrollToSection('shopSection')" data-t="heroPrimary">কালেকশন দেখুন</button>
+            <button class="hero-secondary" onclick="filterCat('offers');scrollToSection('shopSection')" data-t="heroSecondary">অফার দেখুন</button>
           </div>
         </div>
       </div>
       <div class="side-promos">
         <div class="promo-card" style="background:linear-gradient(135deg,#fff6d4,#ffe07d);color:#27301f">
-          <h3 data-t="promoGroceryTitle">Fresh grocery every day</h3>
-          <p data-t="promoGroceryText">সকালের রান্না থেকে রাতের বাজার, সব দরকারি পণ্য একসাথে অর্ডার করুন।</p>
-          <button onclick="filterCat('grocery')" data-t="promoBtn">Order now</button>
-          <div class="promo-art">🛒</div>
+          <h3 data-t="promoGroceryTitle">Everyday shirts</h3>
+          <p data-t="promoGroceryText">ফরমাল আর ক্যাজুয়াল শার্ট, প্রতিদিনের জন্য ready picks।</p>
+          <button onclick="filterCat('shirts')" data-t="promoBtn">Browse</button>
+          <div class="promo-art">👔</div>
         </div>
         <div class="promo-card promo-pharmacy">
-          <h3 data-t="promoPharmacyTitle">Pharmacy at your doorstep</h3>
-          <p data-t="promoPharmacyText">বিশ্বাসযোগ্য pharmacy essentials, everyday medicine আর quick health support।</p>
-          <button onclick="filterCat('medicine')" data-t="promoBtn">Order now</button>
-          <div class="promo-art">💊</div>
+          <h3 data-t="promoPharmacyTitle">Easy sportswear</h3>
+          <p data-t="promoPharmacyText">হালকা, আরামদায়ক active styles for gym, walk and daily wear.</p>
+          <button onclick="filterCat('sportswear')" data-t="promoBtn">Browse</button>
+          <div class="promo-art">🏃</div>
         </div>
         <div class="promo-card promo-restaurant">
-          <h3 data-t="promoRestaurantTitle">Restaurant meals fast</h3>
-          <p data-t="promoRestaurantText">প্রিয় রেস্টুরেন্টের meals, snacks আর quick bites এখন আরও সহজে অর্ডার করুন।</p>
-          <button onclick="filterCat('restaurant')" data-t="promoBtn">Order now</button>
-          <div class="promo-art">🍲</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section focus-hide" id="serviceSection">
-    <div class="shell">
-      <div class="section-head">
-        <div>
-          <h2 data-t="serviceTitle">Main shopping blocks</h2>
-          <p data-t="serviceText">Grocery, pharmacy, restaurant, offers - all from one place</p>
-        </div>
-      </div>
-      <div class="service-grid">
-        <div class="service-card">
-          <div class="service-icon">🛍️</div>
-          <strong data-t="service1T">আজকের বাজার</strong>
-          <span data-t="service1S">তাজা সবজি, চাল-ডাল, তেল, ফল আর ঘরের প্রয়োজনীয় সবকিছু</span>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">💊</div>
-          <strong data-t="service2T">ফার্মেসি</strong>
-          <span data-t="service2S">প্রতিদিনের health essentials, medicine আর personal care</span>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">🍽️</div>
-          <strong data-t="service3T">রেস্টুরেন্ট</strong>
-          <span data-t="service3S">গরম গরম meals, snacks আর family favourites দ্রুত পৌঁছে যাবে</span>
+          <h3 data-t="promoRestaurantTitle">Kids collection</h3>
+          <p data-t="promoRestaurantText">বাচ্চাদের জন্য soft, simple and comfortable daily styles.</p>
+          <button onclick="filterCat('kidswear')" data-t="promoBtn">Browse</button>
+          <div class="promo-art">🧒</div>
         </div>
       </div>
     </div>
@@ -1659,8 +1630,8 @@ img{display:block;max-width:100%}
     <div class="shell">
       <div class="section-head">
         <div>
-          <h2 data-t="categoryTitle">Featured categories</h2>
-          <p data-t="categoryText">main item, grocery, pharmacy, restaurant, offers</p>
+          <h2 data-t="categoryTitle">Categories</h2>
+          <p data-t="categoryText">কম কথা, আগে যেটা দরকার সেটাই খুলুন</p>
         </div>
         <div class="meta" id="resultMeta">0 items</div>
       </div>
@@ -1673,12 +1644,40 @@ img{display:block;max-width:100%}
     <div class="shell">
       <div class="section-head">
         <div>
-          <h2 id="productTitle">সব পণ্য</h2>
-          <p data-t="productsSub">অফার, ডিসকাউন্ট, restaurant label, stable mobile cards, and accurate cart state</p>
+          <h2 id="productTitle">সব পোশাক</h2>
+          <p data-t="productsSub">পছন্দের পোশাক বেছে কার্টে যোগ করুন</p>
         </div>
         <div class="meta" id="activeMeta">0 টি পণ্য</div>
       </div>
       <div class="product-grid" id="productGrid"></div>
+    </div>
+  </section>
+
+  <section class="section focus-hide" id="serviceSection">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <h2 data-t="serviceTitle">শপিং আরও সহজ</h2>
+          <p data-t="serviceText">কম ধাপে বাছুন, দাম দেখুন, কার্টে যোগ করুন</p>
+        </div>
+      </div>
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="service-icon">📏</div>
+          <strong data-t="service1T">সাইজ পরিষ্কার</strong>
+          <span data-t="service1S">প্রতিটি পণ্যের সাথে size info রাখুন, decision faster হবে।</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🖼️</div>
+          <strong data-t="service2T">ছবি আগে</strong>
+          <span data-t="service2S">কম লিখে, ভালো product photo দিয়ে customer confidence বাড়ান।</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⚡</div>
+          <strong data-t="service3T">দ্রুত অর্ডার</strong>
+          <span data-t="service3S">কার্ট, checkout আর address flow ছোট রেখে order easy করুন।</span>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -1688,12 +1687,12 @@ img{display:block;max-width:100%}
         <div class="footer-top">
           <div>
             <h4>amrarbazar</h4>
-            <p data-t="footerIntro">প্রতিদিনের বাজার, প্রিয় খাবার আর প্রয়োজনীয় ফার্মেসি পণ্য এখন আরও সহজ, দ্রুত আর নির্ভরযোগ্যভাবে আপনার দরজায়।</p>
+            <p data-t="footerIntro">পছন্দের পোশাক এখন আরও সহজ, পরিষ্কার আর দ্রুতভাবে browse করে অর্ডার করুন।</p>
           </div>
           <div class="footer-links">
-            <a href="#" onclick="filterCat('grocery');scrollToSection('shopSection');return false;" data-t="footerLink1">Groceries</a>
-            <a href="#" onclick="filterCat('restaurant');scrollToSection('shopSection');return false;" data-t="footerLink2">Restaurant</a>
-            <a href="#" onclick="filterCat('medicine');scrollToSection('shopSection');return false;" data-t="footerLink3">Pharmacy</a>
+            <a href="#" onclick="filterCat('shirts');scrollToSection('shopSection');return false;" data-t="footerLink1">Shirts</a>
+            <a href="#" onclick="filterCat('tshirts');scrollToSection('shopSection');return false;" data-t="footerLink2">T-Shirts</a>
+            <a href="#" onclick="filterCat('kidswear');scrollToSection('shopSection');return false;" data-t="footerLink3">Kidswear</a>
           </div>
         </div>
         <div class="footer-pill-row">
@@ -1863,50 +1862,50 @@ const SUPPORT_WHATSAPP = '8801625913150';
 const SUPPORT_EMAIL = 'support@amrarbazar.com';
 const DELIVERY_FEE = 40;
 const FREE_DELIVERY = 1000;
-const CATS = ['all','offers','grocery','vegetables','fruits','medicine','restaurant','beverage','personal'];
+const CATS = ['all','offers','shirts','tshirts','pants','sportswear','kidswear'];
 
 const T = {
   bn:{
     topbarNote:'বাংলা ফার্স্ট, মোবাইল ফার্স্ট বাজার অভিজ্ঞতা',
-    brandSub:'Your Store',
+    brandSub:'Clothing Store',
     syncBtn:'আপডেট',
     cartBtn:'কার্ট',
-    sidebarSub:'প্রতিদিনের বাজার, অফার, ফার্মেসি, রেস্টুরেন্ট',
+    sidebarSub:'স্টাইলিশ পোশাক, অফার, নতুন কালেকশন',
     sideMain:'Main Menu',
     menuShop:'শপ',
-    menuShopSub:'সব পণ্য ও ক্যাটাগরি',
+    menuShopSub:'সব পোশাক ও ক্যাটাগরি',
     menuCart:'কার্ট',
-    menuCartSub:'Chaldal-style drawer',
-    sideCategories:'Categories',
+    menuCartSub:'দ্রুত checkout',
+    sideCategories:'Collections',
     menuWhatsApp:'WhatsApp সাহায্য',
-    heroTitle:'দ্রুত ডেলিভারিতে তাজা বাজার এখন হাতের নাগালে',
-    heroText:'Grocery, restaurant আর pharmacy essentials এখন এক জায়গায়। আজকের দাম, অফার আর সবচেয়ে প্রয়োজনীয় পণ্য এখন সরাসরি আপনার সামনে।',
-    heroPrimary:'এখনই শপিং শুরু করুন',
-    heroSecondary:'আজকের অফার দেখুন',
-    promoGroceryTitle:'Fresh grocery every day',
-    promoGroceryText:'সকালের রান্না থেকে রাতের বাজার, সব দরকারি পণ্য একসাথে অর্ডার করুন।',
-    promoPharmacyTitle:'Pharmacy at your doorstep',
-    promoPharmacyText:'বিশ্বাসযোগ্য pharmacy essentials, everyday medicine আর quick health support।',
-    promoRestaurantTitle:'Restaurant meals fast',
-    promoRestaurantText:'প্রিয় রেস্টুরেন্টের meals, snacks আর quick bites এখন আরও সহজে অর্ডার করুন।',
-    promoBtn:'Order now',
-    serviceTitle:'তিনটি সহজ শপিং জোন',
-    serviceText:'প্রতিদিনের প্রয়োজন, দ্রুত ডেলিভারি আর সহজ অর্ডারের জন্য সাজানো',
-    service1T:'আজকের বাজার',
-    service1S:'তাজা সবজি, চাল-ডাল, তেল, ফল আর ঘরের প্রয়োজনীয় সবকিছু',
-    service2T:'ফার্মেসি',
-    service2S:'প্রতিদিনের health essentials, medicine আর personal care',
-    service3T:'রেস্টুরেন্ট',
-    service3S:'গরম গরম meals, snacks আর family favourites দ্রুত পৌঁছে যাবে',
+    heroTitle:'পছন্দের পোশাক, এবার একদম সহজে',
+    heroText:'শার্ট, টি-শার্ট, প্যান্ট, স্পোর্টসওয়্যার আর বাচ্চাদের পোশাক। কম কথা, আগে কালেকশন দেখুন।',
+    heroPrimary:'কালেকশন দেখুন',
+    heroSecondary:'অফার দেখুন',
+    promoGroceryTitle:'Everyday shirts',
+    promoGroceryText:'ফরমাল আর ক্যাজুয়াল শার্ট, প্রতিদিনের জন্য ready picks।',
+    promoPharmacyTitle:'Easy sportswear',
+    promoPharmacyText:'হালকা, আরামদায়ক active styles for gym, walk and daily wear.',
+    promoRestaurantTitle:'Kids collection',
+    promoRestaurantText:'বাচ্চাদের জন্য soft, simple and comfortable daily styles.',
+    promoBtn:'ব্রাউজ করুন',
+    serviceTitle:'শপিং আরও সহজ',
+    serviceText:'কম ধাপে বাছুন, দাম দেখুন, কার্টে যোগ করুন',
+    service1T:'সাইজ পরিষ্কার',
+    service1S:'প্রতিটি পণ্যের সাথে size info রাখুন, decision faster হবে।',
+    service2T:'ছবি আগে',
+    service2S:'কম লিখে, ভালো product photo দিয়ে customer confidence বাড়ান।',
+    service3T:'দ্রুত অর্ডার',
+    service3S:'কার্ট, checkout আর address flow ছোট রেখে order easy করুন।',
     service4T:'Offers',
     service4S:'current price vs previous price auto discount display',
-    categoryTitle:'জনপ্রিয় ক্যাটাগরি',
-    categoryText:'আজকের বাজারকে আরও সহজ করতে পছন্দের জোনগুলো আগে দেখুন',
-    productsSub:'আজকের দামে পছন্দের পণ্য বেছে নিন, কার্টে যোগ করুন, আর দ্রুত অর্ডার করুন',
-    footerLink1:'Groceries',
-    footerLink2:'Restaurant',
-    footerLink3:'Pharmacy',
-    footerIntro:'প্রতিদিনের বাজার, প্রিয় খাবার আর প্রয়োজনীয় ফার্মেসি পণ্য এখন আরও সহজ, দ্রুত আর নির্ভরযোগ্যভাবে আপনার দরজায়।',
+    categoryTitle:'ক্যাটাগরি',
+    categoryText:'কম কথা, আগে যেটা দরকার সেটাই খুলুন',
+    productsSub:'পছন্দের পোশাক বেছে কার্টে যোগ করুন',
+    footerLink1:'শার্ট',
+    footerLink2:'টি-শার্ট',
+    footerLink3:'বাচ্চাদের',
+    footerIntro:'পছন্দের পোশাক এখন আরও সহজ, পরিষ্কার আর দ্রুতভাবে browse করে অর্ডার করুন।',
     footerAboutTitle:'About',
     footerAbout1:'About us',
     footerAbout2:'Terms of use',
@@ -1948,19 +1947,19 @@ const T = {
     mobileCartLabel:'কার্টে আছে',
     mobileCartBtn:'কার্ট খুলুন',
     floatingCartLabel:'কার্ট',
-    allProductsBtn:'সব পণ্য',
+    allProductsBtn:'সব পোশাক',
     successTitle:'অর্ডার সম্পন্ন',
     continueShopping:'কেনাকাটা চালিয়ে যান',
-    searchPlaceholder:'পণ্য খুঁজুন...',
-    loadingSheet:'আজকের পণ্য আর দাম লোড হচ্ছে...',
-    loadedSheet:'টি পণ্য এখন শপিংয়ের জন্য প্রস্তুত',
-    fallbackSheet:'Fallback পণ্য দেখানো হচ্ছে। product sheet URL সেট করলে লাইভ পণ্য আসবে।',
+    searchPlaceholder:'পোশাক খুঁজুন...',
+    loadingSheet:'কালেকশন লোড হচ্ছে...',
+    loadedSheet:'টি পণ্য এখন দেখার জন্য প্রস্তুত',
+    fallbackSheet:'ডেমো কালেকশন দেখানো হচ্ছে। product sheet URL সেট করলে লাইভ পণ্য আসবে।',
     sheetEmpty:'Sheet লোড হয়েছে, কিন্তু usable row পাওয়া যায়নি। header নাম ঠিক আছে কি না দেখুন।',
-    totalItems:'মোট পণ্য',
+    totalItems:'মোট স্টাইল',
     resultCount:'টি পণ্য',
-    noItems:'কোনো পণ্য পাওয়া যায়নি',
+    noItems:'কোনো পোশাক পাওয়া যায়নি',
     emptyCartTitle:'আপনার কার্ট এখন খালি',
-    emptyCartText:'পণ্য যোগ করলে এখানে দেখা যাবে',
+    emptyCartText:'পোশাক যোগ করলে এখানে দেখা যাবে',
     addToast:'কার্টে যোগ হয়েছে',
     needName:'নাম লিখুন',
     needPhone:'মোবাইল নম্বর লিখুন',
@@ -1968,7 +1967,7 @@ const T = {
     savedAddrToast:'ঠিকানা সেভ হয়েছে',
     noSavedAddress:'কোনো saved address নেই',
     chooseSavedAddress:'Saved address বেছে নিন',
-    successText:'আপনার অর্ডার সফলভাবে গ্রহণ করা হয়েছে। খুব শিগগিরই আমাদের টিম কনফার্ম করবে।',
+    successText:'আপনার অর্ডার নেওয়া হয়েছে। খুব দ্রুত আমাদের টিম যোগাযোগ করবে।',
     orderSavedLocal:'লোকাল কনফার্মেশন দেখানো হয়েছে।।',
     stockIn:'In stock',
     stockLow:'Low stock',
@@ -1977,65 +1976,63 @@ const T = {
     discountLabel:'ছাড়',
     restaurantLabel:'Restaurant',
     cats:{
-      all:'সব পণ্য',
+      all:'সব পোশাক',
       offers:'🏷️ অফার',
-      grocery:'🌾 গ্রোসারি',
-      vegetables:'🥦 সবজি',
-      fruits:'🍎 ফল',
-      medicine:'💊 ফার্মেসি',
-      restaurant:'🍽️ রেস্টুরেন্ট',
-      beverage:'🥤 পানীয়',
-      personal:'🧴 কেয়ার'
+      shirts:'👔 শার্ট',
+      tshirts:'👕 টি-শার্ট',
+      pants:'👖 প্যান্ট',
+      sportswear:'🏃 স্পোর্টস',
+      kidswear:'🧒 বাচ্চাদের'
     },
     categoryCards:{
-      grocery:{title:'Grocery',sub:'চাল, ডাল, তেল'},
-      medicine:{title:'Pharmacy',sub:'ওষুধ ও essentials'},
-      vegetables:{title:'Vegetables',sub:'তাজা সবজি'},
-      fruits:{title:'Fruits',sub:'daily fruit picks'},
-      restaurant:{title:'Restaurant',sub:'food image + restaurant name'}
+      shirts:{title:'Shirts',sub:'formal & casual'},
+      tshirts:{title:'T-Shirts',sub:'daily basics'},
+      pants:{title:'Pants',sub:'fit & comfort'},
+      sportswear:{title:'Sportswear',sub:'move easy'},
+      kidswear:{title:'Kidswear',sub:'soft everyday'}
     }
   },
   en:{
     topbarNote:'Bangla-first, mobile-first shopping experience',
-    brandSub:'Your Store',
+    brandSub:'Clothing Store',
     syncBtn:'Sync',
     cartBtn:'Cart',
-    sidebarSub:'Daily grocery, offers, pharmacy, restaurant',
+    sidebarSub:'Stylish clothing, offers, and new collections',
     sideMain:'Main Menu',
     menuShop:'Shop',
-    menuShopSub:'all products and categories',
+    menuShopSub:'all clothing and categories',
     menuCart:'Cart',
-    menuCartSub:'Chaldal-style drawer',
-    sideCategories:'Categories',
+    menuCartSub:'quick checkout',
+    sideCategories:'Collections',
     menuWhatsApp:'WhatsApp help',
-    heroTitle:'Fresh daily essentials delivered faster to your door',
-    heroText:'Grocery, restaurant meals, and pharmacy essentials now come together in one simple shopping flow. See live prices and offers instantly.',
-    heroPrimary:'Start shopping',
-    heroSecondary:'See today’s offers',
-    promoGroceryTitle:'Fresh grocery every day',
-    promoGroceryText:'From kitchen basics to fresh produce, order everything you need in one go.',
-    promoPharmacyTitle:'Pharmacy at your doorstep',
-    promoPharmacyText:'Trusted pharmacy essentials, everyday medicine, and quick health support.',
-    promoRestaurantTitle:'Restaurant meals fast',
-    promoRestaurantText:'Order favorite meals, snacks, and quick bites from nearby restaurants with ease.',
-    promoBtn:'Order now',
-    serviceTitle:'Three simple shopping zones',
-    serviceText:'Built to help customers browse quickly and order confidently',
-    service1T:'Daily grocery',
-    service1S:'fresh vegetables, staples, fruits, and household essentials',
-    service2T:'Pharmacy',
-    service2S:'health essentials, medicine, and daily personal care',
-    service3T:'Restaurant',
-    service3S:'hot meals, snacks, and family favorites delivered fast',
+    heroTitle:'Your clothing picks, made easy',
+    heroText:'Shirts, t-shirts, pants, sportswear, and kidswear in one clean shopping flow. Less copy, more products.',
+    heroPrimary:'View collection',
+    heroSecondary:'See offers',
+    promoGroceryTitle:'Everyday shirts',
+    promoGroceryText:'Formal and casual shirt picks for easy daily shopping.',
+    promoPharmacyTitle:'Easy sportswear',
+    promoPharmacyText:'Light, comfortable active styles for daily movement.',
+    promoRestaurantTitle:'Kids collection',
+    promoRestaurantText:'Soft, simple, comfortable styles for children.',
+    promoBtn:'Browse',
+    serviceTitle:'Shopping made simpler',
+    serviceText:'Choose faster, see price clearly, and add to cart in seconds',
+    service1T:'Clear sizing',
+    service1S:'Show size info clearly so customers decide faster.',
+    service2T:'Photo first',
+    service2S:'Strong product photos reduce doubt and improve trust.',
+    service3T:'Quick order',
+    service3S:'Keep cart, checkout, and address steps short and clean.',
     service4T:'Offers',
     service4S:'current price vs previous price auto discount display',
-    categoryTitle:'Popular categories',
-    categoryText:'See the shopping zones customers use most every day',
-    productsSub:'Browse today’s prices, add items in seconds, and place orders with confidence',
-    footerLink1:'Groceries',
-    footerLink2:'Restaurant',
-    footerLink3:'Pharmacy',
-    footerIntro:'Daily essentials, favorite meals, and pharmacy needs now arrive faster with a cleaner and simpler shopping experience.',
+    categoryTitle:'Categories',
+    categoryText:'Open the type you want and start browsing right away',
+    productsSub:'Pick the styles you want and add them to cart',
+    footerLink1:'Shirts',
+    footerLink2:'T-Shirts',
+    footerLink3:'Kidswear',
+    footerIntro:'Browse clothing faster with a cleaner, simpler and more product-first shopping experience.',
     footerAboutTitle:'About',
     footerAbout1:'About us',
     footerAbout2:'Terms of use',
@@ -2077,19 +2074,19 @@ const T = {
     mobileCartLabel:'In cart',
     mobileCartBtn:'Open cart',
     floatingCartLabel:'Cart',
-    allProductsBtn:'All products',
+    allProductsBtn:'All clothing',
     successTitle:'Order placed',
     continueShopping:'Continue shopping',
-    searchPlaceholder:'Search products...',
-    loadingSheet:'Loading products and prices for your store...',
-    loadedSheet:'products are ready to shop',
-    fallbackSheet:'Fallback products are showing. Set your product sheet URL for live data.',
+    searchPlaceholder:'Search clothing...',
+    loadingSheet:'Loading collection...',
+    loadedSheet:'products are ready to browse',
+    fallbackSheet:'Demo collection is showing. Set your product sheet URL for live data.',
     sheetEmpty:'The sheet loaded, but no usable rows were found. Check your header names.',
-    totalItems:'total items',
+    totalItems:'total styles',
     resultCount:'items',
     noItems:'No products found',
     emptyCartTitle:'Your cart is empty',
-    emptyCartText:'Added products will appear here',
+    emptyCartText:'Added styles will appear here',
     addToast:'added to cart',
     needName:'Please enter your name',
     needPhone:'Please enter mobile number',
@@ -2097,7 +2094,7 @@ const T = {
     savedAddrToast:'Address saved',
     noSavedAddress:'No saved address',
     chooseSavedAddress:'Choose a saved address',
-    successText:'Your order has been received successfully. Our team will confirm it shortly.',
+    successText:'Your order has been received. Our team will contact you shortly.',
     orderSavedLocal:'Local confirmation was shown.',
     stockIn:'In stock',
     stockLow:'Low stock',
@@ -2106,22 +2103,20 @@ const T = {
     discountLabel:'off',
     restaurantLabel:'Restaurant',
     cats:{
-      all:'All items',
+      all:'All clothing',
       offers:'🏷️ Offers',
-      grocery:'🌾 Grocery',
-      vegetables:'🥦 Vegetables',
-      fruits:'🍎 Fruits',
-      medicine:'💊 Pharmacy',
-      restaurant:'🍽️ Restaurant',
-      beverage:'🥤 Beverages',
-      personal:'🧴 Care'
+      shirts:'👔 Shirts',
+      tshirts:'👕 T-Shirts',
+      pants:'👖 Pants',
+      sportswear:'🏃 Sportswear',
+      kidswear:'🧒 Kidswear'
     },
     categoryCards:{
-      grocery:{title:'Grocery',sub:'rice, lentils, oil'},
-      medicine:{title:'Pharmacy',sub:'medicine and essentials'},
-      vegetables:{title:'Vegetables',sub:'fresh vegetables'},
-      fruits:{title:'Fruits',sub:'daily fruit picks'},
-      restaurant:{title:'Restaurant',sub:'food image + restaurant name'}
+      shirts:{title:'Shirts',sub:'formal & casual'},
+      tshirts:{title:'T-Shirts',sub:'daily basics'},
+      pants:{title:'Pants',sub:'fit & comfort'},
+      sportswear:{title:'Sportswear',sub:'move easy'},
+      kidswear:{title:'Kidswear',sub:'soft everyday'}
     }
   }
 };
@@ -2131,16 +2126,16 @@ const INFO_CONTENT = {
     about: {
       title: 'About Us',
       body: `
-        <p><strong>amrarbazar</strong> প্রতিদিনের বাজারকে সহজ, দ্রুত এবং নির্ভরযোগ্য করতে তৈরি করা হয়েছে। grocery, restaurant এবং pharmacy essentials একসাথে এনে আমরা গ্রাহকদের জন্য একটি সহজ shopping experience দিতে চাই।</p>
-        <p>আমাদের লক্ষ্য হলো সঠিক পণ্য, সঠিক দাম এবং দ্রুত ডেলিভারি নিশ্চিত করা।</p>
+        <p><strong>amrarbazar</strong> একটি simple clothing store experience তৈরির জন্য তৈরি করা হয়েছে, যেখানে customer আগে product দেখবে, তারপর দ্রুত order করতে পারবে।</p>
+        <p>আমাদের লক্ষ্য হলো পরিষ্কার ছবি, সঠিক দাম, size clarity আর সহজ checkout flow দেওয়া।</p>
       `
     },
     terms: {
       title: 'Terms of Use',
       body: `
         <p><strong>Order acceptance:</strong> প্রতিটি অর্ডার আমাদের টিম যাচাই করার পর কনফার্ম করা হয়।</p>
-        <p><strong>Pricing:</strong> পণ্যের দাম স্টক, অফার এবং আপডেট অনুযায়ী পরিবর্তিত হতে পারে।</p>
-        <p><strong>Availability:</strong> কোনো পণ্য out of stock হলে বিকল্প পণ্য প্রস্তাব করা হতে পারে।</p>
+        <p><strong>Pricing:</strong> পণ্যের দাম, size availability এবং offer সময় অনুযায়ী পরিবর্তিত হতে পারে।</p>
+        <p><strong>Availability:</strong> কোনো size বা রং unavailable হলে কাছাকাছি বিকল্প প্রস্তাব করা হতে পারে।</p>
         <p><strong>Delivery:</strong> ঠিকানা, অর্ডার ভলিউম এবং অপারেশন অনুযায়ী ডেলিভারি সময় ভিন্ন হতে পারে।</p>
       `
     },
@@ -2154,8 +2149,8 @@ const INFO_CONTENT = {
     refund: {
       title: 'Refund Policy',
       body: `
-        <p>ভুল পণ্য, নষ্ট পণ্য বা ডেলিভারি সমস্যার ক্ষেত্রে আমাদের support team-এর সাথে ২৪ ঘন্টার মধ্যে যোগাযোগ করুন।</p>
-        <p>যাচাইয়ের পর উপযুক্ত ক্ষেত্রে refund, replacement বা store adjustment দেওয়া হবে।</p>
+        <p>ভুল পণ্য, নষ্ট পণ্য, size mismatch বা delivery সমস্যার ক্ষেত্রে ২৪ ঘন্টার মধ্যে আমাদের support team-এর সাথে যোগাযোগ করুন।</p>
+        <p>যাচাইয়ের পর উপযুক্ত ক্ষেত্রে refund, replacement বা exchange support দেওয়া হবে।</p>
       `
     },
     contact: {
@@ -2186,9 +2181,9 @@ const INFO_CONTENT = {
       body: `
         <div class="faq-list">
           <div class="faq-item"><strong>কীভাবে অর্ডার করব?</strong><span>পণ্য কার্টে যোগ করুন, ঠিকানা দিন, তারপর অর্ডার কনফার্ম করুন।</span></div>
-          <div class="faq-item"><strong>ডেলিভারি চার্জ কত?</strong><span>ছোট অর্ডারে ডেলিভারি চার্জ প্রযোজ্য হবে, আর নির্দিষ্ট অর্ডারের উপরে ফ্রি ডেলিভারি মিলতে পারে।</span></div>
+          <div class="faq-item"><strong>সাইজ কীভাবে বুঝব?</strong><span>প্রতিটি পণ্যের unit/size info দেখে বাছুন। চাইলে WhatsApp-এ size help নিতে পারবেন।</span></div>
           <div class="faq-item"><strong>কোন কোন পেমেন্ট নেওয়া হয়?</strong><span>Cash on Delivery, bKash, Nagad, Rocket এবং Card support রাখা হয়েছে।</span></div>
-          <div class="faq-item"><strong>ভুল পণ্য পেলে কী করব?</strong><span>২৪ ঘন্টার মধ্যে WhatsApp-এ জানালে আমাদের টিম দ্রুত সমাধান দেবে।</span></div>
+          <div class="faq-item"><strong>ভুল পণ্য বা size mismatch হলে কী করব?</strong><span>২৪ ঘন্টার মধ্যে WhatsApp-এ জানালে আমাদের টিম দ্রুত সমাধান দেবে।</span></div>
         </div>
       `
     }
@@ -2197,16 +2192,16 @@ const INFO_CONTENT = {
     about: {
       title: 'About Us',
       body: `
-        <p><strong>amrarbazar</strong> is built to make daily shopping faster, simpler, and more reliable. We bring grocery, restaurant meals, and pharmacy essentials together in one place.</p>
-        <p>Our goal is to show the right products, right prices, and smoother delivery for everyday customers.</p>
+        <p><strong>amrarbazar</strong> is built as a simple clothing storefront where customers can see products first and place orders with less friction.</p>
+        <p>Our goal is clear photos, clean pricing, size clarity, and an easier checkout flow.</p>
       `
     },
     terms: {
       title: 'Terms of Use',
       body: `
         <p><strong>Order acceptance:</strong> Every order is reviewed and confirmed by our team.</p>
-        <p><strong>Pricing:</strong> Prices may change based on stock, offers, and live updates.</p>
-        <p><strong>Availability:</strong> If an item is unavailable, a suitable alternative may be suggested.</p>
+        <p><strong>Pricing:</strong> Prices may change based on stock, size availability, offers, and live updates.</p>
+        <p><strong>Availability:</strong> If a size or color is unavailable, a close alternative may be suggested.</p>
         <p><strong>Delivery:</strong> Delivery timing may vary depending on address, order volume, and operations.</p>
       `
     },
@@ -2220,8 +2215,8 @@ const INFO_CONTENT = {
     refund: {
       title: 'Refund Policy',
       body: `
-        <p>If you receive a wrong item, damaged item, or face a delivery issue, please contact our support team within 24 hours.</p>
-        <p>After review, eligible cases may receive a refund, replacement, or order adjustment.</p>
+        <p>If you receive a wrong item, damaged item, size mismatch, or face a delivery issue, please contact our support team within 24 hours.</p>
+        <p>After review, eligible cases may receive a refund, replacement, or exchange support.</p>
       `
     },
     contact: {
@@ -2252,9 +2247,9 @@ const INFO_CONTENT = {
       body: `
         <div class="faq-list">
           <div class="faq-item"><strong>How do I place an order?</strong><span>Add products to cart, enter your address, and confirm the order.</span></div>
-          <div class="faq-item"><strong>How much is the delivery charge?</strong><span>Small orders include a delivery charge, and larger orders may qualify for free delivery.</span></div>
+          <div class="faq-item"><strong>How do I choose the right size?</strong><span>Check the unit/size info on each product, or ask for size help on WhatsApp.</span></div>
           <div class="faq-item"><strong>Which payment methods are supported?</strong><span>Cash on Delivery, bKash, Nagad, Rocket, and Card are supported.</span></div>
-          <div class="faq-item"><strong>What if I receive the wrong item?</strong><span>Contact us within 24 hours on WhatsApp and our team will help quickly.</span></div>
+          <div class="faq-item"><strong>What if I receive the wrong item or size?</strong><span>Contact us within 24 hours on WhatsApp and our team will help quickly.</span></div>
         </div>
       `
     }
@@ -2262,18 +2257,18 @@ const INFO_CONTENT = {
 };
 
 const FALLBACK = [
-  {id:1,name_en:'Fresh Spinach',name_bn:'তাজা পালং শাক',category:'vegetables',emoji:'🥬',current_price:25,previous_price:30,unit:'250g',badge:'fresh',stock_status:'in',location:'kulaura'},
-  {id:2,name_en:'Tomatoes',name_bn:'টমেটো',category:'vegetables',emoji:'🍅',current_price:35,previous_price:35,unit:'500g',badge:'',stock_status:'in',location:'kulaura'},
-  {id:3,name_en:'Tea Garden Lemon',name_bn:'চা বাগানের লেবু',category:'fruits',emoji:'🍋',current_price:45,previous_price:60,unit:'500g',badge:'',stock_status:'low',location:'kulaura'},
-  {id:4,name_en:'Rice',name_bn:'চাল',category:'grocery',emoji:'🌾',current_price:180,previous_price:190,unit:'1kg',badge:'',stock_status:'in',location:'kulaura'},
-  {id:5,name_en:'Paracetamol',name_bn:'প্যারাসিটামল',category:'medicine',emoji:'💊',current_price:25,previous_price:25,unit:'10 tabs',badge:'',stock_status:'in',location:'kulaura'},
-  {id:6,name_en:'Tea Garden Snacks Plate',name_bn:'চা বাগান স্ন্যাকস প্লেট',category:'restaurant',emoji:'🍲',current_price:160,previous_price:190,unit:'1 plate',badge:'',stock_status:'in',restaurant_name:'Kulaura Garden Cafe',food_category:'Snacks',location:'kulaura'},
-  {id:7,name_en:'Brahmanbaria Sweet Yogurt',name_bn:'ব্রাহ্মণবাড়িয়ার দই',category:'grocery',emoji:'🥣',current_price:90,previous_price:110,unit:'500g',badge:'popular',stock_status:'in',location:'brahmanbaria'},
-  {id:8,name_en:'Brahmanbaria Bread',name_bn:'ব্রাহ্মণবাড়িয়ার রুটি',category:'grocery',emoji:'🍞',current_price:50,previous_price:50,unit:'400g',badge:'daily',stock_status:'in',location:'brahmanbaria'},
-  {id:9,name_en:'Bananas',name_bn:'কলা',category:'fruits',emoji:'🍌',current_price:60,previous_price:70,unit:'1 dozen',badge:'',stock_status:'in',location:'brahmanbaria'},
-  {id:10,name_en:'Vitamin C',name_bn:'ভিটামিন সি',category:'medicine',emoji:'🍊',current_price:120,previous_price:140,unit:'30 tabs',badge:'',stock_status:'in',location:'brahmanbaria'},
-  {id:11,name_en:'Morog Polao',name_bn:'মোরগ পোলাও',category:'restaurant',emoji:'🍛',current_price:220,previous_price:260,unit:'1 plate',badge:'',stock_status:'in',restaurant_name:'Brahmanbaria Heritage Kitchen',food_category:'Meal',location:'brahmanbaria'},
-  {id:12,name_en:'Soap',name_bn:'সাবান',category:'personal',emoji:'🧼',current_price:40,previous_price:45,unit:'100g',badge:'',stock_status:'in',location:'brahmanbaria'}
+  {id:1,name_en:'Oxford Casual Shirt',name_bn:'অক্সফোর্ড ক্যাজুয়াল শার্ট',category:'shirts',emoji:'👔',current_price:1190,previous_price:1490,unit:'M / L / XL',badge:'Best Seller',stock_status:'in',location:'kulaura'},
+  {id:2,name_en:'Slim Fit White Shirt',name_bn:'স্লিম ফিট সাদা শার্ট',category:'shirts',emoji:'🤍',current_price:1290,previous_price:1290,unit:'M / L / XL',badge:'New',stock_status:'in',location:'kulaura'},
+  {id:3,name_en:'Classic Black T-Shirt',name_bn:'ক্লাসিক ব্ল্যাক টি-শার্ট',category:'tshirts',emoji:'👕',current_price:590,previous_price:790,unit:'M / L / XL',badge:'Popular',stock_status:'low',location:'kulaura'},
+  {id:4,name_en:'Oversized Cotton Tee',name_bn:'ওভারসাইজড কটন টি-শার্ট',category:'tshirts',emoji:'🖤',current_price:690,previous_price:890,unit:'L / XL',badge:'Drop',stock_status:'in',location:'kulaura'},
+  {id:5,name_en:'Straight Fit Pant',name_bn:'স্ট্রেইট ফিট প্যান্ট',category:'pants',emoji:'👖',current_price:1490,previous_price:1790,unit:'30 / 32 / 34',badge:'Hot',stock_status:'in',location:'kulaura'},
+  {id:6,name_en:'Stretch Chino Pant',name_bn:'স্ট্রেচ চিনো প্যান্ট',category:'pants',emoji:'🩳',current_price:1590,previous_price:1890,unit:'30 / 32 / 34 / 36',badge:'Smart',stock_status:'in',location:'kulaura'},
+  {id:7,name_en:'Dry Fit Sports Tee',name_bn:'ড্রাই ফিট স্পোর্টস টি',category:'sportswear',emoji:'🏃',current_price:790,previous_price:990,unit:'M / L / XL',badge:'Active',stock_status:'in',location:'brahmanbaria'},
+  {id:8,name_en:'Training Jogger',name_bn:'ট্রেইনিং জগার',category:'sportswear',emoji:'🎽',current_price:1190,previous_price:1490,unit:'M / L / XL',badge:'Move',stock_status:'in',location:'brahmanbaria'},
+  {id:9,name_en:'Kids Printed Set',name_bn:'বাচ্চাদের প্রিন্টেড সেট',category:'kidswear',emoji:'🧒',current_price:890,previous_price:1090,unit:'4Y / 6Y / 8Y',badge:'Cute',stock_status:'in',location:'brahmanbaria'},
+  {id:10,name_en:'Kids Soft Tee',name_bn:'বাচ্চাদের সফট টি',category:'kidswear',emoji:'🧸',current_price:490,previous_price:590,unit:'3Y / 5Y / 7Y',badge:'Daily',stock_status:'in',location:'brahmanbaria'},
+  {id:11,name_en:'Weekend Polo Shirt',name_bn:'উইকএন্ড পোলো শার্ট',category:'shirts',emoji:'👔',current_price:990,previous_price:1290,unit:'M / L / XL',badge:'Offer',stock_status:'in',location:'brahmanbaria'},
+  {id:12,name_en:'Kids Sports Short',name_bn:'কিডস স্পোর্টস শর্টস',category:'kidswear',emoji:'⚽',current_price:550,previous_price:690,unit:'5Y / 7Y / 9Y',badge:'New',stock_status:'in',location:'brahmanbaria'}
 ];
 
 let lang = localStorage.getItem('amrar-lang') || 'bn';
@@ -2344,8 +2339,8 @@ function startSearchPlaceholderRotation(){
   const input = byId('searchInput');
   if (!input) return;
   const samples = lang === 'bn'
-    ? ['চাল খুঁজুন...', 'ডিম খুঁজুন...', 'দুধ খুঁজুন...', 'টমেটো খুঁজুন...']
-    : ['Search rice...', 'Search eggs...', 'Search milk...', 'Search tomatoes...'];
+    ? ['শার্ট খুঁজুন...', 'টি-শার্ট খুঁজুন...', 'প্যান্ট খুঁজুন...', 'কিডস পোশাক খুঁজুন...']
+    : ['Search shirts...', 'Search t-shirts...', 'Search pants...', 'Search kidswear...'];
   clearInterval(placeholderTimer);
   placeholderIndex = 0;
   input.placeholder = samples[placeholderIndex];
@@ -2408,7 +2403,7 @@ function parseCSV(text){
       id: parseInt(firstValue(row, ['id','product_id','sku']), 10) || index + 1,
       name_en: nameEn,
       name_bn: firstValue(row, ['name_bn','product_name_bn','title_bn']) || nameEn,
-      category: normalizeCategory(firstValue(row, ['category','category_name','type']) || 'grocery'),
+      category: normalizeCategory(firstValue(row, ['category','category_name','type']) || 'shirts'),
       emoji: firstValue(row, ['emoji']) || '📦',
       current_price: parseFloat(firstValue(row, ['current_price','current','price','selling_price','sale_price']) || '0') || 0,
       previous_price: parseFloat(firstValue(row, ['previous_price','old_price','previous','mrp','regular_price']) || '0') || 0,
@@ -2440,15 +2435,14 @@ function csvRow(row){
 
 function normalizeCategory(raw){
   const value = String(raw).toLowerCase().trim();
-  if (['restaurant','restaurant_food','food','meal','snacks','restaurant_snacks'].includes(value)) return 'restaurant';
-  if (['vegetable','vegetables'].includes(value)) return 'vegetables';
-  if (['fruit','fruits'].includes(value)) return 'fruits';
-  if (['medicine','pharmacy','medicines','health'].includes(value)) return 'medicine';
-  if (['beverage','beverages','drink','drinks'].includes(value)) return 'beverage';
-  if (['personal','hygiene','cleaning','personal_care','cleaning_supplies'].includes(value)) return 'personal';
-  if (['fish','protein','meat','grocery','groceries','staples'].includes(value)) return 'grocery';
+  if (['shirt','shirts','formal_shirt','casual_shirt','polo'].includes(value)) return 'shirts';
+  if (['tshirt','tshirts','t_shirt','t-shirt','tee','tees'].includes(value)) return 'tshirts';
+  if (['pant','pants','trouser','trousers','jeans','bottoms'].includes(value)) return 'pants';
+  if (['sportswear','sport','activewear','athleisure','track','training'].includes(value)) return 'sportswear';
+  if (['kids','kidswear','kid','children','baby','boys','girls'].includes(value)) return 'kidswear';
+  if (['clothing','fashion','apparel'].includes(value)) return 'shirts';
   if (value === 'offer' || value === 'offers') return 'offers';
-  return value || 'grocery';
+  return value || 'shirts';
 }
 
 function normalizeStockStatus(raw){
@@ -2535,13 +2529,13 @@ function renderSidebarCategories(){
   byId('sidebarCats').innerHTML = CATS.filter((cat) => cat !== 'all').map((cat) => `
     <button class="side-link${activeCat === cat ? ' active' : ''}" onclick="filterCat('${cat}');scrollToSection('shopSection');closeSidebar()">
       <span class="icon">${(T[lang].cats[cat] || '').split(' ')[0] || '🛍️'}</span>
-      <span><strong>${(T[lang].cats[cat] || cat).replace(/^[^\s]+\s/, '')}</strong><span>${cat}</span></span>
+      <span><strong>${(T[lang].cats[cat] || cat).replace(/^[^\s]+\s/, '')}</strong><span>${T[lang].categoryCards[cat]?.sub || cat}</span></span>
     </button>
   `).join('');
 }
 
 function renderCategoryGrid(){
-  const cards = ['grocery','medicine','vegetables','fruits','restaurant'];
+  const cards = ['shirts','tshirts','pants','sportswear','kidswear'];
   byId('categoryGrid').innerHTML = cards.map((cat) => {
     const copy = T[lang].categoryCards[cat];
     const icon = (T[lang].cats[cat] || '').split(' ')[0] || '🛍️';
@@ -2625,8 +2619,8 @@ function renderProducts(list){
       ? `<span class="badge offer">${discountPercent(product)}% ${T[lang].discountLabel}</span>`
       : product.badge ? `<span class="badge ${badgeClass(product.badge)}">${product.badge}</span>` : '';
 
-    const metaLine = product.category === 'restaurant' && product.restaurant_name
-      ? `${product.restaurant_name}${product.food_category ? ` · ${product.food_category}` : ''}`
+    const metaLine = T[lang].cats[product.category]
+      ? T[lang].cats[product.category].replace(/^[^\s]+\s/, '')
       : product.category;
 
     return `
@@ -2641,11 +2635,11 @@ function renderProducts(list){
         <div class="product-body">
           <div class="product-cat">${metaLine}</div>
           <div class="product-name">${name}</div>
-          <div class="product-unit">${product.unit}</div>
+          <div class="product-unit">${lang === 'bn' ? `সাইজ: ${product.unit}` : `Sizes: ${product.unit}`}</div>
           <div class="product-bottom">
             <div class="price-wrap">
               ${isDiscounted(product) ? `<div class="old">৳${product.previous_price}</div>` : ''}
-              <div class="new">৳${effectivePrice(product)}<span>/${product.unit}</span></div>
+              <div class="new">৳${effectivePrice(product)}</div>
             </div>
             <div id="ctrl-${product.id}">${control}</div>
           </div>
@@ -2712,7 +2706,7 @@ function renderCartItems(){
           <div class="cart-item-media">${product.image ? `<img src="${product.image}" alt="${product.name_en}">` : product.emoji}</div>
           <div>
             <h4>${name}</h4>
-            <p>${product.unit}</p>
+            <p>${lang === 'bn' ? `সাইজ: ${product.unit}` : `Sizes: ${product.unit}`}</p>
             <strong>৳${effectivePrice(product) * qty}</strong>
           </div>
           <div class="qty-control">
