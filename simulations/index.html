@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Math Simulations K–6 | Amrar Bazar</title>
+<meta name="description" content="Free interactive math simulations for Kindergarten to Grade 6, adapted from PhET Interactive Simulations (University of Colorado Boulder). Works offline.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#1a6b3a;
+  --green-2:#2e9a58;
+  --green-soft:#e8f5ee;
+  --orange:#f4752a;
+  --orange-soft:#fff1e8;
+  --yellow:#f8cf48;
+  --surface:#fff;
+  --ink:#19231c;
+  --muted:#6b756f;
+  --line:#e7dfd2;
+  --shadow:0 18px 42px rgba(13,31,19,.10);
+  --shadow-soft:0 8px 20px rgba(13,31,19,.08);
+  --max:1240px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  color:var(--ink);
+  background:linear-gradient(180deg,#fffdf8 0%,#f8f4ea 100%);
+  min-height:100vh;
+}
+a{color:inherit;text-decoration:none}
+button,input{font:inherit}
+.shell{max-width:var(--max);margin:0 auto;padding:0 16px}
+.bn{font-family:'Hind Siliguri','DM Sans',sans-serif}
+
+.topbar{border-bottom:1px solid var(--line);background:rgba(255,253,248,.92);position:sticky;top:0;z-index:5;backdrop-filter:blur(8px)}
+.topbar .shell{display:flex;align-items:center;justify-content:space-between;gap:12px;height:60px}
+.brand{font-weight:800;color:var(--green);font-size:18px}
+.back{font-size:14px;font-weight:600;color:var(--muted)}
+.back:hover{color:var(--green)}
+
+.hero{
+  margin:24px auto 0;
+  border-radius:28px;
+  padding:40px 28px;
+  color:#fff;
+  background:linear-gradient(135deg,#4d8447 0%,#6da34c 60%,#a9c873 100%);
+  box-shadow:var(--shadow);
+}
+.hero h1{font-size:clamp(28px,5vw,44px);line-height:1.1;font-weight:800}
+.hero .bn{display:block;font-size:clamp(18px,3vw,24px);font-weight:600;margin-top:6px;opacity:.95}
+.hero p{max-width:640px;margin-top:14px;font-size:16px;line-height:1.55;opacity:.95}
+
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:24px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{
+  padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);
+  font-size:14px;font-weight:700;color:var(--muted);cursor:pointer;
+}
+.chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
+.search{
+  flex:1 1 220px;min-width:0;padding:10px 14px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface);font-size:15px;
+}
+.search:focus,.chip:focus-visible,.btn:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+
+.band{margin-top:28px}
+.band-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.band-head h2{font-size:22px;font-weight:800}
+.band-head span{color:var(--muted);font-size:15px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden;
+  box-shadow:var(--shadow-soft);display:flex;flex-direction:column;
+}
+.thumb{display:block;aspect-ratio:600/394;background:#111;overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s}
+.card:hover .thumb img{transform:scale(1.03)}
+.card-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:17px;font-weight:800}
+.grade{
+  align-self:flex-start;font-size:12px;font-weight:800;padding:3px 9px;border-radius:999px;
+  background:var(--green-soft);color:var(--green);
+}
+.topics{font-size:14px;color:var(--muted);line-height:1.45;flex:1}
+.actions{display:flex;gap:8px;margin-top:4px}
+.btn{
+  flex:1;text-align:center;padding:9px 10px;border-radius:12px;font-size:14px;font-weight:700;
+  border:1px solid var(--line);
+}
+.btn-primary{background:var(--orange);border-color:var(--orange);color:#fff}
+.btn-primary:hover{background:#e0661f}
+.btn:not(.btn-primary):hover{border-color:var(--green);color:var(--green)}
+.empty{display:none;margin-top:32px;color:var(--muted);text-align:center}
+
+.credit{
+  margin:40px 0 0;padding:22px;border-radius:20px;background:var(--surface);border:1px solid var(--line);
+  font-size:14px;line-height:1.6;color:var(--muted);
+}
+.credit h2{font-size:17px;color:var(--ink);margin-bottom:8px}
+.credit a{color:var(--green);text-decoration:underline}
+.credit p+p{margin-top:8px}
+footer{padding:28px 0 40px;text-align:center;font-size:13px;color:var(--muted)}
+
+@media (max-width:560px){
+  .hero{padding:28px 20px;border-radius:22px}
+  .grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="shell">
+    <a class="brand" href="../">Amrar Bazar</a>
+    <a class="back" href="../">← Back to shop</a>
+  </div>
+</header>
+
+<main class="shell">
+  <section class="hero">
+    <h1>Math Simulations for K–6</h1>
+    <span class="bn">কিন্ডারগার্টেন থেকে ষষ্ঠ শ্রেণির গণিত সিমুলেশন</span>
+    <p>Free, interactive math activities for young learners: counting, place value, multiplication, fractions, decimals, ratios and more. Every simulation works in the browser and can be downloaded to use offline.</p>
+  </section>
+
+  <div class="controls">
+    <div class="chips" role="group" aria-label="Filter by grade">
+      <button class="chip" data-band="all" aria-pressed="true">All</button>
+      <button class="chip" data-band="k2" aria-pressed="false">K – 2</button>
+      <button class="chip" data-band="g35" aria-pressed="false">Grades 3 – 5</button>
+      <button class="chip" data-band="g56" aria-pressed="false">Grades 5 – 6</button>
+    </div>
+    <input class="search" type="search" placeholder="Search: fractions, area, mean…" aria-label="Search simulations">
+  </div>
+
+  <div id="catalog"></div>
+  <p class="empty" id="empty">No simulations match your search.</p>
+
+  <section class="credit" id="credits">
+    <h2>Credits</h2>
+    <p>These simulations are by <strong>PhET Interactive Simulations, University of Colorado Boulder</strong> (<a href="https://phet.colorado.edu" target="_blank" rel="noopener">phet.colorado.edu</a>), licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
+    <p>They were built from PhET's open-source code (<a href="https://github.com/phetsims" target="_blank" rel="noopener">github.com/phetsims</a>, GPLv3/MIT) and are shown with the "adapted from PhET" brand. They are not official PhET releases, and PhET does not endorse this website. For the official versions, visit <a href="https://phet.colorado.edu" target="_blank" rel="noopener">phet.colorado.edu</a>.</p>
+  </section>
+</main>
+
+<footer>Amrar Bazar · Simulations adapted from PhET Interactive Simulations, University of Colorado Boulder</footer>
+
+<script>
+const BANDS = [
+  { id: 'k2', title: 'Kindergarten – Grade 2', sub: 'Counting and early number sense' },
+  { id: 'g35', title: 'Grades 3 – 5', sub: 'Operations, area and fractions' },
+  { id: 'g56', title: 'Grades 5 – 6', sub: 'Decimals, ratios, integers and early statistics' }
+];
+
+const SIMS = [
+  { id: 'number-play', name: 'Number Play', band: 'k2', grade: 'K–2', topics: 'Counting 1–20, ten frames, recognizing small amounts at a glance' },
+  { id: 'make-a-ten', name: 'Make a Ten', band: 'k2', grade: 'K–2', topics: 'Place value, adding by making tens' },
+  { id: 'number-compare', name: 'Number Compare', band: 'k2', grade: 'K–2', topics: 'Comparing numbers, greater than and less than' },
+  { id: 'number-pairs', name: 'Number Pairs', band: 'k2', grade: 'K–2', topics: 'Splitting numbers into parts, addition facts' },
+
+  { id: 'arithmetic', name: 'Arithmetic', band: 'g35', grade: '3–5', topics: 'Multiplication, division and factoring practice' },
+  { id: 'area-builder', name: 'Area Builder', band: 'g35', grade: '3–5', topics: 'Area and perimeter with unit squares' },
+  { id: 'area-model-introduction', name: 'Area Model Introduction', band: 'g35', grade: '3–4', topics: 'Area as multiplication' },
+  { id: 'area-model-multiplication', name: 'Area Model Multiplication', band: 'g35', grade: '4–5', topics: 'Multi-digit multiplication, partial products' },
+  { id: 'fractions-intro', name: 'Fractions: Intro', band: 'g35', grade: '3–5', topics: 'What a fraction is, different ways to show one' },
+  { id: 'fractions-equality', name: 'Fractions: Equality', band: 'g35', grade: '3–5', topics: 'Equivalent fractions' },
+  { id: 'fractions-mixed-numbers', name: 'Fractions: Mixed Numbers', band: 'g35', grade: '4–5', topics: 'Improper fractions and mixed numbers' },
+  { id: 'fraction-comparison', name: 'Fraction Comparison', band: 'g35', grade: '3–4', topics: 'Comparing fractions' },
+  { id: 'build-a-fraction', name: 'Build a Fraction', band: 'g35', grade: '3–5', topics: 'Building fractions with shapes and numbers' },
+  { id: 'fraction-matcher', name: 'Fraction Matcher', band: 'g35', grade: '3–5', topics: 'Matching equal fractions (game)' },
+  { id: 'estimation', name: 'Estimation', band: 'g35', grade: '3–5', topics: 'Estimating length, area and volume' },
+  { id: 'function-builder-basics', name: 'Function Builder: Basics', band: 'g35', grade: '3–5', topics: 'Input and output patterns, early algebra' },
+
+  { id: 'area-model-decimals', name: 'Area Model Decimals', band: 'g56', grade: '5–6', topics: 'Multiplying decimals' },
+  { id: 'mean-share-and-balance', name: 'Mean: Share and Balance', band: 'g56', grade: '5–6', topics: 'Introduction to the mean (average)' },
+  { id: 'equality-explorer-basics', name: 'Equality Explorer: Basics', band: 'g56', grade: '5–6', topics: 'Balance-scale equations, finding unknowns' },
+  { id: 'ratio-and-proportion', name: 'Ratio and Proportion', band: 'g56', grade: '5–6', topics: 'Ratios' },
+  { id: 'unit-rates', name: 'Unit Rates', band: 'g56', grade: '6', topics: 'Unit price and rates' },
+  { id: 'proportion-playground', name: 'Proportion Playground', band: 'g56', grade: '6', topics: 'Proportional reasoning' },
+  { id: 'number-line-integers', name: 'Number Line: Integers', band: 'g56', grade: '6', topics: 'Negative numbers, absolute value' },
+  { id: 'number-line-operations', name: 'Number Line: Operations', band: 'g56', grade: '6', topics: 'Adding and subtracting on a number line' },
+  { id: 'number-line-distance', name: 'Number Line: Distance', band: 'g56', grade: '6', topics: 'Distance between points' },
+  { id: 'quadrilateral', name: 'Quadrilateral', band: 'g56', grade: '5–6', topics: 'Properties of four-sided shapes' },
+  { id: 'expression-exchange', name: 'Expression Exchange', band: 'g56', grade: '6', topics: 'Combining like terms' },
+  { id: 'center-and-variability', name: 'Center and Variability', band: 'g56', grade: '6', topics: 'Median, mean and spread' }
+];
+
+const catalog = document.getElementById('catalog');
+const empty = document.getElementById('empty');
+const search = document.querySelector('.search');
+const chips = document.querySelectorAll('.chip');
+let activeBand = 'all';
+
+function el(tag, attrs, children) {
+  const node = document.createElement(tag);
+  Object.entries(attrs || {}).forEach(([k, v]) => {
+    if (k === 'text') node.textContent = v; else node.setAttribute(k, v);
+  });
+  (children || []).forEach(c => node.appendChild(c));
+  return node;
+}
+
+function card(sim) {
+  const file = 'sims/' + sim.id + '.html';
+  const img = el('img', { src: 'thumbnails/' + sim.id + '.png', alt: sim.name + ' screenshot', loading: 'lazy' });
+  return el('article', { class: 'card' }, [
+    el('a', { class: 'thumb', href: file, target: '_blank', rel: 'noopener', 'aria-label': 'Open ' + sim.name }, [img]),
+    el('div', { class: 'card-body' }, [
+      el('span', { class: 'grade', text: 'Grade ' + sim.grade }),
+      el('h3', { text: sim.name }),
+      el('p', { class: 'topics', text: sim.topics }),
+      el('div', { class: 'actions' }, [
+        el('a', { class: 'btn btn-primary', href: file, target: '_blank', rel: 'noopener', text: 'Open' }),
+        el('a', { class: 'btn', href: file, download: sim.id + '.html', text: 'Download' })
+      ])
+    ])
+  ]);
+}
+
+function render() {
+  const q = search.value.trim().toLowerCase();
+  catalog.textContent = '';
+  let shown = 0;
+  BANDS.forEach(band => {
+    if (activeBand !== 'all' && activeBand !== band.id) return;
+    const sims = SIMS.filter(s => s.band === band.id &&
+      (!q || (s.name + ' ' + s.topics).toLowerCase().includes(q)));
+    if (!sims.length) return;
+    shown += sims.length;
+    catalog.appendChild(el('section', { class: 'band' }, [
+      el('div', { class: 'band-head' }, [el('h2', { text: band.title }), el('span', { text: band.sub })]),
+      el('div', { class: 'grid' }, sims.map(card))
+    ]));
+  });
+  empty.style.display = shown ? 'none' : 'block';
+}
+
+chips.forEach(chip => chip.addEventListener('click', () => {
+  activeBand = chip.dataset.band;
+  chips.forEach(c => c.setAttribute('aria-pressed', String(c === chip)));
+  render();
+}));
+search.addEventListener('input', render);
+render();
+</script>
+</body>
+</html>
