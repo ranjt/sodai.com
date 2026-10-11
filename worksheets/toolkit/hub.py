@@ -345,7 +345,7 @@ def write(topics, out, strands, kinds, grade):
 <header class="topbar"><div class="shell">
   <a class="brand" href="./"><img src="assets/inquirymind-logo.png" alt="InquiryMind"></a>
   <nav class="tabs" aria-label="Learning resources">
-    <a href="../../simulations/">Math sims</a><a href="../../science-simulations/">Science sims</a><a href="../" aria-current="page">Worksheets</a>
+    <a href="../../simulations/">Math sims</a><a href="../../science-simulations/">Science sims</a><a href="../" aria-current="page">Worksheets</a><a href="../thinking-routines/">Thinking routines</a>
   </nav>
 </div></header>
 <main class="shell">
@@ -427,7 +427,7 @@ def write_landing(ws_dir, topics_by_grade):
 <header class="topbar"><div class="shell">
   <a class="brand" href="./"><img src="grade-{g0}-science/assets/inquirymind-logo.png" alt="InquiryMind"></a>
   <nav class="tabs" aria-label="Learning resources">
-    <a href="../simulations/">Math sims</a><a href="../science-simulations/">Science sims</a><a href="./" aria-current="page">Worksheets</a>
+    <a href="../simulations/">Math sims</a><a href="../science-simulations/">Science sims</a><a href="./" aria-current="page">Worksheets</a><a href="thinking-routines/">Thinking routines</a>
   </nav>
 </div></header>
 <main class="shell">
@@ -437,10 +437,121 @@ def write_landing(ws_dir, topics_by_grade):
     <p>Print-ready, black-and-white science study packs with answer keys, written for each grade's syllabus. Choose a grade.</p>
   </section>
   <section class="section"><div class="grid">{cards}</div></section>
+  <section class="section"><h2>{icon('bulb')} For every classroom</h2><div class="grid" style="margin-top:14px"><article class="card"><div class="card-body"><h3 style="font-size:28px">Visible Thinking Routines</h3><div class="meta"><span>34 routines</span><span>A4 organisers</span><span>any subject</span><span>any grade</span></div><p class="sub">See, Think, Wonder · Compass Points · Claim, Support, Question · Headlines and more: printable organisers for making thinking visible.</p><div class="actions" style="grid-template-columns:1fr"><a class="btn btn-primary" href="thinking-routines/">{icon('bulb')} Open thinking routines</a></div></div></article></div></section>
 </main>
 <footer>InquiryMind · Learn · Play · Wonder</footer>
 </body>
 </html>
 """
     with open(os.path.join(ws_dir, 'index.html'), 'w', encoding='utf-8') as f:
+        f.write(page)
+
+
+ROUTINE_SCRIPT = """
+const chips = [...document.querySelectorAll('.chip')];
+const search = document.querySelector('.search');
+const cards = [...document.querySelectorAll('.card')];
+const groups = [...document.querySelectorAll('.group')];
+let pick = 'all';
+function apply() {
+  const q = search.value.trim().toLowerCase();
+  let shown = 0;
+  cards.forEach(c => {
+    const ok = (pick === 'all' || c.dataset.group === pick || (pick === 'young' && c.dataset.young === '1')) && (!q || c.dataset.text.includes(q));
+    c.hidden = !ok; if (ok) shown++;
+  });
+  groups.forEach(g => { g.hidden = !g.querySelector('.card:not([hidden])'); });
+  document.getElementById('empty').style.display = shown ? 'none' : 'block';
+}
+chips.forEach(ch => ch.addEventListener('click', () => {
+  pick = ch.dataset.pick;
+  chips.forEach(x => x.setAttribute('aria-pressed', x === ch ? 'true' : 'false'));
+  apply();
+}));
+search.addEventListener('input', apply);
+"""
+
+
+def write_routines(out, routines, groups):
+    """worksheets/thinking-routines/index.html: the Visible Thinking Routines download page."""
+    zpath = os.path.join(out, 'downloads', 'inquirymind-visible-thinking-routines.zip')
+    zbtn = (f'<a class="btn btn-light" href="downloads/inquirymind-visible-thinking-routines.zip" download>{icon("file-zip")} '
+            f'Download all {len(routines)} <small>{size_mb(zpath)}</small></a>') if os.path.exists(zpath) else ''
+
+    def card(r):
+        prev = f'previews/{r.slug}.png'
+        art = (f'<img src="{prev}" alt="Preview of the {esc(r.title)} organiser" loading="lazy" style="width:100%;height:100%;object-fit:contain">'
+               if os.path.exists(os.path.join(out, prev)) else '')
+        meta = '<span>1 page · A4 landscape</span>' + ('<span class="camb">great for younger learners</span>' if r.young else '')
+        text = esc(f'{r.code} {r.name} {r.title} {r.about} {" ".join(p.word for p in r.parts)}'.lower())
+        return (f'<article class="card" data-group="{r.group}" data-young="{1 if r.young else 0}" data-text="{text}">'
+                f'<div class="art" style="height:185px;padding:10px">{art}<span class="code">{r.code}</span></div>'
+                f'<div class="card-body"><h3>{esc(r.title)}</h3><p class="sub">{esc(r.about)}</p><div class="meta">{meta}</div>'
+                f'<div class="actions"><a class="btn btn-primary" href="pdf/{r.slug}.pdf" download>{icon("download")} PDF</a>'
+                f'<a class="btn" href="pdf/{r.slug}.pdf" target="_blank" rel="noopener">{icon("eye")} View</a></div></div></article>')
+
+    chips = ('<button class="chip" data-pick="all" aria-pressed="true">All routines</button>'
+             + ''.join(f'<button class="chip" data-pick="{k}" aria-pressed="false">{esc(name)}</button>' for k, (name, ic, _) in groups.items())
+             + '<button class="chip" data-pick="young" aria-pressed="false">Younger learners</button>')
+    sections = ''
+    for k, (name, ic, about) in groups.items():
+        rs = [r for r in routines if r.group == k]
+        sections += (f'<section class="group" id="{k}"><div class="group-head"><h2>{icon(ic)} {esc(name)}</h2>'
+                     f'<span class="count">{len(rs)} routines</span></div><p>{esc(about)}</p>'
+                     f'<div class="grid">{"".join(card(r) for r in rs)}</div></section>')
+    page = f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Visible Thinking Routines: free printable organisers | InquiryMind</title>
+<meta name="description" content="Free printable organisers for {len(routines)} Visible Thinking Routines (VTR): See Think Wonder, Think Puzzle Explore, Compass Points, Claim Support Question, Headlines and more. A4, black and white, for any subject and grade.">
+<link rel="icon" href="assets/inquirymind-logo.png">
+<style>{CSS}</style>
+</head>
+<body>
+<header class="topbar"><div class="shell">
+  <a class="brand" href="./"><img src="assets/inquirymind-logo.png" alt="InquiryMind"></a>
+  <nav class="tabs" aria-label="Learning resources">
+    <a href="../../simulations/">Math sims</a><a href="../../science-simulations/">Science sims</a><a href="../">Worksheets</a><a href="./" aria-current="page">Thinking routines</a>
+  </nav>
+</div></header>
+<main class="shell">
+  <section class="hero">
+    <div class="eyebrow">InquiryMind · Visible Thinking Routines (VTR)</div>
+    <h1>Thinking routine organisers</h1>
+    <p>Simple, printable organisers that help learners make their thinking visible: notice, wonder, explain, connect and reflect. Each routine is one A4 page in black and white. Print it, share a picture, object, story, video or question, and let the thinking begin. Free for every teacher and every classroom.</p>
+    <div class="stats"><span>{len(routines)} routines</span><span>A4 landscape</span><span>black and white</span><span>any subject, any grade</span></div>
+    <div class="hero-actions">{zbtn}<a class="btn btn-ghost" href="#how">{icon("info-circle")} How to use them</a></div>
+  </section>
+
+  <section class="section" id="how">
+    <h2>{icon("info-circle")} How to use the organisers</h2>
+    <div class="howto">
+      <div class="tip"><h3>{icon("printer")} Print</h3><p>A4 landscape, black and white. Print one per learner, one per group, or enlarge to A3 for a class chart.</p></div>
+      <div class="tip"><h3>{icon("photo")} Choose a prompt</h3><p>Show something worth thinking about: a picture, an object, a short video, a story, a graph or a big question.</p></div>
+      <div class="tip"><h3>{icon("users")} Think and share</h3><p>Give quiet thinking time first, then let learners talk in pairs before sharing with the class. Ask “What makes you say that?”</p></div>
+      <div class="tip"><h3>{icon("refresh")} Come back to it</h3><p>Keep the organisers. Return to the wonders and first ideas later in the unit and notice how thinking has grown.</p></div>
+    </div>
+  </section>
+
+  <div class="controls">
+    <div class="chips" role="group" aria-label="Filter the routines">{chips}</div>
+    <input class="search" type="search" placeholder="Search routines, e.g. wonder, evidence, viewpoint" aria-label="Search the thinking routines">
+  </div>
+  {sections}
+  <p class="empty" id="empty">No routines match your search.</p>
+
+  <section class="credit" id="credits">
+    <h2>Credits</h2>
+    <p>The thinking routines were developed by <a href="https://pz.harvard.edu/thinking-routines" target="_blank" rel="noopener">Project Zero</a> at the Harvard Graduate School of Education. Visit Project Zero to read about each routine and its purpose. These organisers are original InquiryMind designs (layout, wording and drawings) made to support the routines in the classroom; they are not produced or endorsed by Project Zero.</p>
+    <p>Fonts: Andika and Fredoka (SIL Open Font License 1.1). Icons: <a href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT licence) and drawings made for InquiryMind.</p>
+  </section>
+</main>
+<footer>InquiryMind · Learn · Play · Wonder · Free resources for everyone, bringing quality and equity to education</footer>
+<script>{ROUTINE_SCRIPT}</script>
+</body>
+</html>
+"""
+    with open(os.path.join(out, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(page)

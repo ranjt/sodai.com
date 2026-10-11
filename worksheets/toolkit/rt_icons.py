@@ -1,6 +1,8 @@
 """Hand-drawn style icons for the thinking routine templates (original InquiryMind drawings, black and grey).
 Each function returns an <svg> in a 100 x 100 box."""
 import math
+import os
+import re
 
 INK, GREY, LIGHT = '#111', '#cfcfcf', '#ececec'
 
@@ -52,4 +54,90 @@ def wonder():
         + _sparkle(88, 12, 8) + _sparkle(10, 22, 5))
 
 
-ICONS = {'see': see, 'think': think, 'wonder': wonder}
+
+def zoom(n):
+    """A picture seen through a window that grows: 1 small peek ... 4 the whole picture."""
+    pic = ('<circle cx="66" cy="32" r="8" fill="#cfcfcf" stroke-width="3"/><path d="M14,82 L38,46 L52,64 L64,50 L86,82 Z" fill="white" stroke-width="3.5"/>'
+           '<path d="M30,82 L38,70 L46,82" stroke-width="3"/>')
+    hole = {1: 9, 2: 17, 3: 27}.get(n)
+    cover = (f'<path d="M14,14 H86 V86 H14 Z M{50 - hole},52 a{hole},{hole} 0 1 0 {2 * hole},0 a{hole},{hole} 0 1 0 {-2 * hole},0 Z" '
+             f'fill="{GREY}" fill-rule="evenodd" stroke="none"/><circle cx="50" cy="52" r="{hole}" stroke-width="3" stroke-dasharray="5 4"/>') if hole else ''
+    return _svg(f'<rect x="14" y="14" width="72" height="72" rx="8" fill="white"/>{pic}{cover}<rect x="14" y="14" width="72" height="72" rx="8"/>'
+                + (_sparkle(90, 10, 7) if n == 4 else ''))
+
+
+def traffic(n):
+    """A traffic light with light n lit (1 top = red / stop, 2 middle = yellow / slow down)."""
+    o = f'<rect x="31" y="6" width="38" height="88" rx="12" fill="white"/><line x1="50" y1="94" x2="50" y2="99" stroke-width="5"/>'
+    for i, y in enumerate((26, 50, 74), 1):
+        lit = i == n
+        o += f'<circle cx="50" cy="{y}" r="9" fill="{INK if lit else LIGHT}" stroke-width="3.5"/>'
+        if lit:
+            for a in (-30, 0, 30, 150, 180, 210):
+                t = math.radians(a)
+                o += (f'<line x1="{50 + 23 * math.cos(t):.1f}" y1="{y + 23 * math.sin(t):.1f}" x2="{50 + 31 * math.cos(t):.1f}" '
+                      f'y2="{y + 31 * math.sin(t):.1f}" stroke-width="3.5"/>')
+    return _svg(o)
+
+
+def compass_rose():
+    o = f'<circle cx="50" cy="50" r="47" fill="white" stroke-width="3.5"/><circle cx="50" cy="50" r="31" stroke="{LIGHT}" stroke-width="5"/>'
+    o += f'<path d="M50,20 L57,50 L50,80 L43,50 Z" fill="{GREY}" stroke-width="2.8"/><path d="M20,50 L50,43 L80,50 L50,57 Z" fill="white" stroke-width="2.8"/>'
+    o += f'<path d="M50,20 L57,50 L43,50 Z" fill="{INK}" stroke-width="2.8"/><circle cx="50" cy="50" r="3.5" fill="white" stroke-width="2.5"/>'
+    for t, x, y in (('N', 50, 14.5), ('E', 88, 53.5), ('S', 50, 92.5), ('W', 12, 53.5)):
+        o += f'<text x="{x}" y="{y}" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="600" font-size="11" fill="{INK}" stroke="none">{t}</text>'
+    return _svg(o)
+
+
+def fruit():
+    """An apple cut in half, with its layers numbered: 1 skin, 2 flesh, 3 core (Peel the Fruit)."""
+    outer = 'M50,24 C38,11 10,14 9,43 C8,72 30,95 50,87 C70,95 92,72 91,43 C90,14 62,11 50,24 Z'
+    o = f'<path d="M50,25 C50,15 52,9 56,4" stroke-width="4"/><path d="M55,11 C62,2 76,3 78,9 C70,15 61,15 55,11 Z" fill="white" stroke-width="3"/>'
+    o += f'<path d="{outer}" fill="white" stroke-width="5.5"/>'
+    o += f'<path d="{outer}" fill="{LIGHT}" stroke-width="2" stroke-dasharray="4 4" transform="translate(50 54) scale(.84) translate(-50 -54)"/>'
+    o += f'<path d="M50,38 C55,46 64,48 64,56 C64,64 55,66 50,74 C45,66 36,64 36,56 C36,48 45,46 50,38 Z" fill="{GREY}" stroke-width="3"/>'
+    for a in (-90, -18, 54, 126, 198):
+        t = math.radians(a)
+        x, y = 50 + 10 * math.cos(t), 56 + 10.5 * math.sin(t)
+        o += f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="1.8" ry="3.4" fill="{INK}" stroke="none" transform="rotate({a + 90} {x:.1f} {y:.1f})"/>'
+    for n, x, y in (('1', 13, 22), ('2', 24, 64), ('3', 50, 56)):
+        o += (f'<circle cx="{x}" cy="{y}" r="5.2" fill="{INK}" stroke="white" stroke-width="1.5"/><text x="{x}" y="{y + 3.3}" text-anchor="middle" '
+              f'font-family="Fredoka, sans-serif" font-weight="600" font-size="9" fill="white" stroke="none">{n}</text>')
+    return _svg(o)
+
+
+def rope(w=1000, h=120):
+    """A tug-of-war rope across the page with a centre marker and a scale for 'where I stand'."""
+    y = h / 2
+    o = f'<svg class="rt-rope" viewBox="0 0 {w} {h}" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="{INK}" stroke-linecap="round">'
+    o += f'<rect x="20" y="{y - 9}" width="{w - 40}" height="18" rx="9" fill="white" stroke-width="3"/>'
+    for x in range(34, w - 30, 16):
+        o += f'<path d="M{x},{y + 8} L{x + 10},{y - 8}" stroke-width="2"/>'
+    o += f'<rect x="{w / 2 - 7}" y="{y - 30}" width="14" height="60" rx="4" fill="{INK}" stroke="none"/>'
+    for i in range(1, 10):
+        x = 20 + i * (w - 40) / 10
+        o += f'<line x1="{x}" y1="{y + 18}" x2="{x}" y2="{y + 30}" stroke-width="2.5"/>'
+    return o + '</svg>'
+
+
+_TABLER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icons')
+
+
+def badge(name, spark=(86, 14)):
+    """A Tabler line icon (MIT) drawn large on a soft grey blob with a sparkle, to match the hand-drawn icons."""
+    src = open(os.path.join(_TABLER, f'{name}.svg'), encoding='utf-8').read()
+    inner = re.sub(r'<!--.*?-->', '', src, flags=re.S)
+    inner = re.sub(r'^.*?<svg[^>]*>|</svg>\s*$', '', inner.strip(), flags=re.S)
+    return _svg(f'<circle cx="54" cy="56" r="37" fill="{LIGHT}" stroke="none"/>'
+                f'<g transform="translate(14 14) scale(3)" stroke-width="1.45">{inner}</g>' + _sparkle(*spark, 7))
+
+
+def get(name):
+    """Icon by name: a drawn icon (see, think, wonder, zoom1-4, red, yellow, compass, fruit) or any Tabler icon name."""
+    drawn = {'see': see, 'think': think, 'wonder': wonder, 'red': lambda: traffic(1), 'yellow': lambda: traffic(2),
+             'compass-rose': compass_rose, 'fruit': fruit}
+    if name in drawn:
+        return drawn[name]()
+    if name.startswith('zoom') and name[4:].isdigit():
+        return zoom(int(name[4:]))
+    return badge(name)

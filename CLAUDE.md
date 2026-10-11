@@ -15,10 +15,11 @@ Static website repo. `main` is published by GitHub Pages (`.github/workflows/sta
   components `ws.py`, SVG art `art.py` + `art4.py` (G4) + `art23.py` (G2–3), OpenMoji pictures `openmoji.py` (CC BY-SA), download pages `hub.py`.
   Output (generated): `worksheets/index.html` + `worksheets/grade-<N>-science/`, live at amrarbazar.com/worksheets/,
   copied to `offline-simulations/inquirymind-site/worksheets/`.
-- `worksheets/thinking-routines/` — one-page A4 landscape thinking-routine organisers (Project Zero routines, original
-  InquiryMind design and icons; credit PZ in the footer). Source: `worksheets/toolkit/routines.py` (list `ROUTINES`)
-  + `rt_icons.py`; build `python3 worksheets/toolkit/routines.py [R01]`. Worksheets show only InquiryMind branding,
-  tagline and mission (no school continuum or Cambridge wording).
+- `worksheets/thinking-routines/` — Visible Thinking Routines (VTR) section: 34 one-page A4 landscape organisers (R01–R34,
+  Project Zero routines, original InquiryMind design and icons, PZ credited in the footer) + download page, previews, zip.
+  Source: `worksheets/toolkit/routines.py` (list `ROUTINES`, 10 layouts) + `rt_icons.py`; page `hub.write_routines`.
+  Build `python3 worksheets/toolkit/routines.py [R01]`. "Thinking routines" tab is on every catalog/worksheet page.
+  Worksheets show only InquiryMind branding, tagline and mission (no school continuum or Cambridge wording).
 
 ## Rules (save tokens, avoid breakage)
 - Never open, grep or diff `**/sims/*.html` (2.7–8 MB minified each). Sim metadata (id, name, grade, topics,
