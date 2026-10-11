@@ -30,7 +30,7 @@ sodai.com/                               (this repository)
     ├── inquirymind-site/                ready to copy into the InquiryMind Firebase site
     │   ├── simulations/                 math catalog page (InquiryMind style) + 28 sims
     │   ├── science-simulations/         science catalog page (InquiryMind style) + 28 sims
-    │   └── worksheets/                  Grade 4 and Grade 5 science study packs + answer keys (see worksheets/README.md)
+    │   └── worksheets/                  Grades 2–5 science study packs + answer keys (see worksheets/README.md)
     └── toolkit/                         rebuild / rebrand / add sims (see toolkit/README.md)
 ```
 
@@ -75,7 +75,7 @@ and the Firebase CLI (`npm install -g firebase-tools`, then `firebase login`).
    ├── index.html                 (your existing site)
    ├── simulations/               ← copy
    ├── science-simulations/       ← copy
-   └── worksheets/                ← copy (Grade 4 and 5 science study packs)
+   └── worksheets/                ← copy (Grades 2–5 science study packs)
    ```
 3. Deploy: `firebase deploy --only hosting`
 4. Check: https://www.inquirymind.org/simulations/, https://www.inquirymind.org/science-simulations/ and
@@ -108,7 +108,7 @@ Notes:
 
 The `simulations/` and `science-simulations/` folders at the repository root are already live at
 https://amrarbazar.com/simulations/ and https://amrarbazar.com/science-simulations/. The worksheets
-(`worksheets/`) are live at https://amrarbazar.com/worksheets/ (Grade 4 and Grade 5) once merged.
+(`worksheets/`) are live at https://amrarbazar.com/worksheets/ (Grades 2, 3, 4 and 5) once merged.
 Any change merged into the `main` branch is published automatically by
 `.github/workflows/static.yml` (about one minute; check the **Actions** tab on GitHub).
 

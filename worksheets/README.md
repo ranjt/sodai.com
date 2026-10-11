@@ -1,13 +1,16 @@
-# Science study packs (InquiryMind): Grade 4 and Grade 5
+# Science study packs (InquiryMind): Grades 2, 3, 4 and 5
 
 Print-ready, black-and-white study packs that cover the whole science syllabus of each grade (PHIS Science continuum
-2025: Grade 4 = IB PYP Phase 3, Grade 5 = IB PYP Phase 4) and the topics of Cambridge Primary Science Stage 4 / Stage 5.
+2025: Grade 2 = IB PYP Phase 2, Grades 3 and 4 = Phase 3, Grade 5 = Phase 4) and the topics of the Cambridge Primary
+Science Learner's Books (Stages 2–5).
 Every pack has its own answer key. Everything is original InquiryMind material: articles, questions, case studies and
-line drawings, plus open-licensed OpenMoji pictures in the Grade 4 packs.
+line drawings, plus open-licensed OpenMoji pictures in the Grade 2, 3 and 4 packs.
 
 | Grade | Packs | Live page (after merging to `main`) |
 |---|---|---|
 | all grades | grade chooser | **https://amrarbazar.com/worksheets/** |
+| Grade 2 | 12 packs (W1, A1–A6, B1–B2, C1–C3) | https://amrarbazar.com/worksheets/grade-2-science/ |
+| Grade 3 | 14 packs (W1, A1–A5, B1–B3, C1–C5) | https://amrarbazar.com/worksheets/grade-3-science/ |
 | Grade 4 | 20 packs (W1, A1–A6, B1–B4, C1–C9) | https://amrarbazar.com/worksheets/grade-4-science/ |
 | Grade 5 | 22 packs (W1, A1–A7, B1–B6, C1–C8) | https://amrarbazar.com/worksheets/grade-5-science/ |
 
@@ -20,7 +23,9 @@ InquiryMind copy: `offline-simulations/inquirymind-site/worksheets/` (copy the `
 worksheets/
 ├── README.md                    this guide
 ├── index.html                   GENERATED: grade chooser page
-├── grade-4-science/             GENERATED: Grade 4 website folder (do not edit by hand)
+├── grade-2-science/             GENERATED: Grade 2 website folder (do not edit by hand)
+├── grade-3-science/             GENERATED: Grade 3 …
+├── grade-4-science/             GENERATED: Grade 4 …
 ├── grade-5-science/             GENERATED: Grade 5 website folder (do not edit by hand)
 │   ├── index.html               download page: packs by strand, PDFs, answer keys, syllabus coverage map
 │   ├── pdf/<slug>-study-pack.pdf    learner pack (cover, 6 worksheets, self-check)
@@ -30,13 +35,12 @@ worksheets/
 │   └── assets/                  logo, fonts (OFL), stylesheet
 └── toolkit/                     SOURCE: edit here, then rebuild
     ├── build.py                 builds HTML + PDF + zips + download pages + InquiryMind copy
-    ├── topics/grade4/<code>_*.py    ONE FILE PER PACK: all text, questions and answers (Grade 4)
-    ├── topics/grade5/<code>_*.py    the same for Grade 5
+    ├── topics/grade<N>/<code>_*.py  ONE FILE PER PACK: all text, questions and answers (grade2 … grade5)
     ├── ws.py                    worksheet building blocks (questions, tables, graphs, pictures, word search …)
-    ├── art.py, art4.py          illustrations drawn as SVG line art (art4 = Grade 4 drawings)
+    ├── art.py, art4.py, art23.py  illustrations drawn as SVG line art (art4 = Grade 4, art23 = Grades 2–3)
     ├── openmoji.py, openmoji/   OpenMoji pictures (names → files; fetch script); CC BY-SA 4.0
     ├── hub.py                   the download pages (also: which simulations link to which pack)
-    ├── styles.css               A4 print design (Grade 4 has larger print: body class g4)
+    ├── styles.css               A4 print design (younger grades get larger print: body classes g2, g3, g4)
     ├── icons/                   Tabler icons used (MIT)
     └── assets/                  fonts, logo (colour and black-and-white)
 ```
@@ -57,6 +61,46 @@ Every pack has the same six worksheets, in the order a class would use them:
 The study pack ends with a self-check ("Not yet / Nearly / Got it!"). The answer key has every sheet except
 Learn it, with answers in handwriting-style font and plotted graphs. Every sheet starts on a new page, so a
 single sheet can be printed on its own.
+
+### Grade 2
+
+Grade 2 packs have the largest print, the most writing space, short stories as case studies and picture-based questions.
+
+| Code | Pack | Investigation | Case study | Pages (pack + key) |
+|---|---|---|---|---|
+| W1 | I Am a Scientist | Which ball bounces highest? | Rumi the bird watcher | 10 + 6 |
+| A1 | Plants and Their Parts | Does a plant need light to grow? | Mina's rooftop garden | 11 + 6 |
+| A2 | Living and Non-Living Things | Living things in our school | A day at the village pond | 9 + 5 |
+| A3 | Life Cycles and Growth | How tall are we? | Baby turtles on the beach | 10 + 5 |
+| A4 | The Human Body: Parts and Organs | Does exercise change my heartbeat? | A visit to the doctor | 12 + 7 |
+| A5 | Life Processes and Keeping Healthy | How long do we sleep? | Shopon's tiffin box | 10 + 5 |
+| A6 | Our Senses | The touch test | Raju uses his other senses | 9 + 5 |
+| B1 | Landforms and Changes | Rain on a sand hill | A new island in the river | 10 + 6 |
+| B2 | Rocks, Minerals and Soils | Which soil holds most water? | The brick kiln | 10 + 5 |
+| C1 | States of Matter | Where does ice melt fastest? | The ice cream seller | 9 + 5 |
+| C2 | Forces and Motion | How far does the car roll? | The rickshaw van | 10 + 5 |
+| C3 | Hearing and Sound | Which material blocks sound best? | Quiet near the hospital | 9 + 6 |
+
+### Grade 3
+
+Grade 3 packs use large print, short articles with many pictures, and simple bar charts to draw.
+
+| Code | Pack | Investigation | Case study | Pages (pack + key) |
+|---|---|---|---|---|
+| W1 | Science Investigators | Which paper makes the best paper plane? | Testing umbrellas for the monsoon | 9 + 5 |
+| A1 | Skeletons, Muscles and Medicines | Do longer arms throw further? | Strong bones from small fish | 10 + 6 |
+| A2 | Plant Growth and Development | How fast does a bean plant grow? | A rice farmer's year | 11 + 6 |
+| A3 | Habitats and Adaptation | Where do woodlice like to live? | The baya weaver's hanging nest | 9 + 5 |
+| A4 | Ecosystems of Bangladesh | Shady or sunny: where do more plants grow? | Saving the coral of Saint Martin's Island | 9 + 5 |
+| A5 | Food Chains and Energy Roles | What makes bread go mouldy? | The frogs and the rice field | 9 + 5 |
+| B1 | The Solar System | Build a model solar system | Bangladesh in space: Bangabandhu Satellite-1 | 9 + 5 |
+| B2 | Day, Night, Seasons and the Moon | Make a shadow stick | The Moon and the fishers | 10 + 5 |
+| B3 | Waste and Our World | What rots in the soil? | Turning rubbish into compost | 9 + 5 |
+| C1 | Material Properties | Which material soaks up the most water? | Jute: the golden fibre | 9 + 5 |
+| C2 | Sound | Which material blocks sound best? | Too much noise! | 9 + 5 |
+| C3 | Heat and Temperature | Which cover keeps tea hot the longest? | Keeping warm safely in winter | 10 + 6 |
+| C4 | Electricity and Magnets | Which magnet is the strongest? | Light for every home: solar power | 10 + 5 |
+| C5 | Simple Machines | Does a ramp make it easier? | From dheki to rice mill | 10 + 5 |
 
 ### Grade 4
 
@@ -115,6 +159,12 @@ Grade 4 packs use larger print, more writing space and many more pictures (OpenM
 Codes follow the syllabus strands: **W** Working scientifically, **A** Living things, **B** Earth and space,
 **C** Physical and chemical science. The download page has a coverage map listing every syllabus outcome
 (quoted from the continuum) under the pack that teaches it, plus the Cambridge Learner's Book units.
+The Cambridge books run one stage behind the PHIS grades, so Grade 2 and 3 packs list the Stage 2 or 3 unit they share:
+Grade 2: Stage 3 Unit 1 Plants → A1; Unit 2 Looking after ourselves → A5; Unit 3 Living things → A2, A3; Unit 4 Our five senses → A6, C3;
+Unit 6 Forces and movement → C2; Stage 2 Unit 1 Going outside → A2, B1; Unit 2 Looking at rocks → B2; Unit 3 Changing materials → C1, C2;
+Unit 4 Light and dark → A6.
+Grade 3: Stage 3 Unit 1 Plants → A2; Unit 2 Looking after ourselves → A1; Unit 3 Living things → A3; Unit 4 Our five senses → C2;
+Unit 5 Materials → C1; Unit 6 Forces and movement → C5; Stage 2 Unit 5 Electricity → C4; Unit 6 The Earth and the Sun → B2.
 Grade 4 (Stage 4): 1 Humans and animals → A1, A3; 2 Living things and environments → A1, A4, A6, B4;
 3 Solids, liquids and gases → C1; 4 Sound → C9; 5 Electricity and magnetism → C6, C7.
 Grade 5 (Stage 5): 1 Plants → A5; 2 Life cycles → A6; 3 States of matter → C1, B1, C2; 4 The way we see things → C7;
@@ -132,13 +182,13 @@ Grade 5 (Stage 5): 1 Plants → A5; 2 Life cycles → A6; 3 States of matter →
 You need Python 3 and Node.js. Once: `npm install --prefix worksheets/toolkit` (installs `playwright-core`).
 Chromium: set `CHROME_PATH` to a Chrome/Chromium binary, or run `npx playwright install chromium` once.
 
-1. Open the pack's file, e.g. `worksheets/toolkit/topics/grade5/c5_sound.py` (or `topics/grade4/…`). Each worksheet is a `Sheet(...)` with a list
+1. Open the pack's file, e.g. `worksheets/toolkit/topics/grade5/c5_sound.py` (or `topics/grade2/…`, `grade3`, `grade4`). Each worksheet is a `Sheet(...)` with a list
    of blocks; each question is `Q('prompt', <answer block>, marks=N)` and **the answer is written next to the
    question**, so the learner pack and the answer key always match.
 2. Rebuild that pack (fast, ~3 s): `python3 worksheets/toolkit/build.py --grade 5 C5`
 3. Check `worksheets/grade-5-science/pdf/c5-sound-study-pack.pdf` and `…-answer-key.pdf`.
 4. Before publishing, rebuild everything (all grades, zips, download pages, InquiryMind copy):
-   `python3 worksheets/toolkit/build.py` (or one grade: `--grade 4`).
+   `python3 worksheets/toolkit/build.py` (or one grade: `--grade 3`).
 
 Common building blocks (all in `ws.py`):
 
@@ -171,7 +221,7 @@ New pictures: add a name and hex code to `NAMES` in `openmoji.py` (codes at http
   on each sheet; data marked "example" is illustrative.
 - Fonts: Andika, Fredoka, Patrick Hand (SIL Open Font License 1.1; licence files in `assets/`).
   Icons: Tabler Icons (MIT). Linked simulations: PhET Interactive Simulations, CC BY-NC 4.0.
-- Pictures (Grade 4): **OpenMoji** (https://openmoji.org, open-source emoji and icons on GitHub), licence
+- Pictures (Grades 2–4): **OpenMoji** (https://openmoji.org, open-source emoji and icons on GitHub), licence
   **CC BY-SA 4.0**; the credit is printed on every pack cover that uses them and on the download page.
 - No photos are used, so the packs print cleanly in black and white. Wikimedia Commons images could be added
   later (each needs its own author/licence credit), if upload.wikimedia.org is allowed in the cloud environment.

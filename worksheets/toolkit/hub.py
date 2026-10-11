@@ -23,6 +23,19 @@ SIMS = {
         'C6': [(S, 'balancing-act', 'Balancing Act'), (S, 'forces-and-motion-basics', 'Forces and Motion: Basics')],
         'C7': [(S, 'geometric-optics-basics', 'Geometric Optics: Basics'), (S, 'color-vision', 'Color Vision')],
     },
+    2: {
+        'C1': [(S, 'states-of-matter-basics', 'States of Matter: Basics')],
+        'C2': [(S, 'forces-and-motion-basics', 'Forces and Motion: Basics'), (S, 'friction', 'Friction')],
+        'C3': [(S, 'sound-waves', 'Sound Waves')],
+    },
+    3: {
+        'B1': [(S, 'gravity-and-orbits', 'Gravity and Orbits')],
+        'B2': [(S, 'gravity-and-orbits', 'Gravity and Orbits')],
+        'C2': [(S, 'sound-waves', 'Sound Waves')],
+        'C3': [(S, 'energy-forms-and-changes', 'Energy Forms and Changes')],
+        'C4': [(S, 'circuit-construction-kit-dc', 'Circuit Construction Kit: DC'), (S, 'magnet-and-compass', 'Magnet and Compass')],
+        'C5': [(S, 'balancing-act', 'Balancing Act')],
+    },
     4: {
         'A1': [(S, 'natural-selection', 'Natural Selection')],
         'A3': [(S, 'natural-selection', 'Natural Selection')],
@@ -39,6 +52,18 @@ SIMS = {
 }
 
 ABOUT = {
+    2: {
+        'skills': 'Being a scientist: looking closely, asking questions, measuring, sorting and telling others what we found.',
+        'living': 'Plants and their parts, living and non-living things, growing up, our bodies, keeping healthy and our senses.',
+        'earth': 'Mountains, rivers and islands, how wind and water change the land, and rocks, minerals and soils.',
+        'physical': 'Solids, liquids and gases, pushes and pulls, and how we hear sounds.',
+    },
+    3: {
+        'skills': 'Thinking like a scientist: fair tests, measuring, tables and bar charts, patterns and explaining.',
+        'living': 'Skeletons and muscles, medicines, plant growth, habitats, ecosystems of Bangladesh and food chains.',
+        'earth': 'The solar system, day and night, seasons and the Moon, and reducing waste.',
+        'physical': 'Materials, sound, heat, electricity and magnets, and simple machines.',
+    },
     5: {
         'skills': 'How scientists work: questions, fair tests, measuring, graphs, conclusions and models. Used in every topic.',
         'living': 'The sustainability, complexity and interconnectedness of life: the human body, cells, health, plants and environments.',
@@ -52,8 +77,8 @@ ABOUT = {
         'physical': 'Matter and mixtures, atoms, forces, floating and flying, electricity, magnets, energy, light and sound.',
     },
 }
-PHASE = {4: 'IB PYP Phase 3', 5: 'IB PYP Phase 4'}
-GRADE_NAMES = {4: 'Grade 4', 5: 'Grade 5'}
+PHASE = {2: 'IB PYP Phase 2', 3: 'IB PYP Phase 3', 4: 'IB PYP Phase 3', 5: 'IB PYP Phase 4'}
+GRADE_NAMES = {2: 'Grade 2', 3: 'Grade 3', 4: 'Grade 4', 5: 'Grade 5'}
 
 KIND_HELP = {
     'learn': 'an illustrated article with key words',
@@ -227,7 +252,7 @@ def card(t, out, kinds, grade):
     if n_ak:
         meta += f'<span>key: {n_ak} pages</span>'
     if t.cambridge:
-        meta += f'<span class="camb">Cambridge Stage {grade}</span>'
+        meta += '<span class="camb">Cambridge</span>' if t.cambridge[0].startswith('Stage') else f'<span class="camb">Cambridge Stage {grade}</span>'
     sims = ''
     if SIMS[grade].get(t.code):
         links = ', '.join(f'<a href="../../{folder}/sims/{sid}.html" target="_blank" rel="noopener">{esc(name)}</a>'
@@ -263,14 +288,16 @@ def coverage(topics, strands, grade):
     units = {}
     for t in topics:
         for c in t.cambridge:
-            m = re.match(r'Unit (\d+) ([^:(]+)(.*)', c)
+            m = re.match(r'(?:Stage (\d) )?Unit (\d+) ([^:(]+)(.*)', c)
             if m:
-                units.setdefault((int(m.group(1)), m.group(2).strip()), []).append((t, m.group(3).strip(' :()')))
+                key = (int(m.group(1) or grade), int(m.group(2)), m.group(3).strip())
+                units.setdefault(key, []).append((t, m.group(4).strip(' :()')))
     if units:
-        rows = ''.join(f'<tr><td>Unit {num}: {esc(name)}</td><td><ul>'
+        stages = sorted({st for st, _, _ in units})
+        rows = ''.join(f'<tr><td>{f"Stage {st}, " if len(stages) > 1 else ""}Unit {num}: {esc(name)}</td><td><ul>'
                        + ''.join(f'<li>{t.code} {esc(plain(t.title))}{f" ({esc(d)})" if d else ""}</li>' for t, d in items)
-                       + '</ul></td></tr>' for (num, name), items in sorted(units.items()))
-        out += (f'<details><summary>{icon("book")} Cambridge Primary Science Stage {grade} '
+                       + '</ul></td></tr>' for (st, num, name), items in sorted(units.items()))
+        out += (f'<details><summary>{icon("book")} Cambridge Primary Science Stage {"–".join(map(str, stages)) if len(stages) > 1 else stages[0]} '
                 f'<span style="font-family:Andika,sans-serif;font-weight:400;font-size:15px;color:var(--muted)">· Learner\'s Book units</span></summary>'
                 f'<table><thead><tr><th>Learner\'s Book unit</th><th>Packs that cover it</th></tr></thead><tbody>{rows}</tbody></table></details>')
     return out
@@ -357,7 +384,7 @@ def write(topics, out, strands, kinds, grade):
 
   <section class="credit" id="credits">
     <h2>Credits and licence</h2>
-    <p>All worksheets, articles, questions, case studies and illustrations are original material written and drawn for InquiryMind. They are aligned to the school's Grade {grade} science continuum and to the topics of Cambridge Primary Science Stage {grade}; they are not published or endorsed by Cambridge University Press or Cambridge International, and no text from their books is reproduced. Case-study facts are drawn from public sources named on each sheet; data marked “example” is illustrative.</p>
+    <p>All worksheets, articles, questions, case studies and illustrations are original material written and drawn for InquiryMind. They are aligned to the school's Grade {grade} science continuum and to the topics of the Cambridge Primary Science Learner's Books; they are not published or endorsed by Cambridge University Press or Cambridge International, and no text from their books is reproduced. Case-study facts are drawn from public sources named on each sheet; data marked “example” is illustrative.</p>
     <p>Fonts: Andika, Fredoka and Patrick Hand (SIL Open Font License 1.1, licence files in <code>assets/</code>). Icons: <a href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT licence). Picture icons in some packs: <a href="https://openmoji.org" target="_blank" rel="noopener">OpenMoji</a>, the open-source emoji and icon project (CC BY-SA 4.0). Simulations linked from these packs are adapted from <a href="https://phet.colorado.edu" target="_blank" rel="noopener">PhET Interactive Simulations</a>, University of Colorado Boulder (CC BY-NC 4.0).</p>
   </section>
 </main>

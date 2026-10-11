@@ -32,6 +32,8 @@ REPO = os.path.dirname(os.path.dirname(TOOLKIT))
 WS = os.path.join(REPO, 'worksheets')
 IM_WS = os.path.join(REPO, 'offline-simulations', 'inquirymind-site', 'worksheets')
 GRADES = {
+    2: {'phase': 'IB PYP Phase 2', 'stage': 'Stages 2–3'},
+    3: {'phase': 'IB PYP Phase 3', 'stage': 'Stages 3–4'},
     4: {'phase': 'IB PYP Phase 3', 'stage': 'Stage 4'},
     5: {'phase': 'IB PYP Phase 4', 'stage': 'Stage 5'},
 }
@@ -93,7 +95,8 @@ def cover(topic, om=False):
     strand, sic = STRANDS[topic.strand]
     items = ''.join(f'<li>{icon(KINDS[s.kind][0])} <b>{KINDS[s.kind][1]}:</b> {ws.rich(s.title)} '
                     f'<span class="muted">{stars(s.level)}</span></li>' for s in topic.sheets)
-    camb = (f'<p class="small muted">Also covers Cambridge Primary Science {GRADES[topic.grade]["stage"]}: {ws.esc("; ".join(topic.cambridge))}.</p>'
+    stage = '' if all(c.startswith('Stage') for c in topic.cambridge) else f' {GRADES[topic.grade]["stage"]}'
+    camb = (f'<p class="small muted">Also covers Cambridge Primary Science{stage}: {ws.esc("; ".join(topic.cambridge))}.</p>'
             if topic.cambridge else '')
     return (f'<section class="cover"><div class="brand"><img src="../assets/inquirymind-logo-bw.png" alt="InquiryMind">'
             f'<div class="fredoka" style="text-align:right">Grade {topic.grade} Science<br><span class="muted small">Study pack {topic.code}</span></div></div>'

@@ -78,6 +78,26 @@ NAMES = {
     'wrench': '1F527', 'nut and bolt': '1F529', 'scissors': '2702', 'paperclip': '1F4CE', 'key': '1F511', 'coin': '1FA99',
     'soap': '1F9FC', 'sponge': '1F9FD', 'basket': '1F9FA', 'thread': '1F9F5', 'yarn': '1F9F6', 'teddy bear': '1F9F8',
     'umbrella': '2602', 'shirt': '1F455', 'glasses': '1F453', 'warning': '26A0', 'no entry': '26D4', 'check mark': '2714',
+    # added for Grades 2 and 3
+    'baby': '1F476', 'child': '1F9D2', 'adult': '1F9D1', 'older person': '1F9D3', 'person standing': '1F9CD', 'tongue': '1F445',
+    'hand': '270B', 'mouth': '1F444', 'shopping cart': '1F6D2', 'football': '26BD', 'playground slide': '1F6DD', 'teapot': '1FAD6',
+    'ice cream': '1F366', 'chocolate': '1F36B', 'sandwich': '1F96A', 'broccoli': '1F966', 'cake': '1F370', 'lollipop': '1F36D',
+    'french fries': '1F35F', 'burger': '1F354', 'bed': '1F6CF', 'toothbrush': '1FAA5', 'snowman': '2603', 'camping': '1F3D5',
+    'beach': '1F3D6', 'city': '1F3D9', 'full moon': '1F315', 'new moon': '1F311', 'first quarter moon': '1F313',
+    'last quarter moon': '1F317', 'waxing gibbous moon': '1F314', 'waning gibbous moon': '1F316', 'waxing crescent moon': '1F312',
+    'waning crescent moon': '1F318', 'ringed planet': '1FA90', 'shooting star': '1F320', 'milky way': '1F30C', 'hook': '1FA9D',
+    'ladder': '1FA9C', 'frying egg': '1F373', 'pot of food': '1F372', 'fire extinguisher': '1F9EF', 'hot drink': '2615',
+    'lifting weights': '1F3CB', 'sleeping face': '1F634', 'medical mask face': '1F637', 'sunrise': '1F305', 'night with stars': '1F303',
+    'spoon': '1F944', 'fork and knife': '1F374', 'lemon': '1F34B', 'grapes': '1F347', 'watermelon': '1F349', 'tomato': '1F345',
+    'leafy green': '1F96C', 'bucket': '1FAA3', 'rowing boat': '1F6A3', 'wheel': '1F6DE', 'family': '1F46A', 'sweat droplets': '1F4A6',
+    'musical notes': '1F3B6', 'long drum': '1FA98', 'harp': '1FA89', 'tractor': '1F69C', 'construction': '1F6A7',
+    'building construction': '1F3D7', 'hut': '1F6D6', 'tent': '26FA', 'snow-capped mountain': '1F3D4', 'gem stone': '1F48E',
+    'ring': '1F48D', 'chair': '1FA91', 'broom': '1F9F9', 'sun behind small cloud': '1F324', 'pig': '1F416', 'collision': '1F4A5',
+    'mechanical arm': '1F9BE', 'pinching hand': '1F90F',
+    'gloves': '1F9E4', 'scarf': '1F9E3', 'coat': '1F9E5', 'socks': '1F9E6', 'brick': '1F9F1', 'window': '1FA9F', 'door': '1F6AA',
+    'screwdriver': '1FA9B', 'firefighter': '1F9D1-200D-1F692', 'telephone': '260E', 'saxophone': '1F3B7', 'maracas': '1FA87',
+    'ear with hearing aid': '1F9BB', 'bowl with spoon': '1F963', 'kitchen knife': '1F52A', 'safety pin': '1F9F7',
+    'manual wheelchair': '1F9BD', 'motorway': '1F6E3', 'flag': '1F3F3', 'clock': '1F570', 'sewing needle': '1FAA1',
 }
 
 _cache = {}
