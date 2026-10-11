@@ -30,7 +30,7 @@ sodai.com/                               (this repository)
     ├── inquirymind-site/                ready to copy into the InquiryMind Firebase site
     │   ├── simulations/                 math catalog page (InquiryMind style) + 28 sims
     │   ├── science-simulations/         science catalog page (InquiryMind style) + 28 sims
-    │   └── worksheets/grade-5-science/  Grade 5 Science study packs + answer keys (see worksheets/README.md)
+    │   └── worksheets/                  Grade 4 and Grade 5 science study packs + answer keys (see worksheets/README.md)
     └── toolkit/                         rebuild / rebrand / add sims (see toolkit/README.md)
 ```
 
@@ -61,7 +61,7 @@ unzip, and use `offline-simulations/`. Or: `git clone https://github.com/ranjt/s
 
 Works in current Chrome, Edge, Firefox and Safari, on desktops, laptops, Chromebooks and tablets.
 The Math/Science/Worksheets tabs on the catalog pages link to `../simulations/`, `../science-simulations/` and
-`../worksheets/grade-5-science/`, so keep the folders side by side if you want the tabs to work.
+`../worksheets/`, so keep the folders side by side if you want the tabs to work.
 
 ## 3. Publish on inquirymind.org (Firebase)
 
@@ -75,16 +75,16 @@ and the Firebase CLI (`npm install -g firebase-tools`, then `firebase login`).
    ├── index.html                 (your existing site)
    ├── simulations/               ← copy
    ├── science-simulations/       ← copy
-   └── worksheets/                ← copy (Grade 5 Science study packs)
+   └── worksheets/                ← copy (Grade 4 and 5 science study packs)
    ```
 3. Deploy: `firebase deploy --only hosting`
 4. Check: https://www.inquirymind.org/simulations/, https://www.inquirymind.org/science-simulations/ and
-   https://www.inquirymind.org/worksheets/grade-5-science/
+   https://www.inquirymind.org/worksheets/
 5. Add links from your site's menu or pages:
    ```html
    <a href="/simulations/">Math Simulations</a>
    <a href="/science-simulations/">Science Simulations</a>
-   <a href="/worksheets/grade-5-science/">Grade 5 Science Worksheets</a>
+   <a href="/worksheets/">Science Worksheets</a>
    ```
 
 Notes:
@@ -108,7 +108,7 @@ Notes:
 
 The `simulations/` and `science-simulations/` folders at the repository root are already live at
 https://amrarbazar.com/simulations/ and https://amrarbazar.com/science-simulations/. The worksheets
-(`worksheets/grade-5-science/`) go live at https://amrarbazar.com/worksheets/grade-5-science/ once merged.
+(`worksheets/`) are live at https://amrarbazar.com/worksheets/ (Grade 4 and Grade 5) once merged.
 Any change merged into the `main` branch is published automatically by
 `.github/workflows/static.yml` (about one minute; check the **Actions** tab on GitHub).
 

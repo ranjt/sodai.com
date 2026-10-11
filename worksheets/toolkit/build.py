@@ -1,14 +1,15 @@
 """
-Build the Grade 5 Science worksheet packs.
+Build the InquiryMind science worksheet packs (one folder of topics per grade: topics/grade4/, topics/grade5/).
 
 Usage (from the repository root):
-  python3 worksheets/toolkit/build.py            # HTML + PDF for every topic, hub page, zips, InquiryMind copy
-  python3 worksheets/toolkit/build.py A6 C1      # only these topics (hub page still lists all)
-  python3 worksheets/toolkit/build.py --no-pdf   # HTML only (fast preview)
+  python3 worksheets/toolkit/build.py                  # every grade: HTML + PDF, hub pages, zips, InquiryMind copy
+  python3 worksheets/toolkit/build.py --grade 4        # one grade only
+  python3 worksheets/toolkit/build.py --grade 4 A1 C2  # only these packs of that grade (hub page still lists all)
+  python3 worksheets/toolkit/build.py --no-pdf         # HTML only (fast preview)
 
 Needs Python 3, Node.js and (once) `npm install --prefix worksheets/toolkit`.
 Chromium: set CHROME_PATH, or run `npx playwright install chromium` once.
-Output: worksheets/grade-5-science/  (copied to offline-simulations/inquirymind-site/worksheets/grade-5-science/)
+Output: worksheets/grade-<N>-science/ and worksheets/index.html (copied to offline-simulations/inquirymind-site/worksheets/)
 """
 import glob
 import importlib.util
@@ -21,12 +22,23 @@ import zipfile
 
 TOOLKIT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, TOOLKIT)
+import art  # noqa: E402
 import ws  # noqa: E402
 from icons import icon  # noqa: E402
 
+OPENMOJI_CREDIT = ' · Pictures from OpenMoji (openmoji.org), CC BY-SA 4.0'
+
 REPO = os.path.dirname(os.path.dirname(TOOLKIT))
-OUT = os.path.join(REPO, 'worksheets', 'grade-5-science')
-IM_COPY = os.path.join(REPO, 'offline-simulations', 'inquirymind-site', 'worksheets', 'grade-5-science')
+WS = os.path.join(REPO, 'worksheets')
+IM_WS = os.path.join(REPO, 'offline-simulations', 'inquirymind-site', 'worksheets')
+GRADES = {
+    4: {'phase': 'IB PYP Phase 3', 'stage': 'Stage 4'},
+    5: {'phase': 'IB PYP Phase 4', 'stage': 'Stage 5'},
+}
+
+
+def out_dir(grade):
+    return os.path.join(WS, f'grade-{grade}-science')
 
 STRANDS = {
     'skills': ('Working scientifically', 'microscope'),
@@ -73,37 +85,35 @@ def head(topic, sheet, key):
             f'<div class="ws-head"><img class="logo" src="../assets/inquirymind-logo-bw.png" alt="InquiryMind">'
             f'<div class="title"><div class="kind">{kind} · {topic.code} · {ws.esc(topic.short)}</div><h1>{ws.rich(sheet.title)}</h1></div>'
             f'<div class="badge">{icon(ic)}<div class="stars" title="Challenge level">{stars(sheet.level)}</div>'
-            f'<div class="code">Grade 5</div></div></div>'
+            f'<div class="code">Grade {topic.grade}</div></div></div>'
             f'<div class="name-line"><span>Name:</span><span>Class:</span><span>Date:</span></div>{goal_box}')
 
 
-def cover(topic):
+def cover(topic, om=False):
     strand, sic = STRANDS[topic.strand]
     items = ''.join(f'<li>{icon(KINDS[s.kind][0])} <b>{KINDS[s.kind][1]}:</b> {ws.rich(s.title)} '
                     f'<span class="muted">{stars(s.level)}</span></li>' for s in topic.sheets)
-    camb = (f'<p class="small muted">Also covers Cambridge Primary Science Stage 5: {ws.esc("; ".join(topic.cambridge))}.</p>'
+    camb = (f'<p class="small muted">Also covers Cambridge Primary Science {GRADES[topic.grade]["stage"]}: {ws.esc("; ".join(topic.cambridge))}.</p>'
             if topic.cambridge else '')
     return (f'<section class="cover"><div class="brand"><img src="../assets/inquirymind-logo-bw.png" alt="InquiryMind">'
-            f'<div class="fredoka" style="text-align:right">Grade 5 Science<br><span class="muted small">Study pack {topic.code}</span></div></div>'
+            f'<div class="fredoka" style="text-align:right">Grade {topic.grade} Science<br><span class="muted small">Study pack {topic.code}</span></div></div>'
             f'<div class="strand">{icon(sic)} {strand}</div><h1>{ws.rich(topic.title)}</h1>'
             f'<div class="subtitle">{ws.rich(topic.subtitle)}</div>'
             f'<div class="art">{topic.cover_art}</div>'
             f'<div class="contents"><h3 style="margin-top:2px">In this pack</h3><ul style="list-style:none;padding:0;margin:0">{items}</ul></div>'
             f'{camb}'
             f'<div class="owner"><div>This pack belongs to:</div><div>Class:</div></div>'
-            f'<div class="credit">© InquiryMind · Original learning material for Grade 5 (PHIS Science continuum, IB PYP Phase 4, and Cambridge Primary Science Stage 5) · Illustrations drawn for InquiryMind · Print in black and white on A4 · Challenge: ★ core ★★ deeper ★★★ stretch</div></section>')
+            f'<div class="credit">© InquiryMind · Original learning material for Grade {topic.grade} (PHIS Science continuum, {GRADES[topic.grade]["phase"]}, and Cambridge Primary Science {GRADES[topic.grade]["stage"]}) · Illustrations drawn for InquiryMind{OPENMOJI_CREDIT if om else ""} · Print in black and white on A4 · Challenge: ★ core ★★ deeper ★★★ stretch</div></section>')
 
 
 def page_style(topic, key):
-    label = f'InquiryMind · Grade 5 Science · {topic.code} {topic.title}' + (' · Answer key' if key else '')
+    label = f'InquiryMind · Grade {topic.grade} Science · {topic.code} {topic.title}' + (' · Answer key' if key else '')
     return f'<style>@page {{ @bottom-left {{ content: "{label}"; }} }}</style>'
 
 
 def document(topic, key):
     ws.Q.counter = 0
     body = ''
-    if not key:
-        body += cover(topic)
     sheets = [s for s in topic.sheets if not (key and s.kind == 'learn')]
     for i, s in enumerate(sheets):
         ws.Q.counter = 0
@@ -111,28 +121,31 @@ def document(topic, key):
         if i == len(sheets) - 1 and not key:
             extra = ws.SelfCheck(topic.selfcheck).html(False)
         body += f'<section class="sheet">{head(topic, s, key)}{ws.render(s.blocks, key)}{extra}</section>'
+    if not key:
+        body = cover(topic, art.OM_MARK in body or art.OM_MARK in topic.cover_art) + body
     title = f'{topic.code} {topic.title}' + (' – Answer key' if key else ' – Study pack')
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
-            f'<title>{ws.esc(title)} | InquiryMind Grade 5 Science</title>'
+            f'<title>{ws.esc(title)} | InquiryMind Grade {topic.grade} Science</title>'
             f'<link rel="stylesheet" href="../assets/styles.css">{page_style(topic, key)}</head>'
-            f'<body class="{"answer-key" if key else "learner"}"><div class="doc">{body}</div></body></html>')
+            f'<body class="{"answer-key" if key else "learner"} g{topic.grade}"><div class="doc">{body}</div></body></html>')
 
 
-def load_topics():
+def load_topics(grade):
     topics = []
-    for f in sorted(glob.glob(os.path.join(TOOLKIT, 'topics', '*.py'))):
+    for f in sorted(glob.glob(os.path.join(TOOLKIT, 'topics', f'grade{grade}', '*.py'))):
         if os.path.basename(f).startswith('_'):
             continue
-        spec = importlib.util.spec_from_file_location(os.path.basename(f)[:-3], f)
+        spec = importlib.util.spec_from_file_location(f'g{grade}_' + os.path.basename(f)[:-3], f)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
+        mod.TOPIC.grade = grade
         topics.append(mod.TOPIC)
     order = {'skills': 0, 'living': 1, 'earth': 2, 'physical': 3}
-    return sorted(topics, key=lambda t: (order[t.strand], t.code))
+    return sorted(topics, key=lambda t: (order[t.strand], t.code[0], int(t.code[1:])))
 
 
-def copy_assets():
-    a = os.path.join(OUT, 'assets')
+def copy_assets(out):
+    a = os.path.join(out, 'assets')
     os.makedirs(os.path.join(a, 'fonts'), exist_ok=True)
     shutil.copy(os.path.join(TOOLKIT, 'styles.css'), a)
     for f in glob.glob(os.path.join(TOOLKIT, 'assets', '*')):
@@ -143,7 +156,7 @@ def copy_assets():
 
 
 def render_pdfs(jobs):
-    listing = os.path.join(OUT, '.pdf-jobs.json')
+    listing = os.path.join(WS, '.pdf-jobs.json')
     json.dump(jobs, open(listing, 'w'))
     try:
         subprocess.run(['node', os.path.join(TOOLKIT, 'render_pdf.js'), listing], check=True)
@@ -152,45 +165,54 @@ def render_pdfs(jobs):
 
 
 def main(argv):
+    grades = sorted(GRADES)
+    if '--grade' in argv:
+        grades = [int(argv[argv.index('--grade') + 1])]
+        argv = argv[:argv.index('--grade')] + argv[argv.index('--grade') + 2:]
     only = [a.upper() for a in argv if not a.startswith('--')]
     make_pdf = '--no-pdf' not in argv
-    topics = load_topics()
-    os.makedirs(os.path.join(OUT, 'print'), exist_ok=True)
-    os.makedirs(os.path.join(OUT, 'pdf'), exist_ok=True)
-    copy_assets()
-    jobs = []
-    for t in topics:
-        if only and t.code not in only:
-            continue
-        for key in (False, True):
-            name = t.slug + ('-answer-key' if key else '-study-pack')
-            html_path = os.path.join(OUT, 'print', name + '.html')
-            with open(html_path, 'w', encoding='utf-8') as f:
-                f.write(document(t, key))
-            jobs.append({'html': html_path, 'pdf': os.path.join(OUT, 'pdf', name + '.pdf')})
-        print('built', t.code, t.title)
-    if make_pdf and jobs:
-        render_pdfs(jobs)
-    if make_pdf and not only:
-        make_zips(topics)
     import hub
-    hub.write(topics, OUT, STRANDS, KINDS)
-    if os.path.isdir(os.path.dirname(os.path.dirname(IM_COPY))):
-        shutil.rmtree(IM_COPY, ignore_errors=True)
-        shutil.copytree(OUT, IM_COPY)
-        print('copied to', os.path.relpath(IM_COPY, REPO))
+    for grade in grades:
+        out = out_dir(grade)
+        topics = load_topics(grade)
+        os.makedirs(os.path.join(out, 'print'), exist_ok=True)
+        os.makedirs(os.path.join(out, 'pdf'), exist_ok=True)
+        copy_assets(out)
+        jobs = []
+        for t in topics:
+            if only and t.code not in only:
+                continue
+            for key in (False, True):
+                name = t.slug + ('-answer-key' if key else '-study-pack')
+                html_path = os.path.join(out, 'print', name + '.html')
+                with open(html_path, 'w', encoding='utf-8') as f:
+                    f.write(document(t, key))
+                jobs.append({'html': html_path, 'pdf': os.path.join(out, 'pdf', name + '.pdf')})
+            print('built', f'G{grade}', t.code, t.title)
+        if make_pdf and jobs:
+            render_pdfs(jobs)
+        if make_pdf and not only:
+            make_zips(topics, out, grade)
+        hub.write(topics, out, STRANDS, KINDS, grade)
+    hub.write_landing(WS, {g: load_topics(g) for g in sorted(GRADES)})
+    if os.path.isdir(os.path.dirname(IM_WS)):
+        for grade in grades:
+            shutil.rmtree(os.path.join(IM_WS, f'grade-{grade}-science'), ignore_errors=True)
+            shutil.copytree(out_dir(grade), os.path.join(IM_WS, f'grade-{grade}-science'))
+        shutil.copy(os.path.join(WS, 'index.html'), os.path.join(IM_WS, 'index.html'))
+        print('copied to', os.path.relpath(IM_WS, REPO))
 
 
-def make_zips(topics):
-    d = os.path.join(OUT, 'downloads')
+def make_zips(topics, out, grade):
+    d = os.path.join(out, 'downloads')
     os.makedirs(d, exist_ok=True)
     for kind, suffix in (('study-packs', '-study-pack.pdf'), ('answer-keys', '-answer-key.pdf')):
-        zpath = os.path.join(d, f'grade-5-science-all-{kind}.zip')
+        zpath = os.path.join(d, f'grade-{grade}-science-all-{kind}.zip')
         with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
             for t in topics:
-                p = os.path.join(OUT, 'pdf', t.slug + suffix)
+                p = os.path.join(out, 'pdf', t.slug + suffix)
                 if os.path.exists(p):
-                    z.write(p, f'grade-5-science-{kind}/{t.slug}{suffix}')
+                    z.write(p, f'grade-{grade}-science-{kind}/{t.slug}{suffix}')
         print('zip', os.path.relpath(zpath, REPO), round(os.path.getsize(zpath) / 1e6, 1), 'MB')
 
 

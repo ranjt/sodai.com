@@ -1771,3 +1771,33 @@ def instruments_to_read(w='100%'):
     o += line(560, 110, 560 + 46 * math.cos(t), 110 + 46 * math.sin(t), 2) + circle(560, 110, 3, INK, 0)
     o += text(560, 222, 'D (seconds)', 13, weight='bold')
     return svg(640, 232, o, width=w)
+
+
+# ------------------------------------------------------------------ OpenMoji pictures (CC BY-SA 4.0)
+OM_MARK = 'data-om'
+
+
+def pic(name, x, y, size=48):
+    """An OpenMoji line picture placed inside a diagram, top-left corner at (x, y)."""
+    import openmoji
+    return f'<g {OM_MARK}="1" transform="translate({x} {y}) scale({size / 72:.4f})">{openmoji.inner(name)}</g>'
+
+
+def pic_svg(name, w='100%'):
+    """A single OpenMoji picture as its own SVG."""
+    return svg(72, 72, pic(name, 0, 0, 72), width=w)
+
+
+def pic_row(names, labels=None, size=60, gap=24, label_size=12, w='100%', arrows=False, margin=40):
+    """Pictures in a row with labels underneath (labels=None uses the names; [] for none); arrows=True links them."""
+    labels = names if labels is None else labels
+    o = ''
+    for i, n in enumerate(names):
+        x = i * (size + gap)
+        o += pic(n, x, 0, size)
+        if labels:
+            o += text(x + size / 2, size + label_size + 4, labels[i], label_size, weight='bold')
+        if arrows and i < len(names) - 1:
+            o += arrow(x + size + 4, size / 2, x + size + gap - 4, size / 2, 1.6, 7)
+    W = len(names) * (size + gap) - gap
+    return svg(W + 2 * margin, size + (label_size + 8 if labels else 0), f'<g transform="translate({margin} 0)">{o}</g>', width=w)

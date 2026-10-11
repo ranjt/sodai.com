@@ -32,6 +32,7 @@ h1,h2,h3,.fredoka{font-family:'Fredoka','Andika',sans-serif;font-weight:600;line
 .tabs a{padding:6px 13px;border-radius:999px;font-size:14px;font-weight:700;color:var(--primary)}
 .tabs a[aria-current="page"]{background:var(--primary);color:#fff}
 .hero{margin:22px auto 0;border-radius:28px;padding:38px 28px;color:#fff;background:var(--hero);box-shadow:var(--shadow)}
+.grades{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}.grades a{padding:5px 13px;border-radius:999px;border:1px solid rgba(255,255,255,.55);font-weight:700;font-size:14px}.grades a[aria-current]{background:#fff;color:var(--primary)}
 .hero .eyebrow{font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.9}
 .hero h1{font-size:clamp(30px,5vw,46px);margin-top:6px}
 .hero p{max-width:720px;margin-top:12px;font-size:17px;opacity:.96}
@@ -116,12 +117,13 @@ footer{padding:28px 0 40px;text-align:center;font-size:13px;color:var(--muted)}
 <header class="topbar"><div class="shell">
   <a class="brand" href="./"><img src="assets/inquirymind-logo.png" alt="InquiryMind"></a>
   <nav class="tabs" aria-label="Learning resources">
-    <a href="../../simulations/">Math sims</a><a href="../../science-simulations/">Science sims</a><a href="./" aria-current="page">Worksheets</a>
+    <a href="../../simulations/">Math sims</a><a href="../../science-simulations/">Science sims</a><a href="../" aria-current="page">Worksheets</a>
   </nav>
 </div></header>
 <main class="shell">
   <section class="hero">
     <div class="eyebrow">InquiryMind · Grade 5 Science</div>
+    <div class="grades"><a href="../grade-4-science/">Grade 4</a><a href="../grade-5-science/" aria-current=page>Grade 5</a></div>
     <h1>Study packs and worksheets</h1>
     <p>Print-ready, black-and-white study packs that cover the whole Grade 5 science syllabus. Each pack teaches the topic with an illustrated article, then builds from facts to thinking, a real investigation and a transdisciplinary case study set in Bangladesh. Every pack has its own answer key.</p>
     <div class="stats"><span>22 study packs</span><span>132 worksheets</span><span>275 printable pages</span><span>101 learning outcomes</span><span>Answer keys included</span></div>
@@ -155,7 +157,7 @@ footer{padding:28px 0 40px;text-align:center;font-size:13px;color:var(--muted)}
   <section class="credit" id="credits">
     <h2>Credits and licence</h2>
     <p>All worksheets, articles, questions, case studies and illustrations are original material written and drawn for InquiryMind. They are aligned to the school's Grade 5 science continuum and to the topics of Cambridge Primary Science Stage 5; they are not published or endorsed by Cambridge University Press or Cambridge International, and no text from their books is reproduced. Case-study facts are drawn from public sources named on each sheet; data marked “example” is illustrative.</p>
-    <p>Fonts: Andika, Fredoka and Patrick Hand (SIL Open Font License 1.1, licence files in <code>assets/</code>). Icons: <a href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT licence). Simulations linked from these packs are adapted from <a href="https://phet.colorado.edu" target="_blank" rel="noopener">PhET Interactive Simulations</a>, University of Colorado Boulder (CC BY-NC 4.0).</p>
+    <p>Fonts: Andika, Fredoka and Patrick Hand (SIL Open Font License 1.1, licence files in <code>assets/</code>). Icons: <a href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT licence). Picture icons in some packs: <a href="https://openmoji.org" target="_blank" rel="noopener">OpenMoji</a>, the open-source emoji and icon project (CC BY-SA 4.0). Simulations linked from these packs are adapted from <a href="https://phet.colorado.edu" target="_blank" rel="noopener">PhET Interactive Simulations</a>, University of Colorado Boulder (CC BY-NC 4.0).</p>
   </section>
 </main>
 <footer>InquiryMind · Learn · Play · Wonder · Grade 5 Science study packs</footer>
