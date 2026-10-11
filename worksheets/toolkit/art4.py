@@ -597,10 +597,10 @@ def bar_magnets(w='100%'):
     def mag(x, y, left):
         o = rect(x, y, 70, 26, 2, 'white', 1.6) + rect(x + 35, y, 35, 26, 0, GREY, 0) + rect(x, y, 70, 26, 2, 'none', 1.6)
         return o + text(x + 17, y + 18, left, 13, weight='bold') + text(x + 52, y + 18, 'S' if left == 'N' else 'N', 13, weight='bold')
-    o = mag(10, 20, 'N') + mag(150, 20, 'S') + text(130, 70, 'N and S: attract (pull together)', 11, weight='bold')
-    o += arrow(98, 33, 118, 33, 1.8, 7) + arrow(170, 46, 150, 46, 1.8, 7)
-    o += mag(10, 100, 'S') + mag(170, 100, 'S') + text(130, 150, 'N and N: repel (push apart)', 11, weight='bold')
-    o += arrow(96, 113, 76, 113, 1.8, 7) + arrow(166, 113, 186, 113, 1.8, 7)
+    o = mag(10, 20, 'N') + mag(150, 20, 'N') + text(130, 70, 'S and N: attract (pull together)', 11, weight='bold')
+    o += arrow(88, 27, 122, 27, 1.8, 7) + arrow(142, 40, 108, 40, 1.8, 7)
+    o += mag(10, 100, 'S') + mag(170, 100, 'N') + text(130, 150, 'N and N: repel (push apart)', 11, weight='bold')
+    o += arrow(118, 113, 88, 113, 1.8, 7) + arrow(122, 113, 162, 113, 1.8, 7)
     return svg(260, 160, o, width=w)
 
 

@@ -216,3 +216,20 @@ body.g4 .box { font-size: 11.8pt; }
 .box.check { background: var(--fill2); border-width: 1.4px; }
 body.g4 .cover .art { text-align: center; }
 body.g4 .cover .art svg { width: auto !important; max-width: 100%; max-height: 78mm; display: inline-block; }
+
+/* Grades 2 and 3: big print, lots of space for young writers */
+body.g2 { font-size: 13.6pt; line-height: 1.55; }
+body.g3 { font-size: 12.9pt; line-height: 1.52; }
+body.g2 .lead, body.g3 .lead { font-size: 14pt; }
+body.g2 h3, body.g3 h3 { font-size: 14.5pt; }
+body.g2 .ws-head .title h1, body.g3 .ws-head .title h1 { font-size: 19.5pt; }
+body.g2 .lines .ln { height: 12mm; }
+body.g3 .lines .ln { height: 11mm; }
+body.g2 .answer-key .lines .ln.multi, body.g2.answer-key .lines .ln.multi { min-height: 12mm; }
+body.g3 .answer-key .lines .ln.multi, body.g3.answer-key .lines .ln.multi { min-height: 11mm; }
+body.g2 .blanks-text, body.g3 .blanks-text { line-height: 2.6; }
+body.g2 .box, body.g3 .box { font-size: 12.6pt; }
+body.g2 .pic .cap, body.g3 .pic .cap { font-size: 11.5pt; }
+body.g2 .cover .art, body.g3 .cover .art { text-align: center; }
+body.g2 .cover .art svg, body.g3 .cover .art svg { width: auto !important; max-width: 100%; max-height: 78mm; display: inline-block; }
+h2, h3 { break-after: avoid; }

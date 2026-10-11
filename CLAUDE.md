@@ -10,9 +10,9 @@ Static website repo. `main` is published by GitHub Pages (`.github/workflows/sta
 - `offline-simulations/README.md` — full user guide (deploy to Firebase/inquirymind.org, embed, license, sim table).
 - `offline-simulations/inquirymind-site/` — same sims with InquiryMind-styled catalog pages, for the user's Firebase site.
 - `offline-simulations/toolkit/` — rebuild/rebrand/add sims; steps in `toolkit/README.md`.
-- `worksheets/` — InquiryMind science study packs + answer keys: Grade 4 (20 packs) and Grade 5 (22). Guide:
+- `worksheets/` — InquiryMind science study packs + answer keys: Grade 2 (12 packs), Grade 3 (14), Grade 4 (20) and Grade 5 (22). Guide:
   `worksheets/README.md`. Source: `worksheets/toolkit/topics/grade<N>/<code>_*.py` (one pack per file; codes W1, A*, B*, C*),
-  components `ws.py`, SVG art `art.py` + `art4.py`, OpenMoji pictures `openmoji.py` (CC BY-SA), download pages `hub.py`.
+  components `ws.py`, SVG art `art.py` + `art4.py` (G4) + `art23.py` (G2–3), OpenMoji pictures `openmoji.py` (CC BY-SA), download pages `hub.py`.
   Output (generated): `worksheets/index.html` + `worksheets/grade-<N>-science/`, live at amrarbazar.com/worksheets/,
   copied to `offline-simulations/inquirymind-site/worksheets/`.
 
