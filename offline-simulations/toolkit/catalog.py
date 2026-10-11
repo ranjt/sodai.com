@@ -279,6 +279,7 @@ footer{{padding:28px 0 40px;text-align:center;font-size:13px;color:var(--muted)}
       <a href="../simulations/"{math_current}>Math</a>
       <a href="../science-simulations/"{science_current}>Science</a>
       <a href="../worksheets/">Worksheets</a>
+      <a href="../worksheets/thinking-routines/">Thinking routines</a>
     </nav>
     {back_html}
   </div>

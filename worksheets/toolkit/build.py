@@ -27,6 +27,9 @@ import ws  # noqa: E402
 from icons import icon  # noqa: E402
 
 OPENMOJI_CREDIT = ' · Pictures from OpenMoji (openmoji.org), CC BY-SA 4.0'
+TAGLINE = 'Learn · Play · Wonder'
+MISSION = ('Free resources for everyone, bringing quality and equity to education '
+           'and helping teachers build concepts and make learning visible')
 
 REPO = os.path.dirname(os.path.dirname(TOOLKIT))
 WS = os.path.join(REPO, 'worksheets')
@@ -95,22 +98,18 @@ def cover(topic, om=False):
     strand, sic = STRANDS[topic.strand]
     items = ''.join(f'<li>{icon(KINDS[s.kind][0])} <b>{KINDS[s.kind][1]}:</b> {ws.rich(s.title)} '
                     f'<span class="muted">{stars(s.level)}</span></li>' for s in topic.sheets)
-    stage = '' if all(c.startswith('Stage') for c in topic.cambridge) else f' {GRADES[topic.grade]["stage"]}'
-    camb = (f'<p class="small muted">Also covers Cambridge Primary Science{stage}: {ws.esc("; ".join(topic.cambridge))}.</p>'
-            if topic.cambridge else '')
     return (f'<section class="cover"><div class="brand"><img src="../assets/inquirymind-logo-bw.png" alt="InquiryMind">'
             f'<div class="fredoka" style="text-align:right">Grade {topic.grade} Science<br><span class="muted small">Study pack {topic.code}</span></div></div>'
             f'<div class="strand">{icon(sic)} {strand}</div><h1>{ws.rich(topic.title)}</h1>'
             f'<div class="subtitle">{ws.rich(topic.subtitle)}</div>'
             f'<div class="art">{topic.cover_art}</div>'
             f'<div class="contents"><h3 style="margin-top:2px">In this pack</h3><ul style="list-style:none;padding:0;margin:0">{items}</ul></div>'
-            f'{camb}'
             f'<div class="owner"><div>This pack belongs to:</div><div>Class:</div></div>'
-            f'<div class="credit">© InquiryMind · Original learning material for Grade {topic.grade} (PHIS Science continuum, {GRADES[topic.grade]["phase"]}, and Cambridge Primary Science {GRADES[topic.grade]["stage"]}) · Illustrations drawn for InquiryMind{OPENMOJI_CREDIT if om else ""} · Print in black and white on A4 · Challenge: ★ core ★★ deeper ★★★ stretch</div></section>')
+            f'<div class="credit">© InquiryMind · {TAGLINE} · {MISSION} · Illustrations drawn for InquiryMind{OPENMOJI_CREDIT if om else ""} · Print in black and white on A4 · Challenge: ★ core ★★ deeper ★★★ stretch</div></section>')
 
 
 def page_style(topic, key):
-    label = f'InquiryMind · Grade {topic.grade} Science · {topic.code} {topic.title}' + (' · Answer key' if key else '')
+    label = f'InquiryMind · {TAGLINE} · Grade {topic.grade} Science · {topic.code} {topic.title}' + (' · Answer key' if key else '')
     return f'<style>@page {{ @bottom-left {{ content: "{label}"; }} }}</style>'
 
 

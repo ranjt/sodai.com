@@ -170,6 +170,17 @@ Grade 4 (Stage 4): 1 Humans and animals → A1, A3; 2 Living things and environm
 Grade 5 (Stage 5): 1 Plants → A5; 2 Life cycles → A6; 3 States of matter → C1, B1, C2; 4 The way we see things → C7;
 5 Shadows → C8; 6 Earth's movements → B4.
 
+## Visible Thinking Routines (VTR)
+
+`thinking-routines/` is the VTR section of the site (https://amrarbazar.com/worksheets/thinking-routines/): 34 one-page
+A4 landscape organisers for Project Zero thinking routines (R01 See, Think, Wonder … R34 Imagine If), grouped as
+*Look closely and get curious*, *Dig deeper* and *Sum up and reflect*, with previews, PDF downloads and a zip of all.
+Each organiser is an original InquiryMind design and credits Project Zero in the footer.
+
+Change or add one: edit `ROUTINES` in `toolkit/routines.py` (parts = icon, big word, prompt; layouts: columns, rows,
+compass, quad, nine, around, tug, fruit, headline, map; icons in `toolkit/rt_icons.py`: drawn ones or any Tabler icon
+name in `toolkit/icons/`), then run `python3 worksheets/toolkit/routines.py R05` (or no codes for all + zip + page).
+
 ## 3. Printing
 
 - Print the PDFs on **A4, black and white, double-sided** ("flip on long edge"), scale 100 % / "actual size".
