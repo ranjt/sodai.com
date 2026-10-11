@@ -10,11 +10,15 @@ Static website repo. `main` is published by GitHub Pages (`.github/workflows/sta
 - `offline-simulations/README.md` — full user guide (deploy to Firebase/inquirymind.org, embed, license, sim table).
 - `offline-simulations/inquirymind-site/` — same sims with InquiryMind-styled catalog pages, for the user's Firebase site.
 - `offline-simulations/toolkit/` — rebuild/rebrand/add sims; steps in `toolkit/README.md`.
-- `worksheets/` — InquiryMind science study packs + answer keys: Grade 2 (12 packs), Grade 3 (14), Grade 4 (20) and Grade 5 (22). Guide:
-  `worksheets/README.md`. Source: `worksheets/toolkit/topics/grade<N>/<code>_*.py` (one pack per file; codes W1, A*, B*, C*),
+- `worksheets/` — InquiryMind science study packs + answer keys: KG (12 packs, KG1+KG2, grade 0 = `kg-science/`, `topics/kg/`),
+  Grade 1 (11), 2 (12), 3 (14), 4 (20), 5 (24 incl. extras C9 heat transfer, C10 energy resources with sourced data). Guide:
+  `worksheets/README.md`; every PDF listed in `worksheets/ALL-WORKSHEETS.md` (written by `inventory.py` on each build).
+  Source: `worksheets/toolkit/topics/grade<N>/<code>_*.py` (one pack per file; codes W1, A*, B*, C*),
   components `ws.py`, SVG art `art.py` + `art4.py` (G4) + `art23.py` (G2–3), OpenMoji pictures `openmoji.py` (CC BY-SA), download pages `hub.py`.
   Output (generated): `worksheets/index.html` + `worksheets/grade-<N>-science/`, live at amrarbazar.com/worksheets/,
-  copied to `offline-simulations/inquirymind-site/worksheets/`.
+  copied to `offline-simulations/inquirymind-site/worksheets/`. KG/G1 picture blocks in `ws.py`: Choose, PicMatch, PicSort,
+  Pictograph, Trace. Publishing to inquirymind.org: `offline-simulations/inquirymind-site/publish.sh` + `PUBLISH-WORKSHEETS.md`
+  (copy-only, no rebuild); `CLAUDE-INQUIRYMIND.md` is the CLAUDE.md for the user's InquiryMind Firebase project.
 - `worksheets/thinking-routines/` — Visible Thinking Routines (VTR) section: 34 one-page A4 landscape organisers (R01–R34,
   Project Zero routines, original InquiryMind design and icons, PZ credited in the footer) + download page, previews, zip.
   Source: `worksheets/toolkit/routines.py` (list `ROUTINES`, 10 layouts) + `rt_icons.py`; page `hub.write_routines`.

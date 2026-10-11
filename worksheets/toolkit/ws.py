@@ -81,6 +81,7 @@ BOX_STYLES = {
     'need': ('package', 'You will need'),
     'try': ('home-heart', 'Try this at home'),
     'check': ('checklist', 'Quick check'),
+    'adult': ('home-heart', 'For the grown-up'),
 }
 
 
@@ -497,3 +498,91 @@ class SelfCheck(Block):
                        for s in self.statements)
         return (f'<div class="box think"><div class="bt">{icon("checklist")}How am I doing? Colour or tick a circle.</div>'
                 f'<table class="selfcheck"><tr><th style="text-align:left">I can…</th>{faces}</tr>{rows}</table></div>')
+
+
+# ---------------------------------------------------------------- picture blocks for KG and Grade 1 (little or no reading)
+def _card(name, cap, size, extra=''):
+    import art
+    c = f'<div class="cap">{rich(cap)}</div>' if cap else ''
+    return f'<div class="pic{extra}">{art.pic_svg(name, size)}{c}</div>'
+
+
+class Choose(Block):
+    """Picture cards to circle (mark='circle') or cross out (mark='cross'). items: [(picture, caption)];
+    right: indexes of the correct cards, which the answer key circles or crosses."""
+    def __init__(self, items, right, cols=4, size='24mm', mark='circle'):
+        self.items, self.right, self.cols, self.size, self.mark = items, set(right), cols, size, mark
+
+    def html(self, key):
+        cards = ''.join(_card(n, c, self.size, ' yes' if i in self.right else '') for i, (n, c) in enumerate(self.items))
+        return f'<div class="pics choose {self.mark}" style="--c:{self.cols}">{cards}</div>'
+
+
+class PicMatch(Block):
+    """Match pictures with lines. pairs: [((picture, caption), (picture, caption))]; the right column is shuffled."""
+    def __init__(self, pairs, seed=4, size='20mm'):
+        self.pairs, self.seed, self.size = pairs, seed, size
+
+    def html(self, key):
+        order = list(range(len(self.pairs)))
+        random.Random(self.seed).shuffle(order)
+        if len(order) > 1 and any(i == o for i, o in enumerate(order)):
+            order = order[1:] + order[:1]
+        letters = 'ABCDEFGH'
+        letter_of = {orig: letters[pos] for pos, orig in enumerate(order)}
+        out = ''
+        for i, (left, _) in enumerate(self.pairs):
+            rn, rc = self.pairs[order[i]][1]
+            out += (f'<div class="pm-l">{_card(left[0], left[1], self.size)}<span class="dot"></span></div>'
+                    f'<div class="mid"><span class="ans">{letter_of[i]}</span></div>'
+                    f'<div class="pm-r"><span class="dot"></span><span class="letter">{letters[i]}</span>{_card(rn, rc, self.size)}</div>')
+        return f'<div class="picmatch">{out}</div>'
+
+
+class PicSort(Block):
+    """Cut out (or draw) the pictures and sort them into groups. categories: [label]; items: [(picture, caption, label)]."""
+    def __init__(self, categories, items, seed=6, size='17mm', height='42mm'):
+        self.categories, self.items, self.seed, self.size, self.height = categories, items, seed, size, height
+
+    def html(self, key):
+        import art
+        bank = list(self.items)
+        random.Random(self.seed).shuffle(bank)
+        strip = ''.join(_card(n, c, self.size, ' cut') for n, c, _ in bank)
+        cols = ''
+        for cat in self.categories:
+            inside = ''.join(f'<span class="ans">{art.pic_svg(n, "13mm")}</span>' for n, _, c in self.items if c == cat)
+            cols += f'<div class="ps-col"><div class="ps-h">{rich(cat)}</div><div class="ps-box" style="min-height:{self.height}">{inside}</div></div>'
+        return (f'<div class="ps-note">Cut out the pictures and stick them in the right box, or draw them.</div>'
+                f'<div class="pics cutstrip" style="--c:{len(bank)}">{strip}</div>'
+                f'<div class="picsort" style="--n:{len(self.categories)}">{cols}</div>')
+
+
+class Pictograph(Block):
+    """A picture graph: colour one box for each. rows: [(picture, label, value)]; the key shades the boxes."""
+    def __init__(self, rows, top=8, title='Colour one box for each one.'):
+        self.rows, self.top, self.title = rows, top, title
+
+    def html(self, key):
+        import art
+        out = ''
+        for name, label, v in self.rows:
+            boxes = ''.join(f'<span class="pg-b{" on" if i < v else ""}"></span>' for i in range(self.top))
+            out += f'<div class="pg-row"><div class="pg-lab">{art.pic_svg(name, "12mm")}<span>{rich(label)}</span></div><div class="pg-boxes">{boxes}</div></div>'
+        nums = ''.join(f'<span>{i}</span>' for i in range(1, self.top + 1))
+        return f'<div class="pg"><div class="pg-t">{rich(self.title)}</div>{out}<div class="pg-row pg-axis"><div></div><div class="pg-boxes">{nums}</div></div></div>'
+
+
+class Trace(Block):
+    """Trace the grey words on handwriting lines, then write your own. items: [(word, picture or None)]."""
+    def __init__(self, items, repeat=2):
+        self.items, self.repeat = items, repeat
+
+    def html(self, key):
+        import art
+        rows = ''
+        for word, name in self.items:
+            pic = art.pic_svg(name, '13mm') if name else ''
+            words = ''.join(f'<span class="tr-w">{esc(word)}</span>' for _ in range(self.repeat))
+            rows += f'<div class="tr-row"><div class="tr-pic">{pic}</div><div class="tr-line">{words}<span class="tr-own"><span class="ans">{esc(word)}</span></span></div></div>'
+        return f'<div class="trace">{rows}</div>'
