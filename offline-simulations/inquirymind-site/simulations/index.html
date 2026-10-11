@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Math Simulations K–6 | InquiryMind</title>
+<meta name="description" content="Free interactive math simulations for Kindergarten to Grade 6, adapted from PhET Interactive Simulations (University of Colorado Boulder). Works offline.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#3d25c4;
+  --primary-soft:#ece9fb;
+  --accent:#ef7d4f;
+  --accent-hover:#dd6a3c;
+  --focus:#f6c752;
+  --hero:linear-gradient(135deg,#3d25c4 0%,#5a3fd6 55%,#8a6ff0 100%);
+  --bg:linear-gradient(180deg,#fbfaff 0%,#f1eefc 100%);
+  --topbar:rgba(251,250,255,.92);
+  --ink:#1d1840;
+  --muted:#686385;
+  --line:#e2def3;
+  --surface:#fff;
+  --shadow:0 18px 42px rgba(13,19,31,.10);
+  --shadow-soft:0 8px 20px rgba(13,19,31,.08);
+  --max:1240px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  min-height:100vh;
+}
+a{color:inherit;text-decoration:none}
+button,input{font:inherit}
+.shell{max-width:var(--max);margin:0 auto;padding:0 16px}
+.bn{font-family:'Hind Siliguri','DM Sans',sans-serif}
+
+.topbar{border-bottom:1px solid var(--line);background:var(--topbar);position:sticky;top:0;z-index:5;backdrop-filter:blur(8px)}
+.topbar .shell{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.brand{font-weight:800;color:var(--primary);font-size:18px;display:flex;align-items:center}
+.brand img{display:block;height:33px;width:auto}
+.tabs{display:flex;gap:4px;padding:4px;border-radius:999px;background:var(--primary-soft)}
+.tabs a{padding:7px 14px;border-radius:999px;font-size:14px;font-weight:700;color:var(--primary)}
+.tabs a[aria-current="page"]{background:var(--primary);color:#fff}
+.back{font-size:14px;font-weight:600;color:var(--muted)}
+.back:hover{color:var(--primary)}
+
+.hero{
+  margin:24px auto 0;
+  border-radius:28px;
+  padding:40px 28px;
+  color:#fff;
+  background:var(--hero);
+  box-shadow:var(--shadow);
+}
+.hero h1{font-size:clamp(28px,5vw,44px);line-height:1.1;font-weight:800}
+.hero .bn{display:block;font-size:clamp(18px,3vw,24px);font-weight:600;margin-top:6px;opacity:.95}
+.hero p{max-width:680px;margin-top:14px;font-size:16px;line-height:1.55;opacity:.95}
+
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:24px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{
+  padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);
+  font-size:14px;font-weight:700;color:var(--muted);cursor:pointer;
+}
+.chip[aria-pressed="true"]{background:var(--primary);border-color:var(--primary);color:#fff}
+.search{
+  flex:1 1 220px;min-width:0;padding:10px 14px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface);font-size:15px;color:var(--ink);
+}
+.search:focus,.chip:focus-visible,.btn:focus-visible,.tabs a:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+
+.group{margin-top:28px}
+.group-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.group-head h2{font-size:22px;font-weight:800}
+.group-head span{color:var(--muted);font-size:15px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden;
+  box-shadow:var(--shadow-soft);display:flex;flex-direction:column;
+}
+.thumb{display:block;aspect-ratio:600/394;background:#111;overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s}
+.card:hover .thumb img{transform:scale(1.03)}
+.card-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:17px;font-weight:800}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.grade,.stretch{font-size:12px;font-weight:800;padding:3px 9px;border-radius:999px}
+.grade{background:var(--primary-soft);color:var(--primary)}
+.stretch{background:#fff3e0;color:#9a4b00}
+.topics{font-size:14px;color:var(--muted);line-height:1.45;flex:1}
+.actions{display:flex;gap:8px;margin-top:4px}
+.btn{
+  flex:1;text-align:center;padding:9px 10px;border-radius:12px;font-size:14px;font-weight:700;
+  border:1px solid var(--line);
+}
+.btn-primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn-primary:hover{background:var(--accent-hover)}
+.btn:not(.btn-primary):hover{border-color:var(--primary);color:var(--primary)}
+.empty{display:none;margin-top:32px;color:var(--muted);text-align:center}
+
+.credit{
+  margin:40px 0 0;padding:22px;border-radius:20px;background:var(--surface);border:1px solid var(--line);
+  font-size:14px;line-height:1.6;color:var(--muted);
+}
+.credit h2{font-size:17px;color:var(--ink);margin-bottom:8px}
+.credit a{color:var(--primary);text-decoration:underline}
+.credit p+p{margin-top:8px}
+footer{padding:28px 0 40px;text-align:center;font-size:13px;color:var(--muted)}
+
+@media (max-width:560px){
+  .hero{padding:28px 20px;border-radius:22px}
+  .grid{grid-template-columns:1fr}
+  .back{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="shell">
+    <a class="brand" href="/"><img src="inquirymind-logo.png" alt="InquiryMind" width="150" height="33"></a>
+    <nav class="tabs" aria-label="Learning resources">
+      <a href="../simulations/" aria-current="page">Math</a>
+      <a href="../science-simulations/">Science</a>
+      <a href="../worksheets/grade-5-science/">Worksheets</a>
+    </nav>
+    <a class="back" href="/">← InquiryMind home</a>
+  </div>
+</header>
+
+<main class="shell">
+  <section class="hero">
+    <h1>Math Simulations for K–6</h1>
+    <span class="bn">কিন্ডারগার্টেন থেকে ষষ্ঠ শ্রেণির গণিত সিমুলেশন</span>
+    <p>Free, interactive math activities for young learners: counting, place value, multiplication, fractions, decimals, ratios and more. Every simulation works in the browser and can be downloaded to use offline.</p>
+  </section>
+
+  <div class="controls">
+    <div class="chips" role="group" aria-label="Filter by grade">
+      <button class="chip" data-grade="all" aria-pressed="true">All grades</button>
+      <button class="chip" data-grade="k2" aria-pressed="false">K – 2</button>
+      <button class="chip" data-grade="g35" aria-pressed="false">Grades 3 – 5</button>
+      <button class="chip" data-grade="g6" aria-pressed="false">Grade 6</button>
+    </div>
+    <input class="search" type="search" placeholder="Search: fractions, area, mean…" aria-label="Search simulations">
+  </div>
+
+  <div id="catalog"></div>
+  <p class="empty" id="empty">No simulations match your search.</p>
+
+  <section class="credit" id="credits">
+    <h2>Credits</h2>
+    <p>These simulations are by <strong>PhET Interactive Simulations, University of Colorado Boulder</strong> (<a href="https://phet.colorado.edu" target="_blank" rel="noopener">phet.colorado.edu</a>), licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> (non-commercial use only).</p>
+    <p>They were built from PhET's open-source code (<a href="https://github.com/phetsims" target="_blank" rel="noopener">github.com/phetsims</a>) and branded for InquiryMind: each one shows the InquiryMind logo with an “adapted from PhET” credit. They are not official PhET releases, and PhET does not endorse this website. For the official versions, visit <a href="https://phet.colorado.edu" target="_blank" rel="noopener">phet.colorado.edu</a>.</p>
+  </section>
+</main>
+
+<footer>InquiryMind · Simulations adapted from PhET Interactive Simulations, University of Colorado Boulder · CC BY-NC 4.0</footer>
+
+<script>
+const GROUPS = [["k2", "Kindergarten – Grade 2", "Counting and early number sense"], ["g35", "Grades 3 – 5", "Operations, area and fractions"], ["g56", "Grades 5 – 6", "Decimals, ratios, integers and early statistics"]];
+
+// [id, name, group, lowest grade (0 = K), highest grade, topics]; highest grade above 6 marks a "stretch" sim
+const SIMS = [
+  ["number-play", "Number Play", "k2", 0, 2, "Counting 1–20, ten frames, recognizing small amounts at a glance"],
+  ["make-a-ten", "Make a Ten", "k2", 0, 2, "Place value, adding by making tens"],
+  ["number-compare", "Number Compare", "k2", 0, 2, "Comparing numbers, greater than and less than"],
+  ["number-pairs", "Number Pairs", "k2", 0, 2, "Splitting numbers into parts, addition facts"],
+  ["arithmetic", "Arithmetic", "g35", 3, 5, "Multiplication, division and factoring practice"],
+  ["area-builder", "Area Builder", "g35", 3, 5, "Area and perimeter with unit squares"],
+  ["area-model-introduction", "Area Model Introduction", "g35", 3, 4, "Area as multiplication"],
+  ["area-model-multiplication", "Area Model Multiplication", "g35", 4, 5, "Multi-digit multiplication, partial products"],
+  ["fractions-intro", "Fractions: Intro", "g35", 3, 5, "What a fraction is, different ways to show one"],
+  ["fractions-equality", "Fractions: Equality", "g35", 3, 5, "Equivalent fractions"],
+  ["fractions-mixed-numbers", "Fractions: Mixed Numbers", "g35", 4, 5, "Improper fractions and mixed numbers"],
+  ["fraction-comparison", "Fraction Comparison", "g35", 3, 4, "Comparing fractions"],
+  ["build-a-fraction", "Build a Fraction", "g35", 3, 5, "Building fractions with shapes and numbers"],
+  ["fraction-matcher", "Fraction Matcher", "g35", 3, 5, "Matching equal fractions (game)"],
+  ["estimation", "Estimation", "g35", 3, 5, "Estimating length, area and volume"],
+  ["function-builder-basics", "Function Builder: Basics", "g35", 3, 5, "Input and output patterns, early algebra"],
+  ["area-model-decimals", "Area Model Decimals", "g56", 5, 6, "Multiplying decimals"],
+  ["mean-share-and-balance", "Mean: Share and Balance", "g56", 5, 6, "Introduction to the mean (average)"],
+  ["equality-explorer-basics", "Equality Explorer: Basics", "g56", 5, 6, "Balance-scale equations, finding unknowns"],
+  ["ratio-and-proportion", "Ratio and Proportion", "g56", 5, 6, "Ratios"],
+  ["unit-rates", "Unit Rates", "g56", 6, 6, "Unit price and rates"],
+  ["proportion-playground", "Proportion Playground", "g56", 6, 6, "Proportional reasoning"],
+  ["number-line-integers", "Number Line: Integers", "g56", 6, 6, "Negative numbers, absolute value"],
+  ["number-line-operations", "Number Line: Operations", "g56", 6, 6, "Adding and subtracting on a number line"],
+  ["number-line-distance", "Number Line: Distance", "g56", 6, 6, "Distance between points"],
+  ["quadrilateral", "Quadrilateral", "g56", 5, 6, "Properties of four-sided shapes"],
+  ["expression-exchange", "Expression Exchange", "g56", 6, 6, "Combining like terms"],
+  ["center-and-variability", "Center and Variability", "g56", 6, 6, "Median, mean and spread"]
+].map(([id, name, group, min, max, topics]) => ({ id, name, group, min, max, topics }));
+
+const GRADE_FILTERS = {
+  all: () => true,
+  k2: s => s.min <= 2,
+  g35: s => s.min <= 5 && s.max >= 3,
+  g6: s => s.max >= 6
+};
+
+const catalog = document.getElementById('catalog');
+const empty = document.getElementById('empty');
+const search = document.querySelector('.search');
+const chips = document.querySelectorAll('.chip');
+let activeGrade = 'all';
+
+function gradeLabel(s) {
+  const lo = s.min === 0 ? 'K' : String(s.min);
+  const hi = Math.min(s.max, 6);
+  return 'Grade ' + (lo === String(hi) ? lo : lo + '–' + hi);
+}
+
+function el(tag, attrs, children) {
+  const node = document.createElement(tag);
+  Object.entries(attrs || {}).forEach(([k, v]) => {
+    if (k === 'text') node.textContent = v; else node.setAttribute(k, v);
+  });
+  (children || []).forEach(c => node.appendChild(c));
+  return node;
+}
+
+function card(sim) {
+  const file = 'sims/' + sim.id + '.html';
+  const img = el('img', { src: 'thumbnails/' + sim.id + '.png', alt: sim.name + ' screenshot', loading: 'lazy' });
+  const tags = [el('span', { class: 'grade', text: gradeLabel(sim) })];
+  if (sim.max > 6) tags.push(el('span', { class: 'stretch', text: 'Stretch' }));
+  return el('article', { class: 'card' }, [
+    el('a', { class: 'thumb', href: file, target: '_blank', rel: 'noopener', 'aria-label': 'Open ' + sim.name }, [img]),
+    el('div', { class: 'card-body' }, [
+      el('div', { class: 'tags' }, tags),
+      el('h3', { text: sim.name }),
+      el('p', { class: 'topics', text: sim.topics }),
+      el('div', { class: 'actions' }, [
+        el('a', { class: 'btn btn-primary', href: file, target: '_blank', rel: 'noopener', text: 'Open' }),
+        el('a', { class: 'btn', href: file, download: sim.id + '.html', text: 'Download' })
+      ])
+    ])
+  ]);
+}
+
+function render() {
+  const q = search.value.trim().toLowerCase();
+  const gradeOk = GRADE_FILTERS[activeGrade];
+  catalog.textContent = '';
+  let shown = 0;
+  GROUPS.forEach(([groupId, title, sub]) => {
+    const sims = SIMS.filter(s => s.group === groupId && gradeOk(s) &&
+      (!q || (s.name + ' ' + s.topics).toLowerCase().includes(q)));
+    if (!sims.length) return;
+    shown += sims.length;
+    catalog.appendChild(el('section', { class: 'group' }, [
+      el('div', { class: 'group-head' }, [el('h2', { text: title }), el('span', { text: sub })]),
+      el('div', { class: 'grid' }, sims.map(card))
+    ]));
+  });
+  empty.style.display = shown ? 'none' : 'block';
+}
+
+chips.forEach(chip => chip.addEventListener('click', () => {
+  activeGrade = chip.dataset.grade;
+  chips.forEach(c => c.setAttribute('aria-pressed', String(c === chip)));
+  render();
+}));
+search.addEventListener('input', render);
+render();
+</script>
+</body>
+</html>
