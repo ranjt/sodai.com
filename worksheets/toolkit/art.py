@@ -908,3 +908,296 @@ def quadrat(w='100%'):
         o += leaf(x, y, 16, -60, GREY, False) + leaf(x, y, 16, -120, GREY, False)
     o += text(120, 240, '1 metre × 1 metre quadrat', 11, italic=True)
     return svg(240, 250, o, width=w)
+
+
+# ------------------------------------------------------------------ earth: water
+def sun_icon(x, y, r=18):
+    o = circle(x, y, r, 'white', 1.6)
+    for a in range(0, 360, 30):
+        t = math.radians(a)
+        o += line(x + (r + 4) * math.cos(t), y + (r + 4) * math.sin(t), x + (r + 12) * math.cos(t), y + (r + 12) * math.sin(t), 1.4)
+    return o
+
+
+def cloud(x, y, s=1.0, fill='white'):
+    return (f'<g transform="translate({x} {y}) scale({s})">' + path(
+        'M-40,10 C-56,10 -56,-14 -38,-14 C-36,-32 -10,-36 0,-22 C10,-38 40,-32 38,-12 C56,-12 56,10 40,10 Z', fill, 1.6) + '</g>')
+
+
+def water_cycle(labels=None, w='100%'):
+    """1 evaporation, 2 condensation, 3 precipitation, 4 collection (run-off), 5 transpiration."""
+    o = rect(0, 250, 300, 70, 0, LIGHT, 0)
+    for i in range(8):
+        o += path(f'M{i * 40},258 q10,-5 20,0 t20,0', w=1)
+    o += path('M300,320 L300,240 L360,170 L420,120 L470,150 L520,110 L620,200 L620,320 Z', 'white', 1.6)
+    o += path('M300,240 C320,250 360,262 300,270', w=1)
+    o += path('M420,122 L432,140 L446,132 L470,150', w=1.2)
+    o += path('M380,250 C420,240 460,250 520,236 C470,262 420,270 300,268', LIGHT, 1.2)
+    o += sun_icon(60, 50)
+    o += cloud(240, 70, 1.1, LIGHT) + cloud(470, 60, 1.0, LIGHT)
+    for (x, y) in ((450, 85), (465, 95), (480, 85), (495, 95), (510, 85)):
+        o += line(x, y, x - 6, y + 14, 1.2)
+    o += seedling(360, 170, 30, 4)
+    for x in (90, 140, 190):
+        o += path(f'M{x},244 q-8,-20 0,-40 q8,-20 0,-40', w=1.2, dash='3 4')
+    o += arrow(190, 120, 190, 104, 1.2, 7) + arrow(140, 128, 140, 112, 1.2, 7) + arrow(90, 120, 90, 104, 1.2, 7)
+    o += arrow(300, 66, 400, 58, 1.8, 9)
+    o += arrow(480, 120, 470, 190, 1.8, 9)
+    o += curved_arrow(560, 210, 480, 260, 320, 262, 1.8, 9)
+    o += path('M360,140 q-6,-14 0,-28', w=1, dash='3 3') + arrow(360, 116, 362, 104, 1, 6)
+    for n, tx, ty, px, py in ((1, 30, 150, 90, 160), (2, 250, 18, 260, 60), (3, 560, 70, 488, 100), (4, 610, 290, 470, 250), (5, 300, 110, 358, 128)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(820, 325, f'<g transform="translate(95 0)">{o}</g>', width=w)
+
+
+WATER_CYCLE = ['evaporation', 'condensation', 'precipitation', 'collection', 'transpiration']
+
+
+def solar_still(labels=None, w='100%'):
+    """1 salty water, 2 plastic sheet, 3 small stone, 4 cup, 5 clean water, 6 sunlight."""
+    o = path('M40,120 L60,200 L300,200 L320,120', 'white', 1.8)
+    o += path('M48,150 L312,150 L300,198 L60,198 Z', LIGHT, 0)
+    o += line(48, 150, 312, 150, 1.2)
+    o += rect(150, 140, 60, 58, 3, 'white', 1.6) + rect(152, 176, 56, 20, 0, GREY, 0)
+    o += path('M30,118 Q180,186 330,118', w=1.4) + circle(180, 152, 7, GREY, 1.3)
+    for x in (100, 260):
+        o += path(f'M{x},160 q-5,-10 0,-20', w=1, dash='2 3')
+    for x in (130, 230):
+        o += path(f'M{x},136 l18,10', w=1) + circle(x + 22, 148, 2.2, INK, 0)
+    o += sun_icon(330, 40, 14)
+    for n, tx, ty, px, py in ((1, 20, 190, 80, 180), (2, 20, 100, 70, 132), (3, 360, 110, 186, 150), (4, 360, 170, 210, 170), (5, 360, 200, 200, 188), (6, 360, 40, 314, 50)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(560, 215, f'<g transform="translate(95 0)">{o}</g>', width=w)
+
+
+SOLAR_STILL = ['salty water', 'clear plastic sheet', 'small stone', 'cup', 'clean water', 'sunlight']
+
+
+# ------------------------------------------------------------------ earth: soil
+def soil_layers(labels=None, w='100%'):
+    """1 leaf litter/humus, 2 topsoil, 3 subsoil, 4 bedrock."""
+    o = rect(60, 20, 260, 30, 0, GREY, 1.4)
+    for i in range(12):
+        o += leaf(72 + i * 20, 34 + (i % 2) * 6, 12, -20 + (i % 3) * 30, 'white', False)
+    o += rect(60, 50, 260, 70, 0, LIGHT, 1.4)
+    for i in range(40):
+        o += circle(66 + (i * 37) % 250, 58 + (i * 23) % 56, 1.6, INK, 0)
+    o += path('M140,70 q10,10 30,4 q16,-6 30,6', w=3.2)
+    o += rect(60, 120, 260, 70, 0, 'white', 1.4)
+    for i in range(14):
+        o += ellipse(76 + (i * 41) % 236, 136 + (i * 17) % 46, 7, 5, 'white', 1)
+    o += rect(60, 190, 260, 50, 0, GREY, 1.4)
+    o += path('M60,210 L120,200 L180,214 L250,198 L320,212 M100,240 L140,214 M220,240 L250,198', w=1.2)
+    o += path('M180,20 Q176,80 184,150', w=1.2) + path('M184,90 Q200,110 214,120 M182,60 Q166,74 158,92', w=1)
+    for n, tx, ty, px, py in ((1, 340, 34, 300, 34), (2, 340, 84, 300, 84), (3, 340, 154, 300, 154), (4, 340, 216, 300, 216)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(470, 250, o, width=w)
+
+
+SOIL_LAYERS = ['leaf litter (humus)', 'topsoil', 'subsoil', 'bedrock']
+
+
+def earthworm(x=0, y=0, s=1.0):
+    o = path('M0,20 C20,0 40,40 60,20 C80,0 100,40 120,20', w=9) + path('M0,20 C20,0 40,40 60,20 C80,0 100,40 120,20', w=6).replace(INK, 'white', 1)
+    for i in range(1, 12):
+        t = i / 12
+        xx = 120 * t
+        yy = 20 + 14 * math.sin(t * 2 * math.pi * 1.5 + math.pi) * 0.9
+        o += line(xx, yy - 3, xx + 1, yy + 3, 0.8)
+    o += ellipse(34, 16, 7, 6, GREY, 1)
+    return f'<g transform="translate({x} {y}) scale({s})">{o}</g>'
+
+
+def funnel_test(names=('sand', 'garden soil', 'clay'), w='100%'):
+    o = ''
+    for i, nm in enumerate(names):
+        x = 20 + i * 150
+        o += path(f'M{x},20 L{x + 100},20 L{x + 58},76 L{x + 58},100 L{x + 42},100 L{x + 42},76 Z', 'white', 1.6)
+        o += path(f'M{x + 10},30 L{x + 90},30 L{x + 56},70 L{x + 44},70 Z', GREY if i == 2 else LIGHT, 1)
+        o += rect(x + 20, 104, 60, 80, 3, 'white', 1.6)
+        lvl = (60, 40, 14)[i]
+        o += rect(x + 22, 182 - lvl, 56, lvl, 0, LIGHT, 0) + line(x + 22, 182 - lvl, x + 78, 182 - lvl, 1)
+        for k in range(4):
+            o += line(x + 20, 120 + k * 16, x + 30, 120 + k * 16, 0.8)
+        o += text(x + 50, 204, nm, 12, weight='bold')
+    return svg(470, 212, o, width=w)
+
+
+def soil_key(w='100%'):
+    """Dichotomous key for five soil types."""
+    def box(x, y, t1, t2=''):
+        b = rect(x - 78, y - 18, 156, 38 if t2 else 28, 8, 'white', 1.4) + text(x, y + (0 if t2 else 2), t1, 11, weight='bold')
+        if t2:
+            b += text(x, y + 13, t2, 11, weight='bold')
+        return b
+
+    def leafbox(x, y, t):
+        return rect(x - 60, y - 14, 120, 28, 14, LIGHT, 1.6) + text(x, y + 4, t, 12, weight='bold')
+    o = box(330, 26, 'Is the soil gritty', 'when you rub it?')
+    o += box(170, 104, 'Does it fizz with', 'vinegar? (pale, stony)') + box(490, 104, 'Is it sticky and', 'shiny when wet?')
+    o += leafbox(90, 186, 'sandy soil') + leafbox(250, 186, 'chalky soil') + box(570, 186, 'Is it dark and full', 'of rotting leaves?') + leafbox(410, 186, 'clay soil')
+    o += leafbox(500, 262, 'woodland soil') + leafbox(640, 262, 'garden topsoil')
+    for (x1, y1, x2, y2, t) in ((300, 46, 200, 84, 'yes'), (360, 46, 460, 84, 'no'), (140, 124, 100, 170, 'no'), (200, 124, 240, 170, 'yes'),
+                                (460, 124, 420, 170, 'yes'), (520, 124, 560, 166, 'no'), (540, 206, 510, 248, 'yes'), (600, 206, 630, 248, 'no')):
+        o += arrow(x1, y1, x2, y2, 1.4, 7) + text((x1 + x2) / 2 + (-12 if x2 < x1 else 12), (y1 + y2) / 2, t, 10, italic=True)
+    return svg(720, 280, o, width=w)
+
+
+# ------------------------------------------------------------------ earth: surface
+def river_landscape(labels=None, w='100%'):
+    """Mountains to sea: 1 weathering of rock, 2 erosion by river, 3 deposition (delta), 4 sea."""
+    o = line(0, 200, 470, 200, 1.4)
+    o += path('M0,200 L50,90 L90,140 L150,40 L210,130 L250,170 L290,200 Z', 'white', 1.6)
+    o += path('M136,60 L150,40 L166,62 L156,56 L146,64 Z', LIGHT, 1.2)
+    for (x, y) in ((78, 124), (88, 132), (70, 132), (96, 140)):
+        o += path(f'M{x},{y} l7,-5 l5,7 Z', GREY, 1)
+    river = 'M160,70 C176,120 200,150 240,176 C280,200 330,190 380,212 C420,228 450,232 480,236'
+    o += path(river, w=8) + path(river, w=4.6).replace(INK, 'white', 1)
+    o += path('M470,200 L640,200 L640,270 L470,270 Z', LIGHT, 1.4)
+    o += path('M476,232 C500,236 510,250 504,264 C520,256 540,246 556,232 C540,242 516,244 500,238', GREY, 1.3)
+    for i in range(5):
+        o += path(f'M{560 + i * 16},{222 + (i % 2) * 14} q6,-4 12,0', w=1)
+    o += text(560, 290, '', 10)
+    for n, tx, ty, px, py in ((1, 200, 26, 84, 128), (2, 300, 120, 236, 172), (3, 560, 150, 506, 244), (4, 610, 182, 600, 214)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(720, 280, f'<g transform="translate(40 0)">{o}</g>', width=w)
+
+
+RIVER_PARTS = ['weathering (rock breaks up)', 'erosion (river carries rock and soil)', 'deposition (delta forms)', 'sea']
+
+
+def erosion_trays(w='100%'):
+    """Two sloping trays of soil, one bare and one with grass, watered from a can; collecting cups."""
+    o = ''
+    for i, (title, grass) in enumerate((('bare soil', False), ('soil with grass', True))):
+        x = 20 + i * 300
+        o += path(f'M{x},120 L{x + 200},160 L{x + 200},176 L{x},136 Z', LIGHT, 1.6)
+        o += path(f'M{x},120 L{x},146 L{x + 14},150', w=1.4)
+        if grass:
+            for k in range(16):
+                gx = x + 6 + k * 12
+                gy = 120 + (gx - x) * 0.2
+                o += path(f'M{gx},{gy} l-2,-10 M{gx},{gy} l3,-11 M{gx},{gy} l7,-8', w=0.9)
+        o += path(f'M{x + 10},60 L{x + 70},60 L{x + 64},96 L{x + 16},96 Z', 'white', 1.6) + path(f'M{x + 70},70 L{x + 100},52', w=3)
+        for k in range(5):
+            o += line(x + 100 + k * 4, 56 + k * 5, x + 96 + k * 4, 70 + k * 5, 1, dash='2 3')
+        o += path(f'M{x + 204},170 L{x + 250},170 L{x + 244},210 L{x + 210},210 Z', 'white', 1.6)
+        lvl = 28 if not grass else 10
+        o += rect(x + 212, 208 - lvl, 30, lvl, 0, GREY if not grass else LIGHT, 0)
+        o += text(x + 110, 240, title, 13, weight='bold')
+    return svg(620, 250, o, width=w)
+
+
+def cyclone_shelter(w='100%'):
+    o = line(0, 200, 380, 200, 1.6)
+    o += rect(110, 40, 160, 70, 4, 'white', 1.8) + path('M100,40 L190,10 L280,40 Z', LIGHT, 1.6)
+    for x in (130, 170, 210, 240):
+        o += rect(x, 58, 18, 22, 1, LIGHT, 1.2)
+    for x in (120, 175, 225, 262):
+        o += rect(x - 4, 110, 8, 90, 0, GREY, 1.4)
+    o += path('M280,110 L340,200', w=1.6) + path('M290,110 L350,200', w=1.6)
+    for k in range(6):
+        o += line(282 + k * 10, 122 + k * 15, 292 + k * 10, 122 + k * 15, 1.2)
+    o += path('M0,170 q20,-8 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0', w=1.2, dash='5 4')
+    o += text(60, 160, 'flood water', 10, italic=True) + text(190, 130, 'open ground floor', 10, italic=True)
+    return svg(380, 210, o, width=w)
+
+
+# ------------------------------------------------------------------ earth: space
+def earth_globe(x, y, r=40, night='right', axis_tilt=23.5, show_axis=True):
+    o = circle(x, y, r, 'white', 1.6)
+    if night == 'right':
+        o += f'<path d="M{x},{y - r} A{r},{r} 0 0 1 {x},{y + r} Z" fill="{GREY}"/>'
+    elif night == 'left':
+        o += f'<path d="M{x},{y - r} A{r},{r} 0 0 0 {x},{y + r} Z" fill="{GREY}"/>'
+    o += circle(x, y, r, 'none', 1.6)
+    o += path(f'M{x - r * 0.6},{y - r * 0.3} q{r * 0.3},{-r * 0.3} {r * 0.5},{0} q{r * 0.1},{r * 0.4} {-r * 0.3},{r * 0.5} Z', LIGHT, 1)
+    if show_axis:
+        t = math.radians(axis_tilt)
+        dx, dy = (r + 14) * math.sin(t), (r + 14) * math.cos(t)
+        o += line(x - dx, y + dy, x + dx, y - dy, 1.2, dash='5 3')
+    return o
+
+
+def day_night(w='100%'):
+    o = sun_icon(60, 110, 34)
+    for k in range(5):
+        o += arrow(110, 70 + k * 20, 230, 70 + k * 20, 1.2, 7)
+    o += earth_globe(320, 110, 70, 'right')
+    o += curved_arrow(250, 30, 320, 0, 390, 30, 1.6, 9)
+    o += text(270, 112, 'DAY', 13, weight='bold') + text(372, 112, 'NIGHT', 13, weight='bold')
+    o += text(320, 205, 'The Earth spins on its axis once every 24 hours.', 11, italic=True)
+    return svg(440, 215, o, width=w)
+
+
+def seasons_orbit(w='100%'):
+    o = ellipse(320, 175, 250, 110, 'none', 1.2)
+    o += sun_icon(320, 175, 26)
+    pos = [(70, 175, 'June', 'left'), (320, 65, 'September', None), (570, 175, 'December', 'right'), (320, 285, 'March', None)]
+    for (x, y, m, night) in pos:
+        o += earth_globe(x, y, 26, night or 'none', 23.5)
+        if y == 175:
+            o += text(x, y - 44, m, 12, weight='bold')
+        else:
+            o += text(x + 62, y + 4, m, 12, weight='bold')
+    o += text(70, 226, 'Northern half tilted', 10) + text(70, 239, 'towards the Sun:', 10) + text(70, 252, 'summer in Bangladesh', 10)
+    o += text(570, 226, 'Northern half tilted', 10) + text(570, 239, 'away from the Sun:', 10) + text(570, 252, 'winter in Bangladesh', 10)
+    o += curved_arrow(470, 84, 520, 100, 548, 140, 1.4, 8)
+    return svg(640, 330, o, width=w)
+
+
+def sun_path(w='100%'):
+    """Apparent path of the Sun across the sky from east to west, with stick shadows."""
+    o = line(20, 220, 620, 220, 1.6)
+    o += path('M60,220 Q320,-40 580,220', w=1.2, dash='5 5')
+    for (t, x, y) in (('morning', 120, 120), ('midday', 320, 92), ('evening', 520, 120)):
+        o += sun_icon(x, y - 30 if t == 'midday' else y, 12) + text(x, (y - 30 if t == 'midday' else y) - 26, t, 11, italic=True)
+    o += line(320, 220, 320, 180, 3)
+    o += line(320, 220, 470, 226, 6).replace(INK, '#999', 1) + text(470, 244, 'morning shadow (long, points west)', 10)
+    o += line(320, 220, 334, 222, 6).replace(INK, '#555', 1)
+    o += line(320, 220, 170, 226, 6).replace(INK, '#bbb', 1) + text(170, 244, 'evening shadow (long, points east)', 10)
+    o += text(40, 210, 'EAST', 12, weight='bold') + text(600, 210, 'WEST', 12, weight='bold')
+    return svg(640, 255, o, width=w)
+
+
+def solar_system(numbered=False, w='100%'):
+    names = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+    radii = [4, 7, 7.5, 5, 22, 18, 12, 12]
+    o = f'<path d="M0,10 A90,90 0 0 1 0,170 Z" fill="{LIGHT}" stroke="{INK}" stroke-width="1.6"/>' + text(30, 94, 'Sun', 13, weight='bold')
+    x = 70
+    for i, (nm, r) in enumerate(zip(names, radii)):
+        x += r + 16
+        o += circle(x, 90, r, GREY if i in (2, 4) else 'white', 1.4)
+        if nm == 'Saturn':
+            o += ellipse(x, 90, r + 12, 5, 'none', 1.2, -15)
+        o += text(x, 90 + (r + 22) * (1 if i % 2 == 0 else -1) + (0 if i % 2 == 0 else 8), nm if not numbered else str(i + 1), 11, weight='bold')
+        x += r
+    o += text(330, 172, 'Not to scale: the distances are really much, much bigger.', 10, italic=True)
+    return svg(660, 180, o, width=w)
+
+
+PLANETS = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+
+
+# ------------------------------------------------------------------ technology
+def shadoof(w='100%'):
+    o = line(0, 210, 420, 210, 1.6)
+    o += path('M0,210 L0,180 L120,180 L130,210', LIGHT, 1.2) + text(60, 200, 'river', 10, italic=True)
+    o += line(240, 210, 230, 100, 3) + line(260, 210, 270, 100, 3) + line(220, 100, 280, 100, 3)
+    o += line(130, 60, 380, 130, 3.2) + circle(250, 96, 5, 'white', 1.4)
+    o += ellipse(380, 136, 22, 16, GREY, 1.6) + text(380, 172, 'counterweight', 10, italic=True)
+    o += line(132, 62, 132, 150, 1.2) + path('M118,150 L146,150 L142,176 L122,176 Z', 'white', 1.4)
+    o += text(250, 228, 'pivot (fulcrum)', 10, italic=True)
+    return svg(430, 236, o, width=w)
+
+
+def windcatcher(w='100%'):
+    o = rect(60, 120, 220, 100, 0, 'white', 1.8) + rect(200, 20, 50, 100, 0, 'white', 1.8)
+    o += rect(206, 30, 38, 20, 0, LIGHT, 1.2) + line(225, 50, 225, 120, 1, '3 3')
+    for k in range(3):
+        o += arrow(300 - k * 4, 30 + k * 10, 250, 40 + k * 4, 1.4, 7)
+    o += arrow(225, 60, 225, 150, 1.6, 8) + curved_arrow(220, 160, 150, 200, 90, 150, 1.4, 8)
+    o += rect(70, 140, 30, 40, 0, LIGHT, 1.2) + arrow(80, 150, 40, 130, 1.4, 7)
+    o += text(320, 24, 'wind', 11, italic=True) + text(140, 236, 'cool air flows through the house', 10, italic=True)
+    o += text(30, 120, 'warm air out', 10, italic=True)
+    return svg(340, 245, o, width=w)
