@@ -483,3 +483,428 @@ def mustard_field(w='100%'):
     o += bee(200, 70, 0.8) + bee(330, 50, 0.7) + bee(290, 90, 0.6)
     o += path('M214,78 q30,-30 60,-10 q20,14 40,-20', w=1, dash='3 4')
     return svg(545, 230, o, width=w)
+
+
+def pot(x, y, w=60, h=46):
+    return (path(f'M{x - w / 2},{y} L{x + w / 2},{y} L{x + w / 2 - 8},{y + h} L{x - w / 2 + 8},{y + h} Z', LIGHT, 1.6)
+            + rect(x - w / 2 - 4, y - 8, w + 8, 10, 2, 'white', 1.6))
+
+
+def potted_plant(x, y, state='healthy', label=''):
+    """state: healthy | wilted (no water) | dark (grown without light: tall, thin, pale) | small (cold)."""
+    o = pot(x, y)
+    if state == 'healthy':
+        o += path(f'M{x},{y - 8} C{x - 3},{y - 40} {x + 3},{y - 70} {x},{y - 96}', w=1.8)
+        for (yy, ang, ln) in ((-30, -160, 30), (-42, -20, 30), (-58, -150, 28), (-70, -30, 26), (-84, -140, 22), (-90, -40, 20)):
+            o += leaf(x, y + yy, ln, ang, GREY)
+        o += simple_flower(x, y - 104, 9)
+    elif state == 'wilted':
+        o += path(f'M{x},{y - 8} C{x - 2},{y - 40} {x + 2},{y - 60} {x + 4},{y - 70} C{x + 14},{y - 80} {x + 26},{y - 70} {x + 28},{y - 56}', w=1.8)
+        for (px, py, ang) in ((x, y - 30, 130), (x + 1, y - 45, 60), (x + 4, y - 64, 110), (x + 20, y - 76, 70)):
+            o += leaf(px, py, 22, ang, 'white')
+        o += circle(x + 28, y - 50, 6, 'white', 1.3)
+    elif state == 'dark':
+        o += path(f'M{x},{y - 8} C{x - 2},{y - 60} {x + 2},{y - 110} {x},{y - 150}', w=1.1)
+        for (yy, ang) in ((-70, -150), (-110, -30), (-148, -140)):
+            o += leaf(x, y + yy, 14, ang, 'white')
+    elif state == 'small':
+        o += path(f'M{x},{y - 8} L{x},{y - 40}', w=1.6) + leaf(x, y - 30, 16, -150, GREY) + leaf(x, y - 38, 16, -30, GREY)
+    if label:
+        o += text(x, y + 64, label, 12, weight='bold')
+    return o
+
+
+def plant_needs(w='100%'):
+    o = potted_plant(70, 150, 'healthy', 'light, water, warmth, air')
+    o += potted_plant(230, 150, 'wilted', 'no water')
+    o += potted_plant(390, 150, 'dark', 'no light')
+    o += potted_plant(550, 150, 'small', 'too cold')
+    return svg(620, 225, o, width=w)
+
+
+def plant_parts(labels=None, w='100%'):
+    """Whole plant with soil line. 1 flower, 2 leaf, 3 stem, 4 roots, 5 fruit."""
+    o = rect(0, 190, 330, 90, 0, LIGHT, 0) + line(0, 190, 330, 190, 1.6)
+    o += path('M160,190 C156,140 164,100 160,40', w=2)
+    for (yy, ang, ln) in ((160, -155, 46), (140, -25, 46), (110, -150, 40), (88, -30, 38)):
+        o += leaf(160, yy, ln, ang, GREY)
+    o += simple_flower(160, 30, 13)
+    o += line(160, 118, 190, 112, 1.4) + ellipse(200, 116, 12, 9, 'white', 1.4)
+    # roots
+    o += path('M160,190 Q158,220 162,262 M160,204 Q140,220 120,236 M161,214 Q186,230 204,246 M159,232 Q140,246 132,262 M162,240 Q178,252 182,268', w=1.4)
+    for n, tx, ty, px, py in ((1, 260, 26, 172, 30), (2, 40, 120, 128, 150), (3, 40, 64, 160, 70), (4, 260, 250, 190, 242), (5, 260, 100, 208, 114)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(330, 280, o, width=w)
+
+
+PLANT_PARTS = ['flower', 'leaf', 'stem', 'roots', 'fruit']
+
+
+def floating_garden(w='100%'):
+    """A floating garden (dhap/baira): raft of water hyacinth and straw, with vegetables, on flood water."""
+    o = ''
+    for i in range(7):
+        o += path(f'M{i * 90},212 q22,-8 45,0 t45,0', w=1.2)
+    o += path('M40,182 L520,182 L500,206 L60,206 Z', GREY, 1.8)
+    for i in range(24):
+        o += path(f'M{60 + i * 19},{186 + (i % 3) * 5} q6,-4 12,0', w=0.9)
+    for x in (110, 200, 290, 380, 460):
+        o += seedling(x, 182, 40, 4)
+    o += simple_flower(200, 130, 7) + simple_flower(380, 132, 7)
+    o += path('M520,170 Q560,140 590,150 M590,150 L600,120', w=1.6)
+    o += path('M560,190 L620,190 L612,206 L566,206 Z', 'white', 1.6)
+    o += text(300, 236, 'flood water', 11, italic=True)
+    o += text(300, 170 - 70, '', 11)
+    return svg(640, 245, o, width=w)
+
+
+# ------------------------------------------------------------------ human body
+def body_outline():
+    """Front view of head and torso (simple, friendly outline)."""
+    o = ellipse(160, 52, 34, 40, 'white', 1.8)
+    o += path('M146,90 L146,104 M174,90 L174,104', w=1.8)
+    o += path('M146,104 C110,108 84,118 78,140 L66,250 Q64,262 74,262 L84,262 L96,160 '
+              'L100,330 Q100,350 120,360 L200,360 Q220,350 220,330 L224,160 L236,262 L246,262 Q256,262 254,250 '
+              'L242,140 C236,118 210,108 174,104', 'white', 1.8)
+    return o
+
+
+def organs(which='all'):
+    """Organs drawn inside body_outline. which: 'all' or a set of names."""
+    show = lambda n: which == 'all' or n in which
+    o = ''
+    if show('brain'):
+        o += path('M134,46 C130,24 150,16 162,22 C176,14 192,26 188,44 C192,56 178,64 166,58 C154,64 136,60 134,46 Z', GREY, 1.4)
+        o += path('M150,30 q6,8 0,16 M168,28 q-6,10 2,18 M176,40 q-8,4 -4,12', w=0.9)
+    if show('spinal cord'):
+        o += line(160, 62, 160, 300, 2.4) + line(160, 62, 160, 300, 0.8, color='white')
+    if show('nerves'):
+        for (x1, y1, x2, y2) in ((160, 150, 92, 200), (160, 150, 228, 200), (160, 260, 120, 340), (160, 260, 200, 340), (160, 200, 110, 250), (160, 200, 210, 250)):
+            o += path(f'M{x1},{y1} Q{(x1 + x2) / 2},{y1 + 10} {x2},{y2}', w=0.9)
+    if show('windpipe'):
+        o += path('M156,88 L156,128 M164,88 L164,128', w=1.4)
+        for y in range(92, 128, 6):
+            o += line(156, y, 164, y, 0.7)
+    if show('lungs'):
+        o += path('M154,128 C130,120 112,140 110,170 C108,196 118,206 140,204 C152,202 154,180 154,128 Z', LIGHT, 1.5)
+        o += path('M166,128 C190,120 208,140 210,170 C212,196 202,206 180,204 C168,202 166,180 166,128 Z', LIGHT, 1.5)
+    if show('heart'):
+        o += path('M168,150 C176,140 192,146 188,160 C186,172 176,180 170,188 C164,180 154,172 152,162 C150,148 162,144 168,150 Z', GREY, 1.6)
+    if show('diaphragm'):
+        o += path('M108,210 Q160,190 212,210', w=1.4, dash='5 3')
+    if show('oesophagus'):
+        o += path('M160,90 L160,212 Q160,220 168,222', w=1.4)
+    if show('liver'):
+        o += path('M104,216 C120,206 164,210 168,224 C160,240 128,246 108,240 C100,234 100,222 104,216 Z', GREY, 1.4)
+    if show('stomach'):
+        o += path('M168,222 C190,210 214,218 212,238 C210,258 186,262 176,252 C170,246 178,236 168,232 Z', LIGHT, 1.5)
+    if show('kidneys'):
+        o += path('M122,250 C112,250 110,272 122,276 C128,276 126,266 130,262 C132,256 128,250 122,250 Z', 'white', 1.3)
+        o += path('M198,250 C208,250 210,272 198,276 C192,276 194,266 190,262 C188,256 192,250 198,250 Z', 'white', 1.3)
+    if show('large intestine'):
+        o += path('M118,330 L118,262 Q118,252 128,252 L192,252 Q202,252 202,262 L202,322 Q202,332 190,334 L172,336 L168,350', w=7)
+        o += path('M118,330 L118,262 Q118,252 128,252 L192,252 Q202,252 202,262 L202,322 Q202,332 190,334 L172,336 L168,350', w=4.4, dash=None).replace(f'stroke="{INK}"', 'stroke="white"')
+    if show('small intestine'):
+        o += path('M136,268 q12,-8 24,0 t24,0 M134,282 q14,8 26,0 t26,0 M136,296 q12,-8 24,0 t24,0 M134,310 q14,8 26,0 t24,0 M140,322 q10,-6 20,0 t20,0', w=1.6)
+    if show('bladder'):
+        o += ellipse(160, 344, 13, 9, LIGHT, 1.4)
+        if show('kidneys'):
+            o += path('M124,276 Q132,320 152,340 M196,276 Q188,320 168,340', w=1)
+    return o
+
+
+def body_systems(which='all', points=(), labels=None, w='100%'):
+    """Body outline with chosen organs. points: [(n, tx, ty, px, py)] callouts."""
+    o = body_outline() + organs(which)
+    for n, tx, ty, px, py in points:
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(540, 370, f'<g transform="translate(100 0)">{o}</g>', width=w)
+
+
+ORGANS = ['brain', 'lungs', 'heart', 'liver', 'stomach', 'kidneys', 'small intestine', 'large intestine', 'bladder']
+ORGAN_POINTS = [(1, 0, 40, 150, 40), (2, 0, 150, 122, 170), (3, 320, 140, 178, 160), (4, 0, 225, 116, 226),
+                (5, 320, 230, 196, 236), (6, 320, 268, 200, 262), (7, 320, 300, 170, 296), (8, 0, 300, 118, 300),
+                (9, 0, 344, 150, 344)]
+ORGAN_SET = {'brain', 'windpipe', 'lungs', 'heart', 'liver', 'stomach', 'kidneys', 'small intestine', 'large intestine', 'bladder'}
+
+
+def organ_diagram(labels=None, w='100%'):
+    return body_systems(ORGAN_SET, ORGAN_POINTS, labels, w)
+
+
+def skeleton(labels=None, w='100%'):
+    """Simplified skeleton. 1 skull, 2 ribs, 3 spine (backbone), 4 pelvis, 5 femur (thigh bone), 6 arm bones."""
+    o = ellipse(120, 40, 26, 30, 'white', 1.8) + circle(110, 38, 5, GREY, 1) + circle(130, 38, 5, GREY, 1) + path('M110,56 L130,56', w=1.4)
+    o += path('M108,66 L132,66 L130,74 L110,74 Z', 'white', 1.3)
+    for i in range(14):
+        o += rect(115, 78 + i * 12, 10, 9, 2, LIGHT, 1.1)
+    for i in range(6):
+        y = 96 + i * 13
+        o += path(f'M115,{y} C90,{y - 4} 80,{y + 10} 86,{y + 16}', w=1.4) + path(f'M125,{y} C150,{y - 4} 160,{y + 10} 154,{y + 16}', w=1.4)
+    o += path('M90,86 L70,90 M150,86 L170,90', w=2)
+    o += path('M68,92 L56,170 M60,170 L50,240 M172,92 L184,170 M180,170 L190,240', w=4) + path('M68,92 L56,170 M60,170 L50,240 M172,92 L184,170 M180,170 L190,240', w=1.6).replace(INK, 'white', 1)
+    o += path('M92,250 C88,230 104,220 120,232 C136,220 152,230 148,250 C140,262 100,262 92,250 Z', LIGHT, 1.5)
+    o += path('M104,260 L96,350 M136,260 L144,350 M96,352 L92,420 M144,352 L148,420', w=4.2) + path('M104,260 L96,350 M136,260 L144,350 M96,352 L92,420 M144,352 L148,420', w=1.6).replace(INK, 'white', 1)
+    for (x, y) in ((56, 170), (184, 170), (96, 351), (144, 351)):
+        o += circle(x, y, 4, 'white', 1.3)
+    for n, tx, ty, px, py in ((1, 210, 30, 144, 34), (2, 210, 110, 150, 108), (3, 30, 130, 116, 140), (4, 210, 245, 146, 246),
+                              (5, 210, 310, 140, 310), (6, 30, 205, 56, 205)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(410, 430, f'<g transform="translate(80 0)">{o}</g>', width=w)
+
+
+SKELETON_PARTS = ['skull', 'ribs', 'spine (backbone)', 'pelvis', 'thigh bone (femur)', 'arm bones']
+
+
+def heart_lungs_loop(w='100%'):
+    """Schematic double circulation: lungs (top), heart (centre), body (bottom)."""
+    o = rect(120, 10, 160, 50, 12, LIGHT, 1.6) + text(200, 40, 'LUNGS', 13, weight='bold')
+    o += rect(120, 250, 160, 50, 12, LIGHT, 1.6) + text(200, 280, 'BODY', 13, weight='bold')
+    o += path('M200,110 C215,96 244,104 238,130 C234,150 214,162 200,178 C186,162 166,150 162,130 C156,104 185,96 200,110 Z', GREY, 1.8)
+    o += text(200, 140, 'HEART', 12, weight='bold')
+    o += curved_arrow(170, 108, 120, 80, 150, 62) + curved_arrow(250, 62, 280, 80, 232, 110)
+    o += curved_arrow(176, 168, 110, 210, 150, 248) + curved_arrow(250, 248, 290, 210, 226, 168)
+    o += text(90, 86, 'blood picks up', 10) + text(90, 99, 'oxygen', 10)
+    o += text(318, 86, 'oxygen-rich', 10) + text(318, 99, 'blood returns', 10)
+    o += text(80, 220, 'heart pumps', 10) + text(80, 233, 'blood to body', 10)
+    o += text(322, 220, 'body uses oxygen;', 10) + text(322, 233, 'blood returns', 10)
+    return svg(400, 310, o, width=w)
+
+
+def pulse_check(w='100%'):
+    """Two fingers on the wrist to find the pulse."""
+    o = path('M20,90 C60,80 140,78 230,86 L232,120 C140,126 60,124 20,118 Z', 'white', 1.6)
+    o += path('M120,40 C150,30 190,40 214,70 L224,90 L208,96 L194,72 C178,58 160,56 140,64 Z', 'white', 1.6)
+    o += path('M140,60 C170,52 200,66 214,88', w=1)
+    o += line(150, 98, 220, 98, 1, dash='3 3') + text(150, 145, 'feel the pulse here, below the thumb', 11)
+    return svg(260, 150, o, width=w)
+
+
+# ------------------------------------------------------------------ cells
+def animal_cell(labels=None, w='100%'):
+    """1 cell membrane, 2 cytoplasm, 3 nucleus."""
+    o = path('M40,90 C30,40 90,14 150,22 C214,30 250,70 236,120 C224,170 160,186 100,176 C56,168 46,130 40,90 Z', LIGHT, 1.8)
+    o += circle(140, 96, 26, GREY, 1.6) + circle(146, 92, 7, 'white', 1)
+    for (x, y) in ((80, 70), (90, 130), (190, 140), (196, 70), (110, 150), (176, 50)):
+        o += ellipse(x, y, 6, 3, 'white', 0.9)
+    for n, tx, ty, px, py in ((1, 270, 40, 214, 50), (2, 270, 160, 190, 126), (3, 270, 100, 160, 96)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(380, 195, o, width=w)
+
+
+CELL_PARTS = ['cell membrane', 'cytoplasm', 'nucleus']
+
+
+def specialised_cells(names=True, w='100%'):
+    """Five specialised human cells side by side: red blood cell, nerve cell, muscle cell, fat cell, skin cells."""
+    o = ''
+    # red blood cell (top view + side view)
+    o += circle(60, 70, 34, LIGHT, 1.6) + circle(60, 70, 15, 'white', 1.0)
+    o += path('M32,128 C40,118 52,124 60,124 C68,124 80,118 88,128 C80,138 68,132 60,132 C52,132 40,138 32,128 Z', LIGHT, 1.3)
+    # nerve cell
+    nx = 180
+    o += circle(nx, 50, 14, GREY, 1.5) + circle(nx, 50, 4, INK, 0)
+    for a in range(0, 360, 50):
+        r = math.radians(a)
+        o += path(f'M{nx + 14 * math.cos(r):.1f},{50 + 14 * math.sin(r):.1f} l{12 * math.cos(r):.1f},{12 * math.sin(r):.1f} l{6 * math.cos(r + 0.6):.1f},{6 * math.sin(r + 0.6):.1f}', w=1)
+    o += path(f'M{nx},64 C{nx + 6},90 {nx - 6},110 {nx},140', w=1.6)
+    for y in (82, 98, 114):
+        o += rect(nx - 4, y, 8, 10, 3, 'white', 1)
+    o += path(f'M{nx},140 l-10,10 M{nx},140 l10,10 M{nx},140 l0,12', w=1)
+    # muscle cell (long fibre with stripes)
+    o += rect(250, 40, 110, 26, 13, LIGHT, 1.5)
+    for x in range(262, 352, 8):
+        o += line(x, 42, x, 64, 0.8)
+    o += ellipse(290, 53, 5, 3, INK, 0) + ellipse(330, 53, 5, 3, INK, 0)
+    o += rect(260, 90, 90, 22, 11, LIGHT, 1.3)
+    for x in range(270, 344, 8):
+        o += line(x, 92, x, 110, 0.8)
+    # fat cell
+    o += circle(440, 80, 42, 'white', 1.6) + circle(440, 84, 34, LIGHT, 1.0) + ellipse(410, 52, 9, 5, GREY, 1.2, -30)
+    # skin cells (layers)
+    for row in range(4):
+        for col in range(4):
+            o += rect(510 + col * 26 + (13 if row % 2 else 0), 36 + row * 20, 26, 20, 3, 'white' if row < 2 else LIGHT, 1.1)
+            o += circle(523 + col * 26 + (13 if row % 2 else 0), 46 + row * 20, 2.5, INK, 0)
+    if names:
+        for x, nm in ((60, 'red blood cell'), (180, 'nerve cell'), (305, 'muscle cells'), (440, 'fat cell'), (570, 'skin cells')):
+            o += text(x, 175, nm, 12, weight='bold')
+    else:
+        for i, x in enumerate((60, 180, 305, 440, 570)):
+            o += text(x, 175, chr(65 + i), 14, weight='bold')
+    return svg(640, 185, o, width=w)
+
+
+def organisation_levels(labels=True, w='100%'):
+    """cell -> tissue -> organ -> organ system -> organism (stepped boxes)."""
+    names = ['cell', 'tissue', 'organ', 'organ system', 'organism']
+    o = ''
+    for i in range(5):
+        x = 10 + i * 128
+        o += rect(x, 20, 112, 112, 12, 'white', 1.6)
+        cx, cy = x + 56, 76
+        if i == 0:
+            o += circle(cx, cy, 22, LIGHT, 1.4) + circle(cx + 4, cy - 2, 8, GREY, 1)
+        elif i == 1:
+            for r in range(3):
+                for c in range(4):
+                    o += rect(cx - 40 + c * 20, cy - 26 + r * 18, 20, 18, 3, LIGHT, 1) + circle(cx - 30 + c * 20, cy - 17 + r * 18, 2.2, INK, 0)
+        elif i == 2:
+            o += path(f'M{cx},{cy - 14} C{cx + 10},{cy - 30} {cx + 36},{cy - 22} {cx + 30},{cy + 2} C{cx + 26},{cy + 18} {cx + 10},{cy + 26} {cx},{cy + 36} C{cx - 10},{cy + 26} {cx - 26},{cy + 18} {cx - 30},{cy + 2} C{cx - 36},{cy - 22} {cx - 10},{cy - 30} {cx},{cy - 14} Z', GREY, 1.5)
+        elif i == 3:
+            o += path(f'M{cx},{cy - 6} C{cx + 6},{cy - 16} {cx + 20},{cy - 12} {cx + 16},{cy + 2} C{cx + 14},{cy + 10} {cx + 6},{cy + 14} {cx},{cy + 20} C{cx - 6},{cy + 14} {cx - 14},{cy + 10} {cx - 16},{cy + 2} C{cx - 20},{cy - 12} {cx - 6},{cy - 16} {cx},{cy - 6} Z', GREY, 1.3)
+            o += path(f'M{cx - 10},{cy - 10} C{cx - 40},{cy - 40} {cx - 40},{cy + 40} {cx - 8},{cy + 18} M{cx + 10},{cy - 10} C{cx + 40},{cy - 40} {cx + 40},{cy + 40} {cx + 8},{cy + 18}', w=1.3)
+            o += path(f'M{cx - 36},{cy - 34} L{cx - 36},{cy + 40} M{cx + 36},{cy - 34} L{cx + 36},{cy + 40}', w=0.9, dash='3 3')
+        else:
+            o += circle(cx, cy - 30, 10, 'white', 1.4) + line(cx, cy - 20, cx, cy + 12, 1.6)
+            o += line(cx, cy - 12, cx - 18, cy + 4, 1.6) + line(cx, cy - 12, cx + 18, cy + 4, 1.6)
+            o += line(cx, cy + 12, cx - 12, cy + 40, 1.6) + line(cx, cy + 12, cx + 12, cy + 40, 1.6)
+        if i < 4:
+            o += arrow(x + 113, 76, x + 127, 76, 1.8, 7)
+        o += text(cx, 152, names[i] if labels else '', 13, weight='bold')
+        if not labels:
+            o += marker(i + 1, cx, 150)
+    return svg(650, 165, o, width=w)
+
+
+ORGANISATION = ['cell', 'tissue', 'organ', 'organ system', 'organism']
+
+
+def microscope(w='100%'):
+    o = path('M60,250 L180,250 L170,232 L70,232 Z', GREY, 1.6)
+    o += path('M150,232 C170,180 170,120 130,80', w=10) + path('M150,232 C170,180 170,120 130,80', w=6).replace(INK, 'white', 1)
+    o += rect(60, 150, 90, 8, 2, 'white', 1.6)
+    o += path('M92,150 L100,110 L116,110 L124,150', 'white', 1.4)
+    o += rect(96, 40, 26, 72, 4, 'white', 1.6) + rect(90, 30, 38, 12, 3, GREY, 1.4)
+    o += circle(150, 120, 9, 'white', 1.4) + circle(150, 120, 3, INK, 0)
+    o += ellipse(108, 200, 18, 5, LIGHT, 1.2)
+    for n, tx, ty, px, py, lab in ((1, 210, 34, 128, 36, 'eyepiece lens'), (2, 210, 140, 116, 140, 'objective lens'),
+                                   (3, 210, 156, 148, 154, 'stage (slide goes here)'), (4, 210, 120, 158, 120, 'focus knob'),
+                                   (5, 210, 200, 126, 200, 'light / mirror')):
+        o += callout(n, tx, ty, px, py, [lab] * 5)
+    return svg(360, 260, o, width=w)
+
+
+# ------------------------------------------------------------------ health
+def mosquito_cycle(labels=True, w='100%'):
+    """Aedes mosquito life cycle: egg -> larva -> pupa -> adult (water line)."""
+    o = rect(0, 110, 560, 80, 0, LIGHT, 0) + path('M0,110 q20,-6 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0', w=1.4)
+    # eggs on container wall
+    o += rect(20, 60, 90, 130, 4, 'none', 1.6)
+    for i in range(6):
+        o += ellipse(40 + i * 10, 104, 3, 1.6, INK, 0.5)
+    # larva
+    o += path('M180,118 q6,14 0,28 q-6,14 0,28', w=4) + path('M180,118 l-6,-8 l12,0 Z', w=1.2)
+    # pupa
+    o += path('M300,120 C330,116 336,140 320,150 C312,160 300,154 298,146 C296,136 296,126 300,120 Z', GREY, 1.4)
+    o += path('M322,150 q8,10 0,20', w=1.4)
+    # adult mosquito
+    ax, ay = 460, 60
+    o += ellipse(ax, ay, 26, 6, GREY, 1.4) + circle(ax - 30, ay - 2, 6, 'white', 1.4) + line(ax - 36, ay - 2, ax - 56, ay + 6, 1.2)
+    for dx in (-10, 0, 10):
+        o += path(f'M{ax + dx},{ay + 4} l-10,26 M{ax + dx},{ay + 4} l12,26', w=1)
+    o += ellipse(ax - 4, ay - 18, 22, 8, 'white', 1.2, -20) + ellipse(ax + 10, ay - 16, 20, 7, 'white', 1.2, 15)
+    for i in range(5):
+        o += line(ax - 18 + i * 9, ay - 4, ax - 18 + i * 9, ay + 4, 1.8)
+    for x1, x2, y in ((112, 160, 150), (205, 285, 150), (338, 420, 120)):
+        o += arrow(x1, y, x2, y, 1.8, 9)
+    o += curved_arrow(430, 30, 230, -20, 70, 56, 1.4, 9, '6 4')
+    if labels:
+        for x, t in ((65, 'eggs'), (182, 'larva'), (318, 'pupa'), (460, 'adult')):
+            o += text(x, 210, t, 13, weight='bold')
+        o += text(250, 20, 'female lays eggs near water', 11, italic=True)
+    return svg(560, 220, o, width=w)
+
+
+def handwash_steps(w='100%'):
+    """Six simple steps as numbered boxes with icons drawn as text-free hand shapes."""
+    steps = ['Wet hands', 'Add soap', 'Rub palms, backs and between fingers', 'Scrub nails and thumbs', 'Rinse well', 'Dry with a clean cloth']
+    o = ''
+    for i, s in enumerate(steps):
+        x = 6 + i * 104
+        o += rect(x, 6, 96, 120, 10, 'white', 1.4) + marker(i + 1, x + 14, 20)
+        o += path(f'M{x + 30},{80} C{x + 30},{56} {x + 66},{56} {x + 66},{80} L{x + 66},{96} L{x + 30},{96} Z', LIGHT, 1.3)
+        for k in range(4):
+            o += line(x + 34 + k * 9, 74, x + 34 + k * 9, 52, 3) + line(x + 34 + k * 9, 74, x + 34 + k * 9, 52, 1.2, color='white')
+        if i in (0, 4):
+            for k in range(3):
+                o += path(f'M{x + 40 + k * 8},34 q-3,6 0,8 q3,-2 0,-8', LIGHT, 1)
+        if i == 1:
+            o += circle(x + 74, 40, 5, 'white', 1) + circle(x + 82, 32, 3, 'white', 1)
+        words = s.split(' ')
+        line1, line2 = ' '.join(words[:3]), ' '.join(words[3:])
+        o += text(x + 48, 112, line1, 9.5) + (text(x + 48, 123, line2, 9.5) if line2 else '')
+    return svg(630, 132, o, width=w)
+
+
+# ------------------------------------------------------------------ nutrition
+def healthy_plate(labels=True, w='100%'):
+    """Plate divided: half vegetables & fruit, quarter grains, quarter protein; glass of water and milk."""
+    cx, cy, r = 190, 150, 120
+    o = circle(cx, cy, r + 12, 'white', 1.6) + circle(cx, cy, r, 'white', 1.6)
+    o += line(cx, cy - r, cx, cy + r, 1.6) + line(cx, cy, cx + r, cy, 1.6)
+    o += f'<path d="M{cx},{cy - r} A{r},{r} 0 0 0 {cx},{cy + r} Z" fill="{LIGHT}"/>'
+    o += circle(cx, cy, r, 'none', 1.6) + line(cx, cy - r, cx, cy + r, 1.6) + line(cx, cy, cx + r, cy, 1.6)
+    # small drawings
+    o += leaf(96, 176, 30, -40, GREY) + leaf(120, 206, 28, 200, 'white') + circle(150, 186, 13, 'white', 1.3) + circle(104, 222, 10, GREY, 1.2)
+    for i in range(10):
+        o += ellipse(225 + (i % 5) * 12, 74 + (i // 5) * 10, 5, 3, 'white', 0.9)
+    o += path('M216,200 C236,186 276,188 286,204 C276,216 236,218 216,204 Z', 'white', 1.3) + circle(278, 202, 2, INK, 0) + path('M216,204 l-12,-8 l0,16 Z', 'white', 1.2)
+    if labels:
+        o += text(130, 100, 'Vegetables', 13, weight='bold') + text(130, 115, 'and fruit', 13, weight='bold') + text(130, 134, '(half the plate)', 10, italic=True)
+        o += text(250, 112, 'Grains', 13, weight='bold') + text(250, 126, 'rice, roti', 11)
+        o += text(250, 176, 'Protein', 13, weight='bold') + text(250, 232, 'fish, egg,', 10) + text(250, 244, 'dal, meat', 10)
+    # glass of water + milk
+    o += path('M360,60 L392,60 L388,130 L364,130 Z', 'white', 1.6) + path('M361,80 L391,80', w=1, dash='3 3')
+    o += path('M410,80 L440,80 L436,140 L414,140 Z', LIGHT, 1.6)
+    if labels:
+        o += text(376, 150, 'water', 12, weight='bold') + text(425, 160, 'milk', 12, weight='bold')
+    return svg(470, 290, o, width=w)
+
+
+# ------------------------------------------------------------------ ecosystems
+def food_web(numbered=False, w='100%'):
+    """A Sundarbans food web as labelled boxes with arrows (arrow = 'is eaten by', energy flow)."""
+    nodes = {
+        'sun': (330, 24, 'Sun'), 'mangrove': (120, 290, 'mangrove leaves'), 'algae': (520, 290, 'algae (in water)'),
+        'deer': (70, 170, 'spotted deer'), 'crab': (250, 200, 'crab'), 'shrimp': (450, 200, 'shrimp'),
+        'fish': (560, 120, 'fish'), 'monkey': (200, 110, 'monkey'), 'tiger': (110, 40, 'tiger'),
+        'kingfisher': (470, 60, 'kingfisher'), 'otter': (330, 120, 'otter'),
+    }
+    links = [('mangrove', 'deer'), ('mangrove', 'monkey'), ('mangrove', 'crab'), ('algae', 'shrimp'), ('algae', 'fish'),
+             ('shrimp', 'fish'), ('crab', 'otter'), ('fish', 'otter'), ('fish', 'kingfisher'), ('shrimp', 'kingfisher'),
+             ('deer', 'tiger'), ('monkey', 'tiger')]
+    o = ''
+    for a, b in links:
+        x1, y1, _ = nodes[a]
+        x2, y2, _ = nodes[b]
+        d = math.hypot(x2 - x1, y2 - y1)
+        ux, uy = (x2 - x1) / d, (y2 - y1) / d
+        o += arrow(x1 + ux * 30, y1 + uy * 16, x2 - ux * 34, y2 - uy * 18, 1.5, 8)
+    for k, (x, y, name) in nodes.items():
+        if k == 'sun':
+            continue
+        wbox = max(70, len(name) * 7 + 16)
+        o += rect(x - wbox / 2, y - 14, wbox, 28, 8, LIGHT if k in ('mangrove', 'algae') else 'white', 1.4)
+        o += text(x, y + 4, name, 11.5, weight='bold')
+    o += circle(330, 24, 14, 'white', 1.4)
+    for a in range(0, 360, 45):
+        r = math.radians(a)
+        o += line(330 + 17 * math.cos(r), 24 + 17 * math.sin(r), 330 + 23 * math.cos(r), 24 + 23 * math.sin(r), 1.2)
+    o += arrow(316, 34, 140, 272, 1, 7, '4 4') + arrow(344, 34, 506, 272, 1, 7, '4 4')
+    o += text(330, 330, 'Arrows show the direction energy moves: from the food to the animal that eats it.', 11, italic=True)
+    return svg(640, 340, o, width=w)
+
+
+def quadrat(w='100%'):
+    """A 1 m quadrat (frame) with plants counted inside."""
+    o = rect(20, 20, 200, 200, 0, 'white', 2.4)
+    for i in range(1, 4):
+        o += line(20 + i * 50, 20, 20 + i * 50, 220, 0.6, '3 3') + line(20, 20 + i * 50, 220, 20 + i * 50, 0.6, '3 3')
+    pts = [(50, 50), (80, 130), (150, 60), (190, 180), (60, 190), (120, 100), (170, 120)]
+    for x, y in pts:
+        o += simple_flower(x, y, 6, 5)
+    for x, y in ((100, 40), (40, 110), (140, 180), (200, 80), (110, 160)):
+        o += leaf(x, y, 16, -60, GREY, False) + leaf(x, y, 16, -120, GREY, False)
+    o += text(120, 240, '1 metre × 1 metre quadrat', 11, italic=True)
+    return svg(240, 250, o, width=w)

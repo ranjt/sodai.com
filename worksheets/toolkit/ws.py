@@ -103,13 +103,14 @@ class Vocab(Block):
 
 
 class Fig(Block):
-    def __init__(self, svg, caption='', width=None):
-        self.svg, self.caption, self.width = svg, caption, width
+    """A figure. span=True makes it run across both columns inside Cols."""
+    def __init__(self, svg, caption='', width=None, span=False):
+        self.svg, self.caption, self.width, self.span = svg, caption, width, span
 
     def html(self, key):
         style = f' style="width:{self.width};margin-left:auto;margin-right:auto"' if self.width else ''
         cap = f'<figcaption>{rich(self.caption)}</figcaption>' if self.caption else ''
-        return f'<figure class="fig"{style}>{self.svg}{cap}</figure>'
+        return f'<figure class="fig{" span" if self.span else ""}"{style}>{self.svg}{cap}</figure>'
 
 
 class Cols(Block):

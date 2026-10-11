@@ -36,7 +36,7 @@ body {
   .sheet, .cover { background: #fff; padding: 13mm; margin-bottom: 16px; box-shadow: 0 2px 12px rgba(0,0,0,.18); min-height: 297mm; }
 }
 @media print {
-  .cover { height: 270mm; overflow: hidden; }
+  .cover { height: 265mm; overflow: hidden; }
   .sheet, .cover { break-before: page; }
   .doc > :first-child { break-before: auto; }
   .screen-only { display: none !important; }

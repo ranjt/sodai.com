@@ -36,7 +36,7 @@ body {
   .sheet, .cover { background: #fff; padding: 13mm; margin-bottom: 16px; box-shadow: 0 2px 12px rgba(0,0,0,.18); min-height: 297mm; }
 }
 @media print {
-  .cover { height: 270mm; overflow: hidden; }
+  .cover { height: 265mm; overflow: hidden; }
   .sheet, .cover { break-before: page; }
   .doc > :first-child { break-before: auto; }
   .screen-only { display: none !important; }
@@ -177,6 +177,7 @@ table { border-collapse: collapse; width: 100%; }
 .box.vocab dd { margin: 0; }
 .box.safety { border-width: 2.4px; border-style: double; border-width: 4px; }
 .fig { text-align: center; margin: 6px 0 8px; break-inside: avoid; }
+.fig.span { column-span: all; margin: 8px auto 10px; }
 .fig figcaption { font-size: 9.5pt; color: var(--mid); font-style: italic; }
 .row { display: flex; gap: 6mm; align-items: flex-start; }
 .row > * { flex: 1; min-width: 0; }
