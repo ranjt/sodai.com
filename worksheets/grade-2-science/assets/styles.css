@@ -385,3 +385,61 @@ h2, h3 { break-after: avoid; }
 .rt-hl-label .rt-word { font-size: 20pt; }
 .rt-news-cols { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 3.5mm; }
 .rt-news-right { display: grid; grid-template-rows: 1fr 1fr; gap: 3mm; min-height: 0; }
+
+/* ---------- KG and Grade 1: bigger print and picture activities ---------- */
+body.gk { font-size: 15.5pt; line-height: 1.55; }
+body.g1 { font-size: 14.4pt; line-height: 1.55; }
+body.gk .lead, body.g1 .lead { font-size: 16pt; }
+body.gk h3, body.g1 h3 { font-size: 16pt; }
+body.gk .ws-head .title h1, body.g1 .ws-head .title h1 { font-size: 21pt; }
+body.gk .q > .prompt, body.g1 .q > .prompt { font-size: 15pt; }
+body.gk .lines .ln { height: 14mm; }
+body.g1 .lines .ln { height: 13mm; }
+body.gk .answer-key .lines .ln.multi, body.gk.answer-key .lines .ln.multi { min-height: 14mm; }
+body.g1 .answer-key .lines .ln.multi, body.g1.answer-key .lines .ln.multi { min-height: 13mm; }
+body.gk .box, body.g1 .box { font-size: 13.5pt; }
+body.gk .pic .cap, body.g1 .pic .cap { font-size: 12.5pt; }
+body.gk .blanks-text, body.g1 .blanks-text { line-height: 2.7; }
+body.gk .cover .art, body.g1 .cover .art { text-align: center; }
+body.gk .cover .art svg, body.g1 .cover .art svg { width: auto !important; max-width: 100%; max-height: 82mm; display: inline-block; }
+body.gk .mcq, body.g1 .mcq { font-size: 14pt; }
+.choose .pic { position: relative; }
+.answer-key .choose.circle .pic.yes::after { content: ''; position: absolute; inset: -4px; border: 3px solid var(--ink); border-radius: 50%; }
+.answer-key .choose.cross .pic.yes::after { content: '✕'; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  font-size: 48pt; line-height: 1; font-weight: 700; color: var(--ink); }
+.picmatch { display: grid; grid-template-columns: 1fr 22mm 1fr; gap: 8px 0; align-items: center; margin: 6px 0; }
+.picmatch .pm-l, .picmatch .pm-r { display: flex; align-items: center; gap: 8px; }
+.picmatch .pm-l { justify-content: flex-end; }
+.picmatch .pic { min-width: 36mm; }
+.picmatch .dot { width: 3.4mm; height: 3.4mm; border-radius: 50%; background: var(--ink); flex: none; }
+.picmatch .letter { font-family: 'Fredoka'; font-weight: 600; }
+.picmatch .mid { text-align: center; }
+.picmatch .mid .ans { visibility: hidden; }
+.answer-key .picmatch .mid .ans { visibility: visible; }
+.ps-note { font-size: 10pt; color: var(--mid); margin: 2px 0 4px; }
+.cutstrip { gap: 4px; }
+.cutstrip .pic.cut { border: 1.6px dashed var(--line); padding: 3px 2px; }
+.picsort { display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 10px; margin-top: 8px; }
+.ps-col { border: 2px solid var(--line); border-radius: 10px; overflow: hidden; }
+.ps-h { font-family: 'Fredoka'; font-weight: 600; font-size: 14pt; text-align: center; background: var(--fill); padding: 3px; border-bottom: 1.6px solid var(--line); }
+.ps-box { display: flex; flex-wrap: wrap; align-content: flex-start; gap: 4px; padding: 6px; }
+.ps-box .ans { visibility: hidden; }
+.answer-key .ps-box .ans { visibility: visible; }
+.pg { border: 2px solid var(--line); border-radius: 10px; padding: 6px 10px 4px; margin: 6px 0; break-inside: avoid; }
+.pg-t { font-family: 'Fredoka'; font-weight: 600; margin-bottom: 4px; }
+.pg-row { display: grid; grid-template-columns: 36mm 1fr; align-items: center; gap: 6px; padding: 2px 0; }
+.pg-lab { display: flex; align-items: center; gap: 6px; font-family: 'Fredoka'; font-weight: 500; }
+.pg-boxes { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); grid-auto-flow: column; gap: 3px; }
+.pg-b { height: 12mm; border: 1.6px solid var(--line); border-radius: 3px; }
+.answer-key .pg-b.on { background: #9a9a9a; }
+.pg-axis .pg-boxes span { text-align: center; font-family: 'Fredoka'; font-size: 10pt; color: var(--mid); }
+.trace { margin: 6px 0; }
+.tr-row { display: grid; grid-template-columns: 16mm 1fr; gap: 6px; align-items: center; margin-bottom: 4px; }
+.tr-line { position: relative; height: 18mm; display: flex; align-items: flex-end; gap: 10mm; padding: 0 3mm 2.6mm;
+  background: linear-gradient(var(--line), var(--line)) 0 100% / 100% 1.4px no-repeat,
+              linear-gradient(#999, #999) 0 2.5mm / 100% 1px no-repeat,
+              repeating-linear-gradient(90deg, #aaa 0 4px, transparent 4px 8px) 0 9.8mm / 100% 1px no-repeat; }
+.tr-w { font-family: 'Andika'; font-size: 34pt; line-height: 1; color: #c4c4c4; letter-spacing: .04em; }
+.tr-own { flex: 1; font-size: 30pt; line-height: 1; }
+.tr-own .ans { visibility: hidden; font-size: 28pt; }
+.answer-key .tr-own .ans { visibility: visible; }

@@ -98,6 +98,16 @@ NAMES = {
     'screwdriver': '1FA9B', 'firefighter': '1F9D1-200D-1F692', 'telephone': '260E', 'saxophone': '1F3B7', 'maracas': '1FA87',
     'ear with hearing aid': '1F9BB', 'bowl with spoon': '1F963', 'kitchen knife': '1F52A', 'safety pin': '1F9F7',
     'manual wheelchair': '1F9BD', 'motorway': '1F6E3', 'flag': '1F3F3', 'clock': '1F570', 'sewing needle': '1FAA1',
+    # added for KG and Grade 1
+    'chestnut': '1F330', 'sheep': '1F411', 'girl': '1F467', 'boy': '1F466', 'woman': '1F469', 'man': '1F468', 'old woman': '1F475',
+    'person walking': '1F6B6', 'foot': '1F9B6', 'lungs': '1FAC1', 'anatomical heart': '1FAC0', 'sneezing face': '1F927',
+    'hot face': '1F975', 'cold face': '1F976', 'smiling face': '1F60A', 'crying face': '1F622', 'candy': '1F36C', 'doughnut': '1F369',
+    'cookie': '1F36A', 'cheese': '1F9C0', 'corn': '1F33D', 'cucumber': '1F952', 'tangerine': '1F34A', 'pear': '1F350',
+    'baby bottle': '1F37C', 'cup with straw': '1F964', 'toilet': '1F6BD', 'shower': '1F6BF', 'potable water': '1F6B0',
+    'litter in bin sign': '1F6AE', 'no littering': '1F6AF', 'police officer': '1F46E', 'traffic light': '1F6A6', 'stop sign': '1F6D1',
+    'basketball': '1F3C0', 'crayon': '1F58D', 'jeans': '1F456', 'dress': '1F457', 'clapping hands': '1F44F', 'kangaroo': '1F998',
+    'yo-yo': '1FA80', 'puzzle piece': '1F9E9', 'alarm clock': '23F0', 'house with garden': '1F3E1', 'camera': '1F4F7',
+    'woman cook': '1F469-200D-1F373', 'health worker': '1F9D1-200D-2695-FE0F', 'face with thermometer': '1F912',
 }
 
 _cache = {}

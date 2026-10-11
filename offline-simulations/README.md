@@ -30,7 +30,7 @@ sodai.com/                               (this repository)
     ├── inquirymind-site/                ready to copy into the InquiryMind Firebase site
     │   ├── simulations/                 math catalog page (InquiryMind style) + 28 sims
     │   ├── science-simulations/         science catalog page (InquiryMind style) + 28 sims
-    │   └── worksheets/                  Grades 2–5 science study packs + answer keys (see worksheets/README.md)
+    │   └── worksheets/                  KG–Grade 5 science study packs + answer keys and 34 thinking routines (see worksheets/README.md)
     └── toolkit/                         rebuild / rebrand / add sims (see toolkit/README.md)
 ```
 
@@ -68,6 +68,9 @@ The Math/Science/Worksheets tabs on the catalog pages link to `../simulations/`,
 You need the Firebase project folder for inquirymind.org on your computer (the folder with `firebase.json`)
 and the Firebase CLI (`npm install -g firebase-tools`, then `firebase login`).
 
+Quickest way: `bash offline-simulations/inquirymind-site/publish.sh ~/path/to/firebase-project --deploy` does steps 1–3
+for you (guide: `offline-simulations/inquirymind-site/PUBLISH-WORKSHEETS.md`). By hand:
+
 1. Find the public folder: open `firebase.json` and look at `"hosting": { "public": "..." }` (usually `public`).
 2. Copy **all three** folders from `offline-simulations/inquirymind-site/` into it:
    ```
@@ -75,7 +78,7 @@ and the Firebase CLI (`npm install -g firebase-tools`, then `firebase login`).
    ├── index.html                 (your existing site)
    ├── simulations/               ← copy
    ├── science-simulations/       ← copy
-   └── worksheets/                ← copy (Grades 2–5 science study packs)
+   └── worksheets/                ← copy (KG–Grade 5 science study packs and thinking routines)
    ```
 3. Deploy: `firebase deploy --only hosting`
 4. Check: https://www.inquirymind.org/simulations/, https://www.inquirymind.org/science-simulations/ and
@@ -108,7 +111,7 @@ Notes:
 
 The `simulations/` and `science-simulations/` folders at the repository root are already live at
 https://amrarbazar.com/simulations/ and https://amrarbazar.com/science-simulations/. The worksheets
-(`worksheets/`) are live at https://amrarbazar.com/worksheets/ (Grades 2, 3, 4 and 5) once merged.
+(`worksheets/`) are live at https://amrarbazar.com/worksheets/ (KG to Grade 5, plus thinking routines) once merged.
 Any change merged into the `main` branch is published automatically by
 `.github/workflows/static.yml` (about one minute; check the **Actions** tab on GitHub).
 

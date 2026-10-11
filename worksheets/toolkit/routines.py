@@ -413,6 +413,8 @@ def main(argv):
             make_zip(ROUTINES)
     import hub
     hub.write_routines(OUT, ROUTINES, GROUPS)
+    import inventory
+    inventory.write()
     if os.path.isdir(os.path.dirname(IM_WS)):
         shutil.rmtree(os.path.join(IM_WS, 'thinking-routines'), ignore_errors=True)
         shutil.copytree(OUT, os.path.join(IM_WS, 'thinking-routines'))

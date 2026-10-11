@@ -1801,3 +1801,21 @@ def pic_row(names, labels=None, size=60, gap=24, label_size=12, w='100%', arrows
             o += arrow(x + size + 4, size / 2, x + size + gap - 4, size / 2, 1.6, 7)
     W = len(names) * (size + gap) - gap
     return svg(W + 2 * margin, size + (label_size + 8 if labels else 0), f'<g transform="translate({margin} 0)">{o}</g>', width=w)
+
+
+def vacuum_flask(labels=None, w='100%'):
+    """A vacuum flask in cross-section: 1 stopper, 2 shiny silvered walls, 3 vacuum, 4 hot drink, 5 outer case."""
+    o = rect(60, 40, 140, 230, 16, LIGHT, 1.8)
+    o += rect(80, 60, 100, 196, 22, GREY, 1.4) + rect(90, 70, 80, 176, 18, 'white', 1.4)
+    o += rect(92, 110, 76, 134, 16, '#bdbdbd', 0) + path('M92,110 q38,-8 76,0', w=1)
+    o += rect(102, 22, 56, 54, 6, 'white', 1.8)
+    for x in (108, 120, 132, 144):
+        o += line(x, 30, x, 68, 0.6)
+    for k in range(5):
+        o += path(f'M{96 + k * 2},{140 + k * 20} l-8,4', w=0.8) + path(f'M{164 - k * 2},{140 + k * 20} l8,4', w=0.8)
+    for n, tx, ty, px, py in ((1, 250, 40, 150, 46), (2, 250, 110, 172, 120), (3, 250, 170, 85, 170), (4, 250, 220, 140, 200), (5, 250, 262, 196, 250)):
+        o += callout(n, tx, ty, px, py, labels, anchor='start')
+    return svg(470, 285, f'<g transform="translate(10 0)">{o}</g>', width=w)
+
+
+FLASK_PARTS = ['stopper', 'shiny silver walls', 'vacuum (empty space)', 'hot drink', 'outer case']

@@ -1,18 +1,21 @@
-# Science study packs (InquiryMind): Grades 2, 3, 4 and 5
+# Science study packs (InquiryMind): KG to Grade 5
 
 Print-ready, black-and-white study packs that cover the whole science syllabus of each grade (PHIS Science continuum
-2025: Grade 2 = IB PYP Phase 2, Grades 3 and 4 = Phase 3, Grade 5 = Phase 4) and the topics of the Cambridge Primary
+2025: KG = IB PYP Phase 1, Grades 1 and 2 = Phase 2, Grades 3 and 4 = Phase 3, Grade 5 = Phase 4) and the topics of the Cambridge Primary
 Science Learner's Books (Stages 2–5).
 Every pack has its own answer key. Everything is original InquiryMind material: articles, questions, case studies and
-line drawings, plus open-licensed OpenMoji pictures in the Grade 2, 3 and 4 packs.
+line drawings, plus open-licensed OpenMoji pictures in the KG–Grade 4 packs. A full list of every PDF with links:
+`ALL-WORKSHEETS.md`. Publishing to inquirymind.org: `offline-simulations/inquirymind-site/PUBLISH-WORKSHEETS.md`.
 
 | Grade | Packs | Live page (after merging to `main`) |
 |---|---|---|
 | all grades | grade chooser | **https://amrarbazar.com/worksheets/** |
+| KG | 12 packs (W1, A1–A5, B1–B3, C1–C3) | https://amrarbazar.com/worksheets/kg-science/ |
+| Grade 1 | 11 packs (W1, A1–A3, B1–B3, C1–C4) | https://amrarbazar.com/worksheets/grade-1-science/ |
 | Grade 2 | 12 packs (W1, A1–A6, B1–B2, C1–C3) | https://amrarbazar.com/worksheets/grade-2-science/ |
 | Grade 3 | 14 packs (W1, A1–A5, B1–B3, C1–C5) | https://amrarbazar.com/worksheets/grade-3-science/ |
 | Grade 4 | 20 packs (W1, A1–A6, B1–B4, C1–C9) | https://amrarbazar.com/worksheets/grade-4-science/ |
-| Grade 5 | 22 packs (W1, A1–A7, B1–B6, C1–C8) | https://amrarbazar.com/worksheets/grade-5-science/ |
+| Grade 5 | 24 packs (W1, A1–A7, B1–B6, C1–C10) | https://amrarbazar.com/worksheets/grade-5-science/ |
 
 InquiryMind copy: `offline-simulations/inquirymind-site/worksheets/` (copy the `worksheets` folder into the Firebase
 `public/` folder → `https://www.inquirymind.org/worksheets/`).
@@ -23,7 +26,10 @@ InquiryMind copy: `offline-simulations/inquirymind-site/worksheets/` (copy the `
 worksheets/
 ├── README.md                    this guide
 ├── index.html                   GENERATED: grade chooser page
-├── grade-2-science/             GENERATED: Grade 2 website folder (do not edit by hand)
+├── ALL-WORKSHEETS.md            GENERATED: every pack and organiser with links (inventory.py)
+├── kg-science/                  GENERATED: KG website folder (do not edit by hand)
+├── grade-1-science/             GENERATED: Grade 1 …
+├── grade-2-science/             GENERATED: Grade 2 …
 ├── grade-3-science/             GENERATED: Grade 3 …
 ├── grade-4-science/             GENERATED: Grade 4 …
 ├── grade-5-science/             GENERATED: Grade 5 website folder (do not edit by hand)
@@ -35,12 +41,13 @@ worksheets/
 │   └── assets/                  logo, fonts (OFL), stylesheet
 └── toolkit/                     SOURCE: edit here, then rebuild
     ├── build.py                 builds HTML + PDF + zips + download pages + InquiryMind copy
-    ├── topics/grade<N>/<code>_*.py  ONE FILE PER PACK: all text, questions and answers (grade2 … grade5)
+    ├── topics/kg/, topics/grade<N>/<code>_*.py  ONE FILE PER PACK: all text, questions and answers (KG, grade1 … grade5)
     ├── ws.py                    worksheet building blocks (questions, tables, graphs, pictures, word search …)
     ├── art.py, art4.py, art23.py  illustrations drawn as SVG line art (art4 = Grade 4, art23 = Grades 2–3)
     ├── openmoji.py, openmoji/   OpenMoji pictures (names → files; fetch script); CC BY-SA 4.0
     ├── hub.py                   the download pages (also: which simulations link to which pack)
-    ├── styles.css               A4 print design (younger grades get larger print: body classes g2, g3, g4)
+    ├── styles.css               A4 print design (younger grades get larger print: body classes gk, g1, g2, g3, g4)
+    ├── inventory.py             writes ALL-WORKSHEETS.md after every build
     ├── icons/                   Tabler icons used (MIT)
     └── assets/                  fonts, logo (colour and black-and-white)
 ```
@@ -61,6 +68,43 @@ Every pack has the same six worksheets, in the order a class would use them:
 The study pack ends with a self-check ("Not yet / Nearly / Got it!"). The answer key has every sheet except
 Learn it, with answers in handwriting-style font and plotted graphs. Every sheet starts on a new page, so a
 single sheet can be printed on its own.
+
+### KG
+
+KG packs (ages 4–6, KG 1 and KG 2 together) are picture-led and read aloud by a grown-up: circle, match, cut and sort, colour a picture graph, trace words, draw. Sheet names: Look and talk, Find and circle, Think and draw, Let's explore, Story time, I can do it!
+
+| Code | Pack | Investigation | Case study | Pages (pack + key) |
+|---|---|---|---|---|
+| W1 | Little Explorers | Soft or hard? | Rafi's magnifying glass | 7 + 5 |
+| A1 | Living and Non-living Things | Living things hunt | Mina's seed | 8 + 5 |
+| A2 | Animals Around Us | Animal movement game | Nana's hen | 7 + 5 |
+| A3 | Plants Around Us | Light or dark? | The mango tree | 7 + 5 |
+| A4 | My Body and My Senses | Taste test | Tuli wears glasses | 7 + 6 |
+| A5 | Healthy Food | Our fruit survey | Shopon's tiffin | 7 + 5 |
+| B1 | Day, Night and Seasons | Our weather chart | Mitu watches the Moon | 7 + 5 |
+| B2 | Our Environment | Reuse it! | The river clean-up | 7 + 5 |
+| B3 | Clean and Safe Spaces | Clean-up detectives | Ayaan and the hot pan | 7 + 5 |
+| C1 | Materials Around Us | Material hunt | The three little houses | 7 + 5 |
+| C2 | Pushes and Pulls | Ramp race | Pulling the boat | 7 + 5 |
+| C3 | Light and Sound | Make a shaker | The power cut | 7 + 5 |
+
+### Grade 1
+
+Grade 1 packs mix short reading with picture activities, simple bar charts and small word searches.
+
+| Code | Pack | Investigation | Case study | Pages (pack + key) |
+|---|---|---|---|---|
+| W1 | Young Scientists | Which ball bounces highest? | Little scientist at the pond | 7 + 5 |
+| A1 | Living Things and What They Need | Do seeds need water? | Is the stone alive? | 7 + 5 |
+| A2 | Habitats of Bangladesh | Pond or garden? | Homes in the Sundarbans | 7 + 5 |
+| A3 | Healthy Bodies | How clean are our hands? | A day for Tumpa | 7 + 5 |
+| B1 | The Sun, Moon and Stars | Shadow watch | Waiting for the new Moon | 8 + 5 |
+| B2 | Weather Watching | Our weather chart | The monsoon comes | 7 + 5 |
+| B3 | Keeping Our Environment Clean | Our class rubbish survey | The green school | 7 + 5 |
+| C1 | Materials and Their Shapes | Which band stretches most? | The potter of Rajshahi | 8 + 5 |
+| C2 | Heating, Cooling and Dissolving | Where does ice melt fastest? | Making pitha in winter | 8 + 5 |
+| C3 | Light and Sound | Shadow size | Shadow puppets | 8 + 5 |
+| C4 | Electricity | Make a circuit | Light from the sun | 8 + 5 |
 
 ### Grade 2
 
@@ -155,6 +199,12 @@ Grade 4 packs use larger print, more writing space and many more pictures (OpenM
 | C6 | Mechanical Systems | How does distance from the pivot change the effort? | The rickshaw: a city on three wheels | 11 + 8 |
 | C7 | Light: Sources, Reflection and Refraction | Investigating mirrors: angles of reflection | Healthy eyes in a screen world | 14 + 10 |
 | C8 | Light: Shadows and Intensity | How does distance from the torch change shadow size? | A brighter, cooler classroom | 13 + 8 |
+| C9 | Heat Transfer: Conduction, Convection and Radiation | Which colour heats up fastest in the sun? | Keeping cool in a hotter Dhaka | 11 + 7 |
+| C10 | Energy Resources: Renewable, Non-renewable and Green Energy | Does the number of blades change a wind turbine's speed? | Bangladesh's energy future | 9 + 5 |
+
+C9 and C10 are extra packs. C10 uses real, rounded statistics with sources printed on the page: world electricity 2024
+(Ember Global Electricity Review 2025), Bangladesh 2023 (Power Grid Company of Bangladesh via Reuters), people without
+electricity 2022 (Tracking SDG7 2024). Update the numbers there when newer reports come out.
 
 Codes follow the syllabus strands: **W** Working scientifically, **A** Living things, **B** Earth and space,
 **C** Physical and chemical science. The download page has a coverage map listing every syllabus outcome
@@ -199,7 +249,7 @@ Chromium: set `CHROME_PATH` to a Chrome/Chromium binary, or run `npx playwright 
 2. Rebuild that pack (fast, ~3 s): `python3 worksheets/toolkit/build.py --grade 5 C5`
 3. Check `worksheets/grade-5-science/pdf/c5-sound-study-pack.pdf` and `…-answer-key.pdf`.
 4. Before publishing, rebuild everything (all grades, zips, download pages, InquiryMind copy):
-   `python3 worksheets/toolkit/build.py` (or one grade: `--grade 3`).
+   `python3 worksheets/toolkit/build.py` (or one grade: `--grade 3`, `--grade KG`).
 
 Common building blocks (all in `ws.py`):
 
@@ -215,6 +265,10 @@ Common building blocks (all in `ws.py`):
 | `Graph(labels, values, 'y label', 'x label', ymax=…, step=…, kind='bar'/'line')` | empty axes for learners; plotted in the key |
 | `Draw('40mm', 'caption', 'model answer')`, `WordSearch([...])`, `Part('a) …', answer)` | drawing box, word search, lettered parts |
 | `Pics([('tiger', 'mammal'), ('frog', Ans('amphibian'))], cols=5)` | picture cards (OpenMoji names); `Ans` = blank to fill in |
+| `Choose([('cat', 'cat'), ('rock', 'rock')], right=[0], mark='circle')` | KG/G1: circle (or `mark='cross'`) the right pictures; the key circles them |
+| `PicMatch([(('cow', 'cow'), ('milk', 'milk'))])`, `PicSort(['Living', 'Non-living'], [('dog', 'dog', 'Living')])` | match pictures with lines; cut and sort pictures into boxes |
+| `Pictograph([('bird', 'birds', 3)], top=8)`, `Trace([('grow', 'seedling')])` | colour-a-box picture graph; trace grey words on handwriting lines |
+| `Box('adult', P(...))` | "For the grown-up": read-aloud and activity notes on KG sheets |
 | `KeyFig(learner_svg, key_svg)`, `Wide(block)` | a different drawing in the answer key; a full-width block inside `Cols` |
 | `Box('try', …)`, `Box('check', …)` | "Try this at home" and "Quick check" boxes |
 | `art.pic('tiger', x, y, size)`, `art.pic_row([...])` | OpenMoji pictures inside your own drawings or in a row |
