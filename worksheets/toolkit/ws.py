@@ -79,6 +79,8 @@ BOX_STYLES = {
     'link': ('arrows-shuffle', 'Subject links'),
     'tip': ('pencil', 'Remember'),
     'need': ('package', 'You will need'),
+    'try': ('home-heart', 'Try this at home'),
+    'check': ('checklist', 'Quick check'),
 }
 
 
@@ -113,21 +115,72 @@ class Fig(Block):
         return f'<figure class="fig{" span" if self.span else ""}"{style}>{self.svg}{cap}</figure>'
 
 
+class Pics(Block):
+    """Picture cards (OpenMoji names) in a grid. A caption can be text, or Ans('...') for a blank the learner fills in.
+    letters=True puts A, B, C ... on the cards."""
+    def __init__(self, items, cols=4, size='17mm', letters=False, small=False):
+        self.items, self.cols, self.size, self.letters, self.small = items, cols, size, letters, small
+
+    def html(self, key):
+        import art
+        out = ''
+        for i, it in enumerate(self.items):
+            name, cap = (it, None) if isinstance(it, str) else it
+            letter = f'<span class="pl">{chr(65 + i)}</span>' if self.letters else ''
+            if isinstance(cap, Ans):
+                c = f'<div class="cap blankcap"><span class="ans">{rich(cap.text)}</span></div>'
+            elif cap is None:
+                c = ''
+            else:
+                c = f'<div class="cap">{rich(cap)}</div>'
+            out += f'<div class="pic">{letter}{art.pic_svg(name, self.size)}{c}</div>'
+        return f'<div class="pics{" small" if self.small else ""}" style="--c:{self.cols}">{out}</div>'
+
+
+class KeyFig(Fig):
+    """A figure with a different drawing in the answer key (e.g. a map with the track plotted)."""
+    def __init__(self, svg, key_svg, caption='', width=None, span=False):
+        super().__init__(svg, caption, width, span)
+        self.key_svg = key_svg
+
+    def html(self, key):
+        if key:
+            return Fig(self.key_svg, self.caption, self.width, self.span).html(key)
+        return super().html(key)
+
+
+class Wide(Block):
+    """Inside Cols: a block (e.g. a big table) shown across the full page width between column sections."""
+    span = True
+
+    def __init__(self, block):
+        self.block = block
+
+    def html(self, key):
+        return f'<div class="wide">{self.block.html(key)}</div>'
+
+
 class Cols(Block):
     """Newspaper-style two-column flow. A heading is kept together with the block after it."""
     def __init__(self, *content):
         self.content = content
 
     def html(self, key):
-        out, items, i = '', list(self.content), 0
+        # A full-width (span) figure closes the current columns and starts new ones after it: Chrome's print layout
+        # can push a whole column block to the next page when a column-span element sits inside it.
+        segs, out, items, i = '', '', list(self.content), 0
         while i < len(items):
-            if isinstance(items[i], H) and i + 1 < len(items):
+            if isinstance(items[i], (Fig, Wide)) and items[i].span:
+                segs += (f'<div class="cols">{out}</div>' if out else '') + items[i].html(key)
+                out = ''
+                i += 1
+            elif isinstance(items[i], H) and i + 1 < len(items) and not (isinstance(items[i + 1], (Fig, Wide)) and items[i + 1].span):
                 out += f'<div class="keep">{items[i].html(key)}{items[i + 1].html(key)}</div>'
                 i += 2
             else:
                 out += items[i] if isinstance(items[i], str) else items[i].html(key)
                 i += 1
-        return f'<div class="cols">{out}</div>'
+        return segs + (f'<div class="cols">{out}</div>' if out else '')
 
 
 class Row(Block):

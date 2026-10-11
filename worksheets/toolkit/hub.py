@@ -1,4 +1,4 @@
-"""Download hub page (worksheets/grade-5-science/index.html): every study pack and answer key, grouped by strand,
+"""Download hub pages (worksheets/grade-<N>-science/index.html and the worksheets/index.html grade chooser): every study pack and answer key, grouped by strand,
 with linked simulations, a syllabus coverage map and credits. Written by build.py on every run."""
 import html
 import os
@@ -6,28 +6,54 @@ import re
 
 from icons import icon
 
-# Simulations (from offline-simulations/toolkit/catalog.py) that go well with each pack: (folder, id, name)
+# Simulations (from offline-simulations/toolkit/catalog.py) that go well with each pack, per grade: (folder, id, name)
+S = 'science-simulations'
 SIMS = {
-    'W1': [('simulations', 'mean-share-and-balance', 'Mean: Share and Balance')],
-    'A4': [('science-simulations', 'eating-exercise-and-energy', 'Eating, Exercise, and Energy')],
-    'A7': [('science-simulations', 'natural-selection', 'Natural Selection')],
-    'B1': [('science-simulations', 'states-of-matter-basics', 'States of Matter: Basics')],
-    'B4': [('science-simulations', 'gravity-and-orbits', 'Gravity and Orbits'), ('science-simulations', 'my-solar-system', 'My Solar System')],
-    'B5': [('science-simulations', 'greenhouse-effect', 'Greenhouse Effect')],
-    'C1': [('science-simulations', 'states-of-matter-basics', 'States of Matter: Basics')],
-    'C3': [('science-simulations', 'reactants-products-and-leftovers', 'Reactants, Products and Leftovers')],
-    'C4': [('science-simulations', 'energy-forms-and-changes', 'Energy Forms and Changes'), ('science-simulations', 'friction', 'Friction')],
-    'C5': [('science-simulations', 'sound-waves', 'Sound Waves'), ('science-simulations', 'waves-intro', 'Waves Intro')],
-    'C6': [('science-simulations', 'balancing-act', 'Balancing Act'), ('science-simulations', 'forces-and-motion-basics', 'Forces and Motion: Basics')],
-    'C7': [('science-simulations', 'geometric-optics-basics', 'Geometric Optics: Basics'), ('science-simulations', 'color-vision', 'Color Vision')],
+    5: {
+        'W1': [('simulations', 'mean-share-and-balance', 'Mean: Share and Balance')],
+        'A4': [(S, 'eating-exercise-and-energy', 'Eating, Exercise, and Energy')],
+        'A7': [(S, 'natural-selection', 'Natural Selection')],
+        'B1': [(S, 'states-of-matter-basics', 'States of Matter: Basics')],
+        'B4': [(S, 'gravity-and-orbits', 'Gravity and Orbits'), (S, 'my-solar-system', 'My Solar System')],
+        'B5': [(S, 'greenhouse-effect', 'Greenhouse Effect')],
+        'C1': [(S, 'states-of-matter-basics', 'States of Matter: Basics')],
+        'C3': [(S, 'reactants-products-and-leftovers', 'Reactants, Products and Leftovers')],
+        'C4': [(S, 'energy-forms-and-changes', 'Energy Forms and Changes'), (S, 'friction', 'Friction')],
+        'C5': [(S, 'sound-waves', 'Sound Waves'), (S, 'waves-intro', 'Waves Intro')],
+        'C6': [(S, 'balancing-act', 'Balancing Act'), (S, 'forces-and-motion-basics', 'Forces and Motion: Basics')],
+        'C7': [(S, 'geometric-optics-basics', 'Geometric Optics: Basics'), (S, 'color-vision', 'Color Vision')],
+    },
+    4: {
+        'A1': [(S, 'natural-selection', 'Natural Selection')],
+        'A3': [(S, 'natural-selection', 'Natural Selection')],
+        'B1': [(S, 'greenhouse-effect', 'Greenhouse Effect')],
+        'B2': [(S, 'greenhouse-effect', 'Greenhouse Effect')],
+        'C1': [(S, 'states-of-matter-basics', 'States of Matter: Basics')],
+        'C4': [(S, 'forces-and-motion-basics', 'Forces and Motion: Basics'), (S, 'friction', 'Friction')],
+        'C5': [(S, 'buoyancy-basics', 'Buoyancy: Basics'), (S, 'density', 'Density')],
+        'C6': [(S, 'circuit-construction-kit-dc', 'Circuit Construction Kit: DC'), (S, 'balloons-and-static-electricity', 'Balloons and Static Electricity')],
+        'C7': [(S, 'magnet-and-compass', 'Magnet and Compass'), (S, 'magnets-and-electromagnets', 'Magnets and Electromagnets')],
+        'C8': [(S, 'energy-forms-and-changes', 'Energy Forms and Changes'), (S, 'energy-skate-park-basics', 'Energy Skate Park: Basics')],
+        'C9': [(S, 'sound-waves', 'Sound Waves'), (S, 'color-vision', 'Color Vision')],
+    },
 }
 
 ABOUT = {
-    'skills': 'How scientists work: questions, fair tests, measuring, graphs, conclusions and models. Used in every topic.',
-    'living': 'The sustainability, complexity and interconnectedness of life: the human body, cells, health, plants and environments.',
-    'earth': 'Our planet and its place in space: the water cycle, soil, the changing surface, seasons, resources and models.',
-    'physical': 'Matter, materials and energy: changes of state, mixtures, atoms, energy, sound, machines and light.',
+    5: {
+        'skills': 'How scientists work: questions, fair tests, measuring, graphs, conclusions and models. Used in every topic.',
+        'living': 'The sustainability, complexity and interconnectedness of life: the human body, cells, health, plants and environments.',
+        'earth': 'Our planet and its place in space: the water cycle, soil, the changing surface, seasons, resources and models.',
+        'physical': 'Matter, materials and energy: changes of state, mixtures, atoms, energy, sound, machines and light.',
+    },
+    4: {
+        'skills': 'Thinking like a scientist: asking questions, fair tests, measuring, tables, graphs and conclusions. Used in every topic.',
+        'living': 'Animals and plants of Bangladesh, adaptation, life cycles, ecosystems, food chains and caring for our environment.',
+        'earth': 'Weather and climate, storms and cyclones, changing landscapes, and using Earth\'s resources wisely.',
+        'physical': 'Matter and mixtures, atoms, forces, floating and flying, electricity, magnets, energy, light and sound.',
+    },
 }
+PHASE = {4: 'IB PYP Phase 3', 5: 'IB PYP Phase 4'}
+GRADE_NAMES = {4: 'Grade 4', 5: 'Grade 5'}
 
 KIND_HELP = {
     'learn': 'an illustrated article with key words',
@@ -64,6 +90,7 @@ h1,h2,h3,.fredoka{font-family:'Fredoka','Andika',sans-serif;font-weight:600;line
 .tabs a{padding:6px 13px;border-radius:999px;font-size:14px;font-weight:700;color:var(--primary)}
 .tabs a[aria-current="page"]{background:var(--primary);color:#fff}
 .hero{margin:22px auto 0;border-radius:28px;padding:38px 28px;color:#fff;background:var(--hero);box-shadow:var(--shadow)}
+.grades{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}.grades a{padding:5px 13px;border-radius:999px;border:1px solid rgba(255,255,255,.55);font-weight:700;font-size:14px}.grades a[aria-current]{background:#fff;color:var(--primary)}
 .hero .eyebrow{font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.9}
 .hero h1{font-size:clamp(30px,5vw,46px);margin-top:6px}
 .hero p{max-width:720px;margin-top:12px;font-size:17px;opacity:.96}
@@ -190,7 +217,7 @@ def size_mb(path):
     return f'{os.path.getsize(path) / 1e6:.1f} MB' if os.path.exists(path) else ''
 
 
-def card(t, out, kinds):
+def card(t, out, kinds, grade):
     sp = os.path.join(out, 'pdf', t.slug + '-study-pack.pdf')
     ak = os.path.join(out, 'pdf', t.slug + '-answer-key.pdf')
     n_sp, n_ak = pdf_pages(sp), pdf_pages(ak)
@@ -200,11 +227,11 @@ def card(t, out, kinds):
     if n_ak:
         meta += f'<span>key: {n_ak} pages</span>'
     if t.cambridge:
-        meta += '<span class="camb">Cambridge Stage 5</span>'
+        meta += f'<span class="camb">Cambridge Stage {grade}</span>'
     sims = ''
-    if SIMS.get(t.code):
+    if SIMS[grade].get(t.code):
         links = ', '.join(f'<a href="../../{folder}/sims/{sid}.html" target="_blank" rel="noopener">{esc(name)}</a>'
-                          for folder, sid, name in SIMS[t.code])
+                          for folder, sid, name in SIMS[grade][t.code])
         sims = f'<div class="sims">Try the simulation: {links}</div>'
     text = ' '.join([t.code, t.title, t.subtitle, t.short] + [s.title for s in t.sheets]).lower()
     return (f'<article class="card" data-strand="{t.strand}" data-text="{esc(plain(text))}">'
@@ -218,7 +245,7 @@ def card(t, out, kinds):
             f'</div></div></article>')
 
 
-def coverage(topics, strands):
+def coverage(topics, strands, grade):
     out = ''
     for key, (name, ic) in strands.items():
         ts = [t for t in topics if t.strand == key]
@@ -232,7 +259,7 @@ def coverage(topics, strands):
         out += (f'<details{" open" if key == "skills" else ""}><summary>{icon(ic)} {name} '
                 f'<span class="muted" style="font-family:Andika,sans-serif;font-weight:400;font-size:15px;color:var(--muted)">'
                 f'· {n} outcomes in {len(ts)} pack{"s" if len(ts) > 1 else ""}</span></summary>'
-                f'<table><thead><tr><th>Pack</th><th>Grade 5 learning outcomes covered</th></tr></thead><tbody>{rows}</tbody></table></details>')
+                f'<table><thead><tr><th>Pack</th><th>Grade {grade} learning outcomes covered</th></tr></thead><tbody>{rows}</tbody></table></details>')
     units = {}
     for t in topics:
         for c in t.cambridge:
@@ -243,26 +270,27 @@ def coverage(topics, strands):
         rows = ''.join(f'<tr><td>Unit {num}: {esc(name)}</td><td><ul>'
                        + ''.join(f'<li>{t.code} {esc(plain(t.title))}{f" ({esc(d)})" if d else ""}</li>' for t, d in items)
                        + '</ul></td></tr>' for (num, name), items in sorted(units.items()))
-        out += (f'<details><summary>{icon("book")} Cambridge Primary Science Stage 5 '
+        out += (f'<details><summary>{icon("book")} Cambridge Primary Science Stage {grade} '
                 f'<span style="font-family:Andika,sans-serif;font-weight:400;font-size:15px;color:var(--muted)">· Learner\'s Book units</span></summary>'
                 f'<table><thead><tr><th>Learner\'s Book unit</th><th>Packs that cover it</th></tr></thead><tbody>{rows}</tbody></table></details>')
     return out
 
 
-def write(topics, out, strands, kinds):
-    zsp = os.path.join(out, 'downloads', 'grade-5-science-all-study-packs.zip')
-    zak = os.path.join(out, 'downloads', 'grade-5-science-all-answer-keys.zip')
+def write(topics, out, strands, kinds, grade):
+    zsp = os.path.join(out, 'downloads', f'grade-{grade}-science-all-study-packs.zip')
+    zak = os.path.join(out, 'downloads', f'grade-{grade}-science-all-answer-keys.zip')
     pages = sum(pdf_pages(os.path.join(out, 'pdf', t.slug + '-study-pack.pdf')) for t in topics)
     sheets = sum(len(t.sheets) for t in topics)
     outcomes = sum(len(t.outcomes) for t in topics)
     zips = ''
     if os.path.exists(zsp):
-        zips += (f'<a class="btn btn-light" href="downloads/grade-5-science-all-study-packs.zip" download>{icon("file-zip")} '
+        zips += (f'<a class="btn btn-light" href="downloads/grade-{grade}-science-all-study-packs.zip" download>{icon("file-zip")} '
                  f'All study packs <small>{size_mb(zsp)}</small></a>')
     if os.path.exists(zak):
-        zips += (f'<a class="btn btn-ghost" href="downloads/grade-5-science-all-answer-keys.zip" download>{icon("key")} '
+        zips += (f'<a class="btn btn-ghost" href="downloads/grade-{grade}-science-all-answer-keys.zip" download>{icon("key")} '
                  f'All answer keys <small>{size_mb(zak)}</small></a>')
     zips += f'<a class="btn btn-ghost" href="#syllabus">{icon("map")} Syllabus map</a>'
+    grade_links = ''.join(f'<a href="../grade-{g}-science/"{" aria-current=page" if g == grade else ""}>{GRADE_NAMES[g]}</a>' for g in sorted(GRADE_NAMES))
 
     kind_list = ''.join(f'<div>{icon(ic)}<span><b>{label}</b> · {KIND_HELP[k]}</span></div>' for k, (ic, label) in kinds.items())
     chips = '<button class="chip" data-strand="all" aria-pressed="true">All topics</button>' + ''.join(
@@ -273,16 +301,16 @@ def write(topics, out, strands, kinds):
         ts = [t for t in topics if t.strand == k]
         if ts:
             groups += (f'<section class="group" id="{k}"><div class="group-head"><h2>{icon(ic)} {name}</h2>'
-                       f'<span class="count">{len(ts)} pack{"s" if len(ts) > 1 else ""}</span></div><p>{ABOUT[k]}</p>'
-                       f'<div class="grid">{"".join(card(t, out, kinds) for t in ts)}</div></section>')
+                       f'<span class="count">{len(ts)} pack{"s" if len(ts) > 1 else ""}</span></div><p>{ABOUT[grade][k]}</p>'
+                       f'<div class="grid">{"".join(card(t, out, kinds, grade) for t in ts)}</div></section>')
 
     page = f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Grade 5 Science Study Packs | InquiryMind</title>
-<meta name="description" content="Free printable Grade 5 science worksheets and study packs with answer keys: illustrated articles, fact checks, investigations and Bangladesh case studies covering the whole Grade 5 syllabus.">
+<title>Grade {grade} Science Study Packs | InquiryMind</title>
+<meta name="description" content="Free printable Grade {grade} science worksheets and study packs with answer keys: illustrated articles, fact checks, investigations and Bangladesh case studies covering the whole Grade {grade} syllabus.">
 <link rel="icon" href="assets/inquirymind-logo.png">
 <style>{CSS}</style>
 </head>
@@ -290,14 +318,15 @@ def write(topics, out, strands, kinds):
 <header class="topbar"><div class="shell">
   <a class="brand" href="./"><img src="assets/inquirymind-logo.png" alt="InquiryMind"></a>
   <nav class="tabs" aria-label="Learning resources">
-    <a href="../../simulations/">Math sims</a><a href="../../science-simulations/">Science sims</a><a href="./" aria-current="page">Worksheets</a>
+    <a href="../../simulations/">Math sims</a><a href="../../science-simulations/">Science sims</a><a href="../" aria-current="page">Worksheets</a>
   </nav>
 </div></header>
 <main class="shell">
   <section class="hero">
-    <div class="eyebrow">InquiryMind · Grade 5 Science</div>
+    <div class="eyebrow">InquiryMind · Grade {grade} Science</div>
+    <div class="grades">{grade_links}</div>
     <h1>Study packs and worksheets</h1>
-    <p>Print-ready, black-and-white study packs that cover the whole Grade 5 science syllabus. Each pack teaches the topic with an illustrated article, then builds from facts to thinking, a real investigation and a transdisciplinary case study set in Bangladesh. Every pack has its own answer key.</p>
+    <p>Print-ready, black-and-white study packs that cover the whole Grade {grade} science syllabus. Each pack teaches the topic with an illustrated article, then builds from facts to thinking, a real investigation and a transdisciplinary case study set in Bangladesh. Every pack has its own answer key.</p>
     <div class="stats"><span>{len(topics)} study packs</span><span>{sheets} worksheets</span>{f"<span>{pages} printable pages</span>" if pages else ""}<span>{outcomes} learning outcomes</span><span>Answer keys included</span></div>
     <div class="hero-actions">{zips}</div>
   </section>
@@ -322,20 +351,69 @@ def write(topics, out, strands, kinds):
 
   <section class="section" id="syllabus">
     <h2>{icon("map")} Syllabus coverage map</h2>
-    <p class="lead">Every Grade 5 learning outcome in the school science continuum (IB PYP Phase 4, standardised against Cambridge Primary Science) and the pack that teaches it. Working scientifically skills are also practised in every pack's investigation.</p>
-    <div class="map">{coverage(topics, strands)}</div>
+    <p class="lead">Every Grade {grade} learning outcome in the school science continuum ({PHASE[grade]}, standardised against Cambridge Primary Science) and the pack that teaches it. Working scientifically skills are also practised in every pack's investigation.</p>
+    <div class="map">{coverage(topics, strands, grade)}</div>
   </section>
 
   <section class="credit" id="credits">
     <h2>Credits and licence</h2>
-    <p>All worksheets, articles, questions, case studies and illustrations are original material written and drawn for InquiryMind. They are aligned to the school's Grade 5 science continuum and to the topics of Cambridge Primary Science Stage 5; they are not published or endorsed by Cambridge University Press or Cambridge International, and no text from their books is reproduced. Case-study facts are drawn from public sources named on each sheet; data marked “example” is illustrative.</p>
-    <p>Fonts: Andika, Fredoka and Patrick Hand (SIL Open Font License 1.1, licence files in <code>assets/</code>). Icons: <a href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT licence). Simulations linked from these packs are adapted from <a href="https://phet.colorado.edu" target="_blank" rel="noopener">PhET Interactive Simulations</a>, University of Colorado Boulder (CC BY-NC 4.0).</p>
+    <p>All worksheets, articles, questions, case studies and illustrations are original material written and drawn for InquiryMind. They are aligned to the school's Grade {grade} science continuum and to the topics of Cambridge Primary Science Stage {grade}; they are not published or endorsed by Cambridge University Press or Cambridge International, and no text from their books is reproduced. Case-study facts are drawn from public sources named on each sheet; data marked “example” is illustrative.</p>
+    <p>Fonts: Andika, Fredoka and Patrick Hand (SIL Open Font License 1.1, licence files in <code>assets/</code>). Icons: <a href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT licence). Picture icons in some packs: <a href="https://openmoji.org" target="_blank" rel="noopener">OpenMoji</a>, the open-source emoji and icon project (CC BY-SA 4.0). Simulations linked from these packs are adapted from <a href="https://phet.colorado.edu" target="_blank" rel="noopener">PhET Interactive Simulations</a>, University of Colorado Boulder (CC BY-NC 4.0).</p>
   </section>
 </main>
-<footer>InquiryMind · Learn · Play · Wonder · Grade 5 Science study packs</footer>
+<footer>InquiryMind · Learn · Play · Wonder · Grade {grade} Science study packs</footer>
 <script>{SCRIPT}</script>
 </body>
 </html>
 """
     with open(os.path.join(out, 'index.html'), 'w', encoding='utf-8') as f:
+        f.write(page)
+
+
+def write_landing(ws_dir, topics_by_grade):
+    """worksheets/index.html: choose a grade."""
+    g0 = min(topics_by_grade)
+    css = CSS.replace("url('assets/", f"url('grade-{g0}-science/assets/")
+    cards = ''
+    for g, ts in sorted(topics_by_grade.items()):
+        if not ts:
+            continue
+        sheets = sum(len(t.sheets) for t in ts)
+        outcomes = sum(len(t.outcomes) for t in ts)
+        topics = ', '.join(plain(t.short) for t in ts[:8]) + ' …'
+        cards += (f'<article class="card"><div class="card-body"><h3 style="font-size:28px">{GRADE_NAMES[g]} Science</h3>'
+                  f'<div class="meta"><span>{len(ts)} study packs</span><span>{sheets} worksheets</span><span>{outcomes} outcomes</span>'
+                  f'<span>answer keys</span></div><p class="sub">{esc(topics)}</p>'
+                  f'<div class="actions" style="grid-template-columns:1fr"><a class="btn btn-primary" href="grade-{g}-science/">'
+                  f'{icon("book")} Open {GRADE_NAMES[g]} packs</a></div></div></article>')
+    page = f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Science Study Packs | InquiryMind</title>
+<meta name="description" content="Free printable primary science study packs and worksheets with answer keys, by grade.">
+<link rel="icon" href="grade-{g0}-science/assets/inquirymind-logo.png">
+<style>{css}</style>
+</head>
+<body>
+<header class="topbar"><div class="shell">
+  <a class="brand" href="./"><img src="grade-{g0}-science/assets/inquirymind-logo.png" alt="InquiryMind"></a>
+  <nav class="tabs" aria-label="Learning resources">
+    <a href="../simulations/">Math sims</a><a href="../science-simulations/">Science sims</a><a href="./" aria-current="page">Worksheets</a>
+  </nav>
+</div></header>
+<main class="shell">
+  <section class="hero">
+    <div class="eyebrow">InquiryMind · Science</div>
+    <h1>Study packs and worksheets</h1>
+    <p>Print-ready, black-and-white science study packs with answer keys, written for each grade's syllabus. Choose a grade.</p>
+  </section>
+  <section class="section"><div class="grid">{cards}</div></section>
+</main>
+<footer>InquiryMind · Learn · Play · Wonder</footer>
+</body>
+</html>
+"""
+    with open(os.path.join(ws_dir, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(page)
