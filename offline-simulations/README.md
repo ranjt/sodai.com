@@ -29,7 +29,8 @@ sodai.com/                               (this repository)
     ├── README.md                        this guide
     ├── inquirymind-site/                ready to copy into the InquiryMind Firebase site
     │   ├── simulations/                 math catalog page (InquiryMind style) + 28 sims
-    │   └── science-simulations/         science catalog page (InquiryMind style) + 28 sims
+    │   ├── science-simulations/         science catalog page (InquiryMind style) + 28 sims
+    │   └── worksheets/grade-5-science/  Grade 5 Science study packs + answer keys (see worksheets/README.md)
     └── toolkit/                         rebuild / rebrand / add sims (see toolkit/README.md)
 ```
 
@@ -59,8 +60,8 @@ unzip, and use `offline-simulations/`. Or: `git clone https://github.com/ranjt/s
    one file, which can be shared on its own (e.g. by email, WhatsApp or a learning platform).
 
 Works in current Chrome, Edge, Firefox and Safari, on desktops, laptops, Chromebooks and tablets.
-The Math/Science tabs on the catalog pages link to `../simulations/` and `../science-simulations/`, so keep
-both folders side by side if you want the tabs to work.
+The Math/Science/Worksheets tabs on the catalog pages link to `../simulations/`, `../science-simulations/` and
+`../worksheets/grade-5-science/`, so keep the folders side by side if you want the tabs to work.
 
 ## 3. Publish on inquirymind.org (Firebase)
 
@@ -68,19 +69,22 @@ You need the Firebase project folder for inquirymind.org on your computer (the f
 and the Firebase CLI (`npm install -g firebase-tools`, then `firebase login`).
 
 1. Find the public folder: open `firebase.json` and look at `"hosting": { "public": "..." }` (usually `public`).
-2. Copy **both** folders from `offline-simulations/inquirymind-site/` into it:
+2. Copy **all three** folders from `offline-simulations/inquirymind-site/` into it:
    ```
    public/
    ├── index.html                 (your existing site)
    ├── simulations/               ← copy
-   └── science-simulations/       ← copy
+   ├── science-simulations/       ← copy
+   └── worksheets/                ← copy (Grade 5 Science study packs)
    ```
 3. Deploy: `firebase deploy --only hosting`
-4. Check: https://www.inquirymind.org/simulations/ and https://www.inquirymind.org/science-simulations/
+4. Check: https://www.inquirymind.org/simulations/, https://www.inquirymind.org/science-simulations/ and
+   https://www.inquirymind.org/worksheets/grade-5-science/
 5. Add links from your site's menu or pages:
    ```html
    <a href="/simulations/">Math Simulations</a>
    <a href="/science-simulations/">Science Simulations</a>
+   <a href="/worksheets/grade-5-science/">Grade 5 Science Worksheets</a>
    ```
 
 Notes:
@@ -103,7 +107,8 @@ Notes:
 ## 4. Publish on amrarbazar.com (GitHub Pages)
 
 The `simulations/` and `science-simulations/` folders at the repository root are already live at
-https://amrarbazar.com/simulations/ and https://amrarbazar.com/science-simulations/.
+https://amrarbazar.com/simulations/ and https://amrarbazar.com/science-simulations/. The worksheets
+(`worksheets/grade-5-science/`) go live at https://amrarbazar.com/worksheets/grade-5-science/ once merged.
 Any change merged into the `main` branch is published automatically by
 `.github/workflows/static.yml` (about one minute; check the **Actions** tab on GitHub).
 

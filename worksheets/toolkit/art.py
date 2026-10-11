@@ -97,20 +97,35 @@ def face(mood, size=22):
 
 
 # ------------------------------------------------------------------ graphs
+DASHES = [None, '6 3', '2 3', '9 3 2 3']
+
+
+def point_mark(x, y, si):
+    """Distinct black-and-white point markers for up to four series."""
+    k = si % 4
+    if k == 0:
+        return circle(x, y, 3.2, INK, 1.2)
+    if k == 1:
+        return circle(x, y, 3.4, 'white', 1.3)
+    if k == 2:
+        return rect(x - 3.2, y - 3.2, 6.4, 6.4, 0, INK, 1)
+    return f'<polygon points="{x},{y - 4.2} {x + 4},{y + 3} {x - 4},{y + 3}" fill="white" stroke="{INK}" stroke-width="1.2"/>'
+
+
 def graph(labels, values, ylabel, xlabel, ymax, step, kind='bar', series_names=None, w=150, h=82, plot=False,
-          blank_axes=False):
+          blank_axes=False, ymin=0):
     """Graph paper with axes, in mm-like units (viewBox scaled to page width)."""
     W, H = w * 4, h * 4
     L, R, T, B = 52, 14, 14, 50
     pw, ph = W - L - R, H - T - B
     out = ''
     # grid
-    nsteps = int(round(ymax / step))
+    nsteps = int(round((ymax - ymin) / step))
     for i in range(nsteps + 1):
         y = T + ph - ph * i / nsteps
         out += line(L, y, L + pw, y, 0.6, color='#aaa')
         if not blank_axes:
-            out += text(L - 6, y + 4, f'{i * step:g}', 11, 'end')
+            out += text(L - 6, y + 4, f'{ymin + i * step:g}', 11, 'end')
     minor = 4
     for i in range(nsteps * minor + 1):
         y = T + ph - ph * i / (nsteps * minor)
@@ -135,7 +150,7 @@ def graph(labels, values, ylabel, xlabel, ymax, step, kind='bar', series_names=N
                 if v is None:
                     continue
                 cx = L + slot * (i + 0.5)
-                cy = T + ph - ph * v / ymax
+                cy = T + ph - ph * (v - ymin) / (ymax - ymin)
                 if kind == 'bar':
                     bw = slot * 0.6 / len(series)
                     bx = L + slot * i + slot * 0.2 + bw * si
@@ -143,14 +158,14 @@ def graph(labels, values, ylabel, xlabel, ymax, step, kind='bar', series_names=N
                 else:
                     pts.append((cx, cy))
             if kind == 'line' and pts:
-                out += path('M' + ' L'.join(f'{x:.1f},{y:.1f}' for x, y in pts), w=1.6, dash=None if si == 0 else '5 3')
+                out += path('M' + ' L'.join(f'{x:.1f},{y:.1f}' for x, y in pts), w=1.6, dash=DASHES[si % 4])
                 for x, y in pts:
-                    out += (circle(x, y, 3.2, '#111' if si == 0 else 'white', 1.3))
+                    out += point_mark(x, y, si)
         if series_names:
             for si, name in enumerate(series_names):
-                lx = L + 10 + si * 120
+                lx = L + 10 + si * (pw / max(len(series_names), 1))
                 sample = rect(lx, 4, 14, 9, 0, fills[si % 3], 1.2) if kind == 'bar' else \
-                    line(lx, 9, lx + 16, 9, 1.6, None if si == 0 else '5 3') + circle(lx + 8, 9, 3, '#111' if si == 0 else 'white', 1.2)
+                    line(lx, 9, lx + 16, 9, 1.6, DASHES[si % 4]) + point_mark(lx + 8, 9, si)
                 out += sample + text(lx + 20, 13, name, 11, 'start')
     return f'<div class="fig">{svg(W, H, out, width=f"{w}mm")}</div>'
 
@@ -1201,3 +1216,558 @@ def windcatcher(w='100%'):
     o += text(320, 24, 'wind', 11, italic=True) + text(140, 236, 'cool air flows through the house', 10, italic=True)
     o += text(30, 120, 'warm air out', 10, italic=True)
     return svg(340, 245, o, width=w)
+
+
+# ------------------------------------------------------------------ matter
+def particles_box(x, y, state, w=120, h=110, label=True):
+    o = rect(x, y, w, h, 6, 'white', 1.6)
+    r = 7
+    if state == 'solid':
+        for row in range(5):
+            for col in range(6):
+                o += circle(x + 14 + col * 18.5, y + h - 12 - row * 15, r, GREY, 1.1)
+    elif state == 'liquid':
+        pts = [(16, 98), (32, 96), (48, 99), (66, 97), (84, 98), (102, 96), (22, 82), (40, 84), (58, 80), (76, 83), (94, 81),
+               (14, 66), (30, 68), (50, 66), (70, 68), (88, 66), (106, 70), (40, 52), (62, 54), (84, 52)]
+        for (px, py) in pts:
+            o += circle(x + px, y + py, r, GREY, 1.1)
+    else:
+        for (px, py) in ((18, 20), (70, 30), (100, 70), (40, 80), (90, 18), (24, 60), (60, 96), (104, 100)):
+            o += circle(x + px, y + py, r, GREY, 1.1)
+            o += arrow(x + px + 8, y + py, x + px + 20, y + py - 8, 0.9, 5)
+    if label:
+        o += text(x + w / 2, y + h + 18, state, 13, weight='bold')
+    return o
+
+
+def states_particles(labels=True, w='100%'):
+    o = particles_box(10, 10, 'solid', label=labels) + particles_box(200, 10, 'liquid', label=labels) + particles_box(390, 10, 'gas', label=labels)
+    o += arrow(136, 50, 192, 50, 1.6, 8) + text(164, 42, 'melting', 10, italic=True)
+    o += arrow(192, 80, 136, 80, 1.6, 8) + text(164, 96, 'freezing', 10, italic=True)
+    o += arrow(326, 50, 382, 50, 1.6, 8) + text(354, 42, 'evaporating', 10, italic=True)
+    o += arrow(382, 80, 326, 80, 1.6, 8) + text(354, 96, 'condensing', 10, italic=True)
+    return svg(520, 150, o, width=w)
+
+
+def thermometer(x, y, value, lo=-10, hi=110, h=220, label_every=10):
+    """Vertical thermometer with scale; liquid up to value."""
+    o = rect(x - 7, y, 14, h, 7, 'white', 1.6) + circle(x, y + h + 8, 12, GREY, 1.6)
+    top = y + h - (value - lo) / (hi - lo) * h
+    o += rect(x - 3, top, 6, y + h - top + 4, 0, GREY, 0)
+    for v in range(lo, hi + 1, 5):
+        yy = y + h - (v - lo) / (hi - lo) * h
+        major = v % label_every == 0
+        o += line(x + 7, yy, x + (18 if major else 13), yy, 1)
+        if major:
+            o += text(x + 22, yy + 4, f'{v}', 9.5, 'start')
+    o += text(x + 22, y - 8, '°C', 10, 'start')
+    return o
+
+
+def heating_setup(w='100%'):
+    """Beaker of ice on a hot plate with a thermometer."""
+    o = rect(60, 190, 140, 20, 3, GREY, 1.6) + text(130, 228, 'hot plate', 10, italic=True)
+    o += path('M80,80 L80,190 L180,190 L180,80', 'white', 1.8)
+    o += rect(82, 130, 96, 58, 0, LIGHT, 0)
+    for (x, y) in ((96, 150), (126, 160), (150, 145), (110, 172), (160, 172)):
+        o += rect(x, y, 16, 14, 2, 'white', 1.1)
+    o += thermometer(130, 30, 0, -10, 110, 150, 20)
+    return svg(260, 235, o, width=w)
+
+
+def evaporation_dishes(w='100%'):
+    o = path('M20,90 Q80,120 140,90', w=1.8) + path('M24,92 Q80,114 136,92 Z', LIGHT, 0)
+    o += text(80, 140, 'wide dish', 12, weight='bold')
+    o += rect(220, 40, 60, 80, 4, 'white', 1.8) + rect(222, 80, 56, 38, 0, LIGHT, 0)
+    o += text(250, 140, 'narrow cup', 12, weight='bold')
+    o += path('M50,80 q-4,-12 0,-24 M80,84 q-4,-12 0,-24 M110,80 q-4,-12 0,-24 M250,70 q-4,-12 0,-24', w=1, dash='2 3')
+    o += text(170, 20, 'same volume of water: 100 ml', 11, italic=True)
+    return svg(320, 150, o, width=w)
+
+
+def salt_pans(w='100%'):
+    o = rect(0, 150, 600, 40, 0, LIGHT, 0) + path('M0,150 q20,-6 40,0 t40,0 t40,0 t40,0', w=1.2)
+    for i in range(3):
+        x = 180 + i * 140
+        o += rect(x, 120, 120, 30, 2, 'white', 1.6)
+        for k in range(6 + i * 4):
+            o += rect(x + 8 + (k * 13) % 104, 140 - (k % 3) * 4, 6, 5, 1, GREY, 0.8)
+    o += sun_icon(520, 40, 20)
+    for x in (230, 370):
+        o += path(f'M{x},116 q-4,-12 0,-24 q4,-12 0,-24', w=1, dash='2 3')
+    o += text(80, 140, 'sea water', 11, italic=True) + text(320, 175, 'shallow pans: water evaporates, salt is left', 11, italic=True)
+    return svg(600, 195, o, width=w)
+
+
+# ------------------------------------------------------------------ mixtures
+def beaker(x, y, w=70, h=90, fill_h=50, fill=LIGHT):
+    o = path(f'M{x},{y} L{x},{y + h} L{x + w},{y + h} L{x + w},{y}', 'white', 1.8)
+    o += rect(x + 2, y + h - fill_h, w - 4, fill_h - 2, 0, fill, 0)
+    o += line(x - 4, y, x + 4, y, 1.6)
+    return o
+
+
+def filtering(labels=None, w='100%'):
+    """1 funnel, 2 filter paper, 3 sand (residue), 4 clear water (filtrate), 5 beaker."""
+    o = path('M60,30 L180,30 L130,100 L130,140 L110,140 L110,100 Z', 'white', 1.8)
+    o += path('M72,36 L168,36 L124,96 L116,96 Z', LIGHT, 1.1)
+    for i in range(14):
+        o += circle(96 + (i * 11) % 50, 60 + (i * 7) % 26, 2, INK, 0)
+    o += beaker(80, 130, 80, 90, 36)
+    o += line(120, 140, 120, 186, 1, dash='2 4')
+    for n, tx, ty, px, py in ((1, 230, 40, 176, 34), (2, 230, 76, 150, 64), (3, 10, 70, 104, 70), (4, 230, 200, 140, 200), (5, 10, 180, 82, 180)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(540, 230, f'<g transform="translate(160 0)">{o}</g>', width=w)
+
+
+FILTER_PARTS = ['funnel', 'filter paper', 'sand left behind (residue)', 'clear water (filtrate)', 'beaker']
+
+
+def separation_methods(names=True, w='100%'):
+    """Four panels: sieving, magnet, filtering, evaporating."""
+    o = ''
+    # sieve
+    o += path('M20,50 L120,50 L110,80 L30,80 Z', 'white', 1.6)
+    for i in range(6):
+        o += line(34 + i * 14, 52, 32 + i * 14, 78, 0.6) + line(26, 56 + i * 4, 114, 56 + i * 4, 0.4)
+    for (x, y) in ((50, 44), (80, 42), (100, 46)):
+        o += ellipse(x, y, 8, 5, GREY, 1.1)
+    for i in range(8):
+        o += circle(40 + i * 10, 96 + (i % 2) * 8, 1.6, INK, 0)
+    # magnet
+    o += path('M170,40 L170,80 Q170,100 190,100 Q210,100 210,80 L210,40 L196,40 L196,80 Q196,86 190,86 Q184,86 184,80 L184,40 Z', LIGHT, 1.6)
+    o += rect(170, 40, 14, 12, 0, INK, 0) + rect(196, 40, 14, 12, 0, INK, 0)
+    for i in range(10):
+        o += line(176 + (i * 7) % 30, 110 + (i * 5) % 10, 180 + (i * 7) % 30, 108 + (i * 5) % 10, 1.4)
+    # filtering (small)
+    o += path('M260,40 L320,40 L296,74 L296,90 L284,90 L284,74 Z', 'white', 1.6) + beaker(268, 84, 44, 46, 20)
+    # evaporating
+    o += path('M360,70 Q400,92 440,70', w=1.8) + rect(370, 96, 60, 8, 2, GREY, 1.2)
+    for x in (380, 400, 420):
+        o += path(f'M{x},110 q-5,8 0,16 q5,-8 0,-16', LIGHT, 1)
+    o += path('M384,64 q-3,-10 0,-20 M404,62 q-3,-10 0,-20', w=1, dash='2 3')
+    for k in range(5):
+        o += rect(384 + k * 8, 76, 4, 3, 0.5, INK, 0)
+    labels = ['sieving', 'using a magnet', 'filtering', 'evaporating'] if names else ['A', 'B', 'C', 'D']
+    for i, x in enumerate((70, 190, 290, 400)):
+        o += text(x, 150, labels[i], 12, weight='bold')
+    return svg(470, 160, o, width=w)
+
+
+# ------------------------------------------------------------------ atoms
+def atom_model(labels=None, w='100%'):
+    """Simple atom: nucleus of protons and neutrons, electrons around. 1 nucleus, 2 proton, 3 neutron, 4 electron."""
+    cx, cy = 160, 120
+    o = ellipse(cx, cy, 120, 46, 'none', 1.2) + ellipse(cx, cy, 120, 46, 'none', 1.2, 60) + ellipse(cx, cy, 120, 46, 'none', 1.2, -60)
+    for (dx, dy, kind) in ((-8, -6, 'p'), (8, -6, 'n'), (0, 6, 'p'), (-12, 8, 'n'), (12, 8, 'n'), (0, -14, 'p')):
+        o += circle(cx + dx, cy + dy, 8, GREY if kind == 'p' else 'white', 1.2)
+        o += text(cx + dx, cy + dy + 3.5, '+' if kind == 'p' else '', 10, weight='bold')
+    for (ex, ey) in ((cx + 120, cy), (cx - 60, cy - 104), (cx - 60, cy + 104)):
+        o += circle(ex, ey, 5, INK, 0)
+    for n, tx, ty, px, py in ((1, 330, 60, 174, 112), (2, 330, 100, cx + 1, cy - 14), (3, 330, 140, cx + 14, cy + 9), (4, 330, 190, cx + 120, cy + 4)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(470, 240, o, width=w)
+
+
+ATOM_PARTS = ['nucleus', 'proton', 'neutron', 'electron']
+
+
+def balance_bag(before=True, mass='312 g', w='100%'):
+    """A sealed bag (vinegar + baking soda) on a digital balance."""
+    o = rect(40, 150, 180, 40, 8, LIGHT, 1.6) + rect(90, 162, 80, 20, 3, 'white', 1.3) + text(130, 177, mass, 13, weight='bold')
+    o += rect(50, 140, 160, 10, 2, GREY, 1.4)
+    if before:
+        o += path('M80,140 L80,70 Q130,58 180,70 L180,140 Z', 'white', 1.6) + rect(110, 104, 26, 34, 3, LIGHT, 1.2)
+        o += text(130, 60, 'before mixing', 11, italic=True)
+    else:
+        o += path('M70,140 C40,110 50,40 130,36 C210,40 220,110 190,140 Z', 'white', 1.6)
+        for (x, y) in ((110, 80), (130, 70), (150, 90), (120, 110), (160, 116)):
+            o += circle(x, y, 4, 'white', 1)
+        o += text(130, 26, 'after: bag puffs up with gas', 11, italic=True)
+    return svg(260, 200, o, width=w)
+
+
+def water_molecule(w='100%'):
+    o = circle(100, 70, 34, GREY, 1.6) + text(100, 76, 'O', 16, weight='bold')
+    o += circle(52, 112, 20, 'white', 1.6) + text(52, 118, 'H', 14, weight='bold')
+    o += circle(148, 112, 20, 'white', 1.6) + text(148, 118, 'H', 14, weight='bold')
+    o += text(100, 152, 'water: H₂O', 12, italic=True)
+    return svg(200, 160, o, width=w)
+
+
+# ------------------------------------------------------------------ energy
+def energy_chain(steps, w='100%'):
+    """steps: list of (title, subtitle). Boxes joined by arrows."""
+    n = len(steps)
+    bw, gap = 130, 30
+    o = ''
+    for i, (t, sub) in enumerate(steps):
+        x = 10 + i * (bw + gap)
+        o += rect(x, 10, bw, 64, 10, LIGHT if i in (0, n - 1) else 'white', 1.6)
+        o += text(x + bw / 2, 38, t, 12.5, weight='bold') + text(x + bw / 2, 56, sub, 10.5)
+        if i < n - 1:
+            o += arrow(x + bw + 3, 42, x + bw + gap - 3, 42, 1.8, 8)
+    return svg(20 + n * bw + (n - 1) * gap, 84, o, width=w)
+
+
+def insulation_cups(names=('no cover', 'newspaper', 'wool', 'foil'), w='100%'):
+    o = ''
+    for i, nm in enumerate(names):
+        x = 20 + i * 120
+        o += path(f'M{x},40 L{x + 80},40 L{x + 72},140 L{x + 8},140 Z', 'white', 1.6)
+        if i == 1:
+            for k in range(6):
+                o += line(x + 4, 50 + k * 15, x + 76, 50 + k * 15, 0.8)
+        if i == 2:
+            o += path(f'M{x},40 L{x + 80},40 L{x + 72},140 L{x + 8},140 Z', GREY, 1.6)
+            for k in range(10):
+                o += path(f'M{x + 10 + (k % 5) * 12},{60 + (k // 5) * 40} q4,-6 8,0 t8,0', w=0.8)
+        if i == 3:
+            o += path(f'M{x},40 L{x + 80},40 L{x + 72},140 L{x + 8},140 Z', LIGHT, 1.6)
+            o += path(f'M{x + 10},70 L{x + 30},60 L{x + 50},78 L{x + 70},62', w=0.8)
+        o += thermometer(x + 40, -10, 70, 0, 100, 90, 50) if False else line(x + 40, 10, x + 40, 120, 3) + circle(x + 40, 124, 5, GREY, 1.2)
+        o += text(x + 40, 162, nm, 12, weight='bold')
+    return svg(500, 170, o, width=w)
+
+
+def solar_home(w='100%'):
+    o = path('M40,90 L140,40 L240,90 Z', LIGHT, 1.6) + rect(60, 90, 160, 100, 0, 'white', 1.6)
+    o += path('M110,62 L170,40 L196,58 L136,80 Z', GREY, 1.4)
+    for k in range(3):
+        o += line(122 + k * 20, 72 - k * 7, 148 + k * 20, 50 - k * 7, 0.6)
+    o += sun_icon(320, 40, 18) + arrow(296, 50, 196, 56, 1.4, 8, '5 4')
+    o += rect(80, 150, 40, 30, 3, LIGHT, 1.4) + text(100, 170, 'battery', 9)
+    o += line(166, 72, 166, 110, 1.2) + line(166, 110, 120, 160, 1.2)
+    o += circle(170, 130, 10, 'white', 1.4) + line(170, 110, 170, 120, 1.2)
+    for a in range(0, 360, 60):
+        t = math.radians(a)
+        o += line(170 + 13 * math.cos(t), 130 + 13 * math.sin(t), 170 + 18 * math.cos(t), 130 + 18 * math.sin(t), 1)
+    o += text(150, 210, 'solar panel → battery → LED light, fan, phone charger', 10.5, italic=True)
+    return svg(360, 220, o, width=w)
+
+
+# ------------------------------------------------------------------ sound
+def wave(x, y, length, amp, cycles, w=1.6):
+    pts = []
+    for i in range(0, 201):
+        t = i / 200
+        pts.append((x + length * t, y - amp * math.sin(2 * math.pi * cycles * t)))
+    return path('M' + ' L'.join(f'{a:.1f},{b:.1f}' for a, b in pts), w=w)
+
+
+def sound_waves(numbered=False, w='100%'):
+    panels = [('loud, low pitch', 40, 2), ('quiet, low pitch', 14, 2), ('loud, high pitch', 40, 6), ('quiet, high pitch', 14, 6)]
+    o = ''
+    for i, (t, amp, cyc) in enumerate(panels):
+        x, y = 10 + (i % 2) * 290, 10 + (i // 2) * 120
+        o += rect(x, y, 270, 100, 8, 'white', 1.4) + line(x + 10, y + 50, x + 260, y + 50, 0.5, '3 3')
+        o += wave(x + 10, y + 50, 250, amp, cyc)
+        o += text(x + 135, y + 116, t if not numbered else chr(65 + i), 12, weight='bold')
+    return svg(580, 250, o, width=w)
+
+
+def ear(labels=None, w='100%'):
+    """1 outer ear, 2 ear canal, 3 eardrum, 4 tiny bones, 5 cochlea, 6 nerve to brain."""
+    o = path('M40,40 C10,60 10,150 50,180 C70,190 80,170 70,150 C60,130 80,120 80,100 C80,70 70,50 40,40 Z', LIGHT, 1.6)
+    o += path('M78,100 L150,96 L150,116 L78,118 Z', 'white', 1.4)
+    o += line(152, 90, 152, 122, 3)
+    o += path('M156,100 L172,92 L184,104 L196,96', w=2.4)
+    o += path('M206,96 C230,70 260,86 248,110 C240,128 216,122 222,104 C226,94 238,98 236,106', w=2)
+    o += path('M248,100 C270,90 290,80 320,70', w=1.4, dash='4 3')
+    for n, tx, ty, px, py in ((1, 20, 20, 40, 60), (2, 110, 150, 112, 112), (3, 160, 150, 152, 118), (4, 190, 60, 178, 96), (5, 270, 140, 240, 116), (6, 330, 50, 300, 78)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(500, 200, f'<g transform="translate(60 0)">{o}</g>', width=w)
+
+
+EAR_PARTS = ['outer ear', 'ear canal', 'eardrum', 'tiny bones', 'cochlea', 'nerve to the brain']
+
+
+def string_phone(w='100%'):
+    o = path('M30,60 L70,40 L70,100 L30,80 Z', 'white', 1.6) + path('M470,60 L430,40 L430,100 L470,80 Z', 'white', 1.6)
+    o += line(70, 70, 430, 70, 1.4)
+    for x in range(110, 400, 40):
+        o += path(f'M{x},64 q5,6 0,12', w=1)
+    o += text(250, 100, 'vibrations travel along the tight string', 11, italic=True)
+    return svg(500, 110, o, width=w)
+
+
+def instruments(w='100%'):
+    o = ''
+    # dhol (drum)
+    o += ellipse(60, 50, 40, 14, 'white', 1.6) + path('M20,50 L20,120 M100,50 L100,120', w=1.6) + path('M20,120 Q60,136 100,120', w=1.6)
+    for k in range(5):
+        o += line(24 + k * 18, 56, 34 + k * 16, 126, 0.8)
+    o += text(60, 160, 'dhol (drum)', 11, weight='bold')
+    # ektara
+    o += ellipse(200, 120, 26, 18, GREY, 1.6) + path('M186,104 L190,20 M214,104 L210,20', w=2) + line(200, 20, 200, 120, 1)
+    o += text(200, 160, 'ektara (string)', 11, weight='bold')
+    # bansuri (flute)
+    o += rect(270, 70, 160, 14, 7, LIGHT, 1.6)
+    for k in range(6):
+        o += circle(330 + k * 14, 77, 3, INK, 0)
+    o += circle(290, 77, 4, 'white', 1.2)
+    o += text(350, 160, 'bansuri (flute)', 11, weight='bold')
+    return svg(450, 170, o, width=w)
+
+
+# ------------------------------------------------------------------ machines
+def lever(labels=None, w='100%'):
+    """See-saw lever: 1 effort, 2 fulcrum (pivot), 3 load."""
+    o = line(20, 120, 400, 120, 1.4)
+    o += path('M200,118 L180,150 L220,150 Z', GREY, 1.6)
+    o += rect(30, 100, 360, 10, 3, 'white', 1.6)
+    o += rect(320, 60, 50, 40, 4, LIGHT, 1.6) + text(345, 85, 'load', 11, weight='bold')
+    o += arrow(70, 40, 70, 96, 2, 10)
+    for n, tx, ty, px, py in ((1, 30, 30, 70, 60), (2, 260, 170, 200, 140), (3, 420, 50, 370, 80)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(580, 180, f'<g transform="translate(90 0)">{o}</g>', width=w)
+
+
+LEVER_PARTS = ['effort (push)', 'fulcrum (pivot)', 'load']
+
+
+def simple_machines(names=True, w='100%'):
+    o = ''
+    # lever
+    o += path('M40,80 L30,98 L50,98 Z', GREY, 1.2) + line(0, 76, 110, 70, 3) + rect(88, 52, 20, 18, 2, LIGHT, 1.2) + arrow(8, 50, 8, 72, 1.4, 6)
+    # pulley
+    o += line(160, 10, 220, 10, 2) + line(190, 10, 190, 26, 1.4) + circle(190, 36, 12, 'white', 1.6) + circle(190, 36, 2, INK, 0)
+    o += line(178, 36, 178, 90, 1.2) + line(202, 36, 202, 70, 1.2) + rect(194, 70, 16, 16, 2, LIGHT, 1.2) + arrow(178, 80, 178, 98, 1.4, 6)
+    # wheel and axle
+    o += circle(290, 56, 34, 'white', 1.6) + circle(290, 56, 8, GREY, 1.4)
+    for a in range(0, 360, 45):
+        t = math.radians(a)
+        o += line(290 + 8 * math.cos(t), 56 + 8 * math.sin(t), 290 + 34 * math.cos(t), 56 + 34 * math.sin(t), 0.8)
+    # inclined plane
+    o += path('M360,100 L470,100 L470,40 Z', LIGHT, 1.6) + rect(400, 62, 18, 14, 2, 'white', 1.2, None).replace('rect', 'rect transform="rotate(-29 409 69)"', 1)
+    # wedge
+    o += path('M520,30 L550,30 L535,100 Z', GREY, 1.6) + rect(505, 100, 60, 10, 0, 'white', 1.2)
+    # screw
+    o += rect(615, 20, 20, 12, 2, GREY, 1.4) + path('M618,32 L618,96 L625,106 L632,96 L632,32', 'white', 1.4)
+    for k in range(7):
+        o += line(616, 36 + k * 9, 634, 42 + k * 9, 1.1)
+    labels = ['lever', 'pulley', 'wheel and axle', 'inclined plane (ramp)', 'wedge', 'screw'] if names else list('ABCDEF')
+    for i, x in enumerate((55, 190, 290, 415, 535, 625)):
+        o += text(x, 128, labels[i], 11, weight='bold')
+    return svg(670, 136, o, width=w)
+
+
+MACHINE_NAMES = ['lever', 'pulley', 'wheel and axle', 'inclined plane', 'wedge', 'screw']
+
+
+def dheki(w='100%'):
+    o = line(0, 170, 460, 170, 1.4)
+    o += line(40, 130, 400, 100, 7) + line(40, 130, 400, 100, 4).replace(INK, 'white', 1)
+    o += path('M220,170 L210,112 L230,112 Z', GREY, 1.4) + circle(220, 114, 4, 'white', 1.2)
+    o += rect(386, 100, 16, 50, 3, LIGHT, 1.4) + path('M370,170 C370,150 420,150 420,170', LIGHT, 1.4)
+    o += path('M60,60 C60,40 80,40 80,60 L76,90 L64,90 Z', 'white', 1.4) + line(70, 90, 64, 126, 2)
+    o += text(70, 30, 'press with foot', 10, italic=True) + text(220, 190, 'pivot', 10, italic=True) + text(395, 190, 'rice in a hollow', 10, italic=True)
+    return svg(460, 200, o, width=w)
+
+
+def tubewell(labels=None, w='100%'):
+    """1 handle (lever), 2 pivot, 3 pump body, 4 spout, 5 pipe to underground water."""
+    o = line(0, 200, 300, 200, 1.4) + rect(130, 70, 34, 130, 4, LIGHT, 1.6)
+    o += line(164, 120, 210, 132, 6) + line(164, 120, 210, 132, 3).replace(INK, 'white', 1)
+    o += line(147, 70, 60, 30, 5) + circle(147, 70, 5, 'white', 1.4)
+    o += path('M147,200 L147,270', w=3) + rect(100, 250, 100, 30, 0, 'none', 1, '4 4')
+    o += text(150, 296, 'groundwater', 10, italic=True)
+    for n, tx, ty, px, py in ((1, 20, 60, 80, 40), (2, 240, 50, 152, 70), (3, 240, 100, 164, 160), (4, 240, 150, 208, 132), (5, 30, 240, 147, 236)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(500, 300, f'<g transform="translate(150 0)">{o}</g>', width=w)
+
+
+TUBEWELL_PARTS = ['handle (lever)', 'pivot', 'pump body', 'spout', 'pipe to underground water']
+
+
+# ------------------------------------------------------------------ light
+def eye(labels=None, w='100%'):
+    """1 eyelid, 2 pupil, 3 lens, 4 retina, 5 optic nerve. Side view section."""
+    o = circle(170, 110, 80, 'white', 1.8)
+    o += path('M96,76 C90,90 90,130 96,144', w=1.4) + ellipse(108, 110, 8, 26, LIGHT, 1.4)
+    o += path('M92,84 L100,84 M92,136 L100,136', w=2.6)
+    o += path('M60,60 C80,30 120,30 130,44', w=2) + path('M60,160 C80,190 120,190 130,176', w=2)
+    o += f'<path d="M226,52 A80,80 0 0 1 226,168" fill="none" stroke="{INK}" stroke-width="4"/>'
+    o += path('M246,110 C270,110 290,104 320,100', w=4)
+    o += line(20, 110, 108, 110, 1, '4 3') + line(108, 110, 248, 110, 1, '4 3')
+    for n, tx, ty, px, py in ((1, 30, 30, 80, 44), (2, 30, 110, 94, 96), (3, 60, 190, 108, 130), (4, 290, 40, 238, 70), (5, 290, 150, 280, 106)):
+        o += callout(n, tx, ty, px, py, labels)
+    return svg(400, 220, f'<g transform="translate(40 0)">{o}</g>', width=w)
+
+
+EYE_PARTS = ['eyelid', 'pupil', 'lens', 'retina', 'optic nerve']
+
+
+def reflection(w='100%'):
+    """Ray hitting a plane mirror with the normal, equal angles."""
+    o = rect(60, 180, 320, 10, 0, GREY, 1.6)
+    for k in range(16):
+        o += line(64 + k * 20, 190, 56 + k * 20, 200, 1)
+    o += line(220, 180, 220, 40, 1.2, '5 4') + text(220, 30, 'normal', 10, italic=True)
+    o += arrow(90, 50, 218, 178, 2, 10) + arrow(222, 178, 350, 50, 2, 10)
+    o += path('M210,140 A40,40 0 0 1 220,138', w=1.2) + text(196, 136, 'i', 12, italic=True) + text(244, 136, 'r', 12, italic=True)
+    o += text(90, 40, 'incoming ray', 10, italic=True) + text(350, 40, 'reflected ray', 10, italic=True)
+    o += text(220, 220, 'angle i = angle r', 12, weight='bold')
+    return svg(440, 230, o, width=w)
+
+
+def periscope(w='100%'):
+    """Light enters the top opening, reflects off two 45-degree mirrors and leaves the bottom opening."""
+    o = path('M80,20 L140,20 L140,160', w=1.8) + path('M80,60 L80,200 L140,200', w=1.8)
+    o += line(84, 24, 136, 76, 3) + line(84, 146, 136, 198, 3)
+    o += arrow(4, 42, 98, 42, 1.6, 8) + arrow(102, 46, 102, 158, 1.6, 8) + arrow(106, 164, 196, 164, 1.6, 8)
+    o += ellipse(212, 164, 12, 8, 'white', 1.4) + circle(208, 164, 3.4, INK, 0)
+    o += text(4, 32, 'light from the object', 9.5, 'start', italic=True)
+    o += text(150, 56, 'mirror at 45°', 10, 'start', italic=True) + text(86, 220, 'mirror at 45°', 10, 'start', italic=True)
+    return svg(240, 228, o, width=w)
+
+
+def refraction_glass(w='100%'):
+    o = path('M70,40 L80,200 L180,200 L190,40', 'white', 1.8) + rect(74, 100, 112, 98, 0, LIGHT, 0) + line(72, 100, 188, 100, 1.2)
+    o += line(150, 10, 128, 100, 4) + line(128, 100, 100, 180, 4)
+    o += line(128, 100, 112, 180, 1, '4 3')
+    o += text(130, 225, 'the pencil looks bent at the water surface', 10.5, italic=True)
+    return svg(260, 235, o, width=w)
+
+
+def pinhole_camera(w='100%'):
+    """Rays from a tree cross at the pinhole and make an upside-down image on the screen."""
+    o = rect(140, 50, 160, 120, 0, 'white', 1.8) + rect(136, 106, 8, 8, 0, 'white', 0)
+    o += rect(296, 50, 6, 120, 0, LIGHT, 1.2)
+    o += path('M40,80 L54,112 L26,112 Z', GREY, 1.4) + rect(36, 112, 8, 28, 0, 'white', 1.4)
+    o += path('M281,156 L293,108 L269,108 Z', GREY, 1.2) + rect(277, 64, 8, 44, 0, 'white', 1.2)
+    o += line(40, 80, 296, 156.8, 1, '5 3') + line(40, 140, 296, 63.2, 1, '5 3')
+    o += text(40, 160, 'object', 10, italic=True) + text(140, 190, 'pinhole', 10, italic=True)
+    o += text(300, 190, 'screen: upside-down image', 10, italic=True)
+    return svg(400, 200, o, width=w)
+
+
+def shadow_setup(w='100%'):
+    """Torch, opaque object and screen; edge rays show the shadow."""
+    o = rect(10, 80, 40, 30, 4, GREY, 1.6) + path('M50,80 L66,72 L66,118 L50,110 Z', 'white', 1.4)
+    o += rect(400, 14, 10, 166, 0, 'white', 1.6) + rect(400, 28, 10, 134, 0, GREY, 0)
+    o += line(66, 95, 400, 28, 1, '5 4') + line(66, 95, 400, 162, 1, '5 4')
+    o += rect(180, 70, 14, 50, 2, LIGHT, 1.4) + text(187, 140, 'object', 10, italic=True)
+    o += text(370, 100, 'shadow', 11, weight='bold') + text(405, 196, 'screen', 10, italic=True) + text(36, 136, 'torch', 10, italic=True)
+    return svg(430, 205, o, width=w)
+
+
+def transparency(w='100%'):
+    o = ''
+    for i, (t, fill, rays) in enumerate((('transparent', 'white', 5), ('translucent', LIGHT, 2), ('opaque', GREY, 0))):
+        x = 20 + i * 180
+        o += rect(x + 60, 20, 16, 100, 2, fill, 1.6)
+        for k in range(5):
+            o += arrow(x, 34 + k * 18, x + 56, 34 + k * 18, 1.1, 6)
+            if k < rays:
+                o += arrow(x + 80, 34 + k * 18 + (3 if i == 1 and k else 0), x + 140, 34 + k * 18 + (k * 4 - 6 if i == 1 else 0), 1.1, 6, '4 3' if i == 1 else None)
+        o += text(x + 68, 145, t, 12, weight='bold')
+    return svg(560, 155, o, width=w)
+
+def eye_icon(x, y, s=1.0):
+    """Small front-facing eye used in ray diagrams; looks to the left."""
+    return (path(f'M{x - 14 * s},{y} Q{x},{y - 11 * s} {x + 14 * s},{y} Q{x},{y + 11 * s} {x - 14 * s},{y} Z', 'white', 1.4)
+            + circle(x - 4 * s, y, 5 * s, GREY, 1.2) + circle(x - 4 * s, y, 2.2 * s, INK, 0))
+
+
+def seeing_object(w='100%'):
+    """Lamp -> book -> eye: we see objects when reflected light enters our eyes."""
+    o = line(0, 170, 460, 170, 1.2)
+    o += line(60, 170, 60, 70, 2) + path('M40,70 L80,70 L70,40 L50,40 Z', 'white', 1.6) + circle(60, 80, 7, LIGHT, 1.2)
+    o += path('M200,150 L250,150 L262,170 L212,170 Z', GREY, 1.4) + text(232, 190, 'book', 10, italic=True)
+    o += arrow(74, 88, 226, 152, 1.6, 9) + arrow(238, 152, 386, 92, 1.6, 9)
+    o += eye_icon(404, 86, 1.2) + text(404, 116, 'eye', 10, italic=True) + text(60, 190, 'lamp (light source)', 10, italic=True)
+    o += text(140, 106, 'light from the source', 10, italic=True) + text(330, 140, 'reflected light', 10, italic=True)
+    return svg(460, 200, o, width=w)
+
+
+def mirror_writing(w='100%'):
+    """The word AMBULANCE written back to front, and how it looks in a mirror."""
+    o = rect(10, 20, 220, 50, 6, 'white', 1.6) + rect(260, 20, 220, 50, 6, LIGHT, 1.6)
+    o += (f'<text x="-120" y="54" font-size="26" text-anchor="middle" font-weight="bold" transform="scale(-1 1)" '
+          f'font-family="Fredoka, Andika, sans-serif" fill="{INK}">AMBULANCE</text>')
+    o += text(370, 54, 'AMBULANCE', 26, weight='bold')
+    o += text(120, 92, 'painted on the front of the ambulance', 10, italic=True)
+    o += text(370, 92, 'what a driver sees in the mirror', 10, italic=True)
+    return svg(490, 100, o, width=w)
+
+
+OPTICAL_DEVICES = ['hand lens', 'telescope', 'pinhole camera', 'camera', 'kaleidoscope']
+
+
+def optical_devices(names=True, w='100%'):
+    o = ''
+    # hand lens
+    o += circle(50, 50, 30, LIGHT, 2.4) + line(71, 71, 100, 100, 7) + path('M36,40 Q44,30 54,32', w=1.2)
+    # telescope on a tripod
+    o += f'<g transform="rotate(-20 190 60)">' + rect(140, 48, 100, 22, 3, 'white', 1.6) + rect(240, 44, 18, 30, 2, GREY, 1.4) + rect(126, 52, 14, 14, 2, GREY, 1.2) + '</g>'
+    o += line(190, 70, 170, 110, 1.6) + line(190, 70, 210, 110, 1.6) + line(190, 70, 190, 110, 1.6)
+    # pinhole camera (box with hole and screen)
+    o += rect(300, 40, 70, 54, 2, 'white', 1.6) + circle(300, 67, 2.4, INK, 0) + rect(366, 40, 6, 54, 0, GREY, 1.2)
+    # camera
+    o += rect(420, 42, 90, 58, 6, 'white', 1.6) + rect(440, 32, 28, 10, 2, GREY, 1.4) + circle(465, 71, 20, LIGHT, 1.6) + circle(465, 71, 10, 'white', 1.4) + rect(490, 48, 12, 8, 1, GREY, 1)
+    # kaleidoscope
+    o += f'<g transform="rotate(-12 600 70)">' + rect(550, 56, 110, 26, 4, 'white', 1.6) + ellipse(660, 69, 6, 13, GREY, 1.4) + '</g>'
+    for k in range(6):
+        import math as _m
+        t = _m.radians(k * 60)
+        o += line(580, 40, 580 + 14 * _m.cos(t), 40 + 14 * _m.sin(t), 1)
+    labels = OPTICAL_DEVICES if names else list('ABCDE')
+    for i, x in enumerate((60, 190, 336, 465, 605)):
+        o += text(x, 132, labels[i], 11, weight='bold')
+    return svg(680, 140, o, width=w)
+
+
+def light_meter(value, w='100%'):
+    """A digital light meter (lux) reading."""
+    o = rect(20, 10, 120, 170, 14, 'white', 1.8) + rect(36, 30, 88, 44, 4, LIGHT, 1.4)
+    o += text(80, 62, str(value), 22, weight='bold') + text(80, 92, 'lux', 12, weight='bold')
+    o += circle(80, 140, 22, GREY, 1.6) + text(80, 196, 'light sensor on top', 9.5, italic=True)
+    return svg(160, 205, o, width=w)
+
+def refraction_ray(w='100%'):
+    """A ray of light bends towards the normal as it passes from air into water."""
+    o = rect(20, 110, 300, 90, 0, LIGHT, 0) + line(20, 110, 320, 110, 1.6)
+    o += line(170, 20, 170, 196, 1.1, '5 4') + text(178, 30, 'normal', 10, 'start', italic=True)
+    o += arrow(80, 24, 168, 108, 2, 9) + arrow(170, 110, 216, 192, 2, 9)
+    o += line(170, 110, 256, 192, 1, '3 3') + text(262, 190, 'path with no bend', 9.5, 'start', italic=True)
+    o += text(30, 100, 'air', 12, 'start', weight='bold') + text(30, 190, 'water', 12, 'start', weight='bold')
+    o += text(60, 18, 'ray of light', 10, 'start', italic=True)
+    return svg(360, 205, o, width=w)
+
+
+
+
+# ------------------------------------------------------------------ measuring
+def measuring_cylinder(x, y, value, maxv=50, h=170):
+    o = rect(x - 18, y, 36, h, 3, 'white', 1.6) + rect(x - 30, y + h, 60, 8, 2, GREY, 1.2)
+    lvl = y + h - value / maxv * (h - 10)
+    o += rect(x - 16, lvl, 32, y + h - lvl - 1, 0, LIGHT, 0) + path(f'M{x - 16},{lvl} Q{x},{lvl + 6} {x + 16},{lvl}', w=1.2)
+    for v in range(0, maxv + 1, 5):
+        yy = y + h - v / maxv * (h - 10)
+        o += line(x + 8, yy, x + 18, yy, 0.9)
+        if v % 10 == 0:
+            o += text(x + 22, yy + 4, f'{v}', 9, 'start')
+    o += text(x + 22, y - 6, 'ml', 9, 'start')
+    return o
+
+
+def instruments_to_read(w='100%'):
+    o = measuring_cylinder(60, 20, 34) + text(60, 222, 'A', 13, weight='bold')
+    o += thermometer(170, 20, 37, 0, 50, 170, 10) + text(170, 222, 'B', 13, weight='bold')
+    o += rect(240, 120, 220, 30, 2, 'white', 1.6)
+    for k in range(0, 21):
+        xx = 250 + k * 10
+        o += line(xx, 120, xx, 120 + (14 if k % 5 == 0 else 8), 0.9)
+        if k % 5 == 0:
+            o += text(xx, 146, f'{k // 1}', 8)
+    o += rect(250, 92, 70, 18, 2, GREY, 1.2) + text(350, 222, 'C (cm)', 13, weight='bold')
+    o += circle(560, 110, 60, 'white', 1.6)
+    for k in range(12):
+        t = math.radians(k * 30 - 90)
+        o += line(560 + 50 * math.cos(t), 110 + 50 * math.sin(t), 560 + 58 * math.cos(t), 110 + 58 * math.sin(t), 1.2)
+        o += text(560 + 40 * math.cos(t), 114 + 40 * math.sin(t), str((k * 5) if k else 60), 9)
+    t = math.radians(20 * 6 - 90)
+    o += line(560, 110, 560 + 46 * math.cos(t), 110 + 46 * math.sin(t), 2) + circle(560, 110, 3, INK, 0)
+    o += text(560, 222, 'D (seconds)', 13, weight='bold')
+    return svg(640, 232, o, width=w)

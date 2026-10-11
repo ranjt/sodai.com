@@ -275,9 +275,10 @@ footer{{padding:28px 0 40px;text-align:center;font-size:13px;color:var(--muted)}
 <header class="topbar">
   <div class="shell">
     {brand_html}
-    <nav class="tabs" aria-label="Simulation subjects">
+    <nav class="tabs" aria-label="Learning resources">
       <a href="../simulations/"{math_current}>Math</a>
       <a href="../science-simulations/"{science_current}>Science</a>
+      <a href="../worksheets/grade-5-science/">Worksheets</a>
     </nav>
     {back_html}
   </div>

@@ -343,18 +343,18 @@ class Draw(Block):
 class Graph(Block):
     """Bar or line graph frame. Learners plot; the key shows the plotted data."""
     def __init__(self, labels, values, ylabel, xlabel='', ymax=None, step=None, kind='bar', series_names=None,
-                 width=150, height=82, show_data_in_key=True, blank_axes=False):
+                 width=150, height=82, show_data_in_key=True, blank_axes=False, ymin=0):
         self.labels, self.values, self.ylabel, self.xlabel = labels, values, ylabel, xlabel
         self.kind, self.series_names = kind, series_names
         flat = [v for s in (values if values and isinstance(values[0], (list, tuple)) else [values]) for v in s]
         self.ymax = ymax or (max(flat) if flat else 10)
         self.step = step or max(1, round(self.ymax / 10))
-        self.w, self.h, self.show, self.blank_axes = width, height, show_data_in_key, blank_axes
+        self.w, self.h, self.show, self.blank_axes, self.ymin = width, height, show_data_in_key, blank_axes, ymin
 
     def html(self, key):
         import art
         return art.graph(self.labels, self.values, self.ylabel, self.xlabel, self.ymax, self.step, self.kind,
-                         self.series_names, self.w, self.h, plot=key and self.show, blank_axes=self.blank_axes)
+                         self.series_names, self.w, self.h, plot=key and self.show, blank_axes=self.blank_axes, ymin=self.ymin)
 
 
 class WordSearch(Block):

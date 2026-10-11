@@ -171,10 +171,10 @@ def main(argv):
         print('built', t.code, t.title)
     if make_pdf and jobs:
         render_pdfs(jobs)
-    import hub
-    hub.write(topics, OUT, STRANDS, KINDS)
     if make_pdf and not only:
         make_zips(topics)
+    import hub
+    hub.write(topics, OUT, STRANDS, KINDS)
     if os.path.isdir(os.path.dirname(os.path.dirname(IM_COPY))):
         shutil.rmtree(IM_COPY, ignore_errors=True)
         shutil.copytree(OUT, IM_COPY)
