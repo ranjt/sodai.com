@@ -170,6 +170,12 @@ Grade 4 (Stage 4): 1 Humans and animals → A1, A3; 2 Living things and environm
 Grade 5 (Stage 5): 1 Plants → A5; 2 Life cycles → A6; 3 States of matter → C1, B1, C2; 4 The way we see things → C7;
 5 Shadows → C8; 6 Earth's movements → B4.
 
+## Thinking routine organisers
+
+`thinking-routines/pdf/` holds one-page A4 landscape organisers for Project Zero thinking routines (e.g.
+`r01-see-think-wonder.pdf`), drawn for InquiryMind with original icons. Add a routine to `ROUTINES` in
+`toolkit/routines.py` (icons in `toolkit/rt_icons.py`), then run `python3 worksheets/toolkit/routines.py R01`.
+
 ## 3. Printing
 
 - Print the PDFs on **A4, black and white, double-sided** ("flip on long edge"), scale 100 % / "actual size".

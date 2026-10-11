@@ -1,0 +1,260 @@
+/* InquiryMind worksheets: black-and-white A4 print styles (screen view mirrors the printed page). */
+@font-face { font-family: 'Andika'; font-weight: 400; src: url('fonts/andika-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Andika'; font-weight: 700; src: url('fonts/andika-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Andika'; font-weight: 400; font-style: italic; src: url('fonts/andika-latin-400-italic.woff2') format('woff2'); }
+@font-face { font-family: 'Fredoka'; font-weight: 500; src: url('fonts/fredoka-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Fredoka'; font-weight: 600; src: url('fonts/fredoka-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Patrick Hand'; font-weight: 400; src: url('fonts/patrick-hand-latin-400-normal.woff2') format('woff2'); }
+
+:root {
+  --ink: #111;
+  --mid: #555;
+  --soft: #8a8a8a;
+  --line: #222;
+  --fill: #efefef;
+  --fill2: #f7f7f7;
+  --answer: #1a1a1a;
+}
+
+@page {
+  size: A4;
+  margin: 13mm 13mm 15mm 13mm;
+  @bottom-left { content: var(--footer-left, "InquiryMind"); font: 8pt 'Andika', sans-serif; color: #555; }
+  @bottom-right { content: "Page " counter(page) " of " counter(pages); font: 8pt 'Andika', sans-serif; color: #555; }
+}
+@page :first { @bottom-left { content: none; } @bottom-right { content: none; } }
+
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  margin: 0; color: var(--ink); background: #fff;
+  font: 11.2pt/1.45 'Andika', 'Segoe UI', sans-serif;
+}
+@media screen {
+  body { background: #d9d9d9; padding: 16px 0; }
+  .doc { width: 210mm; margin: 0 auto; }
+  .sheet, .cover { background: #fff; padding: 13mm; margin-bottom: 16px; box-shadow: 0 2px 12px rgba(0,0,0,.18); min-height: 297mm; }
+}
+@media print {
+  .cover { height: 265mm; overflow: hidden; }
+  .sheet, .cover { break-before: page; }
+  .doc > :first-child { break-before: auto; }
+  .screen-only { display: none !important; }
+}
+
+h1, h2, h3, h4, .fredoka { font-family: 'Fredoka', 'Andika', sans-serif; font-weight: 600; line-height: 1.15; }
+h1 { font-size: 22pt; margin: 0; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+h3 { font-size: 12.5pt; margin: 10px 0 4px; }
+p { margin: 0 0 7px; }
+b, strong { font-weight: 700; }
+.small { font-size: 9.5pt; }
+.muted { color: var(--mid); }
+svg { max-width: 100%; }
+.ico { width: 1.15em; height: 1.15em; vertical-align: -0.2em; stroke-width: 2; }
+
+/* ---------- cover ---------- */
+.cover { display: flex; flex-direction: column; }
+.cover .brand { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--line); padding-bottom: 8px; }
+.cover .brand img { height: 15mm; }
+.cover .strand { font-family: 'Fredoka'; font-weight: 500; font-size: 12pt; letter-spacing: .06em; text-transform: uppercase; margin-top: 18mm; }
+.cover h1 { font-size: 34pt; margin: 4mm 0 2mm; }
+.cover .subtitle { font-size: 13pt; color: var(--mid); }
+.cover .art { margin: 6mm auto 5mm; width: 132mm; }
+.cover .contents { border: 2px solid var(--line); border-radius: 12px; padding: 10px 14px; }
+.cover .contents li { margin: 3px 0; }
+.cover .owner { margin-top: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; padding-top: 5mm; }
+.cover .owner div { border-bottom: 1.5px solid var(--line); padding-bottom: 2px; font-family: 'Fredoka'; }
+.cover .credit { font-size: 8pt; color: var(--mid); margin-top: 6mm; }
+
+/* ---------- worksheet header ---------- */
+.ws-head { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; border-bottom: 2.5px solid var(--line); padding-bottom: 6px; }
+.ws-head img.logo { height: 11mm; }
+.ws-head .title .kind { font-family: 'Fredoka'; font-weight: 500; font-size: 9.5pt; letter-spacing: .08em; text-transform: uppercase; color: var(--mid); }
+.ws-head .title h1 { font-size: 17pt; }
+.ws-head .badge { text-align: center; border: 2px solid var(--line); border-radius: 10px; padding: 3px 8px; min-width: 22mm; }
+.ws-head .badge svg { width: 9mm; height: 9mm; stroke-width: 1.6; }
+.ws-head .badge .stars { font-size: 11pt; letter-spacing: 1px; line-height: 1; }
+.ws-head .badge .code { font-family: 'Fredoka'; font-size: 8pt; }
+.name-line { display: grid; grid-template-columns: 2.2fr 1fr 1fr; gap: 10px; margin: 7px 0 8px; font-family: 'Fredoka'; font-weight: 500; font-size: 10pt; }
+.name-line span { border-bottom: 1.2px solid var(--line); padding-bottom: 1px; }
+.goal { display: flex; gap: 8px; align-items: flex-start; background: var(--fill); border-radius: 10px; padding: 6px 10px; margin-bottom: 8px; font-size: 10.5pt; }
+.goal svg { flex: none; width: 6mm; height: 6mm; }
+.goal ul { margin: 0; padding-left: 16px; }
+.key-banner { display: none; }
+.answer-key .key-banner { display: block; text-align: center; font-family: 'Fredoka'; font-weight: 600; letter-spacing: .3em; border: 2px dashed var(--line); border-radius: 8px; padding: 2px; margin-bottom: 6px; }
+.answer-key .name-line { display: none; }
+
+/* ---------- questions ---------- */
+.q { position: relative; padding-left: 9.5mm; margin: 9px 0 11px; break-inside: avoid; }
+.q > .num { position: absolute; left: 0; top: 0; width: 7mm; height: 7mm; border-radius: 50%; background: var(--ink); color: #fff; font-family: 'Fredoka'; font-weight: 600; font-size: 10.5pt; display: flex; align-items: center; justify-content: center; }
+.q > .prompt { font-weight: 700; margin-bottom: 4px; padding-right: 9mm; }
+.q > .marks { position: absolute; right: 0; top: 0; font-size: 9pt; color: var(--mid); }
+.q .part { margin: 4px 0 6px; }
+.q .part > .lab { font-weight: 700; margin-right: 4px; }
+.lines { margin-top: 3px; }
+.lines .ln { height: 8.6mm; border-bottom: 1.2px dotted #555; position: relative; }
+.ans { font-family: 'Patrick Hand', 'Comic Sans MS', cursive; color: var(--answer); font-size: 13.5pt; line-height: 1.25; }
+.answer-key .lines .ans { position: absolute; left: 2px; bottom: 1px; right: 0; }
+.answer-key .lines .ln.multi { height: auto; min-height: 8.6mm; border-bottom: 1.2px dotted #555; }
+.answer-key .lines .ln.multi .ans { position: static; display: block; padding-top: 5px; }
+
+.blank { display: inline-block; min-width: 26mm; border-bottom: 1.2px solid var(--line); text-align: center; line-height: 1.2; padding: 0 3px; }
+.blank .ans { visibility: hidden; }
+.answer-key .blank .ans { visibility: visible; }
+.blanks-text { line-height: 2.15; }
+
+.bank { border: 2px solid var(--line); border-radius: 10px; padding: 4px 8px; margin: 4px 0 6px; display: flex; flex-wrap: wrap; gap: 3px 16px; justify-content: center; font-weight: 700; }
+.bank .t { font-size: 8pt; text-transform: uppercase; letter-spacing: .1em; width: 100%; text-align: center; color: var(--mid); font-weight: 400; }
+
+table { border-collapse: collapse; width: 100%; }
+.tbl th, .tbl td { border: 1.4px solid var(--line); padding: 4px 6px; vertical-align: top; text-align: left; }
+.tbl th { background: var(--fill); font-family: 'Fredoka'; font-weight: 600; font-size: 10pt; }
+.tbl td.blank-cell { height: 9mm; }
+.tbl td.blank-cell .ans { visibility: hidden; }
+.answer-key .tbl td.blank-cell .ans { visibility: visible; }
+.tbl.center td, .tbl.center th { text-align: center; }
+
+.match { display: grid; grid-template-columns: 1fr 14mm 1.6fr; gap: 5px 0; align-items: stretch; }
+.match .l, .match .r { border: 1.4px solid var(--line); border-radius: 8px; padding: 4px 8px; display: flex; align-items: center; gap: 6px; }
+.match .dot { width: 3mm; height: 3mm; border-radius: 50%; background: var(--ink); flex: none; }
+.match .l { justify-content: space-between; }
+.match .mid { display: flex; align-items: center; justify-content: center; }
+.match .mid .ans { visibility: hidden; font-size: 12pt; }
+.answer-key .match .mid .ans { visibility: visible; }
+.match .r .letter { font-family: 'Fredoka'; font-weight: 600; }
+.match .l .write { font-size: 9pt; color: var(--mid); white-space: nowrap; }
+
+.tf td.box { width: 13mm; text-align: center; font-family: 'Fredoka'; }
+.tf td.fix { width: 45%; }
+.tf td .ans { visibility: hidden; }
+.answer-key .tf td .ans { visibility: visible; }
+
+.mcq { list-style: none; padding: 0; margin: 3px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 3px 14px; }
+.mcq.one { grid-template-columns: 1fr; }
+.mcq li { display: flex; gap: 7px; align-items: baseline; }
+.mcq .bx { width: 4.2mm; height: 4.2mm; border: 1.4px solid var(--line); border-radius: 50%; flex: none; position: relative; top: .6mm; }
+.answer-key .mcq li.right .bx { background: var(--ink); }
+.answer-key .mcq li.right { font-weight: 700; }
+
+.order { display: grid; gap: 4px; }
+.order .it { display: flex; align-items: center; gap: 8px; border: 1.4px solid var(--line); border-radius: 8px; padding: 3px 8px; }
+.order .sq { width: 8mm; height: 8mm; border: 1.6px solid var(--line); border-radius: 6px; flex: none; display: flex; align-items: center; justify-content: center; }
+.order .sq .ans { visibility: hidden; }
+.answer-key .order .sq .ans { visibility: visible; }
+
+.labels { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 14px; margin-top: 4px; }
+.labels.three { grid-template-columns: repeat(3, 1fr); }
+.labels .lb { display: flex; gap: 6px; align-items: flex-end; }
+.labels .lb .n { font-family: 'Fredoka'; font-weight: 600; width: 6mm; height: 6mm; border: 1.4px solid var(--line); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 9pt; flex: none; }
+.labels .lb .w { flex: 1; border-bottom: 1.2px solid var(--line); height: 7mm; position: relative; }
+.labels .lb .w .ans { visibility: hidden; position: absolute; left: 3px; bottom: 0; }
+.answer-key .labels .lb .w .ans { visibility: visible; }
+.fig-num { font-family: 'Fredoka'; font-weight: 600; font-size: 13px; }
+
+.drawbox { border: 1.6px solid var(--line); border-radius: 10px; position: relative; }
+.drawbox .cap { position: absolute; left: 8px; top: 4px; font-size: 9pt; color: var(--mid); }
+.drawbox .ans { display: none; padding: 22px 10px 8px; }
+.answer-key .drawbox .ans { display: block; }
+
+.ws-grid td { width: 7mm; height: 7mm; border: 1px solid #999; text-align: center; font-family: 'Fredoka'; font-weight: 500; font-size: 11pt; padding: 0; }
+.ws-grid { width: auto; margin: 4px auto; }
+.answer-key .ws-grid td.hit { background: #cfcfcf; font-weight: 700; }
+.ws-words { display: flex; flex-wrap: wrap; gap: 2px 14px; justify-content: center; font-weight: 700; margin-top: 4px; }
+
+/* ---------- article blocks ---------- */
+.cols { column-count: 2; column-gap: 7mm; }
+.cols > * { break-inside: avoid; }
+.keep { break-inside: avoid; }
+.lead { font-size: 12.2pt; }
+.box { border: 1.8px solid var(--line); border-radius: 12px; padding: 7px 10px 6px; margin: 8px 0; break-inside: avoid; }
+.box > .bt { font-family: 'Fredoka'; font-weight: 600; font-size: 11pt; display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
+.box.fact { border-style: dashed; }
+.box.bd { background: var(--fill2); }
+.box.think { border-width: 2.4px; }
+.box.vocab dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; }
+.box.vocab dt { font-weight: 700; }
+.box.vocab dd { margin: 0; }
+.box.safety { border-width: 2.4px; border-style: double; border-width: 4px; }
+.fig { text-align: center; margin: 6px 0 8px; break-inside: avoid; }
+.fig.span { column-span: all; margin: 8px auto 10px; }
+.fig figcaption { font-size: 9.5pt; color: var(--mid); font-style: italic; }
+.row { display: flex; gap: 6mm; align-items: flex-start; }
+.row > * { flex: 1; min-width: 0; }
+.case { border-left: 4px solid var(--line); padding: 2px 0 2px 10px; margin: 6px 0 8px; background: var(--fill2); }
+.case .src { font-size: 8.5pt; color: var(--mid); }
+.links { display: flex; flex-wrap: wrap; gap: 4px; margin: 4px 0 8px; }
+.links span { border: 1.3px solid var(--line); border-radius: 999px; padding: 0 8px; font-size: 9pt; }
+
+/* ---------- self-check ---------- */
+.selfcheck td { padding: 5px 6px; border-bottom: 1px solid #999; }
+.selfcheck td.c { width: 13mm; text-align: center; }
+.selfcheck .face { width: 7mm; height: 7mm; }
+.selfcheck th { font-family: 'Fredoka'; font-size: 9pt; font-weight: 500; text-align: center; }
+
+/* picture cards (OpenMoji) */
+.pics { display: grid; grid-template-columns: repeat(var(--c), 1fr); gap: 6px; margin: 6px 0 8px; }
+.pic { position: relative; border: 1.2px solid var(--line); border-radius: 8px; padding: 5px 4px 4px; text-align: center; break-inside: avoid; background: #fff; }
+.pic svg { display: block; margin: 0 auto; height: auto; }
+.pic .cap { font-family: 'Fredoka'; font-weight: 500; font-size: 10pt; line-height: 1.15; margin-top: 2px; }
+.pic .blankcap { border-bottom: 1.2px dotted #555; min-height: 6mm; margin: 2px 4px 0; }
+.learner .pic .blankcap .ans { visibility: hidden; }
+.pic .pl { position: absolute; left: 4px; top: 3px; font-family: 'Fredoka'; font-weight: 600; font-size: 10pt; }
+.pics.small .cap { font-size: 9pt; }
+
+/* Grade 4: larger print and more writing space */
+body.g4 { font-size: 12.3pt; line-height: 1.5; }
+body.g4 .lead { font-size: 13.2pt; }
+body.g4 h3 { font-size: 13.6pt; }
+body.g4 .ws-head .title h1 { font-size: 18.5pt; }
+body.g4 .lines .ln { height: 10mm; }
+body.g4 .answer-key .lines .ln.multi, body.g4.answer-key .lines .ln.multi { min-height: 10mm; }
+body.g4 .blanks-text { line-height: 2.4; }
+body.g4 .tbl td { padding-top: 5px; padding-bottom: 5px; }
+body.g4 .box { font-size: 11.8pt; }
+.box.try { border-style: dashed; border-width: 2px; }
+.box.check { background: var(--fill2); border-width: 1.4px; }
+body.g4 .cover .art { text-align: center; }
+body.g4 .cover .art svg { width: auto !important; max-width: 100%; max-height: 78mm; display: inline-block; }
+
+/* Grades 2 and 3: big print, lots of space for young writers */
+body.g2 { font-size: 13.6pt; line-height: 1.55; }
+body.g3 { font-size: 12.9pt; line-height: 1.52; }
+body.g2 .lead, body.g3 .lead { font-size: 14pt; }
+body.g2 h3, body.g3 h3 { font-size: 14.5pt; }
+body.g2 .ws-head .title h1, body.g3 .ws-head .title h1 { font-size: 19.5pt; }
+body.g2 .lines .ln { height: 12mm; }
+body.g3 .lines .ln { height: 11mm; }
+body.g2 .answer-key .lines .ln.multi, body.g2.answer-key .lines .ln.multi { min-height: 12mm; }
+body.g3 .answer-key .lines .ln.multi, body.g3.answer-key .lines .ln.multi { min-height: 11mm; }
+body.g2 .blanks-text, body.g3 .blanks-text { line-height: 2.6; }
+body.g2 .box, body.g3 .box { font-size: 12.6pt; }
+body.g2 .pic .cap, body.g3 .pic .cap { font-size: 11.5pt; }
+body.g2 .cover .art, body.g3 .cover .art { text-align: center; }
+body.g2 .cover .art svg, body.g3 .cover .art svg { width: auto !important; max-width: 100%; max-height: 78mm; display: inline-block; }
+h2, h3 { break-after: avoid; }
+
+/* ---------- thinking routine templates (one A4 landscape page each) ---------- */
+.rt-page { height: 191mm; display: flex; flex-direction: column; }
+@media screen {
+  body.routine .rt-doc { width: 297mm; }
+  body.routine .rt-page { height: 210mm; padding: 9mm; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,.18); margin-bottom: 16px; }
+}
+.rt-top { display: grid; grid-template-columns: 50mm 1fr 50mm; align-items: center; gap: 4mm; background: var(--fill); border-radius: 5mm; padding: 2.5mm 6mm; }
+.rt-logo { height: 11mm; }
+.rt-title { text-align: center; font-size: 27pt; letter-spacing: .01em; }
+.rt-name { display: grid; gap: 2.2mm; font-family: 'Fredoka'; font-weight: 500; font-size: 10pt; }
+.rt-name span { border-bottom: 1.3px solid var(--line); padding-bottom: 1px; }
+.rt-focus { display: flex; gap: 3mm; align-items: flex-end; font-family: 'Fredoka'; font-weight: 500; font-size: 10.5pt; margin: 3.5mm 1mm 3mm; }
+.rt-focus span { flex: 1; border-bottom: 1.3px solid var(--line); height: 5mm; }
+.rt-cols { flex: 1; display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 4mm; min-height: 0; }
+.rt-col { border: 2.2px solid var(--line); border-radius: 5mm; display: flex; flex-direction: column; overflow: hidden; }
+.rt-col-head { position: relative; text-align: center; padding: 3mm 5mm 3mm; background: var(--fill2); border-bottom: 1.6px dashed var(--line); }
+.rt-col-head .rt-icon { width: 25mm; height: 25mm; display: block; margin: 0 auto 1mm; }
+.rt-num { position: absolute; left: 3mm; top: 3mm; width: 8mm; height: 8mm; border-radius: 50%; background: var(--ink); color: #fff;
+  font-family: 'Fredoka'; font-weight: 600; font-size: 12pt; display: flex; align-items: center; justify-content: center; }
+.rt-word { font-family: 'Fredoka'; font-weight: 600; font-size: 31pt; line-height: 1; }
+.rt-prompt { font-size: 10pt; color: #444; line-height: 1.25; margin-top: 1.5mm; min-height: 2.5em; }
+.rt-space { flex: 1; }
+.rt-foot { display: flex; justify-content: space-between; align-items: flex-end; gap: 6mm; font-size: 7.3pt; color: var(--mid); margin-top: 2.5mm; }
+.rt-foot span:last-child { white-space: nowrap; }

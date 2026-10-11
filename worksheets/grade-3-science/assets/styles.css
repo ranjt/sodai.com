@@ -233,3 +233,28 @@ body.g2 .pic .cap, body.g3 .pic .cap { font-size: 11.5pt; }
 body.g2 .cover .art, body.g3 .cover .art { text-align: center; }
 body.g2 .cover .art svg, body.g3 .cover .art svg { width: auto !important; max-width: 100%; max-height: 78mm; display: inline-block; }
 h2, h3 { break-after: avoid; }
+
+/* ---------- thinking routine templates (one A4 landscape page each) ---------- */
+.rt-page { height: 191mm; display: flex; flex-direction: column; }
+@media screen {
+  body.routine .rt-doc { width: 297mm; }
+  body.routine .rt-page { height: 210mm; padding: 9mm; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,.18); margin-bottom: 16px; }
+}
+.rt-top { display: grid; grid-template-columns: 50mm 1fr 50mm; align-items: center; gap: 4mm; background: var(--fill); border-radius: 5mm; padding: 2.5mm 6mm; }
+.rt-logo { height: 11mm; }
+.rt-title { text-align: center; font-size: 27pt; letter-spacing: .01em; }
+.rt-name { display: grid; gap: 2.2mm; font-family: 'Fredoka'; font-weight: 500; font-size: 10pt; }
+.rt-name span { border-bottom: 1.3px solid var(--line); padding-bottom: 1px; }
+.rt-focus { display: flex; gap: 3mm; align-items: flex-end; font-family: 'Fredoka'; font-weight: 500; font-size: 10.5pt; margin: 3.5mm 1mm 3mm; }
+.rt-focus span { flex: 1; border-bottom: 1.3px solid var(--line); height: 5mm; }
+.rt-cols { flex: 1; display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 4mm; min-height: 0; }
+.rt-col { border: 2.2px solid var(--line); border-radius: 5mm; display: flex; flex-direction: column; overflow: hidden; }
+.rt-col-head { position: relative; text-align: center; padding: 3mm 5mm 3mm; background: var(--fill2); border-bottom: 1.6px dashed var(--line); }
+.rt-col-head .rt-icon { width: 25mm; height: 25mm; display: block; margin: 0 auto 1mm; }
+.rt-num { position: absolute; left: 3mm; top: 3mm; width: 8mm; height: 8mm; border-radius: 50%; background: var(--ink); color: #fff;
+  font-family: 'Fredoka'; font-weight: 600; font-size: 12pt; display: flex; align-items: center; justify-content: center; }
+.rt-word { font-family: 'Fredoka'; font-weight: 600; font-size: 31pt; line-height: 1; }
+.rt-prompt { font-size: 10pt; color: #444; line-height: 1.25; margin-top: 1.5mm; min-height: 2.5em; }
+.rt-space { flex: 1; }
+.rt-foot { display: flex; justify-content: space-between; align-items: flex-end; gap: 6mm; font-size: 7.3pt; color: var(--mid); margin-top: 2.5mm; }
+.rt-foot span:last-child { white-space: nowrap; }
