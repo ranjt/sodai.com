@@ -1,0 +1,673 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "C2",
+ "title": "Mixtures and Separation",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-4-science/pdf/c2-mixtures-and-separation-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-c2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What happens when we mix",
+   "stem": "What happens when you stir sugar into a glass of water?",
+   "options": [
+    "The sugar floats on top.",
+    "The sugar sinks and stays as lumps.",
+    "The sugar dissolves and seems to disappear.",
+    "The sugar turns into oil."
+   ],
+   "answer": 2,
+   "explanation": "Sugar dissolves in water: it breaks up into tiny pieces that spread through the water, so we cannot see it any more."
+  },
+  {
+   "id": "g4-c2-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "What happens when we mix",
+   "stem": "Sort these by what happens when you put them in water and stir.",
+   "categories": [
+    "Dissolves",
+    "Sinks",
+    "Floats"
+   ],
+   "items": [
+    [
+     "sugar",
+     "Dissolves"
+    ],
+    [
+     "salt",
+     "Dissolves"
+    ],
+    [
+     "a stone",
+     "Sinks"
+    ],
+    [
+     "sand",
+     "Sinks"
+    ],
+    [
+     "mustard oil",
+     "Floats"
+    ],
+    [
+     "a dry wooden stick",
+     "Floats"
+    ]
+   ],
+   "explanation": "Sugar and salt dissolve. Stones and sand do not dissolve and sink to the bottom. Oil does not mix with water and floats on top, like a dry stick."
+  },
+  {
+   "id": "g4-c2-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Ways to separate mixtures",
+   "stem": "Match each mixture to the best way to separate it.",
+   "pairs": [
+    [
+     "stones in rice",
+     "picking out by hand"
+    ],
+    [
+     "iron pins in sand",
+     "using a magnet"
+    ],
+    [
+     "husks and rice grains",
+     "winnowing"
+    ],
+    [
+     "salt in water",
+     "evaporating"
+    ]
+   ],
+   "explanation": "We choose a method that uses a different property of the things in the mixture: size, whether they are magnetic, how light they are, or whether they dissolve."
+  },
+  {
+   "id": "g4-c2-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Ways to separate mixtures",
+   "stem": "When rice is tossed on a kula, the wind blows the husks away because they are lighter than the rice grains.",
+   "answer": true,
+   "explanation": "This is called winnowing. The light husks are carried away by the wind, and the heavier rice grains fall back down."
+  },
+  {
+   "id": "g4-c2-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Ways to separate mixtures",
+   "stem": "A filter separates bits of ___ from a ___.",
+   "blanks": [
+    [
+     "solid",
+     "solids"
+    ],
+    [
+     "liquid"
+    ]
+   ],
+   "bank": [
+    "solid",
+    "liquid",
+    "gas",
+    "magnet"
+   ],
+   "explanation": "In filtering, the liquid passes through the filter paper or cloth and the solid bits stay behind."
+  },
+  {
+   "id": "g4-c2-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Ways to separate mixtures",
+   "stem": "When salt dissolves in water, it is gone for ever and can never be got back.",
+   "answer": false,
+   "explanation": "The salt is still there, in tiny pieces. If you leave the salty water in the sun, the water evaporates and the salt is left behind."
+  },
+  {
+   "id": "g4-c2-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Recycling by melting and moulding",
+   "stem": "Put the steps in order to show how scrap aluminium becomes a cooking pot in an Old Dhaka workshop.",
+   "sequence": [
+    "A collector buys old aluminium from homes.",
+    "The scrap is heated until it melts.",
+    "The liquid metal is poured into a sand mould.",
+    "The metal cools and becomes solid.",
+    "The new pot is taken out of the mould."
+   ],
+   "explanation": "Heating melts the solid metal. When the liquid metal cools in the mould it freezes into the shape of the mould, so old metal becomes a new pot."
+  },
+  {
+   "id": "g4-c2-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Planning a separation",
+   "stem": "Put the steps in order to get both the sand and the salt back from a mixture of sand and salt.",
+   "sequence": [
+    "Stir the mixture into water; the salt dissolves.",
+    "Pour it through filter paper; the sand stays behind.",
+    "Collect the salty water that passes through.",
+    "Leave the salty water in the sun.",
+    "The water evaporates and the salt is left."
+   ],
+   "explanation": "The salt dissolves but the sand does not, so filtering takes out the sand. Evaporating the water then leaves the salt."
+  },
+  {
+   "id": "g4-c2-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Ways to separate mixtures",
+   "stem": "When salt ___ in water, it breaks into tiny pieces that pass through filter paper.",
+   "blanks": [
+    [
+     "dissolves",
+     "dissolved",
+     "dissolve"
+    ]
+   ],
+   "bank": [
+    "dissolves",
+    "sinks",
+    "floats",
+    "melts"
+   ],
+   "explanation": "Dissolved pieces are far too small to be caught by a filter. That is why we use evaporating, not filtering, to get salt back."
+  },
+  {
+   "id": "g4-c2-010",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Ways to separate mixtures",
+   "stem": "Which of these mixtures could you separate using a magnet? Choose all that are right.",
+   "options": [
+    "iron pins mixed with sand",
+    "sugar dissolved in water",
+    "iron nails mixed with rice",
+    "salt mixed with sand",
+    "plastic beads mixed with wooden beads"
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "explanation": "A magnet pulls out iron. Sand, rice, salt, sugar, plastic and wood are not magnetic, so a magnet cannot separate them from each other."
+  },
+  {
+   "id": "g4-c2-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Ways to separate mixtures",
+   "stem": "Why can't you get salt out of salty water by pouring it through filter paper?",
+   "options": [
+    "The salt has dissolved, so its tiny pieces go through with the water.",
+    "Salt melts when it touches the paper.",
+    "Salt is too heavy for the paper.",
+    "The paper soaks up all the water."
+   ],
+   "answer": 0,
+   "explanation": "Dissolved salt is in pieces far too small to be trapped by the paper. We evaporate the water to get the salt back."
+  },
+  {
+   "id": "g4-c2-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Recycling by melting and moulding",
+   "stem": "A mould for liquid metal must be made of something with a much higher melting point than the metal. Explain why.",
+   "model_answer": "If the mould had a lower melting point, the hot liquid metal would melt the mould.",
+   "keywords": [
+    [
+     "melt",
+     "melts",
+     "melted"
+    ],
+    [
+     "mould",
+     "mold"
+    ],
+    [
+     "hot",
+     "liquid",
+     "higher",
+     "heat"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The mould must stay solid while the hot liquid metal is poured in, so its melting point must be much higher than the metal's."
+  },
+  {
+   "id": "g4-c2-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What happens when we mix",
+   "stem": "When vinegar and baking soda are mixed, the fizzing shows that a new gas is being made.",
+   "answer": true,
+   "explanation": "Fizzing means a gas is made. This is different from salt dissolving, because the gas escapes and you cannot get the vinegar and baking soda back."
+  },
+  {
+   "id": "g4-c2-014",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Ways to separate mixtures",
+   "stem": "Mud is left to sink to the bottom of a bucket of water. Then Nadia carefully pours the clear water off the top. This method is called…",
+   "options": [
+    "winnowing",
+    "evaporating",
+    "using a magnet",
+    "decanting (pouring off)"
+   ],
+   "answer": 3,
+   "explanation": "Letting a solid sink and then pouring the liquid off the top is called decanting. Filtering would catch the smaller bits that are left."
+  },
+  {
+   "id": "g4-c2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Filtering",
+   "stem": "Look at the picture of filtering muddy water. Which number shows the solid that is left behind in the filter paper?",
+   "image": "diagrams/filtering-numbered.svg",
+   "image_alt": "Filtering muddy water with a funnel and filter paper over a beaker. Parts are numbered 1 to 5.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Number 3 is the solid left behind in the filter paper. Number 2 is the filter paper, 1 is the funnel and 4 is the clear water that passes through."
+  },
+  {
+   "id": "g4-c2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Filtering",
+   "stem": "Look at the picture. Why does the clear water (4) pass through the paper, while the solid (3) stays behind?",
+   "image": "diagrams/filtering-numbered.svg",
+   "image_alt": "Filtering muddy water with a funnel and filter paper over a beaker. Parts are numbered 1 to 5.",
+   "options": [
+    "The solid is hotter than the water.",
+    "The holes in the paper are too small for the solid pieces but big enough for water.",
+    "The water is lighter, so it floats through the paper.",
+    "The beaker pulls the water down."
+   ],
+   "answer": 1,
+   "explanation": "Filter paper has tiny holes. Water passes through them but the bigger bits of solid are trapped. This is separating by size."
+  },
+  {
+   "id": "g4-c2-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Ways to separate mixtures",
+   "stem": "Match each picture to the separating job it can do.",
+   "pairs": [
+    [
+     {
+      "text": "magnet",
+      "image": "openmoji/magnet.svg"
+     },
+     "pulls iron pins out of sand"
+    ],
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "evaporates the water from salty water"
+    ],
+    [
+     {
+      "text": "wind",
+      "image": "openmoji/wind-face.svg"
+     },
+     "blows light husks away from rice"
+    ],
+    [
+     {
+      "text": "hand",
+      "image": "openmoji/hand.svg"
+     },
+     "picks stones out of rice"
+    ]
+   ],
+   "explanation": "Each helper uses a different property: a magnet attracts iron, the Sun's heat evaporates water, wind blows away light husks, and hands can pick out big pieces."
+  },
+  {
+   "id": "g4-c2-018",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Recycling by melting and moulding",
+   "stem": "Look at the pictures. Which of these can be recycled by melting and moulding into new things? Choose all that are right.",
+   "options": [
+    {
+     "text": "tin can",
+     "image": "openmoji/tin-can.svg"
+    },
+    {
+     "text": "glass bottle",
+     "image": "openmoji/glass-bottle.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "newspaper",
+     "image": "openmoji/newspaper.svg"
+    },
+    {
+     "text": "banana",
+     "image": "openmoji/banana.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Metals, glass and plastic can be melted, poured into a mould and cooled to make something new. Paper and fruit cannot be melted and moulded this way."
+  },
+  {
+   "id": "g4-c2-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Ways to separate mixtures",
+   "stem": "Which tool would be best for pulling iron pins out of a pile of sand?",
+   "options": [
+    {
+     "text": "spoon",
+     "image": "openmoji/spoon.svg"
+    },
+    {
+     "text": "sponge",
+     "image": "openmoji/sponge.svg"
+    },
+    {
+     "text": "magnet",
+     "image": "openmoji/magnet.svg"
+    },
+    {
+     "text": "scissors",
+     "image": "openmoji/scissors.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A magnet attracts iron but not sand, so it pulls the pins out and leaves the sand behind."
+  },
+  {
+   "id": "g4-c2-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Recycling by melting and moulding",
+   "stem": "In an Old Dhaka workshop, liquid aluminium is poured into a sand mould and left to cool. What change of state happens as it cools?",
+   "options": [
+    "solid to liquid",
+    "gas to liquid",
+    "liquid to gas",
+    "liquid to solid"
+   ],
+   "answer": 3,
+   "explanation": "Cooling makes the liquid metal freeze into a solid in the shape of the mould."
+  },
+  {
+   "id": "g4-c2-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Ways to separate mixtures",
+   "stem": "After threshing, Joy's grandfather has rice mixed with light husks. It is a breezy afternoon. What should he do?",
+   "options": [
+    "Toss the rice on a kula so the wind blows the husks away.",
+    "Leave the rice in the sun until it evaporates.",
+    "Hold a magnet over the rice.",
+    "Pour the rice through filter paper."
+   ],
+   "answer": 0,
+   "explanation": "Winnowing uses wind to blow away the light husks. A magnet only works on iron, rice does not evaporate, and filter paper is for solids in liquids."
+  },
+  {
+   "id": "g4-c2-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Water filters",
+   "stem": "Raju filters muddy pond water through sand and cloth, and it now looks clear. What should he do before anyone drinks it?",
+   "options": [
+    "Drink it, because clear water is always safe.",
+    "Boil it or treat it, because germs are too small to see.",
+    "Add some salt to it.",
+    "Put it in the freezer."
+   ],
+   "answer": 1,
+   "explanation": "Filtering can take out mud, but germs and dissolved poisons are far too small to see and can still pass through. Clear water must still be boiled or treated."
+  },
+  {
+   "id": "g4-c2-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Water filters",
+   "stem": "Water from a tubewell in a village contains dissolved arsenic, which you cannot see, smell or taste. Why can't ordinary cloth remove it?",
+   "options": [
+    "The cloth is too thick.",
+    "The arsenic is dissolved, in pieces far too small for the cloth to trap.",
+    "Arsenic is a gas that escapes.",
+    "Arsenic floats on top of the water."
+   ],
+   "answer": 1,
+   "explanation": "Like salt in water, dissolved arsenic is in tiny pieces that pass through cloth. A special layer, such as the iron mixture in the SONO filter, is needed to grab it."
+  },
+  {
+   "id": "g4-c2-024",
+   "mode": "real-life",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Water filters",
+   "stem": "The SONO filter was invented by Dr Abul Hussam to make tubewell water safer. Match each layer in the buckets to its job.",
+   "pairs": [
+    [
+     "sand and brick chips",
+     "trap bits of mud and sand"
+    ],
+    [
+     "charcoal",
+     "removes smells and tiny bits"
+    ],
+    [
+     "iron mixture",
+     "grabs the dissolved arsenic"
+    ]
+   ],
+   "explanation": "Each layer does a different job. The filter needs no electricity, so families can use it at home."
+  },
+  {
+   "id": "g4-c2-025",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Water filters",
+   "stem": "The SONO filter needs no electricity, so families in villages without power can still use it.",
+   "answer": true,
+   "explanation": "Water just trickles down through the layers in the buckets. A design that is simple, cheap and needs no electricity works well for villages."
+  },
+  {
+   "id": "g4-c2-026",
+   "mode": "real-life",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing a method",
+   "stem": "Which method would you use to separate each mixture? Sort them.",
+   "categories": [
+    "Use a magnet",
+    "Filter",
+    "Evaporate",
+    "Winnow"
+   ],
+   "items": [
+    [
+     "iron nails mixed in sawdust",
+     "Use a magnet"
+    ],
+    [
+     "steel pins lost in sand",
+     "Use a magnet"
+    ],
+    [
+     "mud in pond water",
+     "Filter"
+    ],
+    [
+     "tea leaves in cha",
+     "Filter"
+    ],
+    [
+     "salt from sea water in shallow pans",
+     "Evaporate"
+    ],
+    [
+     "husks mixed with rice grains",
+     "Winnow"
+    ]
+   ],
+   "explanation": "Use the property that is different: iron is magnetic, mud and leaves are solid bits in a liquid, dissolved salt stays when water evaporates, and husks are lighter than grain."
+  },
+  {
+   "id": "g4-c2-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Water filters",
+   "stem": "Example results from Class 4C (clearness rating: 1 = very muddy, 5 = very clear): cotton cloth 2, sand 3, filter paper 4, sand + charcoal 5. Priya says: 'Sand + charcoal scored 5, so its water is safe to drink.' What is the best reply?",
+   "options": [
+    "She is right, because 5 is the top score.",
+    "She is right if the water also smells fine.",
+    "Clear water can still hold germs and poisons, so it needs boiling or treating.",
+    "She is wrong, because charcoal makes water dirty."
+   ],
+   "answer": 2,
+   "explanation": "The rating only measures how clear the water looks. Germs and dissolved poisons like arsenic are too small to see, so clear-looking water may still be unsafe."
+  },
+  {
+   "id": "g4-c2-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Recycling by melting and moulding",
+   "stem": "Why is melting an old aluminium pot to make a new one a reversible change, but burning paper is not?",
+   "options": [
+    "Melting only changes the state: the liquid metal can freeze again. Burning makes new substances that cannot be changed back.",
+    "Metal is heavier than paper.",
+    "Paper cannot be heated.",
+    "Burning is slower than melting."
+   ],
+   "answer": 0,
+   "explanation": "Melting is a change of state, so the metal is still the same substance and can become solid again. Burning paper makes ash, smoke and gases, which cannot be turned back into paper."
+  },
+  {
+   "id": "g4-c2-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Planning a separation",
+   "stem": "Tuli spilled a mixture of rice grains, iron nails and salt. Describe how she could get all three back, in a sensible order.",
+   "model_answer": "Use a magnet to pull out the iron nails. Add water to dissolve the salt, then sieve or filter out the rice. Evaporate the water to get the salt back.",
+   "keywords": [
+    [
+     "magnet"
+    ],
+    [
+     "water",
+     "dissolve",
+     "dissolves",
+     "dissolved"
+    ],
+    [
+     "filter",
+     "sieve",
+     "strain",
+     "pour"
+    ],
+    [
+     "evaporate",
+     "evaporates",
+     "evaporation",
+     "sun",
+     "heat",
+     "dry",
+     "boil"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "Use each property in turn: the nails are magnetic, the salt dissolves and the rice does not, and evaporating leaves the salt behind. Salt must come last because it only separates when dissolved."
+  },
+  {
+   "id": "g4-c2-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Ways to separate mixtures",
+   "stem": "Example: sieve A has holes 4 mm wide and sieve B has holes 2 mm wide. A mixture has pieces that are 1 mm, 3 mm and 6 mm wide. It is poured through sieve A, and what passes through is poured through sieve B. Which pieces are left on sieve B?",
+   "options": [
+    "the 6 mm pieces",
+    "the 1 mm pieces",
+    "the 1 mm and 3 mm pieces",
+    "the 3 mm pieces"
+   ],
+   "answer": 3,
+   "explanation": "Sieve A holds back the 6 mm pieces. The 1 mm and 3 mm pieces pass through. Sieve B holds back the 3 mm pieces, and only the 1 mm pieces pass through both."
+  }
+ ]
+}

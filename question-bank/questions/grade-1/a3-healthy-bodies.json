@@ -1,0 +1,580 @@
+{
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "topic": "A3",
+ "title": "Healthy Bodies",
+ "strand": "living",
+ "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g1-a3-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Which food helps your body grow?",
+   "options": [
+    {
+     "text": "sweet",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "biscuit",
+     "image": "openmoji/cookie.svg"
+    },
+    {
+     "text": "egg",
+     "image": "openmoji/egg.svg"
+    },
+    {
+     "text": "chips",
+     "image": "openmoji/french-fries.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "An egg is a body-building food. It helps you grow. Fish, dal and milk help you grow too."
+  },
+  {
+   "id": "g1-a3-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Which foods should we eat often? Which only a little?",
+   "categories": [
+    "Eat often",
+    "Eat only a little"
+   ],
+   "items": [
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Eat often"
+    ],
+    [
+     {
+      "text": "egg",
+      "image": "openmoji/egg.svg"
+     },
+     "Eat often"
+    ],
+    [
+     {
+      "text": "broccoli",
+      "image": "openmoji/broccoli.svg"
+     },
+     "Eat often"
+    ],
+    [
+     {
+      "text": "sweet",
+      "image": "openmoji/candy.svg"
+     },
+     "Eat only a little"
+    ],
+    [
+     {
+      "text": "chips",
+      "image": "openmoji/french-fries.svg"
+     },
+     "Eat only a little"
+    ],
+    [
+     {
+      "text": "doughnut",
+      "image": "openmoji/doughnut.svg"
+     },
+     "Eat only a little"
+    ]
+   ],
+   "explanation": "Rice, eggs and green vegetables give us energy, help us grow and keep us healthy. Sweets, chips and doughnuts are fine only as a small treat."
+  },
+  {
+   "id": "g1-a3-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "A balanced diet has some of each kind of food and plenty of ___.",
+   "blanks": [
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "water",
+    "sweets",
+    "chips"
+   ],
+   "explanation": "We need to drink plenty of water every day, as well as eating different kinds of food."
+  },
+  {
+   "id": "g1-a3-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Washing your hands with soap gets rid of germs.",
+   "answer": true,
+   "explanation": "Soap and water wash germs off your hands. Clean hands help stop you getting ill."
+  },
+  {
+   "id": "g1-a3-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "A fizzy drink is the best drink for a healthy body.",
+   "answer": false,
+   "explanation": "Water is the best drink for your body. Fizzy drinks are full of sugar and do not help you grow."
+  },
+  {
+   "id": "g1-a3-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy habits",
+   "read_aloud": true,
+   "stem": "How can you keep your body healthy? Choose all that are right.",
+   "options": [
+    "Play outside.",
+    "Wash your hands.",
+    "Sleep very little.",
+    "Brush your teeth.",
+    "Eat only sweets."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Exercise, clean hands and clean teeth keep us healthy. We also need plenty of sleep and many kinds of food, not only sweets."
+  },
+  {
+   "id": "g1-a3-007",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Match each picture to what it does for your body.",
+   "pairs": [
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "gives us energy"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "helps us grow"
+    ],
+    [
+     {
+      "text": "mango",
+      "image": "openmoji/mango.svg"
+     },
+     "keeps us healthy"
+    ],
+    [
+     {
+      "text": "water",
+      "image": "openmoji/water-glass.svg"
+     },
+     "we need plenty each day"
+    ]
+   ],
+   "explanation": "Rice and roti give us energy. Fish, egg and dal help us grow. Fruit and vegetables protect us. We also drink plenty of water."
+  },
+  {
+   "id": "g1-a3-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Rest and sleep",
+   "read_aloud": true,
+   "stem": "Children need to sleep about ___ hours every night.",
+   "blanks": [
+    [
+     "10",
+     "ten"
+    ]
+   ],
+   "bank": [
+    "10",
+    "2",
+    "5"
+   ],
+   "explanation": "Children need about 10 hours of sleep. Sleep rests the body and helps us feel good the next day."
+  },
+  {
+   "id": "g1-a3-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Put the steps for washing hands in order.",
+   "sequence": [
+    "Wet your hands.",
+    "Rub soap on your hands.",
+    "Rub for 20 seconds.",
+    "Rinse off the soap.",
+    "Dry your hands."
+   ],
+   "explanation": "Wet your hands first, then use soap and rub for 20 seconds. Rinse the soap away and dry your hands last."
+  },
+  {
+   "id": "g1-a3-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Which meal is the most balanced?",
+   "options": [
+    "rice, fish, spinach and water",
+    "chips, a sweet cake and a fizzy drink",
+    "biscuits and sweets"
+   ],
+   "answer": 0,
+   "explanation": "Rice gives energy, fish helps us grow, spinach keeps us healthy, and water is the best drink. The other meals have no body-building or protecting foods."
+  },
+  {
+   "id": "g1-a3-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Rice and roti give us ___.",
+   "blanks": [
+    [
+     "energy"
+    ]
+   ],
+   "bank": [
+    "energy",
+    "germs",
+    "sleep"
+   ],
+   "explanation": "Rice, roti and potato are energy foods. They give us the energy to play and learn."
+  },
+  {
+   "id": "g1-a3-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Class 1 put pretend germs (glitter) on their hands, then washed. Spots left: water 5 seconds, 30. Water 20 seconds, 15. Soap 20 seconds, 2. Which way cleaned best?",
+   "options": [
+    "water for 5 seconds",
+    "soap for 20 seconds",
+    "water for 20 seconds"
+   ],
+   "answer": 1,
+   "explanation": "Fewer spots mean cleaner hands. Soap for 20 seconds left only 2 spots, so it cleaned best."
+  },
+  {
+   "id": "g1-a3-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Which food helps protect your body and keeps you healthy?",
+   "options": [
+    {
+     "text": "sweet",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "chocolate",
+     "image": "openmoji/chocolate.svg"
+    },
+    {
+     "text": "broccoli",
+     "image": "openmoji/broccoli.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "Green vegetables and fruit have vitamins and fibre. They protect us and keep us healthy."
+  },
+  {
+   "id": "g1-a3-014",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy habits",
+   "read_aloud": true,
+   "stem": "Which pictures show healthy habits? Choose all that are right.",
+   "options": [
+    {
+     "text": "soap",
+     "image": "openmoji/soap.svg"
+    },
+    {
+     "text": "sweet",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "running",
+     "image": "openmoji/person-running.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "toothbrush",
+     "image": "openmoji/toothbrush.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Washing with soap, running and brushing your teeth keep you healthy. Sweets and doughnuts are only for a small treat."
+  },
+  {
+   "id": "g1-a3-015",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy habits",
+   "read_aloud": true,
+   "stem": "Match each picture to why it helps.",
+   "pairs": [
+    [
+     {
+      "text": "soap",
+      "image": "openmoji/soap.svg"
+     },
+     "washes away germs"
+    ],
+    [
+     {
+      "text": "toothbrush",
+      "image": "openmoji/toothbrush.svg"
+     },
+     "cleans your teeth"
+    ],
+    [
+     {
+      "text": "bed",
+      "image": "openmoji/bed.svg"
+     },
+     "rests your body"
+    ],
+    [
+     {
+      "text": "running",
+      "image": "openmoji/person-running.svg"
+     },
+     "makes muscles strong"
+    ]
+   ],
+   "explanation": "Soap removes germs, brushing cleans teeth, sleep rests the body and running makes muscles strong."
+  },
+  {
+   "id": "g1-a3-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Rafi's lunch is chips, a sweet cake and a fizzy drink. What should he change?",
+   "options": [
+    "Eat more chips.",
+    "Drink water and add a banana.",
+    "Skip lunch."
+   ],
+   "answer": 1,
+   "explanation": "Water is a better drink, and a banana is a protecting food. Rafi also needs foods that help him grow, such as rice, dal or fish."
+  },
+  {
+   "id": "g1-a3-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Rest and sleep",
+   "read_aloud": true,
+   "stem": "Tumpa watched cartoons until late. At school she is sleepy. What should she do tonight?",
+   "options": [
+    "Watch more cartoons.",
+    "Skip breakfast.",
+    "Go to bed early."
+   ],
+   "answer": 2,
+   "explanation": "Her body needs sleep. Going to bed early helps her feel awake and ready to play at school."
+  },
+  {
+   "id": "g1-a3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Mina has been playing football in the mud. Now it is time to eat lunch. What should she do first?",
+   "options": [
+    "Wash her hands with soap and water.",
+    "Eat with her muddy hands.",
+    "Wipe her hands on her shirt."
+   ],
+   "answer": 0,
+   "explanation": "Muddy hands can carry germs. Washing with soap and water before eating helps keep us well."
+  },
+  {
+   "id": "g1-a3-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Rest and sleep",
+   "read_aloud": true,
+   "stem": "Anika feels grumpy after a long day. Resting or playing with friends can help her feel better.",
+   "answer": true,
+   "explanation": "Rest and fun help our bodies and our feelings. Playing with friends and relaxing keep us happy and well."
+  },
+  {
+   "id": "g1-a3-020",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Being active",
+   "read_aloud": true,
+   "stem": "Anika wants to be active every day. What can she do? Choose all that are right.",
+   "options": [
+    "walk to school",
+    "play cricket with friends",
+    "watch TV all day",
+    "skip with a rope",
+    "lie in bed all day"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Walking, playing cricket and skipping make our bodies move and grow strong. Sitting or lying down all day does not."
+  },
+  {
+   "id": "g1-a3-021",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Healthy habits",
+   "read_aloud": true,
+   "stem": "Tumpa feels tired at school. Give her one tip to feel better.",
+   "model_answer": "Go to bed early, or eat a good breakfast, or play outside.",
+   "keywords": [
+    [
+     "sleep",
+     "bed",
+     "rest",
+     "early",
+     "night"
+    ],
+    [
+     "eat",
+     "breakfast",
+     "food",
+     "fruit"
+    ],
+    [
+     "play",
+     "exercise",
+     "active",
+     "run"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "A tired body needs sleep, good food and exercise. Any of these tips can help Tumpa feel better."
+  },
+  {
+   "id": "g1-a3-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Nadia's dinner is rice, roti and potato. What should she add to make it balanced?",
+   "options": [
+    "more rice and roti",
+    "a fizzy drink",
+    "more potatoes",
+    "fish and spinach"
+   ],
+   "answer": 3,
+   "explanation": "Rice, roti and potato are all energy foods. Fish helps her grow and spinach protects her, so she needs both."
+  },
+  {
+   "id": "g1-a3-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "In the glitter test, water for 5 seconds left 30 spots. Soap for 20 seconds left 2 spots. How many fewer spots did soap for 20 seconds leave?",
+   "options": [
+    "2",
+    "28",
+    "30",
+    "32"
+   ],
+   "answer": 1,
+   "explanation": "30 take away 2 is 28. Soap for 20 seconds took away 28 more spots than water for 5 seconds."
+  },
+  {
+   "id": "g1-a3-024",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Water for 5 seconds left 30 glitter spots. Soap for 20 seconds left 2 spots. Sumi says: 'They clean just as well.' Is Sumi right?",
+   "answer": false,
+   "explanation": "30 spots is much more than 2 spots. Soap and 20 seconds cleaned much better than a quick rinse."
+  }
+ ]
+}

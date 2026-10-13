@@ -1,0 +1,715 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "A2",
+ "title": "Cells, Tissues and Organs",
+ "strand": "living",
+ "worksheet": "worksheets/grade-5-science/pdf/a2-cells-tissues-and-organs-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-a2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Cells as building blocks",
+   "stem": "Robert Hooke gave cells their name in 1665 after looking at a thin slice of…",
+   "options": [
+    "onion skin",
+    "pond water",
+    "blood",
+    "cork"
+   ],
+   "answer": 3,
+   "explanation": "Hooke looked at cork through a microscope and saw rows of tiny boxes that reminded him of small rooms, so he called them cells."
+  },
+  {
+   "id": "g5-a2-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Specialised cells",
+   "stem": "Match each specialised cell to its job.",
+   "pairs": [
+    [
+     "red blood cell",
+     "carries oxygen"
+    ],
+    [
+     "nerve cell",
+     "carries messages"
+    ],
+    [
+     "muscle cell",
+     "gets shorter to move the body"
+    ],
+    [
+     "fat cell",
+     "stores energy and helps keep us warm"
+    ],
+    [
+     "skin cell",
+     "makes a protective layer"
+    ]
+   ],
+   "explanation": "Cells in the body are specialised: each kind has a shape that suits its job."
+  },
+  {
+   "id": "g5-a2-003",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Levels of organisation",
+   "stem": "Put the levels of organisation in order from smallest to largest.",
+   "sequence": [
+    "cell",
+    "tissue",
+    "organ",
+    "organ system",
+    "organism"
+   ],
+   "explanation": "Cells make tissues, tissues make organs, organs work together in organ systems, and all the organ systems together make a whole organism."
+  },
+  {
+   "id": "g5-a2-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Levels of organisation",
+   "stem": "A group of similar cells doing the same job is called a ___. Different tissues working together make an ___.",
+   "blanks": [
+    [
+     "tissue"
+    ],
+    [
+     "organ"
+    ]
+   ],
+   "bank": [
+    "tissue",
+    "organ",
+    "organism",
+    "cell"
+   ],
+   "explanation": "Muscle tissue is a group of muscle cells. The heart is an organ because it is made of muscle tissue and other tissues working together."
+  },
+  {
+   "id": "g5-a2-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Cells as building blocks",
+   "stem": "Most cells are too small to see without a microscope.",
+   "answer": true,
+   "explanation": "Your body has about 30 trillion cells, and most of them are far too small for our eyes. We need a microscope to see them."
+  },
+  {
+   "id": "g5-a2-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Levels of organisation",
+   "stem": "A tissue is made of many different organs working together.",
+   "answer": false,
+   "explanation": "A tissue is made of many similar cells doing the same job. It is an organ that is made of different tissues."
+  },
+  {
+   "id": "g5-a2-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Levels of organisation",
+   "stem": "Sort each example into its level of organisation.",
+   "categories": [
+    "Cell",
+    "Tissue",
+    "Organ",
+    "Organ system"
+   ],
+   "items": [
+    [
+     "red blood cell",
+     "Cell"
+    ],
+    [
+     "nerve cell",
+     "Cell"
+    ],
+    [
+     "muscle tissue in the heart wall",
+     "Tissue"
+    ],
+    [
+     "fat tissue under the skin",
+     "Tissue"
+    ],
+    [
+     "brain",
+     "Organ"
+    ],
+    [
+     "kidney",
+     "Organ"
+    ],
+    [
+     "digestive system",
+     "Organ system"
+    ],
+    [
+     "respiratory system",
+     "Organ system"
+    ]
+   ],
+   "explanation": "A cell is the smallest unit, similar cells form a tissue, tissues form an organ such as the brain, and organs working together form an organ system."
+  },
+  {
+   "id": "g5-a2-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Parts of a cell",
+   "stem": "Which parts do animal cells have? Choose all that are right.",
+   "options": [
+    "cell membrane",
+    "cell wall",
+    "cytoplasm",
+    "nucleus",
+    "chloroplasts"
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "Animal cells have a cell membrane, cytoplasm and a nucleus. The cell wall and chloroplasts are extra parts found in plant cells."
+  },
+  {
+   "id": "g5-a2-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Specialised cells",
+   "stem": "Red blood cells are round and dented in the middle. How does this shape help them?",
+   "options": [
+    "It lets them get shorter to move the body.",
+    "It gives a large surface for carrying oxygen.",
+    "It lets them store fat for energy.",
+    "It lets them send messages along nerves."
+   ],
+   "answer": 1,
+   "explanation": "The dented disc shape gives a large surface for carrying oxygen, and the cells can bend to squeeze through tiny blood vessels."
+  },
+  {
+   "id": "g5-a2-010",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Specialised cells",
+   "stem": "Match each cell shape to the job it helps the cell to do.",
+   "pairs": [
+    [
+     "long and thin, with branches",
+     "carries messages quickly over long distances"
+    ],
+    [
+     "long and able to get shorter",
+     "moves the body"
+    ],
+    [
+     "flat and fitting together like tiles",
+     "makes a protective layer"
+    ],
+    [
+     "a dented disc",
+     "carries oxygen and squeezes through tiny vessels"
+    ]
+   ],
+   "explanation": "In specialised cells the shape fits the job. Long branching nerve cells reach far; tile-like skin cells leave no gaps for germs."
+  },
+  {
+   "id": "g5-a2-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a cell",
+   "stem": "Which part of an animal cell is a thin skin that controls what goes in and out?",
+   "options": [
+    "nucleus",
+    "cytoplasm",
+    "cell membrane",
+    "chloroplast"
+   ],
+   "answer": 2,
+   "explanation": "The cell membrane holds the cell together and controls what passes in and out. The nucleus is the control centre and the cytoplasm is the jelly where the work happens."
+  },
+  {
+   "id": "g5-a2-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a cell",
+   "stem": "An animal cell has three main parts: the cell ___, the jelly-like ___ and the ___, which is the control centre.",
+   "blanks": [
+    [
+     "membrane"
+    ],
+    [
+     "cytoplasm"
+    ],
+    [
+     "nucleus"
+    ]
+   ],
+   "bank": [
+    "membrane",
+    "cytoplasm",
+    "nucleus",
+    "wall"
+   ],
+   "explanation": "The membrane is the thin skin, the cytoplasm is the jelly where the cell's work happens, and the nucleus holds the instructions for the cell."
+  },
+  {
+   "id": "g5-a2-013",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Specialised cells",
+   "stem": "Explain how the shape of a nerve cell helps it do its job.",
+   "model_answer": "A nerve cell is long and thin with branches, so it can carry messages quickly over a long distance and connect to many other cells.",
+   "keywords": [
+    [
+     "long",
+     "thin",
+     "branch",
+     "branches"
+    ],
+    [
+     "message",
+     "messages",
+     "signal",
+     "signals"
+    ],
+    [
+     "distance",
+     "far",
+     "quickly",
+     "fast",
+     "connect"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The long, branching shape lets nerve cells carry messages around the body at high speed and pass them on to other cells."
+  },
+  {
+   "id": "g5-a2-014",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Cells as building blocks",
+   "stem": "Antonie van Leeuwenhoek saw living cells, such as blood cells, that Hooke had not seen. Why was he able to?",
+   "options": [
+    "He made better lenses.",
+    "He used a bigger piece of cork.",
+    "He looked only at plants.",
+    "He could see cells with his eyes alone."
+   ],
+   "answer": 0,
+   "explanation": "Leeuwenhoek made better lenses, so he could see much smaller things. A better instrument gave him new evidence, including living cells and tiny creatures in pond water."
+  },
+  {
+   "id": "g5-a2-015",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a cell",
+   "stem": "Match each number in the picture to the name of the part.",
+   "image": "diagrams/animal-cell-numbered.svg",
+   "image_alt": "An animal cell with three parts numbered 1 to 3.",
+   "pairs": [
+    [
+     "1",
+     "cell membrane"
+    ],
+    [
+     "2",
+     "cytoplasm"
+    ],
+    [
+     "3",
+     "nucleus"
+    ]
+   ],
+   "explanation": "The cell membrane (1) is the outer skin, the cytoplasm (2) is the jelly inside and the nucleus (3) is the control centre."
+  },
+  {
+   "id": "g5-a2-016",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Parts of a cell",
+   "stem": "In the picture, the part numbered 1 is the jelly where the cell's work happens.",
+   "image": "diagrams/animal-cell-numbered.svg",
+   "image_alt": "An animal cell with three parts numbered 1 to 3.",
+   "answer": false,
+   "explanation": "Part 1 is the cell membrane, the thin skin around the cell. The jelly where the work happens is the cytoplasm, part 2."
+  },
+  {
+   "id": "g5-a2-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Parts of a cell",
+   "stem": "A plant cell has all the parts of this animal cell and also a tough cell wall. Where would the cell wall be?",
+   "image": "diagrams/animal-cell-numbered.svg",
+   "image_alt": "An animal cell with three parts numbered 1 to 3.",
+   "options": [
+    "inside part 3",
+    "just outside part 1",
+    "inside part 2",
+    "instead of part 2"
+   ],
+   "answer": 1,
+   "explanation": "The cell wall is a strong layer around the outside of a plant cell, just beyond the cell membrane (1). It helps the plant stand up without bones."
+  },
+  {
+   "id": "g5-a2-018",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Specialised cells",
+   "stem": "Which two numbered parts of the arm are mostly made of muscle tissue? Choose all that are right.",
+   "image": "diagrams/arm-muscles-numbered.svg",
+   "image_alt": "An arm showing a bone (1), the biceps (2), the triceps (3) and the elbow joint (4).",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "explanation": "The biceps (2) and triceps (3) are muscles, so they are made of muscle tissue, which is full of muscle cells that can get shorter. Number 1 is a bone and number 4 is a joint."
+  },
+  {
+   "id": "g5-a2-019",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Levels of organisation",
+   "stem": "Is each picture a whole organism or only an organ? Sort the pictures.",
+   "categories": [
+    "Organ",
+    "Whole organism"
+   ],
+   "items": [
+    [
+     {
+      "text": "brain",
+      "image": "openmoji/brain.svg"
+     },
+     "Organ"
+    ],
+    [
+     {
+      "text": "lungs",
+      "image": "openmoji/lungs.svg"
+     },
+     "Organ"
+    ],
+    [
+     {
+      "text": "heart",
+      "image": "openmoji/anatomical-heart.svg"
+     },
+     "Organ"
+    ],
+    [
+     {
+      "text": "cat",
+      "image": "openmoji/cat.svg"
+     },
+     "Whole organism"
+    ],
+    [
+     {
+      "text": "goldfish",
+      "image": "openmoji/goldfish.svg"
+     },
+     "Whole organism"
+    ],
+    [
+     {
+      "text": "rice plant",
+      "image": "openmoji/rice-plant.svg"
+     },
+     "Whole organism"
+    ]
+   ],
+   "explanation": "An organ is one part of a body with a special job. An organism is a whole living thing, such as a cat, a fish or a rice plant."
+  },
+  {
+   "id": "g5-a2-020",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Cells as building blocks",
+   "stem": "All living things are made of cells. Which of these is made of cells?",
+   "options": [
+    {
+     "text": "rice plant",
+     "image": "openmoji/rice-plant.svg"
+    },
+    {
+     "text": "coin",
+     "image": "openmoji/coin.svg"
+    },
+    {
+     "text": "rock",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "A rice plant is a living thing, so it is made of cells. Rocks, coins and plastic bottles were never alive and are not made of cells."
+  },
+  {
+   "id": "g5-a2-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Blood and health",
+   "stem": "Many children in Bangladesh have thalassaemia and cannot make enough healthy red blood cells. Why might such a child feel tired and weak?",
+   "options": [
+    "Their nerve cells cannot carry messages.",
+    "Their skin cells do not fit together.",
+    "Less oxygen reaches their cells to release energy.",
+    "Their fat cells store too much energy."
+   ],
+   "answer": 2,
+   "explanation": "Red blood cells carry oxygen to every cell, and cells need oxygen to release energy from food. With fewer healthy red blood cells, the child has less energy."
+  },
+  {
+   "id": "g5-a2-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Blood and health",
+   "stem": "A blood donor at a Sandhani camp gives about 450 ml of blood. An adult has about 5 litres (5000 ml) of blood. About what fraction of the donor's blood was given?",
+   "options": [
+    "about one half",
+    "about one quarter",
+    "about one hundredth",
+    "about one tenth"
+   ],
+   "answer": 3,
+   "explanation": "450 ml is close to 500 ml, and 500 ÷ 5000 = one tenth. The body replaces the liquid within a day or two and the red blood cells within a few weeks."
+  },
+  {
+   "id": "g5-a2-023",
+   "mode": "real-life",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Blood and health",
+   "stem": "A poster at a blood donation camp explains what blood is made of. Match each part of blood to its job.",
+   "pairs": [
+    [
+     "red blood cells",
+     "carry oxygen"
+    ],
+    [
+     "white blood cells",
+     "fight germs"
+    ],
+    [
+     "platelets",
+     "help blood clot"
+    ],
+    [
+     "plasma",
+     "liquid that carries the cells and nutrients"
+    ]
+   ],
+   "explanation": "Blood is a mixture of cells floating in a yellow liquid called plasma. Each part has its own job."
+  },
+  {
+   "id": "g5-a2-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Using a microscope",
+   "stem": "Anika is going to look at onion skin under a school microscope. What is the safest, correct way to start?",
+   "options": [
+    "Begin with the smallest lens, focus, then try a bigger one.",
+    "Begin with the biggest lens so the cells look large.",
+    "Point the mirror straight at the Sun to get more light.",
+    "Press the slide down hard so it stays still."
+   ],
+   "answer": 0,
+   "explanation": "Start with the smallest objective lens, focus, then move up to a bigger one. Never point a microscope mirror at the Sun, and handle glass slides gently."
+  },
+  {
+   "id": "g5-a2-025",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Using a microscope",
+   "stem": "Priya's microscope has a ×10 eyepiece lens and she uses the ×40 objective lens. The total magnification is ×___.",
+   "blanks": [
+    [
+     "400"
+    ]
+   ],
+   "explanation": "Multiply the eyepiece by the objective lens: 10 × 40 = 400. The onion cells look 400 times bigger."
+  },
+  {
+   "id": "g5-a2-026",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Levels of organisation",
+   "stem": "Imran says: \"If the heart stops working, only the circulatory system is affected.\" Is he right? Use what you know about organ systems to explain.",
+   "model_answer": "He is not right. The heart pumps blood that carries oxygen from the lungs to all the cells, so every organ system would stop working and the whole organism would be in danger.",
+   "keywords": [
+    [
+     "not right",
+     "disagree",
+     "wrong",
+     "not correct",
+     "not true"
+    ],
+    [
+     "oxygen",
+     "blood",
+     "pump",
+     "pumps"
+    ],
+    [
+     "all",
+     "every",
+     "whole",
+     "other systems",
+     "cells",
+     "depend"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Organs and organ systems depend on each other. If the heart stops, oxygen from the lungs cannot reach the cells, so all the other systems fail."
+  },
+  {
+   "id": "g5-a2-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Blood and health",
+   "stem": "Your body makes about 2 million new red blood cells every second. About how many does it make in 2 minutes?",
+   "options": [
+    "4 million",
+    "24 million",
+    "120 million",
+    "240 million"
+   ],
+   "answer": 3,
+   "explanation": "In 1 minute: 2 million × 60 = 120 million. In 2 minutes: 120 million × 2 = 240 million."
+  },
+  {
+   "id": "g5-a2-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Levels of organisation",
+   "stem": "Which list shows the levels of organisation for the heart, from smallest to largest?",
+   "options": [
+    "muscle tissue → heart muscle cell → heart → human → circulatory system",
+    "heart muscle cell → muscle tissue → heart → circulatory system → human",
+    "heart → heart muscle cell → muscle tissue → circulatory system → human",
+    "human → circulatory system → heart → muscle tissue → heart muscle cell"
+   ],
+   "answer": 1,
+   "explanation": "Cell, tissue, organ, organ system, organism. The last list runs from largest to smallest, and the other two mix up the levels."
+  },
+  {
+   "id": "g5-a2-029",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Parts of a cell",
+   "stem": "Which statements about cells are true? Choose all that are right.",
+   "options": [
+    "Plant and animal cells both have a nucleus.",
+    "Plant cells have a cell wall, but animal cells do not.",
+    "The cell membrane holds the instructions that control the cell.",
+    "Chloroplasts in plant cells trap light.",
+    "All cells in the human body have the same shape."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "The nucleus, not the membrane, holds the instructions. Cells in the body come in different shapes because they have different jobs."
+  },
+  {
+   "id": "g5-a2-030",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Levels of organisation",
+   "stem": "We cannot see a single heart cell with our eyes alone, but we can see a heart. Explain why.",
+   "model_answer": "A cell is microscopic, too small for our eyes. An organ like the heart is made of millions of cells grouped together into tissues, so it is big enough to see.",
+   "keywords": [
+    [
+     "microscope",
+     "microscopic",
+     "too small",
+     "tiny",
+     "small"
+    ],
+    [
+     "millions",
+     "many",
+     "group",
+     "grouped",
+     "together",
+     "tissue",
+     "tissues"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Most cells are far too small to see. But an organ contains millions of cells in groups, so together they make something large enough to see."
+  }
+ ]
+}

@@ -1,0 +1,701 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "W1",
+ "title": "The Scientist's Toolkit",
+ "strand": "skills",
+ "worksheet": "worksheets/grade-5-science/pdf/w1-the-scientist-s-toolkit-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-w1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Observing and asking questions",
+   "stem": "Which question can a scientist answer by collecting evidence?",
+   "options": [
+    "Does a bigger sail make a toy boat go faster?",
+    "Which colour of boat is the prettiest?",
+    "Is sailing more fun than swimming?",
+    "Do boats look nicest on a river?"
+   ],
+   "answer": 0,
+   "explanation": "A testable question can be answered with measurements or observations. Questions about what is prettiest, nicest or most fun are opinions, so a test cannot settle them."
+  },
+  {
+   "id": "g5-w1-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring and units",
+   "stem": "Match each measurement to the unit you would normally use.",
+   "pairs": [
+    [
+     "the mass of a bag of rice",
+     "kilograms (kg)"
+    ],
+    [
+     "the force of a push",
+     "newtons (N)"
+    ],
+    [
+     "the time of a rickshaw ride",
+     "minutes (min)"
+    ],
+    [
+     "the volume of milk in a jug",
+     "millilitres (ml)"
+    ],
+    [
+     "the temperature of hot tea",
+     "degrees Celsius (°C)"
+    ],
+    [
+     "the loudness of a horn",
+     "decibels (dB)"
+    ]
+   ],
+   "explanation": "Choosing the right unit matters: mass is in grams or kilograms, force in newtons, time in seconds or minutes, volume in millilitres or litres, temperature in °C and loudness in decibels."
+  },
+  {
+   "id": "g5-w1-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fair tests and variables",
+   "stem": "In a fair test you change ___ thing, measure one thing and keep everything else the ___.",
+   "blanks": [
+    [
+     "one",
+     "1"
+    ],
+    [
+     "same"
+    ]
+   ],
+   "bank": [
+    "one",
+    "same",
+    "two",
+    "different"
+   ],
+   "explanation": "If you change two things at once you cannot tell which one caused the result. The things you keep the same are called control variables."
+  },
+  {
+   "id": "g5-w1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Repeating, means and anomalies",
+   "stem": "Repeating a measurement and working out the mean makes your results more reliable.",
+   "answer": true,
+   "explanation": "One measurement can contain a mistake. Repeating (often three times) and finding the mean gives results you can trust more, and it helps you spot an odd result."
+  },
+  {
+   "id": "g5-w1-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests and variables",
+   "stem": "Mina asks: \"Does the amount of water change how tall bean seedlings grow?\" Sort each item into its job in the investigation.",
+   "categories": [
+    "Change",
+    "Measure",
+    "Keep the same"
+   ],
+   "items": [
+    [
+     "amount of water",
+     "Change"
+    ],
+    [
+     "height of the seedlings (cm)",
+     "Measure"
+    ],
+    [
+     "type of bean seed",
+     "Keep the same"
+    ],
+    [
+     "size of the pots",
+     "Keep the same"
+    ],
+    [
+     "amount of light",
+     "Keep the same"
+    ],
+    [
+     "number of days of growth",
+     "Keep the same"
+    ]
+   ],
+   "explanation": "Mina changes only the amount of water (independent variable) and measures the height (dependent variable). Everything else must stay the same so the test is fair."
+  },
+  {
+   "id": "g5-w1-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Repeating, means and anomalies",
+   "stem": "To find the mean of 8, 10 and 12, add them up and ___ the total by 3. The mean is ___.",
+   "blanks": [
+    [
+     "divide",
+     "divided"
+    ],
+    [
+     "10"
+    ]
+   ],
+   "bank": [
+    "divide",
+    "10",
+    "multiply",
+    "30"
+   ],
+   "explanation": "8 + 10 + 12 = 30, and 30 ÷ 3 = 10. To find a mean, add the results and divide by how many results there are."
+  },
+  {
+   "id": "g5-w1-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Tables, graphs and patterns",
+   "stem": "Choose the best graph for each set of results.",
+   "categories": [
+    "Bar chart",
+    "Line graph"
+   ],
+   "items": [
+    [
+     "number of children who walk, cycle or take a bus to school",
+     "Bar chart"
+    ],
+    [
+     "mass of a mango, a banana and a guava",
+     "Bar chart"
+    ],
+    [
+     "water held by sand, soil and clay",
+     "Bar chart"
+    ],
+    [
+     "height of a bean plant measured every day",
+     "Line graph"
+    ],
+    [
+     "temperature of a pot of water as it is heated each minute",
+     "Line graph"
+    ],
+    [
+     "length of a shadow measured every hour",
+     "Line graph"
+    ]
+   ],
+   "explanation": "Use a bar chart when the thing you changed is in groups or words. Use a line graph when it is a number that changes smoothly, such as time."
+  },
+  {
+   "id": "g5-w1-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Observing and asking questions",
+   "stem": "Match each investigation to its type of enquiry.",
+   "pairs": [
+    [
+     "Which kind of paper towel soaks up the most water?",
+     "fair test"
+    ],
+    [
+     "Measuring a puppy's mass every week",
+     "observing over time"
+    ],
+    [
+     "Do taller children have longer feet?",
+     "pattern seeking"
+    ],
+    [
+     "Sorting shells into groups by shape",
+     "identifying and classifying"
+    ],
+    [
+     "Using books to find out how the first aeroplane flew",
+     "research"
+    ]
+   ],
+   "explanation": "Scientists choose the type of enquiry that suits the question: a fair test changes one variable, while other enquiries watch change, look for patterns, sort things or use secondary sources."
+  },
+  {
+   "id": "g5-w1-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Predictions, conclusions and models",
+   "stem": "Put the steps of a scientific investigation in order.",
+   "sequence": [
+    "Ask a question that can be tested.",
+    "Make a prediction and give a reason.",
+    "Plan the test and decide what to keep the same.",
+    "Measure and record the results in a table.",
+    "Draw a graph and look for a pattern.",
+    "Write a conclusion and say how to improve."
+   ],
+   "explanation": "Good investigations follow a clear path: question, prediction, plan, results, pattern, and finally a conclusion with an evaluation."
+  },
+  {
+   "id": "g5-w1-010",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Observing and asking questions",
+   "stem": "Mina watches a bean seed germinate in a clear jar for a week. Which observations are the most useful? Choose all that are right.",
+   "options": [
+    "On day 3 the seed coat splits and a root appears.",
+    "The shoot is 2 cm tall on day 5.",
+    "A lizard walked past the window.",
+    "The jar stands on the left of the shelf.",
+    "The root grows downwards and the shoot grows upwards."
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Useful observations describe the change you are studying, with numbers and times when possible. The lizard and the jar's position have nothing to do with germination."
+  },
+  {
+   "id": "g5-w1-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Predictions, conclusions and models",
+   "stem": "A model of the Solar System small enough to fit on a desk shows the real sizes and distances of the planets correctly.",
+   "answer": false,
+   "explanation": "Models are useful but have limitations. To fit on a desk, the planets and their distances must be changed in scale, so the real Solar System is far bigger and emptier."
+  },
+  {
+   "id": "g5-w1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Tables, graphs and patterns",
+   "stem": "Which is the best heading for a column of times in a results table?",
+   "options": [
+    "Time",
+    "How fast",
+    "Time (s)",
+    "Fast or slow"
+   ],
+   "answer": 2,
+   "explanation": "A table heading says what was measured and gives the unit, such as Time (s). Then the numbers in the column do not need units."
+  },
+  {
+   "id": "g5-w1-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Predictions, conclusions and models",
+   "stem": "Why did Jagadish Chandra Bose invent the crescograph?",
+   "options": [
+    "To weigh leaves more exactly.",
+    "To make plants grow faster.",
+    "To measure how loud plants are.",
+    "To magnify plant movements too small to see."
+   ],
+   "answer": 3,
+   "explanation": "Plant growth and movement are far too small and slow to see. The crescograph magnified them about 10 000 times, so Bose could collect new evidence and show that plants react to light, heat, touch and chemicals."
+  },
+  {
+   "id": "g5-w1-014",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Predictions, conclusions and models",
+   "stem": "Raju wants to predict: \"Will a puddle dry faster in the sun or in the shade?\" Which is the best prediction?",
+   "options": [
+    "It will dry faster in the shade because shade makes water lighter.",
+    "It will dry faster in the sun because heat makes water evaporate faster.",
+    "It will dry faster in the sun because I like sunny days.",
+    "It will dry at the same speed because all puddles are alike."
+   ],
+   "answer": 1,
+   "explanation": "A good prediction says what will happen and gives a reason from science. Warmer water evaporates faster. A liking for sunny days is not a scientific reason."
+  },
+  {
+   "id": "g5-w1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring and units",
+   "stem": "Read the thermometer scale with your eye level with the mark. What temperature does thermometer B show?",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers A, B and C with different liquid levels on a scale from 0 to 50 degrees Celsius.",
+   "options": [
+    "20 °C",
+    "30 °C",
+    "25 °C",
+    "15 °C"
+   ],
+   "answer": 2,
+   "explanation": "The liquid in thermometer B stops at 25 °C, halfway between the 20 and 30 marks. Always read the mark level with the top of the liquid."
+  },
+  {
+   "id": "g5-w1-016",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring and units",
+   "stem": "Look at the three thermometers. The difference between the highest and the lowest reading is ___ °C.",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers A, B and C with different liquid levels on a scale from 0 to 50 degrees Celsius.",
+   "blanks": [
+    [
+     "36"
+    ]
+   ],
+   "explanation": "The highest reading is thermometer C at 48 °C and the lowest is thermometer A at 12 °C. 48 − 12 = 36 °C."
+  },
+  {
+   "id": "g5-w1-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring and units",
+   "stem": "Rafi hangs a bag from the forcemeter. What is the reading, with the correct unit?",
+   "image": "diagrams/forcemeter-4n.svg",
+   "image_alt": "A forcemeter with a spring, a pointer and a scale from 0 to 10.",
+   "options": [
+    "4 g",
+    "4 N",
+    "3 N",
+    "40 N"
+   ],
+   "answer": 1,
+   "explanation": "The pointer is at the 4 mark. Forces are measured in newtons (N), not grams, which are a unit of mass."
+  },
+  {
+   "id": "g5-w1-018",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring and units",
+   "stem": "The forcemeter shows ___ N. A second, lighter bag pulls with 4 N, so the first bag pulls ___ N more.",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter with a spring, a pointer and a scale from 0 to 10.",
+   "blanks": [
+    [
+     "7"
+    ],
+    [
+     "3"
+    ]
+   ],
+   "explanation": "The pointer is at 7 N. Comparing the bags: 7 − 4 = 3 N more."
+  },
+  {
+   "id": "g5-w1-019",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring and units",
+   "stem": "Match each tool to what it measures.",
+   "pairs": [
+    [
+     {
+      "text": "balance",
+      "image": "openmoji/balance-scale.svg"
+     },
+     "mass"
+    ],
+    [
+     {
+      "text": "stopwatch",
+      "image": "openmoji/stopwatch.svg"
+     },
+     "time"
+    ],
+    [
+     {
+      "text": "thermometer",
+      "image": "openmoji/thermometer.svg"
+     },
+     "temperature"
+    ],
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "length"
+    ]
+   ],
+   "explanation": "Each tool measures one thing: a balance measures mass, a stopwatch measures time, a thermometer measures temperature and a ruler measures length."
+  },
+  {
+   "id": "g5-w1-020",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Observing and asking questions",
+   "stem": "Priya wants to look closely at the tiny veins in a leaf. Which tool should she use?",
+   "options": [
+    {
+     "text": "magnifying glass",
+     "image": "openmoji/magnifying-glass.svg"
+    },
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "stopwatch",
+     "image": "openmoji/stopwatch.svg"
+    },
+    {
+     "text": "balance",
+     "image": "openmoji/balance-scale.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "A magnifying glass (hand lens) makes small details look bigger, so it helps careful observation. The other tools measure time, length and mass."
+  },
+  {
+   "id": "g5-w1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests and variables",
+   "stem": "Arif wants to know which of three fertilisers helps his chilli plants grow tallest. Which plan is the fairest?",
+   "options": [
+    "Change the fertiliser and the pot size, so he sees which helps most.",
+    "Give each plant a fertiliser in the place that looks best.",
+    "Change only the fertiliser; give every plant the same soil, pot, water and light.",
+    "Use one fertiliser on all plants and change the amount of water."
+   ],
+   "answer": 2,
+   "explanation": "A fair test changes only one variable. If Arif changed the pot size or the place as well, he could not tell whether the fertiliser caused the difference."
+  },
+  {
+   "id": "g5-w1-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests and variables",
+   "stem": "Tuli wants to find which of four kinds of cloth dries fastest on the clothesline. Which things must she keep the same? Choose all that are right.",
+   "options": [
+    "the size of each cloth",
+    "the type of cloth",
+    "the amount of water in each cloth",
+    "where on the line each cloth hangs",
+    "the time taken to dry"
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "The type of cloth is what Tuli changes, and the time taken to dry is what she measures. Size, water and place are control variables, so they must stay the same."
+  },
+  {
+   "id": "g5-w1-023",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Repeating, means and anomalies",
+   "stem": "Joy times a rickshaw crossing a bridge three times with a stopwatch: 62 s, 60 s and 64 s. The mean time is ___ s.",
+   "blanks": [
+    [
+     "62"
+    ]
+   ],
+   "explanation": "62 + 60 + 64 = 186, and 186 ÷ 3 = 62 s. Reporting the mean of three timings is more reliable than reporting one."
+  },
+  {
+   "id": "g5-w1-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring and units",
+   "stem": "Lina feels hot and her mother thinks she has a fever. Which instrument and unit should they use?",
+   "options": [
+    "a stopwatch, in s",
+    "a thermometer, in °C",
+    "a balance, in g",
+    "a measuring cylinder, in ml"
+   ],
+   "answer": 1,
+   "explanation": "Body temperature is measured with a thermometer in degrees Celsius. The other instruments measure time, mass and volume."
+  },
+  {
+   "id": "g5-w1-025",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests and variables",
+   "stem": "Rafi's father plants a new kind of rice in one corner of his field and the old kind in the rest. The new rice gives more grain, so he says it is better. What is the biggest problem with his test?",
+   "options": [
+    "He should have tested the rice in a laboratory.",
+    "He should have used a different fertiliser for each kind.",
+    "There is no problem: a bigger harvest always proves a better kind.",
+    "The two kinds grew in different places and were tested only once."
+   ],
+   "answer": 3,
+   "explanation": "The corner may have better soil or more water, so the place could explain the result. A fair test grows both kinds in the same conditions and repeats the test."
+  },
+  {
+   "id": "g5-w1-026",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Fair tests and variables",
+   "stem": "Sumi wants to find out which of three brands of soap washes a muddy cloth cleanest. Describe how she could make it a fair test.",
+   "model_answer": "Change only the brand of soap. Use cloths of the same size with the same amount of mud, the same amount of soap and water, and the same washing time. Repeat the test three times.",
+   "keywords": [
+    [
+     "same",
+     "equal",
+     "identical",
+     "constant"
+    ],
+    [
+     "only one",
+     "one thing",
+     "brand",
+     "change only"
+    ],
+    [
+     "repeat",
+     "three times",
+     "again",
+     "more than once"
+    ],
+    [
+     "cloth",
+     "mud",
+     "time",
+     "amount"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A fair test changes one variable (the brand), measures one thing (how clean the cloth is) and keeps the cloth, mud, soap, water and time the same. Repeating makes the results more reliable."
+  },
+  {
+   "id": "g5-w1-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Repeating, means and anomalies",
+   "stem": "Example class experiment: Class 5B dropped a ball from 1 m and measured the bounce height in five tries: 52 cm, 54 cm, 31 cm, 53 cm and 51 cm. In the third try the ball was dropped from a lower height by mistake. What is the best mean to report?",
+   "options": [
+    "48.2 cm, using all five results",
+    "31 cm, the lowest result",
+    "52.5 cm, leaving out the 31 cm result",
+    "54 cm, the highest result"
+   ],
+   "answer": 2,
+   "explanation": "The 31 cm result is an anomaly with a known cause, so it is left out. (52 + 54 + 53 + 51) ÷ 4 = 210 ÷ 4 = 52.5 cm. Using all five results gives 48.2 cm, which is pulled down by the mistake."
+  },
+  {
+   "id": "g5-w1-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Tables, graphs and patterns",
+   "stem": "Example data: a cup of tea was left to cool. At 0, 5, 10 and 15 minutes its temperature was 80 °C, 62 °C, 50 °C and 43 °C. What is the best prediction for 20 minutes?",
+   "options": [
+    "About 25 °C, because it falls by 18 °C every 5 minutes.",
+    "About 43 °C, because the tea has stopped cooling.",
+    "About 55 °C, because tea warms up again.",
+    "About 38 °C, because it keeps cooling but by smaller amounts each time."
+   ],
+   "answer": 3,
+   "explanation": "The drops are 18, 12 and 7 °C, so the tea cools more slowly as it gets closer to room temperature. The next drop is smaller still, about 5 °C, giving about 38 °C."
+  },
+  {
+   "id": "g5-w1-029",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Predictions, conclusions and models",
+   "stem": "Example data: Imran tested three paper towels. Towel A has 2 layers and soaked up 10 ml of water. Towel B has 3 layers and soaked up 14 ml. Towel C has 4 layers and soaked up 18 ml. Which statements are supported by the data? Choose all that are right.",
+   "options": [
+    "Towel C soaked up the most water.",
+    "Each extra layer soaked up about 4 ml more water.",
+    "Towels that cost more are always better.",
+    "Towel B soaked up less water than towel A.",
+    "The colour of the towel changed how much water it soaked up."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "A conclusion must be backed by the results. The table shows C took up the most and that each extra layer added about 4 ml. It says nothing about cost or colour, and B soaked up more than A, not less."
+  },
+  {
+   "id": "g5-w1-030",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Predictions, conclusions and models",
+   "stem": "Anika predicted that salty water would freeze faster than tap water. Her results showed that the tap water froze first. She says: \"My investigation failed because my prediction was wrong.\" Do you agree? Explain.",
+   "model_answer": "No, I disagree. A result that does not match the prediction is still useful evidence. Her investigation answered the question, and she can use the results to change her idea and make a new prediction.",
+   "keywords": [
+    [
+     "disagree",
+     "not fail",
+     "did not fail",
+     "not a failure",
+     "not wrong",
+     "still useful"
+    ],
+    [
+     "evidence",
+     "data",
+     "result",
+     "results"
+    ],
+    [
+     "learn",
+     "new idea",
+     "new prediction",
+     "explain",
+     "improve",
+     "change my idea",
+     "rethink"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Science is about following the evidence. A surprising result teaches us something and can lead to a better explanation and a new prediction. (Salt really does lower the freezing point of water.)"
+  }
+ ]
+}

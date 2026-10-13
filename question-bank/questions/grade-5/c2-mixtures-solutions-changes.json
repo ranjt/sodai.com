@@ -1,0 +1,683 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "C2",
+ "title": "Mixtures, Solutions and Changes",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-5-science/pdf/c2-mixtures-solutions-and-changes-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-c2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Separating mixtures",
+   "stem": "A **mixture** is…",
+   "options": [
+    "two or more materials mixed together but not joined",
+    "a liquid with nothing at all in it",
+    "one material that has been heated and cooled",
+    "a solid that has changed into a liquid"
+   ],
+   "answer": 0,
+   "explanation": "In a mixture the materials are only mixed, not joined, so each one keeps its own properties. That is why we can often separate them again."
+  },
+  {
+   "id": "g5-c2-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Separating mixtures",
+   "stem": "Match each mixture to the best way to separate it.",
+   "pairs": [
+    [
+     "small stones from rice",
+     "sieving"
+    ],
+    [
+     "iron filings from sand",
+     "using a magnet"
+    ],
+    [
+     "sand from water",
+     "filtering"
+    ],
+    [
+     "salt from salty water",
+     "evaporating"
+    ]
+   ],
+   "explanation": "Choose a method that uses a difference between the materials: size (sieve), magnetism (magnet), insoluble solid in a liquid (filter), or a dissolved solid in a liquid (evaporate the water)."
+  },
+  {
+   "id": "g5-c2-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Dissolving and solutions",
+   "stem": "When sugar dissolves in water, it disappears and is gone for ever.",
+   "answer": false,
+   "explanation": "The sugar breaks up into pieces too small to see and spreads through the water. It is still there: the water tastes sweet, and you can get the sugar back by evaporating the water."
+  },
+  {
+   "id": "g5-c2-004",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Soluble and insoluble",
+   "stem": "Sort these materials into those that dissolve in water and those that do not.",
+   "categories": [
+    "Soluble",
+    "Insoluble"
+   ],
+   "items": [
+    [
+     "salt",
+     "Soluble"
+    ],
+    [
+     "sugar",
+     "Soluble"
+    ],
+    [
+     "instant coffee",
+     "Soluble"
+    ],
+    [
+     "sand",
+     "Insoluble"
+    ],
+    [
+     "chalk",
+     "Insoluble"
+    ],
+    [
+     "flour",
+     "Insoluble"
+    ]
+   ],
+   "explanation": "Salt, sugar and instant coffee dissolve to make solutions. Sand, chalk and flour stay as solid pieces in the water, so they can be filtered out."
+  },
+  {
+   "id": "g5-c2-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reversible changes",
+   "stem": "Sort these changes into reversible and irreversible.",
+   "categories": [
+    "Reversible",
+    "Irreversible"
+   ],
+   "items": [
+    [
+     "butter melting",
+     "Reversible"
+    ],
+    [
+     "sugar dissolving in tea",
+     "Reversible"
+    ],
+    [
+     "water freezing into ice",
+     "Reversible"
+    ],
+    [
+     "baking a cake",
+     "Irreversible"
+    ],
+    [
+     "burning paper",
+     "Irreversible"
+    ],
+    [
+     "an iron nail rusting",
+     "Irreversible"
+    ]
+   ],
+   "explanation": "Melting, freezing and dissolving can be undone because no new material is made. Baking, burning and rusting make new materials, so they cannot be undone."
+  },
+  {
+   "id": "g5-c2-006",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Separating mixtures",
+   "stem": "Rana spilled sand, salt and iron nails into one jar. Put the steps in the best order to get all three back.",
+   "sequence": [
+    "Use a magnet to pull out the iron nails.",
+    "Add water and stir so that the salt dissolves.",
+    "Filter the mixture: the sand stays in the filter paper.",
+    "Evaporate the water from the salty water to get the salt."
+   ],
+   "explanation": "Take out the magnetic nails first. Water dissolves the salt but not the sand, so filtering separates them. Evaporating the water from the filtered solution leaves the salt."
+  },
+  {
+   "id": "g5-c2-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Irreversible changes",
+   "stem": "Which of these are signs that a new material has been made? Choose all that are right.",
+   "options": [
+    "bubbles of gas appear",
+    "a new colour forms",
+    "heat or light is given out",
+    "the material is cut into smaller pieces",
+    "the material is stirred"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Bubbles of gas, a colour change, a new smell, and heat or light being given out all show that new materials are forming. Cutting and stirring only change the shape or position of a material."
+  },
+  {
+   "id": "g5-c2-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Soluble and insoluble",
+   "stem": "Materials that dissolve in water are called ___, and materials that do not dissolve are called ___.",
+   "blanks": [
+    [
+     "soluble"
+    ],
+    [
+     "insoluble"
+    ]
+   ],
+   "bank": [
+    "soluble",
+    "insoluble",
+    "reversible",
+    "solution"
+   ],
+   "explanation": "Salt and sugar are soluble. Sand and chalk are insoluble. The liquid that forms when a solid dissolves is called a solution."
+  },
+  {
+   "id": "g5-c2-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Dissolving and solutions",
+   "stem": "When salt dissolves in water we get a salt ___. The salt is still there, so the mass of the solution is the mass of the water ___ the mass of the salt.",
+   "blanks": [
+    [
+     "solution"
+    ],
+    [
+     "plus",
+     "+",
+     "and"
+    ]
+   ],
+   "bank": [
+    "solution",
+    "plus",
+    "minus",
+    "mixture"
+   ],
+   "explanation": "Dissolved salt is not lost. It is spread through the water, so the solution has a mass equal to the water plus the salt."
+  },
+  {
+   "id": "g5-c2-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Dissolving and solutions",
+   "stem": "Salty water goes straight through filter paper, salt and all. Why?",
+   "options": [
+    "The salt has changed into water.",
+    "The salt is so heavy that it sinks through the paper.",
+    "The dissolved salt is in pieces far too small to be caught by the paper.",
+    "The holes in the filter paper are too big for water."
+   ],
+   "answer": 2,
+   "explanation": "When salt dissolves it breaks into pieces much smaller than the holes in the filter paper. To get the salt back, evaporate the water instead."
+  },
+  {
+   "id": "g5-c2-011",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Dissolving and solutions",
+   "stem": "Sumi says: 'When sugar dissolves in water it disappears, so it is gone.' Give two pieces of evidence that the sugar is still there.",
+   "model_answer": "The water tastes sweet. If you evaporate the water, the sugar is left behind. The solution weighs the same as the water plus the sugar.",
+   "keywords": [
+    [
+     "taste",
+     "tastes",
+     "sweet",
+     "sweetness"
+    ],
+    [
+     "evaporate",
+     "evaporating",
+     "evaporation",
+     "boil",
+     "dry",
+     "left behind",
+     "crystals",
+     "get it back"
+    ],
+    [
+     "mass",
+     "weigh",
+     "weighs",
+     "weight",
+     "heavier"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Taste, evaporating the water and measuring the mass all show that the sugar is still present in the solution, even though we cannot see it."
+  },
+  {
+   "id": "g5-c2-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Irreversible changes",
+   "stem": "Which of these is an irreversible change?",
+   "options": [
+    "melting chocolate",
+    "burning a match",
+    "dissolving salt in water",
+    "freezing juice"
+   ],
+   "answer": 1,
+   "explanation": "Burning makes new materials (ash, gases, heat and light) and cannot be undone. Melting, dissolving and freezing can all be reversed."
+  },
+  {
+   "id": "g5-c2-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Separating mixtures",
+   "stem": "Look at the picture of filtering muddy water. Which number shows the sand left behind (the residue)?",
+   "image": "diagrams/filtering-numbered.svg",
+   "image_alt": "Filtering muddy water with a funnel and filter paper, with five parts numbered.",
+   "options": [
+    "1",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 1,
+   "explanation": "Number 3 is the sand left behind in the filter paper. The clear water that passes through is number 4."
+  },
+  {
+   "id": "g5-c2-014",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Separating mixtures",
+   "stem": "Use the picture of the filtering equipment. Put the steps for filtering sandy water in order.",
+   "image": "diagrams/filtering-numbered.svg",
+   "image_alt": "A funnel with filter paper over a beaker, with sand left in the paper and clear water in the beaker.",
+   "sequence": [
+    "Fold the filter paper and put it in the funnel.",
+    "Stand the funnel over a beaker.",
+    "Pour the sandy water slowly into the funnel.",
+    "Clear water drips into the beaker and the sand stays in the paper."
+   ],
+   "explanation": "The filter paper must be in place before you pour. The liquid passes through the tiny holes in the paper, but the insoluble sand is too big and stays behind."
+  },
+  {
+   "id": "g5-c2-015",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Irreversible changes",
+   "stem": "Sort the pictures into reversible and irreversible changes.",
+   "categories": [
+    "Reversible",
+    "Irreversible"
+   ],
+   "items": [
+    [
+     {
+      "text": "chocolate melting",
+      "image": "openmoji/chocolate.svg"
+     },
+     "Reversible"
+    ],
+    [
+     {
+      "text": "salt dissolving in water",
+      "image": "openmoji/salt.svg"
+     },
+     "Reversible"
+    ],
+    [
+     {
+      "text": "ice melting",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "Reversible"
+    ],
+    [
+     {
+      "text": "frying an egg",
+      "image": "openmoji/frying-egg.svg"
+     },
+     "Irreversible"
+    ],
+    [
+     {
+      "text": "baking bread",
+      "image": "openmoji/bread.svg"
+     },
+     "Irreversible"
+    ],
+    [
+     {
+      "text": "cooking rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Irreversible"
+    ]
+   ],
+   "explanation": "Melting and dissolving can be undone by cooling or evaporating. Cooking an egg, bread or rice makes new materials, and you can never turn them back into the raw food."
+  },
+  {
+   "id": "g5-c2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Separating mixtures",
+   "stem": "Which tool is best for pulling iron nails out of a pile of sand?",
+   "options": [
+    {
+     "text": "magnifying glass",
+     "image": "openmoji/magnifying-glass.svg"
+    },
+    {
+     "text": "scissors",
+     "image": "openmoji/scissors.svg"
+    },
+    {
+     "text": "spoon",
+     "image": "openmoji/spoon.svg"
+    },
+    {
+     "text": "magnet",
+     "image": "openmoji/magnet.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "Iron is magnetic and sand is not, so a magnet pulls out only the nails. Scissors, a spoon or a magnifying glass cannot tell the two materials apart."
+  },
+  {
+   "id": "g5-c2-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Dissolving and solutions",
+   "stem": "Rana pours sandy salt water into the funnel in the picture. What collects in the beaker (5)?",
+   "image": "diagrams/filtering-numbered.svg",
+   "image_alt": "Filtering with a funnel, filter paper, sand left behind and a beaker of clear liquid below.",
+   "options": [
+    "pure water with no salt",
+    "sandy water",
+    "salty water with no sand",
+    "dry salt crystals"
+   ],
+   "answer": 2,
+   "explanation": "The sand is insoluble and stays in the filter paper. The salt is dissolved in tiny pieces and goes through with the water, so the beaker holds salty water."
+  },
+  {
+   "id": "g5-c2-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Soluble and insoluble",
+   "stem": "Which of these will dissolve in water?",
+   "options": [
+    {
+     "text": "salt",
+     "image": "openmoji/salt.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "rock",
+     "image": "openmoji/rock.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "Salt is soluble, so it dissolves in water to make a solution. Rock, brick and wood are insoluble."
+  },
+  {
+   "id": "g5-c2-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Separating mixtures",
+   "stem": "Farmers toss rice in a flat bamboo tray called a kula, in the breeze. The grains fall back into the tray but the husks blow away. Why?",
+   "options": [
+    "The tray has holes that only the husks can fit through.",
+    "The husks dissolve in the moving air.",
+    "The grains are magnetic and are pulled back to the tray.",
+    "The wind blows the light husks away, but the heavy grains fall back."
+   ],
+   "answer": 3,
+   "explanation": "Rice grains and husks have different masses. The wind can carry the light husks, but the heavier grains fall straight back down."
+  },
+  {
+   "id": "g5-c2-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Dissolving and solutions",
+   "stem": "Nadia stirs a spoon of sugar into her hot cha and the sugar seems to disappear. Where is the sugar now?",
+   "options": [
+    "It has changed into water.",
+    "It has dissolved and is spread through the cha.",
+    "It has floated to the top of the cha.",
+    "It has been destroyed."
+   ],
+   "answer": 1,
+   "explanation": "Dissolved sugar is broken into tiny pieces that spread through the liquid. The cha tastes sweet because the sugar is still there."
+  },
+  {
+   "id": "g5-c2-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Separating mixtures",
+   "stem": "Moung filters muddy pond water through a clean cloth and the water looks clear. It is now safe to drink.",
+   "answer": false,
+   "explanation": "Filtering removes mud and other solid pieces. Germs and dissolved substances are far too small to be caught by the cloth, so the water still needs to be boiled or properly treated."
+  },
+  {
+   "id": "g5-c2-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Separating mixtures",
+   "stem": "On a winter morning in Jashore, a neighbour offers Arif a cup of fresh, raw date palm sap that was filtered through cloth. What should Arif do?",
+   "options": [
+    "Drink it, because the cloth has removed everything harmful.",
+    "Leave it in a warm place for a few hours and drink it later.",
+    "Drink just a small sip, to test it.",
+    "Say no politely, and say that sap should be boiled before anyone drinks it."
+   ],
+   "answer": 3,
+   "explanation": "Cloth can remove insects and bark, but a virus is far too small to be stopped by it. Health experts in Bangladesh say never to drink raw date palm sap, because bats can contaminate it. Boiling makes it safe."
+  },
+  {
+   "id": "g5-c2-023",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Irreversible changes",
+   "stem": "Rafi bakes a cake. After it has cooled, he can change it back into flour, eggs and sugar.",
+   "answer": false,
+   "explanation": "Baking makes new materials. The cake rises because gas bubbles form, the colour and smell change, and the ingredients cannot be taken back out. It is an irreversible change."
+  },
+  {
+   "id": "g5-c2-024",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Dissolving and solutions",
+   "stem": "Priya wants one spoon of sugar to dissolve quickly in a glass of water. Which actions will help? Choose all that are right.",
+   "options": [
+    "stir the water",
+    "use fine sugar instead of big lumps",
+    "use warmer water",
+    "leave it without stirring",
+    "use bigger sugar crystals"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Stirring, smaller pieces and warmer water all make dissolving faster. Leaving it still or using big crystals slows it down."
+  },
+  {
+   "id": "g5-c2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Investigating dissolving",
+   "stem": "Class 5B timed how long one teaspoon of sugar took to dissolve in 100 ml of water at different temperatures (example results). At 10 °C it took 180 s, at 25 °C 95 s, at 40 °C 50 s and at 60 °C 25 s. What is the best prediction for the time at 50 °C?",
+   "options": [
+    "about 15 seconds",
+    "about 35 seconds",
+    "about 75 seconds",
+    "about 100 seconds"
+   ],
+   "answer": 1,
+   "explanation": "The time falls as the water gets warmer. 50 °C lies between 40 °C (50 s) and 60 °C (25 s), so the time must lie between 25 s and 50 s: about 35 seconds."
+  },
+  {
+   "id": "g5-c2-026",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Investigating dissolving",
+   "stem": "Using the same results (10 °C: 180 s, 25 °C: 95 s, 40 °C: 50 s, 60 °C: 25 s), the sugar took ___ seconds longer to dissolve at 10 °C than at 60 °C.",
+   "blanks": [
+    [
+     "155"
+    ]
+   ],
+   "explanation": "180 − 25 = 155 seconds. Cold water dissolves sugar much more slowly than hot water."
+  },
+  {
+   "id": "g5-c2-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Investigating dissolving",
+   "stem": "Class 5B timed each temperature only once. How could they make their results more reliable?",
+   "model_answer": "Repeat the test at each temperature several times (for example three times) and work out the average (mean) time.",
+   "keywords": [
+    [
+     "repeat",
+     "repeats",
+     "again",
+     "three times",
+     "several times",
+     "more than once",
+     "twice",
+     "3 times"
+    ],
+    [
+     "average",
+     "mean",
+     "divide",
+     "add up"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "One result might be wrong because of a mistake or a slow stopwatch. Repeating the test and finding the average makes the results more reliable."
+  },
+  {
+   "id": "g5-c2-028",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Dissolving and solutions",
+   "stem": "Joy puts 200 g of water in a cup and stirs in 15 g of salt until it has all dissolved (example numbers). The salty water has a mass of ___ g.",
+   "blanks": [
+    [
+     "215"
+    ]
+   ],
+   "explanation": "The salt is still there, just spread through the water, so the masses add: 200 + 15 = 215 g."
+  },
+  {
+   "id": "g5-c2-029",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Separating mixtures",
+   "stem": "Rafi mixes iron filings, chalk powder and sugar. He stirs the mixture into water and filters it. What is left on the filter paper?",
+   "options": [
+    "iron filings and sugar",
+    "sugar and chalk powder",
+    "iron filings and chalk powder",
+    "only chalk powder"
+   ],
+   "answer": 2,
+   "explanation": "Sugar is soluble, so it dissolves and goes through the paper with the water. Iron filings and chalk are insoluble and stay behind. Rafi could then use a magnet to pull out the iron."
+  },
+  {
+   "id": "g5-c2-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Irreversible changes",
+   "stem": "Imran says: 'A burning candle is just wax melting, so the change is reversible.' Which observation shows that this is not the whole story?",
+   "options": [
+    "The flame gives out heat and light and the candle slowly gets smaller.",
+    "The wax near the flame is soft and runny.",
+    "The melted wax goes hard again when it cools.",
+    "The candle is made from a solid material."
+   ],
+   "answer": 0,
+   "explanation": "Melted wax that sets again is reversible. But burning also uses up wax to make new substances and gives out heat and light, and that part cannot be undone."
+  }
+ ]
+}

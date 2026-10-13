@@ -1,0 +1,591 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "A2",
+ "title": "Plant Growth and Development",
+ "strand": "living",
+ "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-a2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "Which of these plants grows flowers that make seeds?",
+   "options": [
+    "pine tree",
+    "fern",
+    "moss",
+    "mango tree"
+   ],
+   "answer": 3,
+   "explanation": "A mango tree is a flowering plant. Ferns and mosses have no flowers, and pine trees make their seeds in cones."
+  },
+  {
+   "id": "g3-a2-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "Sort these plants into flowering and non-flowering.",
+   "categories": [
+    "Flowering",
+    "Non-flowering"
+   ],
+   "items": [
+    [
+     "rice",
+     "Flowering"
+    ],
+    [
+     "lotus",
+     "Flowering"
+    ],
+    [
+     "mango tree",
+     "Flowering"
+    ],
+    [
+     "fern",
+     "Non-flowering"
+    ],
+    [
+     "moss",
+     "Non-flowering"
+    ],
+    [
+     "pine tree",
+     "Non-flowering"
+    ]
+   ],
+   "explanation": "Rice, lotus and mango trees grow flowers that make seeds. Ferns and mosses grow from tiny spores, and pine trees make seeds in cones."
+  },
+  {
+   "id": "g3-a2-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Germination",
+   "stem": "When a seed starts to grow, we say that it ___.",
+   "blanks": [
+    [
+     "germinates",
+     "germinate"
+    ]
+   ],
+   "bank": [
+    "germinates",
+    "flowers",
+    "wilts"
+   ],
+   "explanation": "Germination is the start of a seed's growth. A seed needs water and warmth to germinate."
+  },
+  {
+   "id": "g3-a2-004",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "Which plant makes its seeds in cones instead of in flowers?",
+   "options": [
+    "rice",
+    "fern",
+    "pine tree",
+    "sunflower"
+   ],
+   "answer": 2,
+   "explanation": "Pine trees are non-flowering plants that make seeds in cones. Ferns do not make seeds at all: they grow from tiny spores."
+  },
+  {
+   "id": "g3-a2-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "Ferns grow flowers that make seeds.",
+   "answer": false,
+   "explanation": "Ferns have no flowers. They grow from tiny parts called spores."
+  },
+  {
+   "id": "g3-a2-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle",
+   "stem": "Match each stage of a plant's life to what it is.",
+   "pairs": [
+    [
+     "seed",
+     "can germinate when it has water and warmth"
+    ],
+    [
+     "seedling",
+     "a young plant with its first leaves"
+    ],
+    [
+     "mature plant",
+     "a fully grown plant that makes flowers"
+    ],
+    [
+     "fruit",
+     "holds the new seeds"
+    ]
+   ],
+   "explanation": "A plant goes from seed to seedling to mature plant. The mature plant makes flowers, and then fruits with new seeds."
+  },
+  {
+   "id": "g3-a2-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring growth",
+   "stem": "Which is the best way to measure how tall a bean plant is each week?",
+   "options": [
+    "Measure it with a ruler.",
+    "Weigh the flower pot.",
+    "Count the roots.",
+    "Guess by looking at it."
+   ],
+   "answer": 0,
+   "explanation": "A ruler measures height in centimetres, so you can compare the weeks fairly. Guessing is not accurate."
+  },
+  {
+   "id": "g3-a2-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Measuring growth",
+   "stem": "Which of these are good ways to measure a plant's growth? Choose all that are right.",
+   "options": [
+    "measure its height with a ruler",
+    "count its leaves",
+    "measure the width of its stem",
+    "count the clouds in the sky",
+    "smell its flowers"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "We can measure height, count leaves or measure the width of the stem each week. Clouds and smells do not tell us how much the plant has grown."
+  },
+  {
+   "id": "g3-a2-009",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Plant and animal life cycles",
+   "stem": "Sort these life-cycle stages into the right life cycle.",
+   "categories": [
+    "Flowering plant",
+    "Chicken"
+   ],
+   "items": [
+    [
+     "seed",
+     "Flowering plant"
+    ],
+    [
+     "seedling",
+     "Flowering plant"
+    ],
+    [
+     "plant with flowers",
+     "Flowering plant"
+    ],
+    [
+     "egg",
+     "Chicken"
+    ],
+    [
+     "chick",
+     "Chicken"
+    ],
+    [
+     "hen",
+     "Chicken"
+    ]
+   ],
+   "explanation": "A plant starts as a seed, becomes a seedling and then an adult plant with flowers. A chicken starts as an egg, hatches as a chick and grows into a hen."
+  },
+  {
+   "id": "g3-a2-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Germination",
+   "stem": "A bean seed kept dry in a packet will germinate.",
+   "answer": false,
+   "explanation": "A seed needs water and warmth to germinate. Dry seeds in a packet can stay as seeds for a long time."
+  },
+  {
+   "id": "g3-a2-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Plant and animal life cycles",
+   "stem": "A young plant is called a ___, and a young chicken is called a ___.",
+   "blanks": [
+    [
+     "seedling"
+    ],
+    [
+     "chick"
+    ]
+   ],
+   "bank": [
+    "seedling",
+    "chick",
+    "seed",
+    "hen"
+   ],
+   "explanation": "A seedling is the young stage of a plant, like a chick is the young stage of a chicken."
+  },
+  {
+   "id": "g3-a2-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring growth",
+   "stem": "Example: a mango seedling is 12 cm tall. Two weeks later it is 19 cm tall. It has grown ___ cm.",
+   "blanks": [
+    [
+     "7",
+     "seven"
+    ]
+   ],
+   "explanation": "To find how much it grew, subtract the first height from the second: 19 − 12 = 7 cm."
+  },
+  {
+   "id": "g3-a2-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plant parts",
+   "stem": "Look at the plant. Which number shows the roots?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with five parts numbered 1 to 5.",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 2,
+   "explanation": "Number 4 is the roots, under the ground. Number 2 is a leaf, 3 is the stem and 5 is the fruit."
+  },
+  {
+   "id": "g3-a2-014",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plant parts",
+   "stem": "Number 5 holds the new seeds. It is the ___.",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with five parts numbered 1 to 5.",
+   "blanks": [
+    [
+     "fruit"
+    ]
+   ],
+   "bank": [
+    "fruit",
+    "flower",
+    "stem",
+    "leaf"
+   ],
+   "explanation": "Number 5 is the fruit. After the flower is pollinated, seeds grow inside the fruit."
+  },
+  {
+   "id": "g3-a2-015",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle",
+   "stem": "Put the stages of a flowering plant's life cycle in order, starting from the seed.",
+   "image": "diagrams/plant-life-cycle-numbered.svg",
+   "image_alt": "The life cycle of a flowering plant with seven stages numbered 1 to 7.",
+   "sequence": [
+    "seed",
+    "germination",
+    "young plant",
+    "flowering",
+    "pollination",
+    "fertilisation and fruit",
+    "seed dispersal"
+   ],
+   "explanation": "A seed germinates and grows into a young plant, which flowers. After pollination, fruit and seeds form, and the seeds are spread so the cycle can start again."
+  },
+  {
+   "id": "g3-a2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle",
+   "stem": "Insects or the wind carry pollen from flower to flower. Which number on the life cycle shows this stage?",
+   "image": "diagrams/plant-life-cycle-numbered.svg",
+   "image_alt": "The life cycle of a flowering plant with seven stages numbered 1 to 7.",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "answer": 2,
+   "explanation": "Number 5 is pollination. Number 4 is the flowering stage before it, and number 7 is seed dispersal, when the seeds are spread."
+  },
+  {
+   "id": "g3-a2-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Plant and animal life cycles",
+   "stem": "A seedling is a young plant. Which stage in the chicken's life cycle is the same kind of stage?",
+   "image": "diagrams/chicken-life-cycle.svg",
+   "image_alt": "The life cycle of a chicken: egg, hatching, chick and adult hen.",
+   "options": [
+    "egg",
+    "chick",
+    "hatching",
+    "hen"
+   ],
+   "answer": 1,
+   "explanation": "A chick is a young chicken, just as a seedling is a young plant. The egg is more like the seed, and the hen is like the adult plant."
+  },
+  {
+   "id": "g3-a2-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle",
+   "stem": "Which picture shows a seedling, a young plant with its first leaves?",
+   "options": [
+    {
+     "text": "sunflower",
+     "image": "openmoji/sunflower.svg"
+    },
+    {
+     "text": "seedling",
+     "image": "openmoji/seedling.svg"
+    },
+    {
+     "text": "tree",
+     "image": "openmoji/deciduous-tree.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A seedling is small, with just a stem and its first leaves. The sunflower and the tree are fully grown plants."
+  },
+  {
+   "id": "g3-a2-019",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle",
+   "stem": "Abdul is a rice farmer in Mymensingh. Put his year in the right order.",
+   "sequence": [
+    "He soaks rice seeds in water so they germinate.",
+    "He grows the seedlings in a small bed of mud.",
+    "He moves the seedlings to the big flooded field.",
+    "The rice plants flower and the grains grow.",
+    "He harvests the golden grains."
+   ],
+   "explanation": "Rice goes through the whole life cycle in about four months: seed, seedling, mature plant with flowers, and new seeds (the grains). Abdul keeps some seeds to plant next year."
+  },
+  {
+   "id": "g3-a2-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Germination",
+   "stem": "Priya wants her bean seeds to germinate. What should she do?",
+   "options": [
+    "Keep them dry in a warm cupboard.",
+    "Put them in damp soil in a freezer.",
+    "Leave them in a dry packet in the cold.",
+    "Plant them in damp soil in a warm place."
+   ],
+   "answer": 3,
+   "explanation": "Seeds need both water and warmth to germinate. Each of the other choices leaves out water or warmth."
+  },
+  {
+   "id": "g3-a2-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Measuring growth",
+   "stem": "Tuli measures her chilli plant with a ruler each week and writes the height in a table. This is a good way to see how fast it grows.",
+   "answer": true,
+   "explanation": "Measuring at the same time each week and recording the numbers lets her compare the heights and see the growth pattern."
+  },
+  {
+   "id": "g3-a2-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "On a school walk, Anika finds a plant with feathery leaves. It has no flowers and grows from tiny spores. Which plant is it most likely to be?",
+   "options": [
+    "a sunflower",
+    "a mango tree",
+    "a fern",
+    "a rice plant"
+   ],
+   "answer": 2,
+   "explanation": "Ferns and mosses have no flowers and grow from spores. Sunflowers, mango trees and rice are flowering plants."
+  },
+  {
+   "id": "g3-a2-023",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle",
+   "stem": "A mango tree makes many fruits, each with a seed, but only a few of the seeds grow into new trees. Why do plants make so many seeds?",
+   "model_answer": "Many seeds are eaten by animals or land in places where they cannot grow, so making lots of seeds means that some will grow into new plants.",
+   "keywords": [
+    [
+     "eaten",
+     "eat",
+     "animals",
+     "die",
+     "lost",
+     "bad place",
+     "wrong place",
+     "cannot grow",
+     "not grow",
+     "fail"
+    ],
+    [
+     "some",
+     "few",
+     "survive",
+     "chance",
+     "enough",
+     "grow",
+     "new plants",
+     "new trees"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Many seeds never become plants because they are eaten or land somewhere unsuitable. By making lots of seeds, the plant makes sure that some survive."
+  },
+  {
+   "id": "g3-a2-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Measuring growth",
+   "stem": "Class 3C measured a bean plant. Example heights: week 1 = 2 cm, week 2 = 6 cm, week 3 = 11 cm, week 4 = 17 cm, week 5 = 20 cm. Between which two weeks did it grow the **most**?",
+   "options": [
+    "weeks 3 and 4",
+    "weeks 2 and 3",
+    "weeks 1 and 2",
+    "weeks 4 and 5"
+   ],
+   "answer": 0,
+   "explanation": "The growth was 4 cm, 5 cm, 6 cm and 3 cm. The biggest jump was between weeks 3 and 4: 17 − 11 = 6 cm. The tallest plant is not the same as the biggest growth."
+  },
+  {
+   "id": "g3-a2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Measuring growth",
+   "stem": "The bean plant (example data) was 2, 6, 11, 17 and 20 cm tall in weeks 1 to 5. Which prediction for week 6 fits the pattern best?",
+   "options": [
+    "about 35 cm: it grows faster every week",
+    "about 10 cm: plants stop growing",
+    "about 22 cm: the growth is slowing down",
+    "about 2 cm: it starts again"
+   ],
+   "answer": 2,
+   "explanation": "The weekly growth went 4, 5, 6 and then only 3 cm, so growth is slowing. Adding a little more to 20 cm gives about 22 cm."
+  },
+  {
+   "id": "g3-a2-026",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Germination",
+   "stem": "Class 3B tested bean seeds (example). A: damp cotton wool in a warm room, 9 of 10 seeds germinated. B: damp cotton wool in a cold fridge, 0 germinated. C: dry cotton wool in a warm room, 0 germinated. What does the test show that seeds need to germinate?",
+   "model_answer": "Seeds need both water and warmth to germinate. The seeds that were cold or dry did not grow.",
+   "keywords": [
+    [
+     "warm",
+     "warmth",
+     "heat",
+     "temperature",
+     "warmer"
+    ],
+    [
+     "water",
+     "wet",
+     "damp",
+     "moist",
+     "wetness"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Only seeds that were damp and warm germinated. B was damp but cold, and C was warm but dry, and neither germinated, so seeds need both water and warmth."
+  },
+  {
+   "id": "g3-a2-027",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Plant and animal life cycles",
+   "stem": "Which statements are true for both a bean plant and a chicken? Choose all that are right.",
+   "options": [
+    "They start life small and grow into adults.",
+    "They make new young that start the cycle again.",
+    "They begin life as a seed.",
+    "They lay eggs."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Both have a life cycle with young and adult stages, and adults make new young. But only the plant starts as a seed, and only the chicken lays eggs."
+  },
+  {
+   "id": "g3-a2-028",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Measuring growth",
+   "stem": "A bean plant was 2, 6, 11, 17 and 20 cm tall in weeks 1 to 5 (example data). It grew by the same number of centimetres every week.",
+   "answer": false,
+   "explanation": "It grew 4, 5, 6 and then 3 cm. The amounts are different each week, so the growth was not steady."
+  }
+ ]
+}

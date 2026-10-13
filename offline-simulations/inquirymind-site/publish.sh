@@ -2,7 +2,7 @@
 # Publish the InquiryMind learning resources to the inquirymind.org Firebase site.
 #
 # Copies the ready-made folders next to this script (simulations, science-simulations, worksheets with all grades
-# and the thinking routines) into the "public" folder of your Firebase project, then optionally deploys.
+# and the thinking routines, question-bank for the Practice section) into the "public" folder of your Firebase project, then optionally deploys.
 # Nothing is rebuilt: the worksheets, PDFs and pages are used exactly as they are.
 #
 # Usage (on your Mac, in Terminal):
@@ -17,11 +17,11 @@ SRC="$(cd "$(dirname "$0")" && pwd)"
 PROJECT="${1:?Usage: bash publish.sh /path/to/firebase-project [--only worksheets] [--deploy]}"
 shift
 DEPLOY=0
-FOLDERS="simulations science-simulations worksheets"
+FOLDERS="simulations science-simulations worksheets question-bank"
 while [ $# -gt 0 ]; do
   case "$1" in
     --deploy) DEPLOY=1 ;;
-    --only) FOLDERS="${2:?--only needs a folder name: simulations, science-simulations or worksheets}"; shift ;;
+    --only) FOLDERS="${2:?--only needs a folder name: simulations, science-simulations, worksheets or question-bank}"; shift ;;
     *) echo "Unknown option: $1"; exit 1 ;;
   esac
   shift
@@ -47,7 +47,7 @@ done
 
 if [ "$DEPLOY" = 1 ]; then
   (cd "$PROJECT" && firebase deploy --only hosting)
-  echo "Live: https://www.inquirymind.org/worksheets/ and /worksheets/thinking-routines/"
+  echo "Live: https://www.inquirymind.org/worksheets/, /worksheets/thinking-routines/ and /question-bank/preview/"
 else
   echo "Copied. Preview with: (cd \"$PROJECT\" && firebase serve) then open http://localhost:5000/worksheets/"
   echo "Publish with: bash publish.sh \"$PROJECT\" --deploy"

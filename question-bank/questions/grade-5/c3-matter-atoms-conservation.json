@@ -1,0 +1,711 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "C3",
+ "title": "Matter, Atoms and Conservation",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-5-science/pdf/c3-matter-atoms-and-conservation-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-c3-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Atoms, elements and molecules",
+   "stem": "All matter is made of tiny building blocks called…",
+   "options": [
+    "cells",
+    "atoms",
+    "droplets",
+    "crystals"
+   ],
+   "answer": 1,
+   "explanation": "Air, water, your desk and your body are all made of atoms. Atoms are so small that a single human hair is about half a million atoms wide."
+  },
+  {
+   "id": "g5-c3-002",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Atoms, elements and molecules",
+   "stem": "A material made of only one kind of atom is an ___. When atoms join together they make a ___.",
+   "blanks": [
+    [
+     "element"
+    ],
+    [
+     "molecule"
+    ]
+   ],
+   "bank": [
+    "element",
+    "molecule",
+    "nucleus",
+    "mixture"
+   ],
+   "explanation": "Oxygen, iron and gold are elements. A water molecule is two hydrogen atoms joined to one oxygen atom."
+  },
+  {
+   "id": "g5-c3-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Atoms, elements and molecules",
+   "stem": "Match each key word to its meaning.",
+   "pairs": [
+    [
+     "atom",
+     "the tiny building block of matter"
+    ],
+    [
+     "element",
+     "made of only one kind of atom"
+    ],
+    [
+     "molecule",
+     "atoms joined together"
+    ],
+    [
+     "nucleus",
+     "the centre of an atom"
+    ],
+    [
+     "closed system",
+     "nothing can get in or out"
+    ]
+   ],
+   "explanation": "These key words describe matter and how we study it. The nucleus holds the protons and neutrons, with the electrons moving around it."
+  },
+  {
+   "id": "g5-c3-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Conservation of mass",
+   "stem": "When sugar dissolves in water, its atoms are destroyed.",
+   "answer": false,
+   "explanation": "No atoms are destroyed in any physical or chemical change. The sugar atoms are still there, spread through the water."
+  },
+  {
+   "id": "g5-c3-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Mass calculations",
+   "stem": "330 g of juice is frozen to make an ice lolly. The ice lolly has a mass of ___ g.",
+   "blanks": [
+    [
+     "330"
+    ]
+   ],
+   "explanation": "Freezing only rearranges how the particles are arranged. No atoms are gained or lost, so the mass stays at 330 g."
+  },
+  {
+   "id": "g5-c3-006",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Atoms, elements and molecules",
+   "stem": "Sort these into elements and substances made of different atoms joined together.",
+   "categories": [
+    "Element (one kind of atom)",
+    "Different atoms joined together"
+   ],
+   "items": [
+    [
+     "iron",
+     "Element (one kind of atom)"
+    ],
+    [
+     "gold",
+     "Element (one kind of atom)"
+    ],
+    [
+     "aluminium",
+     "Element (one kind of atom)"
+    ],
+    [
+     "water (H₂O)",
+     "Different atoms joined together"
+    ],
+    [
+     "carbon dioxide (CO₂)",
+     "Different atoms joined together"
+    ]
+   ],
+   "explanation": "Iron, gold and aluminium are each made of only one kind of atom. Water has hydrogen and oxygen atoms joined, and carbon dioxide has carbon and oxygen atoms joined."
+  },
+  {
+   "id": "g5-c3-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Open and closed systems",
+   "stem": "Which of these is a closed system?",
+   "options": [
+    "an open pan of boiling water",
+    "a candle burning in a room",
+    "a puddle drying in the sun",
+    "a sealed jar"
+   ],
+   "answer": 3,
+   "explanation": "In a closed system nothing can get in or out. A sealed jar keeps everything inside, while open pans, candles and puddles can lose gases to the air."
+  },
+  {
+   "id": "g5-c3-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Conservation of mass",
+   "stem": "Vinegar and baking soda react in a sealed bag and the bag puffs up with gas. Which of these stay the same? Choose all that are right.",
+   "options": [
+    "the total number of atoms",
+    "the total mass of the bag and its contents",
+    "the kinds of atom present",
+    "the substances inside the bag",
+    "the way the atoms are joined together"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "In a chemical change atoms are rearranged but none are made or destroyed, so the atom count, the kinds of atom and the total mass stay the same. The substances and how atoms are joined do change."
+  },
+  {
+   "id": "g5-c3-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Conservation of energy",
+   "stem": "What happens to the total amount of energy in a closed system?",
+   "options": [
+    "The total stays the same; energy only moves or changes form.",
+    "Energy is made new whenever something moves.",
+    "The energy slowly disappears into the air.",
+    "Some energy is destroyed every time it changes form."
+   ],
+   "answer": 0,
+   "explanation": "Energy cannot be made or destroyed. It moves from place to place or changes form, for example from electrical energy to light and heat."
+  },
+  {
+   "id": "g5-c3-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Open and closed systems",
+   "stem": "A candle has a mass of 50 g. After burning for an hour its mass is 42 g. Has mass been destroyed? Explain.",
+   "model_answer": "No. The wax reacted with oxygen and turned into carbon dioxide gas and water vapour, which escaped into the air because the candle was in an open system.",
+   "keywords": [
+    [
+     "no",
+     "not destroyed",
+     "not lost",
+     "not gone",
+     "still there"
+    ],
+    [
+     "gas",
+     "gases",
+     "carbon dioxide",
+     "vapour",
+     "water vapour",
+     "oxygen"
+    ],
+    [
+     "air",
+     "escape",
+     "escaped",
+     "open",
+     "floated away",
+     "went into"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The atoms of wax were rearranged into gases that drifted into the air, so the candle lost mass. If you caught all the gases in a sealed container, the total mass would not change."
+  },
+  {
+   "id": "g5-c3-011",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Mass calculations",
+   "stem": "Class 5C want to check whether mass is conserved in a reaction. Which tool do they need?",
+   "options": [
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "thermometer",
+     "image": "openmoji/thermometer.svg"
+    },
+    {
+     "text": "balance scale",
+     "image": "openmoji/balance-scale.svg"
+    },
+    {
+     "text": "stopwatch",
+     "image": "openmoji/stopwatch.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A balance measures mass. The class weigh everything before the reaction and again after, then compare the two readings."
+  },
+  {
+   "id": "g5-c3-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Nuclear changes",
+   "stem": "Which of these gets its heat from splitting big uranium atoms?",
+   "options": [
+    {
+     "text": "nuclear power plant",
+     "image": "openmoji/nuclear-power-plant.svg"
+    },
+    {
+     "text": "campfire",
+     "image": "openmoji/fire.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "light bulb",
+     "image": "openmoji/light-bulb.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "In a nuclear power plant, uranium atoms are split into smaller atoms of other elements, which gives out a huge amount of heat. A campfire and a candle burn fuel, which is a chemical change."
+  },
+  {
+   "id": "g5-c3-013",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Nuclear changes",
+   "stem": "Match each picture to what happens to its atoms.",
+   "pairs": [
+    [
+     {
+      "text": "the Sun",
+      "image": "openmoji/sun.svg"
+     },
+     "small hydrogen atoms join to make helium"
+    ],
+    [
+     {
+      "text": "nuclear power plant",
+      "image": "openmoji/nuclear-power-plant.svg"
+     },
+     "big uranium atoms split into smaller atoms"
+    ],
+    [
+     {
+      "text": "wood burning",
+      "image": "openmoji/fire.svg"
+     },
+     "atoms rearrange into gases, smoke and ash"
+    ],
+    [
+     {
+      "text": "ice melting",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "the same molecules, just moving around more"
+    ]
+   ],
+   "explanation": "Nuclear changes in the Sun and in a power plant change the nucleus, so one element turns into another. Burning rearranges atoms, and melting only changes how the molecules move."
+  },
+  {
+   "id": "g5-c3-014",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Nuclear changes",
+   "stem": "Sort the pictures into physical, chemical and nuclear changes.",
+   "categories": [
+    "Physical change",
+    "Chemical change",
+    "Nuclear change"
+   ],
+   "items": [
+    [
+     {
+      "text": "ice melting",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "Physical change"
+    ],
+    [
+     {
+      "text": "salt dissolving in water",
+      "image": "openmoji/salt.svg"
+     },
+     "Physical change"
+    ],
+    [
+     {
+      "text": "wood burning",
+      "image": "openmoji/fire.svg"
+     },
+     "Chemical change"
+    ],
+    [
+     {
+      "text": "frying an egg",
+      "image": "openmoji/frying-egg.svg"
+     },
+     "Chemical change"
+    ],
+    [
+     {
+      "text": "uranium atoms splitting in a power plant",
+      "image": "openmoji/nuclear-power-plant.svg"
+     },
+     "Nuclear change"
+    ],
+    [
+     {
+      "text": "hydrogen atoms joining in the Sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Nuclear change"
+    ]
+   ],
+   "explanation": "In a physical change atoms just move around. In a chemical change atoms are rearranged to make new substances. In a nuclear change the nucleus itself changes."
+  },
+  {
+   "id": "g5-c3-015",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Nuclear changes",
+   "stem": "Put the steps of making electricity in a nuclear power station in order.",
+   "sequence": [
+    {
+     "text": "Uranium atoms split in the reactor.",
+     "image": "openmoji/atom.svg"
+    },
+    {
+     "text": "A lot of heat is released.",
+     "image": "openmoji/fire.svg"
+    },
+    {
+     "text": "The heat boils water into steam.",
+     "image": "openmoji/teapot.svg"
+    },
+    {
+     "text": "Steam spins a turbine.",
+     "image": "openmoji/gear.svg"
+    },
+    {
+     "text": "The turbine turns a generator, making electricity.",
+     "image": "openmoji/high-voltage.svg"
+    }
+   ],
+   "explanation": "Splitting uranium atoms releases heat. The heat makes steam, the steam spins the turbine, and the turbine drives the generator. Energy changes form at each step, but none is lost."
+  },
+  {
+   "id": "g5-c3-016",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conservation of mass",
+   "stem": "The picture shows water as a solid, a liquid and a gas. Changing from one box to the next only changes how the particles are arranged and move. No atoms are lost or made.",
+   "image": "diagrams/states-particles.svg",
+   "image_alt": "Three boxes of water particles: solid on the left (packed in rows), liquid in the middle (touching), gas on the right (far apart), joined by arrows labelled melting, freezing, evaporating and condensing.",
+   "answer": true,
+   "explanation": "Melting, freezing, evaporating and condensing are physical changes. The same atoms are present in every box, just arranged and moving differently."
+  },
+  {
+   "id": "g5-c3-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Open and closed systems",
+   "stem": "Nadia boils water in an open pot. After 20 minutes the pot and water weigh less. Where did the missing mass go?",
+   "options": [
+    "It sank into the bottom of the pot.",
+    "The water was destroyed.",
+    "It turned into rice.",
+    "It escaped into the air as water vapour."
+   ],
+   "answer": 3,
+   "explanation": "Boiling turns liquid water into water vapour, which drifts away from the open pot. No atoms are destroyed; they are just in the air now."
+  },
+  {
+   "id": "g5-c3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Conservation of mass",
+   "stem": "Rafi weighs a shiny iron nail. After some weeks in a damp place it is covered in rust and weighs a little more. Where does the extra mass come from?",
+   "options": [
+    "The nail makes new iron atoms.",
+    "The rust is lighter, so the nail should weigh less.",
+    "Iron atoms join with oxygen (and water) from the air.",
+    "A bit of dust settles on the nail."
+   ],
+   "answer": 2,
+   "explanation": "Rust is a new substance made when iron atoms join with oxygen from the air. The added atoms add mass. Nothing is created from nothing."
+  },
+  {
+   "id": "g5-c3-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Mass calculations",
+   "stem": "Tuli makes sherbet by stirring 20 g of sugar into 250 g of water. She says the sherbet should have a mass of 270 g.",
+   "answer": true,
+   "explanation": "The sugar dissolves but its atoms are still there. The mass of the solution is the water plus the sugar: 250 g + 20 g = 270 g."
+  },
+  {
+   "id": "g5-c3-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Open and closed systems",
+   "stem": "Class 5C react vinegar and baking soda in a zip-lock bag on a balance. What is the safest way to do the experiment?",
+   "options": [
+    "Smell the gas closely to check what it is.",
+    "Wear goggles and point the bag away from faces.",
+    "Taste the mixture to see what it is like.",
+    "Squeeze the bag hard so that it fizzes more."
+   ],
+   "answer": 1,
+   "explanation": "Vinegar can sting eyes, and a puffed-up bag could burst. Goggles and pointing the bag away keep everyone safe. We never taste or sniff closely in science."
+  },
+  {
+   "id": "g5-c3-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Nuclear changes",
+   "stem": "Bangladesh is building its first nuclear power plant at Rooppur, beside the Padma. Which of these are advantages of nuclear power? Choose all that are right.",
+   "options": [
+    "a lot of energy from a little fuel",
+    "almost no carbon dioxide while the plant works",
+    "steady power day and night",
+    "used fuel stays radioactive for thousands of years",
+    "it is very expensive to build"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Nuclear plants give a lot of energy from a small amount of uranium and almost no carbon dioxide, and they run day and night. The last two choices are disadvantages."
+  },
+  {
+   "id": "g5-c3-022",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Conservation of mass",
+   "stem": "In the simulation, you give the sandwich maker far more cheese than the recipe can use. What do you see in the After box?",
+   "sim": {
+    "id": "reactants-products-and-leftovers",
+    "task": "Open Reactants, Products and Leftovers and choose the Sandwiches screen. Pick a recipe. In the Before box, use the sliders to give a large number of cheese slices and only a few of the other ingredients. Look at the After box."
+   },
+   "options": [
+    "The extra cheese disappears.",
+    "The sandwich maker makes more sandwiches than the recipe allows.",
+    "The extra cheese turns into bread.",
+    "Some cheese is left over after the sandwiches are made."
+   ],
+   "answer": 3,
+   "explanation": "Each sandwich needs a fixed amount of each ingredient. Ingredients that are not used up are the leftovers. Nothing disappears."
+  },
+  {
+   "id": "g5-c3-023",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Conservation of mass",
+   "stem": "In the simulation, the slices of bread you start with always equal the slices of bread in the sandwiches plus the bread slices left over.",
+   "sim": {
+    "id": "reactants-products-and-leftovers",
+    "task": "Open Reactants, Products and Leftovers and choose the Sandwiches screen. Pick a recipe and set the number of bread, cheese and meat slices in the Before box. Count the bread slices before. Then count the bread in the sandwiches plus any bread left over after. Try two different settings."
+   },
+   "answer": true,
+   "explanation": "The sandwich model shows conservation: ingredients (like atoms) are only rearranged into sandwiches, and the ones not used are leftovers. None are made or lost."
+  },
+  {
+   "id": "g5-c3-024",
+   "mode": "simulation",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conservation of mass",
+   "stem": "In the sandwich model, match each science word to what it means.",
+   "sim": {
+    "id": "reactants-products-and-leftovers",
+    "task": "Open Reactants, Products and Leftovers and choose the Sandwiches screen. Look at the Before box and the After box and think about what each one shows."
+   },
+   "pairs": [
+    [
+     "reactants",
+     "the ingredients you start with"
+    ],
+    [
+     "products",
+     "the sandwiches that are made"
+    ],
+    [
+     "leftovers",
+     "ingredients that are not used up"
+    ]
+   ],
+   "explanation": "In a chemical reaction the reactants are rearranged to make products. Any reactant that is not used up is a leftover."
+  },
+  {
+   "id": "g5-c3-025",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Nuclear changes",
+   "stem": "Example: a nucleus with 235 protons and neutrons is hit by 1 free neutron, then splits into pieces with 139 and 94 protons and neutrons, plus 3 free neutrons. Before: 235 + 1 = ___. After: 139 + 94 + 3 = ___.",
+   "blanks": [
+    [
+     "236"
+    ],
+    [
+     "236"
+    ]
+   ],
+   "explanation": "Both totals are 236, so the total number of protons plus neutrons is conserved, even though one element has changed into others."
+  },
+  {
+   "id": "g5-c3-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Nuclear changes",
+   "stem": "Example: a nucleus with 236 protons and neutrons splits into two pieces with 140 and 94 protons and neutrons, and some free neutrons. If the total number of protons and neutrons is conserved, how many free neutrons are released?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "The two pieces have 140 + 94 = 234. To reach the original 236, there must be 236 − 234 = 2 free neutrons."
+  },
+  {
+   "id": "g5-c3-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Nuclear changes",
+   "stem": "Which statement about chemical changes and nuclear changes is correct?",
+   "options": [
+    "Atoms are not conserved in either kind of change.",
+    "Atoms are conserved in both chemical changes and nuclear changes.",
+    "In chemical changes atoms are only rearranged, but in nuclear changes one kind of atom changes into another.",
+    "Nothing at all is conserved in a nuclear change."
+   ],
+   "answer": 2,
+   "explanation": "Chemical changes rearrange the same atoms. Nuclear changes alter the nucleus, so one element becomes another. Even so, the total number of protons plus neutrons stays the same."
+  },
+  {
+   "id": "g5-c3-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Open and closed systems",
+   "stem": "Class 5C measured mass before and after (example results). Salt dissolving in an open cup: 270 g then 270 g. Vinegar and baking soda in a sealed bag: 312 g then 312 g. The same reaction in an open cup: 312 g then 309 g. What best explains the 3 g lost from the open cup?",
+   "options": [
+    "A gas made in the reaction escaped into the air.",
+    "Atoms were destroyed, but only in an open cup.",
+    "The balance gives lower readings when a cup is open.",
+    "The salt dissolving took away some mass."
+   ],
+   "answer": 0,
+   "explanation": "The reaction made a gas (carbon dioxide). In the sealed bag the gas could not escape, so the mass stayed 312 g. In the open cup the gas escaped, taking 3 g of mass with it."
+  },
+  {
+   "id": "g5-c3-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Nuclear changes",
+   "stem": "Explain why scientists say atoms are conserved in chemical changes but not in nuclear changes, and say what is still conserved in a nuclear change.",
+   "model_answer": "In chemical changes atoms are only rearranged, so the same atoms are there before and after. In nuclear changes the nucleus changes, so atoms of one element turn into another. The total number of protons plus neutrons is still the same.",
+   "keywords": [
+    [
+     "rearrange",
+     "rearranged",
+     "rearranges",
+     "move around",
+     "same atoms",
+     "only join"
+    ],
+    [
+     "nucleus",
+     "nuclei",
+     "one element",
+     "different element",
+     "another element",
+     "changes into",
+     "split",
+     "splits"
+    ],
+    [
+     "proton",
+     "protons",
+     "neutron",
+     "neutrons"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Chemical changes only move atoms into new groups. Nuclear changes alter the atoms themselves, but counting all the protons and neutrons gives the same total before and after."
+  },
+  {
+   "id": "g5-c3-030",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Conservation of energy",
+   "stem": "Example: of every 10 units of electrical energy a light bulb uses, 2 units become light. In a closed system the other ___ units must become heat.",
+   "blanks": [
+    [
+     "8",
+     "eight"
+    ]
+   ],
+   "explanation": "Energy is conserved: the total must stay at 10 units. 10 − 2 = 8 units, so 8 units become heat."
+  }
+ ]
+}

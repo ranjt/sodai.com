@@ -1,0 +1,694 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "C4",
+ "title": "Energy and Its Transformations",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-5-science/pdf/c4-energy-and-its-transformations-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-c4-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Forms of energy",
+   "stem": "Which form of energy is stored in food?",
+   "options": [
+    "chemical",
+    "electrical",
+    "light",
+    "sound"
+   ],
+   "answer": 0,
+   "explanation": "Food, fuel and batteries store chemical energy. Our bodies change the chemical energy in food into movement and heat."
+  },
+  {
+   "id": "g5-c4-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Forms of energy",
+   "stem": "Sort these by the main form of energy they have or give out.",
+   "categories": [
+    "Kinetic (movement)",
+    "Chemical (stored)",
+    "Light or sound"
+   ],
+   "items": [
+    [
+     "a moving bus",
+     "Kinetic (movement)"
+    ],
+    [
+     "a spinning fan",
+     "Kinetic (movement)"
+    ],
+    [
+     "a plate of rice",
+     "Chemical (stored)"
+    ],
+    [
+     "a battery",
+     "Chemical (stored)"
+    ],
+    [
+     "a firefly",
+     "Light or sound"
+    ],
+    [
+     "a drum beat",
+     "Light or sound"
+    ]
+   ],
+   "explanation": "Moving things have kinetic energy. Food and batteries store chemical energy. A firefly gives out light and a drum gives out sound."
+  },
+  {
+   "id": "g5-c4-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Energy chains",
+   "stem": "Match each device to the energy change it makes.",
+   "pairs": [
+    [
+     "solar panel",
+     "light → electrical"
+    ],
+    [
+     "radio",
+     "electrical → sound"
+    ],
+    [
+     "gas stove",
+     "chemical → heat"
+    ],
+    [
+     "electric fan",
+     "electrical → kinetic"
+    ]
+   ],
+   "explanation": "Every device transforms energy from one form into another. Some of the energy always ends up as heat that we do not need."
+  },
+  {
+   "id": "g5-c4-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Energy is conserved",
+   "stem": "Energy cannot be created or ___. It can only move from place to place or change ___.",
+   "blanks": [
+    [
+     "destroyed",
+     "lost",
+     "used up"
+    ],
+    [
+     "form",
+     "forms",
+     "type"
+    ]
+   ],
+   "bank": [
+    "destroyed",
+    "form",
+    "heated",
+    "weight"
+   ],
+   "explanation": "This is the law of conservation of energy. The total amount of energy stays the same; it is only moved or transformed."
+  },
+  {
+   "id": "g5-c4-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Heat and temperature",
+   "stem": "Heat moves from a hotter object to a colder object.",
+   "answer": true,
+   "explanation": "Heat is energy that always flows from hotter things to colder things. That is why a hot cup of tea cools down until it reaches room temperature."
+  },
+  {
+   "id": "g5-c4-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Energy is conserved",
+   "stem": "A ball bounces lower and lower and then stops. Where has its energy gone?",
+   "options": [
+    "It was destroyed when the ball stopped moving.",
+    "It spread out as heat and sound.",
+    "It is still inside the ball as movement energy.",
+    "It was changed into light energy that we cannot see."
+   ],
+   "answer": 1,
+   "explanation": "Energy cannot be destroyed. Each time the ball hits the ground, some of its energy spreads out as heat and sound, so the ball has less energy for bouncing."
+  },
+  {
+   "id": "g5-c4-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heat and temperature",
+   "stem": "Which of these materials are good thermal insulators? Choose all that are right.",
+   "options": [
+    "wood",
+    "wool",
+    "plastic",
+    "iron",
+    "copper"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Insulators such as wood, wool, plastic and trapped air slow heat down. Metals like iron and copper are thermal conductors that let heat pass easily."
+  },
+  {
+   "id": "g5-c4-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Energy chains",
+   "stem": "A solar panel changes ___ energy into ___ energy.",
+   "blanks": [
+    [
+     "light",
+     "solar",
+     "sunlight"
+    ],
+    [
+     "electrical",
+     "electric",
+     "electricity"
+    ]
+   ],
+   "bank": [
+    "light",
+    "electrical",
+    "sound",
+    "chemical"
+   ],
+   "explanation": "Sunlight shining on a solar panel is changed into electrical energy. A little heat is given out too."
+  },
+  {
+   "id": "g5-c4-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Energy is conserved",
+   "stem": "An LED bulb is more efficient than an old filament bulb because it wastes less energy as heat.",
+   "answer": true,
+   "explanation": "An LED bulb gives the same light as a filament bulb but uses only about one fifth of the electricity. More of its energy becomes light and less is wasted as heat."
+  },
+  {
+   "id": "g5-c4-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heat and temperature",
+   "stem": "Explain why a metal spoon in hot tea gets hot quickly, but a wooden spoon does not.",
+   "model_answer": "Metal is a thermal conductor, so heat moves through it easily. Wood is a thermal insulator, so heat moves through it slowly.",
+   "keywords": [
+    [
+     "metal",
+     "conductor",
+     "conducts",
+     "conduct"
+    ],
+    [
+     "heat",
+     "energy"
+    ],
+    [
+     "easily",
+     "quickly",
+     "fast",
+     "through"
+    ],
+    [
+     "wood",
+     "wooden",
+     "insulator",
+     "slowly",
+     "slow"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Metals are thermal conductors and carry heat along them quickly. Wood slows heat down, so the end you hold stays cool for much longer."
+  },
+  {
+   "id": "g5-c4-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Energy is conserved",
+   "stem": "When a ceiling fan is switched off, its energy has been destroyed.",
+   "answer": false,
+   "explanation": "Energy is never destroyed. When the fan stops, its movement energy has spread out into the surroundings, mostly as heat and sound."
+  },
+  {
+   "id": "g5-c4-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Heat and temperature",
+   "stem": "The four cups hold the same hot water. One is uncovered and the others are wrapped in newspaper, wool or foil. Which cup would you expect to stay hot the longest?",
+   "image": "diagrams/insulation-cups.svg",
+   "image_alt": "Four cups of hot water: one with no cover and the others wrapped in newspaper, wool and foil.",
+   "options": [
+    "the uncovered cup",
+    "the cup wrapped in newspaper",
+    "the cup wrapped in foil",
+    "the cup wrapped in wool"
+   ],
+   "answer": 3,
+   "explanation": "Wool traps lots of air, and air is a poor conductor of heat, so heat escapes slowly. It is the best insulator of these materials."
+  },
+  {
+   "id": "g5-c4-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Heat and temperature",
+   "stem": "In this fair test of four cups, which cup is the control that the others are compared with?",
+   "image": "diagrams/insulation-cups.svg",
+   "image_alt": "Four cups of hot water: one with no cover and the others wrapped in newspaper, wool and foil.",
+   "options": [
+    "the cup in wool",
+    "the cup in newspaper",
+    "the uncovered cup",
+    "the cup in foil"
+   ],
+   "answer": 2,
+   "explanation": "The uncovered cup shows how fast hot water cools with no insulation at all. It is the comparison for the three wrapped cups."
+  },
+  {
+   "id": "g5-c4-014",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Forms of energy",
+   "stem": "Match each picture to the main energy it gives out.",
+   "pairs": [
+    [
+     {
+      "text": "loudspeaker",
+      "image": "openmoji/loudspeaker.svg"
+     },
+     "sound"
+    ],
+    [
+     {
+      "text": "light bulb",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "light"
+    ],
+    [
+     {
+      "text": "fan",
+      "image": "openmoji/fan.svg"
+     },
+     "movement (kinetic)"
+    ],
+    [
+     {
+      "text": "hot drink",
+      "image": "openmoji/hot-drink.svg"
+     },
+     "heat (thermal)"
+    ]
+   ],
+   "explanation": "A loudspeaker gives out sound, a bulb gives out light, a fan makes air move and a hot drink gives out heat."
+  },
+  {
+   "id": "g5-c4-015",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Forms of energy",
+   "stem": "Sort the pictures into things that are moving and things that store energy.",
+   "categories": [
+    "Moving (kinetic energy)",
+    "Stored (chemical energy)"
+   ],
+   "items": [
+    [
+     {
+      "text": "a moving bus",
+      "image": "openmoji/bus.svg"
+     },
+     "Moving (kinetic energy)"
+    ],
+    [
+     {
+      "text": "a person running",
+      "image": "openmoji/person-running.svg"
+     },
+     "Moving (kinetic energy)"
+    ],
+    [
+     {
+      "text": "a spinning fan",
+      "image": "openmoji/fan.svg"
+     },
+     "Moving (kinetic energy)"
+    ],
+    [
+     {
+      "text": "a battery",
+      "image": "openmoji/battery.svg"
+     },
+     "Stored (chemical energy)"
+    ],
+    [
+     {
+      "text": "cooked rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Stored (chemical energy)"
+    ],
+    [
+     {
+      "text": "firewood",
+      "image": "openmoji/wood.svg"
+     },
+     "Stored (chemical energy)"
+    ]
+   ],
+   "explanation": "Moving things have kinetic energy. Batteries, food and fuels such as wood store chemical energy until it is released."
+  },
+  {
+   "id": "g5-c4-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Energy chains",
+   "stem": "Which picture shows a device that changes sunlight into electricity?",
+   "options": [
+    {
+     "text": "wind turbine",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "kettle",
+     "image": "openmoji/teapot.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "solar panel",
+     "image": "openmoji/solar-energy.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "A solar panel changes light energy from the Sun into electrical energy. A wind turbine uses moving air, and candles and kettles use chemical or electrical energy."
+  },
+  {
+   "id": "g5-c4-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Heat and temperature",
+   "stem": "The three thermometers show the temperatures of three cups of water. Cup A and cup C are placed touching in a closed box. Which way does heat move?",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers A, B and C reading 12 °C, 37 °C and 48 °C.",
+   "options": [
+    "from cup A to cup C",
+    "from cup C to cup A",
+    "nowhere, because both are water",
+    "in both directions equally"
+   ],
+   "answer": 1,
+   "explanation": "Cup C (48 °C) is hotter than cup A (12 °C), so heat moves from C to A. Cup C loses heat and cools, and cup A gains heat and warms, until they are the same temperature."
+  },
+  {
+   "id": "g5-c4-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Energy chains",
+   "stem": "Rafi eats a plate of rice and then pedals his rickshaw all day. Which energy chain describes this?",
+   "options": [
+    "kinetic (food) → chemical (rickshaw) + heat",
+    "light (food) → electrical (rickshaw) + sound",
+    "chemical (food) → kinetic (rickshaw) + heat",
+    "electrical (food) → sound (rickshaw) + light"
+   ],
+   "answer": 2,
+   "explanation": "The chemical energy stored in food is changed into movement energy, and some becomes heat. This is why we feel warm when we work hard."
+  },
+  {
+   "id": "g5-c4-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heat and temperature",
+   "stem": "Cooking pots in many kitchens are made of metal, but their handles are made of wood or plastic. Why?",
+   "options": [
+    "Wood and plastic are insulators, so the handle stays cool.",
+    "Wood and plastic are conductors, so heat reaches the food faster.",
+    "Metal handles would be too heavy, so the pot would tip over.",
+    "Wood and plastic make the food inside heat up more quickly."
+   ],
+   "answer": 0,
+   "explanation": "Metal is a good thermal conductor, so heat passes quickly from the flame to the food. Wood and plastic are insulators and slow heat down, which keeps the handle safe to hold."
+  },
+  {
+   "id": "g5-c4-020",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Energy chains",
+   "stem": "A village home in Bangladesh has a solar home system. Put the energy steps in order, from day to night.",
+   "sequence": [
+    "Sunlight shines on the solar panel on the roof.",
+    "The panel changes the light energy into electrical energy.",
+    "The battery stores the energy as chemical energy.",
+    "At night the battery supplies electrical energy.",
+    "The LED light changes the electrical energy into light (and a little heat)."
+   ],
+   "explanation": "The panel works in the daytime and the battery stores the energy for the night. At every step energy is changed in form and a little is wasted as heat, but none is destroyed."
+  },
+  {
+   "id": "g5-c4-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Heat and temperature",
+   "stem": "Mina wants her soup to stay hot until lunch. Which of these will help? Choose all that are right.",
+   "options": [
+    "put it in an insulated flask",
+    "wrap the container in a woollen cloth",
+    "keep the lid on",
+    "leave the lid off in a cool breeze",
+    "pour it into a thin metal cup"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Insulators such as a flask, wool and a lid slow the loss of heat. An open lid in a breeze and a thin metal cup let heat escape quickly."
+  },
+  {
+   "id": "g5-c4-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Heat and temperature",
+   "stem": "A metal spoon has been left in a pot on the stove. Tuli says it is safe to grab it with bare hands because metal stays cool.",
+   "answer": false,
+   "explanation": "Metal is a thermal conductor, so heat travels quickly along the spoon and it becomes very hot. Use a dry cloth or pot holder, which are insulators, and take care."
+  },
+  {
+   "id": "g5-c4-023",
+   "mode": "simulation",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Energy chains",
+   "stem": "Put the energy changes in order for the cyclist lighting a bulb.",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Systems screen. Choose the cyclist as the energy source, the generator as the energy changer and the light bulb as the energy user. Switch the cyclist on and watch the energy symbols move."
+   },
+   "sequence": [
+    "The cyclist changes chemical energy from food into movement of the pedals.",
+    "The pedals turn the generator.",
+    "The generator changes movement energy into electrical energy.",
+    "The bulb changes the electrical energy into light and heat."
+   ],
+   "explanation": "Energy moves along the chain and changes form at each step. The bulb gives out light and some heat, and the total energy stays the same."
+  },
+  {
+   "id": "g5-c4-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Heat and temperature",
+   "stem": "What happens to the temperature of the water in the beaker?",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Drag the beaker of water above one of the burners. Slide the burner control up to Heat for a while and watch the thermometer. Then slide it down to Cool for a while and watch again."
+   },
+   "options": [
+    "It falls when heated and rises when it is cooled.",
+    "It rises when heated and falls when cooled.",
+    "It stays the same either way.",
+    "It rises both when heated and when cooled."
+   ],
+   "answer": 1,
+   "explanation": "When the water gains heat its temperature rises, and when it loses heat its temperature falls."
+  },
+  {
+   "id": "g5-c4-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Energy is conserved",
+   "stem": "What happens to the atoms and the temperature as you rub the books together?",
+   "sim": {
+    "id": "friction",
+    "task": "Open Friction. Drag the top book so that it rubs back and forth across the bottom book for a while. Watch the atoms and the thermometer."
+   },
+   "options": [
+    "The atoms jiggle faster and the temperature rises.",
+    "The atoms stop moving and the temperature stays the same.",
+    "The atoms jiggle slower and the temperature falls.",
+    "The atoms disappear and the temperature falls."
+   ],
+   "answer": 0,
+   "explanation": "Your movement energy is transferred to the atoms, which jiggle faster. Faster-moving atoms mean the books are warmer: movement energy has changed into thermal energy."
+  },
+  {
+   "id": "g5-c4-026",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Heat and temperature",
+   "stem": "Class 5D poured 200 ml of water at 80 °C into identical cups (example results). After 20 minutes the temperatures were: no cover 52 °C, newspaper 60 °C, wool 68 °C, foil 58 °C. The uncovered cup cooled by ___ °C more than the cup wrapped in wool.",
+   "blanks": [
+    [
+     "16"
+    ]
+   ],
+   "explanation": "The uncovered cup cooled by 80 − 52 = 28 °C, and the wool cup by 80 − 68 = 12 °C. The difference is 28 − 12 = 16 °C. Wool is the best insulator."
+  },
+  {
+   "id": "g5-c4-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Energy is conserved",
+   "stem": "A filament bulb uses 25 W. An LED bulb that gives the same light uses about one fifth as much (example numbers). Energy used (Wh) = power (W) × time (h). How much less electrical energy does the LED use in 4 hours?",
+   "options": [
+    "20 Wh",
+    "80 Wh",
+    "100 Wh",
+    "5 Wh"
+   ],
+   "answer": 1,
+   "explanation": "The LED uses 25 ÷ 5 = 5 W. In 4 hours the filament bulb uses 25 × 4 = 100 Wh and the LED uses 5 × 4 = 20 Wh. The saving is 100 − 20 = 80 Wh, because the LED wastes much less energy as heat."
+  },
+  {
+   "id": "g5-c4-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Energy in cycles",
+   "stem": "Energy (Wh) = power (W) × time (h). A 50 W solar panel gets 5 hours of good sunshine, so it makes 250 Wh a day (example numbers). A family uses three 5 W LED bulbs for 4 hours and a 20 W fan for 6 hours. How much energy is left to charge phones?",
+   "options": [
+    "130 Wh",
+    "70 Wh",
+    "180 Wh",
+    "250 Wh"
+   ],
+   "answer": 1,
+   "explanation": "Bulbs: 3 × 5 × 4 = 60 Wh. Fan: 20 × 6 = 120 Wh. Total used 180 Wh. Energy left: 250 − 180 = 70 Wh, enough to charge a phone."
+  },
+  {
+   "id": "g5-c4-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Energy is conserved",
+   "stem": "'We should save energy, but energy cannot be destroyed.' Explain why both statements can be true.",
+   "model_answer": "Energy is never destroyed, but useful energy such as fuel or electricity gets changed into heat that spreads out and cannot be used again. Saving energy means using less of the limited useful energy, which costs money and may run out.",
+   "keywords": [
+    [
+     "useful",
+     "fuel",
+     "electricity",
+     "stored"
+    ],
+    [
+     "heat",
+     "spread",
+     "spreads",
+     "wasted",
+     "surroundings",
+     "cannot use",
+     "cannot be used"
+    ],
+    [
+     "limited",
+     "costs",
+     "cost",
+     "run out",
+     "pollution",
+     "money"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The total amount of energy stays the same, but much of it ends up as spread-out heat that is no longer useful to us. Fuels are limited, so using less of them saves useful energy."
+  },
+  {
+   "id": "g5-c4-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Heat and temperature",
+   "stem": "An uncovered cup of water cooled from 80 °C to 52 °C in 20 minutes (example data). The room stays at 30 °C all night. What will the temperature of the water be next morning?",
+   "options": [
+    "about 52 °C",
+    "about 0 °C",
+    "about 80 °C",
+    "about 30 °C"
+   ],
+   "answer": 3,
+   "explanation": "The water loses heat to the room until it reaches the same temperature as the room, 30 °C. It cannot become colder than the room without a fridge or ice."
+  }
+ ]
+}

@@ -1,0 +1,555 @@
+{
+ "grade": 0,
+ "grade_name": "Kindergarten",
+ "topic": "A4",
+ "title": "My Body and My Senses",
+ "strand": "living",
+ "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+ "questions": [
+  {
+   "id": "kg-a4-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of my body",
+   "stem": "Look at the body. Which number is the head?",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "A child with body parts marked by numbers: head, neck, shoulder, arm, elbow, hand, chest, tummy, leg, knee and foot.",
+   "options": [
+    "1",
+    "3",
+    "6"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Number 1 is the head. Our eyes, ears, nose and mouth are on our head."
+  },
+  {
+   "id": "kg-a4-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of my body",
+   "stem": "Which number is the hand?",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "A child with body parts marked by numbers: head, neck, shoulder, arm, elbow, hand, chest, tummy, leg, knee and foot.",
+   "options": [
+    "4",
+    "6",
+    "9"
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Number 6 is the hand. We use our hands to hold, touch and wave."
+  },
+  {
+   "id": "kg-a4-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Parts of my body",
+   "stem": "Which number is the knee?",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "A child with body parts marked by numbers: head, neck, shoulder, arm, elbow, hand, chest, tummy, leg, knee and foot.",
+   "options": [
+    "5",
+    "8",
+    "10"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Number 10 is the knee. It bends in the middle of the leg. Number 5 is the elbow in the arm."
+  },
+  {
+   "id": "kg-a4-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "Match each part to its sense.",
+   "pairs": [
+    [
+     {
+      "text": "eyes",
+      "image": "openmoji/eye.svg"
+     },
+     "see"
+    ],
+    [
+     {
+      "text": "ears",
+      "image": "openmoji/ear.svg"
+     },
+     "hear"
+    ],
+    [
+     {
+      "text": "nose",
+      "image": "openmoji/nose.svg"
+     },
+     "smell"
+    ],
+    [
+     {
+      "text": "tongue",
+      "image": "openmoji/tongue.svg"
+     },
+     "taste"
+    ],
+    [
+     {
+      "text": "skin and hands",
+      "image": "openmoji/hand.svg"
+     },
+     "touch"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Eyes see, ears hear, the nose smells, the tongue tastes and our skin and hands touch. These are our five senses."
+  },
+  {
+   "id": "kg-a4-005",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Senses find things out",
+   "stem": "Match each part to what it finds.",
+   "pairs": [
+    [
+     {
+      "text": "ears",
+      "image": "openmoji/ear.svg"
+     },
+     {
+      "text": "music",
+      "image": "openmoji/musical-notes.svg"
+     }
+    ],
+    [
+     {
+      "text": "nose",
+      "image": "openmoji/nose.svg"
+     },
+     {
+      "text": "flower",
+      "image": "openmoji/rose.svg"
+     }
+    ],
+    [
+     {
+      "text": "tongue",
+      "image": "openmoji/tongue.svg"
+     },
+     {
+      "text": "honey",
+      "image": "openmoji/honey-pot.svg"
+     }
+    ],
+    [
+     {
+      "text": "hands",
+      "image": "openmoji/hand.svg"
+     },
+     {
+      "text": "cold ice",
+      "image": "openmoji/ice-cube.svg"
+     }
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Ears hear music, a nose smells a flower, a tongue tastes sweet honey and our hands feel cold ice."
+  },
+  {
+   "id": "kg-a4-006",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of my body",
+   "stem": "Tap the parts we use to walk and run.",
+   "options": [
+    {
+     "text": "legs",
+     "image": "openmoji/leg.svg"
+    },
+    {
+     "text": "ears",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "feet",
+     "image": "openmoji/foot.svg"
+    },
+    {
+     "text": "eyes",
+     "image": "openmoji/eye.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "We use our legs and our feet to walk and run. Ears are for hearing and eyes are for seeing."
+  },
+  {
+   "id": "kg-a4-007",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Senses are important",
+   "stem": "Tuli wears glasses. Which sense do they help?",
+   "options": [
+    {
+     "text": "hearing",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "smelling",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "seeing",
+     "image": "openmoji/eye.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Glasses help Tuli see clearly. Her eyes help her to read, play and learn."
+  },
+  {
+   "id": "kg-a4-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "We hear with our ___.",
+   "blanks": [
+    [
+     "ears",
+     "ear"
+    ]
+   ],
+   "bank": [
+    "ears",
+    "eyes",
+    "feet"
+   ],
+   "read_aloud": true,
+   "explanation": "We hear with our ears. They help us enjoy music and know when someone calls us."
+  },
+  {
+   "id": "kg-a4-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "We have five senses.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. We see, hear, smell, taste and touch. The five senses help us find out about the world."
+  },
+  {
+   "id": "kg-a4-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Same and different",
+   "stem": "Children are all exactly the same.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. We are the same in some ways, like having eyes and hands. We are different in our hair, height and clothes. That is what makes each of us special."
+  },
+  {
+   "id": "kg-a4-011",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Growing up",
+   "stem": "Put them in order, youngest to oldest.",
+   "sequence": [
+    {
+     "text": "baby",
+     "image": "openmoji/baby.svg"
+    },
+    {
+     "text": "child",
+     "image": "openmoji/child.svg"
+    },
+    {
+     "text": "grown-up",
+     "image": "openmoji/adult.svg"
+    },
+    {
+     "text": "grandparent",
+     "image": "openmoji/older-person.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "We start as a baby, grow into a child, then a grown-up, and later we become older."
+  },
+  {
+   "id": "kg-a4-012",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Parts of my body",
+   "stem": "Sort the body parts: head, arms or legs?",
+   "categories": [
+    "Head",
+    "Arms and hands",
+    "Legs and feet"
+   ],
+   "items": [
+    [
+     {
+      "text": "eye",
+      "image": "openmoji/eye.svg"
+     },
+     "Head"
+    ],
+    [
+     {
+      "text": "ear",
+      "image": "openmoji/ear.svg"
+     },
+     "Head"
+    ],
+    [
+     {
+      "text": "nose",
+      "image": "openmoji/nose.svg"
+     },
+     "Head"
+    ],
+    [
+     {
+      "text": "hand",
+      "image": "openmoji/hand.svg"
+     },
+     "Arms and hands"
+    ],
+    [
+     {
+      "text": "arm",
+      "image": "openmoji/flexed-biceps.svg"
+     },
+     "Arms and hands"
+    ],
+    [
+     {
+      "text": "foot",
+      "image": "openmoji/foot.svg"
+     },
+     "Legs and feet"
+    ],
+    [
+     {
+      "text": "leg",
+      "image": "openmoji/leg.svg"
+     },
+     "Legs and feet"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Eyes, ears and nose are on our head. Hands and arms are together. Legs and feet help us walk."
+  },
+  {
+   "id": "kg-a4-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Senses are important",
+   "stem": "Mina smells smoke in the kitchen. Which part tells her?",
+   "options": [
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
+    },
+    {
+     "text": "nose",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "tongue",
+     "image": "openmoji/tongue.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Our nose smells smoke and warns us of danger. Mina should tell a grown-up straight away."
+  },
+  {
+   "id": "kg-a4-014",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Looking after my senses",
+   "stem": "How can Tuli look after her eyes?",
+   "options": [
+    {
+     "text": "Wear her glasses",
+     "image": "openmoji/glasses.svg"
+    },
+    {
+     "text": "Sit close to the TV",
+     "image": "openmoji/television.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Tuli should wear her glasses and not sit too close to the TV. We should also never look at the Sun."
+  },
+  {
+   "id": "kg-a4-015",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Senses find things out",
+   "stem": "Mina smells and tastes a cake. Which two parts does she use?",
+   "options": [
+    {
+     "text": "tongue",
+     "image": "openmoji/tongue.svg"
+    },
+    {
+     "text": "foot",
+     "image": "openmoji/foot.svg"
+    },
+    {
+     "text": "nose",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "She smells the cake with her nose and tastes it with her tongue. Her foot cannot help and her ear is for hearing."
+  },
+  {
+   "id": "kg-a4-016",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Growing up",
+   "stem": "You are bigger now than when you were a baby.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Since you were born you have grown taller and stronger. Growing is a sign of being alive."
+  },
+  {
+   "id": "kg-a4-017",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Same and different",
+   "stem": "Tap what children have.",
+   "options": [
+    {
+     "text": "eyes",
+     "image": "openmoji/eye.svg"
+    },
+    {
+     "text": "ears",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "hands",
+     "image": "openmoji/hand.svg"
+    },
+    {
+     "text": "a red dress",
+     "image": "openmoji/dress.svg"
+    },
+    {
+     "text": "a football",
+     "image": "openmoji/football.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "Children have eyes, ears and hands. We are the same in many ways. What we wear or play with can be different."
+  },
+  {
+   "id": "kg-a4-018",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "We feel hot and cold with our ___.",
+   "blanks": [
+    [
+     "skin"
+    ]
+   ],
+   "bank": [
+    "skin",
+    "ears",
+    "eyes"
+   ],
+   "read_aloud": true,
+   "explanation": "Our skin helps us touch and feel things. It tells us if something is hot, cold, soft or rough."
+  },
+  {
+   "id": "kg-a4-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Senses find things out",
+   "stem": "You hold your nose and taste a mango. What happens?",
+   "options": [
+    "It is harder to taste",
+    "It is the same",
+    "It tastes stronger"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Smell and taste work together. When you hold your nose, it is harder to taste."
+  },
+  {
+   "id": "kg-a4-020",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Senses help animals",
+   "stem": "A cat has big ears. What can it do well?",
+   "options": [
+    "Fly high",
+    "Swim fast",
+    "Hear small sounds"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Animals use their senses too. A cat can hear small sounds, like a mouse moving."
+  }
+ ]
+}

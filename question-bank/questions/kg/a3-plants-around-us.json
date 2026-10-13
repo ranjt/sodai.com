@@ -1,0 +1,498 @@
+{
+ "grade": 0,
+ "grade_name": "Kindergarten",
+ "topic": "A3",
+ "title": "Plants Around Us",
+ "strand": "living",
+ "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+ "questions": [
+  {
+   "id": "kg-a3-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Look at the plant. Which number is the flower?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with a flower at the top, leaves, a stem, a fruit and roots under the ground, each marked with a number.",
+   "options": [
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Number 1 is the flower, at the top of the plant. Number 2 is a leaf and number 3 is the stem."
+  },
+  {
+   "id": "kg-a3-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Which number shows the roots under the ground?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with a flower at the top, leaves, a stem, a fruit and roots under the ground, each marked with a number.",
+   "options": [
+    "2",
+    "4",
+    "5"
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Number 4 is the roots. Roots grow under the ground."
+  },
+  {
+   "id": "kg-a3-003",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Number 5 is the fruit.",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with a flower at the top, leaves, a stem, a fruit and roots under the ground, each marked with a number.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Number 5 is the fruit. Fruits grow on plants and hold the seeds."
+  },
+  {
+   "id": "kg-a3-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plants help us",
+   "stem": "Match each word to its picture.",
+   "pairs": [
+    [
+     "fruit",
+     {
+      "text": "mango",
+      "image": "openmoji/mango.svg"
+     }
+    ],
+    [
+     "vegetable",
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     }
+    ],
+    [
+     "rice",
+     {
+      "text": "cooked rice",
+      "image": "openmoji/cooked-rice.svg"
+     }
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Fruit, vegetables and rice all come from plants. Plants help us with our food."
+  },
+  {
+   "id": "kg-a3-005",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "Tap what a plant needs to grow.",
+   "options": [
+    {
+     "text": "sunlight",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "water",
+     "image": "openmoji/droplet.svg"
+    },
+    {
+     "text": "ice cream",
+     "image": "openmoji/ice-cream.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "Plants need sunlight and water to grow. Sweets, ice cream and balls cannot help a plant grow."
+  },
+  {
+   "id": "kg-a3-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Roots grow under the ___.",
+   "blanks": [
+    [
+     "ground",
+     "soil",
+     "earth"
+    ]
+   ],
+   "bank": [
+    "ground",
+    "sky",
+    "sea"
+   ],
+   "read_aloud": true,
+   "explanation": "Roots grow under the ground, in the soil. The leaves and flowers are above the ground."
+  },
+  {
+   "id": "kg-a3-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How a seed grows",
+   "stem": "Put the seed story in order.",
+   "sequence": [
+    "A seed is in the soil.",
+    "A tiny shoot comes up.",
+    "Green leaves grow.",
+    "A flower opens."
+   ],
+   "read_aloud": true,
+   "explanation": "A seed in the soil gets water and warmth. A shoot comes up, leaves grow, and later the plant makes flowers."
+  },
+  {
+   "id": "kg-a3-008",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Plants around us",
+   "stem": "Sort the plants.",
+   "categories": [
+    "Tree",
+    "Flower",
+    "Vegetable"
+   ],
+   "items": [
+    [
+     {
+      "text": "palm tree",
+      "image": "openmoji/palm-tree.svg"
+     },
+     "Tree"
+    ],
+    [
+     {
+      "text": "tree",
+      "image": "openmoji/deciduous-tree.svg"
+     },
+     "Tree"
+    ],
+    [
+     {
+      "text": "rose",
+      "image": "openmoji/rose.svg"
+     },
+     "Flower"
+    ],
+    [
+     {
+      "text": "sunflower",
+      "image": "openmoji/sunflower.svg"
+     },
+     "Flower"
+    ],
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Vegetable"
+    ],
+    [
+     {
+      "text": "broccoli",
+      "image": "openmoji/broccoli.svg"
+     },
+     "Vegetable"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Palm and other trees are tall plants with a trunk. Roses and sunflowers are flowers. Carrots and broccoli are vegetables we eat."
+  },
+  {
+   "id": "kg-a3-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What plants need",
+   "stem": "Plants need water to grow.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Plants drink water. They also need sunlight to grow well."
+  },
+  {
+   "id": "kg-a3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "A bean plant grows best in a dark cupboard.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. Without light a bean plant grows pale, thin and weak. It grows best by a window where there is light."
+  },
+  {
+   "id": "kg-a3-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "A plant has roots under the ground.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Roots grow under the ground. Leaves, flowers and fruit grow above it."
+  },
+  {
+   "id": "kg-a3-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What plants need",
+   "stem": "Moung's bean plant is under the bed. Where should it go?",
+   "options": [
+    {
+     "text": "Under the bed",
+     "image": "openmoji/bed.svg"
+    },
+    {
+     "text": "By the window",
+     "image": "openmoji/window.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Plants need light. A window lets sunlight in, so the bean plant can grow green and strong."
+  },
+  {
+   "id": "kg-a3-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Plants help us",
+   "stem": "Rafi is hot. Where can he sit in the shade?",
+   "options": [
+    {
+     "text": "Under a tree",
+     "image": "openmoji/deciduous-tree.svg"
+    },
+    {
+     "text": "On a hot rock",
+     "image": "openmoji/rock.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A big tree gives cool shade. Trees help us in many ways."
+  },
+  {
+   "id": "kg-a3-014",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Plants help us",
+   "stem": "Grandpa's mango tree is big. Tap what it gives.",
+   "options": [
+    {
+     "text": "sweet fruit",
+     "image": "openmoji/mango.svg"
+    },
+    {
+     "text": "shade",
+     "image": "openmoji/deciduous-tree.svg"
+    },
+    {
+     "text": "a bird home",
+     "image": "openmoji/nest-with-eggs.svg"
+    },
+    {
+     "text": "car",
+     "image": "openmoji/car.svg"
+    },
+    {
+     "text": "TV",
+     "image": "openmoji/television.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "A mango tree gives sweet fruit, cool shade and a safe home for birds. It does not give a car or a TV."
+  },
+  {
+   "id": "kg-a3-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Plants around us",
+   "stem": "Which one is a fruit?",
+   "options": [
+    {
+     "text": "broccoli",
+     "image": "openmoji/broccoli.svg"
+    },
+    {
+     "text": "potato",
+     "image": "openmoji/potato.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "An apple is a fruit. It grows on a tree and has seeds inside. Broccoli and potatoes are vegetables."
+  },
+  {
+   "id": "kg-a3-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How a seed grows",
+   "stem": "Which one is a baby plant?",
+   "options": [
+    {
+     "text": "big tree",
+     "image": "openmoji/palm-tree.svg"
+    },
+    {
+     "text": "little plant",
+     "image": "openmoji/seedling.svg"
+    },
+    {
+     "text": "sunflower",
+     "image": "openmoji/sunflower.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A seedling is a baby plant that has just grown from a seed. It will grow bigger."
+  },
+  {
+   "id": "kg-a3-017",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How a seed grows",
+   "stem": "A seed grows into a ___.",
+   "blanks": [
+    [
+     "plant",
+     "plants",
+     "tree"
+    ]
+   ],
+   "bank": [
+    "plant",
+    "rock",
+    "toy"
+   ],
+   "read_aloud": true,
+   "explanation": "A tiny seed, with water and sunlight, grows into a plant."
+  },
+  {
+   "id": "kg-a3-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "What plants need",
+   "stem": "Two beans: one in light, one in dark. Which grows strong?",
+   "options": [
+    "In the dark",
+    "Both the same",
+    "In the light"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "The bean in the light grows green and strong. The bean in the dark grows pale, thin and weak, because plants need light."
+  },
+  {
+   "id": "kg-a3-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "What plants need",
+   "stem": "A: sun. B: water. C: sun, water. Which grows best?",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Plants need both sunlight and water. C gets both, so it grows best."
+  },
+  {
+   "id": "kg-a3-020",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Plants help us",
+   "stem": "Tap all the things plants give us.",
+   "options": [
+    {
+     "text": "mango",
+     "image": "openmoji/mango.svg"
+    },
+    {
+     "text": "milk",
+     "image": "openmoji/milk.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "car",
+     "image": "openmoji/car.svg"
+    },
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Mangoes, wood and carrots come from plants. Milk comes from cows and cars are made in factories."
+  }
+ ]
+}

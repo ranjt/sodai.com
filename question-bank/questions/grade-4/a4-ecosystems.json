@@ -1,0 +1,694 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "A4",
+ "title": "Ecosystems and Interactions",
+ "strand": "living",
+ "worksheet": "worksheets/grade-4-science/pdf/a4-ecosystems-and-interactions-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-a4-001",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living and non-living parts",
+   "stem": "Sort the parts of a pond ecosystem into living and non-living.",
+   "categories": [
+    "Living (biotic)",
+    "Non-living (abiotic)"
+   ],
+   "items": [
+    [
+     "frog",
+     "Living (biotic)"
+    ],
+    [
+     "grass",
+     "Living (biotic)"
+    ],
+    [
+     "mushroom",
+     "Living (biotic)"
+    ],
+    [
+     "fish",
+     "Living (biotic)"
+    ],
+    [
+     "sunlight",
+     "Non-living (abiotic)"
+    ],
+    [
+     "rock",
+     "Non-living (abiotic)"
+    ],
+    [
+     "air",
+     "Non-living (abiotic)"
+    ],
+    [
+     "soil",
+     "Non-living (abiotic)"
+    ]
+   ],
+   "explanation": "Plants, animals, fungi and microbes are living (biotic). Sunlight, water, air, soil, rocks and temperature are non-living (abiotic)."
+  },
+  {
+   "id": "g4-a4-002",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Levels of life",
+   "stem": "Put these levels of life in order, from the smallest to the biggest.",
+   "sequence": [
+    "cell",
+    "tissue",
+    "organ",
+    "organism",
+    "population",
+    "community",
+    "ecosystem"
+   ],
+   "explanation": "Cells make tissues, tissues make organs and one whole living thing is an organism. Living things of one kind form a population, populations form a community, and a community plus its non-living surroundings is an ecosystem."
+  },
+  {
+   "id": "g4-a4-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Interactions between living things",
+   "stem": "Match each example to the type of interaction.",
+   "pairs": [
+    [
+     "a heron eats a frog",
+     "feeding"
+    ],
+    [
+     "two trees grow towards the same patch of light",
+     "competing"
+    ],
+    [
+     "a bee carries pollen while it drinks nectar",
+     "helping each other"
+    ],
+    [
+     "a crab hides between mangrove roots",
+     "shelter"
+    ]
+   ],
+   "explanation": "Living things interact to get what they need. Herons feed on frogs, trees compete for light, bees and flowers help each other, and crabs use roots for shelter."
+  },
+  {
+   "id": "g4-a4-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Levels of life",
+   "stem": "All the living things of one kind in a place are a ___, and all the populations living together are a ___.",
+   "blanks": [
+    [
+     "population"
+    ],
+    [
+     "community"
+    ]
+   ],
+   "bank": [
+    "population",
+    "community",
+    "organism",
+    "biosphere"
+   ],
+   "explanation": "All the hilsa in a river are one population. All the different populations (fish, plants, birds, insects) living together make up the community."
+  },
+  {
+   "id": "g4-a4-005",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living and non-living parts",
+   "stem": "Which of these is a **non-living** part of an ecosystem?",
+   "options": [
+    "frog",
+    "rock",
+    "grass",
+    "mushroom"
+   ],
+   "answer": 1,
+   "explanation": "A rock does not grow, feed, breathe or have young, so it is non-living. A frog, grass and a mushroom are all living things."
+  },
+  {
+   "id": "g4-a4-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Living and non-living parts",
+   "stem": "An ecosystem includes only the animals that live in a place.",
+   "answer": false,
+   "explanation": "An ecosystem is all the living things (plants, animals, fungi, microbes) and the non-living things (sunlight, water, air, soil) in a place, and how they affect each other."
+  },
+  {
+   "id": "g4-a4-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Living and non-living parts",
+   "stem": "A rotting log in a garden can be an ecosystem.",
+   "answer": true,
+   "explanation": "An ecosystem can be big or small. A log has living things (fungi, insects, worms) and non-living things (wood, water), and they all affect each other."
+  },
+  {
+   "id": "g4-a4-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Living and non-living parts",
+   "stem": "Which are signs that something is living? Choose all that are right.",
+   "options": [
+    "it grows",
+    "it feeds",
+    "it is green",
+    "it senses things around it",
+    "it is small"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Living things move, grow, feed, breathe, get rid of waste, sense their surroundings and have young. Being green or small does not make something living."
+  },
+  {
+   "id": "g4-a4-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Interactions between living things",
+   "stem": "Two plants grow side by side in a field. What are they most likely competing for?",
+   "options": [
+    "salt and sand",
+    "nests and shelter",
+    "meat and fish",
+    "light and water"
+   ],
+   "answer": 3,
+   "explanation": "Plants need light and water to make food, and there may not be enough for both. That is why neighbouring plants compete."
+  },
+  {
+   "id": "g4-a4-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Living and non-living parts",
+   "stem": "Rafi found a dry seed. It does not move or grow. Is it living or non-living? Explain.",
+   "model_answer": "It is living, but resting. If it gets water and warmth it will germinate and grow.",
+   "keywords": [
+    [
+     "living",
+     "alive",
+     "live"
+    ],
+    [
+     "water",
+     "warm",
+     "warmth",
+     "germinate",
+     "grow",
+     "resting"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A seed is a living thing in a resting state. When it gets water and warmth it germinates and grows, so it is not like a stone."
+  },
+  {
+   "id": "g4-a4-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Living and non-living interactions",
+   "stem": "Why are earthworms helpful to plants?",
+   "options": [
+    "They mix the soil, which helps roots to grow.",
+    "They give off light that the leaves can use.",
+    "They keep rain from reaching the roots.",
+    "They eat the plant's roots to help it grow."
+   ],
+   "answer": 0,
+   "explanation": "Earthworms mix the soil and let air and water get in, which makes the soil better for roots. This is an interaction between a living thing and a non-living thing."
+  },
+  {
+   "id": "g4-a4-012",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Living and non-living interactions",
+   "stem": "Match each living thing and its non-living partner to what happens.",
+   "pairs": [
+    [
+     "plants and sunlight, water and air",
+     "the plants make their own food"
+    ],
+    [
+     "fish and water",
+     "the fish take in dissolved oxygen"
+    ],
+    [
+     "trees and the ground",
+     "shade keeps the ground cooler and damper"
+    ],
+    [
+     "earthworms and soil",
+     "the soil is mixed and better for roots"
+    ]
+   ],
+   "explanation": "Living things depend on the non-living parts of their ecosystem for food, air, water and shelter, and they also change those parts."
+  },
+  {
+   "id": "g4-a4-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Ecosystems as systems",
+   "stem": "A group of parts that work together, so that a change in one part changes the others, is called a ___.",
+   "blanks": [
+    [
+     "system"
+    ]
+   ],
+   "bank": [
+    "system",
+    "population",
+    "habitat",
+    "organ"
+   ],
+   "explanation": "A pond is a system: its water, plants, fish, birds and sunlight work together. If one part changes, the others change too."
+  },
+  {
+   "id": "g4-a4-014",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Levels of life",
+   "stem": "All the hilsa fish living in the Meghna river are a…",
+   "options": [
+    "community",
+    "biosphere",
+    "population",
+    "organ system"
+   ],
+   "answer": 2,
+   "explanation": "All the living things of one kind in a place form a population. A community is all the different populations together."
+  },
+  {
+   "id": "g4-a4-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Living and non-living interactions",
+   "stem": "Which numbered part of the pond makes its own food using sunlight, water and air?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with parts numbered 1 to 8: Sun, air and clouds, duck, fish, water, rock, water plants and frog.",
+   "options": [
+    "3",
+    "4",
+    "7",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "Number 7 is the water plants. Plants make their own food. The duck (3), fish (4) and frog (8) are animals, so they must eat."
+  },
+  {
+   "id": "g4-a4-016",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living and non-living parts",
+   "stem": "Look at the numbered pond. Sort the numbers into living and non-living parts.",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with parts numbered 1 to 8: 1 Sun, 2 air and clouds, 3 duck, 4 fish, 5 water, 6 rock, 7 water plants, 8 frog.",
+   "categories": [
+    "Living",
+    "Non-living"
+   ],
+   "items": [
+    [
+     "1",
+     "Non-living"
+    ],
+    [
+     "2",
+     "Non-living"
+    ],
+    [
+     "3",
+     "Living"
+    ],
+    [
+     "4",
+     "Living"
+    ],
+    [
+     "5",
+     "Non-living"
+    ],
+    [
+     "6",
+     "Non-living"
+    ],
+    [
+     "7",
+     "Living"
+    ],
+    [
+     "8",
+     "Living"
+    ]
+   ],
+   "explanation": "The Sun (1), air (2), water (5) and rock (6) are non-living. The duck (3), fish (4), water plants (7) and frog (8) are living."
+  },
+  {
+   "id": "g4-a4-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Living and non-living interactions",
+   "stem": "The fish (4) take in oxygen that is dissolved in one of the other parts. Which numbered part is it?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with parts numbered 1 to 8: Sun, air and clouds, duck, fish, water, rock, water plants and frog.",
+   "options": [
+    "1",
+    "5",
+    "6",
+    "8"
+   ],
+   "answer": 1,
+   "explanation": "Number 5 is the water. Fish have gills that take in the oxygen dissolved in the water."
+  },
+  {
+   "id": "g4-a4-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Living and non-living interactions",
+   "stem": "Which numbered part gives the water plants (7) the light they need to make food?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with parts numbered 1 to 8: Sun, air and clouds, duck, fish, water, rock, water plants and frog.",
+   "options": [
+    "1",
+    "2",
+    "5",
+    "6"
+   ],
+   "answer": 0,
+   "explanation": "Number 1 is the Sun. Plants use the light from the Sun, with water and air, to make their food."
+  },
+  {
+   "id": "g4-a4-019",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living and non-living parts",
+   "stem": "Which of these are living things? Choose all that are right.",
+   "options": [
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "rock",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "mushroom",
+     "image": "openmoji/mushroom.svg"
+    },
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "water drop",
+     "image": "openmoji/droplet.svg"
+    },
+    {
+     "text": "lotus",
+     "image": "openmoji/lotus.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    5
+   ],
+   "explanation": "Fish are animals, mushrooms are fungi and lotus is a plant, so all three are living. A rock, the Sun and water are non-living."
+  },
+  {
+   "id": "g4-a4-020",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Interactions between living things",
+   "stem": "Match each picture to the interaction.",
+   "pairs": [
+    [
+     {
+      "text": "honeybee",
+      "image": "openmoji/honeybee.svg"
+     },
+     "gets nectar from flowers and carries pollen"
+    ],
+    [
+     {
+      "text": "nest with eggs",
+      "image": "openmoji/nest-with-eggs.svg"
+     },
+     "birds nest in trees for shelter"
+    ],
+    [
+     {
+      "text": "cow",
+      "image": "openmoji/cow.svg"
+     },
+     "eats grass"
+    ]
+   ],
+   "explanation": "Bees and flowers help each other, a tree gives a bird shelter for its eggs, and a cow feeds on grass."
+  },
+  {
+   "id": "g4-a4-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Ecosystems as systems",
+   "stem": "A factory pours hot water into a village pond. The water gets much warmer and holds less oxygen. What is most likely to happen?",
+   "options": [
+    "The fish grow bigger, as warm water has more oxygen.",
+    "The fish stay just the same, as water is not alive.",
+    "Some fish die or swim away, as there is less oxygen.",
+    "The kingfishers get more food, as the water is cleaner."
+   ],
+   "answer": 2,
+   "explanation": "Fish take in the oxygen dissolved in water. With less oxygen some fish die or leave, and then the kingfishers that eat them have less food too."
+  },
+  {
+   "id": "g4-a4-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Living and non-living interactions",
+   "stem": "Nadia notices that the soil under a big mango tree is cooler and damper than the soil in the open field. Why?",
+   "options": [
+    "The tree's roots make the soil cold and wet.",
+    "The tree gives shade, so the Sun warms the ground less.",
+    "The soil under trees is a different kind of rock.",
+    "The tree takes all the air out of the soil."
+   ],
+   "answer": 1,
+   "explanation": "Trees give shade, which keeps the ground cooler and damper. This is a living thing changing a non-living part of the ecosystem."
+  },
+  {
+   "id": "g4-a4-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Interactions between living things",
+   "stem": "Many farmers in Bangladesh keep small fish in their rice fields. Why does this help the farmer?",
+   "options": [
+    "The fish dig up the soil to plant the rice seeds.",
+    "The fish stop the rice plants from needing any water.",
+    "The fish keep the field warm so the rice grows faster.",
+    "The fish eat pests and weeds, and their droppings feed the rice."
+   ],
+   "answer": 3,
+   "explanation": "The fish eat insects and weeds, so less pesticide is needed, and their droppings act as fertiliser. The rice gives the fish shade and shelter. They help each other."
+  },
+  {
+   "id": "g4-a4-024",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Ecosystems as systems",
+   "stem": "In a long drought a village pond dries up. Which things are likely to happen? Choose all that are right.",
+   "options": [
+    "The fish die.",
+    "The kingfishers fly away to find food.",
+    "The frogs cannot lay their eggs there.",
+    "The water plants grow bigger.",
+    "The pond becomes a bigger ecosystem."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A pond is a system, so a change in one part changes the others. Without water the fish die, the kingfishers lose their food and the frogs lose a place to lay eggs."
+  },
+  {
+   "id": "g4-a4-025",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Ecosystems as systems",
+   "stem": "Jashim says, 'If all the mangroves in the Sundarbans are cut down, only the trees will be affected.' Is he right?",
+   "answer": false,
+   "explanation": "Crabs, fish, birds and many other animals use mangroves for shelter and food. In an ecosystem everything is connected, so cutting the trees affects the animals too."
+  },
+  {
+   "id": "g4-a4-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Using data about habitats",
+   "stem": "Class 4D put 10 snails in the middle of a tray (example data). After 10 minutes there were 6 snails on the damp side and 2 on the dry side. How many snails were still in the middle?",
+   "options": [
+    "8",
+    "6",
+    "4",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "6 + 2 = 8 snails had moved to one side. 10 − 8 = 2 snails were still in the middle."
+  },
+  {
+   "id": "g4-a4-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Using data about habitats",
+   "stem": "Class 4D counted snails on each side of a tray every 5 minutes (example data). Damp side: 0, 3, 6, 8, 9. Dry side: 0, 2, 2, 1, 1. Which conclusion is best supported?",
+   "options": [
+    "More snails chose the damp side, so snails seem to prefer damp places.",
+    "Every snail prefers damp places, as all moved to the damp side.",
+    "The dry side was too hot, so the snails left the tray.",
+    "Snails cannot choose where they go, so the results are luck."
+   ],
+   "answer": 0,
+   "explanation": "The number on the damp side kept rising to 9 out of 10, while the dry side had only 1. One snail stayed on the dry side, so we cannot say every snail prefers damp. Soft-bodied snails dry out easily."
+  },
+  {
+   "id": "g4-a4-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Ecosystems as systems",
+   "stem": "Example data: a rice-only farm harvested 500 kg of rice and used 6 litres of pesticide. A rice-and-fish farm harvested 520 kg of rice and 60 kg of fish, and used 2 litres of pesticide. A farmer says this proves that fish make rice grow better. What is the best reply?",
+   "options": [
+    "Yes, because 520 kg is more than 500 kg, so fish always help rice.",
+    "Yes, because the rice-and-fish farm used a lot less pesticide.",
+    "Only two farms were compared, so we need more farms to be sure.",
+    "No, because fish cannot affect rice plants in any way at all."
+   ],
+   "answer": 2,
+   "explanation": "Two farms may differ in soil, weather or care. We need many farms and repeats before drawing a firm conclusion. The data do show less pesticide (4 litres less) and extra fish."
+  },
+  {
+   "id": "g4-a4-029",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Ecosystems as systems",
+   "stem": "Heavy rain washes lots of mud into a pond. The water turns cloudy and little light reaches the water plants. What could happen? Choose all that are right.",
+   "options": [
+    "The water plants make less food and may die.",
+    "Animals that eat the water plants have less food.",
+    "Animals that eat those animals may also go hungry.",
+    "The cloudy water makes the Sun shine brighter.",
+    "Nothing changes, as mud is non-living."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Without light the plants cannot make food. The effect passes along: the plant-eaters, and then the animals that eat them, have less food. The parts of an ecosystem are connected."
+  },
+  {
+   "id": "g4-a4-030",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Ecosystems as systems",
+   "stem": "Scientists say, 'You cannot change just one thing in an ecosystem.' Explain what they mean, using an example.",
+   "model_answer": "Everything in an ecosystem is connected, so changing one part affects the others. For example, if trees are removed, the animals lose food and shelter, and the soil gets more sun.",
+   "keywords": [
+    [
+     "connected",
+     "interact",
+     "interacts",
+     "interaction",
+     "depend",
+     "linked",
+     "system",
+     "affect",
+     "affects",
+     "effect"
+    ],
+    [
+     "trees",
+     "fish",
+     "plants",
+     "animals",
+     "food",
+     "shelter",
+     "light",
+     "water",
+     "pond",
+     "other parts",
+     "others"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "An ecosystem is a system. Its parts depend on each other for food, shelter, light and water, so a change in one part passes on to the others."
+  }
+ ]
+}

@@ -1,0 +1,696 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "A1",
+ "title": "Human Body Systems",
+ "strand": "living",
+ "worksheet": "worksheets/grade-5-science/pdf/a1-human-body-systems-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-a1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organ systems",
+   "stem": "Organs that work together to do a big job make up an…",
+   "options": [
+    "artery",
+    "nutrient",
+    "joint",
+    "organ system"
+   ],
+   "answer": 3,
+   "explanation": "An organ is a body part with a special job. Organs that work together form an organ system, such as the digestive system."
+  },
+  {
+   "id": "g5-a1-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organ functions",
+   "stem": "Match each organ to its job.",
+   "pairs": [
+    [
+     "stomach",
+     "churns food with acid"
+    ],
+    [
+     "bladder",
+     "stores urine"
+    ],
+    [
+     "liver",
+     "helps digestion and cleans the blood"
+    ],
+    [
+     "diaphragm",
+     "a muscle that helps you breathe"
+    ],
+    [
+     "windpipe",
+     "carries air to the lungs"
+    ],
+    [
+     "oesophagus",
+     "carries food to the stomach"
+    ]
+   ],
+   "explanation": "Each organ has a special job. The windpipe and the oesophagus are both tubes, but one carries air and the other carries food."
+  },
+  {
+   "id": "g5-a1-003",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Organ systems",
+   "stem": "Sort each organ into its organ system.",
+   "categories": [
+    "Digestive",
+    "Respiratory",
+    "Circulatory",
+    "Nervous"
+   ],
+   "items": [
+    [
+     "stomach",
+     "Digestive"
+    ],
+    [
+     "small intestine",
+     "Digestive"
+    ],
+    [
+     "lungs",
+     "Respiratory"
+    ],
+    [
+     "windpipe",
+     "Respiratory"
+    ],
+    [
+     "heart",
+     "Circulatory"
+    ],
+    [
+     "arteries",
+     "Circulatory"
+    ],
+    [
+     "brain",
+     "Nervous"
+    ],
+    [
+     "spinal cord",
+     "Nervous"
+    ]
+   ],
+   "explanation": "The digestive system breaks down food, the respiratory system handles breathing, the circulatory system moves blood, and the nervous system carries messages and controls the body."
+  },
+  {
+   "id": "g5-a1-004",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Systems working together",
+   "stem": "Rafi touches a hot pan and quickly pulls his hand away. Put the path of the message in order.",
+   "sequence": [
+    "Nerves in the skin of his hand sense the heat.",
+    "A message travels along nerves to the spinal cord and brain.",
+    "A message is sent back along nerves to the arm.",
+    "Muscles in his arm pull the hand away."
+   ],
+   "explanation": "The nervous system carries messages at high speed: in from the sense organ, to the spinal cord and brain, and out again to the muscles."
+  },
+  {
+   "id": "g5-a1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organ functions",
+   "stem": "Food goes from the mouth down the ___ to the stomach. Most nutrients pass into the blood in the ___ intestine.",
+   "blanks": [
+    [
+     "oesophagus",
+     "esophagus",
+     "food pipe"
+    ],
+    [
+     "small"
+    ]
+   ],
+   "bank": [
+    "oesophagus",
+    "windpipe",
+    "small",
+    "large"
+   ],
+   "explanation": "The oesophagus (food pipe) carries food to the stomach. The windpipe carries air, and the large intestine mostly takes back water."
+  },
+  {
+   "id": "g5-a1-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organ functions",
+   "stem": "Oxygen is the waste gas that we breathe out.",
+   "answer": false,
+   "explanation": "We breathe in oxygen, which passes into the blood. The waste gas that we breathe out is carbon dioxide."
+  },
+  {
+   "id": "g5-a1-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Organ systems",
+   "stem": "Which jobs does the skeletal system do? Choose all that are right.",
+   "options": [
+    "holds the body up",
+    "protects soft organs such as the brain",
+    "works with muscles so we can move",
+    "pumps blood around the body",
+    "filters the blood to make urine"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Bones support and protect the body and work with muscles for movement. Pumping blood is the heart's job and filtering blood is the kidneys' job."
+  },
+  {
+   "id": "g5-a1-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Pulse and exercise",
+   "stem": "What is your pulse?",
+   "options": [
+    "the beat of blood pushed through an artery",
+    "the speed of nerve messages in the body",
+    "the number of breaths in each minute",
+    "the noise of food moving in your gut"
+   ],
+   "answer": 0,
+   "explanation": "Each time the heart pumps, it pushes blood through the arteries, and you can feel this beat as your pulse, for example on your wrist."
+  },
+  {
+   "id": "g5-a1-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organ functions",
+   "stem": "Where is urine stored until you go to the toilet?",
+   "options": [
+    "kidney",
+    "liver",
+    "bladder",
+    "stomach"
+   ],
+   "answer": 2,
+   "explanation": "The kidneys filter the blood and make urine. The urine is then stored in the bladder."
+  },
+  {
+   "id": "g5-a1-010",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Organ systems",
+   "stem": "Match each organ system to its main job.",
+   "pairs": [
+    [
+     "digestive system",
+     "breaks food into nutrients"
+    ],
+    [
+     "respiratory system",
+     "takes in oxygen and removes carbon dioxide"
+    ],
+    [
+     "circulatory system",
+     "carries blood around the body"
+    ],
+    [
+     "excretory system",
+     "gets rid of waste made by the body"
+    ],
+    [
+     "skeletal system",
+     "supports and protects the body"
+    ],
+    [
+     "nervous system",
+     "carries messages to control the body"
+    ]
+   ],
+   "explanation": "The six main organ systems each have their own job, and they work together to keep us alive."
+  },
+  {
+   "id": "g5-a1-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Organ functions",
+   "stem": "Blood flows around the body in tubes called blood ___. The tiniest tubes are called ___.",
+   "blanks": [
+    [
+     "vessels"
+    ],
+    [
+     "capillaries",
+     "capillary"
+    ]
+   ],
+   "bank": [
+    "vessels",
+    "capillaries",
+    "joints",
+    "nerves"
+   ],
+   "explanation": "Blood vessels are arteries, veins and tiny capillaries. Capillaries reach every part of the body to deliver oxygen and nutrients."
+  },
+  {
+   "id": "g5-a1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Organ functions",
+   "stem": "What does the diaphragm do?",
+   "options": [
+    "It pumps blood to the lungs.",
+    "It is a muscle that helps you breathe.",
+    "It filters waste from the blood.",
+    "It carries air down to the lungs."
+   ],
+   "answer": 1,
+   "explanation": "The diaphragm is a sheet of muscle under the lungs that moves to help air go in and out. The heart pumps blood and the windpipe carries air."
+  },
+  {
+   "id": "g5-a1-013",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Systems working together",
+   "stem": "Explain how oxygen gets from the air to the muscles in your legs.",
+   "model_answer": "You breathe air in through your nose and mouth, and it goes down the windpipe to the lungs. Oxygen passes into the blood in the lungs, and the heart pumps the blood around the body to the muscles.",
+   "keywords": [
+    [
+     "lungs",
+     "lung",
+     "windpipe",
+     "breathe",
+     "breathing",
+     "respiratory"
+    ],
+    [
+     "blood"
+    ],
+    [
+     "heart",
+     "pump",
+     "pumps",
+     "pumped",
+     "circulatory"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The respiratory system takes oxygen into the blood, and the circulatory system (heart and blood vessels) carries it to every cell. Both systems are needed."
+  },
+  {
+   "id": "g5-a1-014",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Organ systems",
+   "stem": "The nervous system is made of the brain only.",
+   "answer": false,
+   "explanation": "The nervous system also includes the spinal cord and the nerves. The sense organs send information to it, and nerves carry messages around the body."
+  },
+  {
+   "id": "g5-a1-015",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organs and where they are",
+   "stem": "Match each number in the picture to the right bone.",
+   "image": "diagrams/skeleton-numbered.svg",
+   "image_alt": "A human skeleton with six bones numbered.",
+   "pairs": [
+    [
+     "1",
+     "skull"
+    ],
+    [
+     "2",
+     "ribs"
+    ],
+    [
+     "3",
+     "spine (backbone)"
+    ],
+    [
+     "5",
+     "thigh bone (femur)"
+    ]
+   ],
+   "explanation": "The skull (1) protects the brain, the ribs (2) protect the heart and lungs, the spine (3) holds the body up and protects the spinal cord, and the thigh bone (5) is the longest bone in the body."
+  },
+  {
+   "id": "g5-a1-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organs and where they are",
+   "stem": "Match each organ or group of organs to the numbered part of the body where it is found.",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "An outline of a child with body parts numbered 1 to 11.",
+   "pairs": [
+    [
+     "the brain",
+     "1"
+    ],
+    [
+     "the heart and lungs",
+     "7"
+    ],
+    [
+     "the stomach and intestines",
+     "8"
+    ]
+   ],
+   "explanation": "The brain is in the head (1). The heart and lungs are in the chest (7), and the stomach and intestines are in the tummy (8)."
+  },
+  {
+   "id": "g5-a1-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organ systems",
+   "stem": "Which number shows a joint, where two bones meet?",
+   "image": "diagrams/arm-muscles-numbered.svg",
+   "image_alt": "An arm showing a bone, the biceps, the triceps and the elbow joint, numbered 1 to 4.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "explanation": "Number 4 is the elbow joint, where the upper arm bone meets the lower arm bones. Numbers 2 and 3 are muscles."
+  },
+  {
+   "id": "g5-a1-018",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Organs and where they are",
+   "stem": "In the picture, the part numbered 4 protects the brain.",
+   "image": "diagrams/skeleton-numbered.svg",
+   "image_alt": "A human skeleton with six bones numbered.",
+   "answer": false,
+   "explanation": "Number 4 is the pelvis, which supports the body and protects organs in the lower tummy. The skull (1) protects the brain."
+  },
+  {
+   "id": "g5-a1-019",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Organ systems",
+   "stem": "Sort the pictures into the organ system each one belongs to.",
+   "categories": [
+    "Nervous",
+    "Respiratory",
+    "Circulatory",
+    "Digestive"
+   ],
+   "items": [
+    [
+     {
+      "text": "brain",
+      "image": "openmoji/brain.svg"
+     },
+     "Nervous"
+    ],
+    [
+     {
+      "text": "eye",
+      "image": "openmoji/eye.svg"
+     },
+     "Nervous"
+    ],
+    [
+     {
+      "text": "lungs",
+      "image": "openmoji/lungs.svg"
+     },
+     "Respiratory"
+    ],
+    [
+     {
+      "text": "heart",
+      "image": "openmoji/anatomical-heart.svg"
+     },
+     "Circulatory"
+    ],
+    [
+     {
+      "text": "tooth",
+      "image": "openmoji/tooth.svg"
+     },
+     "Digestive"
+    ]
+   ],
+   "explanation": "The brain controls the body and the eye is a sense organ that sends messages to it. The lungs are for breathing, the heart pumps blood, and teeth chew food at the start of digestion."
+  },
+  {
+   "id": "g5-a1-020",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Systems working together",
+   "stem": "Which numbered part carries messages from the eye to the brain?",
+   "image": "diagrams/eye-numbered.svg",
+   "image_alt": "A cross-section of the eye with parts numbered 1 to 5.",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 3,
+   "explanation": "The optic nerve (5) is part of the nervous system. It carries messages from the retina (4) to the brain, which makes sense of what we see."
+  },
+  {
+   "id": "g5-a1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Pulse and exercise",
+   "stem": "At sports day Rima runs a race. Her heart beats much faster and she breathes hard. What is the best explanation?",
+   "options": [
+    "Her bones need more blood to stop them breaking.",
+    "Her muscles need more oxygen, so breathing and heartbeat speed up.",
+    "Her stomach needs to digest her lunch faster.",
+    "Her kidneys need to make more urine quickly."
+   ],
+   "answer": 1,
+   "explanation": "Working muscles need more oxygen and energy. Faster breathing takes in more oxygen and a faster heartbeat carries it to the muscles more quickly."
+  },
+  {
+   "id": "g5-a1-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Air pollution and health",
+   "stem": "On a winter morning in Dhaka the air quality index (AQI) is 245, which is \"very unhealthy\" (201–300). What is the best decision for Moung's class?",
+   "options": [
+    "Move sports indoors and wear masks outside.",
+    "Open all the windows for fresh air.",
+    "Hold sports outdoors as normal.",
+    "Run extra laps to make lungs stronger."
+   ],
+   "answer": 0,
+   "explanation": "Children breathe faster and deeper when they exercise, so they take in more polluted air. On very unhealthy days it is safer to stay indoors or limit time outside."
+  },
+  {
+   "id": "g5-a1-023",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Pulse and exercise",
+   "stem": "After jogging, Imran counts 22 beats of his pulse in 15 seconds. His pulse rate is ___ beats per minute.",
+   "blanks": [
+    [
+     "88"
+    ]
+   ],
+   "explanation": "There are four 15-second periods in one minute, so multiply by 4: 22 × 4 = 88 beats per minute."
+  },
+  {
+   "id": "g5-a1-024",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Air pollution and health",
+   "stem": "Which actions help protect people's lungs in a polluted city? Choose all that are right.",
+   "options": [
+    "wear a mask on very polluted days",
+    "spray water on dust at building sites",
+    "burn rubbish instead of collecting it",
+    "check that vehicles do not give out thick smoke",
+    "exercise next to a busy road at rush hour"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Masks, damping down dust and cleaner vehicles all reduce the tiny particles we breathe in. Burning rubbish and exercising beside heavy traffic add to the problem."
+  },
+  {
+   "id": "g5-a1-025",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Organ systems",
+   "stem": "A doctor puts a stethoscope on a child's chest to listen to the heart and lungs. Which two body systems is she checking?",
+   "options": [
+    "digestive and nervous",
+    "skeletal and excretory",
+    "circulatory and respiratory",
+    "excretory and nervous"
+   ],
+   "answer": 2,
+   "explanation": "The heart belongs to the circulatory system and the lungs belong to the respiratory system. Both are found in the chest."
+  },
+  {
+   "id": "g5-a1-026",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Air pollution and health",
+   "stem": "Nadia lives near a brick kiln in Dhaka and often coughs in winter. Explain how the smoke can harm her body.",
+   "model_answer": "Tiny particles in the smoke travel deep into her lungs and can cause coughing and lung infections. Some of the particles pass into the blood and can strain the heart, so the respiratory and circulatory systems are harmed.",
+   "keywords": [
+    [
+     "lung",
+     "lungs",
+     "respiratory",
+     "airways",
+     "breathe"
+    ],
+    [
+     "blood",
+     "heart",
+     "circulatory"
+    ],
+    [
+     "particles",
+     "smoke",
+     "dust",
+     "pollution",
+     "pm2.5"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The smallest particles (PM2.5) are about 30 times thinner than a human hair. They reach deep into the lungs, and some even enter the blood, so they affect both breathing and the heart."
+  },
+  {
+   "id": "g5-a1-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Pulse and exercise",
+   "stem": "Example data: Tuli counted her pulse for 15 seconds. She counted 19 beats while resting and 31 beats after jogging. By how many beats per minute did her pulse rise?",
+   "options": [
+    "12 beats per minute",
+    "124 beats per minute",
+    "76 beats per minute",
+    "48 beats per minute"
+   ],
+   "answer": 3,
+   "explanation": "Resting: 19 × 4 = 76 beats per minute. After jogging: 31 × 4 = 124 beats per minute. The rise is 124 − 76 = 48. The answer 12 forgets to change 15 seconds into a minute."
+  },
+  {
+   "id": "g5-a1-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Systems working together",
+   "stem": "A person can live with only one kidney, but not without a heart. Which explanation is best?",
+   "options": [
+    "Kidneys only store urine, so they are not needed.",
+    "One kidney can still filter enough blood, but nothing else can pump blood to the cells.",
+    "The heart is bigger, so it does more work than both kidneys.",
+    "Kidneys are smaller than the heart, so they matter less."
+   ],
+   "answer": 1,
+   "explanation": "One kidney can do the work of two. Without a heartbeat, oxygen and nutrients cannot reach the cells. Kidneys filter blood and make urine; the bladder stores it."
+  },
+  {
+   "id": "g5-a1-029",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Air pollution and health",
+   "stem": "Example data: a school recorded the AQI each morning: Sat 120, Sun 158, Mon 205, Tue 310, Wed 175. The scale is: 101–150 unhealthy for sensitive groups, 151–200 unhealthy, 201–300 very unhealthy, 301 and above hazardous. Which statements are true? Choose all that are right.",
+   "options": [
+    "The most polluted day was Tuesday, and the air was hazardous.",
+    "The air was \"unhealthy\" or worse on four of the five days.",
+    "Saturday's air was in the \"very unhealthy\" category.",
+    "The AQI rose every day.",
+    "Wednesday was more polluted than Monday."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Tuesday (310) is the highest and is 301 or above. Sun, Mon, Tue and Wed are all 151 or more. Saturday (120) was only unhealthy for sensitive groups, and Wednesday (175) fell below Monday (205)."
+  },
+  {
+   "id": "g5-a1-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Organ functions",
+   "stem": "Joy wrote four statements about the body. Which one is **not** correct?",
+   "options": [
+    "Nutrients pass into the blood in the small intestine.",
+    "The heart pumps blood to the lungs, where it picks up oxygen.",
+    "The kidneys store urine until it leaves the body.",
+    "The ribs protect the heart and lungs."
+   ],
+   "answer": 2,
+   "explanation": "The kidneys filter the blood and make urine, but the bladder stores it. The other three statements are correct."
+  }
+ ]
+}

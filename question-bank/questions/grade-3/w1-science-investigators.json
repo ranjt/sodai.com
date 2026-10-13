@@ -1,0 +1,598 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "W1",
+ "title": "Science Investigators",
+ "strand": "skills",
+ "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-w1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Testable questions",
+   "stem": "Which of these questions can be answered by doing a science test?",
+   "options": [
+    "Which ball bounces the highest?",
+    "Which song is the nicest?",
+    "Which colour is the prettiest?",
+    "Which fruit tastes the best?"
+   ],
+   "answer": 0,
+   "explanation": "You can measure how high a ball bounces. 'Prettiest', 'nicest' and 'best' are opinions, so people will not all agree and you cannot measure them."
+  },
+  {
+   "id": "g3-w1-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Testable questions",
+   "stem": "Sort the questions. Can a scientist test them with measurements?",
+   "categories": [
+    "Can be tested",
+    "Cannot be tested"
+   ],
+   "items": [
+    [
+     "Which towel soaks up the most water?",
+     "Can be tested"
+    ],
+    [
+     "Do seeds sprout faster in warm or cold places?",
+     "Can be tested"
+    ],
+    [
+     "Does a bigger magnet pick up more paper clips?",
+     "Can be tested"
+    ],
+    [
+     "Which cartoon is the funniest?",
+     "Cannot be tested"
+    ],
+    [
+     "Which flower smells the nicest?",
+     "Cannot be tested"
+    ],
+    [
+     "Is Friday the best day of the week?",
+     "Cannot be tested"
+    ]
+   ],
+   "explanation": "A testable question can be answered by measuring or counting something. Questions about what is funniest, nicest or best are opinions."
+  },
+  {
+   "id": "g3-w1-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Repeating measurements",
+   "stem": "When we repeat a test and get similar results each time, the results are more ___.",
+   "blanks": [
+    [
+     "reliable",
+     "trustworthy",
+     "dependable"
+    ]
+   ],
+   "bank": [
+    "reliable",
+    "colourful",
+    "bigger"
+   ],
+   "explanation": "Repeating a measurement lets you check it. If the results are close together, you can trust them more: they are more reliable."
+  },
+  {
+   "id": "g3-w1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Tables and bar charts",
+   "stem": "A good results table has headings and units, for example 'Distance (m)'.",
+   "answer": true,
+   "explanation": "Headings tell the reader what each column shows, and units (like m, cm or s) tell them what was measured."
+  },
+  {
+   "id": "g3-w1-005",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Predictions",
+   "stem": "A **prediction** is…",
+   "options": [
+    "a number you measured",
+    "what you saw happen in the test",
+    "what you think will happen, and why",
+    "a question that cannot be tested"
+   ],
+   "answer": 2,
+   "explanation": "A prediction is made before the test, using what you already know. After the test, the evidence shows whether the prediction was right."
+  },
+  {
+   "id": "g3-w1-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Repeating measurements",
+   "stem": "Why do scientists measure the same thing three times?",
+   "options": [
+    "To get a bigger number.",
+    "Because the first try is always wrong.",
+    "To make the test last longer.",
+    "To check the results and trust them more."
+   ],
+   "answer": 3,
+   "explanation": "Repeating lets you spot a result that is very different, and it makes your results more reliable. The first try is not always wrong."
+  },
+  {
+   "id": "g3-w1-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Planning an investigation",
+   "stem": "Put the steps of an investigation in the right order.",
+   "sequence": [
+    "Ask a question you can test.",
+    "Make a prediction.",
+    "Plan a fair test.",
+    "Measure and record the results.",
+    "Say what the evidence shows."
+   ],
+   "explanation": "Scientists ask, predict, plan, test and then explain. You compare the evidence with your prediction at the end."
+  },
+  {
+   "id": "g3-w1-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests",
+   "stem": "Arif tests which type of sponge soaks up the most water. Which things must stay the same? Choose all that are right.",
+   "options": [
+    "the amount of water poured on",
+    "the type of sponge",
+    "the size of each piece of sponge",
+    "the time each piece soaks"
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "In a fair test you change one thing only. Here the type of sponge is the one thing that changes. Water, size and time must be kept the same."
+  },
+  {
+   "id": "g3-w1-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Tools and units",
+   "stem": "Force is measured in ___ and temperature in degrees ___.",
+   "blanks": [
+    [
+     "newtons",
+     "newton",
+     "N"
+    ],
+    [
+     "Celsius",
+     "celsius",
+     "C"
+    ]
+   ],
+   "bank": [
+    "newtons",
+    "Celsius",
+    "seconds",
+    "metres"
+   ],
+   "explanation": "A forcemeter measures force in newtons (N). A thermometer measures temperature in degrees Celsius (°C)."
+  },
+  {
+   "id": "g3-w1-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Fair tests",
+   "stem": "Raju tests which of two bean plants grows taller. One plant is in sunlight in a big pot. The other is in shade in a small pot. This is a fair test.",
+   "answer": false,
+   "explanation": "Two things are different: the light and the size of the pot. If one plant grows taller, we cannot tell which change caused it. Only one thing should change."
+  },
+  {
+   "id": "g3-w1-011",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Fair tests",
+   "stem": "Mina tests which kind of bean seed grows tallest. Sort each item.",
+   "categories": [
+    "Change",
+    "Measure",
+    "Keep the same"
+   ],
+   "items": [
+    [
+     "the kind of bean seed",
+     "Change"
+    ],
+    [
+     "the height of each plant",
+     "Measure"
+    ],
+    [
+     "the amount of water",
+     "Keep the same"
+    ],
+    [
+     "the type of soil",
+     "Keep the same"
+    ],
+    [
+     "the size of the pot",
+     "Keep the same"
+    ],
+    [
+     "where the pots stand",
+     "Keep the same"
+    ]
+   ],
+   "explanation": "We change one thing (the seed), measure one thing (the height) and keep everything else the same so the test is fair."
+  },
+  {
+   "id": "g3-w1-012",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring",
+   "stem": "Match each question to what you would measure to answer it.",
+   "pairs": [
+    [
+     "Which cloth dries the fastest?",
+     "time"
+    ],
+    [
+     "Which plant grows the tallest?",
+     "length (height)"
+    ],
+    [
+     "Which cup of cha is the hottest?",
+     "temperature"
+    ],
+    [
+     "How hard must we pull a box along the floor?",
+     "force"
+    ]
+   ],
+   "explanation": "Time is measured with a stopwatch, length with a ruler, temperature with a thermometer and force with a forcemeter."
+  },
+  {
+   "id": "g3-w1-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring",
+   "stem": "Look at the three thermometers. What temperature does thermometer B show?",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers A, B and C. A reads 5 degrees, B reads 25 degrees and C reads 40 degrees.",
+   "options": [
+    "5 °C",
+    "25 °C",
+    "40 °C",
+    "15 °C"
+   ],
+   "answer": 1,
+   "explanation": "Find the top of the red liquid in thermometer B and read the scale beside it: 25 °C. Always include the unit."
+  },
+  {
+   "id": "g3-w1-014",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Measuring",
+   "stem": "Read the thermometers. Put them in order from the coldest reading to the hottest reading.",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers A, B and C showing different temperatures.",
+   "sequence": [
+    "Thermometer A",
+    "Thermometer B",
+    "Thermometer C"
+   ],
+   "explanation": "A reads 12 °C, B reads 37 °C and C reads 48 °C. The higher the liquid, the higher the temperature."
+  },
+  {
+   "id": "g3-w1-015",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring",
+   "stem": "Read the forcemeter. It shows a force of ___ N.",
+   "image": "diagrams/forcemeter-4n.svg",
+   "image_alt": "A forcemeter with its pointer at 4 newtons.",
+   "blanks": [
+    [
+     "4",
+     "four"
+    ]
+   ],
+   "explanation": "The pointer is at the line marked 4, so the force is 4 newtons (4 N). Forces are measured in newtons."
+  },
+  {
+   "id": "g3-w1-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Measuring",
+   "stem": "Sumi drags a bag over a rough floor and reads this forcemeter. On a smooth floor the same bag needed only 4 N. How much **more** force did the rough floor need?",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter with its pointer at 7 newtons.",
+   "options": [
+    "3 N",
+    "4 N",
+    "7 N",
+    "11 N"
+   ],
+   "answer": 0,
+   "explanation": "The forcemeter reads 7 N. The difference is 7 − 4 = 3 N. A rough floor has more friction, so it needs a bigger pull."
+  },
+  {
+   "id": "g3-w1-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Tools and units",
+   "stem": "Match each tool to the unit it uses.",
+   "pairs": [
+    [
+     {
+      "text": "thermometer",
+      "image": "openmoji/thermometer.svg"
+     },
+     "°C"
+    ],
+    [
+     {
+      "text": "stopwatch",
+      "image": "openmoji/stopwatch.svg"
+     },
+     "seconds"
+    ],
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "cm"
+    ]
+   ],
+   "explanation": "A thermometer uses degrees Celsius, a stopwatch uses seconds and a ruler uses centimetres."
+  },
+  {
+   "id": "g3-w1-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Tools and units",
+   "stem": "Imran wants to find out how long a toy car takes to roll down a ramp. Which tool should he use?",
+   "options": [
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "stopwatch",
+     "image": "openmoji/stopwatch.svg"
+    },
+    {
+     "text": "thermometer",
+     "image": "openmoji/thermometer.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A stopwatch measures time in seconds. A ruler measures length and a thermometer measures temperature."
+  },
+  {
+   "id": "g3-w1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests",
+   "stem": "Mina wants to know which of two soaps makes more bubbles. She uses one spoonful of each soap. How should she set up the water to keep the test fair?",
+   "options": [
+    "The same amount of water at the same temperature for both.",
+    "A big bowl for soap A and a small cup for soap B.",
+    "More water for the soap she thinks is better.",
+    "Warm water for soap A and cold water for soap B."
+   ],
+   "answer": 0,
+   "explanation": "Only the soap should change. If the amount or temperature of the water is different, we would not know whether the soap or the water caused the bubbles."
+  },
+  {
+   "id": "g3-w1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Evidence and conclusions",
+   "stem": "A class tested how far shoes slide on a wet floor when pushed. Example results: rubber sole 10 cm, leather sole 35 cm, plastic sole 30 cm. Which shoe is the safest on a wet floor?",
+   "options": [
+    "the leather sole",
+    "the plastic sole",
+    "the rubber sole",
+    "all three are the same"
+   ],
+   "answer": 2,
+   "explanation": "The rubber sole slid the shortest distance, so it grips the floor best. The evidence shows it is the safest choice."
+  },
+  {
+   "id": "g3-w1-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Repeating measurements",
+   "stem": "Imran times how long an ice cube takes to melt in the sun and gets 20 minutes. His friend says, 'Do it three times and see if the answers are close.' This is good advice.",
+   "answer": true,
+   "explanation": "One result might be a mistake. Repeating the test three times lets Imran check it, and close results are more reliable."
+  },
+  {
+   "id": "g3-w1-022",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Fair tests",
+   "stem": "Rafi says, 'Red toy cars roll further than blue ones.' He rolled the red car down a steep ramp and the blue car down a gentle ramp. Why is his test not fair?",
+   "model_answer": "He used different ramps. The ramp must be the same for both cars, so that only the colour of the car changes.",
+   "keywords": [
+    [
+     "ramp",
+     "slope",
+     "steep",
+     "steepness",
+     "height"
+    ],
+    [
+     "same",
+     "equal",
+     "different",
+     "unfair",
+     "not fair",
+     "one thing",
+     "only"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The steepness of the ramp changed as well as the colour, so we cannot tell which one made the car roll further. Keep the ramp the same."
+  },
+  {
+   "id": "g3-w1-023",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Tables and bar charts",
+   "stem": "Class 3A threw paper planes. Table: newspaper 5 m, writing paper 7 m, card 3 m. In a bar chart of this table, which paper has the **tallest** bar?",
+   "options": [
+    "newspaper",
+    "card",
+    "all the bars are equal",
+    "writing paper"
+   ],
+   "answer": 3,
+   "explanation": "The height of a bar shows the size of the result. Writing paper has the biggest number (7 m), so its bar is the tallest."
+  },
+  {
+   "id": "g3-w1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Repeating measurements",
+   "stem": "Class 3C dropped three balls three times each. Example bounce heights (cm): tennis ball 40, 44, 42; rubber ball 62, 60, 64; foam ball 20, 22, 18. The **middle** result of each ball is used. Which ball had the highest middle result?",
+   "options": [
+    "tennis ball, 44 cm",
+    "rubber ball, 62 cm",
+    "foam ball, 22 cm",
+    "rubber ball, 64 cm"
+   ],
+   "answer": 1,
+   "explanation": "Put each set in order and take the middle number. For the rubber ball: 60, 62, 64, so the middle result is 62 cm. Tennis is 42 cm and foam is 20 cm."
+  },
+  {
+   "id": "g3-w1-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Evidence and conclusions",
+   "stem": "Imran predicts, 'The heavier the paper, the further the plane will fly.' The papers from lightest to heaviest are newspaper, writing paper, card. Example results: newspaper 5 m, writing paper 7 m, card 3 m. Does the evidence support his prediction?",
+   "options": [
+    "Yes, because writing paper is heavier than newspaper and flew further.",
+    "Yes, because the heaviest paper always flies furthest.",
+    "No, because card, the heaviest paper, flew the shortest distance.",
+    "We cannot tell, because he did not draw a bar chart."
+   ],
+   "answer": 2,
+   "explanation": "If the prediction were right, card would fly furthest. It flew the shortest distance, so the evidence does not support the prediction. Scientists accept this and look for new explanations."
+  },
+  {
+   "id": "g3-w1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Fair tests",
+   "stem": "Arif wants to find out if the amount of water changes how tall bean seedlings grow. Which plan is the best?",
+   "options": [
+    "Give four matching plants 0, 10, 20 and 30 ml a day, keeping soil, pot and light the same.",
+    "Give one plant 20 ml of water a day and measure it once.",
+    "Give four plants different amounts of water in different kinds of soil.",
+    "Water one plant a lot in the sun and another a little in the shade."
+   ],
+   "answer": 0,
+   "explanation": "Only the amount of water changes, and everything else is kept the same, so any difference in height must be caused by the water. The other plans change more than one thing or have nothing to compare."
+  },
+  {
+   "id": "g3-w1-027",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Repeating measurements",
+   "stem": "Rafi and Mina each timed an ice cube melting three times. Rafi got 10, 11 and 10 minutes. Mina got 8, 15 and 22 minutes. Rafi's results are more reliable than Mina's.",
+   "answer": true,
+   "explanation": "Rafi's three results are very close together, so we can trust them more. Mina's results are far apart, so she should check her method and test again."
+  },
+  {
+   "id": "g3-w1-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Repeating measurements",
+   "stem": "Anika throws a paper plane three times and measures 5 m, 5 m and 14 m. What should she do about the 14 m result, and why?",
+   "model_answer": "She should check it by throwing again, because it is very different from the other two and might be a mistake.",
+   "keywords": [
+    [
+     "repeat",
+     "again",
+     "check",
+     "retest",
+     "re-do",
+     "redo",
+     "test it"
+    ],
+    [
+     "different",
+     "odd",
+     "strange",
+     "mistake",
+     "error",
+     "unusual",
+     "far",
+     "not like"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A result that is very different from the others needs checking. Repeating the throw shows whether it was a mistake or a real result."
+  }
+ ]
+}

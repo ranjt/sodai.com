@@ -1,0 +1,507 @@
+{
+ "grade": 0,
+ "grade_name": "Kindergarten",
+ "topic": "B2",
+ "title": "Our Environment",
+ "strand": "earth",
+ "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+ "questions": [
+  {
+   "id": "kg-b2-001",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Natural and built places",
+   "stem": "Sort the places. Natural or built by people?",
+   "categories": [
+    "Natural",
+    "Built by people"
+   ],
+   "items": [
+    [
+     {
+      "text": "forest",
+      "image": "openmoji/deciduous-tree.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "river",
+      "image": "openmoji/water-wave.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "hill",
+      "image": "openmoji/mountain.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "house",
+      "image": "openmoji/house.svg"
+     },
+     "Built by people"
+    ],
+    [
+     {
+      "text": "school",
+      "image": "openmoji/school.svg"
+     },
+     "Built by people"
+    ],
+    [
+     {
+      "text": "city",
+      "image": "openmoji/city.svg"
+     },
+     "Built by people"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Forests, rivers and hills are natural places. Houses, schools and cities are built by people."
+  },
+  {
+   "id": "kg-b2-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and built places",
+   "stem": "Which place is natural?",
+   "options": [
+    {
+     "text": "hill",
+     "image": "openmoji/mountain.svg"
+    },
+    {
+     "text": "school",
+     "image": "openmoji/school.svg"
+    },
+    {
+     "text": "hospital",
+     "image": "openmoji/hospital.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A hill is a natural place. Nature made it. A school and a hospital are built by people."
+  },
+  {
+   "id": "kg-b2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and built places",
+   "stem": "Which place is built by people?",
+   "options": [
+    {
+     "text": "hill",
+     "image": "openmoji/mountain.svg"
+    },
+    {
+     "text": "river",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "house",
+     "image": "openmoji/house.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "People build houses to live in. A river and a hill are natural places."
+  },
+  {
+   "id": "kg-b2-004",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What we use from nature",
+   "stem": "Tap the things we get from nature.",
+   "options": [
+    {
+     "text": "water",
+     "image": "openmoji/water-glass.svg"
+    },
+    {
+     "text": "car",
+     "image": "openmoji/car.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "TV",
+     "image": "openmoji/television.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "We get water, wood and fish from nature. A car and a TV are made by people in factories."
+  },
+  {
+   "id": "kg-b2-005",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Match each old thing to its new use.",
+   "pairs": [
+    [
+     {
+      "text": "tin can",
+      "image": "openmoji/tin-can.svg"
+     },
+     "a pencil pot"
+    ],
+    [
+     {
+      "text": "plastic bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "a plant pot"
+    ],
+    [
+     {
+      "text": "box",
+      "image": "openmoji/package.svg"
+     },
+     "a toy car"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We can reuse old things. A tin can makes a pencil pot, a bottle makes a plant pot and a box makes a toy car."
+  },
+  {
+   "id": "kg-b2-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Caring for our world",
+   "stem": "We put rubbish in the ___.",
+   "blanks": [
+    [
+     "bin",
+     "dustbin"
+    ]
+   ],
+   "bank": [
+    "bin",
+    "river",
+    "road"
+   ],
+   "read_aloud": true,
+   "explanation": "Rubbish goes in the bin. It must not go on the ground or in the river."
+  },
+  {
+   "id": "kg-b2-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Reduce, reuse and ___ to help our Earth.",
+   "blanks": [
+    [
+     "recycle"
+    ]
+   ],
+   "bank": [
+    "recycle",
+    "throw",
+    "break"
+   ],
+   "read_aloud": true,
+   "explanation": "Reduce means use less, reuse means use again, and recycle means make old things into new things."
+  },
+  {
+   "id": "kg-b2-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and built places",
+   "stem": "A river is a natural place.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Nature made rivers. People did not build them."
+  },
+  {
+   "id": "kg-b2-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Caring for our world",
+   "stem": "Rubbish in the river is good for fish.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. Rubbish makes the water dirty and fish cannot live there. Keep our river clean."
+  },
+  {
+   "id": "kg-b2-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Caring for our world",
+   "stem": "Put the river clean-up story in order.",
+   "sequence": [
+    "Children see rubbish in the river.",
+    "They pick it up and put it in bags.",
+    "The river is clean again.",
+    "They put up a \"Keep our river clean\" sign."
+   ],
+   "read_aloud": true,
+   "explanation": "The children saw rubbish in the river, picked it up with their teachers, and then the river was clean. Then they put up a sign."
+  },
+  {
+   "id": "kg-b2-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Caring for our world",
+   "stem": "Mina has an empty bottle. Where does it go?",
+   "options": [
+    {
+     "text": "In the river",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "In the bin",
+     "image": "openmoji/wastebasket.svg"
+    },
+    {
+     "text": "Under the bed",
+     "image": "openmoji/house.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Rubbish goes in the bin. In the river it would hurt the fish and make the water dirty."
+  },
+  {
+   "id": "kg-b2-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Nadia goes shopping. What can she take to carry things?",
+   "options": [
+    "Nothing at all",
+    "A new plastic bag",
+    "A cloth bag"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A cloth bag can be used again and again, so we use less plastic."
+  },
+  {
+   "id": "kg-b2-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Caring for our world",
+   "stem": "Joy wants to help nature. What is a good idea?",
+   "options": [
+    "Plant a tree",
+    "Throw rubbish",
+    "Waste water"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Planting a tree is kind to nature. Trees give shade, food and homes for birds. Rubbish and wasted water hurt nature."
+  },
+  {
+   "id": "kg-b2-014",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Caring for our world",
+   "stem": "Sort the actions. Kind to nature or hurts nature?",
+   "categories": [
+    "Kind to nature",
+    "Hurts nature"
+   ],
+   "items": [
+    [
+     {
+      "text": "bin rubbish",
+      "image": "openmoji/wastebasket.svg"
+     },
+     "Kind to nature"
+    ],
+    [
+     {
+      "text": "cloth bag",
+      "image": "openmoji/reusable-bag.svg"
+     },
+     "Kind to nature"
+    ],
+    [
+     {
+      "text": "plant a tree",
+      "image": "openmoji/seedling.svg"
+     },
+     "Kind to nature"
+    ],
+    [
+     {
+      "text": "spill oil",
+      "image": "openmoji/oil-spill.svg"
+     },
+     "Hurts nature"
+    ],
+    [
+     {
+      "text": "dirty smoke",
+      "image": "openmoji/factory-smoke.svg"
+     },
+     "Hurts nature"
+    ],
+    [
+     {
+      "text": "bottle on the ground",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "Hurts nature"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Binning rubbish, taking a cloth bag and planting a tree are kind. Spilling oil, dirty smoke and bottles on the ground hurt nature."
+  },
+  {
+   "id": "kg-b2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Our choices matter",
+   "stem": "Which one makes the air dirty?",
+   "options": [
+    {
+     "text": "a growing tree",
+     "image": "openmoji/seedling.svg"
+    },
+    {
+     "text": "dirty smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "a cloth bag",
+     "image": "openmoji/reusable-bag.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Smoke from a factory makes the air dirty. A growing tree makes the air cleaner, and a cloth bag makes no smoke."
+  },
+  {
+   "id": "kg-b2-016",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Match each word to what it means.",
+   "pairs": [
+    [
+     "reduce",
+     "use less"
+    ],
+    [
+     "reuse",
+     "use again"
+    ],
+    [
+     "recycle",
+     "make into something new"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Reduce means use less. Reuse means use it again. Recycle means make old things into new things."
+  },
+  {
+   "id": "kg-b2-017",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and built places",
+   "stem": "This place was built by people.",
+   "image": "openmoji/hospital.svg",
+   "image_alt": "A hospital building.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. A hospital is a building that people built to help sick people get better."
+  },
+  {
+   "id": "kg-b2-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Which is the best thing to do with an old bottle?",
+   "options": [
+    "Leave it on the road",
+    "Use it as a plant pot",
+    "Throw it in the river"
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "We can reuse a bottle as a plant pot. Throwing it in the river or on the road makes a mess and hurts nature."
+  },
+  {
+   "id": "kg-b2-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Our choices matter",
+   "stem": "Children throw rubbish in a river. What can happen to fish?",
+   "options": [
+    "They get sick",
+    "They grow bigger",
+    "They become happier"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Rubbish makes the water dirty, so fish can get sick and cannot live there. Our choices can hurt living things."
+  },
+  {
+   "id": "kg-b2-020",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "What we use from nature",
+   "stem": "We get fish and wood from nature.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Fish live in rivers and the sea, and wood comes from trees. We use many things from nature."
+  }
+ ]
+}

@@ -1,0 +1,543 @@
+{
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "topic": "B2",
+ "title": "Weather Watching",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g1-b2-001",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "Match each kind of weather to what you wear or use.",
+   "pairs": [
+    [
+     {
+      "text": "rainy day",
+      "image": "openmoji/rain-cloud.svg"
+     },
+     "an umbrella"
+    ],
+    [
+     {
+      "text": "sunny day",
+      "image": "openmoji/sun.svg"
+     },
+     "a sun hat"
+    ],
+    [
+     {
+      "text": "cold day",
+      "image": "openmoji/cold-face.svg"
+     },
+     "a scarf and jumper"
+    ]
+   ],
+   "explanation": "An umbrella keeps us dry in the rain. A sun hat keeps the Sun off our head. A scarf and jumper keep us warm on a cold day."
+  },
+  {
+   "id": "g1-b2-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring the weather",
+   "read_aloud": true,
+   "stem": "Look at the weather tools. Which letter is the rain gauge?",
+   "image": "diagrams/weather-instruments-lettered.svg",
+   "image_alt": "Five weather tools lettered A to E: a thermometer, a rain gauge, a wind vane, an anemometer and a barometer.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 1,
+   "explanation": "B is the rain gauge. It collects rain so we can see how much fell. A is the thermometer, which shows how hot it is."
+  },
+  {
+   "id": "g1-b2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "Which picture shows windy weather?",
+   "options": [
+    {
+     "text": "rain cloud",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "storm cloud",
+     "image": "openmoji/thunder-cloud.svg"
+    },
+    {
+     "text": "wind",
+     "image": "openmoji/wind-face.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "The wind picture shows air moving. Windy weather moves leaves, flags and kites."
+  },
+  {
+   "id": "g1-b2-004",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring the weather",
+   "read_aloud": true,
+   "stem": "Which weather tool would you use? Sort each job.",
+   "categories": [
+    "thermometer",
+    "rain gauge",
+    "wind flag"
+   ],
+   "items": [
+    [
+     "how hot it is",
+     "thermometer"
+    ],
+    [
+     "how cold it is",
+     "thermometer"
+    ],
+    [
+     "how much rain fell",
+     "rain gauge"
+    ],
+    [
+     "how full the rain bottle is",
+     "rain gauge"
+    ],
+    [
+     "which way the wind blows",
+     "wind flag"
+    ],
+    [
+     "where the flag points",
+     "wind flag"
+    ]
+   ],
+   "explanation": "A thermometer measures how hot or cold. A rain gauge collects rain. A wind flag points the way the wind blows."
+  },
+  {
+   "id": "g1-b2-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "The monsoon brings good things and problems. Sort them.",
+   "categories": [
+    "Good thing",
+    "Problem"
+   ],
+   "items": [
+    [
+     "water for rice fields",
+     "Good thing"
+    ],
+    [
+     "green fields",
+     "Good thing"
+    ],
+    [
+     "paper boats on puddles",
+     "Good thing"
+    ],
+    [
+     "floods",
+     "Problem"
+    ],
+    [
+     "rivers overflow their banks",
+     "Problem"
+    ]
+   ],
+   "explanation": "Monsoon rain gives rice fields water and turns the land green. Too much rain can make the rivers overflow and cause floods."
+  },
+  {
+   "id": "g1-b2-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring the weather",
+   "read_aloud": true,
+   "stem": "We measure how hot it is with a ___. We measure rain with a rain ___.",
+   "blanks": [
+    [
+     "thermometer"
+    ],
+    [
+     "gauge"
+    ]
+   ],
+   "bank": [
+    "thermometer",
+    "gauge",
+    "ruler",
+    "clock"
+   ],
+   "explanation": "A thermometer measures how hot or cold it is. A rain gauge measures how much rain falls."
+  },
+  {
+   "id": "g1-b2-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "The weather is the same every day.",
+   "answer": false,
+   "explanation": "The weather changes from day to day. One day can be sunny and the next day can be rainy."
+  },
+  {
+   "id": "g1-b2-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "A weather forecast tells us what the weather will be like.",
+   "answer": true,
+   "explanation": "Forecasters use patterns in the weather to say what tomorrow will be like."
+  },
+  {
+   "id": "g1-b2-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "In Bangladesh, the wet rainy season is called the…",
+   "options": [
+    "winter",
+    "summer",
+    "monsoon"
+   ],
+   "answer": 2,
+   "explanation": "The wet season is the monsoon. It brings heavy rain, and rivers fill up."
+  },
+  {
+   "id": "g1-b2-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "The seasons come round every year. Start with hot summer. What comes next?",
+   "sequence": [
+    "hot summer",
+    "the rainy season (monsoon)",
+    "cool winter"
+   ],
+   "explanation": "In Bangladesh the weather follows a pattern: hot summer, then the wet rainy season, then cool winter. Then the pattern starts again."
+  },
+  {
+   "id": "g1-b2-011",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "Which pictures show wet weather? Choose all that are right.",
+   "options": [
+    {
+     "text": "rain cloud",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "storm cloud",
+     "image": "openmoji/thunder-cloud.svg"
+    },
+    {
+     "text": "wind",
+     "image": "openmoji/wind-face.svg"
+    },
+    {
+     "text": "umbrella in rain",
+     "image": "openmoji/umbrella-with-rain.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Rain clouds, storm clouds and an umbrella in the rain all show wet weather. The Sun and the wind are dry."
+  },
+  {
+   "id": "g1-b2-012",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "Match each weather word to its meaning.",
+   "pairs": [
+    [
+     "weather",
+     "what the air outside is like"
+    ],
+    [
+     "season",
+     "a time of year with its own weather"
+    ],
+    [
+     "forecast",
+     "telling what the weather will be"
+    ]
+   ],
+   "explanation": "Weather is what the air outside is like each day. A season is a time of year with its own weather. A forecast says what the weather will be."
+  },
+  {
+   "id": "g1-b2-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Recording the weather",
+   "read_aloud": true,
+   "stem": "Class 1 looked at the sky for 10 days. Sunny: 5 days. Cloudy: 3 days. Rainy: 2 days. The most common weather was ___.",
+   "blanks": [
+    [
+     "sunny"
+    ]
+   ],
+   "bank": [
+    "sunny",
+    "cloudy",
+    "rainy"
+   ],
+   "explanation": "Sunny has the biggest number, 5 days. So sunny was the most common weather."
+  },
+  {
+   "id": "g1-b2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Water and the weather",
+   "read_aloud": true,
+   "stem": "Look at the water cycle. Which number shows rain falling?",
+   "image": "diagrams/water-cycle-numbered.svg",
+   "image_alt": "The water cycle with five stages numbered 1 to 5. Number 3 shows rain falling from a cloud.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Number 3 is rain falling from the cloud. Rain gives us water for rivers, ponds and rice fields."
+  },
+  {
+   "id": "g1-b2-015",
+   "mode": "olympiad",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Water and the weather",
+   "read_aloud": true,
+   "stem": "Water goes round and round. Put the journey of the water in order.",
+   "sequence": [
+    "The Sun warms the river water.",
+    "The water rises into the air.",
+    "The water makes clouds.",
+    "Rain falls from the clouds.",
+    "Rain runs into the rivers."
+   ],
+   "explanation": "The Sun warms water so it rises into the air and makes clouds. The rain falls and runs back into the rivers. Then the journey starts again."
+  },
+  {
+   "id": "g1-b2-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Staying safe in the weather",
+   "read_aloud": true,
+   "stem": "Raju is flying his kite. Dark clouds come and thunder rumbles. What should he do?",
+   "options": [
+    "Go inside the house.",
+    "Keep flying his kite.",
+    "Stand under a tall tree."
+   ],
+   "answer": 0,
+   "explanation": "In a storm we go indoors. A kite or a tall tree can be dangerous in thunder and lightning."
+  },
+  {
+   "id": "g1-b2-017",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weather and us",
+   "read_aloud": true,
+   "stem": "Mina plays outside on a hot sunny day. What should she do? Choose all that are right.",
+   "options": [
+    "Wear a sun hat.",
+    "Drink water.",
+    "Wear a thick jumper.",
+    "Play in the shade.",
+    "Stay in the Sun all day."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "A hat, water and shade keep us cool on a hot day. A thick jumper makes us hotter, and staying in the Sun all day is not safe."
+  },
+  {
+   "id": "g1-b2-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Weather and us",
+   "read_aloud": true,
+   "stem": "Why do farmers like the monsoon rain?",
+   "options": [
+    "It makes the soil very dry.",
+    "It gives the fields water.",
+    "It stops the rice seeds growing."
+   ],
+   "answer": 1,
+   "explanation": "Rice grows best in fields full of water. The monsoon rain fills the fields so farmers can plant rice."
+  },
+  {
+   "id": "g1-b2-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Staying safe in the weather",
+   "read_aloud": true,
+   "stem": "The radio says heavy rain is coming and the river may flood. What should Sumi's family do?",
+   "options": [
+    "Go to play in the river water.",
+    "Stay outside and ignore the news.",
+    "Move to a higher, safe place."
+   ],
+   "answer": 2,
+   "explanation": "A forecast helps us get ready. Moving to a higher, safe place keeps the family away from the flood water."
+  },
+  {
+   "id": "g1-b2-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Recording the weather",
+   "read_aloud": true,
+   "stem": "Tuli empties her rain gauge every evening. Today it holds more water than yesterday. This means more rain fell today.",
+   "answer": true,
+   "explanation": "A rain gauge collects the rain that falls. More water in the gauge means more rain fell."
+  },
+  {
+   "id": "g1-b2-021",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Measuring the weather",
+   "read_aloud": true,
+   "stem": "Look at the weather tools. Which letter shows which way the wind blows?",
+   "image": "diagrams/weather-instruments-lettered.svg",
+   "image_alt": "Five weather tools lettered A to E: a thermometer, a rain gauge, a wind vane that points the way the wind blows, an anemometer and a barometer.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 2,
+   "explanation": "C is the wind vane. It turns and points the way the wind is blowing, like a wind flag."
+  },
+  {
+   "id": "g1-b2-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Recording the weather",
+   "read_aloud": true,
+   "stem": "Class 1 looked at the sky for 10 days. Sunny: 5 days. Cloudy: 3 days. Rainy: 2 days. On how many days was it cloudy or rainy?",
+   "options": [
+    "2 days",
+    "5 days",
+    "8 days",
+    "10 days"
+   ],
+   "answer": 1,
+   "explanation": "3 cloudy days plus 2 rainy days is 5 days."
+  },
+  {
+   "id": "g1-b2-023",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "Class 1 saw sunny weather on 5 of 10 days. Raju says: 'It will be sunny tomorrow for sure.' Is Raju right?",
+   "answer": false,
+   "explanation": "Patterns help us guess, but the weather can change. Tomorrow could be cloudy or rainy. A forecast is a good guess, not a sure thing."
+  },
+  {
+   "id": "g1-b2-024",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Staying safe in the weather",
+   "read_aloud": true,
+   "stem": "Why do people listen to the weather forecast in the monsoon?",
+   "model_answer": "To know when heavy rain and floods may come, so they can stay safe.",
+   "keywords": [
+    [
+     "flood",
+     "floods",
+     "heavy rain",
+     "storm",
+     "rain"
+    ],
+    [
+     "safe",
+     "safety",
+     "ready",
+     "prepare",
+     "know",
+     "plan"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "Too much rain can bring floods. The forecast tells people to get ready and stay safe."
+  }
+ ]
+}

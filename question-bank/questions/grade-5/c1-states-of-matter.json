@@ -1,0 +1,676 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "C1",
+ "title": "States of Matter: Evaporation, Condensation, Boiling and Melting",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-5-science/pdf/c1-states-of-matter-evaporation-condensation-boiling-and-melting-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-c1-001",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Boiling, melting and freezing",
+   "stem": "Pure water boils at ___ °C and ice melts at ___ °C.",
+   "blanks": [
+    [
+     "100"
+    ],
+    [
+     "0",
+     "zero"
+    ]
+   ],
+   "bank": [
+    "100",
+    "0",
+    "37",
+    "212"
+   ],
+   "explanation": "Water boils at 100 °C. Ice melts at 0 °C, which is also the temperature at which water freezes."
+  },
+  {
+   "id": "g5-c1-002",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Evaporation",
+   "stem": "Evaporation can only happen when water is at 100 °C.",
+   "answer": false,
+   "explanation": "Evaporation happens at the surface of a liquid at any temperature. Wet clothes dry on a cool day too, just more slowly. Boiling is the change that happens at 100 °C."
+  },
+  {
+   "id": "g5-c1-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Boiling, melting and freezing",
+   "stem": "Match each change of state to what happens.",
+   "pairs": [
+    [
+     "melting",
+     "solid → liquid"
+    ],
+    [
+     "freezing",
+     "liquid → solid"
+    ],
+    [
+     "evaporation",
+     "liquid → gas"
+    ],
+    [
+     "condensation",
+     "gas → liquid"
+    ]
+   ],
+   "explanation": "Melting and freezing are opposites, and so are evaporation and condensation. Heating causes melting and evaporation; cooling causes freezing and condensation."
+  },
+  {
+   "id": "g5-c1-004",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "States and particles",
+   "stem": "Match each state of matter to how its particles behave.",
+   "pairs": [
+    [
+     "solid",
+     "packed in rows, only vibrating"
+    ],
+    [
+     "liquid",
+     "close together, sliding past each other"
+    ],
+    [
+     "gas",
+     "far apart, moving fast in all directions"
+    ]
+   ],
+   "explanation": "A solid keeps its shape because its particles cannot move away. A liquid flows because its particles slide past each other. A gas spreads out because its particles are far apart and move quickly."
+  },
+  {
+   "id": "g5-c1-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Boiling, melting and freezing",
+   "stem": "Each change needs heat to be added or heat to be removed. Sort them.",
+   "categories": [
+    "Heat is added",
+    "Heat is removed"
+   ],
+   "items": [
+    [
+     "ice melting into water",
+     "Heat is added"
+    ],
+    [
+     "a puddle drying up in the sun",
+     "Heat is added"
+    ],
+    [
+     "water boiling in a kettle",
+     "Heat is added"
+    ],
+    [
+     "dew forming on grass at night",
+     "Heat is removed"
+    ],
+    [
+     "water freezing into ice cubes",
+     "Heat is removed"
+    ],
+    [
+     "steam turning into drops on a cold lid",
+     "Heat is removed"
+    ]
+   ],
+   "explanation": "Melting, evaporating and boiling happen when heat is added. Freezing and condensing happen when heat is taken away."
+  },
+  {
+   "id": "g5-c1-006",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Condensation and water vapour",
+   "stem": "A glass of cold lemon sherbet 'sweats' on a hot day. Put the steps in order.",
+   "sequence": [
+    "Warm air containing invisible water vapour touches the cold glass.",
+    "The water vapour cools down.",
+    "The water vapour condenses into tiny drops of liquid water.",
+    "The drops gather on the outside of the glass."
+   ],
+   "explanation": "Air always holds some invisible water vapour. When the vapour meets a cold surface it cools and condenses. The water comes from the air, not from inside the glass."
+  },
+  {
+   "id": "g5-c1-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Evaporation",
+   "stem": "Which of these make water evaporate faster? Choose all that are right.",
+   "options": [
+    "a warm, sunny day",
+    "a strong breeze",
+    "spreading the water out in a wide, thin layer",
+    "putting a lid over the water",
+    "moving the water into a cold fridge"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Evaporation is faster when it is warmer, windier and when the surface area is larger. A lid traps the vapour and a cold fridge is cooler, so both slow evaporation down."
+  },
+  {
+   "id": "g5-c1-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Boiling, melting and freezing",
+   "stem": "Which sentence about boiling water is correct?",
+   "options": [
+    "Its temperature keeps rising above 100 °C.",
+    "It happens at any temperature.",
+    "It happens only at the surface.",
+    "Bubbles of water vapour form all through the liquid."
+   ],
+   "answer": 3,
+   "explanation": "In boiling, bubbles of water vapour form throughout the liquid, and the temperature stays at 100 °C. Changing only at the surface, at any temperature, describes evaporation."
+  },
+  {
+   "id": "g5-c1-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Evaporating a solution",
+   "stem": "When salty water evaporates, the ___ is left behind because it does not ___.",
+   "blanks": [
+    [
+     "salt",
+     "salt crystals",
+     "crystals"
+    ],
+    [
+     "evaporate",
+     "turn into a gas"
+    ]
+   ],
+   "bank": [
+    "salt",
+    "evaporate",
+    "condense",
+    "freeze",
+    "vapour"
+   ],
+   "explanation": "Only the water turns into a gas. The dissolved salt stays behind as crystals. This is how salt is made from sea water."
+  },
+  {
+   "id": "g5-c1-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Evaporation",
+   "stem": "Explain the difference between evaporation and boiling.",
+   "model_answer": "Evaporation happens only at the surface of a liquid and at any temperature. Boiling happens all through the liquid, with bubbles, at the boiling point (100 °C for water).",
+   "keywords": [
+    [
+     "surface",
+     "top"
+    ],
+    [
+     "any temperature",
+     "every temperature",
+     "all temperatures",
+     "below 100",
+     "lower temperature",
+     "cold",
+     "cool"
+    ],
+    [
+     "bubble",
+     "bubbles",
+     "all through",
+     "throughout",
+     "whole",
+     "inside"
+    ],
+    [
+     "100",
+     "boiling point",
+     "hot"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Both change a liquid into a gas. Evaporation is slow and only from the surface at any temperature. Boiling is fast, with bubbles forming throughout the liquid, once the boiling point is reached."
+  },
+  {
+   "id": "g5-c1-011",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Evaporation",
+   "stem": "Look at the water cycle. Which number shows **evaporation**?",
+   "image": "diagrams/water-cycle-numbered.svg",
+   "image_alt": "The water cycle with five stages numbered: 1 evaporation, 2 condensation, 3 precipitation, 4 collection, 5 transpiration.",
+   "options": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "In evaporation (1), the Sun warms liquid water in the sea, rivers and lakes and it turns into water vapour. Condensation (2) is the reverse."
+  },
+  {
+   "id": "g5-c1-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Condensation and water vapour",
+   "stem": "Look at the water cycle. Which number shows water vapour cooling and changing into tiny drops to make clouds?",
+   "image": "diagrams/water-cycle-numbered.svg",
+   "image_alt": "The water cycle with five stages numbered: 1 evaporation, 2 condensation, 3 precipitation, 4 collection, 5 transpiration.",
+   "options": [
+    "1",
+    "4",
+    "2",
+    "3"
+   ],
+   "answer": 2,
+   "explanation": "High in the air it is cold. Water vapour cools and condenses into tiny drops of liquid water, which form clouds. This is condensation (2)."
+  },
+  {
+   "id": "g5-c1-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Boiling, melting and freezing",
+   "stem": "Chocolate melts at about 30–35 °C. Which thermometer shows a temperature at which chocolate would melt?",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers A, B and C reading 5 °C, 25 °C and 40 °C.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 2,
+   "explanation": "Thermometer C reads 40 °C, which is above the melting point of chocolate. A (5 °C) and B (25 °C) are too cool, so the chocolate stays solid."
+  },
+  {
+   "id": "g5-c1-014",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Boiling, melting and freezing",
+   "stem": "Match each picture to the change of state it shows.",
+   "pairs": [
+    [
+     {
+      "text": "ice cream left in the sun",
+      "image": "openmoji/ice-cream.svg"
+     },
+     "melting"
+    ],
+    [
+     {
+      "text": "kettle with steam",
+      "image": "openmoji/teapot.svg"
+     },
+     "boiling"
+    ],
+    [
+     {
+      "text": "water in a freezer tray",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "freezing"
+    ],
+    [
+     {
+      "text": "wet shirt on a line",
+      "image": "openmoji/shirt.svg"
+     },
+     "evaporation"
+    ],
+    [
+     {
+      "text": "cold drink with drops outside",
+      "image": "openmoji/cup-with-straw.svg"
+     },
+     "condensation"
+    ]
+   ],
+   "explanation": "Ice cream melts when heated. A kettle boils. Water freezes in the freezer. A wet shirt dries by evaporation. Drops on a cold drink are condensation from the air."
+  },
+  {
+   "id": "g5-c1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Condensation and water vapour",
+   "stem": "Which of these is made when water vapour in the air cools and condenses?",
+   "options": [
+    {
+     "text": "sunshine",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "wind",
+     "image": "openmoji/wind-face.svg"
+    },
+    {
+     "text": "fog",
+     "image": "openmoji/fog.svg"
+    },
+    {
+     "text": "fire",
+     "image": "openmoji/fire.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "Fog is made of tiny drops of liquid water that form when water vapour in cool air condenses. Sunshine, wind and fire are not made this way."
+  },
+  {
+   "id": "g5-c1-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "States and particles",
+   "stem": "Look at the particle pictures and the arrows between them. Heat is taken away from the gas on the right. What happens first?",
+   "image": "diagrams/states-particles.svg",
+   "image_alt": "Three boxes of particles: solid on the left (packed in rows), liquid in the middle (touching, jumbled) and gas on the right (far apart). Arrows labelled melting, freezing, evaporating and condensing join them.",
+   "options": [
+    "It condenses into a liquid in the middle.",
+    "It melts into a solid on the left.",
+    "It evaporates into a liquid in the middle.",
+    "It freezes into a solid on the left."
+   ],
+   "answer": 0,
+   "explanation": "Removing heat from a gas makes it condense into a liquid, shown by the arrow labelled condensing. The gas must pass through the liquid state before it could freeze."
+  },
+  {
+   "id": "g5-c1-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Evaporation",
+   "stem": "Mina's mother has washed the school uniforms. Where will they dry fastest?",
+   "options": [
+    "Folded in a pile on a hot, windy day.",
+    "Spread out on a line on a hot, windy day.",
+    "Spread out on a line on a cool, damp day.",
+    "Folded in a bucket in a shady room."
+   ],
+   "answer": 1,
+   "explanation": "Warmth, wind and a large surface area all speed up evaporation. Spreading the uniforms out on a hot, windy day gives all three."
+  },
+  {
+   "id": "g5-c1-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Condensation and water vapour",
+   "stem": "Raju takes a cold bottle of water out of the fridge on a hot day. Soon the outside is covered with drops. Where did the drops come from?",
+   "options": [
+    "Water vapour in the air touched the cold bottle and condensed.",
+    "Water leaked out through tiny holes in the bottle.",
+    "The cold bottle made new water out of the cold.",
+    "Water inside the bottle evaporated and stuck to the outside."
+   ],
+   "answer": 0,
+   "explanation": "The air around us always holds invisible water vapour. When it touches the cold bottle it cools and condenses into drops. The water does not come from inside the bottle."
+  },
+  {
+   "id": "g5-c1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Evaporation",
+   "stem": "Many homes in Bangladesh keep drinking water in a clay pot (kolshi), and the water stays cool. How does the clay pot keep the water cool?",
+   "options": [
+    "Clay makes cold, which flows into the water.",
+    "Water seeps to the outside and evaporates, taking heat from the pot.",
+    "Water vapour condenses on the inside of the pot.",
+    "The pot sends its heat down into the ground."
+   ],
+   "answer": 1,
+   "explanation": "A little water seeps through the clay and evaporates from the outer surface. Evaporation takes heat from the pot, so the water inside is cooled."
+  },
+  {
+   "id": "g5-c1-020",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Evaporation",
+   "stem": "Moung spreads wet paddy (rice grains) on a mat in the sun. Which actions will help it dry faster? Choose all that are right.",
+   "options": [
+    "spread it in a thin layer",
+    "heap it into one big pile",
+    "turn it over now and then",
+    "cover it with a plastic sheet",
+    "put it in the sunniest spot"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "A thin layer gives a large surface area, turning brings wet grains to the top, and sunshine adds heat, so the water evaporates faster. A pile or a cover traps the water vapour."
+  },
+  {
+   "id": "g5-c1-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Boiling, melting and freezing",
+   "stem": "Imran's mother lifts the lid from a pot of boiling rice. The steam is very hot, so she tilts the lid so that the opening faces away from her face and arms. This is the safe thing to do.",
+   "answer": true,
+   "explanation": "Steam and boiling water can cause bad burns. Lifting the lid away from your body keeps your face and arms out of the hot steam. Young children should ask an adult to do this."
+  },
+  {
+   "id": "g5-c1-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Boiling, melting and freezing",
+   "stem": "A climber camps near the top of Mount Everest. Water there boils at only about 70 °C. Why does her rice take so long to cook?",
+   "options": [
+    "Rice cannot soak up water when the air is cold.",
+    "There is no water vapour in the air on a mountain.",
+    "Boiling water on a mountain is hotter than 100 °C.",
+    "The boiling water is cooler than 100 °C, so it cooks the rice more slowly."
+   ],
+   "answer": 3,
+   "explanation": "On Everest the air pressure is low, so water boils at about 70 °C instead of 100 °C. Bubbling water that is only 70 °C is not hot enough to cook rice quickly."
+  },
+  {
+   "id": "g5-c1-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "States and particles",
+   "stem": "In the simulation, what do the particles do when water is a solid?",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and choose the States screen. Choose water, then press the Solid button. Watch the particles for a few seconds."
+   },
+   "options": [
+    "They fly around quickly and far apart.",
+    "They slide past each other.",
+    "They stay in a fixed pattern and only vibrate.",
+    "They stop and do not move at all."
+   ],
+   "answer": 2,
+   "explanation": "In a solid the particles are packed in a regular pattern and can only vibrate on the spot. That is why a solid keeps its shape."
+  },
+  {
+   "id": "g5-c1-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Boiling, melting and freezing",
+   "stem": "In the simulation, when you add more heat to the water, the particles move faster and the temperature on the thermometer goes up.",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and choose the States screen. Choose water and press Liquid. Slowly move the heat/cool control to add heat. Watch how fast the particles move and read the thermometer."
+   },
+   "answer": true,
+   "explanation": "Heat makes particles move faster, and the thermometer shows a higher temperature. Add enough heat and the liquid changes into a gas."
+  },
+  {
+   "id": "g5-c1-025",
+   "mode": "simulation",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "States and particles",
+   "stem": "Start with water as a solid and keep adding heat. Put what you see in order.",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and choose the States screen. Choose water and press Solid. Then add heat a little at a time with the heat/cool control, and press Liquid and Gas to compare what the particles do."
+   },
+   "sequence": [
+    "The particles vibrate in fixed places.",
+    "The particles break free and slide around each other.",
+    "The particles zoom around, far apart."
+   ],
+   "explanation": "Heating makes the particles move faster and faster: solid, then liquid, then gas."
+  },
+  {
+   "id": "g5-c1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Heating graphs and fair tests",
+   "stem": "Class 5A heated ice and recorded the temperature every 2 minutes (example results). Time in minutes: 0, 2, 4, 6, 8, 10, 12, 14. Temperature in °C: −10, 0, 0, 25, 58, 90, 100, 100. In which 2-minute period did the temperature rise the most?",
+   "options": [
+    "0 to 2 minutes",
+    "6 to 8 minutes",
+    "4 to 6 minutes",
+    "8 to 10 minutes"
+   ],
+   "answer": 1,
+   "explanation": "The rises were: 0–2 min +10 °C, 4–6 min +25 °C, 6–8 min +33 °C and 8–10 min +32 °C. The biggest rise was 6 to 8 minutes. The flat parts (2–4 and 12–14 minutes) are melting and boiling."
+  },
+  {
+   "id": "g5-c1-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Condensation and water vapour",
+   "stem": "Tuli watches a boiling kettle. Just above the spout there is a clear gap, and higher up there is a white cloud. What is in the clear gap?",
+   "options": [
+    "invisible water vapour",
+    "tiny ice crystals",
+    "tiny drops of liquid water",
+    "empty space with nothing in it"
+   ],
+   "answer": 0,
+   "explanation": "Water vapour is a gas and cannot be seen. As it moves away from the spout it cools and condenses into tiny drops of liquid water, and these drops make the white cloud we call steam."
+  },
+  {
+   "id": "g5-c1-028",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Evaporating a solution",
+   "stem": "Sea water holds about 3.5 kg of salt in every 100 litres (example numbers). Three salt fields each hold 20 000 litres of sea water. If all the water evaporates, the three fields can make ___ kg of salt.",
+   "blanks": [
+    [
+     "2100",
+     "2 100",
+     "2,100"
+    ]
+   ],
+   "explanation": "One field has 20 000 ÷ 100 = 200 lots of 100 litres, so 200 × 3.5 = 700 kg. Three fields make 3 × 700 = 2100 kg. The salt does not evaporate, so all of it is left behind."
+  },
+  {
+   "id": "g5-c1-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Heating graphs and fair tests",
+   "stem": "A beaker of ice and water is heated steadily. The thermometer reads 0 °C for several minutes while the ice melts, even though the burner is still on. Explain why the temperature does not rise.",
+   "model_answer": "The heat energy is being used to melt the ice (to change it from solid to liquid), not to make the water warmer. When all the ice has melted, the temperature starts to rise again.",
+   "keywords": [
+    [
+     "melt",
+     "melting",
+     "melts",
+     "change of state",
+     "changing state",
+     "solid to liquid",
+     "turn into water"
+    ],
+    [
+     "heat",
+     "energy"
+    ],
+    [
+     "used",
+     "uses",
+     "using",
+     "needed",
+     "goes into",
+     "takes in"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "During a change of state, the heat that is added is used to change the state, not to raise the temperature. The same happens at 100 °C while water boils."
+  },
+  {
+   "id": "g5-c1-030",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Heating graphs and fair tests",
+   "stem": "Joy tests whether a wide dish dries faster than a narrow cup. She leaves the dish in the sun for 4 hours with 100 ml of water. She leaves the cup in the shade for 2 hours with 50 ml of water. Which changes would make her test fair? Choose all that are right.",
+   "options": [
+    "Put both containers in the same sunny place.",
+    "Start with the same volume of water in each.",
+    "Use a dish and a cup of the same width.",
+    "Leave both for the same length of time.",
+    "Use salty water in one and fresh water in the other."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "In a fair test only one thing changes (the surface area) and everything else stays the same: place, starting volume and time. Using the same width would remove the thing she is testing."
+  }
+ ]
+}

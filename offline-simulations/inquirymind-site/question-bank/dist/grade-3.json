@@ -1,0 +1,5722 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "questions": [
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Testable questions",
+   "stem": "Which of these questions can be answered by doing a science test?",
+   "options": [
+    "Which ball bounces the highest?",
+    "Which song is the nicest?",
+    "Which colour is the prettiest?",
+    "Which fruit tastes the best?"
+   ],
+   "answer": 0,
+   "explanation": "You can measure how high a ball bounces. 'Prettiest', 'nicest' and 'best' are opinions, so people will not all agree and you cannot measure them."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Testable questions",
+   "stem": "Sort the questions. Can a scientist test them with measurements?",
+   "categories": [
+    "Can be tested",
+    "Cannot be tested"
+   ],
+   "items": [
+    [
+     "Which towel soaks up the most water?",
+     "Can be tested"
+    ],
+    [
+     "Do seeds sprout faster in warm or cold places?",
+     "Can be tested"
+    ],
+    [
+     "Does a bigger magnet pick up more paper clips?",
+     "Can be tested"
+    ],
+    [
+     "Which cartoon is the funniest?",
+     "Cannot be tested"
+    ],
+    [
+     "Which flower smells the nicest?",
+     "Cannot be tested"
+    ],
+    [
+     "Is Friday the best day of the week?",
+     "Cannot be tested"
+    ]
+   ],
+   "explanation": "A testable question can be answered by measuring or counting something. Questions about what is funniest, nicest or best are opinions."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Repeating measurements",
+   "stem": "When we repeat a test and get similar results each time, the results are more ___.",
+   "blanks": [
+    [
+     "reliable",
+     "trustworthy",
+     "dependable"
+    ]
+   ],
+   "bank": [
+    "reliable",
+    "colourful",
+    "bigger"
+   ],
+   "explanation": "Repeating a measurement lets you check it. If the results are close together, you can trust them more: they are more reliable."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Tables and bar charts",
+   "stem": "A good results table has headings and units, for example 'Distance (m)'.",
+   "answer": true,
+   "explanation": "Headings tell the reader what each column shows, and units (like m, cm or s) tell them what was measured."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-005",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Predictions",
+   "stem": "A **prediction** is…",
+   "options": [
+    "a number you measured",
+    "what you saw happen in the test",
+    "what you think will happen, and why",
+    "a question that cannot be tested"
+   ],
+   "answer": 2,
+   "explanation": "A prediction is made before the test, using what you already know. After the test, the evidence shows whether the prediction was right."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Repeating measurements",
+   "stem": "Why do scientists measure the same thing three times?",
+   "options": [
+    "To get a bigger number.",
+    "Because the first try is always wrong.",
+    "To make the test last longer.",
+    "To check the results and trust them more."
+   ],
+   "answer": 3,
+   "explanation": "Repeating lets you spot a result that is very different, and it makes your results more reliable. The first try is not always wrong."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Planning an investigation",
+   "stem": "Put the steps of an investigation in the right order.",
+   "sequence": [
+    "Ask a question you can test.",
+    "Make a prediction.",
+    "Plan a fair test.",
+    "Measure and record the results.",
+    "Say what the evidence shows."
+   ],
+   "explanation": "Scientists ask, predict, plan, test and then explain. You compare the evidence with your prediction at the end."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests",
+   "stem": "Arif tests which type of sponge soaks up the most water. Which things must stay the same? Choose all that are right.",
+   "options": [
+    "the amount of water poured on",
+    "the type of sponge",
+    "the size of each piece of sponge",
+    "the time each piece soaks"
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "In a fair test you change one thing only. Here the type of sponge is the one thing that changes. Water, size and time must be kept the same."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Tools and units",
+   "stem": "Force is measured in ___ and temperature in degrees ___.",
+   "blanks": [
+    [
+     "newtons",
+     "newton",
+     "N"
+    ],
+    [
+     "Celsius",
+     "celsius",
+     "C"
+    ]
+   ],
+   "bank": [
+    "newtons",
+    "Celsius",
+    "seconds",
+    "metres"
+   ],
+   "explanation": "A forcemeter measures force in newtons (N). A thermometer measures temperature in degrees Celsius (°C)."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Fair tests",
+   "stem": "Raju tests which of two bean plants grows taller. One plant is in sunlight in a big pot. The other is in shade in a small pot. This is a fair test.",
+   "answer": false,
+   "explanation": "Two things are different: the light and the size of the pot. If one plant grows taller, we cannot tell which change caused it. Only one thing should change."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-011",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Fair tests",
+   "stem": "Mina tests which kind of bean seed grows tallest. Sort each item.",
+   "categories": [
+    "Change",
+    "Measure",
+    "Keep the same"
+   ],
+   "items": [
+    [
+     "the kind of bean seed",
+     "Change"
+    ],
+    [
+     "the height of each plant",
+     "Measure"
+    ],
+    [
+     "the amount of water",
+     "Keep the same"
+    ],
+    [
+     "the type of soil",
+     "Keep the same"
+    ],
+    [
+     "the size of the pot",
+     "Keep the same"
+    ],
+    [
+     "where the pots stand",
+     "Keep the same"
+    ]
+   ],
+   "explanation": "We change one thing (the seed), measure one thing (the height) and keep everything else the same so the test is fair."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-012",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring",
+   "stem": "Match each question to what you would measure to answer it.",
+   "pairs": [
+    [
+     "Which cloth dries the fastest?",
+     "time"
+    ],
+    [
+     "Which plant grows the tallest?",
+     "length (height)"
+    ],
+    [
+     "Which cup of cha is the hottest?",
+     "temperature"
+    ],
+    [
+     "How hard must we pull a box along the floor?",
+     "force"
+    ]
+   ],
+   "explanation": "Time is measured with a stopwatch, length with a ruler, temperature with a thermometer and force with a forcemeter."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring",
+   "stem": "Look at the three thermometers. What temperature does thermometer B show?",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers A, B and C. A reads 5 degrees, B reads 25 degrees and C reads 40 degrees.",
+   "options": [
+    "5 °C",
+    "25 °C",
+    "40 °C",
+    "15 °C"
+   ],
+   "answer": 1,
+   "explanation": "Find the top of the red liquid in thermometer B and read the scale beside it: 25 °C. Always include the unit."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-014",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Measuring",
+   "stem": "Read the thermometers. Put them in order from the coldest reading to the hottest reading.",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers A, B and C showing different temperatures.",
+   "sequence": [
+    "Thermometer A",
+    "Thermometer B",
+    "Thermometer C"
+   ],
+   "explanation": "A reads 12 °C, B reads 37 °C and C reads 48 °C. The higher the liquid, the higher the temperature."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-015",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring",
+   "stem": "Read the forcemeter. It shows a force of ___ N.",
+   "image": "diagrams/forcemeter-4n.svg",
+   "image_alt": "A forcemeter with its pointer at 4 newtons.",
+   "blanks": [
+    [
+     "4",
+     "four"
+    ]
+   ],
+   "explanation": "The pointer is at the line marked 4, so the force is 4 newtons (4 N). Forces are measured in newtons."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Measuring",
+   "stem": "Sumi drags a bag over a rough floor and reads this forcemeter. On a smooth floor the same bag needed only 4 N. How much **more** force did the rough floor need?",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter with its pointer at 7 newtons.",
+   "options": [
+    "3 N",
+    "4 N",
+    "7 N",
+    "11 N"
+   ],
+   "answer": 0,
+   "explanation": "The forcemeter reads 7 N. The difference is 7 − 4 = 3 N. A rough floor has more friction, so it needs a bigger pull."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Tools and units",
+   "stem": "Match each tool to the unit it uses.",
+   "pairs": [
+    [
+     {
+      "text": "thermometer",
+      "image": "openmoji/thermometer.svg"
+     },
+     "°C"
+    ],
+    [
+     {
+      "text": "stopwatch",
+      "image": "openmoji/stopwatch.svg"
+     },
+     "seconds"
+    ],
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "cm"
+    ]
+   ],
+   "explanation": "A thermometer uses degrees Celsius, a stopwatch uses seconds and a ruler uses centimetres."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Tools and units",
+   "stem": "Imran wants to find out how long a toy car takes to roll down a ramp. Which tool should he use?",
+   "options": [
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "stopwatch",
+     "image": "openmoji/stopwatch.svg"
+    },
+    {
+     "text": "thermometer",
+     "image": "openmoji/thermometer.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A stopwatch measures time in seconds. A ruler measures length and a thermometer measures temperature."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests",
+   "stem": "Mina wants to know which of two soaps makes more bubbles. She uses one spoonful of each soap. How should she set up the water to keep the test fair?",
+   "options": [
+    "The same amount of water at the same temperature for both.",
+    "A big bowl for soap A and a small cup for soap B.",
+    "More water for the soap she thinks is better.",
+    "Warm water for soap A and cold water for soap B."
+   ],
+   "answer": 0,
+   "explanation": "Only the soap should change. If the amount or temperature of the water is different, we would not know whether the soap or the water caused the bubbles."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Evidence and conclusions",
+   "stem": "A class tested how far shoes slide on a wet floor when pushed. Example results: rubber sole 10 cm, leather sole 35 cm, plastic sole 30 cm. Which shoe is the safest on a wet floor?",
+   "options": [
+    "the leather sole",
+    "the plastic sole",
+    "the rubber sole",
+    "all three are the same"
+   ],
+   "answer": 2,
+   "explanation": "The rubber sole slid the shortest distance, so it grips the floor best. The evidence shows it is the safest choice."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Repeating measurements",
+   "stem": "Imran times how long an ice cube takes to melt in the sun and gets 20 minutes. His friend says, 'Do it three times and see if the answers are close.' This is good advice.",
+   "answer": true,
+   "explanation": "One result might be a mistake. Repeating the test three times lets Imran check it, and close results are more reliable."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-022",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Fair tests",
+   "stem": "Rafi says, 'Red toy cars roll further than blue ones.' He rolled the red car down a steep ramp and the blue car down a gentle ramp. Why is his test not fair?",
+   "model_answer": "He used different ramps. The ramp must be the same for both cars, so that only the colour of the car changes.",
+   "keywords": [
+    [
+     "ramp",
+     "slope",
+     "steep",
+     "steepness",
+     "height"
+    ],
+    [
+     "same",
+     "equal",
+     "different",
+     "unfair",
+     "not fair",
+     "one thing",
+     "only"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The steepness of the ramp changed as well as the colour, so we cannot tell which one made the car roll further. Keep the ramp the same."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-023",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Tables and bar charts",
+   "stem": "Class 3A threw paper planes. Table: newspaper 5 m, writing paper 7 m, card 3 m. In a bar chart of this table, which paper has the **tallest** bar?",
+   "options": [
+    "newspaper",
+    "card",
+    "all the bars are equal",
+    "writing paper"
+   ],
+   "answer": 3,
+   "explanation": "The height of a bar shows the size of the result. Writing paper has the biggest number (7 m), so its bar is the tallest."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Repeating measurements",
+   "stem": "Class 3C dropped three balls three times each. Example bounce heights (cm): tennis ball 40, 44, 42; rubber ball 62, 60, 64; foam ball 20, 22, 18. The **middle** result of each ball is used. Which ball had the highest middle result?",
+   "options": [
+    "tennis ball, 44 cm",
+    "rubber ball, 62 cm",
+    "foam ball, 22 cm",
+    "rubber ball, 64 cm"
+   ],
+   "answer": 1,
+   "explanation": "Put each set in order and take the middle number. For the rubber ball: 60, 62, 64, so the middle result is 62 cm. Tennis is 42 cm and foam is 20 cm."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Evidence and conclusions",
+   "stem": "Imran predicts, 'The heavier the paper, the further the plane will fly.' The papers from lightest to heaviest are newspaper, writing paper, card. Example results: newspaper 5 m, writing paper 7 m, card 3 m. Does the evidence support his prediction?",
+   "options": [
+    "Yes, because writing paper is heavier than newspaper and flew further.",
+    "Yes, because the heaviest paper always flies furthest.",
+    "No, because card, the heaviest paper, flew the shortest distance.",
+    "We cannot tell, because he did not draw a bar chart."
+   ],
+   "answer": 2,
+   "explanation": "If the prediction were right, card would fly furthest. It flew the shortest distance, so the evidence does not support the prediction. Scientists accept this and look for new explanations."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Fair tests",
+   "stem": "Arif wants to find out if the amount of water changes how tall bean seedlings grow. Which plan is the best?",
+   "options": [
+    "Give four matching plants 0, 10, 20 and 30 ml a day, keeping soil, pot and light the same.",
+    "Give one plant 20 ml of water a day and measure it once.",
+    "Give four plants different amounts of water in different kinds of soil.",
+    "Water one plant a lot in the sun and another a little in the shade."
+   ],
+   "answer": 0,
+   "explanation": "Only the amount of water changes, and everything else is kept the same, so any difference in height must be caused by the water. The other plans change more than one thing or have nothing to compare."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-027",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Repeating measurements",
+   "stem": "Rafi and Mina each timed an ice cube melting three times. Rafi got 10, 11 and 10 minutes. Mina got 8, 15 and 22 minutes. Rafi's results are more reliable than Mina's.",
+   "answer": true,
+   "explanation": "Rafi's three results are very close together, so we can trust them more. Mina's results are far apart, so she should check her method and test again."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "W1",
+   "title": "Science Investigators",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+   "id": "g3-w1-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Repeating measurements",
+   "stem": "Anika throws a paper plane three times and measures 5 m, 5 m and 14 m. What should she do about the 14 m result, and why?",
+   "model_answer": "She should check it by throwing again, because it is very different from the other two and might be a mistake.",
+   "keywords": [
+    [
+     "repeat",
+     "again",
+     "check",
+     "retest",
+     "re-do",
+     "redo",
+     "test it"
+    ],
+    [
+     "different",
+     "odd",
+     "strange",
+     "mistake",
+     "error",
+     "unusual",
+     "far",
+     "not like"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A result that is very different from the others needs checking. Repeating the throw shows whether it was a mistake or a real result."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Which of these is a job of the skeleton?",
+   "options": [
+    "to digest food",
+    "to hold the body up",
+    "to make sounds",
+    "to see in the dark"
+   ],
+   "answer": 1,
+   "explanation": "The skeleton is a frame of bones that holds the body up and gives it shape. Without it we would flop like a jellyfish."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-002",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Muscles in pairs",
+   "stem": "Muscles can push and pull bones.",
+   "answer": false,
+   "explanation": "A muscle can only pull. When it contracts (gets shorter and fatter) it pulls a bone. To move the bone back, a second muscle has to pull."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Match each part of the body to its job.",
+   "pairs": [
+    [
+     "skull",
+     "protects the brain"
+    ],
+    [
+     "ribs",
+     "protect the heart and lungs"
+    ],
+    [
+     "backbone (spine)",
+     "protects the spinal cord"
+    ],
+    [
+     "muscles",
+     "pull on bones to move them"
+    ]
+   ],
+   "explanation": "Bones protect soft organs inside the body. Muscles are joined to bones and pull on them to make them move."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Muscles in pairs",
+   "stem": "When a muscle gets shorter and pulls a bone, we say that the muscle ___.",
+   "blanks": [
+    [
+     "contracts",
+     "contract"
+    ]
+   ],
+   "bank": [
+    "contracts",
+    "relaxes",
+    "pushes",
+    "grows"
+   ],
+   "explanation": "A muscle contracts when it gets shorter and fatter. When it relaxes it gets longer again and stops pulling."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Bones and growth",
+   "stem": "A new baby has more bones than an adult has.",
+   "answer": true,
+   "explanation": "A new baby has about 300 small bones. As the child grows, some bones join together, so an adult has 206 bones."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Muscles in pairs",
+   "stem": "Why do muscles work in pairs?",
+   "options": [
+    "Muscles are too heavy to work alone.",
+    "One muscle is always asleep.",
+    "Muscles can only push, not pull.",
+    "A muscle can only pull, so another pulls back."
+   ],
+   "answer": 3,
+   "explanation": "A muscle can only pull. One muscle pulls a bone one way, and its partner pulls it back the other way."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Medicines and safety",
+   "stem": "Which of these are safe things to do with medicine? Choose all that are right.",
+   "options": [
+    "Take it only when a parent, carer or doctor gives it.",
+    "Take the right amount at the right time.",
+    "Share it with a friend who feels the same way.",
+    "Take pills that look like sweets if nobody is watching.",
+    "Keep it where small children cannot reach it."
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Medicines can help, but they can also harm if used wrongly. Never share them, and never take medicine that looks like sweets."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Muscles in pairs",
+   "stem": "Put the steps in order to show how you bend your arm and then straighten it again.",
+   "sequence": [
+    "The biceps contracts and the triceps relaxes.",
+    "The lower arm bone is pulled up and the arm bends.",
+    "The triceps contracts and the biceps relaxes.",
+    "The lower arm bone is pulled down and the arm is straight."
+   ],
+   "explanation": "To bend the arm, the biceps pulls. To straighten it, the triceps pulls and the biceps relaxes. The two muscles take turns."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-009",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Sort each example into the job it shows.",
+   "categories": [
+    "Supports",
+    "Protects",
+    "Helps us move"
+   ],
+   "items": [
+    [
+     "holding the body up so we can stand",
+     "Supports"
+    ],
+    [
+     "giving the body its shape",
+     "Supports"
+    ],
+    [
+     "the skull around the brain",
+     "Protects"
+    ],
+    [
+     "the ribs around the heart and lungs",
+     "Protects"
+    ],
+    [
+     "muscles pulling on bones to bend the arm",
+     "Helps us move"
+    ],
+    [
+     "the biceps and triceps working as a pair",
+     "Helps us move"
+    ]
+   ],
+   "explanation": "Bones support the body and protect soft organs. Muscles are joined to the bones and pull them, which lets us move."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Medicines and safety",
+   "stem": "Medicines are drugs that help us when we are ___.",
+   "blanks": [
+    [
+     "ill",
+     "sick",
+     "unwell"
+    ]
+   ],
+   "bank": [
+    "ill",
+    "hungry",
+    "sleepy"
+   ],
+   "explanation": "Medicines can stop pain, fight infections or help the body heal when we are ill. They must be used carefully."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Bones and growth",
+   "stem": "About how many bones does an adult human have?",
+   "options": [
+    "300",
+    "106",
+    "206",
+    "26"
+   ],
+   "answer": 2,
+   "explanation": "An adult has 206 bones. A baby has about 300 small bones, but some of them join together as the child grows."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Bones and growth",
+   "stem": "What happens to your bones as you grow up?",
+   "options": [
+    "They grow longer and stronger.",
+    "They stay the same size.",
+    "They get smaller.",
+    "They turn into muscles."
+   ],
+   "answer": 0,
+   "explanation": "Bones grow longer and stronger as you grow, which is why you get taller."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Look at the skeleton. Which number shows the bone that protects the brain?",
+   "image": "diagrams/skeleton-numbered.svg",
+   "image_alt": "A human skeleton with six bones numbered 1 to 6.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "Number 1 is the skull. It is a hard case that protects the soft brain. Number 2 is the ribs, which protect the heart and lungs."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-014",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Number 3 on the skeleton is the ___.",
+   "image": "diagrams/skeleton-numbered.svg",
+   "image_alt": "A human skeleton with six bones numbered 1 to 6.",
+   "blanks": [
+    [
+     "spine",
+     "backbone",
+     "spine (backbone)",
+     "spinal column"
+    ]
+   ],
+   "bank": [
+    "spine",
+    "ribs",
+    "skull",
+    "pelvis"
+   ],
+   "explanation": "Number 3 is the spine, also called the backbone. It holds the body up and protects the spinal cord."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Muscles in pairs",
+   "stem": "Look at the arm. Which number is the muscle that contracts to bend the arm?",
+   "image": "diagrams/arm-muscles-numbered.svg",
+   "image_alt": "An arm showing a bone, the biceps, the triceps and the elbow joint, numbered 1 to 4.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Number 2 is the biceps. It contracts, gets shorter and pulls the lower arm up. Number 3, the triceps, relaxes at the same time."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-016",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Muscles in pairs",
+   "stem": "Number 3 in the picture is the triceps. It relaxes when you bend your arm.",
+   "image": "diagrams/arm-muscles-numbered.svg",
+   "image_alt": "An arm showing a bone, the biceps, the triceps and the elbow joint, numbered 1 to 4.",
+   "answer": true,
+   "explanation": "The triceps and biceps work as a pair. When the biceps (number 2) contracts to bend the arm, the triceps relaxes."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy habits",
+   "stem": "Match each picture to the way it helps keep the body healthy.",
+   "pairs": [
+    [
+     {
+      "text": "milk",
+      "image": "openmoji/milk.svg"
+     },
+     "calcium for strong bones"
+    ],
+    [
+     {
+      "text": "soap",
+      "image": "openmoji/soap.svg"
+     },
+     "clean hands, fewer germs"
+    ],
+    [
+     {
+      "text": "running",
+      "image": "openmoji/person-running.svg"
+     },
+     "exercise for a healthy body"
+    ],
+    [
+     {
+      "text": "bed",
+      "image": "openmoji/bed.svg"
+     },
+     "sleep to rest the body"
+    ]
+   ],
+   "explanation": "Eating well, washing hands, exercising and sleeping all help to keep us healthy. Milk gives calcium, which bones need to grow strong."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-018",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Bones and growth",
+   "stem": "Which animals have a bony skeleton inside their bodies? Sort the pictures.",
+   "categories": [
+    "Has a bony skeleton",
+    "Has no bones"
+   ],
+   "items": [
+    [
+     {
+      "text": "dog",
+      "image": "openmoji/dog.svg"
+     },
+     "Has a bony skeleton"
+    ],
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "Has a bony skeleton"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Has a bony skeleton"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "Has a bony skeleton"
+    ],
+    [
+     {
+      "text": "jellyfish",
+      "image": "openmoji/jellyfish.svg"
+     },
+     "Has no bones"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "Has no bones"
+    ]
+   ],
+   "explanation": "Dogs, birds, fish and frogs all have bones inside their bodies. Jellyfish and worms have soft bodies with no bones."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy habits",
+   "stem": "Mina wants strong bones. Which food should she choose?",
+   "options": [
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "milk",
+     "image": "openmoji/milk.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "Bones need calcium to grow strong. Milk, yoghurt, green leafy vegetables and small fish give calcium. Sweets and doughnuts do not."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Medicines and safety",
+   "stem": "Mina has a cough. She finds a bottle of syrup that her sister used last week. What should she do?",
+   "options": [
+    "Take a big spoonful so it works faster.",
+    "Ask a parent or carer before taking any.",
+    "Give some to her friend who also coughs.",
+    "Take a little every hour until she feels better."
+   ],
+   "answer": 1,
+   "explanation": "Only take medicine that a parent, carer or doctor gives you, in the right amount. Medicine that was right for someone else may not be right for you."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy habits",
+   "stem": "Families in Bangladesh often eat tiny fish such as mola whole. Why are they good for children's bones?",
+   "options": [
+    "They are small enough to fit in a bowl.",
+    "They swim fast, so they are very strong.",
+    "They have no bones, so they are soft to eat.",
+    "Their bones are eaten too and contain calcium."
+   ],
+   "answer": 3,
+   "explanation": "Mola are eaten whole, bones and all. Fish bones contain calcium, which children need to build strong bones."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Healthy habits",
+   "stem": "Moung rides his bicycle to school. What protects his head best if he falls?",
+   "options": [
+    "a cloth cap",
+    "a woollen scarf",
+    "a helmet",
+    "a raincoat"
+   ],
+   "answer": 2,
+   "explanation": "A helmet is hard and padded. It protects the skull, which protects the brain inside. A cap, scarf or raincoat would not."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-023",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Medicines and safety",
+   "stem": "Anika's little brother has a fever. She gives him some of her own medicine from the cupboard. This is a safe thing to do.",
+   "answer": false,
+   "explanation": "Medicine should only be given by a parent, carer or doctor, in the right amount. Never share medicines, because they can harm someone if used wrongly."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-024",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Medicines and safety",
+   "stem": "Nadia's family keeps all the medicines on a high shelf. Explain why.",
+   "model_answer": "Small children cannot reach them, so they cannot take them by mistake. Medicines can be harmful if they are used wrongly.",
+   "keywords": [
+    [
+     "child",
+     "children",
+     "small",
+     "young",
+     "kids",
+     "baby",
+     "babies"
+    ],
+    [
+     "reach",
+     "mistake",
+     "harm",
+     "harmful",
+     "dangerous",
+     "poison",
+     "safe",
+     "hurt"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Medicines help when used the right way, but they can be dangerous if a small child takes them by mistake. Keeping them high up keeps children safe."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Evidence and patterns",
+   "stem": "Class 3B measured arm length and bean-bag throw (example data): Ana 48 cm, 8 m; Bilu 52 cm, 10 m; Chandni 50 cm, 7 m; Dipu 55 cm, 11 m; Eva 46 cm, 9 m. Which statement matches the data?",
+   "options": [
+    "Eva has the shortest arms but threw further than Chandni.",
+    "Longer arms always threw further.",
+    "Chandni threw the furthest.",
+    "Ana has the longest arms."
+   ],
+   "answer": 0,
+   "explanation": "Eva (46 cm) threw 9 m but Chandni (50 cm) threw only 7 m, so longer arms do not always throw further. Strength and practice matter too."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Muscles in pairs",
+   "stem": "Rafi says, 'I straighten my arm by pushing with my biceps.' What is wrong with this idea?",
+   "options": [
+    "Arms straighten without using any muscle.",
+    "The biceps is a bone, not a muscle.",
+    "Muscles only pull: the triceps pulls the arm straight.",
+    "The biceps pulls harder when it relaxes."
+   ],
+   "answer": 2,
+   "explanation": "A muscle can only pull, never push. To straighten the arm the triceps contracts and pulls, while the biceps relaxes."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Jobs of the skeleton",
+   "stem": "An earthworm has no bones. Why can it not stand up tall like a dog?",
+   "model_answer": "A worm has no skeleton to hold its soft body up, so its body flops over.",
+   "keywords": [
+    [
+     "bone",
+     "bones",
+     "skeleton",
+     "frame"
+    ],
+    [
+     "support",
+     "hold",
+     "holds",
+     "soft",
+     "flop",
+     "floppy",
+     "bendy"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A skeleton supports the body and holds it up. Without bones, a worm's soft body cannot stand up on its own."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A1",
+   "title": "Skeletons, Muscles and Medicines",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+   "id": "g3-a1-028",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Healthy habits",
+   "stem": "A child needs 3 glasses of milk a day for strong bones. In 2 weeks she misses 4 glasses in total. She drinks ___ glasses.",
+   "blanks": [
+    [
+     "38",
+     "thirty-eight",
+     "thirty eight"
+    ]
+   ],
+   "explanation": "Two weeks is 14 days, and 3 × 14 = 42 glasses. She misses 4, so 42 − 4 = 38 glasses."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "Which of these plants grows flowers that make seeds?",
+   "options": [
+    "pine tree",
+    "fern",
+    "moss",
+    "mango tree"
+   ],
+   "answer": 3,
+   "explanation": "A mango tree is a flowering plant. Ferns and mosses have no flowers, and pine trees make their seeds in cones."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "Sort these plants into flowering and non-flowering.",
+   "categories": [
+    "Flowering",
+    "Non-flowering"
+   ],
+   "items": [
+    [
+     "rice",
+     "Flowering"
+    ],
+    [
+     "lotus",
+     "Flowering"
+    ],
+    [
+     "mango tree",
+     "Flowering"
+    ],
+    [
+     "fern",
+     "Non-flowering"
+    ],
+    [
+     "moss",
+     "Non-flowering"
+    ],
+    [
+     "pine tree",
+     "Non-flowering"
+    ]
+   ],
+   "explanation": "Rice, lotus and mango trees grow flowers that make seeds. Ferns and mosses grow from tiny spores, and pine trees make seeds in cones."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Germination",
+   "stem": "When a seed starts to grow, we say that it ___.",
+   "blanks": [
+    [
+     "germinates",
+     "germinate"
+    ]
+   ],
+   "bank": [
+    "germinates",
+    "flowers",
+    "wilts"
+   ],
+   "explanation": "Germination is the start of a seed's growth. A seed needs water and warmth to germinate."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-004",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "Which plant makes its seeds in cones instead of in flowers?",
+   "options": [
+    "rice",
+    "fern",
+    "pine tree",
+    "sunflower"
+   ],
+   "answer": 2,
+   "explanation": "Pine trees are non-flowering plants that make seeds in cones. Ferns do not make seeds at all: they grow from tiny spores."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "Ferns grow flowers that make seeds.",
+   "answer": false,
+   "explanation": "Ferns have no flowers. They grow from tiny parts called spores."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle",
+   "stem": "Match each stage of a plant's life to what it is.",
+   "pairs": [
+    [
+     "seed",
+     "can germinate when it has water and warmth"
+    ],
+    [
+     "seedling",
+     "a young plant with its first leaves"
+    ],
+    [
+     "mature plant",
+     "a fully grown plant that makes flowers"
+    ],
+    [
+     "fruit",
+     "holds the new seeds"
+    ]
+   ],
+   "explanation": "A plant goes from seed to seedling to mature plant. The mature plant makes flowers, and then fruits with new seeds."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring growth",
+   "stem": "Which is the best way to measure how tall a bean plant is each week?",
+   "options": [
+    "Measure it with a ruler.",
+    "Weigh the flower pot.",
+    "Count the roots.",
+    "Guess by looking at it."
+   ],
+   "answer": 0,
+   "explanation": "A ruler measures height in centimetres, so you can compare the weeks fairly. Guessing is not accurate."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Measuring growth",
+   "stem": "Which of these are good ways to measure a plant's growth? Choose all that are right.",
+   "options": [
+    "measure its height with a ruler",
+    "count its leaves",
+    "measure the width of its stem",
+    "count the clouds in the sky",
+    "smell its flowers"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "We can measure height, count leaves or measure the width of the stem each week. Clouds and smells do not tell us how much the plant has grown."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-009",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Plant and animal life cycles",
+   "stem": "Sort these life-cycle stages into the right life cycle.",
+   "categories": [
+    "Flowering plant",
+    "Chicken"
+   ],
+   "items": [
+    [
+     "seed",
+     "Flowering plant"
+    ],
+    [
+     "seedling",
+     "Flowering plant"
+    ],
+    [
+     "plant with flowers",
+     "Flowering plant"
+    ],
+    [
+     "egg",
+     "Chicken"
+    ],
+    [
+     "chick",
+     "Chicken"
+    ],
+    [
+     "hen",
+     "Chicken"
+    ]
+   ],
+   "explanation": "A plant starts as a seed, becomes a seedling and then an adult plant with flowers. A chicken starts as an egg, hatches as a chick and grows into a hen."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Germination",
+   "stem": "A bean seed kept dry in a packet will germinate.",
+   "answer": false,
+   "explanation": "A seed needs water and warmth to germinate. Dry seeds in a packet can stay as seeds for a long time."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Plant and animal life cycles",
+   "stem": "A young plant is called a ___, and a young chicken is called a ___.",
+   "blanks": [
+    [
+     "seedling"
+    ],
+    [
+     "chick"
+    ]
+   ],
+   "bank": [
+    "seedling",
+    "chick",
+    "seed",
+    "hen"
+   ],
+   "explanation": "A seedling is the young stage of a plant, like a chick is the young stage of a chicken."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring growth",
+   "stem": "Example: a mango seedling is 12 cm tall. Two weeks later it is 19 cm tall. It has grown ___ cm.",
+   "blanks": [
+    [
+     "7",
+     "seven"
+    ]
+   ],
+   "explanation": "To find how much it grew, subtract the first height from the second: 19 − 12 = 7 cm."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plant parts",
+   "stem": "Look at the plant. Which number shows the roots?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with five parts numbered 1 to 5.",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 2,
+   "explanation": "Number 4 is the roots, under the ground. Number 2 is a leaf, 3 is the stem and 5 is the fruit."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-014",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plant parts",
+   "stem": "Number 5 holds the new seeds. It is the ___.",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with five parts numbered 1 to 5.",
+   "blanks": [
+    [
+     "fruit"
+    ]
+   ],
+   "bank": [
+    "fruit",
+    "flower",
+    "stem",
+    "leaf"
+   ],
+   "explanation": "Number 5 is the fruit. After the flower is pollinated, seeds grow inside the fruit."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-015",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle",
+   "stem": "Put the stages of a flowering plant's life cycle in order, starting from the seed.",
+   "image": "diagrams/plant-life-cycle-numbered.svg",
+   "image_alt": "The life cycle of a flowering plant with seven stages numbered 1 to 7.",
+   "sequence": [
+    "seed",
+    "germination",
+    "young plant",
+    "flowering",
+    "pollination",
+    "fertilisation and fruit",
+    "seed dispersal"
+   ],
+   "explanation": "A seed germinates and grows into a young plant, which flowers. After pollination, fruit and seeds form, and the seeds are spread so the cycle can start again."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle",
+   "stem": "Insects or the wind carry pollen from flower to flower. Which number on the life cycle shows this stage?",
+   "image": "diagrams/plant-life-cycle-numbered.svg",
+   "image_alt": "The life cycle of a flowering plant with seven stages numbered 1 to 7.",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "answer": 2,
+   "explanation": "Number 5 is pollination. Number 4 is the flowering stage before it, and number 7 is seed dispersal, when the seeds are spread."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Plant and animal life cycles",
+   "stem": "A seedling is a young plant. Which stage in the chicken's life cycle is the same kind of stage?",
+   "image": "diagrams/chicken-life-cycle.svg",
+   "image_alt": "The life cycle of a chicken: egg, hatching, chick and adult hen.",
+   "options": [
+    "egg",
+    "chick",
+    "hatching",
+    "hen"
+   ],
+   "answer": 1,
+   "explanation": "A chick is a young chicken, just as a seedling is a young plant. The egg is more like the seed, and the hen is like the adult plant."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle",
+   "stem": "Which picture shows a seedling, a young plant with its first leaves?",
+   "options": [
+    {
+     "text": "sunflower",
+     "image": "openmoji/sunflower.svg"
+    },
+    {
+     "text": "seedling",
+     "image": "openmoji/seedling.svg"
+    },
+    {
+     "text": "tree",
+     "image": "openmoji/deciduous-tree.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A seedling is small, with just a stem and its first leaves. The sunflower and the tree are fully grown plants."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-019",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle",
+   "stem": "Abdul is a rice farmer in Mymensingh. Put his year in the right order.",
+   "sequence": [
+    "He soaks rice seeds in water so they germinate.",
+    "He grows the seedlings in a small bed of mud.",
+    "He moves the seedlings to the big flooded field.",
+    "The rice plants flower and the grains grow.",
+    "He harvests the golden grains."
+   ],
+   "explanation": "Rice goes through the whole life cycle in about four months: seed, seedling, mature plant with flowers, and new seeds (the grains). Abdul keeps some seeds to plant next year."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Germination",
+   "stem": "Priya wants her bean seeds to germinate. What should she do?",
+   "options": [
+    "Keep them dry in a warm cupboard.",
+    "Put them in damp soil in a freezer.",
+    "Leave them in a dry packet in the cold.",
+    "Plant them in damp soil in a warm place."
+   ],
+   "answer": 3,
+   "explanation": "Seeds need both water and warmth to germinate. Each of the other choices leaves out water or warmth."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Measuring growth",
+   "stem": "Tuli measures her chilli plant with a ruler each week and writes the height in a table. This is a good way to see how fast it grows.",
+   "answer": true,
+   "explanation": "Measuring at the same time each week and recording the numbers lets her compare the heights and see the growth pattern."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Flowering and non-flowering plants",
+   "stem": "On a school walk, Anika finds a plant with feathery leaves. It has no flowers and grows from tiny spores. Which plant is it most likely to be?",
+   "options": [
+    "a sunflower",
+    "a mango tree",
+    "a fern",
+    "a rice plant"
+   ],
+   "answer": 2,
+   "explanation": "Ferns and mosses have no flowers and grow from spores. Sunflowers, mango trees and rice are flowering plants."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-023",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle",
+   "stem": "A mango tree makes many fruits, each with a seed, but only a few of the seeds grow into new trees. Why do plants make so many seeds?",
+   "model_answer": "Many seeds are eaten by animals or land in places where they cannot grow, so making lots of seeds means that some will grow into new plants.",
+   "keywords": [
+    [
+     "eaten",
+     "eat",
+     "animals",
+     "die",
+     "lost",
+     "bad place",
+     "wrong place",
+     "cannot grow",
+     "not grow",
+     "fail"
+    ],
+    [
+     "some",
+     "few",
+     "survive",
+     "chance",
+     "enough",
+     "grow",
+     "new plants",
+     "new trees"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Many seeds never become plants because they are eaten or land somewhere unsuitable. By making lots of seeds, the plant makes sure that some survive."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Measuring growth",
+   "stem": "Class 3C measured a bean plant. Example heights: week 1 = 2 cm, week 2 = 6 cm, week 3 = 11 cm, week 4 = 17 cm, week 5 = 20 cm. Between which two weeks did it grow the **most**?",
+   "options": [
+    "weeks 3 and 4",
+    "weeks 2 and 3",
+    "weeks 1 and 2",
+    "weeks 4 and 5"
+   ],
+   "answer": 0,
+   "explanation": "The growth was 4 cm, 5 cm, 6 cm and 3 cm. The biggest jump was between weeks 3 and 4: 17 − 11 = 6 cm. The tallest plant is not the same as the biggest growth."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Measuring growth",
+   "stem": "The bean plant (example data) was 2, 6, 11, 17 and 20 cm tall in weeks 1 to 5. Which prediction for week 6 fits the pattern best?",
+   "options": [
+    "about 35 cm: it grows faster every week",
+    "about 10 cm: plants stop growing",
+    "about 22 cm: the growth is slowing down",
+    "about 2 cm: it starts again"
+   ],
+   "answer": 2,
+   "explanation": "The weekly growth went 4, 5, 6 and then only 3 cm, so growth is slowing. Adding a little more to 20 cm gives about 22 cm."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-026",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Germination",
+   "stem": "Class 3B tested bean seeds (example). A: damp cotton wool in a warm room, 9 of 10 seeds germinated. B: damp cotton wool in a cold fridge, 0 germinated. C: dry cotton wool in a warm room, 0 germinated. What does the test show that seeds need to germinate?",
+   "model_answer": "Seeds need both water and warmth to germinate. The seeds that were cold or dry did not grow.",
+   "keywords": [
+    [
+     "warm",
+     "warmth",
+     "heat",
+     "temperature",
+     "warmer"
+    ],
+    [
+     "water",
+     "wet",
+     "damp",
+     "moist",
+     "wetness"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Only seeds that were damp and warm germinated. B was damp but cold, and C was warm but dry, and neither germinated, so seeds need both water and warmth."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-027",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Plant and animal life cycles",
+   "stem": "Which statements are true for both a bean plant and a chicken? Choose all that are right.",
+   "options": [
+    "They start life small and grow into adults.",
+    "They make new young that start the cycle again.",
+    "They begin life as a seed.",
+    "They lay eggs."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Both have a life cycle with young and adult stages, and adults make new young. But only the plant starts as a seed, and only the chicken lays eggs."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A2",
+   "title": "Plant Growth and Development",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+   "id": "g3-a2-028",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Measuring growth",
+   "stem": "A bean plant was 2, 6, 11, 17 and 20 cm tall in weeks 1 to 5 (example data). It grew by the same number of centimetres every week.",
+   "answer": false,
+   "explanation": "It grew 4, 5, 6 and then 3 cm. The amounts are different each week, so the growth was not steady."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats",
+   "stem": "A **habitat** is…",
+   "options": [
+    "a body part that helps an animal survive",
+    "a nest made of grass",
+    "a set of yes/no questions",
+    "the place where a living thing lives"
+   ],
+   "answer": 3,
+   "explanation": "A habitat is the place where an animal or plant lives. It gives food, water, shelter and a safe place to raise young."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Adaptation",
+   "stem": "Match each animal to the body part or feature that suits its home.",
+   "pairs": [
+    [
+     "fish",
+     "gills and fins"
+    ],
+    [
+     "duck",
+     "webbed feet and waterproof feathers"
+    ],
+    [
+     "earthworm",
+     "a thin, slimy body"
+    ],
+    [
+     "camel",
+     "a hump that stores fat"
+    ]
+   ],
+   "explanation": "Each animal has body parts that help it live in its habitat. This is called adaptation."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Adaptation",
+   "stem": "A body part or behaviour that helps an animal survive in its habitat is called an ___.",
+   "blanks": [
+    [
+     "adaptation"
+    ]
+   ],
+   "bank": [
+    "adaptation",
+    "habitat",
+    "key"
+   ],
+   "explanation": "Adaptations, like gills or webbed feet, help animals live in the place where they are found."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-004",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "Which adaptations help a fish live in water?",
+   "options": [
+    "a hump to store fat",
+    "long arms for climbing",
+    "gills and fins",
+    "wide feet for sand"
+   ],
+   "answer": 2,
+   "explanation": "Gills let a fish breathe under water, and fins help it swim. A hump suits a camel, and long arms suit a monkey."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Adaptation",
+   "stem": "Sort each body part by the animal that has it.",
+   "categories": [
+    "Fish",
+    "Camel",
+    "Monkey"
+   ],
+   "items": [
+    [
+     "gills",
+     "Fish"
+    ],
+    [
+     "fins",
+     "Fish"
+    ],
+    [
+     "a hump that stores fat",
+     "Camel"
+    ],
+    [
+     "wide feet for walking on sand",
+     "Camel"
+    ],
+    [
+     "long arms for climbing",
+     "Monkey"
+    ],
+    [
+     "a tail for climbing",
+     "Monkey"
+    ]
+   ],
+   "explanation": "Fish live in water, camels live in hot deserts and monkeys live in trees. Each has body parts that suit its habitat."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats",
+   "stem": "A habitat gives an animal food, water and shelter.",
+   "answer": true,
+   "explanation": "A good habitat gives an animal everything it needs, including a safe place to raise its young."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changing the habitat",
+   "stem": "Which animals change their surroundings to meet their needs? Choose all that are right.",
+   "options": [
+    "a baya weaver bird weaving a hanging nest",
+    "termites building a tall mud mound",
+    "an earthworm digging tunnels in soil",
+    "a fish swimming in a river",
+    "a camel walking on sand"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Weaver birds, termites and earthworms all change the place where they live. Swimming and walking do not change the habitat."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Changing the habitat",
+   "stem": "Termites build tall mounds of ___, and earthworms dig ___ in the soil.",
+   "blanks": [
+    [
+     "mud",
+     "soil"
+    ],
+    [
+     "tunnels",
+     "burrows",
+     "holes"
+    ]
+   ],
+   "bank": [
+    "mud",
+    "tunnels",
+    "grass",
+    "nests"
+   ],
+   "explanation": "Termites build mounds from mud, and earthworms make tunnels as they move through the soil."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Investigating woodlice",
+   "stem": "Put the steps of the woodlice investigation in a sensible order.",
+   "sequence": [
+    "Put 10 woodlice in a tray with one dark, damp end and one light, dry end.",
+    "Wait for 10 minutes.",
+    "Count the woodlice at each end.",
+    "Draw a bar chart of the results.",
+    "Gently return the woodlice to where you found them."
+   ],
+   "explanation": "Set up the test, wait, count and show the results. Woodlice are living things, so we always return them safely to their habitat."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Using keys",
+   "stem": "A key asks yes/no questions to help you name a living thing.",
+   "answer": true,
+   "explanation": "You start at the top of the key and follow the answers, one yes/no question at a time, until you reach the name."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats",
+   "stem": "A monkey is suited to living in ___, because it has long arms and a tail for climbing.",
+   "blanks": [
+    [
+     "trees",
+     "forests",
+     "the forest",
+     "forest trees",
+     "tree"
+    ]
+   ],
+   "bank": [
+    "trees",
+    "water",
+    "soil",
+    "deserts"
+   ],
+   "explanation": "Long arms and a tail help a monkey climb and swing through the trees where it finds food and shelter."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "Why could a fish not live in a tree?",
+   "model_answer": "A fish needs water. It has gills to breathe in water and fins to swim, so it could not breathe or move in a tree.",
+   "keywords": [
+    [
+     "water",
+     "wet"
+    ],
+    [
+     "gill",
+     "gills",
+     "breathe",
+     "breathing",
+     "fin",
+     "fins",
+     "swim",
+     "swimming"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A fish's body is suited to water, not to air. Without water it could not breathe with its gills."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "Why is an earthworm's thin, slimy body useful?",
+   "options": [
+    "It helps the worm slide through the soil.",
+    "It helps the worm climb trees.",
+    "It helps the worm fly away from danger.",
+    "It helps the worm swim fast in the sea."
+   ],
+   "answer": 0,
+   "explanation": "A thin, slimy body slides easily between soil particles. This adaptation suits the earthworm's habitat."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "Look at the pond. Which number shows the animal that breathes under water with gills?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
+   "options": [
+    "3",
+    "4",
+    "7",
+    "8"
+   ],
+   "answer": 1,
+   "explanation": "Number 4 is the fish, which breathes with gills. Number 3 is a duck, 7 is water plants and 8 is a frog."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-015",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Habitats",
+   "stem": "Look at the pond habitat. Which numbers show animals? Choose all that are right.",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Number 3 is a duck, 4 is a fish and 8 is a frog. Number 5 is water and 6 is a rock, which are not living things."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats",
+   "stem": "Match each animal to its habitat.",
+   "pairs": [
+    [
+     {
+      "text": "monkey",
+      "image": "openmoji/monkey.svg"
+     },
+     "forest trees"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "river or sea"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "soil"
+    ],
+    [
+     {
+      "text": "camel",
+      "image": "openmoji/camel.svg"
+     },
+     "hot desert"
+    ]
+   ],
+   "explanation": "Each animal lives where its body is suited: monkeys climb trees, fish swim, worms burrow and camels cope with heat and sand."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-017",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Habitats",
+   "stem": "Sort the animals by where they live.",
+   "categories": [
+    "River or pond",
+    "Trees",
+    "Under the ground"
+   ],
+   "items": [
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "River or pond"
+    ],
+    [
+     {
+      "text": "duck",
+      "image": "openmoji/duck.svg"
+     },
+     "River or pond"
+    ],
+    [
+     {
+      "text": "monkey",
+      "image": "openmoji/monkey.svg"
+     },
+     "Trees"
+    ],
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "Trees"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "Under the ground"
+    ]
+   ],
+   "explanation": "Fish and ducks live on or in water, monkeys and many birds live in trees, and earthworms live in the soil."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Adaptation",
+   "stem": "Which animal is best suited to living in a hot desert?",
+   "options": [
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "camel",
+     "image": "openmoji/camel.svg"
+    },
+    {
+     "text": "polar bear",
+     "image": "openmoji/polar-bear.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A camel stores fat in its hump and has wide feet that do not sink in sand. A polar bear lives in the cold, and a fish needs water."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Using keys",
+   "stem": "Use this key. Q1: Does it have legs? Yes: go to Q2. No: go to Q3. Q2: Does it have feathers? Yes: bird. No: cow. Q3: Does it live in water? Yes: fish. No: snake. Sumi's animal has no legs and does not live in water. Which animal is it?",
+   "options": [
+    {
+     "text": "bird",
+     "image": "openmoji/bird.svg"
+    },
+    {
+     "text": "cow",
+     "image": "openmoji/cow.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "snake",
+     "image": "openmoji/snake.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "No legs sends you to Q3. 'Does it live in water?' is No, so the answer is snake."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Habitats",
+   "stem": "A pond is dug in a school garden in Sylhet. A few weeks later frogs, water insects and a duck arrive. Why did the animals come?",
+   "options": [
+    "It keeps the soil dry.",
+    "It makes the garden warmer.",
+    "It gives them water, food and shelter.",
+    "It gives them tall trees to climb."
+   ],
+   "answer": 2,
+   "explanation": "A habitat gives animals food, water and shelter. The new pond became a habitat for animals that are suited to living in or near water."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Changing the habitat",
+   "stem": "In the Sundarbans, fiddler crabs dig holes in the mud. What do the holes do for the crabs when the tide comes in?",
+   "options": [
+    "help them hide",
+    "help them catch fish",
+    "help them make the water salty",
+    "help them grow mangrove trees"
+   ],
+   "answer": 0,
+   "explanation": "The crabs dig holes in the mud to hide when the tide comes in. This is an animal changing its surroundings to meet its needs."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-022",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changing the habitat",
+   "stem": "The baya weaver bird weaves a nest that hangs from the tip of a branch, often over water. The door is at the bottom of a long tube. How does this keep the eggs safe?",
+   "model_answer": "Snakes and big birds find it very hard to reach the eggs, because the nest hangs from a thin branch and the entrance is at the end of a long tube.",
+   "keywords": [
+    [
+     "snake",
+     "snakes",
+     "big birds",
+     "bigger birds",
+     "predator",
+     "predators",
+     "enemy",
+     "enemies"
+    ],
+    [
+     "reach",
+     "hard",
+     "difficult",
+     "tube",
+     "hang",
+     "hangs",
+     "hanging",
+     "branch",
+     "entrance",
+     "door",
+     "get to"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The weaver changes its habitat to make a safe home. Enemies such as snakes cannot easily climb along the branch or up the tube to the eggs."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-023",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Habitats",
+   "stem": "If a forest is cut down, the monkeys that live there lose their food and shelter.",
+   "answer": true,
+   "explanation": "Forest trees give monkeys food and a safe place to live. Without them the monkeys may have to move away, and some may die."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Investigating woodlice",
+   "stem": "Joy wants to find some woodlice in her garden in Dhaka. Where is she most likely to find them?",
+   "options": [
+    "on a hot tin roof",
+    "under a damp stone in a shady corner",
+    "on a dry, sunny wall",
+    "in the middle of a bright, dry path"
+   ],
+   "answer": 1,
+   "explanation": "Woodlice prefer dark, damp places. In the class test, 9 of 10 woodlice moved to the dark, damp end of the tray."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Investigating woodlice",
+   "stem": "In a tray, 9 of 10 woodlice moved to the dark, damp end and 1 to the light, dry end. Rafi says, 'This proves that woodlice like darkness.' What is wrong with his claim?",
+   "options": [
+    "Nothing, because 9 is more than 1.",
+    "The dark end was also damp, so we cannot tell if they chose the dark or the damp.",
+    "Woodlice cannot choose where to go.",
+    "The test needs 100 woodlice before it proves anything."
+   ],
+   "answer": 1,
+   "explanation": "Two things were different at each end: light and dampness. To test darkness alone, both ends should be equally damp and only the light should change."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Using keys",
+   "stem": "Mina wants a key to sort a bird, a snake, a cow and a fish. Which first question splits them into two groups of two?",
+   "options": [
+    "Does it have feathers?",
+    "Does it live in water?",
+    "Does it have legs?",
+    "Is it an animal?"
+   ],
+   "answer": 2,
+   "explanation": "Bird and cow have legs; snake and fish do not. 'Feathers' and 'water' each pick out just one animal, and every one of them is an animal."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-027",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Investigating woodlice",
+   "stem": "Class 3A wants to find out if woodlice prefer dark or light, not damp or dry. Which changes would make the test better? Choose all that are right.",
+   "options": [
+    "Make both ends of the tray equally damp.",
+    "Make one end dark and the other end light.",
+    "Repeat the test three times.",
+    "Put the damp paper at the dark end only.",
+    "Test only one woodlouse."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Only the light should change, so the dampness must be the same at both ends. Repeating the test makes the results more reliable. One woodlouse is not enough evidence."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A3",
+   "title": "Habitats and Adaptation",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+   "id": "g3-a3-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Changing the habitat",
+   "stem": "Which of these is an animal **changing its habitat**, rather than a body part that suits it?",
+   "options": [
+    "a camel's wide feet",
+    "a fish's gills",
+    "a monkey's long arms",
+    "a termite's mud mound"
+   ],
+   "answer": 3,
+   "explanation": "Wide feet, gills and long arms are adaptations of the body. A termite mound is something the animal builds, so it changes its surroundings."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What is an ecosystem",
+   "stem": "An **ecosystem** is…",
+   "options": [
+    "a group of animals of the same kind",
+    "living and non-living things together in a place, depending on each other",
+    "a list of yes/no questions",
+    "a place where only plants live"
+   ],
+   "answer": 1,
+   "explanation": "An ecosystem includes plants, animals and microbes together with non-living things such as water, soil, rocks, air and sunlight. They all depend on each other."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living and non-living parts",
+   "stem": "Sort the parts of a school garden into living and non-living.",
+   "categories": [
+    "Living",
+    "Non-living"
+   ],
+   "items": [
+    [
+     "grass",
+     "Living"
+    ],
+    [
+     "earthworm",
+     "Living"
+    ],
+    [
+     "butterfly",
+     "Living"
+    ],
+    [
+     "sunlight",
+     "Non-living"
+    ],
+    [
+     "soil",
+     "Non-living"
+    ],
+    [
+     "rock",
+     "Non-living"
+    ],
+    [
+     "air",
+     "Non-living"
+    ]
+   ],
+   "explanation": "Plants and animals are living things. Sunlight, soil, rocks and air are non-living, but living things need them."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living and non-living parts",
+   "stem": "An ecosystem has living things and ___ things such as water, soil and sunlight.",
+   "blanks": [
+    [
+     "non-living",
+     "nonliving",
+     "non living"
+    ]
+   ],
+   "bank": [
+    "non-living",
+    "tiny",
+    "hot"
+   ],
+   "explanation": "Water, soil, rocks, air and sunlight are the non-living parts of an ecosystem."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living and non-living parts",
+   "stem": "Sunlight is a living part of an ecosystem.",
+   "answer": false,
+   "explanation": "Sunlight is non-living. Living things need it, but it is not alive itself."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Land and water ecosystems",
+   "stem": "Sort these ecosystems into aquatic (in water) and terrestrial (on land).",
+   "categories": [
+    "Aquatic (water)",
+    "Terrestrial (land)"
+   ],
+   "items": [
+    [
+     "coral reef",
+     "Aquatic (water)"
+    ],
+    [
+     "stream",
+     "Aquatic (water)"
+    ],
+    [
+     "sea grass bed",
+     "Aquatic (water)"
+    ],
+    [
+     "grassland",
+     "Terrestrial (land)"
+    ],
+    [
+     "pine forest",
+     "Terrestrial (land)"
+    ],
+    [
+     "broadleaf forest",
+     "Terrestrial (land)"
+    ]
+   ],
+   "explanation": "Coral reefs, streams and sea grass beds are in water. Grasslands and forests are on land."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Land and water ecosystems",
+   "stem": "Where in Bangladesh can you find a coral reef?",
+   "options": [
+    "Lawachara forest",
+    "the Sundarbans",
+    "Saint Martin's Island",
+    "Sunamganj haor"
+   ],
+   "answer": 2,
+   "explanation": "Saint Martin's Island is the only coral island in Bangladesh. Corals, colourful fish, sea snails and turtles live around it."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Who lives where",
+   "stem": "Which living things might you find in a hill stream? Choose all that are right.",
+   "options": [
+    "small fish",
+    "crabs",
+    "water plants",
+    "coral",
+    "sea turtles"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Small fish, crabs, insects and water plants live in streams. Coral and sea turtles live in the sea."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Land and water ecosystems",
+   "stem": "Aquatic means living in ___, and terrestrial means living on ___.",
+   "blanks": [
+    [
+     "water"
+    ],
+    [
+     "land",
+     "the land",
+     "ground"
+    ]
+   ],
+   "bank": [
+    "water",
+    "land",
+    "air",
+    "ice"
+   ],
+   "explanation": "Aquatic ecosystems are in water, such as ponds, streams and the sea. Terrestrial ecosystems are on land, such as forests and grasslands."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-009",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Non-living features",
+   "stem": "Which non-living things help to decide which plants and animals can live in a place? Choose all that are right.",
+   "options": [
+    "the amount of water",
+    "the amount of light and heat",
+    "the kind of soil",
+    "whether the water is salty or fresh",
+    "the colour of the sky at night"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "explanation": "Water, light, heat, soil and saltiness all decide which living things can survive. The colour of the night sky makes no difference to where plants and animals live."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Non-living features",
+   "stem": "A water lily could grow well in a dry field.",
+   "answer": false,
+   "explanation": "Water lilies need fresh water and sunlight. A dry field has no water for them."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-011",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Non-living features",
+   "stem": "Put the steps of the 'sunny or shady' plant investigation in order.",
+   "sequence": [
+    "Choose a sunny place and a shady place under a tree.",
+    "Lay a 1 metre square of string on the ground in each place.",
+    "Count the plants inside each square.",
+    "Draw a bar chart of the numbers.",
+    "Say where more plants grew, and why."
+   ],
+   "explanation": "Use the same size square in both places so the test is fair, then count, show the results in a chart and explain what they show."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Land and water ecosystems",
+   "stem": "Only special trees can grow in the salty mud of the ___, home of the tiger.",
+   "blanks": [
+    [
+     "Sundarbans",
+     "sundarbans",
+     "Sundarban",
+     "mangrove forest"
+    ]
+   ],
+   "bank": [
+    "Sundarbans",
+    "haor",
+    "Lawachara"
+   ],
+   "explanation": "The Sundarbans is a mangrove ecosystem. Sundari trees and other special trees can live in its salty mud."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-013",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Who lives where",
+   "stem": "Sort these living things by the ecosystem where they live.",
+   "categories": [
+    "Mangrove (Sundarbans)",
+    "Coral reef",
+    "Wetland (haor)"
+   ],
+   "items": [
+    [
+     "sundari trees",
+     "Mangrove (Sundarbans)"
+    ],
+    [
+     "tigers",
+     "Mangrove (Sundarbans)"
+    ],
+    [
+     "deer",
+     "Mangrove (Sundarbans)"
+    ],
+    [
+     "corals",
+     "Coral reef"
+    ],
+    [
+     "sea snails",
+     "Coral reef"
+    ],
+    [
+     "water lilies",
+     "Wetland (haor)"
+    ],
+    [
+     "ducks",
+     "Wetland (haor)"
+    ]
+   ],
+   "explanation": "Each ecosystem has its own plants and animals, suited to its water, soil and light."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-014",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Living and non-living parts",
+   "stem": "Look at the pond. Which numbers show non-living things? Choose all that are right.",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "6",
+    "7"
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "Number 1 is the Sun, 5 is water and 6 is a rock, so they are non-living. Number 3 is a duck and 7 is water plants, which are living."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Living and non-living parts",
+   "stem": "Look at the pond. Which number shows a living thing that is **not** an animal?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
+   "options": [
+    "2",
+    "5",
+    "6",
+    "7"
+   ],
+   "answer": 3,
+   "explanation": "Number 7 is water plants: they are living but they are not animals. Number 2 is air and clouds, 5 is water and 6 is a rock, so they are non-living."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-016",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living and non-living parts",
+   "stem": "Sort the pictures of a pond into living and non-living.",
+   "categories": [
+    "Living",
+    "Non-living"
+   ],
+   "items": [
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "duck",
+      "image": "openmoji/duck.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "water lily",
+      "image": "openmoji/lotus.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "water",
+      "image": "openmoji/droplet.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "stone",
+      "image": "openmoji/rock.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "sunlight",
+      "image": "openmoji/sun.svg"
+     },
+     "Non-living"
+    ]
+   ],
+   "explanation": "Fish, frogs, ducks and water lilies are living things. Water, stones and sunlight are non-living parts of the pond ecosystem."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Who lives where",
+   "stem": "Match each picture to the ecosystem where it lives.",
+   "pairs": [
+    [
+     {
+      "text": "tiger",
+      "image": "openmoji/tiger.svg"
+     },
+     "mangrove (Sundarbans)"
+    ],
+    [
+     {
+      "text": "coral",
+      "image": "openmoji/coral.svg"
+     },
+     "coral reef"
+    ],
+    [
+     {
+      "text": "water lily",
+      "image": "openmoji/lotus.svg"
+     },
+     "wetland (haor)"
+    ],
+    [
+     {
+      "text": "cattle",
+      "image": "openmoji/cow.svg"
+     },
+     "grassland"
+    ]
+   ],
+   "explanation": "Tigers live in the Sundarbans mangrove, corals build reefs in the sea, water lilies grow in wetlands, and cattle graze on grassland."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Non-living features",
+   "stem": "Look at the mangrove tree. What kind of mud and water does it grow in?",
+   "image": "diagrams/mangrove.svg",
+   "image_alt": "A mangrove tree with breathing roots and prop roots standing in salty mud and salty water.",
+   "options": [
+    "fresh water only",
+    "dry sand",
+    "cold mountain streams",
+    "salty mud and salty water"
+   ],
+   "answer": 3,
+   "explanation": "Mangrove trees grow in salty mud and salty water. Most other trees cannot live in such salty places."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Who lives where",
+   "stem": "Which animal lives in the Sundarbans mangrove forest?",
+   "options": [
+    {
+     "text": "tiger",
+     "image": "openmoji/tiger.svg"
+    },
+    {
+     "text": "penguin",
+     "image": "openmoji/penguin.svg"
+    },
+    {
+     "text": "camel",
+     "image": "openmoji/camel.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "Tigers, deer, crabs and crocodiles live in the Sundarbans. Penguins live in cold places and camels in deserts."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Land and water ecosystems",
+   "stem": "Moung lives near a haor in Sunamganj. For much of the year the land is covered with water. Which ecosystem is this?",
+   "options": [
+    "coral reef",
+    "wetland",
+    "pine forest",
+    "grassland"
+   ],
+   "answer": 1,
+   "explanation": "A wetland is land covered with water for much of the year. Haors and beels in Sylhet and Sunamganj are wetlands with water lilies, fish, ducks and frogs."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Protecting ecosystems",
+   "stem": "Joy visits Saint Martin's Island and sees a piece of coral. What is the best thing to do?",
+   "options": [
+    "Break off a small piece to take home.",
+    "Walk on the coral to get a good photo.",
+    "Pick it up and carry it to the boat.",
+    "Look at it without touching or breaking it."
+   ],
+   "answer": 3,
+   "explanation": "Corals are tiny animals that build hard homes that grow very slowly. Walking on or breaking coral harms the reef, so we look but do not touch."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Non-living features",
+   "stem": "Rafi's school pond dries up in a very hot, dry season. The fish and water lilies that lived in it cannot live there any more.",
+   "answer": true,
+   "explanation": "Fish and water lilies need water. Without it the pond is no longer a suitable habitat for them."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Non-living features",
+   "stem": "Class 3B counted 32 plants in a sunny square and 12 in a shady square. Which non-living thing most likely explains why more plants grew in the sunny square?",
+   "options": [
+    "the number of birds",
+    "the number of fish",
+    "the amount of light",
+    "the colour of the string"
+   ],
+   "answer": 2,
+   "explanation": "Plants need light to make their food. The sunny square got more light, so more plants could grow there."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-024",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Protecting ecosystems",
+   "stem": "Write one rule for tourists visiting the coral reef at Saint Martin's Island, and say why it matters.",
+   "model_answer": "Do not touch or break the coral, because corals are living animals that grow very slowly and can be harmed.",
+   "keywords": [
+    [
+     "touch",
+     "break",
+     "walk",
+     "stand",
+     "take",
+     "plastic",
+     "rubbish",
+     "litter",
+     "boat"
+    ],
+    [
+     "alive",
+     "living",
+     "animal",
+     "animals",
+     "slowly",
+     "slow",
+     "harm",
+     "damage",
+     "hurt",
+     "die",
+     "protect"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Tourists can harm the reef by walking on coral, breaking pieces off or leaving plastic rubbish. Clear rules protect this special ecosystem."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Investigating ecosystems",
+   "stem": "Tuli counts the plants in a 1 m square in a sunny place and in a 2 m square in a shady place. Why is her test not fair?",
+   "options": [
+    "The two squares are different sizes.",
+    "Shady places never have plants.",
+    "A metre is too short to measure.",
+    "She should count animals as well."
+   ],
+   "answer": 0,
+   "explanation": "A bigger square will usually hold more plants. To compare sun and shade fairly, both squares must be the same size, so only the amount of light changes."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Investigating ecosystems",
+   "stem": "In a 1 m square of sunny ground there were 32 plants (example data). About how many plants would you expect in 2 square metres of the same sunny ground, if the plants are spread out evenly?",
+   "options": [
+    "32",
+    "44",
+    "64",
+    "12"
+   ],
+   "answer": 2,
+   "explanation": "Two squares of the same size hold twice as many plants: 32 + 32 = 64."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Non-living features",
+   "stem": "A scientist wants to grow corals and water lilies in the same tank. Why will this not work?",
+   "options": [
+    "Corals need salty water but water lilies need fresh water.",
+    "Corals and water lilies eat each other.",
+    "Water lilies are animals and corals are plants.",
+    "Corals need fresh water and sunlight."
+   ],
+   "answer": 0,
+   "explanation": "The non-living features decide who can live where. Coral needs warm, clear, salty water, but water lilies need fresh water and sunlight."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A4",
+   "title": "Ecosystems of Bangladesh",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+   "id": "g3-a4-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Non-living features",
+   "stem": "A pond ecosystem dries up in a very dry season. What will happen to the living things in it, and why?",
+   "model_answer": "The water is gone, so the fish, frogs and water plants cannot live there. They will die or the animals will move away.",
+   "keywords": [
+    [
+     "fish",
+     "frogs",
+     "frog",
+     "plants",
+     "animals",
+     "lilies",
+     "ducks",
+     "living things",
+     "everything"
+    ],
+    [
+     "die",
+     "dies",
+     "move",
+     "leave",
+     "gone",
+     "lost",
+     "cannot live",
+     "no water",
+     "no home"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Water is a very important non-living part of a pond ecosystem. When it disappears, the living things lose their home and their water."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Every food chain starts with a…",
+   "options": [
+    "consumer",
+    "predator",
+    "decomposer",
+    "producer"
+   ],
+   "answer": 3,
+   "explanation": "Producers are green plants. They make their own food using sunlight, water and air, so every food chain begins with one."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Sort these living things into producers, consumers and decomposers.",
+   "categories": [
+    "Producer",
+    "Consumer",
+    "Decomposer"
+   ],
+   "items": [
+    [
+     "rice plant",
+     "Producer"
+    ],
+    [
+     "sunflower",
+     "Producer"
+    ],
+    [
+     "cow",
+     "Consumer"
+    ],
+    [
+     "eagle",
+     "Consumer"
+    ],
+    [
+     "grasshopper",
+     "Consumer"
+    ],
+    [
+     "mushroom",
+     "Decomposer"
+    ],
+    [
+     "mould",
+     "Decomposer"
+    ],
+    [
+     "earthworm",
+     "Decomposer"
+    ]
+   ],
+   "explanation": "Plants make their own food. Animals eat living plants or animals. Mushrooms, moulds and worms break down dead things."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Building food chains",
+   "stem": "In a food chain, the arrows point from the ___ to the animal that eats it.",
+   "blanks": [
+    [
+     "food",
+     "plant or animal that is eaten",
+     "prey"
+    ]
+   ],
+   "bank": [
+    "food",
+    "Sun",
+    "predator",
+    "soil"
+   ],
+   "explanation": "An arrow means 'is eaten by'. So grass → goat shows that the goat eats the grass."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-004",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Match each word to what it means.",
+   "pairs": [
+    [
+     "producer",
+     "makes its own food using sunlight"
+    ],
+    [
+     "consumer",
+     "eats living plants or animals"
+    ],
+    [
+     "decomposer",
+     "breaks down dead things into the soil"
+    ],
+    [
+     "predator",
+     "hunts other animals"
+    ],
+    [
+     "prey",
+     "is hunted and eaten"
+    ]
+   ],
+   "explanation": "A predator hunts prey. A tiger is a consumer and a predator, and the deer it hunts is its prey."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Animals can make their own food using sunlight.",
+   "answer": false,
+   "explanation": "Only green plants make their own food from sunlight. Animals are consumers: they must eat plants or other animals."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Why are decomposers important?",
+   "options": [
+    "They hunt other animals so the predators have less food.",
+    "They make food from sunlight for every animal in the chain.",
+    "They break dead things down into goodness for the soil.",
+    "They stop plants and animals from ever dying."
+   ],
+   "answer": 2,
+   "explanation": "Decomposers recycle dead plants and animals into goodness in the soil, which helps new plants grow. Without them dead leaves and animals would pile up everywhere."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Building food chains",
+   "stem": "Put this rice-field food chain in order, starting with the producer.",
+   "sequence": [
+    "grass",
+    "grasshopper",
+    "frog",
+    "snake"
+   ],
+   "explanation": "The grasshopper eats the grass, the frog eats the grasshopper and the snake eats the frog. The arrows point along the chain."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Which of these are decomposers? Choose all that are right.",
+   "options": [
+    "mushrooms",
+    "earthworms",
+    "mould",
+    "grass",
+    "tigers"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Mushrooms and moulds (fungi) and earthworms break down dead things. Grass is a producer and tigers are consumers."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Without ___, dead leaves and animals would pile up everywhere.",
+   "blanks": [
+    [
+     "decomposers",
+     "decomposer"
+    ]
+   ],
+   "bank": [
+    "decomposers",
+    "producers",
+    "predators"
+   ],
+   "explanation": "Decomposers such as worms, mushrooms and microbes break down dead things so that their goodness can return to the soil."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Predicting changes",
+   "stem": "If the predators of an animal disappear, the number of that animal often goes up.",
+   "answer": true,
+   "explanation": "With fewer predators to eat them, more of the prey animals survive. This pattern helps us predict what happens in a food chain."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-011",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Predicting changes",
+   "stem": "In the food chain grass → grasshopper → frog → snake, all the frogs are caught and sold. What happens to the grasshoppers and to the snakes?",
+   "model_answer": "There will be more grasshoppers because no frogs eat them, and the snakes will have less food.",
+   "keywords": [
+    [
+     "more",
+     "increase",
+     "increases",
+     "go up",
+     "many",
+     "lots"
+    ],
+    [
+     "less food",
+     "less to eat",
+     "fewer",
+     "hungry",
+     "starve",
+     "not enough",
+     "less"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "No frogs means fewer predators for the grasshoppers, so their number rises. The snakes lose their food, so there will be fewer of them."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Where does the energy in a food chain first come from?",
+   "options": [
+    "the soil",
+    "the Sun",
+    "the water",
+    "the wind"
+   ],
+   "answer": 1,
+   "explanation": "Producers use sunlight to make their own food. Consumers get that energy when they eat the plants, or eat animals that ate the plants."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Decomposers turn dead things back into goodness in the ___, which helps new plants grow.",
+   "blanks": [
+    [
+     "soil",
+     "ground",
+     "earth"
+    ]
+   ],
+   "bank": [
+    "soil",
+    "air",
+    "sky"
+   ],
+   "explanation": "Decomposers recycle what was once living. The goodness they add to the soil is used by new plants."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Look at the food chain. Which living thing is the **producer**?",
+   "image": "diagrams/food-chain-rice-field.svg",
+   "image_alt": "A food chain in a rice field: grass, then grasshopper, then frog, then snake.",
+   "options": [
+    "grass",
+    "snake",
+    "frog",
+    "grasshopper"
+   ],
+   "answer": 0,
+   "explanation": "Grass is a green plant that makes its own food using sunlight, so it is the producer. The other three are consumers."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-015",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Look at the food chain. Which of these are consumers? Choose all that are right.",
+   "image": "diagrams/food-chain-rice-field.svg",
+   "image_alt": "A food chain in a rice field: grass, then grasshopper, then frog, then snake.",
+   "options": [
+    "grass",
+    "grasshopper",
+    "frog",
+    "snake"
+   ],
+   "answer": [
+    1,
+    2,
+    3
+   ],
+   "explanation": "The grasshopper, frog and snake are animals that eat other living things, so they are consumers. Grass is the producer."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Building food chains",
+   "stem": "Look at the Sundarbans food chain. What does the arrow from the deer to the tiger mean?",
+   "image": "diagrams/food-chain-sundarbans.svg",
+   "image_alt": "A food chain in the Sundarbans: leaves, then deer, then tiger.",
+   "options": [
+    "The deer follows the tiger.",
+    "The tiger is bigger than the deer.",
+    "The tiger eats the deer.",
+    "The deer eats the tiger."
+   ],
+   "answer": 2,
+   "explanation": "An arrow points from the food to the animal that eats it. So the arrow from the deer to the tiger means that the tiger eats the deer."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-017",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Building food chains",
+   "stem": "Use the pictures to build a food chain. Start with the producer.",
+   "sequence": [
+    {
+     "text": "leaves",
+     "image": "openmoji/leafy-green.svg"
+    },
+    {
+     "text": "caterpillar",
+     "image": "openmoji/caterpillar.svg"
+    },
+    {
+     "text": "bird",
+     "image": "openmoji/bird.svg"
+    }
+   ],
+   "explanation": "Leaves are the producer. The caterpillar eats the leaves and the bird eats the caterpillar: leaves → caterpillar → bird."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-018",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Sort the pictures by the job each living thing does.",
+   "categories": [
+    "Producer",
+    "Consumer",
+    "Decomposer"
+   ],
+   "items": [
+    [
+     {
+      "text": "rice plant",
+      "image": "openmoji/rice-plant.svg"
+     },
+     "Producer"
+    ],
+    [
+     {
+      "text": "sunflower",
+      "image": "openmoji/sunflower.svg"
+     },
+     "Producer"
+    ],
+    [
+     {
+      "text": "deer",
+      "image": "openmoji/deer.svg"
+     },
+     "Consumer"
+    ],
+    [
+     {
+      "text": "tiger",
+      "image": "openmoji/tiger.svg"
+     },
+     "Consumer"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "Consumer"
+    ],
+    [
+     {
+      "text": "mushroom",
+      "image": "openmoji/mushroom.svg"
+     },
+     "Decomposer"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "Decomposer"
+    ]
+   ],
+   "explanation": "Plants are producers, animals that eat are consumers, and mushrooms and worms are decomposers."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-019",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Building food chains",
+   "stem": "Match each animal to its food.",
+   "pairs": [
+    [
+     {
+      "text": "goat",
+      "image": "openmoji/goat.svg"
+     },
+     "grass"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "grasshoppers"
+    ],
+    [
+     {
+      "text": "tiger",
+      "image": "openmoji/tiger.svg"
+     },
+     "deer"
+    ]
+   ],
+   "explanation": "A goat eats grass, a frog eats grasshoppers and a tiger eats deer. Each pair is one link in a food chain."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Predicting changes",
+   "stem": "In a rice field, people catch and sell most of the frogs. What is likely to happen to the insects that eat the rice?",
+   "options": [
+    "They stay exactly the same.",
+    "Their numbers go up.",
+    "Their numbers go down.",
+    "They all fly away."
+   ],
+   "answer": 1,
+   "explanation": "Frogs eat insects. With fewer frogs, more insects survive and they eat more of the rice. That is why many farmers now protect frogs."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Investigating decay",
+   "stem": "Class 3C kept three slices of bread in bags (example results). Dry bread: no mould after 7 days. Damp bread in a warm room: mould after 3 days. Damp bread in the fridge: mould after 7 days. Which bread went mouldy first?",
+   "options": [
+    "the damp bread in the warm room",
+    "the damp bread in the fridge",
+    "the dry bread in the bag",
+    "the three slices all at the same time"
+   ],
+   "answer": 0,
+   "explanation": "Mould is a decomposer that grows best where it is damp and warm. The damp slice in the warm room went mouldy after only 3 days."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Investigating decay",
+   "stem": "Class 3C finds a bag with mouldy bread. To check it, they open the bag and smell the bread.",
+   "answer": false,
+   "explanation": "Never open the bag or smell mouldy bread. Mould can make you ill. Throw the bags away sealed and wash your hands."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Mina puts fruit peels and fallen leaves in a heap in the garden. After some weeks the heap has become dark, crumbly soil. Which living things did this work?",
+   "options": [
+    "goats that eat the fruit peels",
+    "snakes that hunt in the heap",
+    "grass that grows on the heap",
+    "worms, mould and microbes"
+   ],
+   "answer": 3,
+   "explanation": "Worms, moulds and microbes are decomposers. They break down the peels and leaves into goodness for the soil."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-024",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Predicting changes",
+   "stem": "Frogs live in many rice fields in Bangladesh. How can frogs help rice farmers?",
+   "model_answer": "Frogs eat the insects that damage the rice, so farmers need to use less poison on their crops.",
+   "keywords": [
+    [
+     "eat",
+     "eats",
+     "hunt",
+     "hunts",
+     "feed",
+     "catch",
+     "catches"
+    ],
+    [
+     "insect",
+     "insects",
+     "pests",
+     "pest",
+     "damage",
+     "grasshoppers",
+     "bugs"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Frogs are predators of insects that damage rice. When farmers protect the frogs, they need fewer pesticides."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Predicting changes",
+   "stem": "In a rice field the chain is grass → grasshopper → frog → snake. A farmer sprays poison that kills most of the grasshoppers. What is most likely to happen next?",
+   "options": [
+    "Frogs and snakes will have less to eat.",
+    "The snakes will start eating the grass.",
+    "The frogs will find more food than before.",
+    "Nothing will change for frogs or snakes."
+   ],
+   "answer": 0,
+   "explanation": "Fewer grasshoppers means less food for the frogs, and fewer frogs means less food for the snakes. A change at one link affects the whole chain."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Predicting changes",
+   "stem": "In the Sundarbans chain leaves → deer → tiger, the number of deer falls a lot. Which prediction is the best?",
+   "options": [
+    "Tigers will have more food, so there will be more tigers.",
+    "The leaves will disappear because deer protect them.",
+    "Tigers will have less food, and more leaves will be left.",
+    "Nothing will change because tigers can eat leaves."
+   ],
+   "answer": 2,
+   "explanation": "Fewer deer eat fewer leaves, so more leaves are left. Tigers eat deer, so they will have less food. Predators suffer when their prey becomes scarce."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-027",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "If all the decomposers in a forest died, dead leaves and animals would pile up and less goodness would return to the soil for new plants.",
+   "answer": true,
+   "explanation": "Decomposers recycle dead things into goodness in the soil. Without them, dead material piles up and plants would have less goodness to grow with."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "A5",
+   "title": "Food Chains and Energy Roles",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+   "id": "g3-a5-028",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Investigating decay",
+   "stem": "Class 3C bread results (example): dry bread, no mould after 7 days; damp bread in a warm room, mould after 3 days; damp bread in the fridge, mould after 7 days. Which statements does the evidence support? Choose all that are right.",
+   "options": [
+    "Mould grew faster on damp bread than on dry bread.",
+    "Mould grew faster in the warm room than in the fridge.",
+    "Mould only ever grows on dry bread.",
+    "Bread in a fridge can never go mouldy."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Both damp slices went mouldy, but the dry one did not, so damp helps mould. The warm slice went mouldy sooner than the fridge slice. The fridge slice did go mouldy after 7 days."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sounds come from vibrations",
+   "stem": "All sounds are made when something…",
+   "options": [
+    "stops moving",
+    "gets hot",
+    "changes colour",
+    "vibrates"
+   ],
+   "answer": 3,
+   "explanation": "Every sound starts with a vibration: something shaking back and forth very fast, like a drum skin or a guitar string."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sounds come from vibrations",
+   "stem": "Match each instrument to the part that vibrates.",
+   "pairs": [
+    [
+     "dhol (drum)",
+     "the drum skin"
+    ],
+    [
+     "ektara",
+     "the string"
+    ],
+    [
+     "bansuri (flute)",
+     "the air inside it"
+    ],
+    [
+     "your voice",
+     "the voice box in your throat"
+    ]
+   ],
+   "explanation": "Hitting, plucking and blowing all make a part of the instrument vibrate. When you speak, your voice box vibrates."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Sound can travel through water.",
+   "answer": true,
+   "explanation": "Sound travels through gases (air), liquids (water) and solids. Whales and dolphins hear each other under water."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Astronauts can talk to each other in empty space without radios, because sound travels everywhere.",
+   "answer": false,
+   "explanation": "Sound needs particles to pass the vibrations along. Space is almost empty, so sound cannot travel there. Astronauts use radios."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring loudness",
+   "stem": "We measure how loud a sound is in ___, using a sound level ___.",
+   "blanks": [
+    [
+     "decibels",
+     "dB",
+     "decibel"
+    ],
+    [
+     "meter",
+     "metre"
+    ]
+   ],
+   "bank": [
+    "decibels",
+    "meter",
+    "metres",
+    "grams",
+    "thermometer"
+   ],
+   "explanation": "Loudness is measured in decibels (dB) with a sound level meter. Many mobile phones have a sound meter app."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Sound insulation",
+   "stem": "Which materials would be good at blocking sound? Choose all that are right.",
+   "options": [
+    "thick curtains",
+    "a sheet of foil",
+    "foam",
+    "a glass window",
+    "a woollen blanket"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Soft, thick materials such as curtains, foam and wool soak up sound vibrations. Thin, hard materials like foil and glass let much more sound through."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Pitch",
+   "stem": "Sort these into higher pitch or lower pitch.",
+   "categories": [
+    "Higher pitch",
+    "Lower pitch"
+   ],
+   "items": [
+    [
+     "a short, tight string",
+     "Higher pitch"
+    ],
+    [
+     "a small drum",
+     "Higher pitch"
+    ],
+    [
+     "a bird tweeting",
+     "Higher pitch"
+    ],
+    [
+     "a long, loose string",
+     "Lower pitch"
+    ],
+    [
+     "a big drum",
+     "Lower pitch"
+    ],
+    [
+     "a cow mooing",
+     "Lower pitch"
+    ]
+   ],
+   "explanation": "Short, thin, tight and small things vibrate faster and make higher notes. Long, loose and big things vibrate slower and make lower notes."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Put the steps in order to show how you hear a school bell.",
+   "sequence": [
+    "The bell is hit and vibrates.",
+    "The air next to the bell vibrates.",
+    "The vibrations travel through the air.",
+    "The vibrations reach your ear.",
+    "Your brain tells you it is a bell."
+   ],
+   "explanation": "The vibrating bell makes the air vibrate. The vibration passes from particle to particle until it reaches your ear, and your brain makes sense of it."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Pitch",
+   "stem": "**Pitch** tells us how…",
+   "options": [
+    "high or low a sound is",
+    "loud or quiet a sound is",
+    "far away a sound is",
+    "long a sound lasts"
+   ],
+   "answer": 0,
+   "explanation": "Pitch is how high or low a sound is. Loudness (volume) is a different thing: a high sound can be loud or quiet."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Put your ear on a desk while a friend taps the other end. Why do you hear the tap clearly?",
+   "model_answer": "Sound travels well through solids like the wooden desk, so the vibrations reach your ear clearly.",
+   "keywords": [
+    [
+     "solid",
+     "wood",
+     "desk",
+     "table"
+    ],
+    [
+     "travel",
+     "travels",
+     "pass",
+     "carry"
+    ],
+    [
+     "vibration",
+     "vibrations",
+     "vibrate"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Particles in a solid are close together, so they pass vibrations along very well. Sound travels better through solids than through air."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sound insulation",
+   "stem": "Materials that stop sound from travelling through them are called sound ___.",
+   "blanks": [
+    [
+     "insulation",
+     "insulators",
+     "insulator"
+    ]
+   ],
+   "bank": [
+    "insulation",
+    "conductors",
+    "vibrations"
+   ],
+   "explanation": "Sound insulation, like foam or thick cloth, soaks up vibrations so less sound gets through."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Pitch",
+   "stem": "An ektara player presses her finger on the string to make it shorter. What happens to the note?",
+   "options": [
+    "It gets louder.",
+    "It gets lower.",
+    "It gets higher.",
+    "It stops."
+   ],
+   "answer": 2,
+   "explanation": "A shorter string vibrates faster, so the pitch goes up. Plucking harder would make it louder, not higher."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pitch",
+   "stem": "The bottles are tapped with a spoon. Which bottle makes the **highest** note?",
+   "image": "diagrams/bottle-pitch-lettered.svg",
+   "image_alt": "Four glass bottles A to D. A has the least water and D has the most.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 0,
+   "explanation": "When you tap a bottle, the glass and water vibrate. Less water means less to shake, so it vibrates faster: bottle A gives the highest note."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pitch and loudness",
+   "stem": "Look at the four sound pictures. Which one shows a **loud, high** sound?",
+   "image": "diagrams/sound-waves-lettered.svg",
+   "image_alt": "Four wave drawings A to D: tall wide waves, short wide waves, tall close waves and short close waves.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 2,
+   "explanation": "Taller waves mean a louder sound. Waves closer together mean a higher pitch. C has tall, close waves: loud and high."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Measuring loudness",
+   "stem": "Use the decibel scale. Which sound could damage your hearing if you listened for a long time?",
+   "image": "diagrams/decibel-scale.svg",
+   "image_alt": "A decibel scale from 0 to 140 with leaves 20, birds 40, talking 60, traffic 80, loud music 100 and a plane 120 dB. Above 85 dB is shaded.",
+   "options": [
+    "birds singing",
+    "loud music",
+    "talking",
+    "leaves rustling"
+   ],
+   "answer": 1,
+   "explanation": "Sounds above about 85 dB can damage hearing. Loud music is about 100 dB, so it is in the danger zone."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sounds come from vibrations",
+   "stem": "Match each picture to how it makes a sound.",
+   "pairs": [
+    [
+     {
+      "text": "drum",
+      "image": "openmoji/drum.svg"
+     },
+     "hit it"
+    ],
+    [
+     {
+      "text": "guitar",
+      "image": "openmoji/guitar.svg"
+     },
+     "pluck the strings"
+    ],
+    [
+     {
+      "text": "trumpet",
+      "image": "openmoji/trumpet.svg"
+     },
+     "blow into it"
+    ],
+    [
+     {
+      "text": "bell",
+      "image": "openmoji/bell.svg"
+     },
+     "shake or strike it"
+    ]
+   ],
+   "explanation": "Hitting, plucking, blowing and shaking are different ways of making something vibrate."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "How sound travels",
+   "stem": "Two children made this string telephone. What must they do to make it work best?",
+   "image": "diagrams/string-phone.svg",
+   "image_alt": "Two cups joined by a long string.",
+   "options": [
+    "Use a very short string with a knot in it.",
+    "Let the string hang loose.",
+    "Keep the string pulled tight.",
+    "Hold the string with their fingers in the middle."
+   ],
+   "answer": 2,
+   "explanation": "Vibrations travel along a tight string. A loose string, or fingers touching it, stops the vibrations."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sound insulation",
+   "stem": "A family lives next to a busy road in Dhaka. The baby cannot sleep because of the noise. What is the best thing to try first?",
+   "options": [
+    "Hang thick curtains and put a rug on the floor.",
+    "Paint the walls white.",
+    "Open all the windows.",
+    "Put a metal sheet on the bed."
+   ],
+   "answer": 0,
+   "explanation": "Thick, soft materials such as curtains and rugs absorb sound. Opening windows lets more noise in, and paint or metal do not soak up sound."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Measuring loudness",
+   "stem": "Rafi works in a factory with loud machines all day. Which advice is the most important for his health?",
+   "options": [
+    "Drink more water at work.",
+    "Wear ear defenders at work.",
+    "Wear a hat at work.",
+    "Talk more quietly at work."
+   ],
+   "answer": 1,
+   "explanation": "Loud sounds above about 85 dB, heard for a long time, can damage hearing. Ear defenders block the sound."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "How sound travels",
+   "stem": "Mitu says: 'The road outside the hospital is a silent zone, so drivers must not honk their horns.' Is this a sensible rule?",
+   "answer": true,
+   "explanation": "Sick people need rest, and loud horns can harm hearing and sleep. Silent zones near hospitals and schools protect people from noise."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Sound insulation",
+   "stem": "Your class wants a quiet reading corner. Which changes would help? Choose all that are right.",
+   "options": [
+    "put cushions and a soft rug there",
+    "hang a cloth curtain around it",
+    "put it next to the noisy door",
+    "line one wall with egg boxes or foam",
+    "add a metal bin to drum on"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Soft, thick, bumpy materials absorb sound. Being next to the door, or adding something to bang, makes the corner noisier."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-022",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pitch and loudness",
+   "stem": "In the simulation, what happens to the sound when you move the **frequency** slider up?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves. Turn on the sound so you can hear the speaker. Move the frequency slider from low to high and listen. Watch the waves."
+   },
+   "options": [
+    "The waves get further apart.",
+    "The sound gets louder and the waves get taller.",
+    "The sound stops.",
+    "The pitch gets higher and the waves get closer together."
+   ],
+   "answer": 3,
+   "explanation": "Frequency is how many vibrations happen each second. More vibrations each second means a higher pitch, so the waves are drawn closer together."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pitch and loudness",
+   "stem": "In the simulation, what happens when you move the **amplitude** slider up?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves. Keep the frequency the same. Move the amplitude slider from low to high and listen."
+   },
+   "options": [
+    "The pitch gets higher.",
+    "The sound gets louder.",
+    "The sound gets quieter.",
+    "The speaker stops moving."
+   ],
+   "answer": 1,
+   "explanation": "Amplitude is how big the vibrations are. Bigger vibrations make a louder sound, but the pitch stays the same."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How sound travels",
+   "stem": "In the simulation, when the air is removed from around the speaker, the sound becomes quieter.",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Air Pressure screen. Turn the sound on, then remove the air from around the speaker and listen."
+   },
+   "answer": true,
+   "explanation": "Sound needs particles to travel. With less air around the speaker, there are fewer particles to pass on the vibrations, so less sound reaches you."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How sound travels",
+   "stem": "In a thunderstorm you see the lightning before you hear the thunder, although both happen at the same time. What does this tell you?",
+   "options": [
+    "Your ears work more slowly than your eyes.",
+    "Sound travels faster than light.",
+    "The thunder happens later than the lightning.",
+    "Light travels much faster than sound."
+   ],
+   "answer": 3,
+   "explanation": "Light reaches you almost instantly, but sound travels much more slowly through air. The bigger the gap, the further away the storm."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Sound insulation",
+   "stem": "Class 3C tested materials around a ringing alarm clock: none 70 dB, foil 66 dB, newspaper 60 dB, towel 50 dB, foam 45 dB. Which conclusion is best supported?",
+   "options": [
+    "All the materials blocked the same amount.",
+    "Shiny materials blocked the most sound.",
+    "Soft, thick materials blocked the most sound.",
+    "Paper is the best sound insulator."
+   ],
+   "answer": 2,
+   "explanation": "Foam and the towel (soft, thick) gave the lowest readings. Foil (shiny, thin) blocked the least. The data support 'soft, thick materials block most sound'."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Pitch",
+   "stem": "A guitar has six strings of the same length. The thickest string makes the lowest note. Explain why.",
+   "model_answer": "A thicker string is heavier, so it vibrates more slowly, and slower vibrations make a lower pitch.",
+   "keywords": [
+    [
+     "thick",
+     "thicker",
+     "heavy",
+     "heavier"
+    ],
+    [
+     "slow",
+     "slower",
+     "slowly"
+    ],
+    [
+     "vibrate",
+     "vibrates",
+     "vibration",
+     "vibrations"
+    ],
+    [
+     "low",
+     "lower",
+     "pitch"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "The thicker the string, the more slowly it vibrates. Fewer vibrations each second make a lower note."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C2",
+   "title": "Sound",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+   "id": "g3-c2-028",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring loudness",
+   "stem": "Which word means how loud a sound is?",
+   "options": [
+    "volume",
+    "pitch",
+    "vibration",
+    "echo"
+   ],
+   "answer": 0,
+   "explanation": "Volume (loudness) is how loud or quiet a sound is. Pitch is how high or low it is."
+  }
+ ]
+}

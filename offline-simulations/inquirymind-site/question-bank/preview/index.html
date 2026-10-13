@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Science Question Bank · InquiryMind</title>
+<link rel="stylesheet" href="qb-player.css">
+<style>
+@font-face{font-family:'Andika';font-weight:400;src:url('assets/fonts/andika-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Andika';font-weight:700;src:url('assets/fonts/andika-latin-700-normal.woff2') format('woff2')}
+@font-face{font-family:'Fredoka';font-weight:600;src:url('assets/fonts/fredoka-latin-600-normal.woff2') format('woff2')}
+:root{--primary:#3d25c4;--soft:#ece9fb;--accent:#ef7d4f;--bg:#f6f4fd;--ink:#1d1840;--muted:#625d80;--line:#e2def3}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Andika',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+h1,h2,.fredoka{font-family:'Fredoka','Andika',sans-serif;font-weight:600;line-height:1.15}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+header{background:linear-gradient(135deg,#3d25c4 0%,#5a3fd6 55%,#8a6ff0 100%);color:#fff;padding:22px 0 26px}
+header .top{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+header img{height:38px;background:#fff;border-radius:10px;padding:4px 8px}
+header h1{font-size:30px;margin-top:14px}
+header p{opacity:.92;max-width:760px;margin-top:6px}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.stats span{background:rgba(255,255,255,.16);border-radius:999px;padding:4px 12px;font-size:14px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px 16px;margin:-18px 0 18px;position:relative;
+  box-shadow:0 8px 20px rgba(29,24,64,.07)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.row label{font-size:14px;color:var(--muted);margin-right:2px}
+.chip{font:inherit;font-size:14px;border:2px solid var(--line);background:#fff;border-radius:999px;padding:4px 13px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--primary);border-color:var(--primary);color:#fff}
+.chip small{opacity:.75}
+select,input[type=search]{font:inherit;font-size:14px;border:2px solid var(--line);border-radius:10px;padding:5px 8px;background:#fff;max-width:100%}
+input[type=search]{min-width:180px;flex:1}
+.toggle{display:flex;align-items:center;gap:6px;font-size:14px;cursor:pointer}
+.summary{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;color:var(--muted);font-size:14px;margin-bottom:10px}
+.score b{color:var(--primary)}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin-bottom:14px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;font-size:12.5px}
+.meta span{background:var(--soft);color:var(--primary);border-radius:999px;padding:2px 10px}
+.meta .mode{background:#fff1ea;color:#b4501f}
+.meta .id{background:none;color:var(--muted);padding:2px 0;margin-left:auto}
+.meta a{color:inherit;text-decoration:underline}
+.more{display:block;margin:10px auto 30px;font:inherit;background:var(--primary);color:#fff;border:0;border-radius:999px;padding:10px 28px;cursor:pointer}
+.empty{text-align:center;color:var(--muted);padding:40px 0}
+footer{color:var(--muted);font-size:13px;padding:20px 0 40px;border-top:1px solid var(--line);margin-top:10px}
+footer a{color:var(--primary)}
+@media (max-width:560px){header h1{font-size:24px}.meta .id{margin-left:0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top"><img src="assets/inquirymind-logo.png" alt="InquiryMind"><span class="fredoka">Learn · Play · Wonder</span></div>
+    <h1>Science practice question bank</h1>
+    <p>Practise any topic from KG to Grade 5: multiple choice, sorting, matching, fill in the gaps, picture questions,
+      real-life choices, simulation tasks and olympiad challenges. Every question explains its answer.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+<main class="wrap">
+  <div class="panel">
+    <div class="row" id="grades"><label>Grade</label></div>
+    <div class="row" id="modes"><label>Practice</label></div>
+    <div class="row">
+      <select id="strand" aria-label="Strand"></select>
+      <select id="topic" aria-label="Topic"></select>
+      <select id="type" aria-label="Question type"></select>
+      <select id="diff" aria-label="Difficulty">
+        <option value="">Any level</option><option value="1">★ Easy</option><option value="2">★★ Medium</option><option value="3">★★★ Hard</option>
+      </select>
+      <input type="search" id="q" placeholder="Search words…" aria-label="Search">
+    </div>
+    <div class="row">
+      <label class="toggle"><input type="checkbox" id="teacher"> Teacher view: show every answer</label>
+      <label class="toggle"><input type="checkbox" id="shuffle"> Shuffle</label>
+    </div>
+  </div>
+  <div class="summary"><span id="count"></span><span class="score" id="score"></span></div>
+  <div id="list"></div>
+  <button class="more" id="more" type="button">Show more questions</button>
+  <footer>
+    InquiryMind — free resources for everyone, bringing quality and equity to education and helping teachers build
+    concepts and make learning visible. Questions are original. Pictures: <a href="https://openmoji.org" target="_blank" rel="noopener">OpenMoji</a>
+    (CC BY-SA 4.0) and InquiryMind diagrams. Simulations: <a href="https://phet.colorado.edu" target="_blank" rel="noopener">PhET Interactive
+    Simulations</a>, University of Colorado Boulder (CC BY-NC 4.0).
+  </footer>
+</main>
+<script src="../dist/questions.js"></script>
+<script src="qb-player.js"></script>
+<script>
+(function () {
+  'use strict';
+  const QB = window.QB || { manifest: { grades: [], modes: {}, strands: {}, totals: {} }, questions: [] };
+  const M = QB.manifest, ALL = QB.questions;
+  const GRADES = [[0, 'KG'], [1, 'Grade 1'], [2, 'Grade 2'], [3, 'Grade 3'], [4, 'Grade 4'], [5, 'Grade 5']];
+  const TYPE_NAME = { mcq: 'Multiple choice', multi: 'Choose all', truefalse: 'True or false', fill: 'Fill in the gaps',
+    match: 'Matching', sort: 'Sorting', order: 'Put in order', short: 'Short written answer' };
+  const PAGE = 20;
+  const $ = id => document.getElementById(id);
+  const f = { grade: '', mode: '', strand: '', topic: '', type: '', diff: '', q: '' };
+  let shown = PAGE, list = [], done = 0, right = 0;
+
+  try { Object.assign(f, JSON.parse(decodeURIComponent(location.hash.slice(1)) || '{}')); } catch (e) { /* ignore a bad link */ }
+
+  const t = M.totals || {};
+  $('stats').innerHTML = [`${t.questions || 0} questions`, `${t.topics || 0} topic${t.topics === 1 ? '' : 's'}`, 'KG to Grade 5']
+    .concat(Object.entries(M.modes || {}).map(([k, v]) => `${(t.modes || {})[k] || 0} ${v.toLowerCase()}`))
+    .map(s => `<span>${s}</span>`).join('');
+
+  function chips(boxId, items, key) {
+    const box = $(boxId);
+    items.forEach(([val, label]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'chip';
+      b.dataset.val = val;
+      b.innerHTML = label;
+      b.onclick = () => { f[key] = val; if (key === 'grade') { f.topic = ''; } update(); };
+      box.appendChild(b);
+    });
+  }
+  chips('grades', [['', 'All']].concat(GRADES.map(([g, n]) => [String(g), n])), 'grade');
+  chips('modes', [['', 'All']].concat(Object.entries(M.modes || {}).map(([k, v]) => [k, `${v} <small>${(t.modes || {})[k] || 0}</small>`])), 'mode');
+
+  function fillSelect(sel, items, value) {
+    sel.innerHTML = items.map(([v, l]) => `<option value="${v}">${l}</option>`).join('');
+    sel.value = items.some(([v]) => v === value) ? value : '';
+  }
+
+  function update() {
+    document.querySelectorAll('#grades .chip').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.val === f.grade)));
+    document.querySelectorAll('#modes .chip').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.val === f.mode)));
+    fillSelect($('strand'), [['', 'All strands']].concat(Object.entries(M.strands || {}).map(([k, v]) => [k, `${v.site_code} · ${v.name}`])), f.strand);
+    f.strand = $('strand').value;
+    const topics = [];
+    (M.grades || []).forEach(g => {
+      if (f.grade !== '' && String(g.grade) !== f.grade) return;
+      g.topics.forEach(tp => {
+        if (f.strand && tp.strand !== f.strand) return;
+        topics.push([`${tp.grade}|${tp.topic}`, `${f.grade === '' ? tp.grade_name + ' · ' : ''}${tp.site_skill} ${tp.title} (${tp.count})`]);
+      });
+    });
+    fillSelect($('topic'), [['', 'All topics']].concat(topics), f.topic);
+    f.topic = $('topic').value;
+    fillSelect($('type'), [['', 'All question types']].concat(Object.entries(TYPE_NAME)), f.type);
+    $('diff').value = f.diff;
+    $('q').value = f.q;
+    history.replaceState(null, '', '#' + encodeURIComponent(JSON.stringify(f)));
+    const words = f.q.toLowerCase().split(/\s+/).filter(Boolean);
+    list = ALL.filter(q => (f.grade === '' || String(q.grade) === f.grade) && (!f.mode || q.mode === f.mode) &&
+      (!f.strand || q.strand === f.strand) && (!f.topic || `${q.grade}|${q.topic}` === f.topic) && (!f.type || q.type === f.type) &&
+      (!f.diff || String(q.difficulty) === f.diff) &&
+      (!words.length || words.every(w => JSON.stringify([q.stem, q.subskill, q.title, q.options || '', q.id]).toLowerCase().includes(w))));
+    if ($('shuffle').checked) {
+      for (let i = list.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [list[i], list[j]] = [list[j], list[i]]; }
+    }
+    shown = PAGE;
+    draw();
+  }
+
+  function draw() {
+    const box = $('list');
+    box.innerHTML = '';
+    $('count').textContent = `${list.length} question${list.length === 1 ? '' : 's'}`;
+    if (!list.length) box.innerHTML = '<p class="empty">No questions match. Try fewer filters.</p>';
+    list.slice(0, shown).forEach(q => {
+      const card = document.createElement('article');
+      card.className = 'card';
+      const ws = q.worksheet ? ` · <a href="../../${q.worksheet}" target="_blank" rel="noopener">worksheet</a>` : '';
+      card.innerHTML = `<div class="meta"><span>${q.grade_name}</span><span>${q.site_skill} ${q.title}${ws}</span>` +
+        `<span class="mode">${(M.modes || {})[q.mode] || q.mode}</span><span>${TYPE_NAME[q.type] || q.type}</span>` +
+        `<span>${'★'.repeat(q.difficulty)}</span><span>${q.subskill || ''}</span><span class="id">${q.id}</span></div>`;
+      const slot = document.createElement('div');
+      card.appendChild(slot);
+      box.appendChild(card);
+      QBPlayer.render(q, slot, { imageBase: '../images/', simBase: '../../science-simulations/sims/', teacher: $('teacher').checked,
+        onResult: r => { done++; if (r.correct) right++; score(); } });
+    });
+    $('more').style.display = shown < list.length ? '' : 'none';
+  }
+
+  function score() { $('score').innerHTML = done ? `Your score: <b>${right} / ${done}</b>` : ''; }
+
+  $('more').onclick = () => { shown += PAGE; draw(); };
+  $('strand').onchange = e => { f.strand = e.target.value; f.topic = ''; update(); };
+  $('topic').onchange = e => { f.topic = e.target.value; update(); };
+  $('type').onchange = e => { f.type = e.target.value; update(); };
+  $('diff').onchange = e => { f.diff = e.target.value; update(); };
+  $('q').oninput = e => { f.q = e.target.value; update(); };
+  $('teacher').onchange = draw;
+  $('shuffle').onchange = update;
+  update();
+})();
+</script>
+</body>
+</html>

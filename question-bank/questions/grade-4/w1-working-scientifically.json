@@ -1,0 +1,684 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "W1",
+ "title": "Science Detectives: Working Scientifically",
+ "strand": "skills",
+ "worksheet": "worksheets/grade-4-science/pdf/w1-science-detectives-working-scientifically-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-w1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Observing and questions",
+   "stem": "Which tool helps you **observe** the tiny hairs on an ant's leg?",
+   "options": [
+    "a stopwatch",
+    "a measuring jug",
+    "a forcemeter",
+    "a hand lens"
+   ],
+   "answer": 3,
+   "explanation": "A hand lens makes small things look bigger so you can see more detail. The other tools measure time, volume and force."
+  },
+  {
+   "id": "g4-w1-002",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fair tests and variables",
+   "stem": "In a fair test you change only ___ thing and keep everything else the ___.",
+   "blanks": [
+    [
+     "one",
+     "1"
+    ],
+    [
+     "same"
+    ]
+   ],
+   "bank": [
+    "one",
+    "same",
+    "two",
+    "different"
+   ],
+   "explanation": "If you change more than one thing, you cannot tell which change caused the result. A fair test changes one thing and keeps the rest the same."
+  },
+  {
+   "id": "g4-w1-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring with tools and units",
+   "stem": "Match each measurement to the best tool.",
+   "pairs": [
+    [
+     "how hot the water is",
+     "thermometer"
+    ],
+    [
+     "how long a race takes",
+     "stopwatch"
+    ],
+    [
+     "how hard you pull a rope",
+     "forcemeter"
+    ],
+    [
+     "how much juice is in a glass",
+     "measuring jug"
+    ],
+    [
+     "how long a leaf is",
+     "ruler"
+    ]
+   ],
+   "explanation": "Choose the tool made for the thing you are measuring: a thermometer for temperature, a stopwatch for time, a forcemeter for force, a jug for volume and a ruler for length."
+  },
+  {
+   "id": "g4-w1-004",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Fair tests and variables",
+   "stem": "Put the steps of an investigation in the right order.",
+   "sequence": [
+    "Ask a question.",
+    "Make a prediction.",
+    "Plan a fair test.",
+    "Do the test and measure.",
+    "Record the results.",
+    "Write a conclusion."
+   ],
+   "explanation": "Scientists ask a question and predict first, then plan a fair test, collect and record the evidence, and only then write a conclusion."
+  },
+  {
+   "id": "g4-w1-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests and variables",
+   "stem": "The class investigates: Which ball bounces highest? Sort each part of the plan.",
+   "categories": [
+    "Change",
+    "Measure",
+    "Keep the same"
+   ],
+   "items": [
+    [
+     "the type of ball",
+     "Change"
+    ],
+    [
+     "the height of the bounce",
+     "Measure"
+    ],
+    [
+     "the height the ball is dropped from",
+     "Keep the same"
+    ],
+    [
+     "the floor the ball lands on",
+     "Keep the same"
+    ],
+    [
+     "the person who reads the ruler",
+     "Keep the same"
+    ],
+    [
+     "dropping the ball (not throwing it)",
+     "Keep the same"
+    ]
+   ],
+   "explanation": "We change only the type of ball, measure the bounce height, and keep everything else the same so the test is fair."
+  },
+  {
+   "id": "g4-w1-006",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Tables, graphs and patterns",
+   "stem": "Which graph is best? Sort the results.",
+   "categories": [
+    "Bar chart",
+    "Line graph"
+   ],
+   "items": [
+    [
+     "favourite fruits of Class 4",
+     "Bar chart"
+    ],
+    [
+     "temperature of a cup of tea every minute",
+     "Line graph"
+    ],
+    [
+     "heights of five different plants",
+     "Bar chart"
+    ],
+    [
+     "water level in a tank every hour",
+     "Line graph"
+    ],
+    [
+     "number of rickshaws of each colour",
+     "Bar chart"
+    ],
+    [
+     "growth of one bean seedling each day",
+     "Line graph"
+    ]
+   ],
+   "explanation": "Use a bar chart to compare separate things. Use a line graph when one thing changes over time."
+  },
+  {
+   "id": "g4-w1-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Observing and questions",
+   "stem": "A prediction is a wild guess that does not need a reason.",
+   "answer": false,
+   "explanation": "A prediction says what you think will happen and why. The reason comes from what you already know, for example: 'The ball will bounce higher from higher up, because it is moving faster when it lands.'"
+  },
+  {
+   "id": "g4-w1-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Repeating and reliability",
+   "stem": "Why do scientists repeat their measurements?",
+   "options": [
+    "to make the test last longer",
+    "so they can trust results that are close together",
+    "because the first result is always wrong",
+    "so they can change something new each time"
+   ],
+   "answer": 1,
+   "explanation": "If repeated results are close together, we can trust them more. The first result is not always wrong, and changing something new would make the test unfair."
+  },
+  {
+   "id": "g4-w1-009",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Repeating and reliability",
+   "stem": "Moung flew his paper plane once. It went 6 m. He says, 'Now I know how far it flies.' What advice would you give him, and why?",
+   "model_answer": "Fly it several times and find the mean, because one result could be a mistake or just luck. Results that are close together are more reliable.",
+   "keywords": [
+    [
+     "repeat",
+     "again",
+     "several",
+     "more than once",
+     "three times",
+     "times"
+    ],
+    [
+     "reliable",
+     "trust",
+     "mistake",
+     "luck",
+     "accurate",
+     "sure"
+    ],
+    [
+     "mean",
+     "average"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "One measurement might be wrong. Repeating the test, then using the mean, makes the result more reliable."
+  },
+  {
+   "id": "g4-w1-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Conclusions and models",
+   "stem": "A globe is an example of a ___: a way of showing an idea that is too big, too small or too slow to see.",
+   "blanks": [
+    [
+     "model",
+     "models"
+    ]
+   ],
+   "bank": [
+    "model",
+    "pattern",
+    "prediction",
+    "conclusion"
+   ],
+   "explanation": "Scientists use models such as globes, drawings and diagrams to explain things we cannot easily see for ourselves."
+  },
+  {
+   "id": "g4-w1-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Conclusions and models",
+   "stem": "A globe is a model of the Earth. What is one **limitation** of this model?",
+   "options": [
+    "It is far smaller than the real Earth, so it cannot show every detail.",
+    "It shows where the oceans and continents are.",
+    "It lets us see the whole Earth at once.",
+    "It shows the shape of the Earth well."
+   ],
+   "answer": 0,
+   "explanation": "A model helps us understand, but it is never exactly like the real thing. A globe is tiny and cannot show real mountains, weather or cities."
+  },
+  {
+   "id": "g4-w1-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conclusions and models",
+   "stem": "Why do scientists share their results with other scientists?",
+   "model_answer": "So that other scientists can check the results by repeating the tests, find any mistakes, and build on the ideas to make new discoveries.",
+   "keywords": [
+    [
+     "check",
+     "repeat",
+     "test again",
+     "verify"
+    ],
+    [
+     "mistake",
+     "mistakes",
+     "error",
+     "errors",
+     "wrong"
+    ],
+    [
+     "build",
+     "new",
+     "discover",
+     "discovery",
+     "idea",
+     "ideas",
+     "learn"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Sharing lets others check the evidence, spot mistakes and use the ideas to find out more. Science grows when people share."
+  },
+  {
+   "id": "g4-w1-013",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Tables, graphs and patterns",
+   "stem": "Class 4A investigates how the drop height changes the bounce of a ball. Put their steps in a sensible order.",
+   "sequence": [
+    "Choose the heights to drop the ball from.",
+    "Drop the ball from one height and measure the bounce.",
+    "Repeat each drop three times.",
+    "Work out the mean bounce for each height.",
+    "Draw a line graph of the means.",
+    "Describe the pattern in the graph.",
+    "Write a conclusion and say if the prediction was right."
+   ],
+   "explanation": "Plan first, then measure and repeat, then process the data (means and a graph), look for a pattern and finally conclude."
+  },
+  {
+   "id": "g4-w1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring with tools and units",
+   "stem": "Look at the three thermometers. Which one shows the **highest** temperature?",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers A, B and C reading 5, 25 and 40 degrees Celsius.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 2,
+   "explanation": "The liquid rises higher when the temperature is higher. Thermometer C reads 40 °C, more than B (25 °C) or A (5 °C)."
+  },
+  {
+   "id": "g4-w1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Measuring with tools and units",
+   "stem": "A healthy person's body temperature is about 37 °C. Which thermometer shows this?",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers A, B and C reading 12, 37 and 48 degrees Celsius.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 1,
+   "explanation": "Thermometer B reads 37 °C. A (12 °C) is cool and C (48 °C) is far too hot for a body."
+  },
+  {
+   "id": "g4-w1-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring with tools and units",
+   "stem": "Rafi pulls a sled with the forcemeter shown. What is the reading? Choose the answer with the right unit.",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter reading 7 newtons.",
+   "options": [
+    "7 g",
+    "7 N",
+    "7 cm",
+    "7 ml"
+   ],
+   "answer": 1,
+   "explanation": "A forcemeter measures force in newtons (N). Grams measure mass, centimetres measure length and millilitres measure volume."
+  },
+  {
+   "id": "g4-w1-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring with tools and units",
+   "stem": "Match each tool to what it measures.",
+   "pairs": [
+    [
+     {
+      "text": "stopwatch",
+      "image": "openmoji/stopwatch.svg"
+     },
+     "time"
+    ],
+    [
+     {
+      "text": "thermometer",
+      "image": "openmoji/thermometer.svg"
+     },
+     "temperature"
+    ],
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "length"
+    ],
+    [
+     {
+      "text": "balance scale",
+      "image": "openmoji/balance-scale.svg"
+     },
+     "mass"
+    ]
+   ],
+   "explanation": "A stopwatch measures time, a thermometer measures temperature, a ruler measures length and a balance measures mass."
+  },
+  {
+   "id": "g4-w1-018",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Tables, graphs and patterns",
+   "stem": "One bag of rice makes the forcemeter read as shown. Two identical bags hung together would make it read ___ N.",
+   "image": "diagrams/forcemeter-4n.svg",
+   "image_alt": "A forcemeter reading 4 newtons.",
+   "blanks": [
+    [
+     "8",
+     "eight"
+    ]
+   ],
+   "explanation": "The forcemeter reads 4 N for one bag. Two identical bags pull twice as hard: 4 + 4 = 8 N."
+  },
+  {
+   "id": "g4-w1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests and variables",
+   "stem": "Tuli wants to find out which of three tea bags makes the darkest tea. She puts one in a big cup of cold water, one in a small cup of hot water and one in a mug of warm water. What should she do to make it a fair test?",
+   "options": [
+    "Use a different size of cup for each tea bag.",
+    "Leave each tea bag in for as long as she likes.",
+    "Use the same amount of water at the same temperature for each tea bag.",
+    "Use cold water for the tea bag she likes best."
+   ],
+   "answer": 2,
+   "explanation": "Only the tea bag should change. The cup size, amount of water, water temperature and time must all stay the same."
+  },
+  {
+   "id": "g4-w1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring with tools and units",
+   "stem": "A farmer near Rajshahi wants to know how much milk his cow gives each morning. Which tool and unit should he use?",
+   "options": [
+    "a ruler, in centimetres",
+    "a measuring jug, in litres",
+    "a thermometer, in °C",
+    "a forcemeter, in newtons"
+   ],
+   "answer": 1,
+   "explanation": "Milk is a liquid, so we measure its volume with a measuring jug in litres (l) or millilitres (ml)."
+  },
+  {
+   "id": "g4-w1-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Fair tests and variables",
+   "stem": "Imran grew a bean plant on a sunny window sill. His cousin Nadia grew a different kind of plant in a bigger pot with more water, in a dark room. Imran's plant grew taller, so Imran says this proves that sunlight makes plants grow taller. Is Imran right?",
+   "answer": false,
+   "explanation": "The plants differed in kind, pot size, water and light, so we cannot tell which change made the difference. A fair test changes only the light."
+  },
+  {
+   "id": "g4-w1-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests and variables",
+   "stem": "Anika wants to test which kind of cloth dries fastest on the washing line. Which things must she keep the same? Choose all that are right.",
+   "options": [
+    "the size of each piece of cloth",
+    "how wet each piece is at the start",
+    "the place on the line (sun or shade)",
+    "the kind of cloth",
+    "how long each piece takes to dry"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The kind of cloth is what she changes, and the drying time is what she measures. Size, starting wetness and place must stay the same."
+  },
+  {
+   "id": "g4-w1-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Repeating and reliability",
+   "stem": "Moung timed how long an ice cube took to melt in the sun. His three trials gave 8 min, 9 min and 21 min. What is the best next step?",
+   "options": [
+    "Ignore all three results.",
+    "Add the three times and use the total.",
+    "Check the 21-minute trial and repeat it.",
+    "Choose the biggest number to be safe."
+   ],
+   "answer": 2,
+   "explanation": "21 min is very different from the other two. It may be a mistake, such as starting the timer late, so he should check it and measure again."
+  },
+  {
+   "id": "g4-w1-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conclusions and models",
+   "stem": "Scientists in Dhaka test a new vaccine on 2000 volunteers. They give the vaccine to 1000 people and no vaccine to the other 1000, then count how many in each group become ill. Why do they use two groups?",
+   "options": [
+    "to compare the groups and see if the vaccine really makes a difference",
+    "to use up the spare vaccine",
+    "to make sure nobody becomes ill",
+    "to keep the groups small and easy to manage"
+   ],
+   "answer": 0,
+   "explanation": "The group without the vaccine shows what happens anyway. Comparing the two groups shows whether the vaccine makes a difference."
+  },
+  {
+   "id": "g4-w1-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Tables, graphs and patterns",
+   "stem": "Example class data: bean plants given 0, 25, 50 and 100 ml of water each day grew to 2, 9, 15 and 16 cm after two weeks. Which conclusion is best supported?",
+   "options": [
+    "More water always makes plants grow taller, with no limit.",
+    "Water makes no difference to how tall the plants grow.",
+    "The plant given 100 ml of water was harmed by too much water.",
+    "The plants grew taller with more water, but above 50 ml there was hardly any extra growth."
+   ],
+   "answer": 3,
+   "explanation": "The height rose a lot from 0 to 50 ml, but only from 15 cm to 16 cm between 50 and 100 ml. The data do not show any harm, so that claim goes beyond the evidence."
+  },
+  {
+   "id": "g4-w1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Repeating and reliability",
+   "stem": "Class 4B (example data) dropped a ball three times from each height. From 100 cm the bounces were 55 cm, 61 cm and 58 cm. From 200 cm they were 110 cm, 116 cm and 113 cm. How much higher is the mean bounce from 200 cm than from 100 cm?",
+   "options": [
+    "58 cm",
+    "113 cm",
+    "55 cm",
+    "171 cm"
+   ],
+   "answer": 2,
+   "explanation": "Mean from 100 cm = (55 + 61 + 58) ÷ 3 = 58 cm. Mean from 200 cm = (110 + 116 + 113) ÷ 3 = 113 cm. The difference is 113 − 58 = 55 cm."
+  },
+  {
+   "id": "g4-w1-027",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests and variables",
+   "stem": "Sami plans to find out which paper towel is strongest when wet. He will use a big piece of towel A and a small piece of towel B, pour 50 ml of water on A and 100 ml on B, hang the same mass from each, wet both in the same classroom, and test each towel three times. Which parts make his test unfair? Choose all that are right.",
+   "options": [
+    "using different sizes of towel",
+    "pouring different amounts of water",
+    "hanging the same mass from each",
+    "wetting both towels in the same classroom",
+    "testing each towel three times"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Only the type of towel should change. Different sizes and different amounts of water are extra changes. The same mass, same room and repeats are good practice."
+  },
+  {
+   "id": "g4-w1-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Conclusions and models",
+   "stem": "In a vaccine trial (example data) 1000 children got the vaccine and 12 became ill. 1000 children did not get it and 60 became ill. Do the results support the idea that the vaccine protects children? Use the numbers in your answer.",
+   "model_answer": "Yes. Only 12 of the 1000 children who had the vaccine became ill, compared with 60 of the 1000 who did not. That is five times more without the vaccine, so the vaccine seems to protect them.",
+   "keywords": [
+    [
+     "yes",
+     "support",
+     "supports",
+     "protects",
+     "works"
+    ],
+    [
+     "12",
+     "fewer",
+     "less",
+     "lower"
+    ],
+    [
+     "60",
+     "five times",
+     "5 times",
+     "more"
+    ],
+    [
+     "compare",
+     "compared",
+     "without",
+     "other group",
+     "did not"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "The group with the vaccine had far fewer ill children (12 compared with 60), and both groups were the same size. 60 ÷ 12 = 5, so the evidence supports the prediction."
+  },
+  {
+   "id": "g4-w1-029",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Repeating and reliability",
+   "stem": "Class 4C tested each kind of paper towel once. Towel A absorbed 18 ml of water, towel B 25 ml and towel C 31 ml. Which statement is best?",
+   "options": [
+    "Towel A is the worst towel and nobody should ever use it.",
+    "All three towels absorb the same amount of water.",
+    "Towel C is the best towel in the world for every job.",
+    "Towel C absorbed the most in this test, but we should repeat the test to be sure."
+   ],
+   "answer": 3,
+   "explanation": "Each towel was tested only once, so there is not enough evidence to be sure or to say anything about every job. Repeating the test would make the results more reliable."
+  },
+  {
+   "id": "g4-w1-030",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Tables, graphs and patterns",
+   "stem": "Class 4A found these mean bounces (example data): drop 50 cm gave 29 cm, 100 cm gave 58 cm, 150 cm gave 88 cm and 200 cm gave 116 cm. Use the pattern to predict the mean bounce from a drop of 250 cm: about ___ cm.",
+   "blanks": [
+    [
+     "145",
+     "144",
+     "146",
+     "147",
+     "148"
+    ]
+   ],
+   "explanation": "Each extra 50 cm of drop height adds about 29 cm to the bounce (the bounce is a bit more than half the drop). So from 250 cm: 116 + 29 = about 145 cm."
+  }
+ ]
+}

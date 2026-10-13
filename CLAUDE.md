@@ -24,6 +24,12 @@ Static website repo. `main` is published by GitHub Pages (`.github/workflows/sta
   Source: `worksheets/toolkit/routines.py` (list `ROUTINES`, 10 layouts) + `rt_icons.py`; page `hub.write_routines`.
   Build `python3 worksheets/toolkit/routines.py [R01]`. "Thinking routines" tab is on every catalog/worksheet page.
   Worksheets show only InquiryMind branding, tagline and mission (no school continuum or Cambridge wording).
+- `question-bank/` — science Practice questions KG–G5 for inquirymind.org (one JSON per worksheet topic in
+  `questions/<kg|grade-N>/<code>-<name>.json`; modes core/picture/real-life/simulation/olympiad = the site's practice cards;
+  8 types). Format + marking rules: `question-bank/README.md`. Check `python3 question-bank/tools/validate.py`, build
+  `python3 question-bank/tools/build_bank.py` (→ `dist/`, copy in `offline-simulations/inquirymind-site/question-bank/`).
+  Player/preview: `preview/qb-player.js`, `preview/index.html`. Pictures: `images/index.json` (`tools/images.py`).
+  Never open `dist/*.json` whole. `INQUIRYMIND-INTEGRATION-PROMPT.md` = prompt for the user's InquiryMind Claude project.
 
 ## Rules (save tokens, avoid breakage)
 - Never open, grep or diff `**/sims/*.html` (2.7–8 MB minified each). Sim metadata (id, name, grade, topics,

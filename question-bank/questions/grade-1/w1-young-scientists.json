@@ -1,0 +1,560 @@
+{
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "topic": "W1",
+ "title": "Young Scientists",
+ "strand": "skills",
+ "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g1-w1-001",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "A hand lens helps you see small things closely.",
+   "answer": true,
+   "explanation": "A hand lens makes small things look bigger. We use it to look closely at a leaf, an ant or a seed."
+  },
+  {
+   "id": "g1-w1-002",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Match each tool to its job.",
+   "pairs": [
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "measure how long"
+    ],
+    [
+     {
+      "text": "hand lens",
+      "image": "openmoji/magnifying-glass.svg"
+     },
+     "look closely"
+    ],
+    [
+     {
+      "text": "thermometer",
+      "image": "openmoji/thermometer.svg"
+     },
+     "find how hot"
+    ],
+    [
+     {
+      "text": "timer",
+      "image": "openmoji/stopwatch.svg"
+     },
+     "find how long it takes"
+    ]
+   ],
+   "explanation": "A ruler measures length. A hand lens helps us look closely. A thermometer shows how hot or cold. A timer shows how long something takes."
+  },
+  {
+   "id": "g1-w1-003",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Steps of an investigation",
+   "read_aloud": true,
+   "stem": "Put the steps in order. What does a scientist do first? Then?",
+   "sequence": [
+    "Ask a question.",
+    "Guess what will happen.",
+    "Test it.",
+    "Record what happens.",
+    "Tell others."
+   ],
+   "explanation": "A scientist asks a question, makes a guess, tests it, records what happens and then tells other people."
+  },
+  {
+   "id": "g1-w1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "To find which ball bounces highest, we drop every ball from the same height.",
+   "answer": true,
+   "explanation": "Dropping every ball from the same height makes the test fair. Then only the ball is different."
+  },
+  {
+   "id": "g1-w1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "In a fair test, we keep things the ___.",
+   "blanks": [
+    [
+     "same"
+    ]
+   ],
+   "bank": [
+    "same",
+    "different",
+    "faster"
+   ],
+   "explanation": "In a fair test we keep things the same. We only change one thing."
+  },
+  {
+   "id": "g1-w1-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Staying safe",
+   "read_aloud": true,
+   "stem": "How do young scientists stay safe? Choose all that are right.",
+   "options": [
+    "Listen to the teacher.",
+    "Taste the things we test.",
+    "Wash hands after a test.",
+    "Run around the room.",
+    "Ask before smelling something."
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "We listen to our teacher, wash our hands and ask before we smell anything. We never taste things in a test, and we do not run around."
+  },
+  {
+   "id": "g1-w1-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Which tool would you use? Sort each job.",
+   "categories": [
+    "ruler",
+    "thermometer",
+    "timer"
+   ],
+   "items": [
+    [
+     "how long a pencil is",
+     "ruler"
+    ],
+    [
+     "how hot the water is",
+     "thermometer"
+    ],
+    [
+     "how long a runner takes",
+     "timer"
+    ],
+    [
+     "how tall a bean plant is",
+     "ruler"
+    ],
+    [
+     "how warm the room is",
+     "thermometer"
+    ],
+    [
+     "how long sand takes to fall",
+     "timer"
+    ]
+   ],
+   "explanation": "A ruler measures length and height. A thermometer measures how hot or cold. A timer measures how long something takes."
+  },
+  {
+   "id": "g1-w1-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Predicting",
+   "read_aloud": true,
+   "stem": "Before the test, Mina says: 'I think the rubber ball will bounce highest.' What is this?",
+   "options": [
+    "a result",
+    "a prediction",
+    "a tool"
+   ],
+   "answer": 1,
+   "explanation": "A prediction is a good guess about what will happen. A result is what we see after the test."
+  },
+  {
+   "id": "g1-w1-009",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Measuring temperature",
+   "read_aloud": true,
+   "stem": "Look at the thermometers. Which one shows the hottest?",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers A, B and C. A is at 12 degrees, B at 37 degrees and C at 48 degrees.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 2,
+   "explanation": "The red line goes highest on thermometer C. A higher line means hotter."
+  },
+  {
+   "id": "g1-w1-010",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Which tool measures how long a book is?",
+   "options": [
+    {
+     "text": "stopwatch",
+     "image": "openmoji/stopwatch.svg"
+    },
+    {
+     "text": "thermometer",
+     "image": "openmoji/thermometer.svg"
+    },
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "balance scale",
+     "image": "openmoji/balance-scale.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A ruler measures how long something is. The stopwatch is for time, the thermometer is for how hot, and the balance scale is for how heavy."
+  },
+  {
+   "id": "g1-w1-011",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Sort the tools. Which ones measure? Which ones help you look closely?",
+   "categories": [
+    "Measure",
+    "Look closely"
+   ],
+   "items": [
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "Measure"
+    ],
+    [
+     {
+      "text": "thermometer",
+      "image": "openmoji/thermometer.svg"
+     },
+     "Measure"
+    ],
+    [
+     {
+      "text": "stopwatch",
+      "image": "openmoji/stopwatch.svg"
+     },
+     "Measure"
+    ],
+    [
+     {
+      "text": "hand lens",
+      "image": "openmoji/magnifying-glass.svg"
+     },
+     "Look closely"
+    ],
+    [
+     {
+      "text": "microscope",
+      "image": "openmoji/microscope.svg"
+     },
+     "Look closely"
+    ]
+   ],
+   "explanation": "Rulers, thermometers and stopwatches give us numbers. Hand lenses and microscopes make tiny things easier to see."
+  },
+  {
+   "id": "g1-w1-012",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Measuring temperature",
+   "read_aloud": true,
+   "stem": "Look at the thermometers. Put them in order from hottest to coldest.",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers A, B and C. A shows 5 degrees, B shows 25 degrees and C shows 40 degrees.",
+   "sequence": [
+    "thermometer C",
+    "thermometer B",
+    "thermometer A"
+   ],
+   "explanation": "The line is highest on C, so C is the hottest. B is in the middle. The line is lowest on A, so A is the coldest."
+  },
+  {
+   "id": "g1-w1-013",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Making observations",
+   "read_aloud": true,
+   "stem": "Nadia drew these pictures each week. The tadpoles grew into frogs.",
+   "image": "diagrams/frog-life-cycle.svg",
+   "image_alt": "Life cycle of a frog: eggs, tadpole, froglet, adult frog.",
+   "answer": true,
+   "explanation": "Nadia looked closely and drew what she saw. The picture shows eggs, then tadpoles, then froglets, then adult frogs."
+  },
+  {
+   "id": "g1-w1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Making observations",
+   "read_aloud": true,
+   "stem": "Which part of your body helps you see what a leaf looks like?",
+   "options": [
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "tongue",
+     "image": "openmoji/tongue.svg"
+    },
+    {
+     "text": "nose",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "We use our eyes to see. Looking closely is one way to find out about things."
+  },
+  {
+   "id": "g1-w1-015",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "Mina and Raju race toy cars down a ramp. Mina pushes her car. Raju lets his car go. Is it a fair test?",
+   "options": [
+    "No. Mina pushed her car and Raju did not.",
+    "Yes. Both cars are on the same ramp.",
+    "Yes. Both children are in Class 1."
+   ],
+   "answer": 0,
+   "explanation": "Mina pushed, so her car got a head start. A fair race lets both cars go the same way."
+  },
+  {
+   "id": "g1-w1-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Making observations",
+   "read_aloud": true,
+   "stem": "Nadia sees tiny black wriggly things in the village pond. What does a young scientist do?",
+   "options": [
+    "Taste one to find out.",
+    "Guess a name and stop looking.",
+    "Look closely and draw what she sees."
+   ],
+   "answer": 2,
+   "explanation": "Scientists look closely and record what they see. We never taste things to find out, and one guess is not enough."
+  },
+  {
+   "id": "g1-w1-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Staying safe",
+   "read_aloud": true,
+   "stem": "At home, Joy finds a bottle of coloured liquid in the kitchen. He wants to know what it is. What is the safe choice?",
+   "options": [
+    "Ask a grown-up and do not touch it.",
+    "Smell it and taste it.",
+    "Pour it into a cup."
+   ],
+   "answer": 0,
+   "explanation": "Some liquids are dangerous. We ask a grown-up and never smell, taste or touch things we do not know."
+  },
+  {
+   "id": "g1-w1-018",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Tuli wants to know how tall her bean plant is. She measures it with a ___.",
+   "blanks": [
+    [
+     "ruler"
+    ]
+   ],
+   "bank": [
+    "ruler",
+    "timer",
+    "thermometer"
+   ],
+   "explanation": "A ruler measures how tall or how long something is."
+  },
+  {
+   "id": "g1-w1-019",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "Class 1 dropped three balls. Why did they drop every ball from the same height?",
+   "model_answer": "To make it a fair test. The height was the same for every ball.",
+   "keywords": [
+    [
+     "fair",
+     "fairly"
+    ],
+    [
+     "same",
+     "equal"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "If one ball was dropped from higher up, we could not tell why it bounced higher. Keeping the height the same makes the test fair."
+  },
+  {
+   "id": "g1-w1-020",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Steps of an investigation",
+   "read_aloud": true,
+   "stem": "Match each science step to an example.",
+   "pairs": [
+    [
+     "ask a question",
+     "Why do leaves fall?"
+    ],
+    [
+     "make a prediction",
+     "I think the big stone will sink."
+    ],
+    [
+     "record",
+     "Draw what you see."
+    ],
+    [
+     "tell others",
+     "Show your class the results."
+    ]
+   ],
+   "explanation": "A question starts an investigation. A prediction is a guess before the test. We record what we see and then share it."
+  },
+  {
+   "id": "g1-w1-021",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Reading results",
+   "read_aloud": true,
+   "stem": "Class 1 dropped balls from the same height. Bounce in hand spans: rubber ball 6, tennis ball 4, football 3. The ___ bounced the lowest.",
+   "blanks": [
+    [
+     "football"
+    ]
+   ],
+   "bank": [
+    "football",
+    "tennis ball",
+    "rubber ball"
+   ],
+   "explanation": "The football has the smallest number, 3, so it bounced the lowest. The rubber ball bounced highest with 6."
+  },
+  {
+   "id": "g1-w1-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Reading results",
+   "read_aloud": true,
+   "stem": "Class 1 dropped balls from the same height. Bounce in hand spans: rubber ball 6, tennis ball 4, football 3. How much higher did the rubber ball bounce than the tennis ball?",
+   "options": [
+    "10 hand spans",
+    "4 hand spans",
+    "6 hand spans",
+    "2 hand spans"
+   ],
+   "answer": 3,
+   "explanation": "6 take away 4 is 2. The rubber ball bounced 2 hand spans higher than the tennis ball."
+  },
+  {
+   "id": "g1-w1-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "Tuli tests two paper planes. She throws plane A very hard and plane B gently. Plane A flies further. What should she change?",
+   "options": [
+    "Throw plane B even more gently.",
+    "Throw both planes in the same way.",
+    "Only test plane A."
+   ],
+   "answer": 1,
+   "explanation": "Tuli threw the planes differently, so we cannot tell if the plane or the throw made the difference. Throwing both the same way makes it fair."
+  },
+  {
+   "id": "g1-w1-024",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "Joy grows two bean plants in the same kind of pot. Plant A is in the sun and gets water. Plant B is in a dark cupboard and gets no water. Which things are different? Choose all that are right.",
+   "options": [
+    "the water",
+    "the kind of seed",
+    "the light",
+    "the size of the pot"
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "explanation": "The water and the light are different. Because two things changed, Joy cannot tell which one made plant B small. A fair test changes only one thing."
+  }
+ ]
+}

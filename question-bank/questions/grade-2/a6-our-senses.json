@@ -1,0 +1,645 @@
+{
+ "grade": 2,
+ "grade_name": "Grade 2",
+ "topic": "A6",
+ "title": "Our Senses",
+ "strand": "living",
+ "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g2-a6-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The five senses",
+   "stem": "Which sense do you use your nose for?",
+   "options": [
+    "smell",
+    "sight",
+    "taste",
+    "hearing"
+   ],
+   "answer": 0,
+   "explanation": "We smell with our nose. We see with our eyes, hear with our ears and taste with our tongue."
+  },
+  {
+   "id": "g2-a6-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "The five senses",
+   "stem": "Match each sense to what it tells us about the world.",
+   "pairs": [
+    [
+     "sight",
+     "colour, shape and size"
+    ],
+    [
+     "hearing",
+     "loud or quiet sounds"
+    ],
+    [
+     "smell",
+     "flowers or smoke"
+    ],
+    [
+     "taste",
+     "sweet, salty or sour"
+    ],
+    [
+     "touch",
+     "hot or cold, rough or smooth"
+    ]
+   ],
+   "explanation": "Sight tells us colour and shape. Hearing tells us about sounds. Smell tells us about smells, taste about flavours, and touch about hot, cold and rough things."
+  },
+  {
+   "id": "g2-a6-003",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The five senses",
+   "stem": "Match each body part to the sense it gives us.",
+   "pairs": [
+    [
+     {
+      "text": "eye",
+      "image": "openmoji/eye.svg"
+     },
+     "sight"
+    ],
+    [
+     {
+      "text": "ear",
+      "image": "openmoji/ear.svg"
+     },
+     "hearing"
+    ],
+    [
+     {
+      "text": "nose",
+      "image": "openmoji/nose.svg"
+     },
+     "smell"
+    ],
+    [
+     {
+      "text": "tongue",
+      "image": "openmoji/tongue.svg"
+     },
+     "taste"
+    ],
+    [
+     {
+      "text": "hand",
+      "image": "openmoji/hand.svg"
+     },
+     "touch"
+    ]
+   ],
+   "explanation": "Eyes give us sight, ears give us hearing, the nose gives us smell, the tongue gives us taste and the skin (hand) gives us touch."
+  },
+  {
+   "id": "g2-a6-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light and our eyes",
+   "stem": "Which of these is a light source?",
+   "options": [
+    {
+     "text": "moon",
+     "image": "openmoji/moon.svg"
+    },
+    {
+     "text": "notebook",
+     "image": "openmoji/notebook.svg"
+    },
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "The Sun gives out its own light, so it is a light source. The Moon only reflects sunlight, and a notebook gives out no light."
+  },
+  {
+   "id": "g2-a6-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Light and sound sources",
+   "stem": "Sort the pictures into things that give out light and things that make sound.",
+   "categories": [
+    "Gives out light",
+    "Makes sound"
+   ],
+   "items": [
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "flashlight",
+      "image": "openmoji/flashlight.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "candle",
+      "image": "openmoji/candle.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "light bulb",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "drum",
+      "image": "openmoji/drum.svg"
+     },
+     "Makes sound"
+    ],
+    [
+     {
+      "text": "bell",
+      "image": "openmoji/bell.svg"
+     },
+     "Makes sound"
+    ],
+    [
+     {
+      "text": "loudspeaker",
+      "image": "openmoji/loudspeaker.svg"
+     },
+     "Makes sound"
+    ]
+   ],
+   "explanation": "The Sun, a torch, a candle and a light bulb give out light. A drum, a bell and a loudspeaker make sound."
+  },
+  {
+   "id": "g2-a6-006",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Sound and our ears",
+   "stem": "Taller waves mean a louder sound, and waves that are close together mean a higher sound. Which picture shows a quiet, low sound?",
+   "image": "diagrams/sound-waves-lettered.svg",
+   "image_alt": "Four wave drawings lettered A to D. Some waves are tall and some are short; some are close together and some are far apart.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 1,
+   "explanation": "B has short waves, so the sound is quiet, and the waves are far apart, so the sound is low. A is loud and low, C is loud and high, and D is quiet and high."
+  },
+  {
+   "id": "g2-a6-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Light and our eyes",
+   "stem": "Look at the picture. Why is there a dark shape on the screen?",
+   "image": "diagrams/shadow-setup.svg",
+   "image_alt": "A torch shining on an object, with a dark shadow shape on a screen behind the object.",
+   "options": [
+    "The torch is turned off.",
+    "The object blocks light.",
+    "The screen is made of dark paper.",
+    "The torch is too far away."
+   ],
+   "answer": 1,
+   "explanation": "A shadow is a dark shape made when something blocks the light. The object is in the way of the light from the torch."
+  },
+  {
+   "id": "g2-a6-008",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Light and sound sources",
+   "stem": "Which of these give out their own light? Choose all that are right.",
+   "options": [
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "moon",
+     "image": "openmoji/moon.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "flashlight",
+     "image": "openmoji/flashlight.svg"
+    },
+    {
+     "text": "mirror",
+     "image": "openmoji/mirror.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "The Sun, a candle and a torch make their own light. The Moon and a mirror only reflect light that comes from somewhere else."
+  },
+  {
+   "id": "g2-a6-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light and our eyes",
+   "stem": "A ___ is a dark shape made when something blocks the light.",
+   "blanks": [
+    [
+     "shadow",
+     "shadows"
+    ]
+   ],
+   "bank": [
+    "shadow",
+    "sound",
+    "light source"
+   ],
+   "explanation": "When an object blocks light, it makes a shadow on the other side."
+  },
+  {
+   "id": "g2-a6-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light and sound sources",
+   "stem": "A drum, a bell and your voice are all sound ___.",
+   "blanks": [
+    [
+     "sources",
+     "source"
+    ]
+   ],
+   "bank": [
+    "sources",
+    "shadows",
+    "senses"
+   ],
+   "explanation": "Anything that makes a sound is a sound source. A drum, a bell, a bird and your voice are all sound sources."
+  },
+  {
+   "id": "g2-a6-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Light and our eyes",
+   "stem": "We can see things in a completely dark room.",
+   "answer": false,
+   "explanation": "We need light to see. With no light, no light enters our eyes, so we cannot see anything."
+  },
+  {
+   "id": "g2-a6-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Light and our eyes",
+   "stem": "The Moon is a light source because it gives out its own light.",
+   "answer": false,
+   "explanation": "The Moon does not make light. It looks bright because it reflects light from the Sun."
+  },
+  {
+   "id": "g2-a6-013",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The five senses",
+   "stem": "What can you find out with your skin by touching? Choose all that are right.",
+   "options": [
+    "hot or cold",
+    "rough or smooth",
+    "hard or soft",
+    "sweet or sour",
+    "loud or quiet"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Your skin (touch) can feel hot or cold, rough or smooth, and hard or soft. Sweet or sour is for the tongue, and loud or quiet is for the ears."
+  },
+  {
+   "id": "g2-a6-014",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The five senses",
+   "stem": "Which sense tells us each of these things? Sort the words.",
+   "categories": [
+    "Sight",
+    "Hearing",
+    "Taste",
+    "Touch"
+   ],
+   "items": [
+    [
+     "bright",
+     "Sight"
+    ],
+    [
+     "dark",
+     "Sight"
+    ],
+    [
+     "loud",
+     "Hearing"
+    ],
+    [
+     "quiet",
+     "Hearing"
+    ],
+    [
+     "sweet",
+     "Taste"
+    ],
+    [
+     "sour",
+     "Taste"
+    ],
+    [
+     "rough",
+     "Touch"
+    ],
+    [
+     "smooth",
+     "Touch"
+    ]
+   ],
+   "explanation": "We use sight for bright and dark, hearing for loud and quiet, taste for sweet and sour, and touch for rough and smooth."
+  },
+  {
+   "id": "g2-a6-015",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Senses keep us safe",
+   "stem": "Put the steps in order to show how your senses keep you safe.",
+   "sequence": [
+    "There is smoke from a fire.",
+    "Your nose smells the smoke.",
+    "Your nose sends a message to your brain.",
+    "Your brain tells you something is wrong.",
+    "You get out and tell an adult."
+   ],
+   "explanation": "Your senses send messages to your brain. The brain tells you what is happening, and you can then act to stay safe."
+  },
+  {
+   "id": "g2-a6-016",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Light and our eyes",
+   "stem": "Why can't you see anything in a dark room with no light?",
+   "model_answer": "We need light to see. With no light, no light enters our eyes.",
+   "keywords": [
+    [
+     "light"
+    ],
+    [
+     "need",
+     "needs",
+     "no light",
+     "without",
+     "enter",
+     "enters",
+     "reach",
+     "eyes",
+     "eye"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "We need light to see. In a room with no light, no light reaches our eyes, so we cannot see."
+  },
+  {
+   "id": "g2-a6-017",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sound and our ears",
+   "stem": "Which pair of words describes sounds?",
+   "options": [
+    "sweet and sour",
+    "hot and cold",
+    "rough and smooth",
+    "loud and quiet"
+   ],
+   "answer": 3,
+   "explanation": "Sounds can be loud or quiet. Hot and cold, and rough and smooth, describe things we touch, and sweet and sour describe tastes."
+  },
+  {
+   "id": "g2-a6-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Senses keep us safe",
+   "stem": "Mina smells smoke coming from the kitchen at home. What should she do?",
+   "options": [
+    "Tell an adult at once.",
+    "Hide under the bed.",
+    "Keep on playing.",
+    "Go close to look at the fire."
+   ],
+   "answer": 0,
+   "explanation": "A smell of smoke can mean a fire. The safe thing is to tell an adult at once and keep away from the smoke."
+  },
+  {
+   "id": "g2-a6-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Senses keep us safe",
+   "stem": "Imran is crossing a village road when he hears a loud car horn behind him. What is the safest thing to do?",
+   "options": [
+    "Cover his ears and stay in the road.",
+    "Stop and look for the vehicle.",
+    "Close his eyes and keep walking.",
+    "Run on without looking round."
+   ],
+   "answer": 1,
+   "explanation": "A horn is a warning sound. The safe choice is to stop and look to see where the vehicle is before moving."
+  },
+  {
+   "id": "g2-a6-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Senses keep us safe",
+   "stem": "Sumi opens the milk at breakfast. It smells bad and tastes sour. What should she do?",
+   "options": [
+    "Add sugar and drink it anyway.",
+    "Put it back in the fridge.",
+    "Drink it quickly before it gets worse.",
+    "Pour it away and tell her mother."
+   ],
+   "answer": 3,
+   "explanation": "Milk that smells bad and tastes sour has gone off. Our senses warn us, so we should not drink it, and we should tell an adult."
+  },
+  {
+   "id": "g2-a6-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Using other senses",
+   "stem": "Raju cannot see. He reads Braille with his fingers and knows his friends by their voices. This shows that we can learn about the world with our other senses.",
+   "answer": true,
+   "explanation": "Touch and hearing give Raju a lot of information. Our senses work as a team, and when one sense is missing, the others help."
+  },
+  {
+   "id": "g2-a6-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Using other senses",
+   "stem": "How can classmates help Raju at school? Choose all that are right.",
+   "options": [
+    "keep bags off the floor",
+    "tell him when something moves",
+    "guide him kindly",
+    "move his things without telling him",
+    "shout loudly in his ear"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Raju uses a cane to feel the path and listens to sounds. Classmates can keep bags off the floor, tell him when things move and guide him kindly."
+  },
+  {
+   "id": "g2-a6-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "The touch test",
+   "stem": "In a touch test, the children closed their eyes before feeling each object. Why?",
+   "options": [
+    "So the teacher could not see the objects.",
+    "Because touch only works with eyes closed.",
+    "So they used only touch, not sight.",
+    "Because eyes can feel objects too."
+   ],
+   "answer": 2,
+   "explanation": "Closing their eyes meant they used only the sense of touch, so they could not use sight to decide. It made the test fair."
+  },
+  {
+   "id": "g2-a6-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Light and our eyes",
+   "stem": "Joy says, 'The Moon is a light source because it shines at night.' What is the best reply?",
+   "options": [
+    "The Moon makes its own light, like a candle.",
+    "We cannot really see the Moon at night.",
+    "The Moon is bright, so it is a light source.",
+    "The Moon only reflects light from the Sun."
+   ],
+   "answer": 3,
+   "explanation": "The Moon looks bright because sunlight bounces off it. It does not make its own light, so it is not a light source."
+  },
+  {
+   "id": "g2-a6-025",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Senses keep us safe",
+   "stem": "Give two examples of how your senses can keep you safe.",
+   "model_answer": "I smell smoke and know there may be a fire. I hear a car horn and stop. I feel something hot and pull my hand away.",
+   "keywords": [
+    [
+     "smell",
+     "smoke",
+     "nose",
+     "fire"
+    ],
+    [
+     "hear",
+     "horn",
+     "car",
+     "ears",
+     "sound"
+    ],
+    [
+     "touch",
+     "hot",
+     "pan",
+     "skin",
+     "feel"
+    ],
+    [
+     "taste",
+     "sour",
+     "milk"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Smell warns us of smoke, hearing warns us of a car horn, touch warns us of something hot, and taste tells us that milk has gone sour."
+  },
+  {
+   "id": "g2-a6-026",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Sound and our ears",
+   "stem": "Taller waves mean a louder sound, and waves that are close together mean a higher sound. Which picture shows a loud, high sound, like a loud whistle?",
+   "image": "diagrams/sound-waves-lettered.svg",
+   "image_alt": "Four wave drawings lettered A to D. Some waves are tall and some are short; some are close together and some are far apart.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 2,
+   "explanation": "C has tall waves, so it is loud, and the waves are close together, so it is high. A is loud and low, B is quiet and low, and D is quiet and high."
+  }
+ ]
+}

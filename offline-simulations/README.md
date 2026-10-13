@@ -25,12 +25,16 @@ sodai.com/                               (this repository)
 ├── index.html                           Amrar Bazar shop (unrelated to the simulations)
 ├── simulations/                         math   → amrarbazar.com/simulations/          (live)
 ├── science-simulations/                 science → amrarbazar.com/science-simulations/  (live)
+├── worksheets/                          worksheet source + generated packs (see worksheets/README.md)
+├── question-bank/                       science Practice questions KG–Grade 5 (see question-bank/README.md)
+├── INQUIRYMIND-INTEGRATION-PROMPT.md    prompt to give your InquiryMind Claude project this whole folder
 └── offline-simulations/                 ← THIS FOLDER
     ├── README.md                        this guide
     ├── inquirymind-site/                ready to copy into the InquiryMind Firebase site
     │   ├── simulations/                 math catalog page (InquiryMind style) + 28 sims
     │   ├── science-simulations/         science catalog page (InquiryMind style) + 28 sims
-    │   └── worksheets/                  KG–Grade 5 science study packs + answer keys and 34 thinking routines (see worksheets/README.md)
+    │   ├── worksheets/                  KG–Grade 5 science study packs + answer keys and 34 thinking routines (see worksheets/README.md)
+    │   └── question-bank/               practice questions (dist/ JSON, images/, preview/ player) for the Practice section
     └── toolkit/                         rebuild / rebrand / add sims (see toolkit/README.md)
 ```
 
@@ -72,13 +76,14 @@ Quickest way: `bash offline-simulations/inquirymind-site/publish.sh ~/path/to/fi
 for you (guide: `offline-simulations/inquirymind-site/PUBLISH-WORKSHEETS.md`). By hand:
 
 1. Find the public folder: open `firebase.json` and look at `"hosting": { "public": "..." }` (usually `public`).
-2. Copy **all three** folders from `offline-simulations/inquirymind-site/` into it:
+2. Copy **all four** folders from `offline-simulations/inquirymind-site/` into it:
    ```
    public/
    ├── index.html                 (your existing site)
    ├── simulations/               ← copy
    ├── science-simulations/       ← copy
-   └── worksheets/                ← copy (KG–Grade 5 science study packs and thinking routines)
+   ├── worksheets/                ← copy (KG–Grade 5 science study packs and thinking routines)
+   └── question-bank/             ← copy (practice questions; to show them in Practice, see INQUIRYMIND-INTEGRATION-PROMPT.md)
    ```
 3. Deploy: `firebase deploy --only hosting`
 4. Check: https://www.inquirymind.org/simulations/, https://www.inquirymind.org/science-simulations/ and

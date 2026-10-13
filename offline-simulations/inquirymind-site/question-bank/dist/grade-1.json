@@ -1,0 +1,5043 @@
+{
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "questions": [
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-001",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "A hand lens helps you see small things closely.",
+   "answer": true,
+   "explanation": "A hand lens makes small things look bigger. We use it to look closely at a leaf, an ant or a seed."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-002",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Match each tool to its job.",
+   "pairs": [
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "measure how long"
+    ],
+    [
+     {
+      "text": "hand lens",
+      "image": "openmoji/magnifying-glass.svg"
+     },
+     "look closely"
+    ],
+    [
+     {
+      "text": "thermometer",
+      "image": "openmoji/thermometer.svg"
+     },
+     "find how hot"
+    ],
+    [
+     {
+      "text": "timer",
+      "image": "openmoji/stopwatch.svg"
+     },
+     "find how long it takes"
+    ]
+   ],
+   "explanation": "A ruler measures length. A hand lens helps us look closely. A thermometer shows how hot or cold. A timer shows how long something takes."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-003",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Steps of an investigation",
+   "read_aloud": true,
+   "stem": "Put the steps in order. What does a scientist do first? Then?",
+   "sequence": [
+    "Ask a question.",
+    "Guess what will happen.",
+    "Test it.",
+    "Record what happens.",
+    "Tell others."
+   ],
+   "explanation": "A scientist asks a question, makes a guess, tests it, records what happens and then tells other people."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "To find which ball bounces highest, we drop every ball from the same height.",
+   "answer": true,
+   "explanation": "Dropping every ball from the same height makes the test fair. Then only the ball is different."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "In a fair test, we keep things the ___.",
+   "blanks": [
+    [
+     "same"
+    ]
+   ],
+   "bank": [
+    "same",
+    "different",
+    "faster"
+   ],
+   "explanation": "In a fair test we keep things the same. We only change one thing."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Staying safe",
+   "read_aloud": true,
+   "stem": "How do young scientists stay safe? Choose all that are right.",
+   "options": [
+    "Listen to the teacher.",
+    "Taste the things we test.",
+    "Wash hands after a test.",
+    "Run around the room.",
+    "Ask before smelling something."
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "We listen to our teacher, wash our hands and ask before we smell anything. We never taste things in a test, and we do not run around."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Which tool would you use? Sort each job.",
+   "categories": [
+    "ruler",
+    "thermometer",
+    "timer"
+   ],
+   "items": [
+    [
+     "how long a pencil is",
+     "ruler"
+    ],
+    [
+     "how hot the water is",
+     "thermometer"
+    ],
+    [
+     "how long a runner takes",
+     "timer"
+    ],
+    [
+     "how tall a bean plant is",
+     "ruler"
+    ],
+    [
+     "how warm the room is",
+     "thermometer"
+    ],
+    [
+     "how long sand takes to fall",
+     "timer"
+    ]
+   ],
+   "explanation": "A ruler measures length and height. A thermometer measures how hot or cold. A timer measures how long something takes."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Predicting",
+   "read_aloud": true,
+   "stem": "Before the test, Mina says: 'I think the rubber ball will bounce highest.' What is this?",
+   "options": [
+    "a result",
+    "a prediction",
+    "a tool"
+   ],
+   "answer": 1,
+   "explanation": "A prediction is a good guess about what will happen. A result is what we see after the test."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-009",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Measuring temperature",
+   "read_aloud": true,
+   "stem": "Look at the thermometers. Which one shows the hottest?",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers A, B and C. A is at 12 degrees, B at 37 degrees and C at 48 degrees.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 2,
+   "explanation": "The red line goes highest on thermometer C. A higher line means hotter."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-010",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Which tool measures how long a book is?",
+   "options": [
+    {
+     "text": "stopwatch",
+     "image": "openmoji/stopwatch.svg"
+    },
+    {
+     "text": "thermometer",
+     "image": "openmoji/thermometer.svg"
+    },
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "balance scale",
+     "image": "openmoji/balance-scale.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A ruler measures how long something is. The stopwatch is for time, the thermometer is for how hot, and the balance scale is for how heavy."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-011",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Sort the tools. Which ones measure? Which ones help you look closely?",
+   "categories": [
+    "Measure",
+    "Look closely"
+   ],
+   "items": [
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "Measure"
+    ],
+    [
+     {
+      "text": "thermometer",
+      "image": "openmoji/thermometer.svg"
+     },
+     "Measure"
+    ],
+    [
+     {
+      "text": "stopwatch",
+      "image": "openmoji/stopwatch.svg"
+     },
+     "Measure"
+    ],
+    [
+     {
+      "text": "hand lens",
+      "image": "openmoji/magnifying-glass.svg"
+     },
+     "Look closely"
+    ],
+    [
+     {
+      "text": "microscope",
+      "image": "openmoji/microscope.svg"
+     },
+     "Look closely"
+    ]
+   ],
+   "explanation": "Rulers, thermometers and stopwatches give us numbers. Hand lenses and microscopes make tiny things easier to see."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-012",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Measuring temperature",
+   "read_aloud": true,
+   "stem": "Look at the thermometers. Put them in order from hottest to coldest.",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers A, B and C. A shows 5 degrees, B shows 25 degrees and C shows 40 degrees.",
+   "sequence": [
+    "thermometer C",
+    "thermometer B",
+    "thermometer A"
+   ],
+   "explanation": "The line is highest on C, so C is the hottest. B is in the middle. The line is lowest on A, so A is the coldest."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-013",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Making observations",
+   "read_aloud": true,
+   "stem": "Nadia drew these pictures each week. The tadpoles grew into frogs.",
+   "image": "diagrams/frog-life-cycle.svg",
+   "image_alt": "Life cycle of a frog: eggs, tadpole, froglet, adult frog.",
+   "answer": true,
+   "explanation": "Nadia looked closely and drew what she saw. The picture shows eggs, then tadpoles, then froglets, then adult frogs."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Making observations",
+   "read_aloud": true,
+   "stem": "Which part of your body helps you see what a leaf looks like?",
+   "options": [
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "tongue",
+     "image": "openmoji/tongue.svg"
+    },
+    {
+     "text": "nose",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "We use our eyes to see. Looking closely is one way to find out about things."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-015",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "Mina and Raju race toy cars down a ramp. Mina pushes her car. Raju lets his car go. Is it a fair test?",
+   "options": [
+    "No. Mina pushed her car and Raju did not.",
+    "Yes. Both cars are on the same ramp.",
+    "Yes. Both children are in Class 1."
+   ],
+   "answer": 0,
+   "explanation": "Mina pushed, so her car got a head start. A fair race lets both cars go the same way."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Making observations",
+   "read_aloud": true,
+   "stem": "Nadia sees tiny black wriggly things in the village pond. What does a young scientist do?",
+   "options": [
+    "Taste one to find out.",
+    "Guess a name and stop looking.",
+    "Look closely and draw what she sees."
+   ],
+   "answer": 2,
+   "explanation": "Scientists look closely and record what they see. We never taste things to find out, and one guess is not enough."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Staying safe",
+   "read_aloud": true,
+   "stem": "At home, Joy finds a bottle of coloured liquid in the kitchen. He wants to know what it is. What is the safe choice?",
+   "options": [
+    "Ask a grown-up and do not touch it.",
+    "Smell it and taste it.",
+    "Pour it into a cup."
+   ],
+   "answer": 0,
+   "explanation": "Some liquids are dangerous. We ask a grown-up and never smell, taste or touch things we do not know."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-018",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Science tools",
+   "read_aloud": true,
+   "stem": "Tuli wants to know how tall her bean plant is. She measures it with a ___.",
+   "blanks": [
+    [
+     "ruler"
+    ]
+   ],
+   "bank": [
+    "ruler",
+    "timer",
+    "thermometer"
+   ],
+   "explanation": "A ruler measures how tall or how long something is."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-019",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "Class 1 dropped three balls. Why did they drop every ball from the same height?",
+   "model_answer": "To make it a fair test. The height was the same for every ball.",
+   "keywords": [
+    [
+     "fair",
+     "fairly"
+    ],
+    [
+     "same",
+     "equal"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "If one ball was dropped from higher up, we could not tell why it bounced higher. Keeping the height the same makes the test fair."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-020",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Steps of an investigation",
+   "read_aloud": true,
+   "stem": "Match each science step to an example.",
+   "pairs": [
+    [
+     "ask a question",
+     "Why do leaves fall?"
+    ],
+    [
+     "make a prediction",
+     "I think the big stone will sink."
+    ],
+    [
+     "record",
+     "Draw what you see."
+    ],
+    [
+     "tell others",
+     "Show your class the results."
+    ]
+   ],
+   "explanation": "A question starts an investigation. A prediction is a guess before the test. We record what we see and then share it."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-021",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Reading results",
+   "read_aloud": true,
+   "stem": "Class 1 dropped balls from the same height. Bounce in hand spans: rubber ball 6, tennis ball 4, football 3. The ___ bounced the lowest.",
+   "blanks": [
+    [
+     "football"
+    ]
+   ],
+   "bank": [
+    "football",
+    "tennis ball",
+    "rubber ball"
+   ],
+   "explanation": "The football has the smallest number, 3, so it bounced the lowest. The rubber ball bounced highest with 6."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Reading results",
+   "read_aloud": true,
+   "stem": "Class 1 dropped balls from the same height. Bounce in hand spans: rubber ball 6, tennis ball 4, football 3. How much higher did the rubber ball bounce than the tennis ball?",
+   "options": [
+    "10 hand spans",
+    "4 hand spans",
+    "6 hand spans",
+    "2 hand spans"
+   ],
+   "answer": 3,
+   "explanation": "6 take away 4 is 2. The rubber ball bounced 2 hand spans higher than the tennis ball."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "Tuli tests two paper planes. She throws plane A very hard and plane B gently. Plane A flies further. What should she change?",
+   "options": [
+    "Throw plane B even more gently.",
+    "Throw both planes in the same way.",
+    "Only test plane A."
+   ],
+   "answer": 1,
+   "explanation": "Tuli threw the planes differently, so we cannot tell if the plane or the throw made the difference. Throwing both the same way makes it fair."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "W1",
+   "title": "Young Scientists",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+   "id": "g1-w1-024",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair testing",
+   "read_aloud": true,
+   "stem": "Joy grows two bean plants in the same kind of pot. Plant A is in the sun and gets water. Plant B is in a dark cupboard and gets no water. Which things are different? Choose all that are right.",
+   "options": [
+    "the water",
+    "the kind of seed",
+    "the light",
+    "the size of the pot"
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "explanation": "The water and the light are different. Because two things changed, Joy cannot tell which one made plant B small. A fair test changes only one thing."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living or non-living",
+   "read_aloud": true,
+   "stem": "Which one is a living thing?",
+   "options": [
+    {
+     "text": "stone",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "bicycle",
+     "image": "openmoji/bicycle.svg"
+    },
+    {
+     "text": "goat",
+     "image": "openmoji/goat.svg"
+    },
+    {
+     "text": "chair",
+     "image": "openmoji/chair.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A goat is alive. It eats, grows and has young. A stone, a bicycle and a chair are never alive."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living or non-living",
+   "read_aloud": true,
+   "stem": "Sort the pictures into living and non-living.",
+   "categories": [
+    "Living",
+    "Non-living"
+   ],
+   "items": [
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "teddy bear",
+      "image": "openmoji/teddy-bear.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "flower",
+      "image": "openmoji/blossom.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "bicycle",
+      "image": "openmoji/bicycle.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "goat",
+      "image": "openmoji/goat.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "stone",
+      "image": "openmoji/rock.svg"
+     },
+     "Non-living"
+    ]
+   ],
+   "explanation": "Worms, flowers and goats grow, feed and have young, so they are living. A teddy bear, a bicycle and a stone are non-living."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Living things need food, air and ___ to stay alive.",
+   "blanks": [
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "water",
+    "toys",
+    "paint"
+   ],
+   "explanation": "All living things need water. Food, water and air keep them alive."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "A mango tree is not alive because it cannot walk.",
+   "answer": false,
+   "explanation": "A mango tree is alive. It grows, takes in water through its roots and makes seeds. Plants do not need to walk to be alive."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "A toy car is alive because it moves.",
+   "answer": false,
+   "explanation": "A car can move, but it cannot grow, feed or have young. Things that only move are not alive."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "What do living things do? Choose all that are right.",
+   "options": [
+    "They grow.",
+    "They have wheels.",
+    "They have young.",
+    "They need batteries.",
+    "They need food."
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Living things grow, have young and need food. Wheels and batteries belong to machines, not to living things."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-007",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Match each picture to what a living thing needs.",
+   "pairs": [
+    [
+     {
+      "text": "apple",
+      "image": "openmoji/apple.svg"
+     },
+     "food"
+    ],
+    [
+     {
+      "text": "water glass",
+      "image": "openmoji/water-glass.svg"
+     },
+     "water"
+    ],
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "light and warmth"
+    ],
+    [
+     {
+      "text": "house",
+      "image": "openmoji/house.svg"
+     },
+     "shelter"
+    ]
+   ],
+   "explanation": "Living things need food, water, light and warmth, and a safe place to live (shelter)."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Growing and changing",
+   "read_aloud": true,
+   "stem": "Living things grow and change. Put these pictures in order from youngest to oldest.",
+   "sequence": [
+    {
+     "text": "baby",
+     "image": "openmoji/baby.svg"
+    },
+    {
+     "text": "child",
+     "image": "openmoji/child.svg"
+    },
+    {
+     "text": "adult",
+     "image": "openmoji/adult.svg"
+    },
+    {
+     "text": "older person",
+     "image": "openmoji/older-person.svg"
+    }
+   ],
+   "explanation": "A person starts as a baby, grows into a child, then an adult, and later becomes an older person."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "Which thing do all living things do?",
+   "options": [
+    "talk",
+    "grow",
+    "fly"
+   ],
+   "answer": 1,
+   "explanation": "All living things grow. Not all of them talk or fly."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "Raju's toy robot can move and make sounds. Is it alive?",
+   "options": [
+    "No. It cannot grow, eat or have young.",
+    "Yes. It makes sounds.",
+    "Yes. It can move."
+   ],
+   "answer": 0,
+   "explanation": "A robot can move and make sounds, but it does not grow, eat or have young. So it is not alive."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-011",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Sort these. Which ones do living things need?",
+   "categories": [
+    "Needs",
+    "Does not need"
+   ],
+   "items": [
+    [
+     "food",
+     "Needs"
+    ],
+    [
+     "water",
+     "Needs"
+    ],
+    [
+     "air",
+     "Needs"
+    ],
+    [
+     "shelter",
+     "Needs"
+    ],
+    [
+     "toys",
+     "Does not need"
+    ],
+    [
+     "sweets",
+     "Does not need"
+    ],
+    [
+     "television",
+     "Does not need"
+    ]
+   ],
+   "explanation": "Living things need food, water, air and shelter to stay alive. They can live without toys, sweets or a television."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Seeds and water test",
+   "read_aloud": true,
+   "stem": "Class 1 watered one plate of bean seeds. They kept another plate dry. After one week, 9 seeds grew on the wet plate and ___ seeds grew on the dry plate.",
+   "blanks": [
+    [
+     "0",
+     "zero",
+     "none",
+     "no"
+    ]
+   ],
+   "bank": [
+    "0",
+    "9",
+    "5"
+   ],
+   "explanation": "No seeds grew on the dry plate. The seeds needed water to start growing."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "Arif finds a stone by the river. It rolled down the hill, so he thinks it is alive. Which question helps him most?",
+   "options": [
+    "Is it smooth?",
+    "Is it shiny?",
+    "Does it eat and grow?"
+   ],
+   "answer": 2,
+   "explanation": "Living things eat and grow. A stone has no food, never grows and cannot have babies. Water pushed it, so it only moved."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-014",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Sumi forgot to give her pot plant ___ for a week. Its leaves are drooping.",
+   "blanks": [
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "water",
+    "toys",
+    "paint"
+   ],
+   "explanation": "Plants need water. Without it the leaves droop. Sumi should water her plant."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-015",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Imran keeps a pet goat. What must he give it? Choose all that are right.",
+   "options": [
+    "grass to eat",
+    "clean water",
+    "a safe shelter",
+    "a toy car",
+    "a bicycle"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A goat needs food, water and a shelter to stay safe and warm. A toy car and a bicycle are things it does not need."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Joy has a small pot plant. Where should he put it so that it grows well?",
+   "options": [
+    "in a dark cupboard",
+    "on a sunny window sill",
+    "under the bed"
+   ],
+   "answer": 1,
+   "explanation": "Plants need light and warmth to grow well. A sunny window sill gives them both."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Look at the four plants. What happens to a plant that has no water?",
+   "image": "diagrams/plant-needs.svg",
+   "image_alt": "Four potted plants: one healthy, one wilted with no water, one pale with no light and one small because it is too cold.",
+   "options": [
+    "It droops and wilts.",
+    "It turns pale.",
+    "It grows very big."
+   ],
+   "answer": 0,
+   "explanation": "The plant with no water droops. The plant with no light turns pale. The plant that is too cold stays small."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-018",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Living or non-living",
+   "read_aloud": true,
+   "stem": "Which pictures show living things? Choose all that are right.",
+   "options": [
+    {
+     "text": "cat",
+     "image": "openmoji/cat.svg"
+    },
+    {
+     "text": "chair",
+     "image": "openmoji/chair.svg"
+    },
+    {
+     "text": "butterfly",
+     "image": "openmoji/butterfly.svg"
+    },
+    {
+     "text": "bicycle",
+     "image": "openmoji/bicycle.svg"
+    },
+    {
+     "text": "rice plant",
+     "image": "openmoji/rice-plant.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "A cat, a butterfly and a rice plant are alive. They grow and need food. A chair and a bicycle are made by people and are never alive."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-019",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Growing and changing",
+   "read_aloud": true,
+   "stem": "Look at the picture. A chick grows into a hen.",
+   "image": "diagrams/chicken-life-cycle.svg",
+   "image_alt": "Life cycle of a chicken: egg, hatching, chick, adult hen.",
+   "answer": true,
+   "explanation": "The picture shows an egg, then a chick, then an adult hen. Living things grow and change."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-020",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Seeds and water test",
+   "read_aloud": true,
+   "stem": "Mina tests if bean seeds need water. Which test is fair?",
+   "options": [
+    "One plate wet on the window sill. One plate dry in a dark cupboard.",
+    "One plate wet on the window sill. One plate dry on the same window sill.",
+    "Both plates wet on the window sill."
+   ],
+   "answer": 1,
+   "explanation": "In a fair test only one thing changes. Both plates sit in the same place, and only the water is different. In the first test, the light changes too."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-021",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Living or non-living",
+   "read_aloud": true,
+   "stem": "Look at this list: cat, chair, mango tree, stone, snail, bicycle. How many living things are in it?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "The cat, the mango tree and the snail are living. The chair, the stone and the bicycle are non-living. That makes 3."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-022",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "Mina thinks a toy car is alive because it moves. Tell one thing a living thing does that a car cannot do.",
+   "model_answer": "A living thing can grow, eat or have young. A car cannot.",
+   "keywords": [
+    [
+     "grow",
+     "grows",
+     "eat",
+     "eats",
+     "food",
+     "feed",
+     "young",
+     "babies",
+     "baby",
+     "breathe",
+     "breathes"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "Living things grow, eat, breathe and have young. A car cannot do any of these, so it is not alive."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-023",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Growing and changing",
+   "read_aloud": true,
+   "stem": "Put the steps in order to grow a bean plant.",
+   "sequence": [
+    "Plant a bean seed in soil.",
+    "Water the soil every day.",
+    "A tiny shoot comes up.",
+    "The shoot grows into a bean plant."
+   ],
+   "explanation": "A seed needs water to start growing. First a shoot comes up, then it grows into a plant."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A1",
+   "title": "Living Things and What They Need",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+   "id": "g1-a1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Seeds and water test",
+   "read_aloud": true,
+   "stem": "In the seed test, 9 seeds grew on the wet plate and 0 on the dry plate. What does the test show?",
+   "options": [
+    "Seeds need soil to grow.",
+    "Seeds need music to grow.",
+    "Seeds need water to grow."
+   ],
+   "answer": 2,
+   "explanation": "Only the water was different between the plates, so the test shows that seeds need water. It did not test soil or music."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-001",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Who lives where",
+   "read_aloud": true,
+   "stem": "Match each animal to its home.",
+   "pairs": [
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "in the water"
+    ],
+    [
+     {
+      "text": "monkey",
+      "image": "openmoji/monkey.svg"
+     },
+     "in a tree"
+    ],
+    [
+     {
+      "text": "earthworm",
+      "image": "openmoji/worm.svg"
+     },
+     "under the ground"
+    ],
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "in the sky"
+    ]
+   ],
+   "explanation": "A fish lives in water and a monkey lives in trees. An earthworm lives under the ground. A bird flies in the sky."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-002",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of habitat",
+   "read_aloud": true,
+   "stem": "An animal that lives in trees is…",
+   "options": [
+    "aquatic",
+    "fossorial",
+    "arboreal"
+   ],
+   "answer": 2,
+   "explanation": "Arboreal means living in trees. Aquatic means living in water. Fossorial means living under the ground."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of habitat",
+   "read_aloud": true,
+   "stem": "A habitat is the ___ of a plant or an animal.",
+   "blanks": [
+    [
+     "home"
+    ]
+   ],
+   "bank": [
+    "home",
+    "food",
+    "colour"
+   ],
+   "explanation": "A habitat is the home of a living thing. It gives food, water, air and shelter."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How habitats help",
+   "read_aloud": true,
+   "stem": "A fish can live on dry land.",
+   "answer": false,
+   "explanation": "A fish needs water to breathe and swim. Its habitat is a pond, a river or the sea."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Who lives where",
+   "read_aloud": true,
+   "stem": "Where does each animal live? Sort them.",
+   "categories": [
+    "Water",
+    "Trees",
+    "Underground"
+   ],
+   "items": [
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Water"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "Water"
+    ],
+    [
+     {
+      "text": "monkey",
+      "image": "openmoji/monkey.svg"
+     },
+     "Trees"
+    ],
+    [
+     {
+      "text": "parrot",
+      "image": "openmoji/parrot.svg"
+     },
+     "Trees"
+    ],
+    [
+     {
+      "text": "earthworm",
+      "image": "openmoji/worm.svg"
+     },
+     "Underground"
+    ],
+    [
+     {
+      "text": "rat",
+      "image": "openmoji/rat.svg"
+     },
+     "Underground"
+    ]
+   ],
+   "explanation": "Fish and frogs live in water. Monkeys and parrots live in trees. Earthworms and rats dig and live under the ground."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-006",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Who lives where",
+   "read_aloud": true,
+   "stem": "Which animals are aquatic? They live in water. Choose all that are right.",
+   "options": [
+    {
+     "text": "crab",
+     "image": "openmoji/crab.svg"
+    },
+    {
+     "text": "cow",
+     "image": "openmoji/cow.svg"
+    },
+    {
+     "text": "frog",
+     "image": "openmoji/frog.svg"
+    },
+    {
+     "text": "duck",
+     "image": "openmoji/duck.svg"
+    },
+    {
+     "text": "monkey",
+     "image": "openmoji/monkey.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "explanation": "Crabs, frogs, ducks and fish all live in or near water. A cow lives on the land and a monkey lives in trees."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Kinds of habitat",
+   "read_aloud": true,
+   "stem": "Put the homes in order from the highest to the lowest.",
+   "sequence": [
+    "in the sky",
+    "in a tree",
+    "on the ground",
+    "under the ground"
+   ],
+   "explanation": "Birds fly in the sky. Monkeys live in trees. Cows walk on the ground. Earthworms live under the ground."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of habitat",
+   "read_aloud": true,
+   "stem": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "habitat",
+     "the home of a living thing"
+    ],
+    [
+     "aquatic",
+     "living in water"
+    ],
+    [
+     "arboreal",
+     "living in trees"
+    ],
+    [
+     "fossorial",
+     "living under the ground"
+    ],
+    [
+     "terrestrial",
+     "living on land"
+    ]
+   ],
+   "explanation": "These five words help us name where animals live."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How habitats help",
+   "read_aloud": true,
+   "stem": "How does a pond help a frog?",
+   "options": [
+    "Water to swim in and insects to eat.",
+    "Branches to climb and sleep on.",
+    "Soil to dig a tunnel in."
+   ],
+   "answer": 0,
+   "explanation": "A pond gives a frog water to swim in, insects to eat and plants to hide under. Climbing branches is what a monkey needs."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of habitat",
+   "read_aloud": true,
+   "stem": "Birds, bats and butterflies live in the sky. This is the ___ habitat.",
+   "blanks": [
+    [
+     "aerial"
+    ]
+   ],
+   "bank": [
+    "aerial",
+    "aquatic",
+    "arboreal"
+   ],
+   "explanation": "Aerial means in the air and sky. Birds, bats and butterflies fly there."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How habitats help",
+   "read_aloud": true,
+   "stem": "A habitat gives a living thing food, water, air and shelter.",
+   "answer": true,
+   "explanation": "A good habitat meets all the needs of the plants and animals that live there."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Looking at a habitat",
+   "read_aloud": true,
+   "stem": "Look at the pond. Which number is the frog?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond with the Sun, air and clouds, a duck, a fish, water, a rock, water plants and a frog, each with a number.",
+   "options": [
+    "2",
+    "4",
+    "7",
+    "8"
+   ],
+   "answer": 3,
+   "explanation": "Number 8 is the frog. Number 4 is the fish, 7 is the water plants and 2 is the air and clouds."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-013",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Looking at a habitat",
+   "read_aloud": true,
+   "stem": "Look at the pond. Which numbers show animals? Choose all that are right.",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond with the Sun, air and clouds, a duck, a fish, water, a rock, water plants and a frog, each with a number.",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Number 3 is a duck, 4 is a fish and 8 is a frog. Number 5 is water and 6 is a rock, so they are not animals."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Looking at a habitat",
+   "read_aloud": true,
+   "stem": "Look at the Sundarbans tree. What are its roots standing in?",
+   "image": "diagrams/mangrove.svg",
+   "image_alt": "A mangrove tree with breathing roots and prop roots in salty mud.",
+   "options": [
+    "dry sand",
+    "salty mud",
+    "a flower pot"
+   ],
+   "answer": 1,
+   "explanation": "Mangrove trees in the Sundarbans grow in salty mud. Their roots stand in the mud and hold the tree up."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-015",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Kinds of habitat",
+   "read_aloud": true,
+   "stem": "Tuli goes by boat in the haor in Sylhet. She sees many fish and ducks. What kind of habitat is this?",
+   "options": [
+    "aquatic (water)",
+    "arboreal (trees)",
+    "fossorial (underground)"
+   ],
+   "answer": 0,
+   "explanation": "A haor is a big wetland full of water. Fish and ducks live there, so it is an aquatic habitat."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Looking at a habitat",
+   "read_aloud": true,
+   "stem": "Anika visits a pond with her class to count the animals. What is the safe way?",
+   "options": [
+    "Reach into the water to catch them.",
+    "Taste the pond water.",
+    "Look with her teacher and do not touch."
+   ],
+   "answer": 2,
+   "explanation": "We look, count and do not touch. Staying with a grown-up near water keeps us safe and does not harm the animals."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Who lives where",
+   "read_aloud": true,
+   "stem": "Moung wants to see an earthworm in the garden. Where should he look?",
+   "options": [
+    "up in the sky",
+    "in the soil under a stone",
+    "high in a tree"
+   ],
+   "answer": 1,
+   "explanation": "Earthworms live in the soil under the ground. They are fossorial animals."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-018",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Habitats of Bangladesh",
+   "read_aloud": true,
+   "stem": "The Sundarbans has land, trees, water, holes in the mud and sky. It has every kind of habitat.",
+   "answer": true,
+   "explanation": "Tigers and deer walk on land. Monkeys climb trees. Fish and crocodiles swim in the rivers. Crabs dig holes in the mud. Birds fly above."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-019",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How habitats help",
+   "read_aloud": true,
+   "stem": "Why can a fish not live in a tree?",
+   "model_answer": "A fish needs water to breathe and swim. A tree has no water.",
+   "keywords": [
+    [
+     "water"
+    ],
+    [
+     "breathe",
+     "swim",
+     "gills",
+     "dry"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "A fish needs water to breathe and swim. A tree is a habitat for monkeys and parrots, not for fish."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-020",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Habitats of Bangladesh",
+   "read_aloud": true,
+   "stem": "Crabs dig holes in the mud in the Sundarbans. A hole under the ground is a ___ habitat.",
+   "blanks": [
+    [
+     "fossorial",
+     "underground"
+    ]
+   ],
+   "bank": [
+    "fossorial",
+    "arboreal",
+    "aerial"
+   ],
+   "explanation": "Fossorial means living under the ground. Crabs, earthworms and rats use holes in the ground."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How habitats help",
+   "read_aloud": true,
+   "stem": "Anika sees a monkey eating fruit in a tree. What does the tree give the monkey? Choose all that are right.",
+   "options": [
+    "fruit to eat",
+    "branches to climb",
+    "water to swim in",
+    "a place to sleep",
+    "soil to dig in"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "A tree gives a monkey fruit to eat, branches to climb and a place to sleep. A monkey does not swim or dig."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Comparing habitats",
+   "read_aloud": true,
+   "stem": "Class 1 counted animals in 5 minutes. Pond: 4 frogs and 6 fish. Garden: 9 ants and 3 butterflies. Which place had more animals?",
+   "options": [
+    "the pond, 2 more",
+    "the pond, 4 more",
+    "the garden, 6 more",
+    "the garden, 2 more"
+   ],
+   "answer": 3,
+   "explanation": "The pond had 4 + 6 = 10 animals. The garden had 9 + 3 = 12 animals. The garden had 2 more."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-023",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Comparing habitats",
+   "read_aloud": true,
+   "stem": "A kingfisher sits on a branch by a pond. It flies over the water and dives in to catch a fish. Which habitats does it use? Choose all that are right.",
+   "options": [
+    "the sky",
+    "a tree",
+    "the pond",
+    "under the ground"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The kingfisher flies in the sky, rests in a tree and hunts in the pond. It does not live under the ground."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A2",
+   "title": "Habitats of Bangladesh",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+   "id": "g1-a2-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Comparing habitats",
+   "read_aloud": true,
+   "stem": "Ants walk on the land and dig homes in the soil. Which two words fit their habitats?",
+   "options": [
+    "aerial and aquatic",
+    "aquatic and arboreal",
+    "terrestrial and fossorial"
+   ],
+   "answer": 2,
+   "explanation": "Terrestrial means on land and fossorial means under the ground. An animal can live in more than one habitat."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Which food helps your body grow?",
+   "options": [
+    {
+     "text": "sweet",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "biscuit",
+     "image": "openmoji/cookie.svg"
+    },
+    {
+     "text": "egg",
+     "image": "openmoji/egg.svg"
+    },
+    {
+     "text": "chips",
+     "image": "openmoji/french-fries.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "An egg is a body-building food. It helps you grow. Fish, dal and milk help you grow too."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Which foods should we eat often? Which only a little?",
+   "categories": [
+    "Eat often",
+    "Eat only a little"
+   ],
+   "items": [
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Eat often"
+    ],
+    [
+     {
+      "text": "egg",
+      "image": "openmoji/egg.svg"
+     },
+     "Eat often"
+    ],
+    [
+     {
+      "text": "broccoli",
+      "image": "openmoji/broccoli.svg"
+     },
+     "Eat often"
+    ],
+    [
+     {
+      "text": "sweet",
+      "image": "openmoji/candy.svg"
+     },
+     "Eat only a little"
+    ],
+    [
+     {
+      "text": "chips",
+      "image": "openmoji/french-fries.svg"
+     },
+     "Eat only a little"
+    ],
+    [
+     {
+      "text": "doughnut",
+      "image": "openmoji/doughnut.svg"
+     },
+     "Eat only a little"
+    ]
+   ],
+   "explanation": "Rice, eggs and green vegetables give us energy, help us grow and keep us healthy. Sweets, chips and doughnuts are fine only as a small treat."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "A balanced diet has some of each kind of food and plenty of ___.",
+   "blanks": [
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "water",
+    "sweets",
+    "chips"
+   ],
+   "explanation": "We need to drink plenty of water every day, as well as eating different kinds of food."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Washing your hands with soap gets rid of germs.",
+   "answer": true,
+   "explanation": "Soap and water wash germs off your hands. Clean hands help stop you getting ill."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "A fizzy drink is the best drink for a healthy body.",
+   "answer": false,
+   "explanation": "Water is the best drink for your body. Fizzy drinks are full of sugar and do not help you grow."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy habits",
+   "read_aloud": true,
+   "stem": "How can you keep your body healthy? Choose all that are right.",
+   "options": [
+    "Play outside.",
+    "Wash your hands.",
+    "Sleep very little.",
+    "Brush your teeth.",
+    "Eat only sweets."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Exercise, clean hands and clean teeth keep us healthy. We also need plenty of sleep and many kinds of food, not only sweets."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-007",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Match each picture to what it does for your body.",
+   "pairs": [
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "gives us energy"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "helps us grow"
+    ],
+    [
+     {
+      "text": "mango",
+      "image": "openmoji/mango.svg"
+     },
+     "keeps us healthy"
+    ],
+    [
+     {
+      "text": "water",
+      "image": "openmoji/water-glass.svg"
+     },
+     "we need plenty each day"
+    ]
+   ],
+   "explanation": "Rice and roti give us energy. Fish, egg and dal help us grow. Fruit and vegetables protect us. We also drink plenty of water."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Rest and sleep",
+   "read_aloud": true,
+   "stem": "Children need to sleep about ___ hours every night.",
+   "blanks": [
+    [
+     "10",
+     "ten"
+    ]
+   ],
+   "bank": [
+    "10",
+    "2",
+    "5"
+   ],
+   "explanation": "Children need about 10 hours of sleep. Sleep rests the body and helps us feel good the next day."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Put the steps for washing hands in order.",
+   "sequence": [
+    "Wet your hands.",
+    "Rub soap on your hands.",
+    "Rub for 20 seconds.",
+    "Rinse off the soap.",
+    "Dry your hands."
+   ],
+   "explanation": "Wet your hands first, then use soap and rub for 20 seconds. Rinse the soap away and dry your hands last."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Which meal is the most balanced?",
+   "options": [
+    "rice, fish, spinach and water",
+    "chips, a sweet cake and a fizzy drink",
+    "biscuits and sweets"
+   ],
+   "answer": 0,
+   "explanation": "Rice gives energy, fish helps us grow, spinach keeps us healthy, and water is the best drink. The other meals have no body-building or protecting foods."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Rice and roti give us ___.",
+   "blanks": [
+    [
+     "energy"
+    ]
+   ],
+   "bank": [
+    "energy",
+    "germs",
+    "sleep"
+   ],
+   "explanation": "Rice, roti and potato are energy foods. They give us the energy to play and learn."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Class 1 put pretend germs (glitter) on their hands, then washed. Spots left: water 5 seconds, 30. Water 20 seconds, 15. Soap 20 seconds, 2. Which way cleaned best?",
+   "options": [
+    "water for 5 seconds",
+    "soap for 20 seconds",
+    "water for 20 seconds"
+   ],
+   "answer": 1,
+   "explanation": "Fewer spots mean cleaner hands. Soap for 20 seconds left only 2 spots, so it cleaned best."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Which food helps protect your body and keeps you healthy?",
+   "options": [
+    {
+     "text": "sweet",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "chocolate",
+     "image": "openmoji/chocolate.svg"
+    },
+    {
+     "text": "broccoli",
+     "image": "openmoji/broccoli.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "Green vegetables and fruit have vitamins and fibre. They protect us and keep us healthy."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-014",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy habits",
+   "read_aloud": true,
+   "stem": "Which pictures show healthy habits? Choose all that are right.",
+   "options": [
+    {
+     "text": "soap",
+     "image": "openmoji/soap.svg"
+    },
+    {
+     "text": "sweet",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "running",
+     "image": "openmoji/person-running.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "toothbrush",
+     "image": "openmoji/toothbrush.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Washing with soap, running and brushing your teeth keep you healthy. Sweets and doughnuts are only for a small treat."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-015",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy habits",
+   "read_aloud": true,
+   "stem": "Match each picture to why it helps.",
+   "pairs": [
+    [
+     {
+      "text": "soap",
+      "image": "openmoji/soap.svg"
+     },
+     "washes away germs"
+    ],
+    [
+     {
+      "text": "toothbrush",
+      "image": "openmoji/toothbrush.svg"
+     },
+     "cleans your teeth"
+    ],
+    [
+     {
+      "text": "bed",
+      "image": "openmoji/bed.svg"
+     },
+     "rests your body"
+    ],
+    [
+     {
+      "text": "running",
+      "image": "openmoji/person-running.svg"
+     },
+     "makes muscles strong"
+    ]
+   ],
+   "explanation": "Soap removes germs, brushing cleans teeth, sleep rests the body and running makes muscles strong."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Rafi's lunch is chips, a sweet cake and a fizzy drink. What should he change?",
+   "options": [
+    "Eat more chips.",
+    "Drink water and add a banana.",
+    "Skip lunch."
+   ],
+   "answer": 1,
+   "explanation": "Water is a better drink, and a banana is a protecting food. Rafi also needs foods that help him grow, such as rice, dal or fish."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Rest and sleep",
+   "read_aloud": true,
+   "stem": "Tumpa watched cartoons until late. At school she is sleepy. What should she do tonight?",
+   "options": [
+    "Watch more cartoons.",
+    "Skip breakfast.",
+    "Go to bed early."
+   ],
+   "answer": 2,
+   "explanation": "Her body needs sleep. Going to bed early helps her feel awake and ready to play at school."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Mina has been playing football in the mud. Now it is time to eat lunch. What should she do first?",
+   "options": [
+    "Wash her hands with soap and water.",
+    "Eat with her muddy hands.",
+    "Wipe her hands on her shirt."
+   ],
+   "answer": 0,
+   "explanation": "Muddy hands can carry germs. Washing with soap and water before eating helps keep us well."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Rest and sleep",
+   "read_aloud": true,
+   "stem": "Anika feels grumpy after a long day. Resting or playing with friends can help her feel better.",
+   "answer": true,
+   "explanation": "Rest and fun help our bodies and our feelings. Playing with friends and relaxing keep us happy and well."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-020",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Being active",
+   "read_aloud": true,
+   "stem": "Anika wants to be active every day. What can she do? Choose all that are right.",
+   "options": [
+    "walk to school",
+    "play cricket with friends",
+    "watch TV all day",
+    "skip with a rope",
+    "lie in bed all day"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Walking, playing cricket and skipping make our bodies move and grow strong. Sitting or lying down all day does not."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-021",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Healthy habits",
+   "read_aloud": true,
+   "stem": "Tumpa feels tired at school. Give her one tip to feel better.",
+   "model_answer": "Go to bed early, or eat a good breakfast, or play outside.",
+   "keywords": [
+    [
+     "sleep",
+     "bed",
+     "rest",
+     "early",
+     "night"
+    ],
+    [
+     "eat",
+     "breakfast",
+     "food",
+     "fruit"
+    ],
+    [
+     "play",
+     "exercise",
+     "active",
+     "run"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "A tired body needs sleep, good food and exercise. Any of these tips can help Tumpa feel better."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Balanced diet",
+   "read_aloud": true,
+   "stem": "Nadia's dinner is rice, roti and potato. What should she add to make it balanced?",
+   "options": [
+    "more rice and roti",
+    "a fizzy drink",
+    "more potatoes",
+    "fish and spinach"
+   ],
+   "answer": 3,
+   "explanation": "Rice, roti and potato are all energy foods. Fish helps her grow and spinach protects her, so she needs both."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "In the glitter test, water for 5 seconds left 30 spots. Soap for 20 seconds left 2 spots. How many fewer spots did soap for 20 seconds leave?",
+   "options": [
+    "2",
+    "28",
+    "30",
+    "32"
+   ],
+   "answer": 1,
+   "explanation": "30 take away 2 is 28. Soap for 20 seconds took away 28 more spots than water for 5 seconds."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "A3",
+   "title": "Healthy Bodies",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+   "id": "g1-a3-024",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Keeping clean",
+   "read_aloud": true,
+   "stem": "Water for 5 seconds left 30 glitter spots. Soap for 20 seconds left 2 spots. Sumi says: 'They clean just as well.' Is Sumi right?",
+   "answer": false,
+   "explanation": "30 spots is much more than 2 spots. Soap and 20 seconds cleaned much better than a quick rinse."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Look at the stick and its shadow. When is the shadow shortest?",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky.",
+   "options": [
+    "in the evening",
+    "at midday",
+    "in the morning"
+   ],
+   "answer": 1,
+   "explanation": "At midday the Sun is high in the sky, so the shadow is short. In the morning and evening the Sun is low and the shadow is long."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-002",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Look at the picture. The stick's shadow is long in the morning and in the evening.",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky.",
+   "answer": true,
+   "explanation": "When the Sun is low in the sky, shadows are long. This happens in the morning and the evening."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-003",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "Look at the spinning Earth. The side facing the Sun has day.",
+   "image": "diagrams/day-night.svg",
+   "image_alt": "The Sun lights one half of the spinning Earth: day on the side facing the Sun, night on the other side.",
+   "answer": true,
+   "explanation": "The side of the Earth facing the Sun has day. The side facing away from the Sun has night."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "The Moon and stars",
+   "read_aloud": true,
+   "stem": "Look at the Moon's shapes. Which number is the full Moon?",
+   "image": "diagrams/moon-phases-numbered.svg",
+   "image_alt": "Eight shapes of the Moon numbered 1 to 8. Number 1 is the new Moon and number 5 is the full Moon.",
+   "options": [
+    "5",
+    "1",
+    "3",
+    "7"
+   ],
+   "answer": 0,
+   "explanation": "Number 5 is the full Moon, round and bright. Number 1 is the new Moon, when we can hardly see it."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "The Moon and stars",
+   "read_aloud": true,
+   "stem": "What do we see in the sky by day? What do we see by night?",
+   "categories": [
+    "Day",
+    "Night"
+   ],
+   "items": [
+    [
+     {
+      "text": "Sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "sunrise",
+      "image": "openmoji/sunrise.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "rainbow",
+      "image": "openmoji/rainbow.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "star",
+      "image": "openmoji/star.svg"
+     },
+     "Night"
+    ],
+    [
+     {
+      "text": "night sky",
+      "image": "openmoji/night-with-stars.svg"
+     },
+     "Night"
+    ],
+    [
+     {
+      "text": "Milky Way",
+      "image": "openmoji/milky-way.svg"
+     },
+     "Night"
+    ]
+   ],
+   "explanation": "We see the Sun, sunrise and rainbows in the day. Stars are in the sky all the time, but we can only see them at night."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Sun in the sky",
+   "read_aloud": true,
+   "stem": "The Sun rises in the ___ and sets in the west.",
+   "blanks": [
+    [
+     "east"
+    ]
+   ],
+   "bank": [
+    "east",
+    "north",
+    "spin"
+   ],
+   "explanation": "Every morning the Sun comes up in the east. In the evening it goes down in the west."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "The Earth ___, so we have day and night.",
+   "blanks": [
+    [
+     "spins",
+     "turns",
+     "rotates",
+     "spin"
+    ]
+   ],
+   "bank": [
+    "spins",
+    "stops",
+    "grows"
+   ],
+   "explanation": "The Earth spins round. The side facing the Sun has day and the side facing away has night."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "The Moon and stars",
+   "read_aloud": true,
+   "stem": "The Moon makes its own light.",
+   "answer": false,
+   "explanation": "The Moon does not make light. It shines because it reflects light from the Sun."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Shadows are shortest at midday.",
+   "answer": true,
+   "explanation": "At midday the Sun is highest in the sky, so shadows are short."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "The Sun in the sky",
+   "read_aloud": true,
+   "stem": "Put these in order, from morning to night.",
+   "sequence": [
+    "The Sun rises in the east.",
+    "The Sun is high at midday.",
+    "The Sun sets in the west.",
+    "Stars come out at night."
+   ],
+   "explanation": "The Sun seems to climb up in the morning, is highest at midday and goes down in the evening. Then we see the stars."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "Mina shines a torch on a ball in a dark room. The torch stands for the…",
+   "options": [
+    "Sun",
+    "Moon",
+    "Earth"
+   ],
+   "answer": 0,
+   "explanation": "The torch is the Sun and the ball is the Earth. The lit side of the ball has day and the dark side has night."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-012",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Sun and Moon in our culture",
+   "read_aloud": true,
+   "stem": "Match each one to what it means.",
+   "pairs": [
+    [
+     "Pohela Boishakh",
+     "welcomes the new Bangla year"
+    ],
+    [
+     "sunset in Ramadan",
+     "time to break the fast"
+    ],
+    [
+     "seeing the new Moon",
+     "Eid begins"
+    ]
+   ],
+   "explanation": "The Sun and Moon matter to many people. Muslims break their fast at sunset in Ramadan. Eid begins when the new Moon is seen. Pohela Boishakh welcomes the new Bangla year."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-013",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The Sun in the sky",
+   "read_aloud": true,
+   "stem": "What is true about the Sun? Choose all that are right.",
+   "options": [
+    "It rises in the east.",
+    "It rises in the west.",
+    "It sets in the west.",
+    "It is highest at midday.",
+    "It goes out at night."
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "The Sun rises in the east, is highest at midday and sets in the west. It does not go out at night. The Earth spins so our side faces away from it."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-014",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Moon and stars",
+   "read_aloud": true,
+   "stem": "Match each picture to what it shows.",
+   "pairs": [
+    [
+     {
+      "text": "sunrise",
+      "image": "openmoji/sunrise.svg"
+     },
+     "the Sun comes up"
+    ],
+    [
+     {
+      "text": "night sky",
+      "image": "openmoji/night-with-stars.svg"
+     },
+     "stars at night"
+    ],
+    [
+     {
+      "text": "full Moon",
+      "image": "openmoji/full-moon.svg"
+     },
+     "a round, bright Moon"
+    ],
+    [
+     {
+      "text": "Sun",
+      "image": "openmoji/sun.svg"
+     },
+     "gives us light and heat"
+    ]
+   ],
+   "explanation": "At sunrise the Sun comes up. At night we see stars. A full Moon looks round and bright. The Sun gives us light and heat."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-015",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Staying safe",
+   "read_aloud": true,
+   "stem": "Raju wants to see the Sun. What is the safe way?",
+   "options": [
+    "Look straight at it for a short time.",
+    "Look at it through binoculars.",
+    "Look at the shadow it makes instead."
+   ],
+   "answer": 2,
+   "explanation": "Never look straight at the Sun. It can hurt your eyes. We can watch the shadows instead."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sun and Moon in our culture",
+   "read_aloud": true,
+   "stem": "On the last evening of Ramadan, Imran's family looks for the new Moon. Where should they look?",
+   "options": [
+    "the eastern sky at midnight",
+    "the northern sky at noon",
+    "the western sky after sunset"
+   ],
+   "answer": 2,
+   "explanation": "A thin new Moon is low in the western sky just after sunset. When the family sees it, they know Eid will start the next day."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "At 12 o'clock Tuli plays outside. Her shadow is very short. Why?",
+   "options": [
+    "The Earth stopped spinning.",
+    "The Sun is high in the sky.",
+    "The Moon is out."
+   ],
+   "answer": 1,
+   "explanation": "At midday the Sun is high in the sky, so shadows are short."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-018",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Class 1 measured a stick's shadow. At 9 o'clock it was 6 hand spans. At 12 o'clock it was 1 hand span. At 3 o'clock it was 5 hand spans. The shadow was shortest at ___ o'clock.",
+   "blanks": [
+    [
+     "12",
+     "twelve"
+    ]
+   ],
+   "bank": [
+    "9",
+    "12",
+    "3"
+   ],
+   "explanation": "1 hand span is the smallest number, so the shadow was shortest at 12 o'clock. The Sun is highest at midday."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "It is daytime for Nadia in Dhaka. Her uncle in another country says it is dark there. This can happen because the Earth spins.",
+   "answer": true,
+   "explanation": "The Earth spins, so when one side faces the Sun, the other side faces away. It can be day in one country and night in another."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-020",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "Why do we have day and night?",
+   "model_answer": "The Earth spins. The side facing the Sun has day and the side facing away has night.",
+   "keywords": [
+    [
+     "spin",
+     "spins",
+     "turn",
+     "turns",
+     "rotates",
+     "spinning"
+    ],
+    [
+     "sun",
+     "light",
+     "facing",
+     "face"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "The Sun does not really move. The Earth spins, so each side takes a turn facing the Sun."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-021",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Look at the picture. The object blocks the ___, so there is a shadow.",
+   "image": "diagrams/shadow-setup.svg",
+   "image_alt": "A torch shines on an object and the object's shadow falls on a screen.",
+   "blanks": [
+    [
+     "light"
+    ]
+   ],
+   "bank": [
+    "light",
+    "sound",
+    "wind"
+   ],
+   "explanation": "A shadow forms behind an object when the object blocks the light from the torch or the Sun."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Mina measured a shadow. 9 o'clock: 6 hand spans. 12 o'clock: 1 hand span. 3 o'clock: 5 hand spans. When was the Sun highest in the sky?",
+   "options": [
+    "12 o'clock",
+    "9 o'clock",
+    "3 o'clock"
+   ],
+   "answer": 0,
+   "explanation": "The shortest shadow means the Sun is highest. The shadow was shortest at 12 o'clock."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "The Sun in the sky",
+   "read_aloud": true,
+   "stem": "Look at the picture. In the morning the shadow points to the west. Where is the Sun in the morning?",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow in the morning, at midday and in the evening. The morning shadow points west and the evening shadow points east.",
+   "options": [
+    "in the west",
+    "straight above",
+    "in the east"
+   ],
+   "answer": 2,
+   "explanation": "A shadow falls on the opposite side to the Sun. The shadow points west, so the Sun is in the east. That is where the Sun rises."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B1",
+   "title": "The Sun, Moon and Stars",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+   "id": "g1-b1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "Rafi says: 'It is night because the Sun goes out.' Which idea is right?",
+   "options": [
+    "The Earth spins, so our side turns away from the Sun.",
+    "The Sun goes to sleep at night.",
+    "The Moon covers the Sun."
+   ],
+   "answer": 0,
+   "explanation": "The Sun does not go out. The Earth spins, so at night our side faces away from the Sun."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-001",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "Match each kind of weather to what you wear or use.",
+   "pairs": [
+    [
+     {
+      "text": "rainy day",
+      "image": "openmoji/rain-cloud.svg"
+     },
+     "an umbrella"
+    ],
+    [
+     {
+      "text": "sunny day",
+      "image": "openmoji/sun.svg"
+     },
+     "a sun hat"
+    ],
+    [
+     {
+      "text": "cold day",
+      "image": "openmoji/cold-face.svg"
+     },
+     "a scarf and jumper"
+    ]
+   ],
+   "explanation": "An umbrella keeps us dry in the rain. A sun hat keeps the Sun off our head. A scarf and jumper keep us warm on a cold day."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring the weather",
+   "read_aloud": true,
+   "stem": "Look at the weather tools. Which letter is the rain gauge?",
+   "image": "diagrams/weather-instruments-lettered.svg",
+   "image_alt": "Five weather tools lettered A to E: a thermometer, a rain gauge, a wind vane, an anemometer and a barometer.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 1,
+   "explanation": "B is the rain gauge. It collects rain so we can see how much fell. A is the thermometer, which shows how hot it is."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "Which picture shows windy weather?",
+   "options": [
+    {
+     "text": "rain cloud",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "storm cloud",
+     "image": "openmoji/thunder-cloud.svg"
+    },
+    {
+     "text": "wind",
+     "image": "openmoji/wind-face.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "The wind picture shows air moving. Windy weather moves leaves, flags and kites."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-004",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring the weather",
+   "read_aloud": true,
+   "stem": "Which weather tool would you use? Sort each job.",
+   "categories": [
+    "thermometer",
+    "rain gauge",
+    "wind flag"
+   ],
+   "items": [
+    [
+     "how hot it is",
+     "thermometer"
+    ],
+    [
+     "how cold it is",
+     "thermometer"
+    ],
+    [
+     "how much rain fell",
+     "rain gauge"
+    ],
+    [
+     "how full the rain bottle is",
+     "rain gauge"
+    ],
+    [
+     "which way the wind blows",
+     "wind flag"
+    ],
+    [
+     "where the flag points",
+     "wind flag"
+    ]
+   ],
+   "explanation": "A thermometer measures how hot or cold. A rain gauge collects rain. A wind flag points the way the wind blows."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "The monsoon brings good things and problems. Sort them.",
+   "categories": [
+    "Good thing",
+    "Problem"
+   ],
+   "items": [
+    [
+     "water for rice fields",
+     "Good thing"
+    ],
+    [
+     "green fields",
+     "Good thing"
+    ],
+    [
+     "paper boats on puddles",
+     "Good thing"
+    ],
+    [
+     "floods",
+     "Problem"
+    ],
+    [
+     "rivers overflow their banks",
+     "Problem"
+    ]
+   ],
+   "explanation": "Monsoon rain gives rice fields water and turns the land green. Too much rain can make the rivers overflow and cause floods."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring the weather",
+   "read_aloud": true,
+   "stem": "We measure how hot it is with a ___. We measure rain with a rain ___.",
+   "blanks": [
+    [
+     "thermometer"
+    ],
+    [
+     "gauge"
+    ]
+   ],
+   "bank": [
+    "thermometer",
+    "gauge",
+    "ruler",
+    "clock"
+   ],
+   "explanation": "A thermometer measures how hot or cold it is. A rain gauge measures how much rain falls."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "The weather is the same every day.",
+   "answer": false,
+   "explanation": "The weather changes from day to day. One day can be sunny and the next day can be rainy."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "A weather forecast tells us what the weather will be like.",
+   "answer": true,
+   "explanation": "Forecasters use patterns in the weather to say what tomorrow will be like."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "In Bangladesh, the wet rainy season is called the…",
+   "options": [
+    "winter",
+    "summer",
+    "monsoon"
+   ],
+   "answer": 2,
+   "explanation": "The wet season is the monsoon. It brings heavy rain, and rivers fill up."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "The seasons come round every year. Start with hot summer. What comes next?",
+   "sequence": [
+    "hot summer",
+    "the rainy season (monsoon)",
+    "cool winter"
+   ],
+   "explanation": "In Bangladesh the weather follows a pattern: hot summer, then the wet rainy season, then cool winter. Then the pattern starts again."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-011",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "Which pictures show wet weather? Choose all that are right.",
+   "options": [
+    {
+     "text": "rain cloud",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "storm cloud",
+     "image": "openmoji/thunder-cloud.svg"
+    },
+    {
+     "text": "wind",
+     "image": "openmoji/wind-face.svg"
+    },
+    {
+     "text": "umbrella in rain",
+     "image": "openmoji/umbrella-with-rain.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Rain clouds, storm clouds and an umbrella in the rain all show wet weather. The Sun and the wind are dry."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-012",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of weather",
+   "read_aloud": true,
+   "stem": "Match each weather word to its meaning.",
+   "pairs": [
+    [
+     "weather",
+     "what the air outside is like"
+    ],
+    [
+     "season",
+     "a time of year with its own weather"
+    ],
+    [
+     "forecast",
+     "telling what the weather will be"
+    ]
+   ],
+   "explanation": "Weather is what the air outside is like each day. A season is a time of year with its own weather. A forecast says what the weather will be."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Recording the weather",
+   "read_aloud": true,
+   "stem": "Class 1 looked at the sky for 10 days. Sunny: 5 days. Cloudy: 3 days. Rainy: 2 days. The most common weather was ___.",
+   "blanks": [
+    [
+     "sunny"
+    ]
+   ],
+   "bank": [
+    "sunny",
+    "cloudy",
+    "rainy"
+   ],
+   "explanation": "Sunny has the biggest number, 5 days. So sunny was the most common weather."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Water and the weather",
+   "read_aloud": true,
+   "stem": "Look at the water cycle. Which number shows rain falling?",
+   "image": "diagrams/water-cycle-numbered.svg",
+   "image_alt": "The water cycle with five stages numbered 1 to 5. Number 3 shows rain falling from a cloud.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Number 3 is rain falling from the cloud. Rain gives us water for rivers, ponds and rice fields."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-015",
+   "mode": "olympiad",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Water and the weather",
+   "read_aloud": true,
+   "stem": "Water goes round and round. Put the journey of the water in order.",
+   "sequence": [
+    "The Sun warms the river water.",
+    "The water rises into the air.",
+    "The water makes clouds.",
+    "Rain falls from the clouds.",
+    "Rain runs into the rivers."
+   ],
+   "explanation": "The Sun warms water so it rises into the air and makes clouds. The rain falls and runs back into the rivers. Then the journey starts again."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Staying safe in the weather",
+   "read_aloud": true,
+   "stem": "Raju is flying his kite. Dark clouds come and thunder rumbles. What should he do?",
+   "options": [
+    "Go inside the house.",
+    "Keep flying his kite.",
+    "Stand under a tall tree."
+   ],
+   "answer": 0,
+   "explanation": "In a storm we go indoors. A kite or a tall tree can be dangerous in thunder and lightning."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-017",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weather and us",
+   "read_aloud": true,
+   "stem": "Mina plays outside on a hot sunny day. What should she do? Choose all that are right.",
+   "options": [
+    "Wear a sun hat.",
+    "Drink water.",
+    "Wear a thick jumper.",
+    "Play in the shade.",
+    "Stay in the Sun all day."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "A hat, water and shade keep us cool on a hot day. A thick jumper makes us hotter, and staying in the Sun all day is not safe."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Weather and us",
+   "read_aloud": true,
+   "stem": "Why do farmers like the monsoon rain?",
+   "options": [
+    "It makes the soil very dry.",
+    "It gives the fields water.",
+    "It stops the rice seeds growing."
+   ],
+   "answer": 1,
+   "explanation": "Rice grows best in fields full of water. The monsoon rain fills the fields so farmers can plant rice."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Staying safe in the weather",
+   "read_aloud": true,
+   "stem": "The radio says heavy rain is coming and the river may flood. What should Sumi's family do?",
+   "options": [
+    "Go to play in the river water.",
+    "Stay outside and ignore the news.",
+    "Move to a higher, safe place."
+   ],
+   "answer": 2,
+   "explanation": "A forecast helps us get ready. Moving to a higher, safe place keeps the family away from the flood water."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Recording the weather",
+   "read_aloud": true,
+   "stem": "Tuli empties her rain gauge every evening. Today it holds more water than yesterday. This means more rain fell today.",
+   "answer": true,
+   "explanation": "A rain gauge collects the rain that falls. More water in the gauge means more rain fell."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-021",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Measuring the weather",
+   "read_aloud": true,
+   "stem": "Look at the weather tools. Which letter shows which way the wind blows?",
+   "image": "diagrams/weather-instruments-lettered.svg",
+   "image_alt": "Five weather tools lettered A to E: a thermometer, a rain gauge, a wind vane that points the way the wind blows, an anemometer and a barometer.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 2,
+   "explanation": "C is the wind vane. It turns and points the way the wind is blowing, like a wind flag."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Recording the weather",
+   "read_aloud": true,
+   "stem": "Class 1 looked at the sky for 10 days. Sunny: 5 days. Cloudy: 3 days. Rainy: 2 days. On how many days was it cloudy or rainy?",
+   "options": [
+    "2 days",
+    "5 days",
+    "8 days",
+    "10 days"
+   ],
+   "answer": 1,
+   "explanation": "3 cloudy days plus 2 rainy days is 5 days."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-023",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Weather and seasons in Bangladesh",
+   "read_aloud": true,
+   "stem": "Class 1 saw sunny weather on 5 of 10 days. Raju says: 'It will be sunny tomorrow for sure.' Is Raju right?",
+   "answer": false,
+   "explanation": "Patterns help us guess, but the weather can change. Tomorrow could be cloudy or rainy. A forecast is a good guess, not a sure thing."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B2",
+   "title": "Weather Watching",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+   "id": "g1-b2-024",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Staying safe in the weather",
+   "read_aloud": true,
+   "stem": "Why do people listen to the weather forecast in the monsoon?",
+   "model_answer": "To know when heavy rain and floods may come, so they can stay safe.",
+   "keywords": [
+    [
+     "flood",
+     "floods",
+     "heavy rain",
+     "storm",
+     "rain"
+    ],
+    [
+     "safe",
+     "safety",
+     "ready",
+     "prepare",
+     "know",
+     "plan"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "Too much rain can bring floods. The forecast tells people to get ready and stay safe."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Which picture shows something that harms the environment?",
+   "options": [
+    {
+     "text": "bin",
+     "image": "openmoji/wastebasket.svg"
+    },
+    {
+     "text": "tree",
+     "image": "openmoji/deciduous-tree.svg"
+    },
+    {
+     "text": "smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "cloth bag",
+     "image": "openmoji/reusable-bag.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "Smoke makes the air dirty, so it harms the environment. Bins, trees and cloth bags help to keep it clean."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-002",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Sorting waste",
+   "read_aloud": true,
+   "stem": "Which bin? Match each piece of waste to its bin.",
+   "pairs": [
+    [
+     {
+      "text": "newspaper",
+      "image": "openmoji/newspaper.svg"
+     },
+     "paper bin"
+    ],
+    [
+     {
+      "text": "plastic bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "plastic bin"
+    ],
+    [
+     {
+      "text": "tin can",
+      "image": "openmoji/tin-can.svg"
+     },
+     "metal bin"
+    ],
+    [
+     {
+      "text": "mango peel",
+      "image": "openmoji/mango.svg"
+     },
+     "compost"
+    ]
+   ],
+   "explanation": "We sort waste by what it is made of. Paper, plastic and metal can be recycled. A mango peel is food waste, so it goes to compost."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-003",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Which pictures show a healthy environment? Choose all that are right.",
+   "options": [
+    {
+     "text": "tree",
+     "image": "openmoji/deciduous-tree.svg"
+    },
+    {
+     "text": "clean water",
+     "image": "openmoji/potable-water.svg"
+    },
+    {
+     "text": "oil in water",
+     "image": "openmoji/oil-spill.svg"
+    },
+    {
+     "text": "smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "litter in a bin",
+     "image": "openmoji/litter-in-bin-sign.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Trees, clean water and litter in a bin all help keep the environment healthy. Oil in water and smoke harm it."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-004",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Does it help or harm the environment? Sort the pictures.",
+   "categories": [
+    "Helps",
+    "Harms"
+   ],
+   "items": [
+    [
+     {
+      "text": "tree",
+      "image": "openmoji/deciduous-tree.svg"
+     },
+     "Helps"
+    ],
+    [
+     {
+      "text": "cloth bag",
+      "image": "openmoji/reusable-bag.svg"
+     },
+     "Helps"
+    ],
+    [
+     {
+      "text": "litter in a bin",
+      "image": "openmoji/litter-in-bin-sign.svg"
+     },
+     "Helps"
+    ],
+    [
+     {
+      "text": "oil in water",
+      "image": "openmoji/oil-spill.svg"
+     },
+     "Harms"
+    ],
+    [
+     {
+      "text": "smoke",
+      "image": "openmoji/factory-smoke.svg"
+     },
+     "Harms"
+    ],
+    [
+     {
+      "text": "car smoke",
+      "image": "openmoji/car-exhaust.svg"
+     },
+     "Harms"
+    ]
+   ],
+   "explanation": "Trees clean the air. A cloth bag can be used again and again, and a bin keeps litter off the ground. Oil and smoke make the water and air dirty."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "Which picture shows reusing?",
+   "options": [
+    {
+     "text": "bin",
+     "image": "openmoji/wastebasket.svg"
+    },
+    {
+     "text": "cloth bag",
+     "image": "openmoji/reusable-bag.svg"
+    },
+    {
+     "text": "smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "car smoke",
+     "image": "openmoji/car-exhaust.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "We can use a cloth bag again and again. Reuse means to use something again."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-006",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sorting waste",
+   "read_aloud": true,
+   "stem": "This banana skin is food waste. Where should it go?",
+   "image": "openmoji/banana.svg",
+   "image_alt": "A banana.",
+   "options": [
+    "compost",
+    "metal bin",
+    "plastic bin",
+    "paper bin"
+   ],
+   "answer": 0,
+   "explanation": "Food waste rots and makes the soil rich. We put it in compost, not in the paper, metal or plastic bins."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "Reduce, reuse or recycle? Sort each idea.",
+   "categories": [
+    "Reduce",
+    "Reuse",
+    "Recycle"
+   ],
+   "items": [
+    [
+     "use both sides of the paper",
+     "Reduce"
+    ],
+    [
+     "take only the food you can eat",
+     "Reduce"
+    ],
+    [
+     "use an old jar as a pencil pot",
+     "Reuse"
+    ],
+    [
+     "carry a cloth bag again and again",
+     "Reuse"
+    ],
+    [
+     "put cans in the metal bin",
+     "Recycle"
+    ],
+    [
+     "put old paper in the paper bin",
+     "Recycle"
+    ]
+   ],
+   "explanation": "Reduce means use less. Reuse means use again. Recycle means make something new from old things."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "The three Rs are reduce, reuse and ___.",
+   "blanks": [
+    [
+     "recycle"
+    ]
+   ],
+   "bank": [
+    "recycle",
+    "rubbish",
+    "river"
+   ],
+   "explanation": "Reduce, reuse and recycle are the three Rs. They help us make less rubbish."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sorting waste",
+   "read_aloud": true,
+   "stem": "Food waste can be made into compost.",
+   "answer": true,
+   "explanation": "Food waste rots and makes the soil rich. Gardeners use compost to help plants grow."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Cutting down lots of trees helps keep our air clean.",
+   "answer": false,
+   "explanation": "Trees help keep the air clean and are homes for animals. Cutting down lots of trees harms the environment."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-011",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "What does a healthy environment have? Choose all that are right.",
+   "options": [
+    "clean water",
+    "litter on the ground",
+    "plenty of trees",
+    "smoky air",
+    "fresh air"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "A healthy environment has clean water, plenty of trees and fresh air. Litter and smoke make it unhealthy."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-012",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Put the steps in order to sort the class rubbish.",
+   "sequence": [
+    "Put on gloves.",
+    "Empty the bin onto a sheet.",
+    "Sort the waste into groups.",
+    "Count each group.",
+    "Wash your hands."
+   ],
+   "explanation": "We wear gloves first to stay safe. Then we empty, sort and count the waste, and wash our hands at the end."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "Reduce means to use less.",
+   "answer": true,
+   "explanation": "To reduce is to use less. When we use less, we make less rubbish."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-014",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Class 1 sorted their bin. Paper: 12. Plastic: 8. Food: 5. Metal: 2. They had the most ___ waste.",
+   "blanks": [
+    [
+     "paper"
+    ]
+   ],
+   "bank": [
+    "paper",
+    "plastic",
+    "metal"
+   ],
+   "explanation": "12 is the biggest number, so there was most paper waste. They can use both sides of the paper to make less."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-015",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Match each harmful action to the problem it causes.",
+   "pairs": [
+    [
+     "dropping litter",
+     "can hurt animals"
+    ],
+    [
+     "burning rubbish",
+     "makes the air dirty"
+    ],
+    [
+     "dirty river water",
+     "can make people ill"
+    ],
+    [
+     "cutting down trees",
+     "animals lose their homes"
+    ]
+   ],
+   "explanation": "Litter can hurt animals, and smoke makes the air dirty. Dirty water can make people ill. Trees are homes for animals."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Staying safe",
+   "read_aloud": true,
+   "stem": "Moung sees a broken glass bottle on the playground. What should he do?",
+   "options": [
+    "Pick it up with his hands.",
+    "Kick it into the grass.",
+    "Tell a teacher."
+   ],
+   "answer": 2,
+   "explanation": "Broken glass can cut us. We never touch it. We tell a teacher so a grown-up can clear it safely."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Keeping school clean",
+   "read_aloud": true,
+   "stem": "Plastic bags blow around Tuli's playground. What is a good plan?",
+   "options": [
+    "Put labelled bins in each class.",
+    "Burn all the bags behind the school.",
+    "Throw the bags into the pond."
+   ],
+   "answer": 0,
+   "explanation": "Bins in every class help children put litter in the right place. Burning bags makes smoke, and bags in a pond harm the water and animals."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sorting waste",
+   "read_aloud": true,
+   "stem": "After cooking, Anika's family has fruit peels and vegetable scraps. What can they do?",
+   "options": [
+    "Burn them with the plastic.",
+    "Make compost for the garden.",
+    "Throw them into the river."
+   ],
+   "answer": 1,
+   "explanation": "Peels and scraps rot and make rich compost for plants. Burning and throwing them in the river harm the air and the water."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "At the market, Nadia takes her own cloth bag instead of a new plastic bag each time. This helps the environment.",
+   "answer": true,
+   "explanation": "Using a cloth bag again and again means less plastic is thrown away. This is reusing."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-020",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Keeping school clean",
+   "read_aloud": true,
+   "stem": "How can our school stay clean and healthy? Choose all that are right.",
+   "options": [
+    "Put bins in the classes.",
+    "Plant trees.",
+    "Drop litter in the playground.",
+    "Keep the toilets clean.",
+    "Leave the taps running."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Bins, trees and clean toilets keep a school healthy. Litter makes the playground dirty, and running taps waste water."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-021",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Keeping school clean",
+   "read_aloud": true,
+   "stem": "Write one thing you can do to keep your school clean.",
+   "model_answer": "I can put my litter in the bin.",
+   "keywords": [
+    [
+     "bin",
+     "bins",
+     "litter",
+     "rubbish",
+     "waste",
+     "recycle",
+     "reuse",
+     "sort",
+     "sweep",
+     "clean",
+     "trees",
+     "tree",
+     "compost"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "Putting litter in the bin, sorting waste and planting trees all help keep a school clean and healthy."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Class 1 sorted their bin. Paper: 12. Plastic: 8. Food: 5. Metal: 2. How many pieces of waste were there in all?",
+   "options": [
+    "25",
+    "27",
+    "29",
+    "30"
+   ],
+   "answer": 1,
+   "explanation": "12 + 8 = 20. 20 + 5 = 25. 25 + 2 = 27. There were 27 pieces of waste."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Class 1 had 12 pieces of paper, 8 of plastic, 5 of food and 2 of metal. They want to make less rubbish. What is the best first plan?",
+   "options": [
+    "Use both sides of the paper.",
+    "Use fewer metal tins in class.",
+    "Stop eating fruit and snacks."
+   ],
+   "answer": 0,
+   "explanation": "Paper was the biggest pile. Using both sides of the paper makes the biggest change."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "B3",
+   "title": "Keeping Our Environment Clean",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+   "id": "g1-b3-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Class 1 found 12 pieces of paper, 5 of food and 2 of metal. Food and metal together are how many fewer than paper?",
+   "options": [
+    "7",
+    "10",
+    "5",
+    "19"
+   ],
+   "answer": 2,
+   "explanation": "Food and metal together are 5 + 2 = 7. Paper is 12. 12 take away 7 is 5, so food and metal together are 5 fewer."
+  }
+ ]
+}

@@ -1,0 +1,536 @@
+{
+ "grade": 0,
+ "grade_name": "Kindergarten",
+ "topic": "B1",
+ "title": "Day, Night and Seasons",
+ "strand": "earth",
+ "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+ "questions": [
+  {
+   "id": "kg-b1-001",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Day and night",
+   "stem": "Sort the pictures. Day or night?",
+   "categories": [
+    "Day",
+    "Night"
+   ],
+   "items": [
+    [
+     {
+      "text": "sunrise",
+      "image": "openmoji/sunrise.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "school",
+      "image": "openmoji/school.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "stars",
+      "image": "openmoji/star.svg"
+     },
+     "Night"
+    ],
+    [
+     {
+      "text": "moon",
+      "image": "openmoji/moon.svg"
+     },
+     "Night"
+    ],
+    [
+     {
+      "text": "bed",
+      "image": "openmoji/bed.svg"
+     },
+     "Night"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We see the sunrise, the Sun and go to school in the day. At night we see stars and the Moon, and we sleep in bed."
+  },
+  {
+   "id": "kg-b1-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "Which one do we see in the sky at night?",
+   "options": [
+    {
+     "text": "moon",
+     "image": "openmoji/moon.svg"
+    },
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "rainbow",
+     "image": "openmoji/rainbow.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "We see the Moon and the stars in the night sky. The Sun shines in the day."
+  },
+  {
+   "id": "kg-b1-003",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weather and clothes",
+   "stem": "Match the weather to what we need.",
+   "pairs": [
+    [
+     {
+      "text": "rainy",
+      "image": "openmoji/rain-cloud.svg"
+     },
+     {
+      "text": "umbrella",
+      "image": "openmoji/umbrella.svg"
+     }
+    ],
+    [
+     {
+      "text": "sunny",
+      "image": "openmoji/sun.svg"
+     },
+     {
+      "text": "cool water",
+      "image": "openmoji/water-glass.svg"
+     }
+    ],
+    [
+     {
+      "text": "cold",
+      "image": "openmoji/cold-face.svg"
+     },
+     {
+      "text": "warm scarf",
+      "image": "openmoji/scarf.svg"
+     }
+    ],
+    [
+     {
+      "text": "windy",
+      "image": "openmoji/wind-face.svg"
+     },
+     {
+      "text": "kite",
+      "image": "openmoji/kite.svg"
+     }
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We use an umbrella in the rain, cool water when it is sunny and hot, a warm scarf when it is cold, and a kite when it is windy."
+  },
+  {
+   "id": "kg-b1-004",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Weather and clothes",
+   "stem": "Rain is falling. What should Mina take to school?",
+   "options": [
+    {
+     "text": "ice cream",
+     "image": "openmoji/ice-cream.svg"
+    },
+    {
+     "text": "a ball",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "umbrella",
+     "image": "openmoji/umbrella.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "An umbrella keeps the rain off. Ice cream and a ball do not help in the rain."
+  },
+  {
+   "id": "kg-b1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "At night, we can see the Moon and the ___.",
+   "blanks": [
+    [
+     "stars",
+     "star"
+    ]
+   ],
+   "bank": [
+    "stars",
+    "Sun",
+    "rainbow"
+   ],
+   "read_aloud": true,
+   "explanation": "At night the sky is dark and we may see the Moon and the stars."
+  },
+  {
+   "id": "kg-b1-006",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "Put the times of the day in order.",
+   "sequence": [
+    {
+     "text": "morning",
+     "image": "openmoji/sunrise.svg"
+    },
+    {
+     "text": "day",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "night",
+     "image": "openmoji/night-with-stars.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "The day starts with the morning, then comes the bright day, and then it is night."
+  },
+  {
+   "id": "kg-b1-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "In the day, the ___ lights up our sky.",
+   "blanks": [
+    [
+     "Sun",
+     "sun"
+    ]
+   ],
+   "bank": [
+    "Sun",
+    "Moon",
+    "stars"
+   ],
+   "read_aloud": true,
+   "explanation": "The Sun gives us light in the day. At night it is dark."
+  },
+  {
+   "id": "kg-b1-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "The Sun shines at night.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. The Sun shines in the day. At night the sky is dark and we may see the Moon and stars."
+  },
+  {
+   "id": "kg-b1-009",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Weather",
+   "stem": "Tap the pictures that show weather.",
+   "options": [
+    {
+     "text": "sunny",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "bed",
+     "image": "openmoji/bed.svg"
+    },
+    {
+     "text": "rainy",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "school",
+     "image": "openmoji/school.svg"
+    },
+    {
+     "text": "windy",
+     "image": "openmoji/wind-face.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Sunny, rainy and windy are kinds of weather. A bed and a school are not weather."
+  },
+  {
+   "id": "kg-b1-010",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "The Sun shines on this side. Is it day or night?",
+   "image": "diagrams/day-night.svg",
+   "image_alt": "The Sun on the left shines on the Earth. The side facing the Sun is marked DAY and the dark side is marked NIGHT.",
+   "options": [
+    {
+     "text": "night",
+     "image": "openmoji/night-with-stars.svg"
+    },
+    {
+     "text": "day",
+     "image": "openmoji/sun.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "It is day on the side of the Earth that faces the Sun. The other side is dark, so it is night there."
+  },
+  {
+   "id": "kg-b1-011",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "remember",
+   "subskill": "The Moon",
+   "stem": "Which one is the full Moon?",
+   "options": [
+    {
+     "text": "dark Moon",
+     "image": "openmoji/new-moon.svg"
+    },
+    {
+     "text": "thin Moon",
+     "image": "openmoji/waxing-crescent-moon.svg"
+    },
+    {
+     "text": "round Moon",
+     "image": "openmoji/full-moon.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "The full Moon is the big, round, bright Moon. A thin Moon looks like a smile, and a new Moon is dark."
+  },
+  {
+   "id": "kg-b1-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Weather chart",
+   "stem": "In 10 days: 5 sunny, 3 cloudy, 2 rainy. Which was most?",
+   "options": [
+    {
+     "text": "rainy",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "sunny",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "cloudy",
+     "image": "openmoji/cloud.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Count and compare: 5 is more than 3 and more than 2. There were most sunny days."
+  },
+  {
+   "id": "kg-b1-013",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weather and clothes",
+   "stem": "It is a cool winter morning. Tap what Priya can wear.",
+   "options": [
+    {
+     "text": "warm coat",
+     "image": "openmoji/coat.svg"
+    },
+    {
+     "text": "umbrella",
+     "image": "openmoji/umbrella.svg"
+    },
+    {
+     "text": "warm scarf",
+     "image": "openmoji/scarf.svg"
+    },
+    {
+     "text": "a ball",
+     "image": "openmoji/football.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "In the cool season we wear warm clothes like a coat and a scarf. An umbrella is for rain and a ball is for play."
+  },
+  {
+   "id": "kg-b1-014",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The Moon",
+   "stem": "Mitu wants to see the thin new Moon. When should she look?",
+   "options": [
+    {
+     "text": "At night",
+     "image": "openmoji/night-with-stars.svg"
+    },
+    {
+     "text": "At midday",
+     "image": "openmoji/sun.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "We can see the Moon at night, when the sky is dark. Mitu's family looks for the thin new Moon to know when Eid begins."
+  },
+  {
+   "id": "kg-b1-015",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Weather",
+   "stem": "Windy days are good for flying kites.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. The wind lifts a kite up high. A calm day makes it hard to fly a kite."
+  },
+  {
+   "id": "kg-b1-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Seasons",
+   "stem": "Match each season to what it is like.",
+   "pairs": [
+    [
+     {
+      "text": "summer",
+      "image": "openmoji/sun.svg"
+     },
+     "hot"
+    ],
+    [
+     {
+      "text": "rainy season",
+      "image": "openmoji/umbrella-with-rain.svg"
+     },
+     "lots of rain"
+    ],
+    [
+     {
+      "text": "winter",
+      "image": "openmoji/scarf.svg"
+     },
+     "cool"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "In Bangladesh, summer is hot, the rainy season has lots of rain and winter is cool."
+  },
+  {
+   "id": "kg-b1-017",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Seasons and cycles",
+   "stem": "The seasons come back every year.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Summer, the rainy season and winter come again and again. This is a pattern we can count on."
+  },
+  {
+   "id": "kg-b1-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Patterns",
+   "stem": "Example: sunny, cloudy, rainy, sunny, cloudy. What comes next?",
+   "options": [
+    {
+     "text": "sunny",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "rainy",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "windy",
+     "image": "openmoji/wind-face.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Look for the pattern: sunny, cloudy, rainy, then it starts again. After cloudy comes rainy."
+  },
+  {
+   "id": "kg-b1-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Day and night",
+   "stem": "It is noon, but dark clouds fill the sky. Is it night?",
+   "options": [
+    "No, it is still day",
+    "Yes, it is night"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Clouds can make the day look dark, but the Sun is still in the sky at noon, so it is day."
+  },
+  {
+   "id": "kg-b1-020",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The Moon",
+   "stem": "The Moon looks a little different from night to night.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Some nights the Moon is a thin smile and some nights it is round and bright."
+  }
+ ]
+}

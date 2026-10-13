@@ -1,0 +1,649 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "A3",
+ "title": "Life Cycles, Growth and Inheritance",
+ "strand": "living",
+ "worksheet": "worksheets/grade-4-science/pdf/a3-life-cycles-growth-and-inheritance-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-a3-001",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle stages",
+   "stem": "Put the stages of a frog's life cycle in the right order.",
+   "sequence": [
+    "eggs (frogspawn) in the water",
+    "a tadpole with a tail and gills",
+    "a tadpole with back legs",
+    "a froglet with a short tail",
+    "an adult frog"
+   ],
+   "explanation": "A frog starts as an egg, hatches into a tadpole, grows legs, becomes a froglet and finally an adult frog that can live on land."
+  },
+  {
+   "id": "g4-a3-002",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle stages",
+   "stem": "A seed ___ into a seedling, and a chick ___ from an egg.",
+   "blanks": [
+    [
+     "germinates",
+     "germinate"
+    ],
+    [
+     "hatches",
+     "hatch"
+    ]
+   ],
+   "bank": [
+    "germinates",
+    "hatches",
+    "migrates",
+    "melts"
+   ],
+   "explanation": "When a seed starts to grow we say it germinates. A chick comes out of its egg when it hatches."
+  },
+  {
+   "id": "g4-a3-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Match each young animal or plant to what it grows into.",
+   "pairs": [
+    [
+     "tadpole",
+     "frog"
+    ],
+    [
+     "caterpillar",
+     "butterfly"
+    ],
+    [
+     "chick",
+     "hen"
+    ],
+    [
+     "seedling",
+     "adult plant"
+    ]
+   ],
+   "explanation": "A tadpole grows into a frog, a caterpillar becomes a butterfly, a chick grows into a hen and a seedling grows into an adult plant."
+  },
+  {
+   "id": "g4-a3-004",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Inheritance and variation",
+   "stem": "Which features are inherited from parents? Sort them.",
+   "categories": [
+    "Inherited from parents",
+    "Not inherited"
+   ],
+   "items": [
+    [
+     "eye colour",
+     "Inherited from parents"
+    ],
+    [
+     "shape of your nose",
+     "Inherited from parents"
+    ],
+    [
+     "a puppy's fur colour",
+     "Inherited from parents"
+    ],
+    [
+     "a scar on your knee",
+     "Not inherited"
+    ],
+    [
+     "the language you speak",
+     "Not inherited"
+    ],
+    [
+     "a haircut",
+     "Not inherited"
+    ]
+   ],
+   "explanation": "Features such as eye colour and fur colour are passed from parents to young. Scars, haircuts and languages are not inherited: they come from what happens to you or what you learn."
+  },
+  {
+   "id": "g4-a3-005",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Inheritance and variation",
+   "stem": "What do we call the small differences between living things of the same kind, such as kittens of different colours?",
+   "options": [
+    "variation",
+    "germination",
+    "metamorphosis",
+    "migration"
+   ],
+   "answer": 0,
+   "explanation": "Variation means differences between living things of the same kind. Young are like their parents but never exactly the same."
+  },
+  {
+   "id": "g4-a3-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Inheritance and variation",
+   "stem": "Tanvir says, 'If I build big muscles at the gym, my children will be born with big muscles.' Is he right?",
+   "answer": false,
+   "explanation": "Features you gain during your life, like big muscles or a scar, are not inherited. Only features carried from your parents, like eye colour, are passed on."
+  },
+  {
+   "id": "g4-a3-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What living things need",
+   "stem": "What do plants need to grow well? Choose all that are right.",
+   "options": [
+    "light",
+    "water",
+    "air",
+    "minerals from the soil",
+    "meat",
+    "plastic"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "explanation": "Plants need light, water, air, warmth and minerals from the soil. They make their own food, so they do not need meat."
+  },
+  {
+   "id": "g4-a3-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Life cycle stages",
+   "stem": "Compare the life cycles of a chicken and a frog. Which statements are right? Choose all that are right.",
+   "options": [
+    "Both start life as an egg.",
+    "A chick changes its body shape a lot, like a tadpole does.",
+    "A tadpole breathes with gills and later grows lungs.",
+    "A chick looks like a small adult when it hatches.",
+    "A frog's young stage lives on dry land."
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "Both hatch from eggs. A tadpole lives in water and changes shape (metamorphosis), but a chick already looks like a small hen."
+  },
+  {
+   "id": "g4-a3-009",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Metamorphosis",
+   "stem": "Why does a butterfly lay its eggs on a leaf and not on a stone?",
+   "model_answer": "When the caterpillar hatches it needs leaves to eat, so the eggs are laid on a plant where it has food straight away.",
+   "keywords": [
+    [
+     "eat",
+     "food",
+     "feed",
+     "eats",
+     "feeding"
+    ],
+    [
+     "leaf",
+     "leaves",
+     "plant",
+     "caterpillar",
+     "hatch",
+     "hatches"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A caterpillar hatches hungry and eats leaves all the time. Laying eggs on the right plant gives the young caterpillars food from the start."
+  },
+  {
+   "id": "g4-a3-010",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Metamorphosis",
+   "stem": "Sort these young animals by how they look compared with the adult.",
+   "categories": [
+    "Looks like a small adult",
+    "Looks very different from the adult"
+   ],
+   "items": [
+    [
+     "chick",
+     "Looks like a small adult"
+    ],
+    [
+     "kitten",
+     "Looks like a small adult"
+    ],
+    [
+     "calf",
+     "Looks like a small adult"
+    ],
+    [
+     "tadpole",
+     "Looks very different from the adult"
+    ],
+    [
+     "caterpillar",
+     "Looks very different from the adult"
+    ],
+    [
+     "silkworm",
+     "Looks very different from the adult"
+    ]
+   ],
+   "explanation": "A tadpole, a caterpillar and a silkworm change their body shape completely as they grow. This is metamorphosis. Chicks, kittens and calves just grow bigger."
+  },
+  {
+   "id": "g4-a3-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What living things need",
+   "stem": "What does a seed need to germinate?",
+   "options": [
+    "light only",
+    "soil only",
+    "water and warmth",
+    "wind"
+   ],
+   "answer": 2,
+   "explanation": "A seed needs water and the right temperature to start to grow. Light is needed later, once the seedling has leaves."
+  },
+  {
+   "id": "g4-a3-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Metamorphosis",
+   "stem": "A big change of body shape as an animal grows up is called ___.",
+   "blanks": [
+    [
+     "metamorphosis"
+    ]
+   ],
+   "bank": [
+    "metamorphosis",
+    "migration",
+    "variation",
+    "inheritance"
+   ],
+   "explanation": "Frogs and butterflies go through metamorphosis. Their young look very different from the adults."
+  },
+  {
+   "id": "g4-a3-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Metamorphosis",
+   "stem": "A chicken goes through metamorphosis, like a butterfly does.",
+   "answer": false,
+   "explanation": "A chick looks like a small version of the adult hen. Butterflies and frogs change their body shape completely, but chickens do not."
+  },
+  {
+   "id": "g4-a3-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle stages",
+   "stem": "Look at the frog's life cycle. Which stage comes straight after the tadpole?",
+   "image": "diagrams/frog-life-cycle.svg",
+   "image_alt": "The life cycle of a frog: eggs (frogspawn), tadpole, froglet, adult frog.",
+   "options": [
+    "eggs (frogspawn)",
+    "adult frog",
+    "chrysalis",
+    "froglet"
+   ],
+   "answer": 3,
+   "explanation": "The tadpole grows legs and loses its tail to become a froglet, and then an adult frog."
+  },
+  {
+   "id": "g4-a3-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Metamorphosis",
+   "stem": "Look at the butterfly's life cycle. What happens to the caterpillar inside the chrysalis (pupa)?",
+   "image": "diagrams/butterfly-life-cycle.svg",
+   "image_alt": "The life cycle of a butterfly: eggs, caterpillar, chrysalis, adult butterfly.",
+   "options": [
+    "It lays more eggs.",
+    "Its body changes completely into an adult butterfly.",
+    "It sleeps and wakes up as a bigger caterpillar.",
+    "It turns into a tadpole."
+   ],
+   "answer": 1,
+   "explanation": "The chrysalis is a resting stage. Inside it, the caterpillar's body changes completely until an adult butterfly comes out."
+  },
+  {
+   "id": "g4-a3-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Life cycle stages",
+   "stem": "Look at the chicken's life cycle. Which statement is right?",
+   "image": "diagrams/chicken-life-cycle.svg",
+   "image_alt": "The life cycle of a chicken: egg, hatching, chick, adult hen.",
+   "options": [
+    "A chick has a tail and gills like a tadpole.",
+    "A chick goes into a chrysalis.",
+    "A chick looks like a small hen when it hatches.",
+    "A hen turns back into an egg."
+   ],
+   "answer": 2,
+   "explanation": "A chicken's life cycle has no big change of shape. The chick hatches looking like a small adult and just grows bigger."
+  },
+  {
+   "id": "g4-a3-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Plant life cycle",
+   "stem": "Which numbered stage shows the seed starting to grow into a seedling (germination)?",
+   "image": "diagrams/plant-life-cycle-numbered.svg",
+   "image_alt": "The life cycle of a flowering plant with seven stages numbered 1 to 7.",
+   "options": [
+    "1",
+    "2",
+    "5",
+    "7"
+   ],
+   "answer": 1,
+   "explanation": "Stage 2 is germination. Stage 1 is the seed, stage 5 is pollination and stage 7 is seed dispersal."
+  },
+  {
+   "id": "g4-a3-018",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Plant life cycle",
+   "stem": "Use the picture of the flowering plant's life cycle. Put the stages in order, starting with the seed.",
+   "image": "diagrams/plant-life-cycle-numbered.svg",
+   "image_alt": "The life cycle of a flowering plant with stages numbered: seed, germination, young plant, flowering, pollination, fertilisation and fruit, seed dispersal.",
+   "sequence": [
+    "seed",
+    "germination",
+    "young plant",
+    "flowering",
+    "pollination",
+    "fertilisation and fruit",
+    "seed dispersal"
+   ],
+   "explanation": "A seed germinates into a young plant that flowers. Pollen is carried between flowers (pollination), seeds form in a fruit and the seeds are scattered, ready to grow into new plants."
+  },
+  {
+   "id": "g4-a3-019",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Match each young stage to the adult it grows into.",
+   "pairs": [
+    [
+     {
+      "text": "caterpillar",
+      "image": "openmoji/caterpillar.svg"
+     },
+     "butterfly"
+    ],
+    [
+     {
+      "text": "baby chick",
+      "image": "openmoji/baby-chick.svg"
+     },
+     "hen"
+    ],
+    [
+     {
+      "text": "seedling",
+      "image": "openmoji/seedling.svg"
+     },
+     "plant with flowers"
+    ]
+   ],
+   "explanation": "A caterpillar changes into a butterfly, a baby chick grows into a hen and a seedling grows into a plant that makes flowers."
+  },
+  {
+   "id": "g4-a3-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What living things need",
+   "stem": "Arif grew cress seedlings in a dark cupboard. They grew tall, but they were pale yellow and thin. What should he do to help them become healthy plants?",
+   "options": [
+    "Give them less water.",
+    "Keep them in the dark so they grow taller.",
+    "Put them in the fridge.",
+    "Move them to a light place."
+   ],
+   "answer": 3,
+   "explanation": "Plants need light to make food and stay green and strong. Seedlings in the dark stretch tall and thin, looking for light, but they are not healthy."
+  },
+  {
+   "id": "g4-a3-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Inheritance and variation",
+   "stem": "A cat in Dhaka has five kittens: two black, two striped and one white. What does this show?",
+   "options": [
+    "The kittens are not from the same mother.",
+    "Young animals are like their parents but not exactly the same as each other.",
+    "The kittens' fur colour changed because of what they ate.",
+    "Only the black kittens are real cats."
+   ],
+   "answer": 1,
+   "explanation": "Young inherit features from their parents, but there is always variation. Kittens in one litter can have different colours and patterns."
+  },
+  {
+   "id": "g4-a3-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Metamorphosis",
+   "stem": "The silk for a Rajshahi sari comes from the silkworm, which is the caterpillar (larva) of a moth.",
+   "answer": true,
+   "explanation": "Silkworms eat mulberry leaves, then spin a cocoon of silk thread around themselves. Inside it becomes a pupa and later an adult moth."
+  },
+  {
+   "id": "g4-a3-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Metamorphosis",
+   "stem": "A silk farmer's silkworms make 12 000 cocoons. One sari needs 3000 cocoons. How many saris can be made?",
+   "options": [
+    "3",
+    "4",
+    "9",
+    "36"
+   ],
+   "answer": 1,
+   "explanation": "12 000 ÷ 3000 = 4 saris."
+  },
+  {
+   "id": "g4-a3-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "What living things need",
+   "stem": "Tuli has a cough. Her cousin Rafi offers her some of the medicine his doctor gave him. What should Tuli do?",
+   "options": [
+    "Say no, and tell a trusted adult or a doctor about her cough.",
+    "Take the same amount as Rafi.",
+    "Take a small amount, just in case.",
+    "Mix it with her juice."
+   ],
+   "answer": 0,
+   "explanation": "Medicine is a drug that changes how the body works. It is only safe if it is given to you by a doctor or trusted adult for you, in the right amount. Never share it."
+  },
+  {
+   "id": "g4-a3-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Inheritance and variation",
+   "stem": "In the simulation, with the wolves on, the fur colour that blends in with the ground becomes more common over many generations. Why?",
+   "sim": {
+    "id": "natural-selection",
+    "task": "Open Natural Selection. Add a mate for the first bunny and choose an environment. Switch on the wolves, add a fur-colour mutation, and let the bunnies reproduce for many generations. Watch the population graph and the colours of the bunnies."
+   },
+   "options": [
+    "Baby bunnies choose their own fur colour.",
+    "Bunnies change their fur colour when they see a wolf.",
+    "The wolves change the bunnies' fur colour.",
+    "Bunnies with that fur survive longer and pass the colour on to their babies."
+   ],
+   "answer": 3,
+   "explanation": "Bunnies whose fur blends in are caught less often, so they have more babies. Babies inherit the fur colour from their parents, so that colour becomes more common."
+  },
+  {
+   "id": "g4-a3-026",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Inheritance and variation",
+   "stem": "In the simulation, a single bunny can change its own fur colour during its life to hide from the wolves.",
+   "sim": {
+    "id": "natural-selection",
+    "task": "Open Natural Selection. Choose an environment, switch on the wolves and add a fur-colour mutation. Let the bunnies reproduce and watch whether any one bunny changes colour."
+   },
+   "answer": false,
+   "explanation": "A bunny keeps the fur colour it was born with. The population changes over generations because bunnies that blend in survive and pass their colour on."
+  },
+  {
+   "id": "g4-a3-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "What living things need",
+   "stem": "Class 4C grew cress for 7 days (example data). Pot A had water, light and warmth: 6 cm. Pot B had no water: 0 cm. Pot C was in the dark: 7 cm, yellow and thin. Pot D was in a fridge: 1 cm. Pot C was the tallest. Does this mean cress grows best in the dark?",
+   "options": [
+    "Yes, because the tallest seedlings are always the best.",
+    "Yes, because plants do not need light.",
+    "No, because the Pot C seedlings were yellow and thin, so not healthy.",
+    "No, because Pot C had no water."
+   ],
+   "answer": 2,
+   "explanation": "Height is not the only sign of growth. Seedlings without light grow tall and thin but stay yellow, and they cannot make food. Pot C did have water."
+  },
+  {
+   "id": "g4-a3-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "What living things need",
+   "stem": "Mina wants to find out whether cress seeds need light to germinate. Which plan is the fairest test?",
+   "options": [
+    "Put 10 seeds in a pot in the light and 20 seeds in a pot in the dark, and water both pots the same.",
+    "Use two pots with 10 seeds each, the same soil, water and warmth. Put one in the light and one in the dark. Count the seeds that germinate.",
+    "Put one pot in the light and water it every day, and put the other pot in the dark and never water it.",
+    "Put 10 seeds in each of two pots. Put one pot in the sun and the other in a dark fridge."
+   ],
+   "answer": 1,
+   "explanation": "In a fair test only the light changes. The other plans change more than one thing: the number of seeds, the water or the temperature."
+  },
+  {
+   "id": "g4-a3-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Life cycle stages",
+   "stem": "Many frogs in Bangladesh are disappearing because ponds and wetlands are being filled in for building. Use the frog life cycle to explain why losing ponds is a problem for frogs.",
+   "model_answer": "Frogs lay their eggs in water, and tadpoles live in water and breathe with gills. Without ponds the eggs and tadpoles cannot survive, so no new frogs can grow up.",
+   "keywords": [
+    [
+     "egg",
+     "eggs",
+     "frogspawn",
+     "spawn"
+    ],
+    [
+     "tadpole",
+     "tadpoles",
+     "gills",
+     "breathe"
+    ],
+    [
+     "water",
+     "pond",
+     "ponds",
+     "wetland",
+     "wetlands"
+    ],
+    [
+     "survive",
+     "die",
+     "cannot",
+     "no new",
+     "grow up",
+     "fewer"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "The early stages of a frog's life cycle, the eggs and tadpoles, need water. If the ponds are filled in, the life cycle is broken and the frog population falls."
+  },
+  {
+   "id": "g4-a3-030",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Metamorphosis",
+   "stem": "A silkworm grows about 10 000 times heavier during its month of eating mulberry leaves. Suppose (example) a newly hatched silkworm has a mass of 1 mg. Its mass after a month is about ___ g. (1 g = 1000 mg)",
+   "blanks": [
+    [
+     "10",
+     "ten"
+    ]
+   ],
+   "explanation": "1 mg × 10 000 = 10 000 mg. Since 1 g = 1000 mg, 10 000 mg ÷ 1000 = 10 g."
+  }
+ ]
+}

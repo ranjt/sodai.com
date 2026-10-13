@@ -1,0 +1,717 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "B5",
+ "title": "Resources and Sustainability",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-5-science/pdf/b5-resources-and-sustainability-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-b5-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Renewable and non-renewable",
+   "stem": "A renewable resource is one that…",
+   "options": [
+    "took millions of years to form and cannot be replaced",
+    "is replaced by nature quickly, or never runs out",
+    "is made by people in factories and sold in shops",
+    "can only be used once by a single person"
+   ],
+   "answer": 1,
+   "explanation": "Renewable resources such as sunlight, wind, trees and fish are replaced by nature in a short time, or never run out. Coal, oil and gas are non-renewable."
+  },
+  {
+   "id": "g5-b5-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Renewable and non-renewable",
+   "stem": "Sort these resources into renewable and non-renewable.",
+   "categories": [
+    "Renewable",
+    "Non-renewable"
+   ],
+   "items": [
+    [
+     "sunlight",
+     "Renewable"
+    ],
+    [
+     "wind",
+     "Renewable"
+    ],
+    [
+     "bamboo",
+     "Renewable"
+    ],
+    [
+     "hilsa fish",
+     "Renewable"
+    ],
+    [
+     "coal",
+     "Non-renewable"
+    ],
+    [
+     "natural gas",
+     "Non-renewable"
+    ],
+    [
+     "oil",
+     "Non-renewable"
+    ],
+    [
+     "iron ore",
+     "Non-renewable"
+    ]
+   ],
+   "explanation": "Sunlight and wind never run out, and bamboo and fish grow back. Coal, oil and gas take millions of years to form, and metals such as iron are used up from the rocks."
+  },
+  {
+   "id": "g5-b5-003",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Regeneration times",
+   "stem": "Put these in order from the fastest to the slowest to regenerate.",
+   "sequence": [
+    "a hilsa fish population (1–2 years)",
+    "bamboo (3–5 years)",
+    "a mahogany tree (20–50 years)",
+    "a few centimetres of soil (hundreds of years)",
+    "natural gas (millions of years)"
+   ],
+   "explanation": "Living things regrow in years or decades. A few centimetres of soil take hundreds of years, and fossil fuels take millions of years, so they are called non-renewable."
+  },
+  {
+   "id": "g5-b5-004",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "The 5 Rs",
+   "stem": "Match each 'R' to an example.",
+   "pairs": [
+    [
+     "refuse",
+     "say no to a plastic straw"
+    ],
+    [
+     "reduce",
+     "turn off the tap while brushing teeth"
+    ],
+    [
+     "reuse",
+     "refill a water bottle"
+    ],
+    [
+     "recycle",
+     "turn old paper into new paper"
+    ],
+    [
+     "rot",
+     "compost vegetable peel"
+    ]
+   ],
+   "explanation": "Refuse and reduce stop waste before it starts. Reuse keeps things in use, recycling makes new products from old materials, and rotting turns food and plant waste into compost."
+  },
+  {
+   "id": "g5-b5-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sustainable use",
+   "stem": "Coal, oil and gas are called ___ fuels because they formed from ancient living things. Using resources without harming future generations is called ___ use.",
+   "blanks": [
+    [
+     "fossil"
+    ],
+    [
+     "sustainable"
+    ]
+   ],
+   "bank": [
+    "fossil",
+    "sustainable",
+    "renewable",
+    "plastic"
+   ],
+   "explanation": "Fossil fuels formed over millions of years from ancient plants and animals. Sustainable use meets our needs today without stopping future people from meeting theirs."
+  },
+  {
+   "id": "g5-b5-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Renewable and non-renewable",
+   "stem": "Bangladesh makes most of its electricity from natural gas, a non-renewable resource.",
+   "answer": true,
+   "explanation": "Natural gas is a fossil fuel. The gas fields in Bangladesh are slowly running out, so millions of homes now use solar panels and more solar parks are being built."
+  },
+  {
+   "id": "g5-b5-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Regeneration times",
+   "stem": "A renewable resource can never run out, however much of it we use.",
+   "answer": false,
+   "explanation": "Only some, such as sunlight and wind, never run out. Trees and fish are renewable, but they can run out if we take them faster than they regenerate."
+  },
+  {
+   "id": "g5-b5-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "People and the Earth",
+   "stem": "Which of these harm the Earth's resources? Choose all that are right.",
+   "options": [
+    "catching too many fish, including young ones",
+    "cutting down forests faster than they regrow",
+    "planting a new tree for each tree cut",
+    "dumping plastic into rivers",
+    "protecting young hilsa so they can grow"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Over-fishing, over-cutting and dumping plastic all damage resources. Planting trees and protecting young fish help the resources regenerate."
+  },
+  {
+   "id": "g5-b5-009",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Renewable and non-renewable",
+   "stem": "Why is natural gas called non-renewable, even though it was made by nature?",
+   "model_answer": "It took millions of years to form from ancient living things, and we are using it much faster than it can form again.",
+   "keywords": [
+    [
+     "millions of years",
+     "million years",
+     "very long",
+     "long time",
+     "ancient"
+    ],
+    [
+     "use",
+     "used",
+     "using",
+     "burn",
+     "burning"
+    ],
+    [
+     "faster",
+     "quickly",
+     "run out",
+     "used up",
+     "gone",
+     "replace",
+     "replaced",
+     "again"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Natural gas forms very slowly, over millions of years. People use it up far faster than nature can make more, so once it is gone it is gone for us."
+  },
+  {
+   "id": "g5-b5-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sustainable use",
+   "stem": "Which phrase best describes sustainable use of resources?",
+   "options": [
+    "using as much as we can while it is still cheap to buy",
+    "never using any natural resource at all",
+    "using only the resources that cost nothing",
+    "meeting our needs without harming future people"
+   ],
+   "answer": 3,
+   "explanation": "Sustainable use means we can meet our needs today and people in the future can still meet theirs."
+  },
+  {
+   "id": "g5-b5-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Sustainable use",
+   "stem": "Trees are renewable, yet some forests disappear. Which is the best explanation?",
+   "options": [
+    "Renewable resources are never changed by anything people do.",
+    "Trees stop growing once they are about ten years old.",
+    "People cut trees faster than the forest can grow back.",
+    "Forests are made of non-renewable materials."
+   ],
+   "answer": 2,
+   "explanation": "A forest can take 20 to 50 years or more to regrow. If trees are cut faster than they grow back, the forest shrinks, so even renewable resources can run out."
+  },
+  {
+   "id": "g5-b5-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Sustainable use",
+   "stem": "Planting a new tree for every tree that is cut down is a sustainable way to use a forest.",
+   "answer": true,
+   "explanation": "The forest regrows about as fast as it is used, so there will still be trees for future generations. This is sustainable."
+  },
+  {
+   "id": "g5-b5-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Renewable and non-renewable",
+   "stem": "Which picture shows an energy source that will never run out?",
+   "options": [
+    {
+     "text": "wind energy",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "factory smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "car exhaust",
+     "image": "openmoji/car-exhaust.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "Wind never runs out, so it is renewable. Cars and factories mostly burn fossil fuels, which take millions of years to form."
+  },
+  {
+   "id": "g5-b5-014",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "The 5 Rs",
+   "stem": "Match each picture to the 'R' it shows.",
+   "pairs": [
+    [
+     {
+      "text": "reusable bag",
+      "image": "openmoji/reusable-bag.svg"
+     },
+     "reuse: use it again and again"
+    ],
+    [
+     {
+      "text": "recycling symbol",
+      "image": "openmoji/recycling.svg"
+     },
+     "recycle: make it into a new product"
+    ],
+    [
+     {
+      "text": "fallen leaf",
+      "image": "openmoji/fallen-leaf.svg"
+     },
+     "rot: compost food and plant waste"
+    ],
+    [
+     {
+      "text": "stop sign",
+      "image": "openmoji/stop-sign.svg"
+     },
+     "refuse: say no to what you do not need"
+    ]
+   ],
+   "explanation": "The 5 Rs are refuse, reduce, reuse, recycle and rot. Each one helps to save resources and cut down waste."
+  },
+  {
+   "id": "g5-b5-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Regeneration times",
+   "stem": "Which picture shows a renewable resource that can still run out if people take too much?",
+   "options": [
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "wind energy",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "solar energy",
+     "image": "openmoji/solar-energy.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "Fish are renewable because they breed, but if too many adults and young fish are caught, the numbers fall. Sunlight and wind cannot be used up."
+  },
+  {
+   "id": "g5-b5-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "The 5 Rs",
+   "stem": "Dhaka banned thin plastic bags in 2002 because they blocked drains. Which picture shows a better choice for carrying shopping?",
+   "options": [
+    {
+     "text": "reusable bag",
+     "image": "openmoji/reusable-bag.svg"
+    },
+    {
+     "text": "package",
+     "image": "openmoji/package.svg"
+    },
+    {
+     "text": "oil spill",
+     "image": "openmoji/oil-spill.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "A reusable bag can be used again and again, so it replaces many thin plastic bags. This is the 'reuse' and 'refuse' idea."
+  },
+  {
+   "id": "g5-b5-017",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "People and the Earth",
+   "stem": "Sort the pictures into actions that help the Earth and actions that harm it.",
+   "categories": [
+    "Helps the Earth",
+    "Harms the Earth"
+   ],
+   "items": [
+    [
+     {
+      "text": "planting a seedling",
+      "image": "openmoji/seedling.svg"
+     },
+     "Helps the Earth"
+    ],
+    [
+     {
+      "text": "recycling",
+      "image": "openmoji/recycling.svg"
+     },
+     "Helps the Earth"
+    ],
+    [
+     {
+      "text": "solar energy",
+      "image": "openmoji/solar-energy.svg"
+     },
+     "Helps the Earth"
+    ],
+    [
+     {
+      "text": "an oil spill",
+      "image": "openmoji/oil-spill.svg"
+     },
+     "Harms the Earth"
+    ],
+    [
+     {
+      "text": "factory smoke",
+      "image": "openmoji/factory-smoke.svg"
+     },
+     "Harms the Earth"
+    ],
+    [
+     {
+      "text": "car exhaust",
+      "image": "openmoji/car-exhaust.svg"
+     },
+     "Harms the Earth"
+    ]
+   ],
+   "explanation": "Planting trees, recycling and using solar energy protect resources. Oil spills and smoke from burning fuels pollute the land, water and air."
+  },
+  {
+   "id": "g5-b5-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Sustainable use",
+   "stem": "At a river market, a seller offers Nadia a basket of tiny jatka (young hilsa) cheaply. What is the best choice for the future of the hilsa?",
+   "options": [
+    "Buy them, because small fish taste the sweetest.",
+    "Buy them, because the fish have already been caught anyway.",
+    "Do not buy them: they need time to grow and breed.",
+    "Buy them, because hilsa will always come back."
+   ],
+   "answer": 2,
+   "explanation": "Jatka are young fish that have not yet bred. Catching them is banned for several months so that they can grow up and lay eggs, which keeps the hilsa population renewable."
+  },
+  {
+   "id": "g5-b5-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The 5 Rs",
+   "stem": "Class 5A found that most of their week's rubbish was paper and food waste. Which plan would cut the most waste?",
+   "options": [
+    "Ask everyone to bring more new paper each week.",
+    "Buy more plastic wrappers to keep the snacks fresh and clean.",
+    "Put the paper and the food waste in the same bin.",
+    "Use both sides of the paper and compost the food waste."
+   ],
+   "answer": 3,
+   "explanation": "Using both sides of paper is 'reduce', and composting food waste is 'rot'. Both turn waste into something useful or stop it being made."
+  },
+  {
+   "id": "g5-b5-020",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The 5 Rs",
+   "stem": "Tuli wants to save resources at home. Which actions would help? Choose all that are right.",
+   "options": [
+    "Turn off fans and lights when leaving a room.",
+    "Fix a dripping tap.",
+    "Leave the tap running while brushing teeth.",
+    "Carry water in a reusable bottle.",
+    "Throw all food waste into the drain."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Saving electricity, mending leaks and reusing a bottle all reduce waste. A running tap wastes water, and food waste in the drain blocks it, when it could be composted."
+  },
+  {
+   "id": "g5-b5-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Sustainable use",
+   "stem": "The gas fields in Bangladesh are slowly running out. Which choice is best for the future?",
+   "options": [
+    "Use up the remaining gas as fast as we possibly can.",
+    "Stop making any electricity in the country.",
+    "Build more solar parks and solar roofs.",
+    "Install diesel generators in every village and city."
+   ],
+   "answer": 2,
+   "explanation": "Sunlight is renewable and never runs out, so solar power can meet our needs now without taking away the needs of future generations. Gas and diesel are non-renewable."
+  },
+  {
+   "id": "g5-b5-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "People and the Earth",
+   "stem": "Banning thin plastic bags in 2002 helped Dhaka, because the bags had been blocking drains and making floods worse.",
+   "answer": true,
+   "explanation": "Bangladesh was one of the first countries to ban thin plastic bags. Fewer bags in the drains means less flooding, and less plastic in rivers and soil harms fewer animals."
+  },
+  {
+   "id": "g5-b5-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "People and the Earth",
+   "stem": "What happens to the temperature when you add more greenhouse gases?",
+   "sim": {
+    "id": "greenhouse-effect",
+    "task": "Open Greenhouse Effect. Find the control for the amount of greenhouse gases. Make the amount bigger and watch the thermometer and the heat that goes back up from the Earth."
+   },
+   "options": [
+    "It goes up because more heat is trapped.",
+    "It goes down because more heat escapes.",
+    "It stays the same whatever the gases do.",
+    "It drops to zero straight away."
+   ],
+   "answer": 0,
+   "explanation": "Greenhouse gases trap heat that would otherwise escape, so the temperature rises. Burning fossil fuels such as coal, oil and gas adds greenhouse gases to the air."
+  },
+  {
+   "id": "g5-b5-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "People and the Earth",
+   "stem": "When you reduce the amount of greenhouse gases, less heat is trapped and the temperature goes down.",
+   "sim": {
+    "id": "greenhouse-effect",
+    "task": "Open Greenhouse Effect. Use the control for the amount of greenhouse gases to make the amount smaller. Watch the thermometer."
+   },
+   "answer": true,
+   "explanation": "With fewer greenhouse gases, more heat escapes back into space, so the temperature falls. Using less fuel is one way people can help."
+  },
+  {
+   "id": "g5-b5-025",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "The 5 Rs",
+   "stem": "In one week Class 5A collected rubbish (in grams): paper and card 1800, plastic 950, food waste 1200, pencil shavings 150, other 300. The total is ___ g. Food waste and pencil shavings, which can be composted, make ___ g.",
+   "blanks": [
+    [
+     "4400",
+     "4 400",
+     "4,400"
+    ],
+    [
+     "1350",
+     "1 350",
+     "1,350"
+    ]
+   ],
+   "bank": [
+    "4400",
+    "1350",
+    "1500",
+    "3400"
+   ],
+   "explanation": "1800 + 950 + 1200 + 150 + 300 = 4400 g. Compostable waste is 1200 + 150 = 1350 g, so about three tenths of the rubbish could rot into compost."
+  },
+  {
+   "id": "g5-b5-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Regeneration times",
+   "stem": "The hilsa catch in Bangladesh was about 3.0 lakh tonnes in 2008–09 and about 5.7 lakh tonnes in 2020–21 (1 lakh = 100 000). About how many more tonnes were caught in 2020–21?",
+   "options": [
+    "2.7 tonnes",
+    "27 000 tonnes",
+    "270 000 tonnes",
+    "2 700 000 tonnes"
+   ],
+   "answer": 2,
+   "explanation": "5.7 − 3.0 = 2.7 lakh tonnes, and 2.7 × 100 000 = 270 000 tonnes. The catch rose because the fishing bans let more fish breed and grow."
+  },
+  {
+   "id": "g5-b5-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Sustainable use",
+   "stem": "Sumi says, 'Bamboo is renewable, so we can cut as much as we like.' What is wrong with her idea?",
+   "options": [
+    "Bamboo is non-renewable, so it can never regrow.",
+    "It can still run out if we cut it faster than it regrows.",
+    "Bamboo takes millions of years to grow back again.",
+    "Nothing is wrong, since renewable always means unlimited."
+   ],
+   "answer": 1,
+   "explanation": "Bamboo regrows in 3 to 5 years, so it is renewable. But if we cut it faster than it regrows, we will run out. Renewable does not mean unlimited."
+  },
+  {
+   "id": "g5-b5-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Sustainable use",
+   "stem": "Fishing for hilsa is banned for several months of the year and for 22 days in the main breeding season. Explain how this helps both the fish and the fishing families in the future.",
+   "model_answer": "The bans let adult hilsa breed and the young fish grow up, so the population grows back. Then fishers can keep catching fish in the future.",
+   "keywords": [
+    [
+     "breed",
+     "breeding",
+     "eggs",
+     "lay",
+     "reproduce"
+    ],
+    [
+     "grow",
+     "grown",
+     "grow up",
+     "regenerate",
+     "increase",
+     "increases",
+     "recover",
+     "grow back",
+     "grows back"
+    ],
+    [
+     "future",
+     "every year",
+     "keep fishing",
+     "later",
+     "sustainable",
+     "more fish"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Hilsa are renewable only if enough are left to breed. The bans give them time to regenerate, so the catch rises and families can keep fishing."
+  },
+  {
+   "id": "g5-b5-029",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Regeneration times",
+   "stem": "A woodcutter cuts 10 mahogany trees each year (example). Each tree needs about 50 years to grow back. How many trees must the forest have so that this can go on for ever?",
+   "options": [
+    "500 trees",
+    "60 trees",
+    "100 trees",
+    "5 trees"
+   ],
+   "answer": 0,
+   "explanation": "In 50 years the woodcutter cuts 10 × 50 = 500 trees. With 500 trees, the first trees cut have regrown by the time the last are cut, so the cutting is sustainable."
+  },
+  {
+   "id": "g5-b5-030",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Regeneration times",
+   "stem": "Approximate hilsa catch in lakh tonnes: 2008–09: 3.0, 2012–13: 3.5, 2016–17: 5.0, 2020–21: 5.7. Which statements are supported by the data? Choose all that are right.",
+   "options": [
+    "The catch rose in every period shown.",
+    "The catch almost doubled between 2008–09 and 2020–21.",
+    "The bans are the only possible cause of the rise.",
+    "The biggest rise was between 2012–13 and 2016–17.",
+    "The catch in 2016–17 was 50 000 tonnes."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "The rises were 0.5, 1.5 and 0.7 lakh tonnes, and 5.7 is almost twice 3.0. The data cannot show that bans are the only cause, and 5.0 lakh tonnes is 500 000 tonnes, not 50 000."
+  }
+ ]
+}

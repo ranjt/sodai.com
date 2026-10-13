@@ -1,0 +1,701 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "A5",
+ "title": "Food Chains and Food Webs",
+ "strand": "living",
+ "worksheet": "worksheets/grade-4-science/pdf/a5-food-chains-and-food-webs-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-a5-001",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Building food chains",
+   "stem": "Put these living things in order to make a food chain, starting with the producer.",
+   "sequence": [
+    "rice plant",
+    "grasshopper",
+    "frog",
+    "snake",
+    "eagle"
+   ],
+   "explanation": "A food chain starts with a plant (the producer). Each arrow points from the food to the animal that eats it: rice plant → grasshopper → frog → snake → eagle."
+  },
+  {
+   "id": "g4-a5-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Producers and consumers",
+   "stem": "Sort these animals into herbivores, carnivores and omnivores.",
+   "categories": [
+    "Herbivore",
+    "Carnivore",
+    "Omnivore"
+   ],
+   "items": [
+    [
+     "cow",
+     "Herbivore"
+    ],
+    [
+     "deer",
+     "Herbivore"
+    ],
+    [
+     "caterpillar",
+     "Herbivore"
+    ],
+    [
+     "tiger",
+     "Carnivore"
+    ],
+    [
+     "kingfisher",
+     "Carnivore"
+    ],
+    [
+     "crocodile",
+     "Carnivore"
+    ],
+    [
+     "crow",
+     "Omnivore"
+    ],
+    [
+     "monkey",
+     "Omnivore"
+    ],
+    [
+     "person",
+     "Omnivore"
+    ]
+   ],
+   "explanation": "Herbivores eat only plants, carnivores eat only animals, and omnivores eat both plants and animals."
+  },
+  {
+   "id": "g4-a5-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers and consumers",
+   "stem": "Plants are called ___ because they make their own food using energy from the ___.",
+   "blanks": [
+    [
+     "producers",
+     "producer"
+    ],
+    [
+     "Sun",
+     "sun"
+    ]
+   ],
+   "bank": [
+    "producers",
+    "Sun",
+    "consumers",
+    "wind"
+   ],
+   "explanation": "Plants make their own food using sunlight, water and air, so they are producers. The energy in every food chain comes first from the Sun."
+  },
+  {
+   "id": "g4-a5-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Building food chains",
+   "stem": "In a food chain, the arrow points from the animal to the food that it eats.",
+   "answer": false,
+   "explanation": "The arrow means 'is eaten by' or 'gives energy to'. It points from the food to the animal that eats it, for example grass → goat."
+  },
+  {
+   "id": "g4-a5-005",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers and consumers",
+   "stem": "What does every food chain start with?",
+   "options": [
+    "a predator",
+    "a herbivore",
+    "a carnivore",
+    "a producer"
+   ],
+   "answer": 3,
+   "explanation": "Every food chain starts with a producer, a plant that makes its own food using sunlight."
+  },
+  {
+   "id": "g4-a5-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Predators and prey",
+   "stem": "In the food chain grass → goat → tiger, which living thing is the prey?",
+   "options": [
+    "grass",
+    "tiger",
+    "goat",
+    "the Sun"
+   ],
+   "answer": 2,
+   "explanation": "Prey is an animal that is hunted and eaten. The tiger is the predator, and the goat is its prey."
+  },
+  {
+   "id": "g4-a5-007",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Predators and prey",
+   "stem": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "producer",
+     "a plant that makes its own food using sunlight"
+    ],
+    [
+     "consumer",
+     "an animal that eats other living things"
+    ],
+    [
+     "predator",
+     "an animal that hunts other animals"
+    ],
+    [
+     "prey",
+     "an animal that is hunted and eaten"
+    ]
+   ],
+   "explanation": "Producers make food, consumers eat it, predators hunt, and prey is what they hunt."
+  },
+  {
+   "id": "g4-a5-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Producers and consumers",
+   "stem": "Which of these are consumers? Choose all that are right.",
+   "options": [
+    "grass",
+    "frog",
+    "rice plant",
+    "kingfisher",
+    "deer",
+    "green algae"
+   ],
+   "answer": [
+    1,
+    3,
+    4
+   ],
+   "explanation": "Consumers are animals, which cannot make their own food. Grass, rice plants and green algae are plants, so they are producers."
+  },
+  {
+   "id": "g4-a5-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Predators and prey",
+   "stem": "A frog eats grasshoppers, and a snake eats the frog. What does this show about the frog?",
+   "options": [
+    "It is a producer because it lives near plants.",
+    "It is both a predator and a prey animal.",
+    "It is a herbivore because it eats insects.",
+    "It is only prey because snakes eat it."
+   ],
+   "answer": 1,
+   "explanation": "An animal can be both. The frog is a predator of grasshoppers and prey for the snake."
+  },
+  {
+   "id": "g4-a5-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Producers and consumers",
+   "stem": "Why do almost all food chains begin with a green plant?",
+   "model_answer": "Green plants are producers: they make their own food using energy from sunlight. Animals cannot do this, so they get their energy by eating plants or by eating animals that ate plants.",
+   "keywords": [
+    [
+     "producer",
+     "producers",
+     "make their own food",
+     "make food",
+     "own food"
+    ],
+    [
+     "sun",
+     "sunlight",
+     "energy",
+     "light"
+    ],
+    [
+     "animals cannot",
+     "consumers",
+     "eat plants",
+     "animals eat",
+     "eating"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Only plants (and algae) can capture the Sun's energy to make food. Every other living thing in the chain depends on them for energy."
+  },
+  {
+   "id": "g4-a5-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Building food chains",
+   "stem": "Where does the energy in a food chain come from first?",
+   "options": [
+    "the Sun",
+    "the water",
+    "the grass",
+    "the soil"
+   ],
+   "answer": 0,
+   "explanation": "Plants capture energy from sunlight to make food. The grass gets its energy from the Sun, and animals get it from the plants."
+  },
+  {
+   "id": "g4-a5-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Food webs",
+   "stem": "When many food chains in a habitat are joined together, we get a food ___.",
+   "blanks": [
+    [
+     "web"
+    ]
+   ],
+   "bank": [
+    "web",
+    "chain",
+    "cycle",
+    "line"
+   ],
+   "explanation": "Most animals eat more than one kind of food and are eaten by more than one predator, so the chains join up into a food web."
+  },
+  {
+   "id": "g4-a5-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Producers and consumers",
+   "stem": "A monkey is an omnivore because it eats both plants and animals.",
+   "answer": true,
+   "explanation": "Omnivores eat both plants and animals. Monkeys, crows and people are omnivores."
+  },
+  {
+   "id": "g4-a5-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers and consumers",
+   "stem": "Look at the rice-field food chain. Which living thing is the producer?",
+   "image": "diagrams/food-chain-rice-field.svg",
+   "image_alt": "A food chain: grass, then grasshopper, then frog, then snake.",
+   "options": [
+    "grasshopper",
+    "frog",
+    "grass",
+    "snake"
+   ],
+   "answer": 2,
+   "explanation": "Grass is a plant, so it makes its own food using sunlight. The grasshopper, frog and snake are consumers."
+  },
+  {
+   "id": "g4-a5-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Predators and prey",
+   "stem": "In this food chain, which animal is both a predator and prey?",
+   "image": "diagrams/food-chain-rice-field.svg",
+   "image_alt": "A food chain: grass, then grasshopper, then frog, then snake.",
+   "options": [
+    "grass",
+    "frog",
+    "snake",
+    "grasshopper"
+   ],
+   "answer": 1,
+   "explanation": "The frog hunts grasshoppers (predator) and is eaten by the snake (prey). The snake is at the end of this chain, and grass is a plant."
+  },
+  {
+   "id": "g4-a5-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Building food chains",
+   "stem": "Look at the arrow from the deer to the tiger. What does it mean?",
+   "image": "diagrams/food-chain-sundarbans.svg",
+   "image_alt": "A Sundarbans food chain: leaves, then deer, then tiger.",
+   "options": [
+    "The tiger eats the deer and gets energy from it.",
+    "The deer eats the tiger and gets energy from its body.",
+    "The deer gives energy to the leaves.",
+    "The tiger is the prey of the deer."
+   ],
+   "answer": 0,
+   "explanation": "The arrow points from the food to the eater, so it means 'is eaten by' or 'gives energy to'. The tiger is the predator and the deer is its prey."
+  },
+  {
+   "id": "g4-a5-017",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Building food chains",
+   "stem": "Use the pictures to build a rice-field food chain. Put it in order, starting with the producer.",
+   "sequence": [
+    {
+     "text": "rice plant",
+     "image": "openmoji/rice-plant.svg"
+    },
+    {
+     "text": "rat",
+     "image": "openmoji/rat.svg"
+    },
+    {
+     "text": "snake",
+     "image": "openmoji/snake.svg"
+    },
+    {
+     "text": "eagle",
+     "image": "openmoji/eagle.svg"
+    }
+   ],
+   "explanation": "Rats eat rice, snakes eat rats and eagles eat snakes. The producer (the rice plant) comes first, and the arrows point towards the eater."
+  },
+  {
+   "id": "g4-a5-018",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Producers and consumers",
+   "stem": "Sort the animals by what they eat.",
+   "categories": [
+    "Herbivore",
+    "Carnivore",
+    "Omnivore"
+   ],
+   "items": [
+    [
+     {
+      "text": "cow",
+      "image": "openmoji/cow.svg"
+     },
+     "Herbivore"
+    ],
+    [
+     {
+      "text": "deer",
+      "image": "openmoji/deer.svg"
+     },
+     "Herbivore"
+    ],
+    [
+     {
+      "text": "tiger",
+      "image": "openmoji/tiger.svg"
+     },
+     "Carnivore"
+    ],
+    [
+     {
+      "text": "eagle",
+      "image": "openmoji/eagle.svg"
+     },
+     "Carnivore"
+    ],
+    [
+     {
+      "text": "monkey",
+      "image": "openmoji/monkey.svg"
+     },
+     "Omnivore"
+    ],
+    [
+     {
+      "text": "pig",
+      "image": "openmoji/pig.svg"
+     },
+     "Omnivore"
+    ]
+   ],
+   "explanation": "Cows and deer eat only plants. Tigers and eagles eat only animals. Monkeys and pigs eat both plants and animals."
+  },
+  {
+   "id": "g4-a5-019",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Building food chains",
+   "stem": "Match each animal to its food.",
+   "pairs": [
+    [
+     {
+      "text": "cow",
+      "image": "openmoji/cow.svg"
+     },
+     "grass"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "insects"
+    ],
+    [
+     {
+      "text": "tiger",
+      "image": "openmoji/tiger.svg"
+     },
+     "deer"
+    ],
+    [
+     {
+      "text": "honeybee",
+      "image": "openmoji/honeybee.svg"
+     },
+     "nectar from flowers"
+    ]
+   ],
+   "explanation": "A cow eats grass, a frog eats insects, a tiger hunts deer and a honeybee drinks nectar. Each of these links is one step in a food chain."
+  },
+  {
+   "id": "g4-a5-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Removing living things",
+   "stem": "Farmers spray a poison that kills most of the frogs in a rice field. What is likely to happen to the grasshoppers?",
+   "options": [
+    "Their numbers go down, because there is less food for them.",
+    "Their numbers stay exactly the same in every food web.",
+    "They move into the pond to live like frogs.",
+    "Their numbers go up, because fewer are eaten."
+   ],
+   "answer": 3,
+   "explanation": "Frogs are predators of grasshoppers. With fewer frogs, fewer grasshoppers are eaten, so their numbers may rise and they may eat more of the rice."
+  },
+  {
+   "id": "g4-a5-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Removing living things",
+   "stem": "Hunters kill too many spotted deer in the Sundarbans. Why could this put villagers in danger?",
+   "options": [
+    "Hungry tigers may come to villages to hunt goats and cows.",
+    "The mangrove leaves will stop growing without any deer to eat them.",
+    "The tigers will turn into herbivores and eat the village crops.",
+    "Angry deer from other forests will move into the villages."
+   ],
+   "answer": 0,
+   "explanation": "Deer are the tigers' prey. With fewer deer, tigers have less food and may come closer to villages looking for goats and cows. Protecting the deer protects people and tigers."
+  },
+  {
+   "id": "g4-a5-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Removing living things",
+   "stem": "Vultures eat dead animals. Across South Asia the number of vultures has fallen a lot. What problem could this cause?",
+   "options": [
+    "Rain falls less often, because there are fewer large birds in the sky.",
+    "Cattle grow bigger, because vultures no longer scare them.",
+    "Dead animals rot for longer, and disease can spread more easily.",
+    "Crops grow better, because fewer birds fly over the fields."
+   ],
+   "answer": 2,
+   "explanation": "Vultures are nature's cleaners. Without them dead animals lie for longer, and more stray dogs and rats come to feed on them, so germs spread."
+  },
+  {
+   "id": "g4-a5-023",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Removing living things",
+   "stem": "Which actions help to protect a food web? Choose all that are right.",
+   "options": [
+    "giving cattle safe medicines instead of diclofenac",
+    "stopping people from hunting too many deer",
+    "keeping ponds and wetlands free of poison",
+    "spraying poison on all the insects in a field",
+    "cutting down all the trees on a river bank"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Diclofenac poisons vultures, hunting too many deer leaves tigers hungry, and poison harms many living things. Protecting the plants and animals in a food web helps all the others."
+  },
+  {
+   "id": "g4-a5-024",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Removing living things",
+   "stem": "The people of a village kill every snake they find near their rice fields. Raju says the number of frogs in the fields might go up.",
+   "answer": true,
+   "explanation": "Snakes eat frogs. With fewer snakes, fewer frogs are eaten, so the number of frogs may rise. That can then affect the grasshoppers the frogs eat."
+  },
+  {
+   "id": "g4-a5-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Reading food-chain data",
+   "stem": "Scientists counted living things in a small part of a rice field (example data): 400 rice plants, 60 grasshoppers, 8 frogs and 1 snake. Why are there so few snakes?",
+   "options": [
+    "Snakes cannot live in rice fields because the field is too wet.",
+    "Each snake eats many frogs, so only a few can be fed.",
+    "Snakes eat rice plants, so they were counted as plants instead.",
+    "Frogs eat the snakes, so the snakes are always the smallest group."
+   ],
+   "answer": 1,
+   "explanation": "Each animal in a chain needs many of the living things below it to eat. 400 plants feed 60 grasshoppers, which feed 8 frogs, which feed only 1 snake."
+  },
+  {
+   "id": "g4-a5-026",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Removing living things",
+   "stem": "In a rice field (example data) 5 frogs each eat 12 grasshoppers a week. Poison kills 3 of the frogs. Now ___ fewer grasshoppers are eaten each week.",
+   "blanks": [
+    [
+     "36"
+    ]
+   ],
+   "explanation": "3 frogs × 12 grasshoppers = 36. So 36 more grasshoppers survive each week, and they can eat more rice plants."
+  },
+  {
+   "id": "g4-a5-027",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Food webs",
+   "stem": "In a pond food web, snails and tadpoles eat algae. Fish eat snails and tadpoles. Kingfishers and herons eat the fish. All the fish die. Which things could happen? Choose all that are right.",
+   "options": [
+    "Kingfishers and herons have less food and may leave.",
+    "The snails and tadpoles may increase in number.",
+    "The algae may decrease, because more snails and tadpoles eat it.",
+    "Kingfishers and herons get more food.",
+    "Nothing changes, because fish are only one kind of animal."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Everything in a food web is connected. With no fish, their predators go hungry, their prey increases, and the prey may then eat too much of their own food."
+  },
+  {
+   "id": "g4-a5-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Reading food-chain data",
+   "stem": "Vultures counted at one site (example data): 200 in 1990, 40 in 2000, 10 in 2010 and 25 in 2020. By what percentage did the count fall from 1990 to 2010?",
+   "options": [
+    "5%",
+    "95%",
+    "50%",
+    "90%"
+   ],
+   "answer": 1,
+   "explanation": "The count fell from 200 to 10, a drop of 190. 190 out of 200 is 95 out of every 100, so it fell by 95%. After 2010 the count rose again, perhaps because safer medicines were used."
+  },
+  {
+   "id": "g4-a5-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Food webs",
+   "stem": "Explain why protecting the producers is the most important way to protect a whole food web.",
+   "model_answer": "All the energy in a food web starts with the producers, which make food using sunlight. If the producers die, the herbivores have no food, and then the carnivores have none either, so the whole web is harmed.",
+   "keywords": [
+    [
+     "energy",
+     "food",
+     "start",
+     "starts",
+     "begin",
+     "begins",
+     "base"
+    ],
+    [
+     "herbivore",
+     "herbivores",
+     "consumers",
+     "animals",
+     "predators",
+     "carnivores",
+     "everything",
+     "all"
+    ],
+    [
+     "die",
+     "fewer",
+     "less",
+     "collapse",
+     "starve",
+     "hungry",
+     "harmed",
+     "no food"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Every other living thing depends on the producers for energy, either directly or by eating something that ate them. If the producers go, the whole web is in trouble."
+  },
+  {
+   "id": "g4-a5-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Building food chains",
+   "stem": "Tuli drew this food chain: tiger → deer → leaves. What is her mistake?",
+   "options": [
+    "The tiger should be placed in the middle of the food chain, not at the start.",
+    "Leaves are consumers, so they cannot be part of a food chain.",
+    "A food chain must have exactly five living things in it.",
+    "The arrows should point from the food to the animal that eats it."
+   ],
+   "answer": 3,
+   "explanation": "The arrow shows the way the energy goes, so it points from the food to the eater. Tuli's chain should be leaves → deer → tiger."
+  }
+ ]
+}

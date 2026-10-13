@@ -1,0 +1,572 @@
+{
+ "grade": 0,
+ "grade_name": "Kindergarten",
+ "topic": "A5",
+ "title": "Healthy Food",
+ "strand": "living",
+ "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+ "questions": [
+  {
+   "id": "kg-a5-001",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy choices",
+   "stem": "Sort the foods. Every day or only a treat?",
+   "categories": [
+    "Every day",
+    "Only a treat"
+   ],
+   "items": [
+    [
+     {
+      "text": "tomato",
+      "image": "openmoji/tomato.svg"
+     },
+     "Every day"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Every day"
+    ],
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Every day"
+    ],
+    [
+     {
+      "text": "burger",
+      "image": "openmoji/burger.svg"
+     },
+     "Only a treat"
+    ],
+    [
+     {
+      "text": "cake",
+      "image": "openmoji/cake.svg"
+     },
+     "Only a treat"
+    ],
+    [
+     {
+      "text": "lollipop",
+      "image": "openmoji/lollipop.svg"
+     },
+     "Only a treat"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Tomatoes, fish and rice are good to eat every day. Burgers, cake and lollipops are treats: just a little, not every day."
+  },
+  {
+   "id": "kg-a5-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water",
+   "stem": "Which is the best drink when you are thirsty?",
+   "options": [
+    {
+     "text": "water",
+     "image": "openmoji/water-glass.svg"
+    },
+    {
+     "text": "fizzy drink",
+     "image": "openmoji/cup-with-straw.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Clean water is the best drink. Fizzy drinks are treats and sweets are not a drink."
+  },
+  {
+   "id": "kg-a5-003",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy choices",
+   "stem": "Tap the healthy snacks.",
+   "options": [
+    {
+     "text": "banana",
+     "image": "openmoji/banana.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    },
+    {
+     "text": "chips",
+     "image": "openmoji/french-fries.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Bananas, carrots and apples are healthy snacks. Sweets, chips and doughnuts are treats."
+  },
+  {
+   "id": "kg-a5-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Match each food to its group.",
+   "pairs": [
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Go food"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Grow food"
+    ],
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Glow food"
+    ],
+    [
+     {
+      "text": "lollipop",
+      "image": "openmoji/lollipop.svg"
+     },
+     "Only a treat"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Rice gives us energy to go. Fish helps us grow strong. Carrots help us glow and stay healthy. A lollipop is only a treat."
+  },
+  {
+   "id": "kg-a5-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Go, grow or glow? Sort the foods.",
+   "categories": [
+    "Go",
+    "Grow",
+    "Glow"
+   ],
+   "items": [
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Go"
+    ],
+    [
+     {
+      "text": "potato",
+      "image": "openmoji/potato.svg"
+     },
+     "Go"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Grow"
+    ],
+    [
+     {
+      "text": "egg",
+      "image": "openmoji/egg.svg"
+     },
+     "Grow"
+    ],
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Glow"
+    ],
+    [
+     {
+      "text": "banana",
+      "image": "openmoji/banana.svg"
+     },
+     "Glow"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Go foods give us energy: rice and potato. Grow foods help us grow strong: fish and eggs. Glow foods keep us healthy: carrots and bananas."
+  },
+  {
+   "id": "kg-a5-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water",
+   "stem": "We drink clean ___ every day.",
+   "blanks": [
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "water",
+    "sweets",
+    "cake"
+   ],
+   "read_aloud": true,
+   "explanation": "Our body needs clean water every day to stay healthy."
+  },
+  {
+   "id": "kg-a5-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Why we eat food",
+   "stem": "Healthy food gives us energy to play.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Food gives us energy to run and play, and it helps us grow."
+  },
+  {
+   "id": "kg-a5-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy choices",
+   "stem": "Sweets are good to eat every day.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. Sweets, chips and fizzy drinks are treats. Eat just a little, and not every day."
+  },
+  {
+   "id": "kg-a5-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Why we eat food",
+   "stem": "Put Shopon's story in order.",
+   "sequence": [
+    "Shopon eats chips and a fizzy drink.",
+    "He feels tired and hungry.",
+    "Mother packs roti, egg, banana and water.",
+    "Shopon has lots of energy to play."
+   ],
+   "read_aloud": true,
+   "explanation": "Chips and a fizzy drink left Shopon tired and hungry. A tiffin with roti, egg, banana and water gave him lots of energy."
+  },
+  {
+   "id": "kg-a5-010",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy choices",
+   "stem": "Mother packs Shopon's tiffin. Which is best?",
+   "options": [
+    {
+     "text": "chips",
+     "image": "openmoji/french-fries.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "banana",
+     "image": "openmoji/banana.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A banana is a healthy fruit. Chips and doughnuts are treats, so they are not good for every day."
+  },
+  {
+   "id": "kg-a5-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Healthy choices",
+   "stem": "It is Imran's birthday. How much cake is a good treat?",
+   "options": [
+    "The whole cake",
+    "A small piece"
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Cake is a treat. A small piece is fine on a special day, but too much sugar is not good for our teeth or body."
+  },
+  {
+   "id": "kg-a5-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Priya has rice for lunch. Which grow food can she add?",
+   "options": [
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Fish helps us grow strong. Rice is a go food, so adding fish makes a better meal. Sweets and lollipops are treats."
+  },
+  {
+   "id": "kg-a5-013",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Healthy choices",
+   "stem": "Tap the foods for a healthy lunch.",
+   "options": [
+    {
+     "text": "rice",
+     "image": "openmoji/cooked-rice.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "fizzy drink",
+     "image": "openmoji/cup-with-straw.svg"
+    },
+    {
+     "text": "vegetables",
+     "image": "openmoji/leafy-green.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Rice, fish and vegetables make a healthy lunch with go, grow and glow foods. Sweets and fizzy drinks are only treats."
+  },
+  {
+   "id": "kg-a5-014",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Grow foods help us ___ strong.",
+   "blanks": [
+    [
+     "grow"
+    ]
+   ],
+   "bank": [
+    "grow",
+    "sleep",
+    "shrink"
+   ],
+   "read_aloud": true,
+   "explanation": "Fish, eggs, milk and dal are grow foods. They help our body grow strong."
+  },
+  {
+   "id": "kg-a5-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Counting what we like",
+   "stem": "Favourite fruit: mango 6, banana 4, apple 2. Which is most?",
+   "options": [
+    {
+     "text": "mango",
+     "image": "openmoji/mango.svg"
+    },
+    {
+     "text": "banana",
+     "image": "openmoji/banana.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Count and compare: 6 is more than 4 and more than 2. Mango is the favourite."
+  },
+  {
+   "id": "kg-a5-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Healthy choices",
+   "stem": "Which one is only a treat?",
+   "options": [
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    },
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    },
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A lollipop is a treat. We eat just a little, not every day. Apples and carrots are healthy."
+  },
+  {
+   "id": "kg-a5-017",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Water",
+   "stem": "We should drink clean water every day.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Water keeps our body healthy. It is the best drink."
+  },
+  {
+   "id": "kg-a5-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Roti is Go. Egg is Grow. Which Glow food can we add?",
+   "options": [
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    },
+    {
+     "text": "cookie",
+     "image": "openmoji/cookie.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "An apple is a glow food. Roti, an egg and an apple make a balanced meal. Doughnuts and cookies are treats."
+  },
+  {
+   "id": "kg-a5-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Healthy choices",
+   "stem": "Which lunch has go, grow and glow foods?",
+   "options": [
+    "rice, fish, carrot",
+    "rice, potato, corn",
+    "chips, cake, sweets"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Rice is go, fish is grow and carrot is glow, so that lunch has all three. The first lunch has only go foods and the last has only treats."
+  },
+  {
+   "id": "kg-a5-020",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Tap the foods that give us energy to go.",
+   "options": [
+    {
+     "text": "rice",
+     "image": "openmoji/cooked-rice.svg"
+    },
+    {
+     "text": "egg",
+     "image": "openmoji/egg.svg"
+    },
+    {
+     "text": "roti",
+     "image": "openmoji/bread.svg"
+    },
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    },
+    {
+     "text": "potato",
+     "image": "openmoji/potato.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Rice, roti and potato are go foods. They give us energy to play. Eggs help us grow and carrots help us glow."
+  }
+ ]
+}

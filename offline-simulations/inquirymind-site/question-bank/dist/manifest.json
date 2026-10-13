@@ -1,0 +1,1701 @@
+{
+ "title": "InquiryMind science question bank",
+ "grades": [
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "file": "dist/kg.json",
+   "questions": 160,
+   "modes": {
+    "core": 53,
+    "picture": 66,
+    "real-life": 26,
+    "simulation": 0,
+    "olympiad": 15
+   },
+   "topics": [
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "W1",
+     "title": "Little Explorers",
+     "strand": "skills",
+     "site_skill": "W1",
+     "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+     "file": "questions/kg/w1-little-explorers.json",
+     "count": 20,
+     "modes": {
+      "core": 6,
+      "picture": 9,
+      "real-life": 3,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "mcq": 8,
+      "fill": 1,
+      "match": 2,
+      "truefalse": 3,
+      "multi": 3,
+      "sort": 1,
+      "order": 2
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "A1",
+     "title": "Living and Non-living Things",
+     "strand": "living",
+     "site_skill": "L1",
+     "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+     "file": "questions/kg/a1-living-and-non-living-things.json",
+     "count": 20,
+     "modes": {
+      "core": 8,
+      "picture": 8,
+      "real-life": 3,
+      "simulation": 0,
+      "olympiad": 1
+     },
+     "types": {
+      "truefalse": 4,
+      "sort": 1,
+      "mcq": 8,
+      "fill": 2,
+      "multi": 2,
+      "match": 1,
+      "order": 2
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "A2",
+     "title": "Animals Around Us",
+     "strand": "living",
+     "site_skill": "L2",
+     "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+     "file": "questions/kg/a2-animals-around-us.json",
+     "count": 20,
+     "modes": {
+      "core": 7,
+      "picture": 8,
+      "real-life": 3,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "match": 2,
+      "multi": 2,
+      "mcq": 8,
+      "truefalse": 4,
+      "sort": 1,
+      "fill": 2,
+      "order": 1
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "A3",
+     "title": "Plants Around Us",
+     "strand": "living",
+     "site_skill": "L3",
+     "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+     "file": "questions/kg/a3-plants-around-us.json",
+     "count": 20,
+     "modes": {
+      "core": 6,
+      "picture": 9,
+      "real-life": 3,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "mcq": 8,
+      "truefalse": 4,
+      "match": 1,
+      "multi": 3,
+      "fill": 2,
+      "order": 1,
+      "sort": 1
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "A4",
+     "title": "My Body and My Senses",
+     "strand": "living",
+     "site_skill": "L4",
+     "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+     "file": "questions/kg/a4-my-body-and-my-senses.json",
+     "count": 20,
+     "modes": {
+      "core": 7,
+      "picture": 8,
+      "real-life": 3,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "mcq": 8,
+      "match": 2,
+      "multi": 3,
+      "fill": 2,
+      "truefalse": 3,
+      "order": 1,
+      "sort": 1
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "A5",
+     "title": "Healthy Food",
+     "strand": "living",
+     "site_skill": "L5",
+     "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+     "file": "questions/kg/a5-healthy-food.json",
+     "count": 20,
+     "modes": {
+      "core": 6,
+      "picture": 8,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "sort": 2,
+      "mcq": 8,
+      "multi": 3,
+      "match": 1,
+      "fill": 2,
+      "truefalse": 3,
+      "order": 1
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "B1",
+     "title": "Day, Night and Seasons",
+     "strand": "earth",
+     "site_skill": "E1",
+     "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+     "file": "questions/kg/b1-day-night-and-seasons.json",
+     "count": 20,
+     "modes": {
+      "core": 6,
+      "picture": 8,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "sort": 1,
+      "mcq": 8,
+      "match": 2,
+      "fill": 2,
+      "order": 1,
+      "truefalse": 4,
+      "multi": 2
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "B2",
+     "title": "Our Environment",
+     "strand": "earth",
+     "site_skill": "E2",
+     "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+     "file": "questions/kg/b2-our-environment.json",
+     "count": 20,
+     "modes": {
+      "core": 7,
+      "picture": 8,
+      "real-life": 3,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "sort": 2,
+      "mcq": 8,
+      "multi": 1,
+      "match": 2,
+      "fill": 2,
+      "truefalse": 4,
+      "order": 1
+     }
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "file": "dist/grade-1.json",
+   "questions": 168,
+   "modes": {
+    "core": 66,
+    "picture": 44,
+    "real-life": 37,
+    "simulation": 0,
+    "olympiad": 21
+   },
+   "topics": [
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "W1",
+     "title": "Young Scientists",
+     "strand": "skills",
+     "site_skill": "W1",
+     "worksheet": "worksheets/grade-1-science/pdf/w1-young-scientists-study-pack.pdf",
+     "file": "questions/grade-1/w1-young-scientists.json",
+     "count": 24,
+     "modes": {
+      "core": 9,
+      "picture": 7,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "truefalse": 3,
+      "match": 2,
+      "order": 2,
+      "fill": 3,
+      "multi": 2,
+      "sort": 2,
+      "mcq": 9,
+      "short": 1
+     }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "A1",
+     "title": "Living Things and What They Need",
+     "strand": "living",
+     "site_skill": "L1",
+     "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+     "file": "questions/grade-1/a1-living-things-and-what-they-need.json",
+     "count": 24,
+     "modes": {
+      "core": 11,
+      "picture": 6,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 9,
+      "sort": 2,
+      "fill": 3,
+      "truefalse": 3,
+      "multi": 3,
+      "match": 1,
+      "order": 2,
+      "short": 1
+     }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "A2",
+     "title": "Habitats of Bangladesh",
+     "strand": "living",
+     "site_skill": "L2",
+     "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+     "file": "questions/grade-1/a2-habitats-of-bangladesh.json",
+     "count": 24,
+     "modes": {
+      "core": 9,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "match": 2,
+      "mcq": 9,
+      "fill": 3,
+      "truefalse": 3,
+      "sort": 1,
+      "multi": 4,
+      "order": 1,
+      "short": 1
+     }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "A3",
+     "title": "Healthy Bodies",
+     "strand": "living",
+     "site_skill": "L3",
+     "worksheet": "worksheets/grade-1-science/pdf/a3-healthy-bodies-study-pack.pdf",
+     "file": "questions/grade-1/a3-healthy-bodies.json",
+     "count": 24,
+     "modes": {
+      "core": 9,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 9,
+      "sort": 1,
+      "fill": 3,
+      "truefalse": 4,
+      "multi": 3,
+      "match": 2,
+      "order": 1,
+      "short": 1
+     }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "B1",
+     "title": "The Sun, Moon and Stars",
+     "strand": "earth",
+     "site_skill": "E1",
+     "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+     "file": "questions/grade-1/b1-the-sun-moon-and-stars.json",
+     "count": 24,
+     "modes": {
+      "core": 9,
+      "picture": 7,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 9,
+      "truefalse": 5,
+      "sort": 1,
+      "fill": 4,
+      "order": 1,
+      "match": 2,
+      "multi": 1,
+      "short": 1
+     }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "B2",
+     "title": "Weather Watching",
+     "strand": "earth",
+     "site_skill": "E2",
+     "worksheet": "worksheets/grade-1-science/pdf/b2-weather-watching-study-pack.pdf",
+     "file": "questions/grade-1/b2-weather-watching.json",
+     "count": 24,
+     "modes": {
+      "core": 10,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "match": 2,
+      "mcq": 9,
+      "sort": 2,
+      "fill": 2,
+      "truefalse": 4,
+      "order": 2,
+      "multi": 2,
+      "short": 1
+     }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "B3",
+     "title": "Keeping Our Environment Clean",
+     "strand": "earth",
+     "site_skill": "E3",
+     "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+     "file": "questions/grade-1/b3-keeping-our-environment-clean.json",
+     "count": 24,
+     "modes": {
+      "core": 9,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 9,
+      "match": 2,
+      "multi": 3,
+      "sort": 2,
+      "fill": 2,
+      "truefalse": 4,
+      "order": 1,
+      "short": 1
+     }
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "file": "dist/grade-2.json",
+   "questions": 208,
+   "modes": {
+    "core": 99,
+    "picture": 48,
+    "real-life": 34,
+    "simulation": 0,
+    "olympiad": 27
+   },
+   "topics": [
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "W1",
+     "title": "I Am a Scientist",
+     "strand": "skills",
+     "site_skill": "W1",
+     "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+     "file": "questions/grade-2/w1-i-am-a-scientist.json",
+     "count": 26,
+     "modes": {
+      "core": 12,
+      "picture": 6,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 11,
+      "match": 2,
+      "fill": 3,
+      "truefalse": 3,
+      "sort": 2,
+      "order": 1,
+      "multi": 2,
+      "short": 2
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "A1",
+     "title": "Plants and Their Parts",
+     "strand": "living",
+     "site_skill": "L1",
+     "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+     "file": "questions/grade-2/a1-plants-and-their-parts.json",
+     "count": 26,
+     "modes": {
+      "core": 13,
+      "picture": 6,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 11,
+      "sort": 2,
+      "fill": 3,
+      "match": 1,
+      "multi": 2,
+      "truefalse": 4,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "A2",
+     "title": "Living and Non-Living Things",
+     "strand": "living",
+     "site_skill": "L2",
+     "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+     "file": "questions/grade-2/a2-living-and-non-living-things.json",
+     "count": 26,
+     "modes": {
+      "core": 13,
+      "picture": 6,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 11,
+      "sort": 3,
+      "multi": 3,
+      "fill": 2,
+      "match": 1,
+      "truefalse": 3,
+      "short": 2,
+      "order": 1
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "A3",
+     "title": "Life Cycles and Growth",
+     "strand": "living",
+     "site_skill": "L3",
+     "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+     "file": "questions/grade-2/a3-life-cycles-and-growth.json",
+     "count": 26,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 11,
+      "match": 1,
+      "order": 3,
+      "fill": 2,
+      "truefalse": 3,
+      "multi": 2,
+      "sort": 2,
+      "short": 2
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "A4",
+     "title": "The Human Body: Parts and Organs",
+     "strand": "living",
+     "site_skill": "L4",
+     "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+     "file": "questions/grade-2/a4-the-human-body-parts-and-organs.json",
+     "count": 26,
+     "modes": {
+      "core": 12,
+      "picture": 7,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 11,
+      "multi": 3,
+      "match": 2,
+      "fill": 3,
+      "truefalse": 3,
+      "sort": 1,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "A5",
+     "title": "Life Processes and Keeping Healthy",
+     "strand": "living",
+     "site_skill": "L5",
+     "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+     "file": "questions/grade-2/a5-life-processes-and-keeping-healthy.json",
+     "count": 26,
+     "modes": {
+      "core": 12,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 10,
+      "match": 2,
+      "sort": 2,
+      "multi": 3,
+      "fill": 2,
+      "truefalse": 4,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "A6",
+     "title": "Our Senses",
+     "strand": "living",
+     "site_skill": "L6",
+     "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+     "file": "questions/grade-2/a6-our-senses.json",
+     "count": 26,
+     "modes": {
+      "core": 11,
+      "picture": 7,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 11,
+      "match": 2,
+      "sort": 2,
+      "multi": 3,
+      "fill": 2,
+      "truefalse": 3,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "B1",
+     "title": "Landforms and Changes",
+     "strand": "earth",
+     "site_skill": "E1",
+     "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+     "file": "questions/grade-2/b1-landforms-and-changes.json",
+     "count": 26,
+     "modes": {
+      "core": 13,
+      "picture": 6,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 11,
+      "match": 2,
+      "multi": 3,
+      "fill": 2,
+      "truefalse": 3,
+      "sort": 2,
+      "order": 1,
+      "short": 2
+     }
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "file": "dist/grade-3.json",
+   "questions": 196,
+   "modes": {
+    "core": 90,
+    "picture": 41,
+    "real-life": 33,
+    "simulation": 3,
+    "olympiad": 29
+   },
+   "topics": [
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "W1",
+     "title": "Science Investigators",
+     "strand": "skills",
+     "site_skill": "W1",
+     "worksheet": "worksheets/grade-3-science/pdf/w1-science-investigators-study-pack.pdf",
+     "file": "questions/grade-3/w1-science-investigators.json",
+     "count": 28,
+     "modes": {
+      "core": 13,
+      "picture": 6,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 12,
+      "sort": 2,
+      "fill": 3,
+      "truefalse": 4,
+      "order": 2,
+      "multi": 1,
+      "match": 2,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "A1",
+     "title": "Skeletons, Muscles and Medicines",
+     "strand": "living",
+     "site_skill": "L1",
+     "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+     "file": "questions/grade-3/a1-skeletons-muscles-medicines.json",
+     "count": 28,
+     "modes": {
+      "core": 12,
+      "picture": 7,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 12,
+      "truefalse": 4,
+      "match": 2,
+      "fill": 4,
+      "multi": 1,
+      "order": 1,
+      "sort": 2,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "A2",
+     "title": "Plant Growth and Development",
+     "strand": "living",
+     "site_skill": "L2",
+     "worksheet": "worksheets/grade-3-science/pdf/a2-plant-growth-and-development-study-pack.pdf",
+     "file": "questions/grade-3/a2-plant-growth.json",
+     "count": 28,
+     "modes": {
+      "core": 12,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 11,
+      "sort": 2,
+      "fill": 4,
+      "truefalse": 4,
+      "match": 1,
+      "multi": 2,
+      "order": 2,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "A3",
+     "title": "Habitats and Adaptation",
+     "strand": "living",
+     "site_skill": "L3",
+     "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+     "file": "questions/grade-3/a3-habitats-adaptation.json",
+     "count": 28,
+     "modes": {
+      "core": 13,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 12,
+      "match": 2,
+      "fill": 3,
+      "sort": 2,
+      "truefalse": 3,
+      "multi": 3,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "A4",
+     "title": "Ecosystems of Bangladesh",
+     "strand": "living",
+     "site_skill": "L4",
+     "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+     "file": "questions/grade-3/a4-ecosystems-of-bangladesh.json",
+     "count": 28,
+     "modes": {
+      "core": 13,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 11,
+      "sort": 4,
+      "fill": 3,
+      "truefalse": 3,
+      "multi": 3,
+      "order": 1,
+      "match": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "A5",
+     "title": "Food Chains and Energy Roles",
+     "strand": "living",
+     "site_skill": "L5",
+     "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+     "file": "questions/grade-3/a5-food-chains.json",
+     "count": 28,
+     "modes": {
+      "core": 14,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 10,
+      "sort": 2,
+      "fill": 3,
+      "match": 2,
+      "truefalse": 4,
+      "order": 2,
+      "multi": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "C2",
+     "title": "Sound",
+     "strand": "physical",
+     "site_skill": "P1",
+     "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+     "file": "questions/grade-3/c2-sound.json",
+     "count": 28,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 4,
+      "simulation": 3,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 14,
+      "match": 2,
+      "truefalse": 4,
+      "fill": 2,
+      "multi": 2,
+      "sort": 1,
+      "order": 1,
+      "short": 2
+     }
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "grade_name": "Grade 4",
+   "file": "dist/grade-4.json",
+   "questions": 330,
+   "modes": {
+    "core": 146,
+    "picture": 60,
+    "real-life": 59,
+    "simulation": 11,
+    "olympiad": 54
+   },
+   "topics": [
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "W1",
+     "title": "Science Detectives: Working Scientifically",
+     "strand": "skills",
+     "site_skill": "W1",
+     "worksheet": "worksheets/grade-4-science/pdf/w1-science-detectives-working-scientifically-study-pack.pdf",
+     "file": "questions/grade-4/w1-working-scientifically.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 6
+     },
+     "types": {
+      "mcq": 13,
+      "fill": 4,
+      "match": 2,
+      "order": 2,
+      "sort": 2,
+      "truefalse": 2,
+      "short": 3,
+      "multi": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "A1",
+     "title": "Animals of Bangladesh: Diversity and Classification",
+     "strand": "living",
+     "site_skill": "L1",
+     "worksheet": "worksheets/grade-4-science/pdf/a1-animals-of-bangladesh-diversity-and-classification-study-pack.pdf",
+     "file": "questions/grade-4/a1-animal-diversity.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 2,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 13,
+      "match": 3,
+      "sort": 2,
+      "fill": 3,
+      "truefalse": 2,
+      "order": 1,
+      "short": 2,
+      "multi": 4
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "A2",
+     "title": "Plants of Bangladesh: Diversity and Adaptation",
+     "strand": "living",
+     "site_skill": "L2",
+     "worksheet": "worksheets/grade-4-science/pdf/a2-plants-of-bangladesh-diversity-and-adaptation-study-pack.pdf",
+     "file": "questions/grade-4/a2-plant-diversity.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 6
+     },
+     "types": {
+      "sort": 3,
+      "match": 2,
+      "truefalse": 3,
+      "fill": 3,
+      "mcq": 13,
+      "short": 2,
+      "order": 1,
+      "multi": 3
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "A3",
+     "title": "Life Cycles, Growth and Inheritance",
+     "strand": "living",
+     "site_skill": "L3",
+     "worksheet": "worksheets/grade-4-science/pdf/a3-life-cycles-growth-and-inheritance-study-pack.pdf",
+     "file": "questions/grade-4/a3-life-cycles.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 2,
+      "olympiad": 4
+     },
+     "types": {
+      "order": 2,
+      "fill": 3,
+      "match": 2,
+      "sort": 2,
+      "mcq": 13,
+      "truefalse": 4,
+      "multi": 2,
+      "short": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "A4",
+     "title": "Ecosystems and Interactions",
+     "strand": "living",
+     "site_skill": "L4",
+     "worksheet": "worksheets/grade-4-science/pdf/a4-ecosystems-and-interactions-study-pack.pdf",
+     "file": "questions/grade-4/a4-ecosystems.json",
+     "count": 30,
+     "modes": {
+      "core": 14,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "sort": 2,
+      "order": 1,
+      "match": 3,
+      "fill": 2,
+      "mcq": 13,
+      "truefalse": 3,
+      "multi": 4,
+      "short": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "A5",
+     "title": "Food Chains and Food Webs",
+     "strand": "living",
+     "site_skill": "L5",
+     "worksheet": "worksheets/grade-4-science/pdf/a5-food-chains-and-food-webs-study-pack.pdf",
+     "file": "questions/grade-4/a5-food-chains.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 6
+     },
+     "types": {
+      "order": 2,
+      "sort": 2,
+      "fill": 3,
+      "truefalse": 3,
+      "mcq": 13,
+      "match": 2,
+      "multi": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "C1",
+     "title": "Matter: States, Elements and Compounds",
+     "strand": "physical",
+     "site_skill": "P1",
+     "worksheet": "worksheets/grade-4-science/pdf/c1-matter-states-elements-and-compounds-study-pack.pdf",
+     "file": "questions/grade-4/c1-matter-states-elements-compounds.json",
+     "count": 30,
+     "modes": {
+      "core": 14,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 2,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 13,
+      "truefalse": 4,
+      "fill": 2,
+      "match": 3,
+      "sort": 3,
+      "order": 1,
+      "multi": 2,
+      "short": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "C2",
+     "title": "Mixtures and Separation",
+     "strand": "physical",
+     "site_skill": "P2",
+     "worksheet": "worksheets/grade-4-science/pdf/c2-mixtures-and-separation-study-pack.pdf",
+     "file": "questions/grade-4/c2-mixtures-separation.json",
+     "count": 30,
+     "modes": {
+      "core": 14,
+      "picture": 5,
+      "real-life": 7,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 13,
+      "sort": 2,
+      "match": 3,
+      "truefalse": 4,
+      "fill": 2,
+      "order": 2,
+      "multi": 2,
+      "short": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "C3",
+     "title": "Atoms and Their Structure",
+     "strand": "physical",
+     "site_skill": "P3",
+     "worksheet": "worksheets/grade-4-science/pdf/c3-atoms-and-their-structure-study-pack.pdf",
+     "file": "questions/grade-4/c3-atoms-structure.json",
+     "count": 30,
+     "modes": {
+      "core": 15,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 13,
+      "truefalse": 4,
+      "fill": 3,
+      "match": 2,
+      "sort": 2,
+      "order": 1,
+      "multi": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "C4",
+     "title": "Forces and Motion",
+     "strand": "physical",
+     "site_skill": "P4",
+     "worksheet": "worksheets/grade-4-science/pdf/c4-forces-and-motion-study-pack.pdf",
+     "file": "questions/grade-4/c4-forces-motion.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 3,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 13,
+      "sort": 2,
+      "match": 3,
+      "fill": 3,
+      "truefalse": 2,
+      "multi": 3,
+      "short": 2,
+      "order": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "C5",
+     "title": "Floating and Flying",
+     "strand": "physical",
+     "site_skill": "P5",
+     "worksheet": "worksheets/grade-4-science/pdf/c5-floating-and-flying-study-pack.pdf",
+     "file": "questions/grade-4/c5-floating-flying.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 6,
+      "simulation": 2,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 11,
+      "match": 3,
+      "sort": 2,
+      "fill": 4,
+      "truefalse": 4,
+      "multi": 3,
+      "order": 1,
+      "short": 2
+     }
+    }
+   ]
+  },
+  {
+   "grade": 5,
+   "grade_name": "Grade 5",
+   "file": "dist/grade-5.json",
+   "questions": 450,
+   "modes": {
+    "core": 181,
+    "picture": 86,
+    "real-life": 86,
+    "simulation": 24,
+    "olympiad": 73
+   },
+   "topics": [
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "W1",
+     "title": "The Scientist's Toolkit",
+     "strand": "skills",
+     "site_skill": "W1",
+     "worksheet": "worksheets/grade-5-science/pdf/w1-the-scientist-s-toolkit-study-pack.pdf",
+     "file": "questions/grade-5/w1-scientists-toolkit.json",
+     "count": 30,
+     "modes": {
+      "core": 14,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 12,
+      "match": 3,
+      "fill": 5,
+      "truefalse": 2,
+      "sort": 2,
+      "order": 1,
+      "multi": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "A1",
+     "title": "Human Body Systems",
+     "strand": "living",
+     "site_skill": "L1",
+     "worksheet": "worksheets/grade-5-science/pdf/a1-human-body-systems-study-pack.pdf",
+     "file": "questions/grade-5/a1-human-body-systems.json",
+     "count": 30,
+     "modes": {
+      "core": 14,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 12,
+      "match": 4,
+      "sort": 2,
+      "order": 1,
+      "fill": 3,
+      "truefalse": 3,
+      "multi": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "A2",
+     "title": "Cells, Tissues and Organs",
+     "strand": "living",
+     "site_skill": "L2",
+     "worksheet": "worksheets/grade-5-science/pdf/a2-cells-tissues-and-organs-study-pack.pdf",
+     "file": "questions/grade-5/a2-cells-tissues-organs.json",
+     "count": 30,
+     "modes": {
+      "core": 14,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 11,
+      "match": 4,
+      "order": 1,
+      "fill": 3,
+      "truefalse": 3,
+      "sort": 2,
+      "multi": 3,
+      "short": 3
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "A3",
+     "title": "Staying Healthy",
+     "strand": "living",
+     "site_skill": "L3",
+     "worksheet": "worksheets/grade-5-science/pdf/a3-staying-healthy-study-pack.pdf",
+     "file": "questions/grade-5/a3-staying-healthy.json",
+     "count": 30,
+     "modes": {
+      "core": 14,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "fill": 4,
+      "sort": 2,
+      "truefalse": 3,
+      "order": 1,
+      "mcq": 12,
+      "match": 2,
+      "multi": 4,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "A4",
+     "title": "Eating for Health",
+     "strand": "living",
+     "site_skill": "L4",
+     "worksheet": "worksheets/grade-5-science/pdf/a4-eating-for-health-study-pack.pdf",
+     "file": "questions/grade-5/a4-eating-for-health.json",
+     "count": 30,
+     "modes": {
+      "core": 11,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 3,
+      "olympiad": 4
+     },
+     "types": {
+      "match": 3,
+      "sort": 2,
+      "fill": 4,
+      "order": 1,
+      "truefalse": 3,
+      "multi": 3,
+      "mcq": 12,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "B1",
+     "title": "Water for Life and the Water Cycle",
+     "strand": "earth",
+     "site_skill": "E1",
+     "worksheet": "worksheets/grade-5-science/pdf/b1-water-for-life-and-the-water-cycle-study-pack.pdf",
+     "file": "questions/grade-5/b1-water-cycle.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 3,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 13,
+      "fill": 3,
+      "match": 2,
+      "truefalse": 4,
+      "order": 2,
+      "sort": 1,
+      "multi": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "B2",
+     "title": "Soil and the Living Earth",
+     "strand": "earth",
+     "site_skill": "E2",
+     "worksheet": "worksheets/grade-5-science/pdf/b2-soil-and-the-living-earth-study-pack.pdf",
+     "file": "questions/grade-5/b2-soil.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 7,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 13,
+      "truefalse": 3,
+      "match": 2,
+      "fill": 3,
+      "order": 2,
+      "sort": 2,
+      "multi": 2,
+      "short": 3
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "B3",
+     "title": "Earth's Changing Surface",
+     "strand": "earth",
+     "site_skill": "E3",
+     "worksheet": "worksheets/grade-5-science/pdf/b3-earth-s-changing-surface-study-pack.pdf",
+     "file": "questions/grade-5/b3-changing-surface.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 6
+     },
+     "types": {
+      "mcq": 13,
+      "match": 2,
+      "truefalse": 3,
+      "fill": 3,
+      "multi": 3,
+      "order": 1,
+      "sort": 2,
+      "short": 3
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "B4",
+     "title": "Earth, Sun and Moon: Days, Years and Seasons",
+     "strand": "earth",
+     "site_skill": "E4",
+     "worksheet": "worksheets/grade-5-science/pdf/b4-earth-sun-and-moon-days-years-and-seasons-study-pack.pdf",
+     "file": "questions/grade-5/b4-sun-moon-seasons.json",
+     "count": 30,
+     "modes": {
+      "core": 10,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 3,
+      "olympiad": 5
+     },
+     "types": {
+      "fill": 3,
+      "mcq": 13,
+      "truefalse": 4,
+      "match": 2,
+      "order": 1,
+      "sort": 2,
+      "multi": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "B5",
+     "title": "Resources and Sustainability",
+     "strand": "earth",
+     "site_skill": "E5",
+     "worksheet": "worksheets/grade-5-science/pdf/b5-resources-and-sustainability-study-pack.pdf",
+     "file": "questions/grade-5/b5-resources.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 2,
+      "olympiad": 6
+     },
+     "types": {
+      "mcq": 13,
+      "sort": 2,
+      "order": 1,
+      "match": 2,
+      "fill": 2,
+      "truefalse": 5,
+      "multi": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C1",
+     "title": "States of Matter: Evaporation, Condensation, Boiling and Melting",
+     "strand": "physical",
+     "site_skill": "P1",
+     "worksheet": "worksheets/grade-5-science/pdf/c1-states-of-matter-evaporation-condensation-boiling-and-melting-study-pack.pdf",
+     "file": "questions/grade-5/c1-states-of-matter.json",
+     "count": 30,
+     "modes": {
+      "core": 10,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 3,
+      "olympiad": 5
+     },
+     "types": {
+      "fill": 3,
+      "truefalse": 3,
+      "match": 3,
+      "sort": 1,
+      "order": 2,
+      "multi": 3,
+      "mcq": 13,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C2",
+     "title": "Mixtures, Solutions and Changes",
+     "strand": "physical",
+     "site_skill": "P2",
+     "worksheet": "worksheets/grade-5-science/pdf/c2-mixtures-solutions-and-changes-study-pack.pdf",
+     "file": "questions/grade-5/c2-mixtures-solutions-changes.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 6
+     },
+     "types": {
+      "mcq": 13,
+      "match": 1,
+      "truefalse": 3,
+      "sort": 3,
+      "order": 2,
+      "multi": 2,
+      "fill": 4,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C3",
+     "title": "Matter, Atoms and Conservation",
+     "strand": "physical",
+     "site_skill": "P3",
+     "worksheet": "worksheets/grade-5-science/pdf/c3-matter-atoms-and-conservation-study-pack.pdf",
+     "file": "questions/grade-5/c3-matter-atoms-conservation.json",
+     "count": 30,
+     "modes": {
+      "core": 11,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 3,
+      "olympiad": 6
+     },
+     "types": {
+      "mcq": 12,
+      "fill": 4,
+      "match": 3,
+      "truefalse": 4,
+      "sort": 2,
+      "multi": 2,
+      "short": 2,
+      "order": 1
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C4",
+     "title": "Energy and Its Transformations",
+     "strand": "physical",
+     "site_skill": "P4",
+     "worksheet": "worksheets/grade-5-science/pdf/c4-energy-and-its-transformations-study-pack.pdf",
+     "file": "questions/grade-5/c4-energy-transformations.json",
+     "count": 30,
+     "modes": {
+      "core": 11,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 3,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 13,
+      "sort": 2,
+      "match": 2,
+      "fill": 3,
+      "truefalse": 4,
+      "multi": 2,
+      "short": 2,
+      "order": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C5",
+     "title": "Sound",
+     "strand": "physical",
+     "site_skill": "P5",
+     "worksheet": "worksheets/grade-5-science/pdf/c5-sound-study-pack.pdf",
+     "file": "questions/grade-5/c5-sound.json",
+     "count": 30,
+     "modes": {
+      "core": 10,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 4,
+      "olympiad": 5
+     },
+     "types": {
+      "fill": 2,
+      "match": 2,
+      "truefalse": 5,
+      "sort": 1,
+      "order": 1,
+      "mcq": 13,
+      "multi": 4,
+      "short": 2
+     }
+    }
+   ]
+  }
+ ],
+ "totals": {
+  "questions": 1512,
+  "topics": 56,
+  "modes": {
+   "core": 635,
+   "picture": 345,
+   "real-life": 275,
+   "simulation": 38,
+   "olympiad": 219
+  },
+  "types": {
+   "fill": 157,
+   "match": 116,
+   "mcq": 625,
+   "multi": 147,
+   "order": 76,
+   "short": 93,
+   "sort": 104,
+   "truefalse": 194
+  }
+ },
+ "modes": {
+  "core": "Mixed review",
+  "picture": "Picture quiz",
+  "real-life": "Real-life choices",
+  "simulation": "Simulation questions",
+  "olympiad": "Olympiad challenge"
+ },
+ "strands": {
+  "skills": {
+   "name": "Working scientifically",
+   "site_code": "W"
+  },
+  "living": {
+   "name": "Living things",
+   "site_code": "L"
+  },
+  "earth": {
+   "name": "Earth and space",
+   "site_code": "E"
+  },
+  "physical": {
+   "name": "Physical and chemical science",
+   "site_code": "P"
+  }
+ }
+}
