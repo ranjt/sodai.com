@@ -1,215 +1,741 @@
 {
-  "grade": 5,
-  "grade_name": "Grade 5",
-  "topic": "A3",
-  "title": "Staying Healthy",
-  "strand": "living",
-  "worksheet": "worksheets/grade-5-science/pdf/a3-staying-healthy-study-pack.pdf",
-  "questions": [
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "A3",
+ "title": "Staying Healthy",
+ "strand": "living",
+ "worksheet": "worksheets/grade-5-science/pdf/a3-staying-healthy-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-a3-001",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "A healthy lifestyle",
+   "stem": "To stay healthy we need clean air and safe ___, good hygiene, nutritious food, ___ and enough sleep.",
+   "blanks": [
+    [
+     "water"
+    ],
+    [
+     "exercise"
+    ]
+   ],
+   "bank": [
+    "water",
+    "exercise",
+    "television",
+    "sugar"
+   ],
+   "explanation": "A healthy lifestyle needs clean surroundings, clean air, safe water, good hygiene, nutritious food, exercise and enough sleep. When these are missing, people are more likely to become ill."
+  },
+  {
+   "id": "g5-a3-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Germs and how diseases spread",
+   "stem": "Sort each disease by the main way it spreads.",
+   "categories": [
+    "Dirty water or food",
+    "Air (coughs and sneezes)",
+    "Mosquito bites"
+   ],
+   "items": [
+    [
+     "cholera",
+     "Dirty water or food"
+    ],
+    [
+     "typhoid",
+     "Dirty water or food"
+    ],
+    [
+     "diarrhoea",
+     "Dirty water or food"
+    ],
+    [
+     "flu",
+     "Air (coughs and sneezes)"
+    ],
+    [
+     "tuberculosis",
+     "Air (coughs and sneezes)"
+    ],
+    [
+     "common cold",
+     "Air (coughs and sneezes)"
+    ],
+    [
+     "dengue",
+     "Mosquito bites"
+    ],
+    [
+     "malaria",
+     "Mosquito bites"
+    ]
+   ],
+   "explanation": "Knowing how a disease spreads shows how to stop it: safe water and food, covering coughs and sneezes, and stopping mosquitoes from breeding."
+  },
+  {
+   "id": "g5-a3-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Germs and how diseases spread",
+   "stem": "All germs cause disease.",
+   "answer": false,
+   "explanation": "Most germs (microbes) are harmless and some are even useful. Only some of them cause disease."
+  },
+  {
+   "id": "g5-a3-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Preventing disease",
+   "stem": "Diabetes is an infectious disease that spreads from person to person through coughs and sneezes.",
+   "answer": false,
+   "explanation": "Diabetes does not spread from person to person. Diseases such as diabetes and heart disease are linked to lifestyle, for example too little exercise or too much sugar and fat."
+  },
+  {
+   "id": "g5-a3-005",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Hygiene and handwashing",
+   "stem": "Put the steps of handwashing in the correct order.",
+   "sequence": [
+    "Wet your hands with clean water.",
+    "Add soap.",
+    "Rub palms, backs of hands and between fingers.",
+    "Scrub nails and thumbs.",
+    "Rinse well.",
+    "Dry with a clean cloth."
+   ],
+   "explanation": "Washing in this order, with soap and for about 20 seconds, removes most germs. Do not forget the thumbs, nails and spaces between the fingers."
+  },
+  {
+   "id": "g5-a3-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Hygiene and handwashing",
+   "stem": "Wash your hands with soap for about ___ seconds, especially before eating and after using the toilet.",
+   "blanks": [
+    [
+     "20",
+     "twenty"
+    ]
+   ],
+   "bank": [
+    "20",
+    "2",
+    "5",
+    "60"
+   ],
+   "explanation": "Rubbing with soap for about 20 seconds removes most germs. A quick 2 to 5 second rinse leaves many germs behind."
+  },
+  {
+   "id": "g5-a3-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Preventing disease",
+   "stem": "What does a vaccine do?",
+   "options": [
+    "It replaces the water and salts lost in diarrhoea.",
+    "It trains the body to fight a germ.",
+    "It kills mosquitoes that come into the home.",
+    "It makes the body grow taller and stronger."
+   ],
+   "answer": 1,
+   "explanation": "A vaccine trains the body to recognise and fight a germ before it attacks. Bangladesh's vaccination programme protects children from measles, polio and tetanus."
+  },
+  {
+   "id": "g5-a3-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Choices and evidence",
+   "stem": "Match each problem to a disease it can cause.",
+   "pairs": [
+    [
+     "drinking unsafe pond water",
+     "diarrhoea or cholera"
+    ],
+    [
+     "a bite from an Aedes mosquito",
+     "dengue"
+    ],
+    [
+     "not covering coughs and sneezes",
+     "flu and colds"
+    ],
+    [
+     "too little exercise and too much sugar",
+     "diabetes later in life"
+    ]
+   ],
+   "explanation": "Unhealthy conditions are linked to diseases. Dirty water carries germs, mosquitoes carry the dengue virus, coughs spread flu, and an unhealthy lifestyle raises the risk of diabetes."
+  },
+  {
+   "id": "g5-a3-009",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Preventing disease",
+   "stem": "Which habits help to prevent disease? Choose all that are right.",
+   "options": [
+    "wash hands with soap before eating",
+    "drink water straight from a pond",
+    "empty containers of standing water every week",
+    "cough into your open hand",
+    "use a clean toilet (latrine)"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Soap, a clean toilet and no standing water all stop germs and mosquitoes. Pond water can carry germs, and coughing into your hand spreads them."
+  },
+  {
+   "id": "g5-a3-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "A healthy lifestyle",
+   "stem": "About how many hours of sleep does a child aged 6 to 12 need each night?",
+   "options": [
+    "5 to 6 hours",
+    "7 to 8 hours",
+    "13 to 15 hours",
+    "9 to 12 hours"
+   ],
+   "answer": 3,
+   "explanation": "Children aged 6 to 12 need about 9 to 12 hours of sleep to grow, learn and stay well. Sleep also helps the body fight infection."
+  },
+  {
+   "id": "g5-a3-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Germs and how diseases spread",
+   "stem": "A disease that spreads from person to person is ___. A sign of illness, such as a fever or a cough, is a ___.",
+   "blanks": [
+    [
+     "infectious",
+     "an infectious disease",
+     "contagious"
+    ],
+    [
+     "symptom",
+     "symptoms"
+    ]
+   ],
+   "bank": [
+    "infectious",
+    "symptom",
+    "vaccine",
+    "hygiene"
+   ],
+   "explanation": "Infectious diseases can pass from one person to another. A symptom is a sign that a person is ill."
+  },
+  {
+   "id": "g5-a3-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Preventing disease",
+   "stem": "A child has diarrhoea and is losing a lot of water. Why is ORS better than plain water?",
+   "options": [
+    "It makes the child feel sleepy for longer.",
+    "It gives the body extra fat to store.",
+    "It replaces the lost salts as well as water.",
+    "It kills all the germs that are inside the body."
+   ],
+   "answer": 2,
+   "explanation": "ORS (oral rehydration solution) replaces the salts the body has lost, and its sugar helps the body absorb the salts and water. Scientists in Dhaka helped show how much it can help."
+  },
+  {
+   "id": "g5-a3-013",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Preventing disease",
+   "stem": "Explain why a vaccine protects other people as well as you.",
+   "model_answer": "If you are vaccinated you cannot catch the disease, so you cannot pass it on. When many people are vaccinated the germ cannot spread easily, so babies and sick people are protected too.",
+   "keywords": [
+    [
+     "cannot catch",
+     "not catch",
+     "do not catch",
+     "won't catch",
+     "protected",
+     "immune"
+    ],
+    [
+     "pass",
+     "pass it on",
+     "spread",
+     "infect"
+    ],
+    [
+     "many",
+     "others",
+     "other people",
+     "babies",
+     "sick"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A germ needs people to spread between. If most people are vaccinated, it has few people to pass to, which protects even those who cannot be vaccinated."
+  },
+  {
+   "id": "g5-a3-014",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Germs and how diseases spread",
+   "stem": "Dengue is spread by the bite of a mosquito.",
+   "answer": true,
+   "explanation": "Dengue is caused by a virus that the female Aedes mosquito passes on when it bites. Malaria is also spread by mosquitoes."
+  },
+  {
+   "id": "g5-a3-015",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Germs and how diseases spread",
+   "stem": "Rubbish and dirty water attract some animals that spread germs. Sort the pictures.",
+   "categories": [
+    "Can spread germs",
+    "Do not spread disease to people"
+   ],
+   "items": [
+    [
+     {
+      "text": "fly",
+      "image": "openmoji/fly.svg"
+     },
+     "Can spread germs"
+    ],
+    [
+     {
+      "text": "rat",
+      "image": "openmoji/rat.svg"
+     },
+     "Can spread germs"
+    ],
+    [
+     {
+      "text": "mosquito",
+      "image": "openmoji/mosquito.svg"
+     },
+     "Can spread germs"
+    ],
+    [
+     {
+      "text": "honeybee",
+      "image": "openmoji/honeybee.svg"
+     },
+     "Do not spread disease to people"
+    ],
+    [
+     {
+      "text": "butterfly",
+      "image": "openmoji/butterfly.svg"
+     },
+     "Do not spread disease to people"
+    ],
+    [
+     {
+      "text": "ladybird",
+      "image": "openmoji/lady-beetle.svg"
+     },
+     "Do not spread disease to people"
+    ]
+   ],
+   "explanation": "Flies, rats and mosquitoes breed or feed in rubbish and dirty water and can carry germs. Keeping surroundings clean keeps them away."
+  },
+  {
+   "id": "g5-a3-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "A healthy lifestyle",
+   "stem": "Match each picture to the healthy need it shows.",
+   "pairs": [
+    [
+     {
+      "text": "soap",
+      "image": "openmoji/soap.svg"
+     },
+     "good hygiene"
+    ],
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "nutritious food"
+    ],
+    [
+     {
+      "text": "running",
+      "image": "openmoji/person-running.svg"
+     },
+     "exercise"
+    ],
+    [
+     {
+      "text": "bed",
+      "image": "openmoji/bed.svg"
+     },
+     "enough sleep"
+    ],
+    [
+     {
+      "text": "clean water",
+      "image": "openmoji/potable-water.svg"
+     },
+     "safe water"
+    ]
+   ],
+   "explanation": "A healthy body needs clean surroundings, safe water, hygiene, nutritious food, exercise and sleep."
+  },
+  {
+   "id": "g5-a3-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Dengue and mosquitoes",
+   "stem": "After heavy rain, which object left in the yard could collect still water where mosquitoes lay eggs?",
+   "options": [
     {
-      "id": "g5-a3-001", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "A healthy lifestyle",
-      "stem": "To stay healthy we need clean air and safe ___, good hygiene, nutritious food, ___ and enough sleep.",
-      "blanks": [["water"], ["exercise"]],
-      "bank": ["water", "exercise", "television", "sugar"],
-      "explanation": "A healthy lifestyle needs clean surroundings, clean air, safe water, good hygiene, nutritious food, exercise and enough sleep. When these are missing, people are more likely to become ill."
+     "text": "bucket",
+     "image": "openmoji/bucket.svg"
     },
     {
-      "id": "g5-a3-002", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Germs and how diseases spread",
-      "stem": "Sort each disease by the main way it spreads.",
-      "categories": ["Dirty water or food", "Air (coughs and sneezes)", "Mosquito bites"],
-      "items": [["cholera", "Dirty water or food"], ["typhoid", "Dirty water or food"], ["diarrhoea", "Dirty water or food"], ["flu", "Air (coughs and sneezes)"], ["tuberculosis", "Air (coughs and sneezes)"], ["common cold", "Air (coughs and sneezes)"], ["dengue", "Mosquito bites"], ["malaria", "Mosquito bites"]],
-      "explanation": "Knowing how a disease spreads shows how to stop it: safe water and food, covering coughs and sneezes, and stopping mosquitoes from breeding."
+     "text": "rock",
+     "image": "openmoji/rock.svg"
     },
     {
-      "id": "g5-a3-003", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Germs and how diseases spread",
-      "stem": "All germs cause disease.",
-      "answer": false,
-      "explanation": "Most germs (microbes) are harmless and some are even useful. Only some of them cause disease."
+     "text": "coin",
+     "image": "openmoji/coin.svg"
     },
     {
-      "id": "g5-a3-004", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Preventing disease",
-      "stem": "Diabetes is an infectious disease that spreads from person to person through coughs and sneezes.",
-      "answer": false,
-      "explanation": "Diabetes does not spread from person to person. Diseases such as diabetes and heart disease are linked to lifestyle, for example too little exercise or too much sugar and fat."
-    },
-    {
-      "id": "g5-a3-005", "mode": "core", "type": "order", "difficulty": 1, "bloom": "understand", "subskill": "Hygiene and handwashing",
-      "stem": "Put the steps of handwashing in the correct order.",
-      "sequence": ["Wet your hands with clean water.", "Add soap.", "Rub palms, backs of hands and between fingers.", "Scrub nails and thumbs.", "Rinse well.", "Dry with a clean cloth."],
-      "explanation": "Washing in this order, with soap and for about 20 seconds, removes most germs. Do not forget the thumbs, nails and spaces between the fingers."
-    },
-    {
-      "id": "g5-a3-006", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Hygiene and handwashing",
-      "stem": "Wash your hands with soap for about ___ seconds, especially before eating and after using the toilet.",
-      "blanks": [["20", "twenty"]],
-      "bank": ["20", "2", "5", "60"],
-      "explanation": "Rubbing with soap for about 20 seconds removes most germs. A quick 2 to 5 second rinse leaves many germs behind."
-    },
-    {
-      "id": "g5-a3-007", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Preventing disease",
-      "stem": "What does a vaccine do?",
-      "options": ["It trains the body to fight a germ.", "It replaces the water and salts lost in diarrhoea.", "It kills mosquitoes that come into the home.", "It makes the body grow taller and stronger."],
-      "answer": 0,
-      "explanation": "A vaccine trains the body to recognise and fight a germ before it attacks. Bangladesh's vaccination programme protects children from measles, polio and tetanus."
-    },
-    {
-      "id": "g5-a3-008", "mode": "core", "type": "match", "difficulty": 2, "bloom": "understand", "subskill": "Choices and evidence",
-      "stem": "Match each problem to a disease it can cause.",
-      "pairs": [["drinking unsafe pond water", "diarrhoea or cholera"], ["a bite from an Aedes mosquito", "dengue"], ["not covering coughs and sneezes", "flu and colds"], ["too little exercise and too much sugar", "diabetes later in life"]],
-      "explanation": "Unhealthy conditions are linked to diseases. Dirty water carries germs, mosquitoes carry the dengue virus, coughs spread flu, and an unhealthy lifestyle raises the risk of diabetes."
-    },
-    {
-      "id": "g5-a3-009", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Preventing disease",
-      "stem": "Which habits help to prevent disease? Choose all that are right.",
-      "options": ["wash hands with soap before eating", "drink water straight from a pond", "empty containers of standing water every week", "cough into your open hand", "use a clean toilet (latrine)"],
-      "answer": [0, 2, 4],
-      "explanation": "Soap, a clean toilet and no standing water all stop germs and mosquitoes. Pond water can carry germs, and coughing into your hand spreads them."
-    },
-    {
-      "id": "g5-a3-010", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "A healthy lifestyle",
-      "stem": "About how many hours of sleep does a child aged 6 to 12 need each night?",
-      "options": ["5 to 6 hours", "7 to 8 hours", "9 to 12 hours", "13 to 15 hours"],
-      "answer": 2,
-      "explanation": "Children aged 6 to 12 need about 9 to 12 hours of sleep to grow, learn and stay well. Sleep also helps the body fight infection."
-    },
-    {
-      "id": "g5-a3-011", "mode": "core", "type": "fill", "difficulty": 2, "bloom": "remember", "subskill": "Germs and how diseases spread",
-      "stem": "A disease that spreads from person to person is ___. A sign of illness, such as a fever or a cough, is a ___.",
-      "blanks": [["infectious", "an infectious disease", "contagious"], ["symptom", "symptoms"]],
-      "bank": ["infectious", "symptom", "vaccine", "hygiene"],
-      "explanation": "Infectious diseases can pass from one person to another. A symptom is a sign that a person is ill."
-    },
-    {
-      "id": "g5-a3-012", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Preventing disease",
-      "stem": "A child has diarrhoea and is losing a lot of water. Why is ORS better than plain water?",
-      "options": ["It kills all the germs that are inside the body.", "It makes the child feel sleepy for longer.", "It replaces the lost salts as well as water.", "It gives the body extra fat to store."],
-      "answer": 2,
-      "explanation": "ORS (oral rehydration solution) replaces the salts the body has lost, and its sugar helps the body absorb the salts and water. Scientists in Dhaka helped show how much it can help."
-    },
-    {
-      "id": "g5-a3-013", "mode": "core", "type": "short", "difficulty": 3, "bloom": "analyse", "subskill": "Preventing disease",
-      "stem": "Explain why a vaccine protects other people as well as you.",
-      "model_answer": "If you are vaccinated you cannot catch the disease, so you cannot pass it on. When many people are vaccinated the germ cannot spread easily, so babies and sick people are protected too.",
-      "keywords": [["cannot catch", "not catch", "do not catch", "won't catch", "protected", "immune"], ["pass", "pass it on", "spread", "infect"], ["many", "others", "other people", "babies", "sick"]],
-      "min_keywords": 2,
-      "explanation": "A germ needs people to spread between. If most people are vaccinated, it has few people to pass to, which protects even those who cannot be vaccinated."
-    },
-    {
-      "id": "g5-a3-014", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Germs and how diseases spread",
-      "stem": "Dengue is spread by the bite of a mosquito.",
-      "answer": true,
-      "explanation": "Dengue is caused by a virus that the female Aedes mosquito passes on when it bites. Malaria is also spread by mosquitoes."
-    },
-    {
-      "id": "g5-a3-015", "mode": "picture", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Germs and how diseases spread",
-      "stem": "Rubbish and dirty water attract some animals that spread germs. Sort the pictures.",
-      "categories": ["Can spread germs", "Do not spread disease to people"],
-      "items": [[{"text": "fly", "image": "openmoji/fly.svg"}, "Can spread germs"], [{"text": "rat", "image": "openmoji/rat.svg"}, "Can spread germs"], [{"text": "mosquito", "image": "openmoji/mosquito.svg"}, "Can spread germs"], [{"text": "honeybee", "image": "openmoji/honeybee.svg"}, "Do not spread disease to people"], [{"text": "butterfly", "image": "openmoji/butterfly.svg"}, "Do not spread disease to people"], [{"text": "ladybird", "image": "openmoji/lady-beetle.svg"}, "Do not spread disease to people"]],
-      "explanation": "Flies, rats and mosquitoes breed or feed in rubbish and dirty water and can carry germs. Keeping surroundings clean keeps them away."
-    },
-    {
-      "id": "g5-a3-016", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "A healthy lifestyle",
-      "stem": "Match each picture to the healthy need it shows.",
-      "pairs": [[{"text": "soap", "image": "openmoji/soap.svg"}, "good hygiene"], [{"text": "carrot", "image": "openmoji/carrot.svg"}, "nutritious food"], [{"text": "running", "image": "openmoji/person-running.svg"}, "exercise"], [{"text": "bed", "image": "openmoji/bed.svg"}, "enough sleep"], [{"text": "clean water", "image": "openmoji/potable-water.svg"}, "safe water"]],
-      "explanation": "A healthy body needs clean surroundings, safe water, hygiene, nutritious food, exercise and sleep."
-    },
-    {
-      "id": "g5-a3-017", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Dengue and mosquitoes",
-      "stem": "After heavy rain, which object left in the yard could collect still water where mosquitoes lay eggs?",
-      "options": [{"text": "rock", "image": "openmoji/rock.svg"}, {"text": "bucket", "image": "openmoji/bucket.svg"}, {"text": "coin", "image": "openmoji/coin.svg"}, {"text": "ladder", "image": "openmoji/ladder.svg"}],
-      "answer": 1,
-      "explanation": "Aedes mosquitoes lay eggs in small amounts of still water, in containers such as buckets, old tyres and flower tubs. Emptying them every week breaks the life cycle."
-    },
-    {
-      "id": "g5-a3-018", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Germs and how diseases spread",
-      "stem": "Which picture shows a symptom, a sign that a person is ill?",
-      "options": [{"text": "smiling face", "image": "openmoji/smiling-face.svg"}, {"text": "running", "image": "openmoji/person-running.svg"}, {"text": "fever", "image": "openmoji/face-with-thermometer.svg"}, {"text": "football", "image": "openmoji/football.svg"}],
-      "answer": 2,
-      "explanation": "A fever is a symptom of illness. The thermometer shows the child's temperature is high."
-    },
-    {
-      "id": "g5-a3-019", "mode": "picture", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "A healthy lifestyle",
-      "stem": "Which pictures show things a healthy body needs? Choose all that are right.",
-      "options": [{"text": "carrot", "image": "openmoji/carrot.svg"}, {"text": "running", "image": "openmoji/person-running.svg"}, {"text": "television", "image": "openmoji/television.svg"}, {"text": "sleeping", "image": "openmoji/sleeping-face.svg"}, {"text": "lollipop", "image": "openmoji/lollipop.svg"}],
-      "answer": [0, 1, 3],
-      "explanation": "Healthy bodies need nutritious food, exercise and sleep. Hours of television and sugary sweets do not build a healthy lifestyle."
-    },
-    {
-      "id": "g5-a3-020", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Germs and how diseases spread",
-      "stem": "Germs are too small to see with our eyes alone. Which tool do scientists use to see them?",
-      "options": [{"text": "telescope", "image": "openmoji/telescope.svg"}, {"text": "thermometer", "image": "openmoji/thermometer.svg"}, {"text": "microscope", "image": "openmoji/microscope.svg"}, {"text": "camera", "image": "openmoji/camera.svg"}],
-      "answer": 2,
-      "explanation": "A microscope makes tiny things look much bigger. A telescope is for faraway objects and a thermometer measures temperature."
-    },
-    {
-      "id": "g5-a3-021", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Preventing disease",
-      "stem": "The tubewell near Tuli's home is broken, and the only water is from a pond. What is the best way to make it safer to drink?",
-      "options": ["Add a spoonful of sugar.", "Let it stand for an hour.", "Put it in a fridge.", "Boil it before drinking."],
-      "answer": 3,
-      "explanation": "Boiling kills the germs that cause diarrhoea, cholera and typhoid. Filtering and using a safe tubewell also work. Sugar, standing or chilling do not remove germs."
-    },
-    {
-      "id": "g5-a3-022", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Dengue and mosquitoes",
-      "stem": "Rafi's family keeps flower tubs of rainwater on the roof. During the monsoon, what should they do to lower the risk of dengue?",
-      "options": ["Leave them, because mosquitoes breed only in dirty water.", "Fill the tubs to the top so they never dry out.", "Empty and scrub the tubs at least once a week.", "Cover them only at night."],
-      "answer": 2,
-      "explanation": "Aedes mosquitoes lay eggs in clean, still water, and the young need about 7 to 10 days to become adults. Emptying and scrubbing weekly stops them. These mosquitoes bite in the daytime."
-    },
-    {
-      "id": "g5-a3-023", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "create", "subskill": "Hygiene and handwashing",
-      "stem": "Class 5 is making rules to keep their school healthy. Which are good rules? Choose all that are right.",
-      "options": ["Wash hands with soap before eating and after using the toilet.", "Cover coughs and sneezes with a tissue or your elbow.", "Share one cup and one water bottle with friends.", "Put rubbish in the bin.", "Throw wrappers on the playground."],
-      "answer": [0, 1, 3],
-      "explanation": "Handwashing, covering coughs and putting rubbish in bins all stop germs from spreading. Sharing cups spreads germs and loose rubbish attracts flies and rats."
-    },
-    {
-      "id": "g5-a3-024", "mode": "real-life", "type": "fill", "difficulty": 2, "bloom": "apply", "subskill": "Dengue and mosquitoes",
-      "stem": "Example data: a city hospital had 52 dengue patients in July and 214 in September. There were ___ more patients in September than in July.",
-      "blanks": [["162"]],
-      "explanation": "214 − 52 = 162. Dengue cases rise during and after the monsoon, when rain leaves water in containers where mosquitoes breed."
-    },
-    {
-      "id": "g5-a3-025", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "evaluate", "subskill": "A healthy lifestyle",
-      "stem": "Nadia spends every afternoon watching television and eating crisps. Her mother wants to help her stay healthy. Which advice is best?",
-      "options": ["Play for about an hour a day and eat more fruit.", "Drink more sugary drinks every afternoon to get energy.", "Sleep less each night so there is more time.", "Stay indoors all day to keep away from germs."],
-      "answer": 0,
-      "explanation": "Children need about an hour of activity each day and a balanced diet. Too little exercise and too much sugar and fat are linked to diseases such as diabetes and heart disease."
-    },
-    {
-      "id": "g5-a3-026", "mode": "real-life", "type": "short", "difficulty": 3, "bloom": "analyse", "subskill": "Choices and evidence",
-      "stem": "Explain why a city with good drains, clean water and toilets has fewer cases of diarrhoea.",
-      "model_answer": "Diarrhoea germs spread through dirty water and human waste. Good drains and toilets keep waste away from drinking water and food, and clean water has no germs, so fewer people get ill.",
-      "keywords": [["water", "drinking water"], ["waste", "toilet", "toilets", "latrine", "drains", "sewage"], ["germs", "spread", "dirty", "clean", "safe"]],
-      "min_keywords": 2,
-      "explanation": "Clean surroundings and safe water cut the route by which germs travel from waste to people's mouths. Prevention works by breaking the chain of infection."
-    },
-    {
-      "id": "g5-a3-027", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Hygiene and handwashing",
-      "stem": "Example class experiment: pupils rubbed glitter (a model of germs) onto their hands and washed. The mean number of glitter pieces left was 58 for water only, 27 for soap for 5 seconds and 5 for soap for 20 seconds. Which conclusion is best supported?",
-      "options": ["Water alone is enough to remove all the germs from hands.", "Soap for 5 seconds works as well as soap for 20 seconds.", "Soap for 20 seconds removed the most glitter (\"germs\").", "The glitter model proves that soap kills all the germs."],
-      "answer": 2,
-      "explanation": "The fewest pieces (5) were left after 20 seconds with soap. The experiment shows how much glitter is removed, not whether anything is killed, so the last statement goes beyond the evidence."
-    },
-    {
-      "id": "g5-a3-028", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Choices and evidence",
-      "stem": "In the glitter experiment, which is a limitation of using glitter as a model for germs?",
-      "options": ["Glitter sticks to hands and spreads to things we touch.", "Glitter can be washed off hands with water and soap.", "Glitter is much bigger than germs and is not alive.", "Glitter pieces can be counted to give a number."],
-      "answer": 2,
-      "explanation": "A model is useful but never exactly like the real thing. Real germs are far too small to see and can multiply, but glitter is large, visible and not alive."
-    },
-    {
-      "id": "g5-a3-029", "mode": "olympiad", "type": "multi", "difficulty": 3, "bloom": "analyse", "subskill": "Dengue and mosquitoes",
-      "stem": "Example data: dengue patients at a city hospital were Jan 12, Mar 18, May 45, Jul 240, Sep 360 and Nov 130. Which statements are supported by the data? Choose all that are right.",
-      "options": ["The most patients came in September.", "There were 315 more patients in September than in May.", "The number of patients fell between January and May.", "The fewest patients came in July.", "Mosquitoes breed only in winter."],
-      "answer": [0, 1],
-      "explanation": "September has the highest number (360), and 360 − 45 = 315. The numbers rose from January to May, July was high not low, and the data say nothing about winter breeding."
-    },
-    {
-      "id": "g5-a3-030", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Preventing disease",
-      "stem": "In a village, 9 out of every 10 children are vaccinated against measles. Why is a measles outbreak less likely to spread there?",
-      "options": ["The measles germs die as soon as they reach the air.", "Vaccines kill measles germs on the skin of children.", "Unvaccinated children can never catch measles from anyone.", "Most children cannot catch it, so the germ spreads less."],
-      "answer": 3,
-      "explanation": "When most people are protected, the germ has few people to spread to. This also helps protect babies and sick children who cannot be vaccinated."
+     "text": "ladder",
+     "image": "openmoji/ladder.svg"
     }
-  ]
+   ],
+   "answer": 0,
+   "explanation": "Aedes mosquitoes lay eggs in small amounts of still water, in containers such as buckets, old tyres and flower tubs. Emptying them every week breaks the life cycle."
+  },
+  {
+   "id": "g5-a3-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Germs and how diseases spread",
+   "stem": "Which picture shows a symptom, a sign that a person is ill?",
+   "options": [
+    {
+     "text": "fever",
+     "image": "openmoji/face-with-thermometer.svg"
+    },
+    {
+     "text": "running",
+     "image": "openmoji/person-running.svg"
+    },
+    {
+     "text": "football",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "smiling face",
+     "image": "openmoji/smiling-face.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "A fever is a symptom of illness. The thermometer shows the child's temperature is high."
+  },
+  {
+   "id": "g5-a3-019",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "A healthy lifestyle",
+   "stem": "Which pictures show things a healthy body needs? Choose all that are right.",
+   "options": [
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    },
+    {
+     "text": "running",
+     "image": "openmoji/person-running.svg"
+    },
+    {
+     "text": "television",
+     "image": "openmoji/television.svg"
+    },
+    {
+     "text": "sleeping",
+     "image": "openmoji/sleeping-face.svg"
+    },
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Healthy bodies need nutritious food, exercise and sleep. Hours of television and sugary sweets do not build a healthy lifestyle."
+  },
+  {
+   "id": "g5-a3-020",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Germs and how diseases spread",
+   "stem": "Germs are too small to see with our eyes alone. Which tool do scientists use to see them?",
+   "options": [
+    {
+     "text": "camera",
+     "image": "openmoji/camera.svg"
+    },
+    {
+     "text": "microscope",
+     "image": "openmoji/microscope.svg"
+    },
+    {
+     "text": "thermometer",
+     "image": "openmoji/thermometer.svg"
+    },
+    {
+     "text": "telescope",
+     "image": "openmoji/telescope.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A microscope makes tiny things look much bigger. A telescope is for faraway objects and a thermometer measures temperature."
+  },
+  {
+   "id": "g5-a3-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Preventing disease",
+   "stem": "The tubewell near Tuli's home is broken, and the only water is from a pond. What is the best way to make it safer to drink?",
+   "options": [
+    "Add a spoonful of sugar.",
+    "Let it stand for an hour.",
+    "Put it in a fridge.",
+    "Boil it before drinking."
+   ],
+   "answer": 3,
+   "explanation": "Boiling kills the germs that cause diarrhoea, cholera and typhoid. Filtering and using a safe tubewell also work. Sugar, standing or chilling do not remove germs."
+  },
+  {
+   "id": "g5-a3-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Dengue and mosquitoes",
+   "stem": "Rafi's family keeps flower tubs of rainwater on the roof. During the monsoon, what should they do to lower the risk of dengue?",
+   "options": [
+    "Leave them, because mosquitoes breed only in dirty water.",
+    "Cover them only at night.",
+    "Empty and scrub the tubs at least once a week.",
+    "Fill the tubs to the top so they never dry out."
+   ],
+   "answer": 2,
+   "explanation": "Aedes mosquitoes lay eggs in clean, still water, and the young need about 7 to 10 days to become adults. Emptying and scrubbing weekly stops them. These mosquitoes bite in the daytime."
+  },
+  {
+   "id": "g5-a3-023",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Hygiene and handwashing",
+   "stem": "Class 5 is making rules to keep their school healthy. Which are good rules? Choose all that are right.",
+   "options": [
+    "Wash hands with soap before eating and after using the toilet.",
+    "Cover coughs and sneezes with a tissue or your elbow.",
+    "Share one cup and one water bottle with friends.",
+    "Put rubbish in the bin.",
+    "Throw wrappers on the playground."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Handwashing, covering coughs and putting rubbish in bins all stop germs from spreading. Sharing cups spreads germs and loose rubbish attracts flies and rats."
+  },
+  {
+   "id": "g5-a3-024",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Dengue and mosquitoes",
+   "stem": "Example data: a city hospital had 52 dengue patients in July and 214 in September. There were ___ more patients in September than in July.",
+   "blanks": [
+    [
+     "162"
+    ]
+   ],
+   "explanation": "214 − 52 = 162. Dengue cases rise during and after the monsoon, when rain leaves water in containers where mosquitoes breed."
+  },
+  {
+   "id": "g5-a3-025",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "A healthy lifestyle",
+   "stem": "Nadia spends every afternoon watching television and eating crisps. Her mother wants to help her stay healthy. Which advice is best?",
+   "options": [
+    "Play for about an hour a day and eat more fruit.",
+    "Drink more sugary drinks every afternoon to get energy.",
+    "Sleep less each night so there is more time.",
+    "Stay indoors all day to keep away from germs."
+   ],
+   "answer": 0,
+   "explanation": "Children need about an hour of activity each day and a balanced diet. Too little exercise and too much sugar and fat are linked to diseases such as diabetes and heart disease."
+  },
+  {
+   "id": "g5-a3-026",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Choices and evidence",
+   "stem": "Explain why a city with good drains, clean water and toilets has fewer cases of diarrhoea.",
+   "model_answer": "Diarrhoea germs spread through dirty water and human waste. Good drains and toilets keep waste away from drinking water and food, and clean water has no germs, so fewer people get ill.",
+   "keywords": [
+    [
+     "water",
+     "drinking water"
+    ],
+    [
+     "waste",
+     "toilet",
+     "toilets",
+     "latrine",
+     "drains",
+     "sewage"
+    ],
+    [
+     "germs",
+     "spread",
+     "dirty",
+     "clean",
+     "safe"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Clean surroundings and safe water cut the route by which germs travel from waste to people's mouths. Prevention works by breaking the chain of infection."
+  },
+  {
+   "id": "g5-a3-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Hygiene and handwashing",
+   "stem": "Example class experiment: pupils rubbed glitter (a model of germs) onto their hands and washed. The mean number of glitter pieces left was 58 for water only, 27 for soap for 5 seconds and 5 for soap for 20 seconds. Which conclusion is best supported?",
+   "options": [
+    "Water alone is enough to remove all the germs from hands.",
+    "Soap for 20 seconds removed the most glitter (\"germs\").",
+    "Soap for 5 seconds works as well as soap for 20 seconds.",
+    "The glitter model proves that soap kills all the germs."
+   ],
+   "answer": 1,
+   "explanation": "The fewest pieces (5) were left after 20 seconds with soap. The experiment shows how much glitter is removed, not whether anything is killed, so the last statement goes beyond the evidence."
+  },
+  {
+   "id": "g5-a3-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Choices and evidence",
+   "stem": "In the glitter experiment, which is a limitation of using glitter as a model for germs?",
+   "options": [
+    "Glitter sticks to hands and spreads to things we touch.",
+    "Glitter can be washed off hands with water and soap.",
+    "Glitter pieces can be counted to give a number.",
+    "Glitter is much bigger than germs and is not alive."
+   ],
+   "answer": 3,
+   "explanation": "A model is useful but never exactly like the real thing. Real germs are far too small to see and can multiply, but glitter is large, visible and not alive."
+  },
+  {
+   "id": "g5-a3-029",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Dengue and mosquitoes",
+   "stem": "Example data: dengue patients at a city hospital were Jan 12, Mar 18, May 45, Jul 240, Sep 360 and Nov 130. Which statements are supported by the data? Choose all that are right.",
+   "options": [
+    "The most patients came in September.",
+    "There were 315 more patients in September than in May.",
+    "The number of patients fell between January and May.",
+    "The fewest patients came in July.",
+    "Mosquitoes breed only in winter."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "September has the highest number (360), and 360 − 45 = 315. The numbers rose from January to May, July was high not low, and the data say nothing about winter breeding."
+  },
+  {
+   "id": "g5-a3-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Preventing disease",
+   "stem": "In a village, 9 out of every 10 children are vaccinated against measles. Why is a measles outbreak less likely to spread there?",
+   "options": [
+    "The measles germs die as soon as they reach the air.",
+    "Vaccines kill measles germs on the skin of children.",
+    "Most children cannot catch it, so the germ spreads less.",
+    "Unvaccinated children can never catch measles from anyone."
+   ],
+   "answer": 2,
+   "explanation": "When most people are protected, the germ has few people to spread to. This also helps protect babies and sick children who cannot be vaccinated."
+  }
+ ]
 }

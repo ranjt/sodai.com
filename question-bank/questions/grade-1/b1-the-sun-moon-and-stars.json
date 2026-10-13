@@ -1,177 +1,518 @@
 {
-  "grade": 1,
-  "grade_name": "Grade 1",
-  "topic": "B1",
-  "title": "The Sun, Moon and Stars",
-  "strand": "earth",
-  "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
-  "questions": [
-    {
-      "id": "g1-b1-001", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "analyse", "subskill": "Shadows", "read_aloud": true,
-      "stem": "Look at the stick and its shadow. When is the shadow shortest?",
-      "image": "diagrams/sun-path.svg", "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky.",
-      "options": ["in the evening", "in the morning", "at midday"],
-      "answer": 2,
-      "explanation": "At midday the Sun is high in the sky, so the shadow is short. In the morning and evening the Sun is low and the shadow is long."
-    },
-    {
-      "id": "g1-b1-002", "mode": "picture", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Shadows", "read_aloud": true,
-      "stem": "Look at the picture. The stick's shadow is long in the morning and in the evening.",
-      "image": "diagrams/sun-path.svg", "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky.",
-      "answer": true,
-      "explanation": "When the Sun is low in the sky, shadows are long. This happens in the morning and the evening."
-    },
-    {
-      "id": "g1-b1-003", "mode": "picture", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Day and night", "read_aloud": true,
-      "stem": "Look at the spinning Earth. The side facing the Sun has day.",
-      "image": "diagrams/day-night.svg", "image_alt": "The Sun lights one half of the spinning Earth: day on the side facing the Sun, night on the other side.",
-      "answer": true,
-      "explanation": "The side of the Earth facing the Sun has day. The side facing away from the Sun has night."
-    },
-    {
-      "id": "g1-b1-004", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "remember", "subskill": "The Moon and stars", "read_aloud": true,
-      "stem": "Look at the Moon's shapes. Which number is the full Moon?",
-      "image": "diagrams/moon-phases-numbered.svg", "image_alt": "Eight shapes of the Moon numbered 1 to 8. Number 1 is the new Moon and number 5 is the full Moon.",
-      "options": ["5", "1", "3", "7"],
-      "answer": 0,
-      "explanation": "Number 5 is the full Moon, round and bright. Number 1 is the new Moon, when we can hardly see it."
-    },
-    {
-      "id": "g1-b1-005", "mode": "picture", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "The Moon and stars", "read_aloud": true,
-      "stem": "What do we see in the sky by day? What do we see by night?",
-      "categories": ["Day", "Night"],
-      "items": [[{"text": "Sun", "image": "openmoji/sun.svg"}, "Day"], [{"text": "sunrise", "image": "openmoji/sunrise.svg"}, "Day"], [{"text": "rainbow", "image": "openmoji/rainbow.svg"}, "Day"], [{"text": "star", "image": "openmoji/star.svg"}, "Night"], [{"text": "night sky", "image": "openmoji/night-with-stars.svg"}, "Night"], [{"text": "Milky Way", "image": "openmoji/milky-way.svg"}, "Night"]],
-      "explanation": "We see the Sun, sunrise and rainbows in the day. Stars are in the sky all the time, but we can only see them at night."
-    },
-    {
-      "id": "g1-b1-006", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "The Sun in the sky", "read_aloud": true,
-      "stem": "The Sun rises in the ___ and sets in the west.",
-      "blanks": [["east"]],
-      "bank": ["east", "north", "spin"],
-      "explanation": "Every morning the Sun comes up in the east. In the evening it goes down in the west."
-    },
-    {
-      "id": "g1-b1-007", "mode": "core", "type": "fill", "difficulty": 2, "bloom": "understand", "subskill": "Day and night", "read_aloud": true,
-      "stem": "The Earth ___, so we have day and night.",
-      "blanks": [["spins", "turns", "rotates", "spin"]],
-      "bank": ["spins", "stops", "grows"],
-      "explanation": "The Earth spins round. The side facing the Sun has day and the side facing away has night."
-    },
-    {
-      "id": "g1-b1-008", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "remember", "subskill": "The Moon and stars", "read_aloud": true,
-      "stem": "The Moon makes its own light.",
-      "answer": false,
-      "explanation": "The Moon does not make light. It shines because it reflects light from the Sun."
-    },
-    {
-      "id": "g1-b1-009", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Shadows", "read_aloud": true,
-      "stem": "Shadows are shortest at midday.",
-      "answer": true,
-      "explanation": "At midday the Sun is highest in the sky, so shadows are short."
-    },
-    {
-      "id": "g1-b1-010", "mode": "core", "type": "order", "difficulty": 1, "bloom": "understand", "subskill": "The Sun in the sky", "read_aloud": true,
-      "stem": "Put these in order, from morning to night.",
-      "sequence": ["The Sun rises in the east.", "The Sun is high at midday.", "The Sun sets in the west.", "Stars come out at night."],
-      "explanation": "The Sun seems to climb up in the morning, is highest at midday and goes down in the evening. Then we see the stars."
-    },
-    {
-      "id": "g1-b1-011", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Day and night", "read_aloud": true,
-      "stem": "Mina shines a torch on a ball in a dark room. The torch stands for the…",
-      "options": ["Sun", "Moon", "Earth"],
-      "answer": 0,
-      "explanation": "The torch is the Sun and the ball is the Earth. The lit side of the ball has day and the dark side has night."
-    },
-    {
-      "id": "g1-b1-012", "mode": "core", "type": "match", "difficulty": 2, "bloom": "understand", "subskill": "Sun and Moon in our culture", "read_aloud": true,
-      "stem": "Match each one to what it means.",
-      "pairs": [["Pohela Boishakh", "welcomes the new Bangla year"], ["sunset in Ramadan", "time to break the fast"], ["seeing the new Moon", "Eid begins"]],
-      "explanation": "The Sun and Moon matter to many people. Muslims break their fast at sunset in Ramadan. Eid begins when the new Moon is seen. Pohela Boishakh welcomes the new Bangla year."
-    },
-    {
-      "id": "g1-b1-013", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "The Sun in the sky", "read_aloud": true,
-      "stem": "What is true about the Sun? Choose all that are right.",
-      "options": ["It rises in the east.", "It rises in the west.", "It sets in the west.", "It is highest at midday.", "It goes out at night."],
-      "answer": [0, 2, 3],
-      "explanation": "The Sun rises in the east, is highest at midday and sets in the west. It does not go out at night. The Earth spins so our side faces away from it."
-    },
-    {
-      "id": "g1-b1-014", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "The Moon and stars", "read_aloud": true,
-      "stem": "Match each picture to what it shows.",
-      "pairs": [[{"text": "sunrise", "image": "openmoji/sunrise.svg"}, "the Sun comes up"], [{"text": "night sky", "image": "openmoji/night-with-stars.svg"}, "stars at night"], [{"text": "full Moon", "image": "openmoji/full-moon.svg"}, "a round, bright Moon"], [{"text": "Sun", "image": "openmoji/sun.svg"}, "gives us light and heat"]],
-      "explanation": "At sunrise the Sun comes up. At night we see stars. A full Moon looks round and bright. The Sun gives us light and heat."
-    },
-    {
-      "id": "g1-b1-015", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "evaluate", "subskill": "Staying safe", "read_aloud": true,
-      "stem": "Raju wants to see the Sun. What is the safe way?",
-      "options": ["Look straight at it for a short time.", "Look at it through binoculars.", "Look at the shadow it makes instead."],
-      "answer": 2,
-      "explanation": "Never look straight at the Sun. It can hurt your eyes. We can watch the shadows instead."
-    },
-    {
-      "id": "g1-b1-016", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Sun and Moon in our culture", "read_aloud": true,
-      "stem": "On the last evening of Ramadan, Imran's family looks for the new Moon. Where should they look?",
-      "options": ["the eastern sky at midnight", "the western sky after sunset", "the northern sky at noon"],
-      "answer": 1,
-      "explanation": "A thin new Moon is low in the western sky just after sunset. When the family sees it, they know Eid will start the next day."
-    },
-    {
-      "id": "g1-b1-017", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Shadows", "read_aloud": true,
-      "stem": "At 12 o'clock Tuli plays outside. Her shadow is very short. Why?",
-      "options": ["The Sun is high in the sky.", "The Earth stopped spinning.", "The Moon is out."],
-      "answer": 0,
-      "explanation": "At midday the Sun is high in the sky, so shadows are short."
-    },
-    {
-      "id": "g1-b1-018", "mode": "real-life", "type": "fill", "difficulty": 2, "bloom": "analyse", "subskill": "Shadows", "read_aloud": true,
-      "stem": "Class 1 measured a stick's shadow. At 9 o'clock it was 6 hand spans. At 12 o'clock it was 1 hand span. At 3 o'clock it was 5 hand spans. The shadow was shortest at ___ o'clock.",
-      "blanks": [["12", "twelve"]],
-      "bank": ["9", "12", "3"],
-      "explanation": "1 hand span is the smallest number, so the shadow was shortest at 12 o'clock. The Sun is highest at midday."
-    },
-    {
-      "id": "g1-b1-019", "mode": "real-life", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Day and night", "read_aloud": true,
-      "stem": "It is daytime for Nadia in Dhaka. Her uncle in another country says it is dark there. This can happen because the Earth spins.",
-      "answer": true,
-      "explanation": "The Earth spins, so when one side faces the Sun, the other side faces away. It can be day in one country and night in another."
-    },
-    {
-      "id": "g1-b1-020", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Day and night", "read_aloud": true,
-      "stem": "Why do we have day and night?",
-      "model_answer": "The Earth spins. The side facing the Sun has day and the side facing away has night.",
-      "keywords": [["spin", "spins", "turn", "turns", "rotates", "spinning"], ["sun", "light", "facing", "face"]],
-      "min_keywords": 1,
-      "explanation": "The Sun does not really move. The Earth spins, so each side takes a turn facing the Sun."
-    },
-    {
-      "id": "g1-b1-021", "mode": "picture", "type": "fill", "difficulty": 1, "bloom": "understand", "subskill": "Shadows", "read_aloud": true,
-      "stem": "Look at the picture. The object blocks the ___, so there is a shadow.",
-      "image": "diagrams/shadow-setup.svg", "image_alt": "A torch shines on an object and the object's shadow falls on a screen.",
-      "blanks": [["light"]],
-      "bank": ["light", "sound", "wind"],
-      "explanation": "A shadow forms behind an object when the object blocks the light from the torch or the Sun."
-    },
-    {
-      "id": "g1-b1-022", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Shadows", "read_aloud": true,
-      "stem": "Mina measured a shadow. 9 o'clock: 6 hand spans. 12 o'clock: 1 hand span. 3 o'clock: 5 hand spans. When was the Sun highest in the sky?",
-      "options": ["12 o'clock", "9 o'clock", "3 o'clock"],
-      "answer": 0,
-      "explanation": "The shortest shadow means the Sun is highest. The shadow was shortest at 12 o'clock."
-    },
-    {
-      "id": "g1-b1-023", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "The Sun in the sky", "read_aloud": true,
-      "stem": "Look at the picture. In the morning the shadow points to the west. Where is the Sun in the morning?",
-      "image": "diagrams/sun-path.svg", "image_alt": "A stick and its shadow in the morning, at midday and in the evening. The morning shadow points west and the evening shadow points east.",
-      "options": ["in the west", "in the east", "straight above"],
-      "answer": 1,
-      "explanation": "A shadow falls on the opposite side to the Sun. The shadow points west, so the Sun is in the east. That is where the Sun rises."
-    },
-    {
-      "id": "g1-b1-024", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Day and night", "read_aloud": true,
-      "stem": "Rafi says: 'It is night because the Sun goes out.' Which idea is right?",
-      "options": ["The Moon covers the Sun.", "The Sun goes to sleep at night.", "The Earth spins, so our side turns away from the Sun."],
-      "answer": 2,
-      "explanation": "The Sun does not go out. The Earth spins, so at night our side faces away from the Sun."
-    }
-  ]
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "topic": "B1",
+ "title": "The Sun, Moon and Stars",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-1-science/pdf/b1-the-sun-moon-and-stars-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g1-b1-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Look at the stick and its shadow. When is the shadow shortest?",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky.",
+   "options": [
+    "in the evening",
+    "at midday",
+    "in the morning"
+   ],
+   "answer": 1,
+   "explanation": "At midday the Sun is high in the sky, so the shadow is short. In the morning and evening the Sun is low and the shadow is long."
+  },
+  {
+   "id": "g1-b1-002",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Look at the picture. The stick's shadow is long in the morning and in the evening.",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky.",
+   "answer": true,
+   "explanation": "When the Sun is low in the sky, shadows are long. This happens in the morning and the evening."
+  },
+  {
+   "id": "g1-b1-003",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "Look at the spinning Earth. The side facing the Sun has day.",
+   "image": "diagrams/day-night.svg",
+   "image_alt": "The Sun lights one half of the spinning Earth: day on the side facing the Sun, night on the other side.",
+   "answer": true,
+   "explanation": "The side of the Earth facing the Sun has day. The side facing away from the Sun has night."
+  },
+  {
+   "id": "g1-b1-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "The Moon and stars",
+   "read_aloud": true,
+   "stem": "Look at the Moon's shapes. Which number is the full Moon?",
+   "image": "diagrams/moon-phases-numbered.svg",
+   "image_alt": "Eight shapes of the Moon numbered 1 to 8. Number 1 is the new Moon and number 5 is the full Moon.",
+   "options": [
+    "5",
+    "1",
+    "3",
+    "7"
+   ],
+   "answer": 0,
+   "explanation": "Number 5 is the full Moon, round and bright. Number 1 is the new Moon, when we can hardly see it."
+  },
+  {
+   "id": "g1-b1-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "The Moon and stars",
+   "read_aloud": true,
+   "stem": "What do we see in the sky by day? What do we see by night?",
+   "categories": [
+    "Day",
+    "Night"
+   ],
+   "items": [
+    [
+     {
+      "text": "Sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "sunrise",
+      "image": "openmoji/sunrise.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "rainbow",
+      "image": "openmoji/rainbow.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "star",
+      "image": "openmoji/star.svg"
+     },
+     "Night"
+    ],
+    [
+     {
+      "text": "night sky",
+      "image": "openmoji/night-with-stars.svg"
+     },
+     "Night"
+    ],
+    [
+     {
+      "text": "Milky Way",
+      "image": "openmoji/milky-way.svg"
+     },
+     "Night"
+    ]
+   ],
+   "explanation": "We see the Sun, sunrise and rainbows in the day. Stars are in the sky all the time, but we can only see them at night."
+  },
+  {
+   "id": "g1-b1-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Sun in the sky",
+   "read_aloud": true,
+   "stem": "The Sun rises in the ___ and sets in the west.",
+   "blanks": [
+    [
+     "east"
+    ]
+   ],
+   "bank": [
+    "east",
+    "north",
+    "spin"
+   ],
+   "explanation": "Every morning the Sun comes up in the east. In the evening it goes down in the west."
+  },
+  {
+   "id": "g1-b1-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "The Earth ___, so we have day and night.",
+   "blanks": [
+    [
+     "spins",
+     "turns",
+     "rotates",
+     "spin"
+    ]
+   ],
+   "bank": [
+    "spins",
+    "stops",
+    "grows"
+   ],
+   "explanation": "The Earth spins round. The side facing the Sun has day and the side facing away has night."
+  },
+  {
+   "id": "g1-b1-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "The Moon and stars",
+   "read_aloud": true,
+   "stem": "The Moon makes its own light.",
+   "answer": false,
+   "explanation": "The Moon does not make light. It shines because it reflects light from the Sun."
+  },
+  {
+   "id": "g1-b1-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Shadows are shortest at midday.",
+   "answer": true,
+   "explanation": "At midday the Sun is highest in the sky, so shadows are short."
+  },
+  {
+   "id": "g1-b1-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "The Sun in the sky",
+   "read_aloud": true,
+   "stem": "Put these in order, from morning to night.",
+   "sequence": [
+    "The Sun rises in the east.",
+    "The Sun is high at midday.",
+    "The Sun sets in the west.",
+    "Stars come out at night."
+   ],
+   "explanation": "The Sun seems to climb up in the morning, is highest at midday and goes down in the evening. Then we see the stars."
+  },
+  {
+   "id": "g1-b1-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "Mina shines a torch on a ball in a dark room. The torch stands for the…",
+   "options": [
+    "Sun",
+    "Moon",
+    "Earth"
+   ],
+   "answer": 0,
+   "explanation": "The torch is the Sun and the ball is the Earth. The lit side of the ball has day and the dark side has night."
+  },
+  {
+   "id": "g1-b1-012",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Sun and Moon in our culture",
+   "read_aloud": true,
+   "stem": "Match each one to what it means.",
+   "pairs": [
+    [
+     "Pohela Boishakh",
+     "welcomes the new Bangla year"
+    ],
+    [
+     "sunset in Ramadan",
+     "time to break the fast"
+    ],
+    [
+     "seeing the new Moon",
+     "Eid begins"
+    ]
+   ],
+   "explanation": "The Sun and Moon matter to many people. Muslims break their fast at sunset in Ramadan. Eid begins when the new Moon is seen. Pohela Boishakh welcomes the new Bangla year."
+  },
+  {
+   "id": "g1-b1-013",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The Sun in the sky",
+   "read_aloud": true,
+   "stem": "What is true about the Sun? Choose all that are right.",
+   "options": [
+    "It rises in the east.",
+    "It rises in the west.",
+    "It sets in the west.",
+    "It is highest at midday.",
+    "It goes out at night."
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "The Sun rises in the east, is highest at midday and sets in the west. It does not go out at night. The Earth spins so our side faces away from it."
+  },
+  {
+   "id": "g1-b1-014",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Moon and stars",
+   "read_aloud": true,
+   "stem": "Match each picture to what it shows.",
+   "pairs": [
+    [
+     {
+      "text": "sunrise",
+      "image": "openmoji/sunrise.svg"
+     },
+     "the Sun comes up"
+    ],
+    [
+     {
+      "text": "night sky",
+      "image": "openmoji/night-with-stars.svg"
+     },
+     "stars at night"
+    ],
+    [
+     {
+      "text": "full Moon",
+      "image": "openmoji/full-moon.svg"
+     },
+     "a round, bright Moon"
+    ],
+    [
+     {
+      "text": "Sun",
+      "image": "openmoji/sun.svg"
+     },
+     "gives us light and heat"
+    ]
+   ],
+   "explanation": "At sunrise the Sun comes up. At night we see stars. A full Moon looks round and bright. The Sun gives us light and heat."
+  },
+  {
+   "id": "g1-b1-015",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Staying safe",
+   "read_aloud": true,
+   "stem": "Raju wants to see the Sun. What is the safe way?",
+   "options": [
+    "Look straight at it for a short time.",
+    "Look at it through binoculars.",
+    "Look at the shadow it makes instead."
+   ],
+   "answer": 2,
+   "explanation": "Never look straight at the Sun. It can hurt your eyes. We can watch the shadows instead."
+  },
+  {
+   "id": "g1-b1-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sun and Moon in our culture",
+   "read_aloud": true,
+   "stem": "On the last evening of Ramadan, Imran's family looks for the new Moon. Where should they look?",
+   "options": [
+    "the eastern sky at midnight",
+    "the northern sky at noon",
+    "the western sky after sunset"
+   ],
+   "answer": 2,
+   "explanation": "A thin new Moon is low in the western sky just after sunset. When the family sees it, they know Eid will start the next day."
+  },
+  {
+   "id": "g1-b1-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "At 12 o'clock Tuli plays outside. Her shadow is very short. Why?",
+   "options": [
+    "The Earth stopped spinning.",
+    "The Sun is high in the sky.",
+    "The Moon is out."
+   ],
+   "answer": 1,
+   "explanation": "At midday the Sun is high in the sky, so shadows are short."
+  },
+  {
+   "id": "g1-b1-018",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Class 1 measured a stick's shadow. At 9 o'clock it was 6 hand spans. At 12 o'clock it was 1 hand span. At 3 o'clock it was 5 hand spans. The shadow was shortest at ___ o'clock.",
+   "blanks": [
+    [
+     "12",
+     "twelve"
+    ]
+   ],
+   "bank": [
+    "9",
+    "12",
+    "3"
+   ],
+   "explanation": "1 hand span is the smallest number, so the shadow was shortest at 12 o'clock. The Sun is highest at midday."
+  },
+  {
+   "id": "g1-b1-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "It is daytime for Nadia in Dhaka. Her uncle in another country says it is dark there. This can happen because the Earth spins.",
+   "answer": true,
+   "explanation": "The Earth spins, so when one side faces the Sun, the other side faces away. It can be day in one country and night in another."
+  },
+  {
+   "id": "g1-b1-020",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "Why do we have day and night?",
+   "model_answer": "The Earth spins. The side facing the Sun has day and the side facing away has night.",
+   "keywords": [
+    [
+     "spin",
+     "spins",
+     "turn",
+     "turns",
+     "rotates",
+     "spinning"
+    ],
+    [
+     "sun",
+     "light",
+     "facing",
+     "face"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "The Sun does not really move. The Earth spins, so each side takes a turn facing the Sun."
+  },
+  {
+   "id": "g1-b1-021",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Look at the picture. The object blocks the ___, so there is a shadow.",
+   "image": "diagrams/shadow-setup.svg",
+   "image_alt": "A torch shines on an object and the object's shadow falls on a screen.",
+   "blanks": [
+    [
+     "light"
+    ]
+   ],
+   "bank": [
+    "light",
+    "sound",
+    "wind"
+   ],
+   "explanation": "A shadow forms behind an object when the object blocks the light from the torch or the Sun."
+  },
+  {
+   "id": "g1-b1-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Shadows",
+   "read_aloud": true,
+   "stem": "Mina measured a shadow. 9 o'clock: 6 hand spans. 12 o'clock: 1 hand span. 3 o'clock: 5 hand spans. When was the Sun highest in the sky?",
+   "options": [
+    "12 o'clock",
+    "9 o'clock",
+    "3 o'clock"
+   ],
+   "answer": 0,
+   "explanation": "The shortest shadow means the Sun is highest. The shadow was shortest at 12 o'clock."
+  },
+  {
+   "id": "g1-b1-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "The Sun in the sky",
+   "read_aloud": true,
+   "stem": "Look at the picture. In the morning the shadow points to the west. Where is the Sun in the morning?",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow in the morning, at midday and in the evening. The morning shadow points west and the evening shadow points east.",
+   "options": [
+    "in the west",
+    "straight above",
+    "in the east"
+   ],
+   "answer": 2,
+   "explanation": "A shadow falls on the opposite side to the Sun. The shadow points west, so the Sun is in the east. That is where the Sun rises."
+  },
+  {
+   "id": "g1-b1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Day and night",
+   "read_aloud": true,
+   "stem": "Rafi says: 'It is night because the Sun goes out.' Which idea is right?",
+   "options": [
+    "The Earth spins, so our side turns away from the Sun.",
+    "The Sun goes to sleep at night.",
+    "The Moon covers the Sun."
+   ],
+   "answer": 0,
+   "explanation": "The Sun does not go out. The Earth spins, so at night our side faces away from the Sun."
+  }
+ ]
 }

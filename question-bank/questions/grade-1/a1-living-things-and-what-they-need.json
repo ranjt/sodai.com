@@ -1,175 +1,586 @@
 {
-  "grade": 1,
-  "grade_name": "Grade 1",
-  "topic": "A1",
-  "title": "Living Things and What They Need",
-  "strand": "living",
-  "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
-  "questions": [
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "topic": "A1",
+ "title": "Living Things and What They Need",
+ "strand": "living",
+ "worksheet": "worksheets/grade-1-science/pdf/a1-living-things-and-what-they-need-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g1-a1-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living or non-living",
+   "read_aloud": true,
+   "stem": "Which one is a living thing?",
+   "options": [
     {
-      "id": "g1-a1-001", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Living or non-living", "read_aloud": true,
-      "stem": "Which one is a living thing?",
-      "options": [{"text": "stone", "image": "openmoji/rock.svg"}, {"text": "bicycle", "image": "openmoji/bicycle.svg"}, {"text": "goat", "image": "openmoji/goat.svg"}, {"text": "chair", "image": "openmoji/chair.svg"}],
-      "answer": 2,
-      "explanation": "A goat is alive. It eats, grows and has young. A stone, a bicycle and a chair are never alive."
+     "text": "stone",
+     "image": "openmoji/rock.svg"
     },
     {
-      "id": "g1-a1-002", "mode": "picture", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "Living or non-living", "read_aloud": true,
-      "stem": "Sort the pictures into living and non-living.",
-      "categories": ["Living", "Non-living"],
-      "items": [[{"text": "worm", "image": "openmoji/worm.svg"}, "Living"], [{"text": "teddy bear", "image": "openmoji/teddy-bear.svg"}, "Non-living"], [{"text": "flower", "image": "openmoji/blossom.svg"}, "Living"], [{"text": "bicycle", "image": "openmoji/bicycle.svg"}, "Non-living"], [{"text": "goat", "image": "openmoji/goat.svg"}, "Living"], [{"text": "stone", "image": "openmoji/rock.svg"}, "Non-living"]],
-      "explanation": "Worms, flowers and goats grow, feed and have young, so they are living. A teddy bear, a bicycle and a stone are non-living."
+     "text": "bicycle",
+     "image": "openmoji/bicycle.svg"
     },
     {
-      "id": "g1-a1-003", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "What living things need", "read_aloud": true,
-      "stem": "Living things need food, air and ___ to stay alive.",
-      "blanks": [["water"]],
-      "bank": ["water", "toys", "paint"],
-      "explanation": "All living things need water. Food, water and air keep them alive."
+     "text": "goat",
+     "image": "openmoji/goat.svg"
     },
     {
-      "id": "g1-a1-004", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "What living things do", "read_aloud": true,
-      "stem": "A mango tree is not alive because it cannot walk.",
-      "answer": false,
-      "explanation": "A mango tree is alive. It grows, takes in water through its roots and makes seeds. Plants do not need to walk to be alive."
-    },
-    {
-      "id": "g1-a1-005", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "What living things do", "read_aloud": true,
-      "stem": "A toy car is alive because it moves.",
-      "answer": false,
-      "explanation": "A car can move, but it cannot grow, feed or have young. Things that only move are not alive."
-    },
-    {
-      "id": "g1-a1-006", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "remember", "subskill": "What living things do", "read_aloud": true,
-      "stem": "What do living things do? Choose all that are right.",
-      "options": ["They grow.", "They have wheels.", "They have young.", "They need batteries.", "They need food."],
-      "answer": [0, 2, 4],
-      "explanation": "Living things grow, have young and need food. Wheels and batteries belong to machines, not to living things."
-    },
-    {
-      "id": "g1-a1-007", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "understand", "subskill": "What living things need", "read_aloud": true,
-      "stem": "Match each picture to what a living thing needs.",
-      "pairs": [[{"text": "apple", "image": "openmoji/apple.svg"}, "food"], [{"text": "water glass", "image": "openmoji/water-glass.svg"}, "water"], [{"text": "sun", "image": "openmoji/sun.svg"}, "light and warmth"], [{"text": "house", "image": "openmoji/house.svg"}, "shelter"]],
-      "explanation": "Living things need food, water, light and warmth, and a safe place to live (shelter)."
-    },
-    {
-      "id": "g1-a1-008", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Growing and changing", "read_aloud": true,
-      "stem": "Living things grow and change. Put these pictures in order from youngest to oldest.",
-      "sequence": [{"text": "baby", "image": "openmoji/baby.svg"}, {"text": "child", "image": "openmoji/child.svg"}, {"text": "adult", "image": "openmoji/adult.svg"}, {"text": "older person", "image": "openmoji/older-person.svg"}],
-      "explanation": "A person starts as a baby, grows into a child, then an adult, and later becomes an older person."
-    },
-    {
-      "id": "g1-a1-009", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "What living things do", "read_aloud": true,
-      "stem": "Which thing do all living things do?",
-      "options": ["talk", "grow", "fly"],
-      "answer": 1,
-      "explanation": "All living things grow. Not all of them talk or fly."
-    },
-    {
-      "id": "g1-a1-010", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "evaluate", "subskill": "What living things do", "read_aloud": true,
-      "stem": "Raju's toy robot can move and make sounds. Is it alive?",
-      "options": ["Yes. It makes sounds.", "No. It cannot grow, eat or have young.", "Yes. It can move."],
-      "answer": 1,
-      "explanation": "A robot can move and make sounds, but it does not grow, eat or have young. So it is not alive."
-    },
-    {
-      "id": "g1-a1-011", "mode": "core", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "What living things need", "read_aloud": true,
-      "stem": "Sort these. Which ones do living things need?",
-      "categories": ["Needs", "Does not need"],
-      "items": [["food", "Needs"], ["water", "Needs"], ["air", "Needs"], ["shelter", "Needs"], ["toys", "Does not need"], ["sweets", "Does not need"], ["television", "Does not need"]],
-      "explanation": "Living things need food, water, air and shelter to stay alive. They can live without toys, sweets or a television."
-    },
-    {
-      "id": "g1-a1-012", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "understand", "subskill": "Seeds and water test", "read_aloud": true,
-      "stem": "Class 1 watered one plate of bean seeds. They kept another plate dry. After one week, 9 seeds grew on the wet plate and ___ seeds grew on the dry plate.",
-      "blanks": [["0", "zero", "none", "no"]],
-      "bank": ["0", "9", "5"],
-      "explanation": "No seeds grew on the dry plate. The seeds needed water to start growing."
-    },
-    {
-      "id": "g1-a1-013", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "What living things do", "read_aloud": true,
-      "stem": "Arif finds a stone by the river. It rolled down the hill, so he thinks it is alive. Which question helps him most?",
-      "options": ["Is it smooth?", "Is it shiny?", "Does it eat and grow?"],
-      "answer": 2,
-      "explanation": "Living things eat and grow. A stone has no food, never grows and cannot have babies. Water pushed it, so it only moved."
-    },
-    {
-      "id": "g1-a1-014", "mode": "real-life", "type": "fill", "difficulty": 1, "bloom": "apply", "subskill": "What living things need", "read_aloud": true,
-      "stem": "Sumi forgot to give her pot plant ___ for a week. Its leaves are drooping.",
-      "blanks": [["water"]],
-      "bank": ["water", "toys", "paint"],
-      "explanation": "Plants need water. Without it the leaves droop. Sumi should water her plant."
-    },
-    {
-      "id": "g1-a1-015", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "What living things need", "read_aloud": true,
-      "stem": "Imran keeps a pet goat. What must he give it? Choose all that are right.",
-      "options": ["grass to eat", "clean water", "a safe shelter", "a toy car", "a bicycle"],
-      "answer": [0, 1, 2],
-      "explanation": "A goat needs food, water and a shelter to stay safe and warm. A toy car and a bicycle are things it does not need."
-    },
-    {
-      "id": "g1-a1-016", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "What living things need", "read_aloud": true,
-      "stem": "Joy has a small pot plant. Where should he put it so that it grows well?",
-      "options": ["in a dark cupboard", "under the bed", "on a sunny window sill"],
-      "answer": 2,
-      "explanation": "Plants need light and warmth to grow well. A sunny window sill gives them both."
-    },
-    {
-      "id": "g1-a1-017", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "What living things need", "read_aloud": true,
-      "stem": "Look at the four plants. What happens to a plant that has no water?",
-      "image": "diagrams/plant-needs.svg", "image_alt": "Four potted plants: one healthy, one wilted with no water, one pale with no light and one small because it is too cold.",
-      "options": ["It droops and wilts.", "It turns pale.", "It grows very big."],
-      "answer": 0,
-      "explanation": "The plant with no water droops. The plant with no light turns pale. The plant that is too cold stays small."
-    },
-    {
-      "id": "g1-a1-018", "mode": "picture", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "Living or non-living", "read_aloud": true,
-      "stem": "Which pictures show living things? Choose all that are right.",
-      "options": [{"text": "cat", "image": "openmoji/cat.svg"}, {"text": "chair", "image": "openmoji/chair.svg"}, {"text": "butterfly", "image": "openmoji/butterfly.svg"}, {"text": "bicycle", "image": "openmoji/bicycle.svg"}, {"text": "rice plant", "image": "openmoji/rice-plant.svg"}],
-      "answer": [0, 2, 4],
-      "explanation": "A cat, a butterfly and a rice plant are alive. They grow and need food. A chair and a bicycle are made by people and are never alive."
-    },
-    {
-      "id": "g1-a1-019", "mode": "picture", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Growing and changing", "read_aloud": true,
-      "stem": "Look at the picture. A chick grows into a hen.",
-      "image": "diagrams/chicken-life-cycle.svg", "image_alt": "Life cycle of a chicken: egg, hatching, chick, adult hen.",
-      "answer": true,
-      "explanation": "The picture shows an egg, then a chick, then an adult hen. Living things grow and change."
-    },
-    {
-      "id": "g1-a1-020", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Seeds and water test", "read_aloud": true,
-      "stem": "Mina tests if bean seeds need water. Which test is fair?",
-      "options": ["One plate wet on the window sill. One plate dry in a dark cupboard.", "One plate wet on the window sill. One plate dry on the same window sill.", "Both plates wet on the window sill."],
-      "answer": 1,
-      "explanation": "In a fair test only one thing changes. Both plates sit in the same place, and only the water is different. In the first test, the light changes too."
-    },
-    {
-      "id": "g1-a1-021", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Living or non-living", "read_aloud": true,
-      "stem": "Look at this list: cat, chair, mango tree, stone, snail, bicycle. How many living things are in it?",
-      "options": ["2", "3", "4", "6"],
-      "answer": 1,
-      "explanation": "The cat, the mango tree and the snail are living. The chair, the stone and the bicycle are non-living. That makes 3."
-    },
-    {
-      "id": "g1-a1-022", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "What living things do", "read_aloud": true,
-      "stem": "Mina thinks a toy car is alive because it moves. Tell one thing a living thing does that a car cannot do.",
-      "model_answer": "A living thing can grow, eat or have young. A car cannot.",
-      "keywords": [["grow", "grows", "eat", "eats", "food", "feed", "young", "babies", "baby", "breathe", "breathes"]],
-      "min_keywords": 1,
-      "explanation": "Living things grow, eat, breathe and have young. A car cannot do any of these, so it is not alive."
-    },
-    {
-      "id": "g1-a1-023", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Growing and changing", "read_aloud": true,
-      "stem": "Put the steps in order to grow a bean plant.",
-      "sequence": ["Plant a bean seed in soil.", "Water the soil every day.", "A tiny shoot comes up.", "The shoot grows into a bean plant."],
-      "explanation": "A seed needs water to start growing. First a shoot comes up, then it grows into a plant."
-    },
-    {
-      "id": "g1-a1-024", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Seeds and water test", "read_aloud": true,
-      "stem": "In the seed test, 9 seeds grew on the wet plate and 0 on the dry plate. What does the test show?",
-      "options": ["Seeds need soil to grow.", "Seeds need music to grow.", "Seeds need water to grow."],
-      "answer": 2,
-      "explanation": "Only the water was different between the plates, so the test shows that seeds need water. It did not test soil or music."
+     "text": "chair",
+     "image": "openmoji/chair.svg"
     }
-  ]
+   ],
+   "answer": 2,
+   "explanation": "A goat is alive. It eats, grows and has young. A stone, a bicycle and a chair are never alive."
+  },
+  {
+   "id": "g1-a1-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living or non-living",
+   "read_aloud": true,
+   "stem": "Sort the pictures into living and non-living.",
+   "categories": [
+    "Living",
+    "Non-living"
+   ],
+   "items": [
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "teddy bear",
+      "image": "openmoji/teddy-bear.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "flower",
+      "image": "openmoji/blossom.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "bicycle",
+      "image": "openmoji/bicycle.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "goat",
+      "image": "openmoji/goat.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "stone",
+      "image": "openmoji/rock.svg"
+     },
+     "Non-living"
+    ]
+   ],
+   "explanation": "Worms, flowers and goats grow, feed and have young, so they are living. A teddy bear, a bicycle and a stone are non-living."
+  },
+  {
+   "id": "g1-a1-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Living things need food, air and ___ to stay alive.",
+   "blanks": [
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "water",
+    "toys",
+    "paint"
+   ],
+   "explanation": "All living things need water. Food, water and air keep them alive."
+  },
+  {
+   "id": "g1-a1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "A mango tree is not alive because it cannot walk.",
+   "answer": false,
+   "explanation": "A mango tree is alive. It grows, takes in water through its roots and makes seeds. Plants do not need to walk to be alive."
+  },
+  {
+   "id": "g1-a1-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "A toy car is alive because it moves.",
+   "answer": false,
+   "explanation": "A car can move, but it cannot grow, feed or have young. Things that only move are not alive."
+  },
+  {
+   "id": "g1-a1-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "What do living things do? Choose all that are right.",
+   "options": [
+    "They grow.",
+    "They have wheels.",
+    "They have young.",
+    "They need batteries.",
+    "They need food."
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Living things grow, have young and need food. Wheels and batteries belong to machines, not to living things."
+  },
+  {
+   "id": "g1-a1-007",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Match each picture to what a living thing needs.",
+   "pairs": [
+    [
+     {
+      "text": "apple",
+      "image": "openmoji/apple.svg"
+     },
+     "food"
+    ],
+    [
+     {
+      "text": "water glass",
+      "image": "openmoji/water-glass.svg"
+     },
+     "water"
+    ],
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "light and warmth"
+    ],
+    [
+     {
+      "text": "house",
+      "image": "openmoji/house.svg"
+     },
+     "shelter"
+    ]
+   ],
+   "explanation": "Living things need food, water, light and warmth, and a safe place to live (shelter)."
+  },
+  {
+   "id": "g1-a1-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Growing and changing",
+   "read_aloud": true,
+   "stem": "Living things grow and change. Put these pictures in order from youngest to oldest.",
+   "sequence": [
+    {
+     "text": "baby",
+     "image": "openmoji/baby.svg"
+    },
+    {
+     "text": "child",
+     "image": "openmoji/child.svg"
+    },
+    {
+     "text": "adult",
+     "image": "openmoji/adult.svg"
+    },
+    {
+     "text": "older person",
+     "image": "openmoji/older-person.svg"
+    }
+   ],
+   "explanation": "A person starts as a baby, grows into a child, then an adult, and later becomes an older person."
+  },
+  {
+   "id": "g1-a1-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "Which thing do all living things do?",
+   "options": [
+    "talk",
+    "grow",
+    "fly"
+   ],
+   "answer": 1,
+   "explanation": "All living things grow. Not all of them talk or fly."
+  },
+  {
+   "id": "g1-a1-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "Raju's toy robot can move and make sounds. Is it alive?",
+   "options": [
+    "No. It cannot grow, eat or have young.",
+    "Yes. It makes sounds.",
+    "Yes. It can move."
+   ],
+   "answer": 0,
+   "explanation": "A robot can move and make sounds, but it does not grow, eat or have young. So it is not alive."
+  },
+  {
+   "id": "g1-a1-011",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Sort these. Which ones do living things need?",
+   "categories": [
+    "Needs",
+    "Does not need"
+   ],
+   "items": [
+    [
+     "food",
+     "Needs"
+    ],
+    [
+     "water",
+     "Needs"
+    ],
+    [
+     "air",
+     "Needs"
+    ],
+    [
+     "shelter",
+     "Needs"
+    ],
+    [
+     "toys",
+     "Does not need"
+    ],
+    [
+     "sweets",
+     "Does not need"
+    ],
+    [
+     "television",
+     "Does not need"
+    ]
+   ],
+   "explanation": "Living things need food, water, air and shelter to stay alive. They can live without toys, sweets or a television."
+  },
+  {
+   "id": "g1-a1-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Seeds and water test",
+   "read_aloud": true,
+   "stem": "Class 1 watered one plate of bean seeds. They kept another plate dry. After one week, 9 seeds grew on the wet plate and ___ seeds grew on the dry plate.",
+   "blanks": [
+    [
+     "0",
+     "zero",
+     "none",
+     "no"
+    ]
+   ],
+   "bank": [
+    "0",
+    "9",
+    "5"
+   ],
+   "explanation": "No seeds grew on the dry plate. The seeds needed water to start growing."
+  },
+  {
+   "id": "g1-a1-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "Arif finds a stone by the river. It rolled down the hill, so he thinks it is alive. Which question helps him most?",
+   "options": [
+    "Is it smooth?",
+    "Is it shiny?",
+    "Does it eat and grow?"
+   ],
+   "answer": 2,
+   "explanation": "Living things eat and grow. A stone has no food, never grows and cannot have babies. Water pushed it, so it only moved."
+  },
+  {
+   "id": "g1-a1-014",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Sumi forgot to give her pot plant ___ for a week. Its leaves are drooping.",
+   "blanks": [
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "water",
+    "toys",
+    "paint"
+   ],
+   "explanation": "Plants need water. Without it the leaves droop. Sumi should water her plant."
+  },
+  {
+   "id": "g1-a1-015",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Imran keeps a pet goat. What must he give it? Choose all that are right.",
+   "options": [
+    "grass to eat",
+    "clean water",
+    "a safe shelter",
+    "a toy car",
+    "a bicycle"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A goat needs food, water and a shelter to stay safe and warm. A toy car and a bicycle are things it does not need."
+  },
+  {
+   "id": "g1-a1-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Joy has a small pot plant. Where should he put it so that it grows well?",
+   "options": [
+    "in a dark cupboard",
+    "on a sunny window sill",
+    "under the bed"
+   ],
+   "answer": 1,
+   "explanation": "Plants need light and warmth to grow well. A sunny window sill gives them both."
+  },
+  {
+   "id": "g1-a1-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "What living things need",
+   "read_aloud": true,
+   "stem": "Look at the four plants. What happens to a plant that has no water?",
+   "image": "diagrams/plant-needs.svg",
+   "image_alt": "Four potted plants: one healthy, one wilted with no water, one pale with no light and one small because it is too cold.",
+   "options": [
+    "It droops and wilts.",
+    "It turns pale.",
+    "It grows very big."
+   ],
+   "answer": 0,
+   "explanation": "The plant with no water droops. The plant with no light turns pale. The plant that is too cold stays small."
+  },
+  {
+   "id": "g1-a1-018",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Living or non-living",
+   "read_aloud": true,
+   "stem": "Which pictures show living things? Choose all that are right.",
+   "options": [
+    {
+     "text": "cat",
+     "image": "openmoji/cat.svg"
+    },
+    {
+     "text": "chair",
+     "image": "openmoji/chair.svg"
+    },
+    {
+     "text": "butterfly",
+     "image": "openmoji/butterfly.svg"
+    },
+    {
+     "text": "bicycle",
+     "image": "openmoji/bicycle.svg"
+    },
+    {
+     "text": "rice plant",
+     "image": "openmoji/rice-plant.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "A cat, a butterfly and a rice plant are alive. They grow and need food. A chair and a bicycle are made by people and are never alive."
+  },
+  {
+   "id": "g1-a1-019",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Growing and changing",
+   "read_aloud": true,
+   "stem": "Look at the picture. A chick grows into a hen.",
+   "image": "diagrams/chicken-life-cycle.svg",
+   "image_alt": "Life cycle of a chicken: egg, hatching, chick, adult hen.",
+   "answer": true,
+   "explanation": "The picture shows an egg, then a chick, then an adult hen. Living things grow and change."
+  },
+  {
+   "id": "g1-a1-020",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Seeds and water test",
+   "read_aloud": true,
+   "stem": "Mina tests if bean seeds need water. Which test is fair?",
+   "options": [
+    "One plate wet on the window sill. One plate dry in a dark cupboard.",
+    "One plate wet on the window sill. One plate dry on the same window sill.",
+    "Both plates wet on the window sill."
+   ],
+   "answer": 1,
+   "explanation": "In a fair test only one thing changes. Both plates sit in the same place, and only the water is different. In the first test, the light changes too."
+  },
+  {
+   "id": "g1-a1-021",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Living or non-living",
+   "read_aloud": true,
+   "stem": "Look at this list: cat, chair, mango tree, stone, snail, bicycle. How many living things are in it?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "The cat, the mango tree and the snail are living. The chair, the stone and the bicycle are non-living. That makes 3."
+  },
+  {
+   "id": "g1-a1-022",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What living things do",
+   "read_aloud": true,
+   "stem": "Mina thinks a toy car is alive because it moves. Tell one thing a living thing does that a car cannot do.",
+   "model_answer": "A living thing can grow, eat or have young. A car cannot.",
+   "keywords": [
+    [
+     "grow",
+     "grows",
+     "eat",
+     "eats",
+     "food",
+     "feed",
+     "young",
+     "babies",
+     "baby",
+     "breathe",
+     "breathes"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "Living things grow, eat, breathe and have young. A car cannot do any of these, so it is not alive."
+  },
+  {
+   "id": "g1-a1-023",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Growing and changing",
+   "read_aloud": true,
+   "stem": "Put the steps in order to grow a bean plant.",
+   "sequence": [
+    "Plant a bean seed in soil.",
+    "Water the soil every day.",
+    "A tiny shoot comes up.",
+    "The shoot grows into a bean plant."
+   ],
+   "explanation": "A seed needs water to start growing. First a shoot comes up, then it grows into a plant."
+  },
+  {
+   "id": "g1-a1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Seeds and water test",
+   "read_aloud": true,
+   "stem": "In the seed test, 9 seeds grew on the wet plate and 0 on the dry plate. What does the test show?",
+   "options": [
+    "Seeds need soil to grow.",
+    "Seeds need music to grow.",
+    "Seeds need water to grow."
+   ],
+   "answer": 2,
+   "explanation": "Only the water was different between the plates, so the test shows that seeds need water. It did not test soil or music."
+  }
+ ]
 }

@@ -87,7 +87,7 @@ def check_question(q, f, ctx, r, seen):
         if not q.get('image_alt'):
             r.err(where, 'image_alt required with image')
     if q.get('mode') == 'picture' and not (q.get('image') or any(isinstance(o, dict) and o.get('image') for o in
-                                                                q.get('options', []) + [x for p in q.get('pairs', []) for x in p] + [i[0] for i in q.get('items', [])])):
+                                                                q.get('options', []) + [x for p in q.get('pairs', []) for x in p] + [i[0] for i in q.get('items', [])] + q.get('sequence', []))):
         r.err(where, 'picture questions need an image (question image or picture options)')
     if q.get('mode') == 'simulation':
         sim = q.get('sim') or {}

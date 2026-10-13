@@ -1,219 +1,747 @@
 {
-  "grade": 4,
-  "grade_name": "Grade 4",
-  "topic": "A1",
-  "title": "Animals of Bangladesh: Diversity and Classification",
-  "strand": "living",
-  "worksheet": "worksheets/grade-4-science/pdf/a1-animals-of-bangladesh-diversity-and-classification-study-pack.pdf",
-  "questions": [
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "A1",
+ "title": "Animals of Bangladesh: Diversity and Classification",
+ "strand": "living",
+ "worksheet": "worksheets/grade-4-science/pdf/a1-animals-of-bangladesh-diversity-and-classification-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-a1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Where animals live",
+   "stem": "Earthworms, moles and many ants live under the ground. What do we call these animals?",
+   "options": [
+    "fossorial animals",
+    "arboreal animals",
+    "aerial animals",
+    "aquatic animals"
+   ],
+   "answer": 0,
+   "explanation": "Fossorial animals live under the ground. Aerial animals fly, arboreal animals live in trees and aquatic animals live in water."
+  },
+  {
+   "id": "g4-a1-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vertebrates and invertebrates",
+   "stem": "Match each animal to its vertebrate group.",
+   "pairs": [
+    [
+     "crocodile",
+     "reptile"
+    ],
+    [
+     "toad",
+     "amphibian"
+    ],
+    [
+     "bat",
+     "mammal"
+    ],
+    [
+     "owl",
+     "bird"
+    ],
+    [
+     "shark",
+     "fish"
+    ]
+   ],
+   "explanation": "The five groups of vertebrates are fish, amphibians, reptiles, birds and mammals. A bat is a mammal even though it flies, because it has fur and feeds its babies milk."
+  },
+  {
+   "id": "g4-a1-003",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Vertebrates and invertebrates",
+   "stem": "Sort these animals into those with a backbone and those without.",
+   "categories": [
+    "Vertebrate (backbone)",
+    "Invertebrate (no backbone)"
+   ],
+   "items": [
+    [
+     "tiger",
+     "Vertebrate (backbone)"
+    ],
+    [
+     "hilsa fish",
+     "Vertebrate (backbone)"
+    ],
+    [
+     "frog",
+     "Vertebrate (backbone)"
+    ],
+    [
+     "kingfisher",
+     "Vertebrate (backbone)"
+    ],
+    [
+     "spider",
+     "Invertebrate (no backbone)"
+    ],
+    [
+     "crab",
+     "Invertebrate (no backbone)"
+    ],
+    [
+     "earthworm",
+     "Invertebrate (no backbone)"
+    ],
+    [
+     "butterfly",
+     "Invertebrate (no backbone)"
+    ]
+   ],
+   "explanation": "Vertebrates have a backbone and a skeleton inside. Spiders, crabs, earthworms and butterflies are invertebrates: they have no backbone."
+  },
+  {
+   "id": "g4-a1-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Skeletons and muscles",
+   "stem": "Your skull ___ your brain, and muscles ___ on bones to make them move.",
+   "blanks": [
+    [
+     "protects",
+     "protect"
+    ],
+    [
+     "pull",
+     "pulls"
+    ]
+   ],
+   "bank": [
+    "protects",
+    "pull",
+    "push",
+    "warms"
+   ],
+   "explanation": "The hard skull protects the soft brain. Muscles can only pull, never push, so they work in pairs to move a bone back and forth."
+  },
+  {
+   "id": "g4-a1-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Skeletons and muscles",
+   "stem": "A shark has a skeleton made of hard bone, just like a hilsa fish.",
+   "answer": false,
+   "explanation": "A shark's skeleton is made of cartilage, the same bendy material as the tip of your nose. A hilsa has a skeleton of bone."
+  },
+  {
+   "id": "g4-a1-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Adaptation",
+   "stem": "What is an **adaptation**?",
+   "options": [
+    "a journey to another place at the same time each year",
+    "the place where an animal lives",
+    "a kind of animal that has died out everywhere",
+    "a feature that helps an animal survive in its habitat"
+   ],
+   "answer": 3,
+   "explanation": "An adaptation is a body feature, like webbed feet or striped fur, that helps an animal survive. Travelling each year is migration, and the home is the habitat."
+  },
+  {
+   "id": "g4-a1-007",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "Match each beak to the food it is adapted for.",
+   "pairs": [
+    [
+     "long and sharp like a spear (kingfisher)",
+     "fish"
+    ],
+    [
+     "short, strong and curved (parrot)",
+     "seeds and nuts"
+    ],
+    [
+     "long and thin like a straw (sunbird)",
+     "nectar in flowers"
+    ],
+    [
+     "sharp and hooked (eagle)",
+     "meat"
+    ]
+   ],
+   "explanation": "A beak's shape suits the food a bird eats: a spear for catching fish, a strong hook for cracking seeds, a straw for sipping nectar and a hook for tearing meat."
+  },
+  {
+   "id": "g4-a1-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Migration and changing habitats",
+   "stem": "Put the story of a migrating duck in the right order.",
+   "sequence": [
+    "In summer, the ducks breed on lakes in the cold north.",
+    "As winter comes, the lakes freeze and food runs out.",
+    "The ducks fly thousands of kilometres to the warm wetlands of Bangladesh.",
+    "They spend the winter feeding on the haors and beels.",
+    "In spring, they fly back north to breed again."
+   ],
+   "explanation": "Ducks migrate to find food and warmth when their northern homes freeze, then return in spring to breed where there is plenty of food and space."
+  },
+  {
+   "id": "g4-a1-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Using a branching key",
+   "stem": "A key sorts a hilsa fish, a kingfisher, a cobra and a cow. The first question is 'Does it have legs?'. Yes: kingfisher and cow. No: hilsa and cobra. Which question best separates the kingfisher from the cow?",
+   "options": [
+    "Does it have a backbone?",
+    "Does it have feathers?",
+    "Does it live in Bangladesh?",
+    "Is it an animal?"
+   ],
+   "answer": 1,
+   "explanation": "A good key question has a clear yes or no and splits the group. Both animals have a backbone, live here and are animals, but only the kingfisher has feathers."
+  },
+  {
+   "id": "g4-a1-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "The Ganges river dolphin is almost blind and uses echoes to find its food. Why is this a useful adaptation in a Bangladeshi river?",
+   "model_answer": "The river water is muddy, so the dolphin cannot see well. Using echoes (sound) lets it find fish in the muddy water.",
+   "keywords": [
+    [
+     "muddy",
+     "cloudy",
+     "cannot see",
+     "dark",
+     "murky"
+    ],
+    [
+     "echo",
+     "echoes",
+     "sound",
+     "sounds",
+     "click"
+    ],
+    [
+     "find",
+     "fish",
+     "food",
+     "catch",
+     "hunt"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Sight is not much use in muddy water, so the dolphin 'sees' with sound. Its feature matches its habitat, which is what an adaptation is."
+  },
+  {
+   "id": "g4-a1-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vertebrates and invertebrates",
+   "stem": "Which feature do **all** vertebrates have?",
+   "options": [
+    "wings",
+    "six legs",
+    "a backbone",
+    "a hard skeleton on the outside"
+   ],
+   "answer": 2,
+   "explanation": "Vertebrates are the animals with a backbone. Wings and six legs belong to insects and some other animals, and an outside skeleton (exoskeleton) belongs to invertebrates."
+  },
+  {
+   "id": "g4-a1-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Migration and changing habitats",
+   "stem": "The variety of living things in a place is called ___.",
+   "blanks": [
+    [
+     "biodiversity"
+    ]
+   ],
+   "bank": [
+    "biodiversity",
+    "migration",
+    "adaptation",
+    "habitat"
+   ],
+   "explanation": "Biodiversity is the variety of living things. Bangladesh has high biodiversity, from tigers in the Sundarbans to dolphins in the rivers."
+  },
+  {
+   "id": "g4-a1-013",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Where animals live",
+   "stem": "Look at each picture. Sort the animals by where they live.",
+   "categories": [
+    "aerial (air)",
+    "arboreal (trees)",
+    "aquatic (water)",
+    "fossorial (underground)"
+   ],
+   "items": [
+    [
+     {
+      "text": "eagle",
+      "image": "openmoji/eagle.svg"
+     },
+     "aerial (air)"
+    ],
+    [
+     {
+      "text": "bat",
+      "image": "openmoji/bat.svg"
+     },
+     "aerial (air)"
+    ],
+    [
+     {
+      "text": "monkey",
+      "image": "openmoji/monkey.svg"
+     },
+     "arboreal (trees)"
+    ],
+    [
+     {
+      "text": "dolphin",
+      "image": "openmoji/dolphin.svg"
+     },
+     "aquatic (water)"
+    ],
+    [
+     {
+      "text": "crab",
+      "image": "openmoji/crab.svg"
+     },
+     "aquatic (water)"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "fossorial (underground)"
+    ]
+   ],
+   "explanation": "Eagles and bats spend much of their life flying, monkeys live in trees, dolphins and crabs live in water, and earthworms live under the ground."
+  },
+  {
+   "id": "g4-a1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Skeletons and muscles",
+   "stem": "Which numbered part of the skeleton protects the heart and lungs?",
+   "image": "diagrams/skeleton-numbered.svg",
+   "image_alt": "A human skeleton with bones numbered 1 to 6: skull, ribs, spine, pelvis, thigh bone and arm bones.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Number 2 is the ribs, a cage of bones around the heart and lungs. Number 1 is the skull, which protects the brain."
+  },
+  {
+   "id": "g4-a1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Skeletons and muscles",
+   "stem": "The arm in the picture is bending at the elbow joint (4). What are the biceps (2) and the triceps (3) doing?",
+   "image": "diagrams/arm-muscles-numbered.svg",
+   "image_alt": "An arm showing the bone, the biceps (contracts), the triceps (relaxes) and the elbow joint, numbered.",
+   "options": [
+    "Both muscles push the bone upwards.",
+    "The biceps relaxes and the triceps pushes the bone.",
+    "The biceps contracts and pulls the bone, while the triceps relaxes.",
+    "Neither muscle moves; the bone bends by itself."
+   ],
+   "answer": 2,
+   "explanation": "Muscles can only pull. To bend the arm the biceps contracts (pulls) and the triceps relaxes. To straighten it, the triceps pulls instead."
+  },
+  {
+   "id": "g4-a1-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vertebrates and invertebrates",
+   "stem": "Match each picture to its vertebrate group.",
+   "pairs": [
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "amphibian"
+    ],
+    [
+     {
+      "text": "owl",
+      "image": "openmoji/owl.svg"
+     },
+     "bird"
+    ],
+    [
+     {
+      "text": "snake",
+      "image": "openmoji/snake.svg"
+     },
+     "reptile"
+    ],
+    [
+     {
+      "text": "tiger",
+      "image": "openmoji/tiger.svg"
+     },
+     "mammal"
+    ],
+    [
+     {
+      "text": "goldfish",
+      "image": "openmoji/goldfish.svg"
+     },
+     "fish"
+    ]
+   ],
+   "explanation": "Frogs are amphibians, owls are birds, snakes are reptiles, tigers are mammals and goldfish are fish. All five groups have a backbone."
+  },
+  {
+   "id": "g4-a1-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Vertebrates and invertebrates",
+   "stem": "Which of these animals is an invertebrate?",
+   "options": [
     {
-      "id": "g4-a1-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Where animals live",
-      "stem": "Earthworms, moles and many ants live under the ground. What do we call these animals?",
-      "options": ["aerial animals", "arboreal animals", "fossorial animals", "aquatic animals"],
-      "answer": 2,
-      "explanation": "Fossorial animals live under the ground. Aerial animals fly, arboreal animals live in trees and aquatic animals live in water."
+     "text": "tiger",
+     "image": "openmoji/tiger.svg"
     },
     {
-      "id": "g4-a1-002", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Vertebrates and invertebrates",
-      "stem": "Match each animal to its vertebrate group.",
-      "pairs": [["crocodile", "reptile"], ["toad", "amphibian"], ["bat", "mammal"], ["owl", "bird"], ["shark", "fish"]],
-      "explanation": "The five groups of vertebrates are fish, amphibians, reptiles, birds and mammals. A bat is a mammal even though it flies, because it has fur and feeds its babies milk."
+     "text": "owl",
+     "image": "openmoji/owl.svg"
     },
     {
-      "id": "g4-a1-003", "mode": "core", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "Vertebrates and invertebrates",
-      "stem": "Sort these animals into those with a backbone and those without.",
-      "categories": ["Vertebrate (backbone)", "Invertebrate (no backbone)"],
-      "items": [["tiger", "Vertebrate (backbone)"], ["hilsa fish", "Vertebrate (backbone)"], ["frog", "Vertebrate (backbone)"], ["kingfisher", "Vertebrate (backbone)"], ["spider", "Invertebrate (no backbone)"], ["crab", "Invertebrate (no backbone)"], ["earthworm", "Invertebrate (no backbone)"], ["butterfly", "Invertebrate (no backbone)"]],
-      "explanation": "Vertebrates have a backbone and a skeleton inside. Spiders, crabs, earthworms and butterflies are invertebrates: they have no backbone."
+     "text": "frog",
+     "image": "openmoji/frog.svg"
     },
     {
-      "id": "g4-a1-004", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Skeletons and muscles",
-      "stem": "Your skull ___ your brain, and muscles ___ on bones to make them move.",
-      "blanks": [["protects", "protect"], ["pull", "pulls"]],
-      "bank": ["protects", "pull", "push", "warms"],
-      "explanation": "The hard skull protects the soft brain. Muscles can only pull, never push, so they work in pairs to move a bone back and forth."
-    },
-    {
-      "id": "g4-a1-005", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Skeletons and muscles",
-      "stem": "A shark has a skeleton made of hard bone, just like a hilsa fish.",
-      "answer": false,
-      "explanation": "A shark's skeleton is made of cartilage, the same bendy material as the tip of your nose. A hilsa has a skeleton of bone."
-    },
-    {
-      "id": "g4-a1-006", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Adaptation",
-      "stem": "What is an **adaptation**?",
-      "options": ["a journey to another place at the same time each year", "the place where an animal lives", "a feature that helps an animal survive in its habitat", "a kind of animal that has died out everywhere"],
-      "answer": 2,
-      "explanation": "An adaptation is a body feature, like webbed feet or striped fur, that helps an animal survive. Travelling each year is migration, and the home is the habitat."
-    },
-    {
-      "id": "g4-a1-007", "mode": "core", "type": "match", "difficulty": 2, "bloom": "understand", "subskill": "Adaptation",
-      "stem": "Match each beak to the food it is adapted for.",
-      "pairs": [["long and sharp like a spear (kingfisher)", "fish"], ["short, strong and curved (parrot)", "seeds and nuts"], ["long and thin like a straw (sunbird)", "nectar in flowers"], ["sharp and hooked (eagle)", "meat"]],
-      "explanation": "A beak's shape suits the food a bird eats: a spear for catching fish, a strong hook for cracking seeds, a straw for sipping nectar and a hook for tearing meat."
-    },
-    {
-      "id": "g4-a1-008", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Migration and changing habitats",
-      "stem": "Put the story of a migrating duck in the right order.",
-      "sequence": ["In summer, the ducks breed on lakes in the cold north.", "As winter comes, the lakes freeze and food runs out.", "The ducks fly thousands of kilometres to the warm wetlands of Bangladesh.", "They spend the winter feeding on the haors and beels.", "In spring, they fly back north to breed again."],
-      "explanation": "Ducks migrate to find food and warmth when their northern homes freeze, then return in spring to breed where there is plenty of food and space."
-    },
-    {
-      "id": "g4-a1-009", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Using a branching key",
-      "stem": "A key sorts a hilsa fish, a kingfisher, a cobra and a cow. The first question is 'Does it have legs?'. Yes: kingfisher and cow. No: hilsa and cobra. Which question best separates the kingfisher from the cow?",
-      "options": ["Does it have a backbone?", "Does it have feathers?", "Does it live in Bangladesh?", "Is it an animal?"],
-      "answer": 1,
-      "explanation": "A good key question has a clear yes or no and splits the group. Both animals have a backbone, live here and are animals, but only the kingfisher has feathers."
-    },
-    {
-      "id": "g4-a1-010", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Adaptation",
-      "stem": "The Ganges river dolphin is almost blind and uses echoes to find its food. Why is this a useful adaptation in a Bangladeshi river?",
-      "model_answer": "The river water is muddy, so the dolphin cannot see well. Using echoes (sound) lets it find fish in the muddy water.",
-      "keywords": [["muddy", "cloudy", "cannot see", "dark", "murky"], ["echo", "echoes", "sound", "sounds", "click"], ["find", "fish", "food", "catch", "hunt"]],
-      "min_keywords": 2,
-      "explanation": "Sight is not much use in muddy water, so the dolphin 'sees' with sound. Its feature matches its habitat, which is what an adaptation is."
-    },
-    {
-      "id": "g4-a1-011", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Vertebrates and invertebrates",
-      "stem": "Which feature do **all** vertebrates have?",
-      "options": ["wings", "six legs", "a hard skeleton on the outside", "a backbone"],
-      "answer": 3,
-      "explanation": "Vertebrates are the animals with a backbone. Wings and six legs belong to insects and some other animals, and an outside skeleton (exoskeleton) belongs to invertebrates."
-    },
-    {
-      "id": "g4-a1-012", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Migration and changing habitats",
-      "stem": "The variety of living things in a place is called ___.",
-      "blanks": [["biodiversity"]],
-      "bank": ["biodiversity", "migration", "adaptation", "habitat"],
-      "explanation": "Biodiversity is the variety of living things. Bangladesh has high biodiversity, from tigers in the Sundarbans to dolphins in the rivers."
-    },
-    {
-      "id": "g4-a1-013", "mode": "picture", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "Where animals live",
-      "stem": "Look at each picture. Sort the animals by where they live.",
-      "categories": ["aerial (air)", "arboreal (trees)", "aquatic (water)", "fossorial (underground)"],
-      "items": [[{"text": "eagle", "image": "openmoji/eagle.svg"}, "aerial (air)"], [{"text": "bat", "image": "openmoji/bat.svg"}, "aerial (air)"], [{"text": "monkey", "image": "openmoji/monkey.svg"}, "arboreal (trees)"], [{"text": "dolphin", "image": "openmoji/dolphin.svg"}, "aquatic (water)"], [{"text": "crab", "image": "openmoji/crab.svg"}, "aquatic (water)"], [{"text": "worm", "image": "openmoji/worm.svg"}, "fossorial (underground)"]],
-      "explanation": "Eagles and bats spend much of their life flying, monkeys live in trees, dolphins and crabs live in water, and earthworms live under the ground."
-    },
-    {
-      "id": "g4-a1-014", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Skeletons and muscles",
-      "stem": "Which numbered part of the skeleton protects the heart and lungs?",
-      "image": "diagrams/skeleton-numbered.svg", "image_alt": "A human skeleton with bones numbered 1 to 6: skull, ribs, spine, pelvis, thigh bone and arm bones.",
-      "options": ["1", "2", "3", "4"],
-      "answer": 1,
-      "explanation": "Number 2 is the ribs, a cage of bones around the heart and lungs. Number 1 is the skull, which protects the brain."
-    },
-    {
-      "id": "g4-a1-015", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Skeletons and muscles",
-      "stem": "The arm in the picture is bending at the elbow joint (4). What are the biceps (2) and the triceps (3) doing?",
-      "image": "diagrams/arm-muscles-numbered.svg", "image_alt": "An arm showing the bone, the biceps (contracts), the triceps (relaxes) and the elbow joint, numbered.",
-      "options": ["Both muscles push the bone upwards.", "The biceps contracts and pulls the bone, while the triceps relaxes.", "The biceps relaxes and the triceps pushes the bone.", "Neither muscle moves; the bone bends by itself."],
-      "answer": 1,
-      "explanation": "Muscles can only pull. To bend the arm the biceps contracts (pulls) and the triceps relaxes. To straighten it, the triceps pulls instead."
-    },
-    {
-      "id": "g4-a1-016", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Vertebrates and invertebrates",
-      "stem": "Match each picture to its vertebrate group.",
-      "pairs": [[{"text": "frog", "image": "openmoji/frog.svg"}, "amphibian"], [{"text": "owl", "image": "openmoji/owl.svg"}, "bird"], [{"text": "snake", "image": "openmoji/snake.svg"}, "reptile"], [{"text": "tiger", "image": "openmoji/tiger.svg"}, "mammal"], [{"text": "goldfish", "image": "openmoji/goldfish.svg"}, "fish"]],
-      "explanation": "Frogs are amphibians, owls are birds, snakes are reptiles, tigers are mammals and goldfish are fish. All five groups have a backbone."
-    },
-    {
-      "id": "g4-a1-017", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Vertebrates and invertebrates",
-      "stem": "Which of these animals is an invertebrate?",
-      "options": [{"text": "tiger", "image": "openmoji/tiger.svg"}, {"text": "owl", "image": "openmoji/owl.svg"}, {"text": "crab", "image": "openmoji/crab.svg"}, {"text": "frog", "image": "openmoji/frog.svg"}],
-      "answer": 2,
-      "explanation": "A crab has no backbone. It has a hard exoskeleton on the outside instead. The tiger, owl and frog all have a backbone."
-    },
-    {
-      "id": "g4-a1-018", "mode": "picture", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "Vertebrates and invertebrates",
-      "stem": "Insects have six legs. Look at the pictures. Which animals are insects? Choose all that are right.",
-      "options": [{"text": "ant", "image": "openmoji/ant.svg"}, {"text": "spider", "image": "openmoji/spider.svg"}, {"text": "butterfly", "image": "openmoji/butterfly.svg"}, {"text": "crab", "image": "openmoji/crab.svg"}, {"text": "worm", "image": "openmoji/worm.svg"}],
-      "answer": [0, 2],
-      "explanation": "Ants and butterflies are insects with six legs. A spider has eight legs, a crab has ten and a worm has none. All five are invertebrates."
-    },
-    {
-      "id": "g4-a1-019", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Migration and changing habitats",
-      "stem": "In July Tuli sees no ducks on the haor near her village in Sunamganj. In January the haor is full of ducks that were not there before. What is the best explanation?",
-      "options": ["The ducks hatch from fish in the haor in winter.", "The ducks are fossorial and come up out of the mud.", "The ducks change into other birds when it gets cooler.", "The ducks migrate from the cold north to the warm wetlands."],
-      "answer": 3,
-      "explanation": "Every winter ducks and waders fly thousands of kilometres from cold lands like Siberia to the haors and beels of Bangladesh to find food and warmth."
-    },
-    {
-      "id": "g4-a1-020", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Migration and changing habitats",
-      "stem": "A long drought dries up a beel near Rajshahi. A week later the herons that fed on its fish have gone. What is the most likely reason?",
-      "options": ["They went underground to wait for the rain.", "They grew gills to live in the mud.", "They flew to a wetland that still has water and food.", "They turned into fish."],
-      "answer": 2,
-      "explanation": "Natural changes like droughts can change a habitat. Some animals move away to find food and water, while others die."
-    },
-    {
-      "id": "g4-a1-021", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Migration and changing habitats",
-      "stem": "A strong cyclone floods and damages part of the Sundarbans. Which things may happen to the animals there? Choose all that are right.",
-      "options": ["Some animals move away to a new place.", "Some animals die.", "Every kind of animal becomes extinct everywhere the next day.", "Some animals find new homes and survive.", "The animals' bodies change shape in one night."],
-      "answer": [0, 1, 3],
-      "explanation": "A changed habitat makes some animals move, some die and others find new homes. If a habitat changes too fast a kind of animal may disappear from an area, but animals do not change shape overnight."
-    },
-    {
-      "id": "g4-a1-022", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "evaluate", "subskill": "Where animals live",
-      "stem": "Class 4B has finished a minibeast hunt in the school garden. What should they do with the small animals they found?",
-      "options": ["Keep them in a closed box in the sun to study later.", "Handle them gently, keep them shady and put them back where they were found.", "Take them home and keep them for a month.", "Leave them on the hot path so they can dry."],
-      "answer": 1,
-      "explanation": "Minibeasts are living things. Handle them gently, keep them cool and damp, and return them to the place where you found them."
-    },
-    {
-      "id": "g4-a1-023", "mode": "real-life", "type": "multi", "difficulty": 1, "bloom": "evaluate", "subskill": "Migration and changing habitats",
-      "stem": "Joy visits Tanguar Haor in winter and sees thousands of migrating birds. Which choices help to protect the birds? Choose all that are right.",
-      "options": ["staying far away from the birds", "keeping quiet", "taking his litter home", "chasing the birds to take photos", "joining a boat that goes right into the flock"],
-      "answer": [0, 1, 2],
-      "explanation": "Too many people and boats disturb the birds. Staying back, being quiet and taking litter home protect the wetland. Chasing or crowding birds frightens them."
-    },
-    {
-      "id": "g4-a1-024", "mode": "simulation", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Adaptation",
-      "stem": "In the simulation, with the wolves switched on, which bunnies are more likely to survive?",
-      "sim": {"id": "natural-selection", "task": "Open Natural Selection. Add a mate for the first bunny and choose an environment. Switch on the wolves, then add a fur-colour mutation. Let the bunnies reproduce for a few generations and watch which bunnies the wolves catch."},
-      "options": ["bunnies whose fur colour matches the ground", "bunnies whose fur colour stands out from the ground", "bunnies that stay in the middle of the field", "all bunnies, because wolves catch them equally"],
-      "answer": 0,
-      "explanation": "Bunnies with fur that matches their surroundings are camouflaged, so wolves find them less easily. This is an adaptation that helps them survive."
-    },
-    {
-      "id": "g4-a1-025", "mode": "simulation", "type": "truefalse", "difficulty": 2, "bloom": "analyse", "subskill": "Adaptation",
-      "stem": "After many generations with wolves in the simulation, the fur colour that matches the ground becomes more common in the bunny population.",
-      "sim": {"id": "natural-selection", "task": "Open Natural Selection. Choose an environment and switch on the wolves. Add a fur-colour mutation, let the bunnies reproduce for many generations, and look at the population graph."},
-      "answer": true,
-      "explanation": "Bunnies that match the ground survive and have babies more often, so their fur colour becomes more common in each new generation."
-    },
-    {
-      "id": "g4-a1-026", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Migration and changing habitats",
-      "stem": "Example bird counts at a wetland, in thousands: 2019: 50, 2020: 45, 2021: 60, 2022: 38, 2023: 52. Between which two years did the count fall the most?",
-      "options": ["2019 to 2020", "2020 to 2021", "2021 to 2022", "2022 to 2023"],
-      "answer": 2,
-      "explanation": "The count fell 5 thousand from 2019 to 2020 and 22 thousand from 2021 to 2022. It rose in the other two periods."
-    },
-    {
-      "id": "g4-a1-027", "mode": "olympiad", "type": "fill", "difficulty": 3, "bloom": "apply", "subskill": "Migration and changing habitats",
-      "stem": "Using the same example counts (50, 45, 60, 38 and 52 thousand birds), the mean number of birds counted each year is ___ thousand.",
-      "blanks": [["49"]],
-      "explanation": "Add the counts: 50 + 45 + 60 + 38 + 52 = 245. Then divide by the 5 years: 245 ÷ 5 = 49 thousand."
-    },
-    {
-      "id": "g4-a1-028", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Where animals live",
-      "stem": "Class 4B searched for 10 minutes in each place (example data). Under damp leaves they found 6 earthworms, 10 woodlice, 3 ants and 4 snails. On a sunny path they found 1 earthworm and 12 ants. Which conclusion is best supported?",
-      "options": ["Ants prefer damp, shady places.", "More animals and more kinds lived under the damp leaves than on the sunny path.", "Woodlice live in both places.", "Sunny paths are the best home for most minibeasts."],
-      "answer": 1,
-      "explanation": "Under the leaves there were 4 kinds and 23 animals, but on the path only 2 kinds and 13 animals. Ants were the only group found more on the path, and no woodlice were found there."
-    },
-    {
-      "id": "g4-a1-029", "mode": "olympiad", "type": "multi", "difficulty": 3, "bloom": "evaluate", "subskill": "Using a branching key",
-      "stem": "You are making a key to sort a hilsa fish, a kingfisher, a cobra and a cow. Which would be good questions to use? Choose all that are right.",
-      "options": ["Does it have feathers?", "Does it have fins?", "Do you like it?", "Is it pretty?", "Does it have legs?"],
-      "answer": [0, 1, 4],
-      "explanation": "Key questions must be about features we can see, with a clear yes or no answer. 'Do you like it?' and 'Is it pretty?' are opinions, so different people would answer differently."
-    },
-    {
-      "id": "g4-a1-030", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Migration and changing habitats",
-      "stem": "A new road is built through a forest. Explain how this could change the biodiversity of the forest.",
-      "model_answer": "The road destroys or cuts up the animals' habitat, so they lose food and shelter. Some animals move away or die, so fewer kinds of animals live in the forest.",
-      "keywords": [["habitat", "home", "homes", "shelter", "trees cut", "forest cut", "destroy", "cut up"], ["food", "hide", "hiding"], ["move", "die", "leave", "fewer", "disappear", "decrease", "less", "extinct"]],
-      "min_keywords": 2,
-      "explanation": "A changed habitat can make animals move away or die. If habitats are lost, fewer kinds of animals can live there, so biodiversity goes down."
+     "text": "crab",
+     "image": "openmoji/crab.svg"
     }
-  ]
+   ],
+   "answer": 3,
+   "explanation": "A crab has no backbone. It has a hard exoskeleton on the outside instead. The tiger, owl and frog all have a backbone."
+  },
+  {
+   "id": "g4-a1-018",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Vertebrates and invertebrates",
+   "stem": "Insects have six legs. Look at the pictures. Which animals are insects? Choose all that are right.",
+   "options": [
+    {
+     "text": "ant",
+     "image": "openmoji/ant.svg"
+    },
+    {
+     "text": "spider",
+     "image": "openmoji/spider.svg"
+    },
+    {
+     "text": "butterfly",
+     "image": "openmoji/butterfly.svg"
+    },
+    {
+     "text": "crab",
+     "image": "openmoji/crab.svg"
+    },
+    {
+     "text": "worm",
+     "image": "openmoji/worm.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "explanation": "Ants and butterflies are insects with six legs. A spider has eight legs, a crab has ten and a worm has none. All five are invertebrates."
+  },
+  {
+   "id": "g4-a1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Migration and changing habitats",
+   "stem": "In July Tuli sees no ducks on the haor near her village in Sunamganj. In January the haor is full of ducks that were not there before. What is the best explanation?",
+   "options": [
+    "The ducks hatch from fish in the haor in winter.",
+    "The ducks migrate from the cold north to the warm wetlands.",
+    "The ducks change into other birds when it gets cooler.",
+    "The ducks are fossorial and come up out of the mud."
+   ],
+   "answer": 1,
+   "explanation": "Every winter ducks and waders fly thousands of kilometres from cold lands like Siberia to the haors and beels of Bangladesh to find food and warmth."
+  },
+  {
+   "id": "g4-a1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Migration and changing habitats",
+   "stem": "A long drought dries up a beel near Rajshahi. A week later the herons that fed on its fish have gone. What is the most likely reason?",
+   "options": [
+    "They flew to a wetland that still has water and food.",
+    "They grew gills to live in the mud.",
+    "They went underground to wait for the rain.",
+    "They turned into fish."
+   ],
+   "answer": 0,
+   "explanation": "Natural changes like droughts can change a habitat. Some animals move away to find food and water, while others die."
+  },
+  {
+   "id": "g4-a1-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Migration and changing habitats",
+   "stem": "A strong cyclone floods and damages part of the Sundarbans. Which things may happen to the animals there? Choose all that are right.",
+   "options": [
+    "Some animals move away to a new place.",
+    "Some animals die.",
+    "Every kind of animal becomes extinct everywhere the next day.",
+    "Some animals find new homes and survive.",
+    "The animals' bodies change shape in one night."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "A changed habitat makes some animals move, some die and others find new homes. If a habitat changes too fast a kind of animal may disappear from an area, but animals do not change shape overnight."
+  },
+  {
+   "id": "g4-a1-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Where animals live",
+   "stem": "Class 4B has finished a minibeast hunt in the school garden. What should they do with the small animals they found?",
+   "options": [
+    "Keep them in a closed box in the sun to study later.",
+    "Take them home and keep them for a month.",
+    "Handle them gently, keep them shady and put them back where they were found.",
+    "Leave them on the hot path so they can dry."
+   ],
+   "answer": 2,
+   "explanation": "Minibeasts are living things. Handle them gently, keep them cool and damp, and return them to the place where you found them."
+  },
+  {
+   "id": "g4-a1-023",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Migration and changing habitats",
+   "stem": "Joy visits Tanguar Haor in winter and sees thousands of migrating birds. Which choices help to protect the birds? Choose all that are right.",
+   "options": [
+    "staying far away from the birds",
+    "keeping quiet",
+    "taking his litter home",
+    "chasing the birds to take photos",
+    "joining a boat that goes right into the flock"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Too many people and boats disturb the birds. Staying back, being quiet and taking litter home protect the wetland. Chasing or crowding birds frightens them."
+  },
+  {
+   "id": "g4-a1-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Adaptation",
+   "stem": "In the simulation, with the wolves switched on, which bunnies are more likely to survive?",
+   "sim": {
+    "id": "natural-selection",
+    "task": "Open Natural Selection. Add a mate for the first bunny and choose an environment. Switch on the wolves, then add a fur-colour mutation. Let the bunnies reproduce for a few generations and watch which bunnies the wolves catch."
+   },
+   "options": [
+    "bunnies whose fur colour matches the ground",
+    "bunnies whose fur colour stands out from the ground",
+    "bunnies that stay in the middle of the field",
+    "all bunnies, because wolves catch them equally"
+   ],
+   "answer": 0,
+   "explanation": "Bunnies with fur that matches their surroundings are camouflaged, so wolves find them less easily. This is an adaptation that helps them survive."
+  },
+  {
+   "id": "g4-a1-025",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Adaptation",
+   "stem": "After many generations with wolves in the simulation, the fur colour that matches the ground becomes more common in the bunny population.",
+   "sim": {
+    "id": "natural-selection",
+    "task": "Open Natural Selection. Choose an environment and switch on the wolves. Add a fur-colour mutation, let the bunnies reproduce for many generations, and look at the population graph."
+   },
+   "answer": true,
+   "explanation": "Bunnies that match the ground survive and have babies more often, so their fur colour becomes more common in each new generation."
+  },
+  {
+   "id": "g4-a1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Migration and changing habitats",
+   "stem": "Example bird counts at a wetland, in thousands: 2019: 50, 2020: 45, 2021: 60, 2022: 38, 2023: 52. Between which two years did the count fall the most?",
+   "options": [
+    "2019 to 2020",
+    "2020 to 2021",
+    "2022 to 2023",
+    "2021 to 2022"
+   ],
+   "answer": 3,
+   "explanation": "The count fell 5 thousand from 2019 to 2020 and 22 thousand from 2021 to 2022. It rose in the other two periods."
+  },
+  {
+   "id": "g4-a1-027",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Migration and changing habitats",
+   "stem": "Using the same example counts (50, 45, 60, 38 and 52 thousand birds), the mean number of birds counted each year is ___ thousand.",
+   "blanks": [
+    [
+     "49"
+    ]
+   ],
+   "explanation": "Add the counts: 50 + 45 + 60 + 38 + 52 = 245. Then divide by the 5 years: 245 ÷ 5 = 49 thousand."
+  },
+  {
+   "id": "g4-a1-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Where animals live",
+   "stem": "Class 4B searched for 10 minutes in each place (example data). Under damp leaves they found 6 earthworms, 10 woodlice, 3 ants and 4 snails. On a sunny path they found 1 earthworm and 12 ants. Which conclusion is best supported?",
+   "options": [
+    "Ants prefer damp, shady places.",
+    "More animals and more kinds lived under the damp leaves than on the sunny path.",
+    "Woodlice live in both places.",
+    "Sunny paths are the best home for most minibeasts."
+   ],
+   "answer": 1,
+   "explanation": "Under the leaves there were 4 kinds and 23 animals, but on the path only 2 kinds and 13 animals. Ants were the only group found more on the path, and no woodlice were found there."
+  },
+  {
+   "id": "g4-a1-029",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Using a branching key",
+   "stem": "You are making a key to sort a hilsa fish, a kingfisher, a cobra and a cow. Which would be good questions to use? Choose all that are right.",
+   "options": [
+    "Does it have feathers?",
+    "Does it have fins?",
+    "Do you like it?",
+    "Is it pretty?",
+    "Does it have legs?"
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Key questions must be about features we can see, with a clear yes or no answer. 'Do you like it?' and 'Is it pretty?' are opinions, so different people would answer differently."
+  },
+  {
+   "id": "g4-a1-030",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Migration and changing habitats",
+   "stem": "A new road is built through a forest. Explain how this could change the biodiversity of the forest.",
+   "model_answer": "The road destroys or cuts up the animals' habitat, so they lose food and shelter. Some animals move away or die, so fewer kinds of animals live in the forest.",
+   "keywords": [
+    [
+     "habitat",
+     "home",
+     "homes",
+     "shelter",
+     "trees cut",
+     "forest cut",
+     "destroy",
+     "cut up"
+    ],
+    [
+     "food",
+     "hide",
+     "hiding"
+    ],
+    [
+     "move",
+     "die",
+     "leave",
+     "fewer",
+     "disappear",
+     "decrease",
+     "less",
+     "extinct"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A changed habitat can make animals move away or die. If habitats are lost, fewer kinds of animals can live there, so biodiversity goes down."
+  }
+ ]
 }

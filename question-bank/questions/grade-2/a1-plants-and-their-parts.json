@@ -1,328 +1,572 @@
 {
-  "grade": 2,
-  "grade_name": "Grade 2",
-  "topic": "A1",
-  "title": "Plants and Their Parts",
-  "strand": "living",
-  "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
-  "questions": [
-    {
-      "id": "g2-a1-001",
-      "mode": "core",
-      "type": "mcq",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Parts of a plant",
-      "stem": "Which part of a plant takes in water from the soil?",
-      "options": ["roots", "flower", "leaf", "fruit"],
-      "answer": 0,
-      "explanation": "Roots take in water from the soil and hold the plant in place. The stem then carries the water up."
-    },
-    {
-      "id": "g2-a1-002",
-      "mode": "picture",
-      "type": "mcq",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Parts of a plant",
-      "stem": "Look at the plant. Which number shows the part that takes in water from the soil?",
-      "image": "diagrams/plant-parts-numbered.svg",
-      "image_alt": "A plant with five parts numbered 1 to 5.",
-      "options": ["1", "2", "4", "5"],
-      "answer": 2,
-      "explanation": "Part 4 is the roots. They grow under the ground, take in water and hold the plant in the soil."
-    },
-    {
-      "id": "g2-a1-003",
-      "mode": "picture",
-      "type": "mcq",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Parts of a plant",
-      "stem": "Look at the plant. Which number shows the part that holds and protects the seeds?",
-      "image": "diagrams/plant-parts-numbered.svg",
-      "image_alt": "A plant with five parts numbered 1 to 5.",
-      "options": ["2", "3", "4", "5"],
-      "answer": 3,
-      "explanation": "Part 5 is the fruit. A fruit such as a mango holds and protects the seeds. The flower (1) makes the seeds."
-    },
-    {
-      "id": "g2-a1-004",
-      "mode": "picture",
-      "type": "mcq",
-      "difficulty": 1,
-      "bloom": "understand",
-      "subskill": "How water travels",
-      "stem": "A white flower stands in coloured water. After one day the petals have the same colour. What does this show?",
-      "image": "diagrams/celery-stem.svg",
-      "image_alt": "A white flower stem standing in a jar of coloured water, with the petals now coloured.",
-      "options": ["The petals make their own colour.", "Water travels up the stem to the petals.", "Water goes down the stem to the roots.", "The flower drinks water through its petals."],
-      "answer": 1,
-      "explanation": "The coloured water travelled up the stem to the petals. The stem carries water from the roots up to the leaves and flowers."
-    },
-    {
-      "id": "g2-a1-005",
-      "mode": "picture",
-      "type": "mcq",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "What plants need",
-      "stem": "Look at the four plants. How does a plant look when it gets no light?",
-      "image": "diagrams/plant-needs.svg",
-      "image_alt": "Four potted plants: one healthy and three that are missing water, light or warmth.",
-      "options": ["It wilts and droops.", "It stays healthy and green.", "It looks pale and weak.", "It grows lots of flowers."],
-      "answer": 2,
-      "explanation": "Without light a plant turns pale and weak, because its leaves cannot make food. A plant with no water is the one that wilts and droops."
-    },
-    {
-      "id": "g2-a1-006",
-      "mode": "picture",
-      "type": "mcq",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "Temperature and growth",
-      "stem": "Look at the four plants. What happened to the plant that was too cold?",
-      "image": "diagrams/plant-needs.svg",
-      "image_alt": "Four potted plants: one healthy and three that are missing water, light or warmth.",
-      "options": ["It turned pale.", "It stayed small.", "It wilted and drooped.", "It grew very tall."],
-      "answer": 1,
-      "explanation": "Plants need the right temperature. When it is too cold, a plant grows very little and stays small."
-    },
-    {
-      "id": "g2-a1-007",
-      "mode": "picture",
-      "type": "sort",
-      "difficulty": 2,
-      "bloom": "apply",
-      "subskill": "Parts of a plant",
-      "stem": "Which part of a plant is each of these foods? Sort the pictures.",
-      "categories": ["Root", "Leaf", "Fruit"],
-      "items": [[{"text": "carrot", "image": "openmoji/carrot.svg"}, "Root"], [{"text": "leafy green", "image": "openmoji/leafy-green.svg"}, "Leaf"], [{"text": "herb", "image": "openmoji/herb.svg"}, "Leaf"], [{"text": "mango", "image": "openmoji/mango.svg"}, "Fruit"], [{"text": "tomato", "image": "openmoji/tomato.svg"}, "Fruit"], [{"text": "banana", "image": "openmoji/banana.svg"}, "Fruit"]],
-      "explanation": "A carrot is a root. Leafy greens and herbs are leaves. Mangoes, tomatoes and bananas are fruits, because they hold the seeds."
-    },
-    {
-      "id": "g2-a1-008",
-      "mode": "core",
-      "type": "fill",
-      "difficulty": 1,
-      "bloom": "understand",
-      "subskill": "How water travels",
-      "stem": "Water goes into the plant through the ___. Then it travels up the ___.",
-      "blanks": [["roots", "root"], ["stem", "stems"]],
-      "bank": ["roots", "stem", "flower", "fruit"],
-      "explanation": "Water enters through the roots and travels up the stem, like water up a straw, to the leaves and flowers."
-    },
-    {
-      "id": "g2-a1-009",
-      "mode": "core",
-      "type": "match",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Parts of a plant",
-      "stem": "Match each plant part to its job.",
-      "pairs": [["roots", "take in water from the soil"], ["stem", "carries water up the plant"], ["leaves", "use sunlight to make food"], ["flower", "makes seeds"], ["fruit", "holds and protects the seeds"]],
-      "explanation": "Each part has a job: roots drink and hold, the stem carries water and holds the plant up, leaves make food, the flower makes seeds and the fruit protects them."
-    },
-    {
-      "id": "g2-a1-010",
-      "mode": "core",
-      "type": "multi",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "What plants need",
-      "stem": "Which of these does a plant need to grow well? Choose all that are right.",
-      "options": ["water", "sugar poured on the soil", "light", "a bowl of cooked rice", "air"],
-      "answer": [0, 2, 4],
-      "explanation": "Plants need water, light and air, and also warmth and minerals from the soil. Sugar and rice do not feed a plant."
-    },
-    {
-      "id": "g2-a1-011",
-      "mode": "core",
-      "type": "truefalse",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Parts of a plant",
-      "stem": "Leaves use sunlight to make food for the plant.",
-      "answer": true,
-      "explanation": "Leaves catch sunlight and use it to make food. That is why plants need light."
-    },
-    {
-      "id": "g2-a1-012",
-      "mode": "core",
-      "type": "sort",
-      "difficulty": 2,
-      "bloom": "analyse",
-      "subskill": "What plants need",
-      "stem": "A plant is not healthy. Which need is missing? Sort each sign.",
-      "categories": ["Water", "Light", "Warmth"],
-      "items": [["The leaves droop and the soil is dry.", "Water"], ["The soil is cracked.", "Water"], ["The seedling in the cupboard is thin and yellow.", "Light"], ["New leaves are pale and weak.", "Light"], ["The plant stopped growing in a very cold week.", "Warmth"], ["A frosty night damaged the young plant.", "Warmth"]],
-      "explanation": "Drooping leaves and dry soil mean a plant needs water. Yellow, thin growth means it needs light. A plant that stops growing in the cold needs warmth."
-    },
-    {
-      "id": "g2-a1-013",
-      "mode": "core",
-      "type": "order",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "How water travels",
-      "stem": "Put the steps in order to show how water gets to a leaf.",
-      "sequence": ["Rain soaks into the soil.", "The roots take in the water.", "The water travels up the stem.", "The water reaches the leaves and flowers."],
-      "explanation": "Water starts in the soil. The roots take it in, the stem carries it up, and it reaches the leaves and flowers."
-    },
-    {
-      "id": "g2-a1-014",
-      "mode": "core",
-      "type": "short",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "Healthy roots, stems and leaves",
-      "stem": "Why does a plant need healthy roots?",
-      "model_answer": "Roots hold the plant in the soil and take in water for the plant.",
-      "keywords": [["hold", "holds", "anchor", "stay", "fixed", "stand", "soil"], ["water", "drink", "drinks", "take in", "takes in"]],
-      "min_keywords": 2,
-      "explanation": "Roots do two jobs: they hold the plant in the soil and they take in water. A plant with damaged roots cannot drink and may fall over."
-    },
-    {
-      "id": "g2-a1-015",
-      "mode": "core",
-      "type": "truefalse",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "What plants need",
-      "stem": "A bean plant kept in a dark cupboard for a week will have strong, dark green leaves.",
-      "answer": false,
-      "explanation": "Without light, leaves turn yellow and the plant becomes weak. Plants need light to make food."
-    },
-    {
-      "id": "g2-a1-016",
-      "mode": "real-life",
-      "type": "mcq",
-      "difficulty": 2,
-      "bloom": "apply",
-      "subskill": "What plants need",
-      "stem": "In April it is very hot. Mina's rooftop plants wilt at midday. What should Mina do?",
-      "options": ["Cover the plants with a black plastic sheet.", "Put up a cloth for shade and water them in the morning.", "Stop watering until the plants stand up again.", "Move the pots into a dark room."],
-      "answer": 1,
-      "explanation": "Wilting means the plants are losing water in the heat. A cloth gives shade and morning watering gives them water, so they recover."
-    },
-    {
-      "id": "g2-a1-017",
-      "mode": "real-life",
-      "type": "mcq",
-      "difficulty": 2,
-      "bloom": "apply",
-      "subskill": "Temperature and growth",
-      "stem": "Sumi's tomato seedling is in a pot outside. A very cold night is coming. What is the best thing to do?",
-      "options": ["Leave the pot outside and water it more.", "Put the pot in a dark cupboard.", "Bring the pot inside where it is warmer.", "Cut off all the leaves."],
-      "answer": 2,
-      "explanation": "Young plants can be damaged or stop growing when it is too cold. Bringing the pot inside keeps it warmer, and it still needs light the next day."
-    },
-    {
-      "id": "g2-a1-018",
-      "mode": "real-life",
-      "type": "truefalse",
-      "difficulty": 2,
-      "bloom": "evaluate",
-      "subskill": "What plants need",
-      "stem": "Joy keeps his plant in a dark store room. He says, 'I water it every day, so it will grow strong and green.' Is Joy right?",
-      "answer": false,
-      "explanation": "Water is not enough. The plant also needs light to make food, so it will become yellow and weak in the dark."
-    },
-    {
-      "id": "g2-a1-019",
-      "mode": "real-life",
-      "type": "multi",
-      "difficulty": 2,
-      "bloom": "apply",
-      "subskill": "What plants need",
-      "stem": "Nadia has a plant in a pot. Which things will help it grow well? Choose all that are right.",
-      "options": ["put it where it gets sunlight", "water it regularly", "keep its roots in good soil", "pull off all its leaves", "keep it in a dark cupboard"],
-      "answer": [0, 1, 2],
-      "explanation": "A plant grows well with light, water and healthy roots in good soil. Pulling off its leaves, or keeping it in the dark, would harm it."
-    },
-    {
-      "id": "g2-a1-020",
-      "mode": "core",
-      "type": "truefalse",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "What plants need",
-      "stem": "A plant that does not get enough water droops, which we call wilting.",
-      "answer": true,
-      "explanation": "Wilting means drooping because the plant needs water. After watering, a wilted plant often stands up again."
-    },
-    {
-      "id": "g2-a1-021",
-      "mode": "core",
-      "type": "fill",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "What plants need",
-      "stem": "Without ___, a plant turns yellow and weak. Without ___, it wilts.",
-      "blanks": [["light", "sunlight"], ["water"]],
-      "bank": ["light", "water", "warmth", "flowers"],
-      "explanation": "A plant needs light to make food, so it turns yellow and weak in the dark. Without water it droops and wilts."
-    },
-    {
-      "id": "g2-a1-022",
-      "mode": "olympiad",
-      "type": "mcq",
-      "difficulty": 3,
-      "bloom": "evaluate",
-      "subskill": "Fair tests with plants",
-      "stem": "Class 2B grew two bean plants with the same water (example data). Plant A, by the window, was 12 cm tall with green leaves. Plant B, in the dark, was 15 cm tall with yellow leaves. Rafi says, 'Plant B is taller, so it is healthier.' What is the best reply?",
-      "options": ["Plant B is yellow and weak, so it is not healthy even though it is taller.", "Plant B is right, because taller plants are always healthier.", "Plant A is shorter, so it must have had less water.", "Both plants are the same because they had the same water."],
-      "answer": 0,
-      "explanation": "Plant B grew tall and thin, as if reaching for light, but its leaves are yellow and it is weak. Height alone does not show that a plant is healthy."
-    },
-    {
-      "id": "g2-a1-023",
-      "mode": "olympiad",
-      "type": "mcq",
-      "difficulty": 3,
-      "bloom": "analyse",
-      "subskill": "Fair tests with plants",
-      "stem": "Mina plants the same bean seeds in three pots. Pot 1: sunny shelf, 1 cup of water a day. Pot 2: dark cupboard, 1 cup of water a day. Pot 3: dark cupboard, no water. Which two pots should she compare to find out whether plants need light?",
-      "options": ["pots 1 and 3", "pots 2 and 3", "pots 1 and 2", "pots 1, 2 and 3"],
-      "answer": 2,
-      "explanation": "To test light, only light should change. Pots 1 and 2 get the same water, but one has light and one does not."
-    },
-    {
-      "id": "g2-a1-024",
-      "mode": "olympiad",
-      "type": "short",
-      "difficulty": 3,
-      "bloom": "evaluate",
-      "subskill": "Fair tests with plants",
-      "stem": "Why must the bean plant in the dark cupboard get the same amount of water as the plant by the window?",
-      "model_answer": "So the only thing that is different is light. If the water was different too, we would not know which one caused the change.",
-      "keywords": [["same", "equal", "fair"], ["light", "one thing", "only", "different", "caused", "cause"]],
-      "min_keywords": 2,
-      "explanation": "If the water was different as well, we could not tell whether light or water caused the difference. A fair test changes only one thing."
-    },
-    {
-      "id": "g2-a1-025",
-      "mode": "core",
-      "type": "mcq",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "Temperature and growth",
-      "stem": "Farmers in Bangladesh plant rice when the monsoon rains come. Why is this a good time?",
-      "options": ["Rice grows best in the dark.", "The rain gives the rice plant its seeds.", "There is lots of water and the weather is warm.", "Rice plants do not need sunlight."],
-      "answer": 2,
-      "explanation": "Rice needs plenty of water, and the monsoon season is warm and wet. Plants grow well when they have water and the right temperature."
-    },
-    {
-      "id": "g2-a1-026",
-      "mode": "core",
-      "type": "fill",
-      "difficulty": 2,
-      "bloom": "remember",
-      "subskill": "Temperature and growth",
-      "stem": "Plants grow best at the right ___: not too hot and not too cold.",
-      "blanks": [["temperature", "temperatures"]],
-      "bank": ["temperature", "colour", "shape"],
-      "explanation": "Temperature affects growth. In very hot weather plants can wilt, and in very cold weather they may stop growing."
-    }
-  ]
+ "grade": 2,
+ "grade_name": "Grade 2",
+ "topic": "A1",
+ "title": "Plants and Their Parts",
+ "strand": "living",
+ "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g2-a1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Which part of a plant takes in water from the soil?",
+   "options": [
+    "flower",
+    "roots",
+    "leaf",
+    "fruit"
+   ],
+   "answer": 1,
+   "explanation": "Roots take in water from the soil and hold the plant in place. The stem then carries the water up."
+  },
+  {
+   "id": "g2-a1-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Look at the plant. Which number shows the part that takes in water from the soil?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with five parts numbered 1 to 5.",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "5"
+   ],
+   "answer": 2,
+   "explanation": "Part 4 is the roots. They grow under the ground, take in water and hold the plant in the soil."
+  },
+  {
+   "id": "g2-a1-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Look at the plant. Which number shows the part that holds and protects the seeds?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with five parts numbered 1 to 5.",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 3,
+   "explanation": "Part 5 is the fruit. A fruit such as a mango holds and protects the seeds. The flower (1) makes the seeds."
+  },
+  {
+   "id": "g2-a1-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How water travels",
+   "stem": "A white flower stands in coloured water. After one day the petals have the same colour. What does this show?",
+   "image": "diagrams/celery-stem.svg",
+   "image_alt": "A white flower stem standing in a jar of coloured water, with the petals now coloured.",
+   "options": [
+    "The petals make their own colour.",
+    "The flower drinks water through its petals.",
+    "Water goes down the stem to the roots.",
+    "Water travels up the stem to the petals."
+   ],
+   "answer": 3,
+   "explanation": "The coloured water travelled up the stem to the petals. The stem carries water from the roots up to the leaves and flowers."
+  },
+  {
+   "id": "g2-a1-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "Look at the four plants. How does a plant look when it gets no light?",
+   "image": "diagrams/plant-needs.svg",
+   "image_alt": "Four potted plants: one healthy and three that are missing water, light or warmth.",
+   "options": [
+    "It looks pale and weak.",
+    "It stays healthy and green.",
+    "It wilts and droops.",
+    "It grows lots of flowers."
+   ],
+   "answer": 0,
+   "explanation": "Without light a plant turns pale and weak, because its leaves cannot make food. A plant with no water is the one that wilts and droops."
+  },
+  {
+   "id": "g2-a1-006",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Temperature and growth",
+   "stem": "Look at the four plants. What happened to the plant that was too cold?",
+   "image": "diagrams/plant-needs.svg",
+   "image_alt": "Four potted plants: one healthy and three that are missing water, light or warmth.",
+   "options": [
+    "It turned pale.",
+    "It wilted and drooped.",
+    "It stayed small.",
+    "It grew very tall."
+   ],
+   "answer": 2,
+   "explanation": "Plants need the right temperature. When it is too cold, a plant grows very little and stays small."
+  },
+  {
+   "id": "g2-a1-007",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Parts of a plant",
+   "stem": "Which part of a plant is each of these foods? Sort the pictures.",
+   "categories": [
+    "Root",
+    "Leaf",
+    "Fruit"
+   ],
+   "items": [
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Root"
+    ],
+    [
+     {
+      "text": "leafy green",
+      "image": "openmoji/leafy-green.svg"
+     },
+     "Leaf"
+    ],
+    [
+     {
+      "text": "herb",
+      "image": "openmoji/herb.svg"
+     },
+     "Leaf"
+    ],
+    [
+     {
+      "text": "mango",
+      "image": "openmoji/mango.svg"
+     },
+     "Fruit"
+    ],
+    [
+     {
+      "text": "tomato",
+      "image": "openmoji/tomato.svg"
+     },
+     "Fruit"
+    ],
+    [
+     {
+      "text": "banana",
+      "image": "openmoji/banana.svg"
+     },
+     "Fruit"
+    ]
+   ],
+   "explanation": "A carrot is a root. Leafy greens and herbs are leaves. Mangoes, tomatoes and bananas are fruits, because they hold the seeds."
+  },
+  {
+   "id": "g2-a1-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How water travels",
+   "stem": "Water goes into the plant through the ___. Then it travels up the ___.",
+   "blanks": [
+    [
+     "roots",
+     "root"
+    ],
+    [
+     "stem",
+     "stems"
+    ]
+   ],
+   "bank": [
+    "roots",
+    "stem",
+    "flower",
+    "fruit"
+   ],
+   "explanation": "Water enters through the roots and travels up the stem, like water up a straw, to the leaves and flowers."
+  },
+  {
+   "id": "g2-a1-009",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Match each plant part to its job.",
+   "pairs": [
+    [
+     "roots",
+     "take in water from the soil"
+    ],
+    [
+     "stem",
+     "carries water up the plant"
+    ],
+    [
+     "leaves",
+     "use sunlight to make food"
+    ],
+    [
+     "flower",
+     "makes seeds"
+    ],
+    [
+     "fruit",
+     "holds and protects the seeds"
+    ]
+   ],
+   "explanation": "Each part has a job: roots drink and hold, the stem carries water and holds the plant up, leaves make food, the flower makes seeds and the fruit protects them."
+  },
+  {
+   "id": "g2-a1-010",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What plants need",
+   "stem": "Which of these does a plant need to grow well? Choose all that are right.",
+   "options": [
+    "water",
+    "sugar poured on the soil",
+    "light",
+    "a bowl of cooked rice",
+    "air"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Plants need water, light and air, and also warmth and minerals from the soil. Sugar and rice do not feed a plant."
+  },
+  {
+   "id": "g2-a1-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Leaves use sunlight to make food for the plant.",
+   "answer": true,
+   "explanation": "Leaves catch sunlight and use it to make food. That is why plants need light."
+  },
+  {
+   "id": "g2-a1-012",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "What plants need",
+   "stem": "A plant is not healthy. Which need is missing? Sort each sign.",
+   "categories": [
+    "Water",
+    "Light",
+    "Warmth"
+   ],
+   "items": [
+    [
+     "The leaves droop and the soil is dry.",
+     "Water"
+    ],
+    [
+     "The soil is cracked.",
+     "Water"
+    ],
+    [
+     "The seedling in the cupboard is thin and yellow.",
+     "Light"
+    ],
+    [
+     "New leaves are pale and weak.",
+     "Light"
+    ],
+    [
+     "The plant stopped growing in a very cold week.",
+     "Warmth"
+    ],
+    [
+     "A frosty night damaged the young plant.",
+     "Warmth"
+    ]
+   ],
+   "explanation": "Drooping leaves and dry soil mean a plant needs water. Yellow, thin growth means it needs light. A plant that stops growing in the cold needs warmth."
+  },
+  {
+   "id": "g2-a1-013",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How water travels",
+   "stem": "Put the steps in order to show how water gets to a leaf.",
+   "sequence": [
+    "Rain soaks into the soil.",
+    "The roots take in the water.",
+    "The water travels up the stem.",
+    "The water reaches the leaves and flowers."
+   ],
+   "explanation": "Water starts in the soil. The roots take it in, the stem carries it up, and it reaches the leaves and flowers."
+  },
+  {
+   "id": "g2-a1-014",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy roots, stems and leaves",
+   "stem": "Why does a plant need healthy roots?",
+   "model_answer": "Roots hold the plant in the soil and take in water for the plant.",
+   "keywords": [
+    [
+     "hold",
+     "holds",
+     "anchor",
+     "stay",
+     "fixed",
+     "stand",
+     "soil"
+    ],
+    [
+     "water",
+     "drink",
+     "drinks",
+     "take in",
+     "takes in"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Roots do two jobs: they hold the plant in the soil and they take in water. A plant with damaged roots cannot drink and may fall over."
+  },
+  {
+   "id": "g2-a1-015",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "A bean plant kept in a dark cupboard for a week will have strong, dark green leaves.",
+   "answer": false,
+   "explanation": "Without light, leaves turn yellow and the plant becomes weak. Plants need light to make food."
+  },
+  {
+   "id": "g2-a1-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What plants need",
+   "stem": "In April it is very hot. Mina's rooftop plants wilt at midday. What should Mina do?",
+   "options": [
+    "Cover the plants with a black plastic sheet.",
+    "Put up a cloth for shade and water them in the morning.",
+    "Stop watering until the plants stand up again.",
+    "Move the pots into a dark room."
+   ],
+   "answer": 1,
+   "explanation": "Wilting means the plants are losing water in the heat. A cloth gives shade and morning watering gives them water, so they recover."
+  },
+  {
+   "id": "g2-a1-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Temperature and growth",
+   "stem": "Sumi's tomato seedling is in a pot outside. A very cold night is coming. What is the best thing to do?",
+   "options": [
+    "Leave the pot outside and water it more.",
+    "Put the pot in a dark cupboard.",
+    "Cut off all the leaves.",
+    "Bring the pot inside where it is warmer."
+   ],
+   "answer": 3,
+   "explanation": "Young plants can be damaged or stop growing when it is too cold. Bringing the pot inside keeps it warmer, and it still needs light the next day."
+  },
+  {
+   "id": "g2-a1-018",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "What plants need",
+   "stem": "Joy keeps his plant in a dark store room. He says, 'I water it every day, so it will grow strong and green.' Is Joy right?",
+   "answer": false,
+   "explanation": "Water is not enough. The plant also needs light to make food, so it will become yellow and weak in the dark."
+  },
+  {
+   "id": "g2-a1-019",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What plants need",
+   "stem": "Nadia has a plant in a pot. Which things will help it grow well? Choose all that are right.",
+   "options": [
+    "put it where it gets sunlight",
+    "water it regularly",
+    "keep its roots in good soil",
+    "pull off all its leaves",
+    "keep it in a dark cupboard"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A plant grows well with light, water and healthy roots in good soil. Pulling off its leaves, or keeping it in the dark, would harm it."
+  },
+  {
+   "id": "g2-a1-020",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What plants need",
+   "stem": "A plant that does not get enough water droops, which we call wilting.",
+   "answer": true,
+   "explanation": "Wilting means drooping because the plant needs water. After watering, a wilted plant often stands up again."
+  },
+  {
+   "id": "g2-a1-021",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "Without ___, a plant turns yellow and weak. Without ___, it wilts.",
+   "blanks": [
+    [
+     "light",
+     "sunlight"
+    ],
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "light",
+    "water",
+    "warmth",
+    "flowers"
+   ],
+   "explanation": "A plant needs light to make food, so it turns yellow and weak in the dark. Without water it droops and wilts."
+  },
+  {
+   "id": "g2-a1-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests with plants",
+   "stem": "Class 2B grew two bean plants with the same water (example data). Plant A, by the window, was 12 cm tall with green leaves. Plant B, in the dark, was 15 cm tall with yellow leaves. Rafi says, 'Plant B is taller, so it is healthier.' What is the best reply?",
+   "options": [
+    "Plant B is yellow and weak, so it is not healthy even though it is taller.",
+    "Plant B is right, because taller plants are always healthier.",
+    "Plant A is shorter, so it must have had less water.",
+    "Both plants are the same because they had the same water."
+   ],
+   "answer": 0,
+   "explanation": "Plant B grew tall and thin, as if reaching for light, but its leaves are yellow and it is weak. Height alone does not show that a plant is healthy."
+  },
+  {
+   "id": "g2-a1-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair tests with plants",
+   "stem": "Mina plants the same bean seeds in three pots. Pot 1: sunny shelf, 1 cup of water a day. Pot 2: dark cupboard, 1 cup of water a day. Pot 3: dark cupboard, no water. Which two pots should she compare to find out whether plants need light?",
+   "options": [
+    "pots 1 and 3",
+    "pots 2 and 3",
+    "pots 1 and 2",
+    "pots 1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "To test light, only light should change. Pots 1 and 2 get the same water, but one has light and one does not."
+  },
+  {
+   "id": "g2-a1-024",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests with plants",
+   "stem": "Why must the bean plant in the dark cupboard get the same amount of water as the plant by the window?",
+   "model_answer": "So the only thing that is different is light. If the water was different too, we would not know which one caused the change.",
+   "keywords": [
+    [
+     "same",
+     "equal",
+     "fair"
+    ],
+    [
+     "light",
+     "one thing",
+     "only",
+     "different",
+     "caused",
+     "cause"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "If the water was different as well, we could not tell whether light or water caused the difference. A fair test changes only one thing."
+  },
+  {
+   "id": "g2-a1-025",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Temperature and growth",
+   "stem": "Farmers in Bangladesh plant rice when the monsoon rains come. Why is this a good time?",
+   "options": [
+    "Rice grows best in the dark.",
+    "The rain gives the rice plant its seeds.",
+    "Rice plants do not need sunlight.",
+    "There is lots of water and the weather is warm."
+   ],
+   "answer": 3,
+   "explanation": "Rice needs plenty of water, and the monsoon season is warm and wet. Plants grow well when they have water and the right temperature."
+  },
+  {
+   "id": "g2-a1-026",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Temperature and growth",
+   "stem": "Plants grow best at the right ___: not too hot and not too cold.",
+   "blanks": [
+    [
+     "temperature",
+     "temperatures"
+    ]
+   ],
+   "bank": [
+    "temperature",
+    "colour",
+    "shape"
+   ],
+   "explanation": "Temperature affects growth. In very hot weather plants can wilt, and in very cold weather they may stop growing."
+  }
+ ]
 }

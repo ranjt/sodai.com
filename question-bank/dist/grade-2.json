@@ -1,0 +1,6267 @@
+{
+ "grade": 2,
+ "grade_name": "Grade 2",
+ "questions": [
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Observing with the senses",
+   "stem": "What does it mean to **observe**?",
+   "options": [
+    "to make a guess before a test",
+    "to write down your results",
+    "to share what you found",
+    "to look closely using your senses"
+   ],
+   "answer": 3,
+   "explanation": "To observe is to look closely and use your senses (never taste in science). Guessing, recording and sharing are other science jobs."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "stem": "Which tool measures how hot or cold something is?",
+   "options": [
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "thermometer",
+     "image": "openmoji/thermometer.svg"
+    },
+    {
+     "text": "stopwatch",
+     "image": "openmoji/stopwatch.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A thermometer measures temperature. A ruler measures length and a stopwatch measures time."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-003",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "stem": "Match each tool to its job.",
+   "pairs": [
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "how long"
+    ],
+    [
+     {
+      "text": "thermometer",
+      "image": "openmoji/thermometer.svg"
+     },
+     "how hot or cold"
+    ],
+    [
+     {
+      "text": "stopwatch",
+      "image": "openmoji/stopwatch.svg"
+     },
+     "how much time"
+    ],
+    [
+     {
+      "text": "balance scale",
+      "image": "openmoji/balance-scale.svg"
+     },
+     "how heavy"
+    ],
+    [
+     {
+      "text": "magnifying glass",
+      "image": "openmoji/magnifying-glass.svg"
+     },
+     "see small things bigger"
+    ]
+   ],
+   "explanation": "Each tool measures one thing: a ruler for length, a thermometer for hot or cold, a stopwatch for time, scales for weight. A hand lens (magnifying glass) makes small things look bigger."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Predicting",
+   "stem": "A ___ is what you think will happen before you test it.",
+   "blanks": [
+    [
+     "prediction",
+     "predictions",
+     "guess"
+    ]
+   ],
+   "bank": [
+    "prediction",
+    "measurement",
+    "question",
+    "result"
+   ],
+   "explanation": "A prediction is what you think will happen. After the test you check whether your prediction came true."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Staying safe",
+   "stem": "In science, you can taste any new food or liquid to find out what it is like.",
+   "answer": false,
+   "explanation": "Never taste or smell things in science unless your teacher says it is safe. Some things that look harmless can make you ill."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-006",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Observing with the senses",
+   "stem": "Which sense would you use to find out each thing?",
+   "categories": [
+    "See",
+    "Hear",
+    "Touch",
+    "Smell"
+   ],
+   "items": [
+    [
+     "the colour of a flower",
+     "See"
+    ],
+    [
+     "the shape of a leaf",
+     "See"
+    ],
+    [
+     "which bird is singing",
+     "Hear"
+    ],
+    [
+     "if the school bell is ringing",
+     "Hear"
+    ],
+    [
+     "if a stone is rough",
+     "Touch"
+    ],
+    [
+     "if the sand is wet or dry",
+     "Touch"
+    ],
+    [
+     "if the flower has a sweet smell",
+     "Smell"
+    ],
+    [
+     "if the rice is cooking",
+     "Smell"
+    ]
+   ],
+   "explanation": "We use our eyes to see colour, our ears to hear sounds, our skin to feel rough or smooth, and our nose to smell."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Doing an investigation",
+   "stem": "Put the steps of an investigation in the right order.",
+   "sequence": [
+    "Ask a question.",
+    "Make a prediction.",
+    "Do a fair test.",
+    "Measure and record what happens.",
+    "Tell others what you found."
+   ],
+   "explanation": "Scientists ask a question first, then predict, test fairly, measure and record, and finally tell others what they found."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Asking questions",
+   "stem": "Which of these questions can we answer by doing an investigation? Choose all that are right.",
+   "options": [
+    "Which ball bounces highest?",
+    "Which flower is the prettiest?",
+    "Does a plant need water to grow?",
+    "Which paper towel soaks up the most water?",
+    "Which is the nicest colour?"
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "We can test 'Which ball bounces highest?', 'Does a plant need water?' and 'Which paper towel soaks up most water?' by trying things out. 'Which flower is prettiest?' is an opinion, so it cannot be tested."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fair tests",
+   "stem": "In a fair test, you change…",
+   "options": [
+    "nothing at all",
+    "everything",
+    "only one thing",
+    "as many things as you like"
+   ],
+   "answer": 2,
+   "explanation": "A fair test changes only one thing and keeps everything else the same. Then you know what caused any difference."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-010",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests",
+   "stem": "Sumi and Lina want to find out which ball bounces higher, a rubber ball or a cloth ball. Sumi drops hers from a chair and Lina drops hers from a table. How can they make it a fair test?",
+   "options": [
+    "Drop both balls from the same height.",
+    "Drop each ball on a different floor.",
+    "Drop the rubber ball a little harder.",
+    "Let each child choose any height."
+   ],
+   "answer": 0,
+   "explanation": "The balls must be dropped from the same height, or the height could be the reason for the difference. Only the type of ball should change."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Science tools",
+   "stem": "Tuli is helping at the market. She wants to find out how heavy a mango is. Which tool should she use?",
+   "options": [
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "stopwatch",
+     "image": "openmoji/stopwatch.svg"
+    },
+    {
+     "text": "balance scale",
+     "image": "openmoji/balance-scale.svg"
+    },
+    {
+     "text": "thermometer",
+     "image": "openmoji/thermometer.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "Scales (such as a balance) measure how heavy something is. A ruler measures length, a stopwatch measures time and a thermometer measures temperature."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Staying safe",
+   "stem": "Arif finds a small red berry on a plant in the school garden. He wonders what it tastes like. What is the safest thing to do?",
+   "options": [
+    "Taste a tiny bit to check.",
+    "Ask a friend to taste it first.",
+    "Squash it and rub it on his skin.",
+    "Look closely, draw it and ask his teacher."
+   ],
+   "answer": 3,
+   "explanation": "Some berries are poisonous, so we never taste unknown things. We can look closely, draw, and ask the teacher."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-013",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Staying safe",
+   "stem": "Class 2 visits the village pond to observe tadpoles. Which are safe and scientific things to do? Choose all that are right.",
+   "options": [
+    "look closely and draw what you see",
+    "stay back from the edge with your teacher",
+    "wash your hands afterwards",
+    "taste a little pond water",
+    "lean far over the water alone"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Looking closely, drawing, staying back from the edge and washing hands are all safe. Tasting pond water or leaning over the water alone is dangerous."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Reading a thermometer",
+   "stem": "Look at the three thermometers. Which one shows the hottest temperature?",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers lettered A, B and C with the liquid at different heights.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 2,
+   "explanation": "The liquid in a thermometer rises when it is hotter. In C the liquid is highest, at about 40 °C, so C is the hottest."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Observing with the senses",
+   "stem": "Mina wants to find out which bird is singing in the tree. Which part of her body helps her most?",
+   "options": [
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
+    },
+    {
+     "text": "nose",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "hand",
+     "image": "openmoji/hand.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "We hear with our ears. Eyes help us see the bird, but a song is a sound."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-016",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sorting and classifying",
+   "stem": "Look at each animal. Sort them by whether the animal has wings.",
+   "categories": [
+    "Has wings",
+    "No wings"
+   ],
+   "items": [
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "Has wings"
+    ],
+    [
+     {
+      "text": "butterfly",
+      "image": "openmoji/butterfly.svg"
+     },
+     "Has wings"
+    ],
+    [
+     {
+      "text": "honeybee",
+      "image": "openmoji/honeybee.svg"
+     },
+     "Has wings"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "No wings"
+    ],
+    [
+     {
+      "text": "snake",
+      "image": "openmoji/snake.svg"
+     },
+     "No wings"
+    ],
+    [
+     {
+      "text": "cat",
+      "image": "openmoji/cat.svg"
+     },
+     "No wings"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "No wings"
+    ]
+   ],
+   "explanation": "We can sort living things by features we can see. Birds, butterflies and bees have wings. Fish, snakes, cats and frogs do not."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-017",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Fair tests",
+   "stem": "Rina and Sami race toy cars down a slope. Rina gives her car a push, but Sami just lets his car go. Why is this not a fair test?",
+   "model_answer": "Rina pushed her car but Sami did not, so more than one thing was different. Both cars should just be let go.",
+   "keywords": [
+    [
+     "push",
+     "pushed",
+     "pushes"
+    ],
+    [
+     "not the same",
+     "same",
+     "both",
+     "only one",
+     "one thing",
+     "different",
+     "unfair",
+     "not fair"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A fair test changes only one thing. Here the push is a second change, so we cannot tell why one car won. Both cars should just be let go."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-018",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "stem": "We use a ___ to measure how long something is and ___ to measure how heavy it is.",
+   "blanks": [
+    [
+     "ruler"
+    ],
+    [
+     "scales",
+     "scale",
+     "balance",
+     "a balance",
+     "balances"
+    ]
+   ],
+   "bank": [
+    "ruler",
+    "scales",
+    "thermometer",
+    "timer"
+   ],
+   "explanation": "A ruler measures length in centimetres. Scales measure how heavy something is."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-019",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring and recording",
+   "stem": "Class 2B dropped balls from the same height (example data). The rubber ball bounced 70 cm and the plastic ball bounced 40 cm. The rubber ball bounced ___ cm higher.",
+   "blanks": [
+    [
+     "30",
+     "thirty"
+    ]
+   ],
+   "explanation": "Subtract to compare: 70 − 40 = 30. The rubber ball bounced 30 cm higher."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-020",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Science words",
+   "stem": "Match each science word to its meaning.",
+   "pairs": [
+    [
+     "observe",
+     "look closely"
+    ],
+    [
+     "predict",
+     "say what you think will happen"
+    ],
+    [
+     "measure",
+     "find out how long, heavy or hot"
+    ],
+    [
+     "record",
+     "write or draw what you found"
+    ],
+    [
+     "fair test",
+     "change only one thing"
+    ]
+   ],
+   "explanation": "These key words describe what scientists do: observe, predict, measure, record and run a fair test."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-021",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Predicting",
+   "stem": "A prediction can turn out to be wrong, and that is still useful to a scientist.",
+   "answer": true,
+   "explanation": "A wrong prediction is not a failure. It tells us something new and helps us think again and ask better questions."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Patterns in data",
+   "stem": "Rumi counted the ducks on the lake once a month (example data): November 10, December 25, January 40, February 20, March 5. Which sentence do her counts support best?",
+   "options": [
+    "The number of ducks went up every month.",
+    "The number of ducks went up until January, then went down.",
+    "There were more ducks in March than in November.",
+    "The number of ducks stayed the same all winter."
+   ],
+   "answer": 1,
+   "explanation": "The numbers go up to 40 in January and then go down to 5 in March. We should only write what the counts really show."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests",
+   "stem": "Which plan is a fair test of which cloth dries fastest?",
+   "options": [
+    "Two wet cloths of the same size, one cotton and one nylon, hung side by side in the sun.",
+    "Wet cotton cloth in the sun and wet nylon cloth in the shade.",
+    "A big wet cotton cloth and a small wet nylon cloth in the sun.",
+    "A wet cotton cloth in the sun and a dry nylon cloth in the sun."
+   ],
+   "answer": 0,
+   "explanation": "Only the type of cloth should change. Plan B uses the same size, the same wetness and the same place. The other plans change two things at once."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-024",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Planning a fair test",
+   "stem": "Raju's class tests which paper towel soaks up the most water, brand A or brand B. Name two things they must keep the same.",
+   "model_answer": "They must use the same amount of water and the same size of paper towel (and soak them for the same time).",
+   "keywords": [
+    [
+     "water",
+     "amount",
+     "cup",
+     "spoonful",
+     "millilitres"
+    ],
+    [
+     "size",
+     "sheet",
+     "piece",
+     "big",
+     "small"
+    ],
+    [
+     "time",
+     "long",
+     "seconds",
+     "minutes"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Everything except the brand must stay the same: the amount of water, the size of the towel and the time it soaks. Then any difference is caused by the brand."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-025",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Reading a thermometer",
+   "stem": "Look at the thermometers. Imran says that B is 30 degrees hotter than A.",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers lettered A, B and C with the liquid at different heights.",
+   "answer": false,
+   "explanation": "A reads 5 °C and B reads 25 °C. 25 − 5 = 20, so B is 20 degrees hotter, not 30."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "W1",
+   "title": "I Am a Scientist",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/grade-2-science/pdf/w1-i-am-a-scientist-study-pack.pdf",
+   "id": "g2-w1-026",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reading a thermometer",
+   "stem": "The inside of a healthy body is about 37 °C. Which thermometer shows about that temperature?",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers lettered A, B and C with the liquid at different heights.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 1,
+   "explanation": "37 °C is a little less than 40 °C. Thermometer B is just below the 40 mark. A (about 12 °C) is far too cold and C (about 48 °C) is far too hot."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Which part of a plant takes in water from the soil?",
+   "options": [
+    "flower",
+    "roots",
+    "leaf",
+    "fruit"
+   ],
+   "answer": 1,
+   "explanation": "Roots take in water from the soil and hold the plant in place. The stem then carries the water up."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Look at the plant. Which number shows the part that takes in water from the soil?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with five parts numbered 1 to 5.",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "5"
+   ],
+   "answer": 2,
+   "explanation": "Part 4 is the roots. They grow under the ground, take in water and hold the plant in the soil."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Look at the plant. Which number shows the part that holds and protects the seeds?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with five parts numbered 1 to 5.",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 3,
+   "explanation": "Part 5 is the fruit. A fruit such as a mango holds and protects the seeds. The flower (1) makes the seeds."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How water travels",
+   "stem": "A white flower stands in coloured water. After one day the petals have the same colour. What does this show?",
+   "image": "diagrams/celery-stem.svg",
+   "image_alt": "A white flower stem standing in a jar of coloured water, with the petals now coloured.",
+   "options": [
+    "The petals make their own colour.",
+    "The flower drinks water through its petals.",
+    "Water goes down the stem to the roots.",
+    "Water travels up the stem to the petals."
+   ],
+   "answer": 3,
+   "explanation": "The coloured water travelled up the stem to the petals. The stem carries water from the roots up to the leaves and flowers."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "Look at the four plants. How does a plant look when it gets no light?",
+   "image": "diagrams/plant-needs.svg",
+   "image_alt": "Four potted plants: one healthy and three that are missing water, light or warmth.",
+   "options": [
+    "It looks pale and weak.",
+    "It stays healthy and green.",
+    "It wilts and droops.",
+    "It grows lots of flowers."
+   ],
+   "answer": 0,
+   "explanation": "Without light a plant turns pale and weak, because its leaves cannot make food. A plant with no water is the one that wilts and droops."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-006",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Temperature and growth",
+   "stem": "Look at the four plants. What happened to the plant that was too cold?",
+   "image": "diagrams/plant-needs.svg",
+   "image_alt": "Four potted plants: one healthy and three that are missing water, light or warmth.",
+   "options": [
+    "It turned pale.",
+    "It wilted and drooped.",
+    "It stayed small.",
+    "It grew very tall."
+   ],
+   "answer": 2,
+   "explanation": "Plants need the right temperature. When it is too cold, a plant grows very little and stays small."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-007",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Parts of a plant",
+   "stem": "Which part of a plant is each of these foods? Sort the pictures.",
+   "categories": [
+    "Root",
+    "Leaf",
+    "Fruit"
+   ],
+   "items": [
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Root"
+    ],
+    [
+     {
+      "text": "leafy green",
+      "image": "openmoji/leafy-green.svg"
+     },
+     "Leaf"
+    ],
+    [
+     {
+      "text": "herb",
+      "image": "openmoji/herb.svg"
+     },
+     "Leaf"
+    ],
+    [
+     {
+      "text": "mango",
+      "image": "openmoji/mango.svg"
+     },
+     "Fruit"
+    ],
+    [
+     {
+      "text": "tomato",
+      "image": "openmoji/tomato.svg"
+     },
+     "Fruit"
+    ],
+    [
+     {
+      "text": "banana",
+      "image": "openmoji/banana.svg"
+     },
+     "Fruit"
+    ]
+   ],
+   "explanation": "A carrot is a root. Leafy greens and herbs are leaves. Mangoes, tomatoes and bananas are fruits, because they hold the seeds."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How water travels",
+   "stem": "Water goes into the plant through the ___. Then it travels up the ___.",
+   "blanks": [
+    [
+     "roots",
+     "root"
+    ],
+    [
+     "stem",
+     "stems"
+    ]
+   ],
+   "bank": [
+    "roots",
+    "stem",
+    "flower",
+    "fruit"
+   ],
+   "explanation": "Water enters through the roots and travels up the stem, like water up a straw, to the leaves and flowers."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-009",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Match each plant part to its job.",
+   "pairs": [
+    [
+     "roots",
+     "take in water from the soil"
+    ],
+    [
+     "stem",
+     "carries water up the plant"
+    ],
+    [
+     "leaves",
+     "use sunlight to make food"
+    ],
+    [
+     "flower",
+     "makes seeds"
+    ],
+    [
+     "fruit",
+     "holds and protects the seeds"
+    ]
+   ],
+   "explanation": "Each part has a job: roots drink and hold, the stem carries water and holds the plant up, leaves make food, the flower makes seeds and the fruit protects them."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-010",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What plants need",
+   "stem": "Which of these does a plant need to grow well? Choose all that are right.",
+   "options": [
+    "water",
+    "sugar poured on the soil",
+    "light",
+    "a bowl of cooked rice",
+    "air"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Plants need water, light and air, and also warmth and minerals from the soil. Sugar and rice do not feed a plant."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Leaves use sunlight to make food for the plant.",
+   "answer": true,
+   "explanation": "Leaves catch sunlight and use it to make food. That is why plants need light."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-012",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "What plants need",
+   "stem": "A plant is not healthy. Which need is missing? Sort each sign.",
+   "categories": [
+    "Water",
+    "Light",
+    "Warmth"
+   ],
+   "items": [
+    [
+     "The leaves droop and the soil is dry.",
+     "Water"
+    ],
+    [
+     "The soil is cracked.",
+     "Water"
+    ],
+    [
+     "The seedling in the cupboard is thin and yellow.",
+     "Light"
+    ],
+    [
+     "New leaves are pale and weak.",
+     "Light"
+    ],
+    [
+     "The plant stopped growing in a very cold week.",
+     "Warmth"
+    ],
+    [
+     "A frosty night damaged the young plant.",
+     "Warmth"
+    ]
+   ],
+   "explanation": "Drooping leaves and dry soil mean a plant needs water. Yellow, thin growth means it needs light. A plant that stops growing in the cold needs warmth."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-013",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How water travels",
+   "stem": "Put the steps in order to show how water gets to a leaf.",
+   "sequence": [
+    "Rain soaks into the soil.",
+    "The roots take in the water.",
+    "The water travels up the stem.",
+    "The water reaches the leaves and flowers."
+   ],
+   "explanation": "Water starts in the soil. The roots take it in, the stem carries it up, and it reaches the leaves and flowers."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-014",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy roots, stems and leaves",
+   "stem": "Why does a plant need healthy roots?",
+   "model_answer": "Roots hold the plant in the soil and take in water for the plant.",
+   "keywords": [
+    [
+     "hold",
+     "holds",
+     "anchor",
+     "stay",
+     "fixed",
+     "stand",
+     "soil"
+    ],
+    [
+     "water",
+     "drink",
+     "drinks",
+     "take in",
+     "takes in"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Roots do two jobs: they hold the plant in the soil and they take in water. A plant with damaged roots cannot drink and may fall over."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-015",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "A bean plant kept in a dark cupboard for a week will have strong, dark green leaves.",
+   "answer": false,
+   "explanation": "Without light, leaves turn yellow and the plant becomes weak. Plants need light to make food."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What plants need",
+   "stem": "In April it is very hot. Mina's rooftop plants wilt at midday. What should Mina do?",
+   "options": [
+    "Cover the plants with a black plastic sheet.",
+    "Put up a cloth for shade and water them in the morning.",
+    "Stop watering until the plants stand up again.",
+    "Move the pots into a dark room."
+   ],
+   "answer": 1,
+   "explanation": "Wilting means the plants are losing water in the heat. A cloth gives shade and morning watering gives them water, so they recover."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Temperature and growth",
+   "stem": "Sumi's tomato seedling is in a pot outside. A very cold night is coming. What is the best thing to do?",
+   "options": [
+    "Leave the pot outside and water it more.",
+    "Put the pot in a dark cupboard.",
+    "Cut off all the leaves.",
+    "Bring the pot inside where it is warmer."
+   ],
+   "answer": 3,
+   "explanation": "Young plants can be damaged or stop growing when it is too cold. Bringing the pot inside keeps it warmer, and it still needs light the next day."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-018",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "What plants need",
+   "stem": "Joy keeps his plant in a dark store room. He says, 'I water it every day, so it will grow strong and green.' Is Joy right?",
+   "answer": false,
+   "explanation": "Water is not enough. The plant also needs light to make food, so it will become yellow and weak in the dark."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-019",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What plants need",
+   "stem": "Nadia has a plant in a pot. Which things will help it grow well? Choose all that are right.",
+   "options": [
+    "put it where it gets sunlight",
+    "water it regularly",
+    "keep its roots in good soil",
+    "pull off all its leaves",
+    "keep it in a dark cupboard"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A plant grows well with light, water and healthy roots in good soil. Pulling off its leaves, or keeping it in the dark, would harm it."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-020",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What plants need",
+   "stem": "A plant that does not get enough water droops, which we call wilting.",
+   "answer": true,
+   "explanation": "Wilting means drooping because the plant needs water. After watering, a wilted plant often stands up again."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-021",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "Without ___, a plant turns yellow and weak. Without ___, it wilts.",
+   "blanks": [
+    [
+     "light",
+     "sunlight"
+    ],
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "light",
+    "water",
+    "warmth",
+    "flowers"
+   ],
+   "explanation": "A plant needs light to make food, so it turns yellow and weak in the dark. Without water it droops and wilts."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests with plants",
+   "stem": "Class 2B grew two bean plants with the same water (example data). Plant A, by the window, was 12 cm tall with green leaves. Plant B, in the dark, was 15 cm tall with yellow leaves. Rafi says, 'Plant B is taller, so it is healthier.' What is the best reply?",
+   "options": [
+    "Plant B is yellow and weak, so it is not healthy even though it is taller.",
+    "Plant B is right, because taller plants are always healthier.",
+    "Plant A is shorter, so it must have had less water.",
+    "Both plants are the same because they had the same water."
+   ],
+   "answer": 0,
+   "explanation": "Plant B grew tall and thin, as if reaching for light, but its leaves are yellow and it is weak. Height alone does not show that a plant is healthy."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair tests with plants",
+   "stem": "Mina plants the same bean seeds in three pots. Pot 1: sunny shelf, 1 cup of water a day. Pot 2: dark cupboard, 1 cup of water a day. Pot 3: dark cupboard, no water. Which two pots should she compare to find out whether plants need light?",
+   "options": [
+    "pots 1 and 3",
+    "pots 2 and 3",
+    "pots 1 and 2",
+    "pots 1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "To test light, only light should change. Pots 1 and 2 get the same water, but one has light and one does not."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-024",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests with plants",
+   "stem": "Why must the bean plant in the dark cupboard get the same amount of water as the plant by the window?",
+   "model_answer": "So the only thing that is different is light. If the water was different too, we would not know which one caused the change.",
+   "keywords": [
+    [
+     "same",
+     "equal",
+     "fair"
+    ],
+    [
+     "light",
+     "one thing",
+     "only",
+     "different",
+     "caused",
+     "cause"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "If the water was different as well, we could not tell whether light or water caused the difference. A fair test changes only one thing."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-025",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Temperature and growth",
+   "stem": "Farmers in Bangladesh plant rice when the monsoon rains come. Why is this a good time?",
+   "options": [
+    "Rice grows best in the dark.",
+    "The rain gives the rice plant its seeds.",
+    "Rice plants do not need sunlight.",
+    "There is lots of water and the weather is warm."
+   ],
+   "answer": 3,
+   "explanation": "Rice needs plenty of water, and the monsoon season is warm and wet. Plants grow well when they have water and the right temperature."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A1",
+   "title": "Plants and Their Parts",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/grade-2-science/pdf/a1-plants-and-their-parts-study-pack.pdf",
+   "id": "g2-a1-026",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Temperature and growth",
+   "stem": "Plants grow best at the right ___: not too hot and not too cold.",
+   "blanks": [
+    [
+     "temperature",
+     "temperatures"
+    ]
+   ],
+   "bank": [
+    "temperature",
+    "colour",
+    "shape"
+   ],
+   "explanation": "Temperature affects growth. In very hot weather plants can wilt, and in very cold weather they may stop growing."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living or non-living",
+   "stem": "Which of these is a living thing?",
+   "options": [
+    "a chair",
+    "a stone",
+    "a cat",
+    "a pencil"
+   ],
+   "answer": 2,
+   "explanation": "A cat moves, breathes, feeds, grows and has young. A chair, a stone and a pencil do none of these things, so they are non-living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living or non-living",
+   "stem": "Sort the pictures into living and non-living things.",
+   "categories": [
+    "Living",
+    "Non-living"
+   ],
+   "items": [
+    [
+     {
+      "text": "cat",
+      "image": "openmoji/cat.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "sunflower",
+      "image": "openmoji/sunflower.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "ant",
+      "image": "openmoji/ant.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "chair",
+      "image": "openmoji/chair.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "football",
+      "image": "openmoji/football.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "spoon",
+      "image": "openmoji/spoon.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "pencil",
+      "image": "openmoji/pencil.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "bicycle",
+      "image": "openmoji/bicycle.svg"
+     },
+     "Non-living"
+    ]
+   ],
+   "explanation": "Cats, sunflowers and ants are living. They grow, feed and have young. A chair, a football, a spoon and a pencil are non-living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living or non-living",
+   "stem": "Look at the pond. Which number shows a non-living thing?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond scene with eight things numbered 1 to 8.",
+   "options": [
+    "3",
+    "4",
+    "6",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "Number 6 is a rock. A rock does not eat, grow or have young. The duck (3), fish (4) and frog (8) are living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-004",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Living or non-living",
+   "stem": "Look at the pond. Which numbers show living things? Choose all that are right.",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond scene with eight things numbered 1 to 8.",
+   "options": [
+    "1",
+    "3",
+    "4",
+    "5",
+    "7",
+    "8"
+   ],
+   "answer": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "explanation": "The duck (3), fish (4), water plants (7) and frog (8) are living. The Sun (1) and the water (5) are non-living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sorting by features",
+   "stem": "Which animal has feathers?",
+   "options": [
+    {
+     "text": "parrot",
+     "image": "openmoji/parrot.svg"
+    },
+    {
+     "text": "cat",
+     "image": "openmoji/cat.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "A parrot is covered in feathers. A cat has fur and a fish has scales."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-006",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sorting by features",
+   "stem": "Look at each animal. Sort them by what covers its body.",
+   "categories": [
+    "Fur",
+    "Feathers",
+    "Scales"
+   ],
+   "items": [
+    [
+     {
+      "text": "cat",
+      "image": "openmoji/cat.svg"
+     },
+     "Fur"
+    ],
+    [
+     {
+      "text": "goat",
+      "image": "openmoji/goat.svg"
+     },
+     "Fur"
+    ],
+    [
+     {
+      "text": "duck",
+      "image": "openmoji/duck.svg"
+     },
+     "Feathers"
+    ],
+    [
+     {
+      "text": "parrot",
+      "image": "openmoji/parrot.svg"
+     },
+     "Feathers"
+    ],
+    [
+     {
+      "text": "owl",
+      "image": "openmoji/owl.svg"
+     },
+     "Feathers"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Scales"
+    ],
+    [
+     {
+      "text": "snake",
+      "image": "openmoji/snake.svg"
+     },
+     "Scales"
+    ],
+    [
+     {
+      "text": "crocodile",
+      "image": "openmoji/crocodile.svg"
+     },
+     "Scales"
+    ]
+   ],
+   "explanation": "Cats and goats have fur. Ducks, parrots and owls have feathers. Fish, snakes and crocodiles have scales."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What living things do",
+   "stem": "A living thing moves, breathes, feeds, grows and has ___.",
+   "blanks": [
+    [
+     "young",
+     "babies",
+     "baby",
+     "offspring"
+    ]
+   ],
+   "bank": [
+    "young",
+    "wheels",
+    "batteries"
+   ],
+   "explanation": "Living things have young. A hen lays eggs and a mango tree makes seeds."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What living things do",
+   "stem": "Match each thing that living things do to an example.",
+   "pairs": [
+    [
+     "move",
+     "a fish swims"
+    ],
+    [
+     "breathe",
+     "we take in air"
+    ],
+    [
+     "grow",
+     "a kitten becomes a cat"
+    ],
+    [
+     "sense things",
+     "a dog hears its name"
+    ],
+    [
+     "have young",
+     "a hen lays eggs"
+    ]
+   ],
+   "explanation": "A living thing moves, breathes, grows, senses and has young. Each example shows one of these."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What living things do",
+   "stem": "All living things grow.",
+   "answer": true,
+   "explanation": "Growing is one of the things all living things do. A kitten grows into a cat and a seedling grows into a plant."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Living or non-living",
+   "stem": "A car is a living thing because it moves and needs fuel.",
+   "answer": false,
+   "explanation": "A car moves and uses fuel, but it does not grow, breathe or have young. A living thing does all of these things, so a car is non-living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-011",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What living things do",
+   "stem": "Which of these do living things do? Choose all that are right.",
+   "options": [
+    "grow",
+    "fly",
+    "breathe",
+    "swim",
+    "get rid of waste"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Living things grow, breathe and get rid of waste. Not every living thing can fly or swim."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Living or non-living",
+   "stem": "A toy robot can move and make sounds. Is it a living thing? Explain.",
+   "model_answer": "No. It cannot grow, eat, breathe or have young, so it is not living.",
+   "keywords": [
+    [
+     "no",
+     "not",
+     "non-living"
+    ],
+    [
+     "grow",
+     "eat",
+     "feed",
+     "breathe",
+     "young",
+     "babies",
+     "baby"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A robot only moves because it is built and has batteries. It cannot grow, eat, breathe or have young, so it is non-living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Once alive",
+   "stem": "Which of these things was once alive?",
+   "options": [
+    "a metal spoon",
+    "a wooden spoon",
+    "a plastic spoon",
+    "a glass spoon"
+   ],
+   "answer": 1,
+   "explanation": "A wooden spoon is made from wood, which comes from a tree. It is now non-living, but it was once alive. Metal, plastic and glass were never alive."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-014",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Sorting by features",
+   "stem": "Scientists sort animals into groups by looking at their…",
+   "options": [
+    "how far away they live",
+    "how loud they are",
+    "how old they are",
+    "features you can see, like fur or wings"
+   ],
+   "answer": 3,
+   "explanation": "We sort living things by features we can see, such as fur, feathers, scales, wings or legs."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-015",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sorting by features",
+   "stem": "Put the steps in order to sort a set of animals into two groups.",
+   "sequence": [
+    "Look closely at all the animals.",
+    "Choose one feature, such as having legs.",
+    "Put animals with that feature in one group.",
+    "Put the other animals in a second group.",
+    "Say why you made the groups."
+   ],
+   "explanation": "To sort, look closely, choose a feature, put animals with it in one group, put the rest in the other group, and explain your reason."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "What living things do",
+   "stem": "Imran keeps dry beans in wet cotton wool for three days. Tiny roots and shoots appear. What does this tell us about the beans?",
+   "options": [
+    "They are non-living, like stones.",
+    "They are living, because they grew roots and shoots.",
+    "They are only soaking up water, like a sponge.",
+    "They are non-living, because they are dry."
+   ],
+   "answer": 1,
+   "explanation": "Growing is a sign of life. The beans grew roots and shoots, so they are living, even though dry seeds look still."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Living or non-living",
+   "stem": "Mina sees a thin brown thing on a leaf. It looks like a twig, but she thinks it might be an insect. What is the best way to find out?",
+   "options": [
+    "Watch it carefully for a while.",
+    "Decide it is non-living because it is still.",
+    "Poke it hard with a stick.",
+    "Pick it up and squeeze it."
+   ],
+   "answer": 0,
+   "explanation": "To tell if something is living, we watch for signs such as moving, feeding or growing. We stay safe and do not hurt it. A living thing may be still for a while."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-018",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Living or non-living",
+   "stem": "Nadia watches the river flow past. She says, 'The river water is living because it moves.' Is she right?",
+   "answer": false,
+   "explanation": "Water moves, but it does not breathe, feed, grow or have young. Moving is not enough to be living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-019",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Living or non-living",
+   "stem": "Tanvir sits by a village pond. He sees ducks, stones, lotus flowers, an old boat and a fish. Which of these are living? Choose all that are right.",
+   "options": [
+    "the ducks",
+    "the stones",
+    "the lotus flowers",
+    "the old boat",
+    "the fish"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Ducks, lotus flowers and fish are living. Stones and an old boat are non-living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-020",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sorting by features",
+   "stem": "Sort these animals into groups by looking at their legs.",
+   "categories": [
+    "Has legs",
+    "No legs"
+   ],
+   "items": [
+    [
+     "cat",
+     "Has legs"
+    ],
+    [
+     "goat",
+     "Has legs"
+    ],
+    [
+     "ant",
+     "Has legs"
+    ],
+    [
+     "duck",
+     "Has legs"
+    ],
+    [
+     "snake",
+     "No legs"
+    ],
+    [
+     "fish",
+     "No legs"
+    ],
+    [
+     "snail",
+     "No legs"
+    ],
+    [
+     "worm",
+     "No legs"
+    ]
+   ],
+   "explanation": "Cats, goats, ants and ducks have legs. Snakes, fish, snails and worms have no legs."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-021",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What living things do",
+   "stem": "Why is a plant a living thing?",
+   "options": [
+    "It is green.",
+    "It stays in one place.",
+    "It has a name.",
+    "It grows and makes seeds."
+   ],
+   "answer": 3,
+   "explanation": "A plant grows, makes its own food, and makes seeds to have young. Being green or having a name does not make something living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-022",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Sorting by features",
+   "stem": "Scientists sort living things into groups by looking at their ___, such as fur, feathers or wings.",
+   "blanks": [
+    [
+     "features",
+     "feature"
+    ]
+   ],
+   "bank": [
+    "features",
+    "names",
+    "prices"
+   ],
+   "explanation": "A feature is something you can see. We use features to sort living things into groups."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Living or non-living",
+   "stem": "Class 2C counted things in the school garden (example data): trees 5, birds 8, ants 20, butterflies 3, stones 4 and benches 2. How many living things did they count in all?",
+   "options": [
+    "31",
+    "36",
+    "42",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "The living things are the trees, birds, ants and butterflies: 5 + 8 + 20 + 3 = 36. Stones and benches are non-living, so they are not counted."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Once alive",
+   "stem": "Mystery object: it does not move, breathe or grow. It once was part of a tree. Which could it be?",
+   "options": [
+    "a sleeping cat",
+    "a young mango tree",
+    "a dry leaf",
+    "a seed in wet soil"
+   ],
+   "answer": 2,
+   "explanation": "A dry leaf was once part of a living tree, but it is no longer alive. A sleeping cat, a young mango tree and a seed in wet soil are all still living."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-025",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "What living things do",
+   "stem": "A seed does not move, eat or breathe in a way we can see. Why is it still a living thing?",
+   "model_answer": "A seed is living because it can grow into a new plant when it gets water and warmth.",
+   "keywords": [
+    [
+     "grow",
+     "grows",
+     "growing",
+     "sprout",
+     "germinate"
+    ],
+    [
+     "plant",
+     "seedling"
+    ],
+    [
+     "water",
+     "warmth",
+     "warm"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A seed is alive. When it gets water and warmth, it grows into a new plant, and growing is a sign of life."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A2",
+   "title": "Living and Non-Living Things",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/grade-2-science/pdf/a2-living-and-non-living-things-study-pack.pdf",
+   "id": "g2-a2-026",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Living or non-living",
+   "stem": "Look at the pond. Which number shows a non-living thing that gives light and heat?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond scene with eight things numbered 1 to 8.",
+   "options": [
+    "1",
+    "2",
+    "5",
+    "7"
+   ],
+   "answer": 0,
+   "explanation": "Number 1 is the Sun. It gives light and heat, but it is not a living thing. It does not breathe, feed, grow or have young."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle stages",
+   "stem": "A chick hatches from an…",
+   "options": [
+    "nest",
+    "egg",
+    "seed",
+    "cow"
+   ],
+   "answer": 1,
+   "explanation": "Chickens lay eggs, and chicks hatch from them. A chick grows into a hen, and the hen lays eggs again."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Young and adult animals",
+   "stem": "Match each young animal to its parent.",
+   "pairs": [
+    [
+     "chick",
+     "hen"
+    ],
+    [
+     "tadpole",
+     "frog"
+    ],
+    [
+     "caterpillar",
+     "butterfly"
+    ],
+    [
+     "calf",
+     "cow"
+    ],
+    [
+     "kitten",
+     "cat"
+    ]
+   ],
+   "explanation": "Young animals have special names: a chick grows into a hen, a tadpole into a frog, a caterpillar into a butterfly, a calf into a cow and a kitten into a cat."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-003",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How people grow",
+   "stem": "Put the pictures in order, from youngest to oldest.",
+   "sequence": [
+    {
+     "text": "baby",
+     "image": "openmoji/baby.svg"
+    },
+    {
+     "text": "child",
+     "image": "openmoji/child.svg"
+    },
+    {
+     "text": "adult",
+     "image": "openmoji/adult.svg"
+    },
+    {
+     "text": "older person",
+     "image": "openmoji/older-person.svg"
+    }
+   ],
+   "explanation": "People grow from baby to child to adult to older adult. Children grow taller and heavier, and learn to walk, talk and read."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Look at the frog life cycle. What stage comes just after the tadpole?",
+   "image": "diagrams/frog-life-cycle.svg",
+   "image_alt": "The life cycle of a frog drawn as a circle of four labelled stages.",
+   "options": [
+    "froglet",
+    "adult frog",
+    "eggs (frogspawn)"
+   ],
+   "answer": 0,
+   "explanation": "A tadpole grows legs and becomes a froglet. The froglet grows into an adult frog."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Look at the butterfly life cycle. What does the caterpillar change into?",
+   "image": "diagrams/butterfly-life-cycle.svg",
+   "image_alt": "The life cycle of a butterfly drawn as a circle of four labelled stages.",
+   "options": [
+    "eggs on a leaf",
+    "adult butterfly",
+    "chrysalis (pupa)"
+   ],
+   "answer": 2,
+   "explanation": "The caterpillar eats and grows, then turns into a chrysalis (pupa). An adult butterfly comes out of the chrysalis."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-006",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Look at the picture. Put the chicken life cycle in order, starting with the egg.",
+   "image": "diagrams/chicken-life-cycle.svg",
+   "image_alt": "The life cycle of a chicken drawn as a circle of four labelled stages.",
+   "sequence": [
+    "egg",
+    "hatching",
+    "chick",
+    "adult hen"
+   ],
+   "explanation": "A hen lays an egg. The chick hatches, grows and becomes an adult hen, which can lay eggs again."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Habitats at each stage",
+   "stem": "Look at the frog life cycle. Which two stages live only in water?",
+   "image": "diagrams/frog-life-cycle.svg",
+   "image_alt": "The life cycle of a frog drawn as a circle of four labelled stages.",
+   "options": [
+    "eggs and adult frog",
+    "tadpole and froglet",
+    "froglet and adult frog",
+    "eggs and tadpole"
+   ],
+   "answer": 3,
+   "explanation": "Frog eggs (frogspawn) and tadpoles need pond water. The froglet starts to live on land as well."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-008",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Young and adult animals",
+   "stem": "Which animal starts its life as a tadpole?",
+   "options": [
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "duck",
+     "image": "openmoji/duck.svg"
+    },
+    {
+     "text": "frog",
+     "image": "openmoji/frog.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A tadpole hatches from a frog's egg and lives in water. It grows legs and becomes a frog."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How people grow",
+   "stem": "As a child grows, they get ___ and heavier.",
+   "blanks": [
+    [
+     "taller",
+     "bigger",
+     "larger"
+    ]
+   ],
+   "bank": [
+    "taller",
+    "shorter",
+    "smaller"
+   ],
+   "explanation": "Children grow taller and heavier. Most children grow about 5 to 6 cm taller every year."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Comparing life cycles",
+   "stem": "A baby human looks like a small person, but a tadpole looks very different from an adult frog.",
+   "answer": true,
+   "explanation": "People do not change shape as they grow. A tadpole has a tail and lives in water. It changes shape, grows legs and becomes a frog."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats at each stage",
+   "stem": "Hilsa fish lay their eggs in rivers.",
+   "answer": true,
+   "explanation": "In Bangladesh, hilsa lay their eggs in rivers. The baby fish grow in the river and then swim to the sea."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-012",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changes as animals grow",
+   "stem": "Which of these happen as a tadpole grows into a frog? Choose all that are right.",
+   "options": [
+    "It grows legs.",
+    "Its tail gets shorter.",
+    "It can live on land too.",
+    "It grows feathers.",
+    "It turns into a fish."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The tadpole grows legs, its tail gets shorter and it begins to live on land too. It does not grow feathers or turn into a fish."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-013",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Life cycle stages",
+   "stem": "How does each young animal begin its life? Sort them.",
+   "categories": [
+    "Hatch from eggs",
+    "Born from their mother"
+   ],
+   "items": [
+    [
+     "chick",
+     "Hatch from eggs"
+    ],
+    [
+     "tadpole",
+     "Hatch from eggs"
+    ],
+    [
+     "caterpillar",
+     "Hatch from eggs"
+    ],
+    [
+     "baby turtle",
+     "Hatch from eggs"
+    ],
+    [
+     "calf",
+     "Born from their mother"
+    ],
+    [
+     "kitten",
+     "Born from their mother"
+    ],
+    [
+     "human baby",
+     "Born from their mother"
+    ]
+   ],
+   "explanation": "Chicks, tadpoles, caterpillars and baby turtles hatch from eggs. Calves, kittens and human babies are born from their mothers."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-014",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Put the sea turtle life cycle in order.",
+   "sequence": [
+    "The mother lays eggs in the sand.",
+    "Baby turtles hatch.",
+    "The babies swim in the sea.",
+    "They grow into adults."
+   ],
+   "explanation": "A mother turtle lays eggs in the sand. The babies hatch, swim to the sea and grow into adults."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-015",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Habitats at each stage",
+   "stem": "Where should a mother butterfly lay her eggs?",
+   "options": [
+    "in a pond",
+    "on a leaf the caterpillars can eat",
+    "in the sand",
+    "in a warm nest"
+   ],
+   "answer": 1,
+   "explanation": "Butterfly eggs are laid on leaves, so the caterpillars can eat the leaves when they hatch."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-016",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats at each stage",
+   "stem": "A ___ is the place where an animal finds food, water and shelter.",
+   "blanks": [
+    [
+     "habitat",
+     "habitats",
+     "home"
+    ]
+   ],
+   "bank": [
+    "habitat",
+    "life cycle",
+    "adult"
+   ],
+   "explanation": "A habitat is an animal's home. Different stages of an animal's life may need different habitats."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-017",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Habitats at each stage",
+   "stem": "Why does a frog lay its eggs in a pond, not on dry land?",
+   "model_answer": "The tadpoles need water to live and swim, so the eggs must be in the pond.",
+   "keywords": [
+    [
+     "water",
+     "pond",
+     "wet"
+    ],
+    [
+     "tadpole",
+     "tadpoles",
+     "swim",
+     "live",
+     "dry",
+     "die",
+     "eggs",
+     "babies"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Frog eggs hatch into tadpoles. Tadpoles live in water and cannot live on dry land."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Habitats at each stage",
+   "stem": "Volunteers on a beach at night see baby turtles walking towards bright lights on the road, not towards the sea. What is the best thing for people to do?",
+   "options": [
+    "Switch off bright lights and keep the beach dark and clean.",
+    "Shine bright torches at them to guide them.",
+    "Leave rubbish on the beach so they can hide.",
+    "Bring the babies home to look after them."
+   ],
+   "answer": 0,
+   "explanation": "Baby turtles can follow bright lights and lose their way. Keeping the beach dark and clean helps them find the sea."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Habitats at each stage",
+   "stem": "Rafi's hen has hatched six chicks. It is a cold night. Where should the chicks stay?",
+   "options": [
+    "on a cold floor by the door",
+    "alone in the garden",
+    "in a bowl of water",
+    "under their mother in a warm, dry nest"
+   ],
+   "answer": 3,
+   "explanation": "Chicks need a warm nest and their mother to keep them warm and safe."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Habitats at each stage",
+   "stem": "Anika finds frogspawn (jelly-like frog eggs) in a ditch near her school. She says, 'The eggs will hatch into tadpoles, so the ditch must not dry up.' Is Anika right?",
+   "answer": true,
+   "explanation": "Tadpoles live and swim in water. If the ditch dried up, the tadpoles could not survive."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Habitats at each stage",
+   "stem": "Class 2A wants a school pond where frogs can grow up. Which things would help? Choose all that are right.",
+   "options": [
+    "keep water in the pond",
+    "keep rubbish out of the pond",
+    "plant water plants and grass around it",
+    "fill the pond with sand",
+    "let the pond dry out"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Frogs need water for eggs and tadpoles, a clean place, and plants for shelter and food. A pond filled with sand or one that dries out cannot be a habitat."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Measuring growth",
+   "stem": "Raju measured his height every year (example data): age 6: 116 cm, age 7: 122 cm, age 8: 126 cm, age 9: 131 cm. In which year did he grow the most?",
+   "options": [
+    "from age 7 to age 8",
+    "from age 6 to age 7",
+    "from age 8 to age 9",
+    "He grew the same amount each year."
+   ],
+   "answer": 1,
+   "explanation": "Between 6 and 7 he grew 6 cm. Between 7 and 8 he grew 4 cm, and between 8 and 9 he grew 5 cm. So he grew the most from age 6 to age 7."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Measuring growth",
+   "stem": "Most children grow about 5 to 6 cm taller every year. Tuli is 120 cm tall now. About how tall will she be in 2 years?",
+   "options": [
+    "about 131 cm",
+    "about 122 cm",
+    "about 150 cm",
+    "about 120 cm"
+   ],
+   "answer": 0,
+   "explanation": "In 2 years she grows about 10 to 12 cm. 120 + 10 = 130 and 120 + 12 = 132, so about 131 cm is the best answer."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Life cycle stages",
+   "stem": "Sumi wrote the frog life cycle as: egg, froglet, tadpole, adult frog. What did she get wrong?",
+   "options": [
+    "There should be no adult frog.",
+    "The egg should come last.",
+    "The tadpole and froglet are in the wrong order.",
+    "Nothing, it is correct."
+   ],
+   "answer": 2,
+   "explanation": "The tadpole stage comes before the froglet. A tadpole grows legs and turns into a froglet, then an adult frog."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-025",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Comparing life cycles",
+   "stem": "How is the way a baby human grows up different from the way a tadpole grows up?",
+   "model_answer": "A baby human looks like a small person and just gets bigger. A tadpole looks very different: it lives in water and changes shape as it grows legs and a frog body.",
+   "keywords": [
+    [
+     "tadpole",
+     "frog"
+    ],
+    [
+     "legs",
+     "tail",
+     "water",
+     "different",
+     "change",
+     "changes",
+     "shape"
+    ],
+    [
+     "small person",
+     "small adult",
+     "bigger",
+     "taller",
+     "looks like"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A baby human already has the shape of a small person and just gets bigger. A tadpole lives in water and changes shape, growing legs and losing its tail."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A3",
+   "title": "Life Cycles and Growth",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+   "id": "g2-a3-026",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Habitats at each stage",
+   "stem": "Where does each young animal or egg need to be? Sort them.",
+   "categories": [
+    "In water",
+    "On a leaf",
+    "In a warm nest"
+   ],
+   "items": [
+    [
+     "frog eggs",
+     "In water"
+    ],
+    [
+     "tadpoles",
+     "In water"
+    ],
+    [
+     "butterfly eggs",
+     "On a leaf"
+    ],
+    [
+     "caterpillars",
+     "On a leaf"
+    ],
+    [
+     "chicks",
+     "In a warm nest"
+    ],
+    [
+     "hen's eggs",
+     "In a warm nest"
+    ]
+   ],
+   "explanation": "Frog eggs and tadpoles need water. Butterfly eggs and caterpillars need leaves to eat. Chicks and eggs need a warm nest."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organs and their jobs",
+   "stem": "Which organ takes in air when you breathe?",
+   "options": [
+    "lungs",
+    "heart",
+    "liver",
+    "stomach"
+   ],
+   "answer": 0,
+   "explanation": "The lungs take in air. The heart pumps blood, the liver cleans blood, and the stomach mashes up food."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Outside body parts",
+   "stem": "Look at the picture of the body. Which number shows the knee?",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "Outline of a child with body parts numbered 1 to 11.",
+   "options": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "answer": 2,
+   "explanation": "Number 10 is the knee. It is a joint in the middle of the leg, so your leg can bend there."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Outside body parts",
+   "stem": "Look at the picture of the body. Which number shows the elbow?",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "Outline of a child with body parts numbered 1 to 11.",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "answer": 0,
+   "explanation": "Number 5 is the elbow. It is the joint in the middle of the arm that lets you bend your arm."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Bones and muscles",
+   "stem": "Look at the skeleton. Which number shows the bone that protects the brain?",
+   "image": "diagrams/skeleton-numbered.svg",
+   "image_alt": "A human skeleton with some bones numbered.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "Number 1 is the skull. It is a hard bone shell around the brain. The ribs (2) protect the heart and lungs."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Bones and muscles",
+   "stem": "Look at the skeleton. Which number shows the bones that make a cage to protect the heart and lungs?",
+   "image": "diagrams/skeleton-numbered.svg",
+   "image_alt": "A human skeleton with some bones numbered.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "5"
+   ],
+   "answer": 1,
+   "explanation": "Number 2 is the ribs. They curve around the chest like a cage and protect the heart and lungs."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-006",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Bones and muscles",
+   "stem": "Look at the arm. Which number shows the joint, where two bones meet and bend?",
+   "image": "diagrams/arm-muscles-numbered.svg",
+   "image_alt": "An arm with a bone, two muscles and the elbow joint numbered 1 to 4.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "explanation": "Number 4 is the elbow joint. A joint is where two bones meet, and it lets the arm bend."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-007",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Outside body parts",
+   "stem": "Joints are where two bones meet and bend. Look at the body. Which numbers show joints? Choose all that are right.",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "Outline of a child with body parts numbered 1 to 11.",
+   "options": [
+    "1",
+    "5",
+    "7",
+    "10",
+    "11"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explanation": "The elbow (5) and the knee (10) are joints that bend. The head (1), chest (7) and foot (11) are not joints."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-008",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organs and their jobs",
+   "stem": "Match each picture to its job.",
+   "pairs": [
+    [
+     {
+      "text": "brain",
+      "image": "openmoji/brain.svg"
+     },
+     "thinks and controls the body"
+    ],
+    [
+     {
+      "text": "anatomical heart",
+      "image": "openmoji/anatomical-heart.svg"
+     },
+     "pumps blood"
+    ],
+    [
+     {
+      "text": "lungs",
+      "image": "openmoji/lungs.svg"
+     },
+     "take in air"
+    ],
+    [
+     {
+      "text": "bone",
+      "image": "openmoji/bone.svg"
+     },
+     "holds you up and gives you shape"
+    ]
+   ],
+   "explanation": "The brain controls the body and helps you think. The heart pumps blood. The lungs take in air. Bones hold you up and give you your shape."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-009",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Organs and their jobs",
+   "stem": "Match each organ to its job.",
+   "pairs": [
+    [
+     "stomach",
+     "mashes up your food"
+    ],
+    [
+     "bladder",
+     "stores urine (wee)"
+    ],
+    [
+     "intestines",
+     "take goodness from food into your blood"
+    ],
+    [
+     "liver",
+     "cleans your blood"
+    ],
+    [
+     "brain",
+     "controls your body and helps you think"
+    ]
+   ],
+   "explanation": "The stomach mashes food. The intestines take goodness from food into the blood. The liver cleans blood, the bladder stores urine, and the brain is the controller."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Bones and muscles",
+   "stem": "The ___ is the bone that protects your brain.",
+   "blanks": [
+    [
+     "skull"
+    ]
+   ],
+   "bank": [
+    "skull",
+    "elbow",
+    "muscle"
+   ],
+   "explanation": "The skull is a hard shell of bone around the brain. It protects the brain from bumps."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Bones and muscles",
+   "stem": "Muscles are joined to bones. When a muscle pulls, the bone moves.",
+   "answer": true,
+   "explanation": "Muscles pull on bones to make them move. Bones and muscles work together so we can walk, run and kick."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Organs and their jobs",
+   "stem": "Your heart only beats when you are awake.",
+   "answer": false,
+   "explanation": "Your heart beats all day and all night, about 100 times every minute, even when you are asleep."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-013",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Organs and their jobs",
+   "stem": "Which of these are organs inside your body? Choose all that are right.",
+   "options": [
+    "heart",
+    "lungs",
+    "knee",
+    "stomach",
+    "hand"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "The heart, lungs and stomach are organs inside the body. The knee and the hand are outside parts of the body."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-014",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Outside body parts",
+   "stem": "Sort these body parts. Are they on the outside of the body or are they organs inside?",
+   "categories": [
+    "Outside parts",
+    "Organs inside"
+   ],
+   "items": [
+    [
+     "head",
+     "Outside parts"
+    ],
+    [
+     "arm",
+     "Outside parts"
+    ],
+    [
+     "knee",
+     "Outside parts"
+    ],
+    [
+     "foot",
+     "Outside parts"
+    ],
+    [
+     "brain",
+     "Organs inside"
+    ],
+    [
+     "heart",
+     "Organs inside"
+    ],
+    [
+     "lungs",
+     "Organs inside"
+    ],
+    [
+     "stomach",
+     "Organs inside"
+    ],
+    [
+     "kidneys",
+     "Organs inside"
+    ]
+   ],
+   "explanation": "We can see the head, arms, knees and feet on the outside. The brain, heart, lungs, stomach and kidneys are organs inside the body."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-015",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring the heartbeat",
+   "stem": "Put the steps in order to count your heartbeat for one minute.",
+   "sequence": [
+    "Sit quietly and find the pulse on your wrist.",
+    "Count the beats for 15 seconds.",
+    "Multiply the number by 4.",
+    "Write the number of beats in 1 minute."
+   ],
+   "explanation": "Find your pulse, count the beats for 15 seconds, multiply by 4 (because 15 seconds is a quarter of a minute), then write the answer."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-016",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Bones and muscles",
+   "stem": "How do your bones and muscles help you kick a ball?",
+   "model_answer": "The muscles in my leg pull on the leg bones, so my leg moves and kicks the ball.",
+   "keywords": [
+    [
+     "muscle",
+     "muscles"
+    ],
+    [
+     "pull",
+     "pulls",
+     "pulling"
+    ],
+    [
+     "bone",
+     "bones"
+    ],
+    [
+     "leg",
+     "legs"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Muscles are joined to bones. When the leg muscles pull on the leg bones, the leg swings and kicks the ball."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-017",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Organs and their jobs",
+   "stem": "Why do you breathe faster when you run?",
+   "options": [
+    "Your stomach is empty.",
+    "Your brain is tired.",
+    "Your bones are growing.",
+    "Your body needs more air."
+   ],
+   "answer": 3,
+   "explanation": "When you run, your body needs more air. Your lungs work harder and take in air faster."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-018",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring the heartbeat",
+   "stem": "Rafi counted 33 heartbeats in 15 seconds after jumping. In 1 minute his heart beats ___ times.",
+   "blanks": [
+    [
+     "132"
+    ]
+   ],
+   "explanation": "One minute is four lots of 15 seconds, so 33 × 4 = 132 beats in a minute."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Bones and muscles",
+   "stem": "Joy rides his bicycle to school in Dhaka. Why should he wear a helmet?",
+   "options": [
+    "It makes his heart beat slower.",
+    "It makes his legs stronger.",
+    "It protects his skull and brain if he falls.",
+    "It keeps his stomach warm."
+   ],
+   "answer": 2,
+   "explanation": "The skull protects the brain, but a hard bump can still hurt it. A helmet gives extra protection if he falls."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Organs and their jobs",
+   "stem": "After a race, Anika's heart beats very fast. Her friend says, 'That is normal. Her muscles needed more blood while she ran.' Is her friend right?",
+   "answer": true,
+   "explanation": "When you exercise, your muscles work hard and need more blood. Your heart pumps faster to bring it."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring growth",
+   "stem": "The doctor tells Nadia she has grown 5 cm this year. She was 115 cm tall last year. How tall is she now?",
+   "options": [
+    "110 cm",
+    "115 cm",
+    "125 cm",
+    "120 cm"
+   ],
+   "answer": 3,
+   "explanation": "Add the growth to last year's height: 115 + 5 = 120 cm."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Keeping the body healthy",
+   "stem": "The doctor says Nadia's heart is strong and her lungs are clear. Which of these help keep a body healthy? Choose all that are right.",
+   "options": [
+    "eat healthy food",
+    "play outside",
+    "sit still all day",
+    "drink clean water",
+    "skip all your meals"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Healthy food, outdoor play and clean drinking water all help the body. Sitting still all day does not help muscles, bones or the heart."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Measuring the heartbeat",
+   "stem": "Mina counted her heartbeats for one minute (example data): sitting 80, walking 100, running 140. How many more times did her heart beat in a minute when she was running than when she was sitting?",
+   "options": [
+    "20",
+    "40",
+    "60",
+    "220"
+   ],
+   "answer": 2,
+   "explanation": "Subtract: 140 − 80 = 60. Her heart beat 60 more times a minute when running."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-024",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Measuring the heartbeat",
+   "stem": "Mina's heart beat 80 times a minute when sitting and 140 times a minute when running. Explain why her heart beats faster when she runs.",
+   "model_answer": "When she runs, her muscles work hard and need more blood, so her heart pumps faster.",
+   "keywords": [
+    [
+     "muscle",
+     "muscles",
+     "body"
+    ],
+    [
+     "blood",
+     "oxygen",
+     "air"
+    ],
+    [
+     "faster",
+     "more",
+     "harder",
+     "work"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Running makes the muscles work hard. They need more blood, so the heart pumps faster to send it."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Bones and muscles",
+   "stem": "Bones are hard and cannot bend. So how can you bend your arm at the elbow?",
+   "options": [
+    "Your arm bones are soft like rubber.",
+    "Muscles pull on the bones where they meet at the elbow joint.",
+    "Blood pushes your arm up.",
+    "The skin pulls your arm."
+   ],
+   "answer": 1,
+   "explanation": "A joint is where two bones meet. Muscles are joined to bones, and when a muscle pulls, the bones move at the joint."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A4",
+   "title": "The Human Body: Parts and Organs",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/grade-2-science/pdf/a4-the-human-body-parts-and-organs-study-pack.pdf",
+   "id": "g2-a4-026",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Organs and their jobs",
+   "stem": "The kidneys make urine (wee), and the ___ stores it.",
+   "blanks": [
+    [
+     "bladder",
+     "urinary bladder"
+    ]
+   ],
+   "bank": [
+    "bladder",
+    "liver",
+    "stomach",
+    "heart"
+   ],
+   "explanation": "The kidneys clean the blood and make urine. The bladder stores urine until you go to the toilet."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life processes",
+   "stem": "Eating food and drinking water is a life process called…",
+   "options": [
+    "nutrition",
+    "growth",
+    "movement",
+    "reproduction"
+   ],
+   "answer": 0,
+   "explanation": "Nutrition means eating and drinking. The other life processes are growth, movement and reproduction (having young)."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life processes",
+   "stem": "Match each life process to what it means.",
+   "pairs": [
+    [
+     "nutrition",
+     "eating food and drinking water"
+    ],
+    [
+     "growth",
+     "getting bigger"
+    ],
+    [
+     "movement",
+     "moving our bodies"
+    ],
+    [
+     "reproduction",
+     "having young (babies)"
+    ]
+   ],
+   "explanation": "People and animals all do these life processes: nutrition, growth, movement and reproduction."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-003",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Healthy food",
+   "stem": "Sort the foods into everyday foods and treats.",
+   "categories": [
+    "Everyday food",
+    "Treat (only sometimes)"
+   ],
+   "items": [
+    [
+     {
+      "text": "cooked rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Everyday food"
+    ],
+    [
+     {
+      "text": "apple",
+      "image": "openmoji/apple.svg"
+     },
+     "Everyday food"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Everyday food"
+    ],
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Everyday food"
+    ],
+    [
+     {
+      "text": "banana",
+      "image": "openmoji/banana.svg"
+     },
+     "Everyday food"
+    ],
+    [
+     {
+      "text": "cake",
+      "image": "openmoji/cake.svg"
+     },
+     "Treat (only sometimes)"
+    ],
+    [
+     {
+      "text": "candy",
+      "image": "openmoji/candy.svg"
+     },
+     "Treat (only sometimes)"
+    ],
+    [
+     {
+      "text": "french fries",
+      "image": "openmoji/french-fries.svg"
+     },
+     "Treat (only sometimes)"
+    ],
+    [
+     {
+      "text": "doughnut",
+      "image": "openmoji/doughnut.svg"
+     },
+     "Treat (only sometimes)"
+    ]
+   ],
+   "explanation": "Rice, fruit, vegetables and fish are healthy everyday foods. Cake, sweets, fried chips and doughnuts are very sweet or fatty, so they are treats for sometimes."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy food",
+   "stem": "Which is the healthiest snack?",
+   "options": [
+    {
+     "text": "candy",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "french fries",
+     "image": "openmoji/french-fries.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "An apple is a fruit and a healthy snack. Sweets and chips are very sweet or very fatty, so they are treats."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Keeping clean",
+   "stem": "Which one do we use with water to wash germs off our hands?",
+   "options": [
+    {
+     "text": "pencil",
+     "image": "openmoji/pencil.svg"
+    },
+    {
+     "text": "soap",
+     "image": "openmoji/soap.svg"
+    },
+    {
+     "text": "toothbrush",
+     "image": "openmoji/toothbrush.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "Washing hands with soap and water gets rid of germs. A toothbrush is for teeth and a pencil is for writing."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-006",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Healthy habits",
+   "stem": "Match each picture to why it helps your body.",
+   "pairs": [
+    [
+     {
+      "text": "person running",
+      "image": "openmoji/person-running.svg"
+     },
+     "makes the heart and muscles strong"
+    ],
+    [
+     {
+      "text": "sleeping face",
+      "image": "openmoji/sleeping-face.svg"
+     },
+     "helps the body rest and grow"
+    ],
+    [
+     {
+      "text": "soap",
+      "image": "openmoji/soap.svg"
+     },
+     "gets rid of germs"
+    ],
+    [
+     {
+      "text": "water glass",
+      "image": "openmoji/water-glass.svg"
+     },
+     "keeps the body working"
+    ]
+   ],
+   "explanation": "Exercise makes the heart and muscles strong. Sleep helps the body rest and grow. Soap gets rid of germs. Water keeps the body working."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-007",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Healthy food",
+   "stem": "Which of these foods can hurt your teeth if you eat a lot of them? Choose all that are right.",
+   "options": [
+    {
+     "text": "candy",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    },
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    },
+    {
+     "text": "cooked rice",
+     "image": "openmoji/cooked-rice.svg"
+    },
+    {
+     "text": "cake",
+     "image": "openmoji/cake.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Sweets, lollipops and cake have a lot of sugar, and sugar hurts teeth. Apples and rice are not very sugary."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life processes",
+   "stem": "The four life processes are nutrition, growth, movement and ___.",
+   "blanks": [
+    [
+     "reproduction",
+     "having young"
+    ]
+   ],
+   "bank": [
+    "reproduction",
+    "washing",
+    "sleeping"
+   ],
+   "explanation": "Reproduction means having young. A hen lays eggs and a person has babies."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sleep and exercise",
+   "stem": "Children should sleep about ___ hours every night so their bodies can rest and grow.",
+   "blanks": [
+    [
+     "10",
+     "ten"
+    ]
+   ],
+   "bank": [
+    "10",
+    "5",
+    "20"
+   ],
+   "explanation": "About 10 hours of sleep helps a child's body rest, grow and be ready for the next day."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy food",
+   "stem": "Sweets and fizzy drinks are treats, not everyday food.",
+   "answer": true,
+   "explanation": "Very sweet foods can damage our health if we eat too much of them. They are treats for sometimes."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The body as a team",
+   "stem": "If one part of your body does not work well, the other parts find it harder too.",
+   "answer": true,
+   "explanation": "The body works as a team. For example, the heart and lungs work together, so looking after the whole body matters."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-012",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The body as a team",
+   "stem": "Which body process does each part help with? Sort them.",
+   "categories": [
+    "Digestion",
+    "Breathing",
+    "Circulation",
+    "Getting rid of waste"
+   ],
+   "items": [
+    [
+     "stomach",
+     "Digestion"
+    ],
+    [
+     "small intestine",
+     "Digestion"
+    ],
+    [
+     "lungs",
+     "Breathing"
+    ],
+    [
+     "heart",
+     "Circulation"
+    ],
+    [
+     "kidneys",
+     "Getting rid of waste"
+    ],
+    [
+     "large intestine",
+     "Getting rid of waste"
+    ]
+   ],
+   "explanation": "The stomach and small intestine break down food (digestion). The lungs take in air, the heart pumps blood, and the kidneys and large intestine help the body get rid of waste."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-013",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Healthy habits",
+   "stem": "Which of these are healthy habits? Choose all that are right.",
+   "options": [
+    "wash your hands with soap before eating",
+    "brush your teeth twice a day",
+    "eat only sweets and fizzy drinks",
+    "play and exercise every day",
+    "stay awake all night"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Washing hands, brushing teeth and exercising keep the body healthy. Eating only sweets and fizzy drinks, or staying awake all night, harm the body."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-014",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Keeping clean",
+   "stem": "Put the steps of washing your hands in order.",
+   "sequence": [
+    "Wet your hands with clean water.",
+    "Rub soap all over your hands.",
+    "Rinse the soap off.",
+    "Dry your hands with a clean cloth."
+   ],
+   "explanation": "Wet your hands, rub soap all over, rinse the soap and germs away with clean water, then dry your hands."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-015",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy food",
+   "stem": "Why is it bad to eat sweets every day?",
+   "model_answer": "Too much sugar can hurt your teeth and make you unhealthy.",
+   "keywords": [
+    [
+     "sugar",
+     "sweet",
+     "sweets",
+     "too much"
+    ],
+    [
+     "teeth",
+     "tooth",
+     "health",
+     "healthy",
+     "unhealthy",
+     "ill",
+     "sick"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Sweets have a lot of sugar. Too much sugar can hurt your teeth and make you unhealthy."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-016",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The body as a team",
+   "stem": "How do the lungs and the heart work as a team?",
+   "options": [
+    "The lungs mash food and the heart makes urine.",
+    "The heart takes in air and the lungs pump blood.",
+    "The heart and lungs only work when we run.",
+    "The lungs take in air and the heart pumps blood round the body."
+   ],
+   "answer": 3,
+   "explanation": "The lungs take in air with oxygen. The heart pumps blood, and the blood carries the oxygen around the body."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Healthy food",
+   "stem": "Every day Shopon buys crisps and a fizzy drink for his tiffin. In the afternoon he feels tired and his teeth hurt. What is the best change?",
+   "options": [
+    "Buy sweets instead of crisps.",
+    "Buy two fizzy drinks instead.",
+    "Skip his tiffin and just play.",
+    "Pack a roti with egg, a banana and water."
+   ],
+   "answer": 3,
+   "explanation": "Crisps and fizzy drinks do not give lasting energy, and sugar hurts teeth. A roti with egg, a banana and water is a healthy tiffin."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Keeping clean",
+   "stem": "Priya has been playing in the mud. It is time for lunch. What should she do first?",
+   "options": [
+    "Wipe her hands on her clothes.",
+    "Wash her hands with soap and water.",
+    "Start eating quickly.",
+    "Rinse only her mouth."
+   ],
+   "answer": 1,
+   "explanation": "Hands pick up germs from mud. Washing with soap and water before eating washes the germs away so they do not make us ill."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sleep and exercise",
+   "stem": "Arif is 7 years old. He must get up at 6 in the morning for school. About what time should he go to bed to sleep for about 10 hours?",
+   "options": [
+    "8 pm",
+    "6 pm",
+    "10 pm",
+    "midnight"
+   ],
+   "answer": 0,
+   "explanation": "Ten hours before 6 in the morning is 8 at night. Children need about 10 hours of sleep so their bodies can rest and grow."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-020",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Healthy food",
+   "stem": "Rina is packing a healthy tiffin. Which things should she pack? Choose all that are right.",
+   "options": [
+    "a roti with egg",
+    "a banana",
+    "a bottle of water",
+    "a bag of fried chips",
+    "a fizzy drink"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A roti with egg, a banana and a bottle of water are healthy. Fried chips and a fizzy drink are treats for sometimes."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Healthy habits",
+   "stem": "Imran says, 'I play football every day, so I do not need to eat healthy food.' Is Imran right?",
+   "answer": false,
+   "explanation": "Exercise is important, but the body also needs healthy, varied food to grow and have energy. We need both."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Sleep and exercise",
+   "stem": "Class 2B asked 20 children how long they sleep (example data): 8 hours: 4 children, 9 hours: 5 children, 10 hours: 9 children, 11 hours: 2 children. How many children sleep fewer than 10 hours?",
+   "options": [
+    "5",
+    "11",
+    "14",
+    "9"
+   ],
+   "answer": 3,
+   "explanation": "Fewer than 10 hours means 8 hours and 9 hours: 4 + 5 = 9 children."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Healthy food",
+   "stem": "Shopon's crisps and fizzy drink cost 40 Tk a day. His tiffin from home costs 25 Tk a day (example prices). How much does he save in 5 school days?",
+   "options": [
+    "75 Tk",
+    "15 Tk",
+    "125 Tk",
+    "200 Tk"
+   ],
+   "answer": 0,
+   "explanation": "Each day he saves 40 − 25 = 15 Tk. In 5 days he saves 5 × 15 = 75 Tk."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Healthy food",
+   "stem": "Raju says, 'Sweets give me energy, so I do not need vegetables or fish.' What is wrong with his idea?",
+   "options": [
+    "Sweets are healthy if they are very sweet.",
+    "Raju should only eat fish.",
+    "A healthy diet needs many kinds of food, not only sweets.",
+    "Raju should drink fizzy drinks too."
+   ],
+   "answer": 2,
+   "explanation": "Sweets give a quick burst of sugar, but they do not give the body everything it needs. A healthy diet is varied: vegetables, fruit, rice, fish or eggs, and water."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-025",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "The body as a team",
+   "stem": "Explain how your heart and lungs work together as a team when you run.",
+   "model_answer": "My lungs take in more air and my heart pumps blood faster to carry it to my muscles.",
+   "keywords": [
+    [
+     "lungs",
+     "breathe",
+     "breathing",
+     "air",
+     "oxygen"
+    ],
+    [
+     "heart",
+     "pump",
+     "pumps",
+     "blood"
+    ],
+    [
+     "muscle",
+     "muscles",
+     "body",
+     "faster",
+     "more"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "When you run, your lungs take in more air and your heart pumps blood faster. The blood carries the oxygen to your hard-working muscles."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A5",
+   "title": "Life Processes and Keeping Healthy",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/grade-2-science/pdf/a5-life-processes-and-keeping-healthy-study-pack.pdf",
+   "id": "g2-a5-026",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life processes",
+   "stem": "Animals do the same life processes as people: nutrition, growth, movement and reproduction.",
+   "answer": true,
+   "explanation": "People and animals both eat and drink, grow, move and have young. These are the life processes."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The five senses",
+   "stem": "Which sense do you use your nose for?",
+   "options": [
+    "smell",
+    "sight",
+    "taste",
+    "hearing"
+   ],
+   "answer": 0,
+   "explanation": "We smell with our nose. We see with our eyes, hear with our ears and taste with our tongue."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "The five senses",
+   "stem": "Match each sense to what it tells us about the world.",
+   "pairs": [
+    [
+     "sight",
+     "colour, shape and size"
+    ],
+    [
+     "hearing",
+     "loud or quiet sounds"
+    ],
+    [
+     "smell",
+     "flowers or smoke"
+    ],
+    [
+     "taste",
+     "sweet, salty or sour"
+    ],
+    [
+     "touch",
+     "hot or cold, rough or smooth"
+    ]
+   ],
+   "explanation": "Sight tells us colour and shape. Hearing tells us about sounds. Smell tells us about smells, taste about flavours, and touch about hot, cold and rough things."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-003",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The five senses",
+   "stem": "Match each body part to the sense it gives us.",
+   "pairs": [
+    [
+     {
+      "text": "eye",
+      "image": "openmoji/eye.svg"
+     },
+     "sight"
+    ],
+    [
+     {
+      "text": "ear",
+      "image": "openmoji/ear.svg"
+     },
+     "hearing"
+    ],
+    [
+     {
+      "text": "nose",
+      "image": "openmoji/nose.svg"
+     },
+     "smell"
+    ],
+    [
+     {
+      "text": "tongue",
+      "image": "openmoji/tongue.svg"
+     },
+     "taste"
+    ],
+    [
+     {
+      "text": "hand",
+      "image": "openmoji/hand.svg"
+     },
+     "touch"
+    ]
+   ],
+   "explanation": "Eyes give us sight, ears give us hearing, the nose gives us smell, the tongue gives us taste and the skin (hand) gives us touch."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light and our eyes",
+   "stem": "Which of these is a light source?",
+   "options": [
+    {
+     "text": "moon",
+     "image": "openmoji/moon.svg"
+    },
+    {
+     "text": "notebook",
+     "image": "openmoji/notebook.svg"
+    },
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "The Sun gives out its own light, so it is a light source. The Moon only reflects sunlight, and a notebook gives out no light."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Light and sound sources",
+   "stem": "Sort the pictures into things that give out light and things that make sound.",
+   "categories": [
+    "Gives out light",
+    "Makes sound"
+   ],
+   "items": [
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "flashlight",
+      "image": "openmoji/flashlight.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "candle",
+      "image": "openmoji/candle.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "light bulb",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "drum",
+      "image": "openmoji/drum.svg"
+     },
+     "Makes sound"
+    ],
+    [
+     {
+      "text": "bell",
+      "image": "openmoji/bell.svg"
+     },
+     "Makes sound"
+    ],
+    [
+     {
+      "text": "loudspeaker",
+      "image": "openmoji/loudspeaker.svg"
+     },
+     "Makes sound"
+    ]
+   ],
+   "explanation": "The Sun, a torch, a candle and a light bulb give out light. A drum, a bell and a loudspeaker make sound."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-006",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Sound and our ears",
+   "stem": "Taller waves mean a louder sound, and waves that are close together mean a higher sound. Which picture shows a quiet, low sound?",
+   "image": "diagrams/sound-waves-lettered.svg",
+   "image_alt": "Four wave drawings lettered A to D. Some waves are tall and some are short; some are close together and some are far apart.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 1,
+   "explanation": "B has short waves, so the sound is quiet, and the waves are far apart, so the sound is low. A is loud and low, C is loud and high, and D is quiet and high."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Light and our eyes",
+   "stem": "Look at the picture. Why is there a dark shape on the screen?",
+   "image": "diagrams/shadow-setup.svg",
+   "image_alt": "A torch shining on an object, with a dark shadow shape on a screen behind the object.",
+   "options": [
+    "The torch is turned off.",
+    "The object blocks light.",
+    "The screen is made of dark paper.",
+    "The torch is too far away."
+   ],
+   "answer": 1,
+   "explanation": "A shadow is a dark shape made when something blocks the light. The object is in the way of the light from the torch."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-008",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Light and sound sources",
+   "stem": "Which of these give out their own light? Choose all that are right.",
+   "options": [
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "moon",
+     "image": "openmoji/moon.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "flashlight",
+     "image": "openmoji/flashlight.svg"
+    },
+    {
+     "text": "mirror",
+     "image": "openmoji/mirror.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "The Sun, a candle and a torch make their own light. The Moon and a mirror only reflect light that comes from somewhere else."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light and our eyes",
+   "stem": "A ___ is a dark shape made when something blocks the light.",
+   "blanks": [
+    [
+     "shadow",
+     "shadows"
+    ]
+   ],
+   "bank": [
+    "shadow",
+    "sound",
+    "light source"
+   ],
+   "explanation": "When an object blocks light, it makes a shadow on the other side."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light and sound sources",
+   "stem": "A drum, a bell and your voice are all sound ___.",
+   "blanks": [
+    [
+     "sources",
+     "source"
+    ]
+   ],
+   "bank": [
+    "sources",
+    "shadows",
+    "senses"
+   ],
+   "explanation": "Anything that makes a sound is a sound source. A drum, a bell, a bird and your voice are all sound sources."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Light and our eyes",
+   "stem": "We can see things in a completely dark room.",
+   "answer": false,
+   "explanation": "We need light to see. With no light, no light enters our eyes, so we cannot see anything."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Light and our eyes",
+   "stem": "The Moon is a light source because it gives out its own light.",
+   "answer": false,
+   "explanation": "The Moon does not make light. It looks bright because it reflects light from the Sun."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-013",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The five senses",
+   "stem": "What can you find out with your skin by touching? Choose all that are right.",
+   "options": [
+    "hot or cold",
+    "rough or smooth",
+    "hard or soft",
+    "sweet or sour",
+    "loud or quiet"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Your skin (touch) can feel hot or cold, rough or smooth, and hard or soft. Sweet or sour is for the tongue, and loud or quiet is for the ears."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-014",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The five senses",
+   "stem": "Which sense tells us each of these things? Sort the words.",
+   "categories": [
+    "Sight",
+    "Hearing",
+    "Taste",
+    "Touch"
+   ],
+   "items": [
+    [
+     "bright",
+     "Sight"
+    ],
+    [
+     "dark",
+     "Sight"
+    ],
+    [
+     "loud",
+     "Hearing"
+    ],
+    [
+     "quiet",
+     "Hearing"
+    ],
+    [
+     "sweet",
+     "Taste"
+    ],
+    [
+     "sour",
+     "Taste"
+    ],
+    [
+     "rough",
+     "Touch"
+    ],
+    [
+     "smooth",
+     "Touch"
+    ]
+   ],
+   "explanation": "We use sight for bright and dark, hearing for loud and quiet, taste for sweet and sour, and touch for rough and smooth."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-015",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Senses keep us safe",
+   "stem": "Put the steps in order to show how your senses keep you safe.",
+   "sequence": [
+    "There is smoke from a fire.",
+    "Your nose smells the smoke.",
+    "Your nose sends a message to your brain.",
+    "Your brain tells you something is wrong.",
+    "You get out and tell an adult."
+   ],
+   "explanation": "Your senses send messages to your brain. The brain tells you what is happening, and you can then act to stay safe."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-016",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Light and our eyes",
+   "stem": "Why can't you see anything in a dark room with no light?",
+   "model_answer": "We need light to see. With no light, no light enters our eyes.",
+   "keywords": [
+    [
+     "light"
+    ],
+    [
+     "need",
+     "needs",
+     "no light",
+     "without",
+     "enter",
+     "enters",
+     "reach",
+     "eyes",
+     "eye"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "We need light to see. In a room with no light, no light reaches our eyes, so we cannot see."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-017",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sound and our ears",
+   "stem": "Which pair of words describes sounds?",
+   "options": [
+    "sweet and sour",
+    "hot and cold",
+    "rough and smooth",
+    "loud and quiet"
+   ],
+   "answer": 3,
+   "explanation": "Sounds can be loud or quiet. Hot and cold, and rough and smooth, describe things we touch, and sweet and sour describe tastes."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Senses keep us safe",
+   "stem": "Mina smells smoke coming from the kitchen at home. What should she do?",
+   "options": [
+    "Tell an adult at once.",
+    "Hide under the bed.",
+    "Keep on playing.",
+    "Go close to look at the fire."
+   ],
+   "answer": 0,
+   "explanation": "A smell of smoke can mean a fire. The safe thing is to tell an adult at once and keep away from the smoke."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Senses keep us safe",
+   "stem": "Imran is crossing a village road when he hears a loud car horn behind him. What is the safest thing to do?",
+   "options": [
+    "Cover his ears and stay in the road.",
+    "Stop and look for the vehicle.",
+    "Close his eyes and keep walking.",
+    "Run on without looking round."
+   ],
+   "answer": 1,
+   "explanation": "A horn is a warning sound. The safe choice is to stop and look to see where the vehicle is before moving."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Senses keep us safe",
+   "stem": "Sumi opens the milk at breakfast. It smells bad and tastes sour. What should she do?",
+   "options": [
+    "Add sugar and drink it anyway.",
+    "Put it back in the fridge.",
+    "Drink it quickly before it gets worse.",
+    "Pour it away and tell her mother."
+   ],
+   "answer": 3,
+   "explanation": "Milk that smells bad and tastes sour has gone off. Our senses warn us, so we should not drink it, and we should tell an adult."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Using other senses",
+   "stem": "Raju cannot see. He reads Braille with his fingers and knows his friends by their voices. This shows that we can learn about the world with our other senses.",
+   "answer": true,
+   "explanation": "Touch and hearing give Raju a lot of information. Our senses work as a team, and when one sense is missing, the others help."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Using other senses",
+   "stem": "How can classmates help Raju at school? Choose all that are right.",
+   "options": [
+    "keep bags off the floor",
+    "tell him when something moves",
+    "guide him kindly",
+    "move his things without telling him",
+    "shout loudly in his ear"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Raju uses a cane to feel the path and listens to sounds. Classmates can keep bags off the floor, tell him when things move and guide him kindly."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "The touch test",
+   "stem": "In a touch test, the children closed their eyes before feeling each object. Why?",
+   "options": [
+    "So the teacher could not see the objects.",
+    "Because touch only works with eyes closed.",
+    "So they used only touch, not sight.",
+    "Because eyes can feel objects too."
+   ],
+   "answer": 2,
+   "explanation": "Closing their eyes meant they used only the sense of touch, so they could not use sight to decide. It made the test fair."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Light and our eyes",
+   "stem": "Joy says, 'The Moon is a light source because it shines at night.' What is the best reply?",
+   "options": [
+    "The Moon makes its own light, like a candle.",
+    "We cannot really see the Moon at night.",
+    "The Moon is bright, so it is a light source.",
+    "The Moon only reflects light from the Sun."
+   ],
+   "answer": 3,
+   "explanation": "The Moon looks bright because sunlight bounces off it. It does not make its own light, so it is not a light source."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-025",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Senses keep us safe",
+   "stem": "Give two examples of how your senses can keep you safe.",
+   "model_answer": "I smell smoke and know there may be a fire. I hear a car horn and stop. I feel something hot and pull my hand away.",
+   "keywords": [
+    [
+     "smell",
+     "smoke",
+     "nose",
+     "fire"
+    ],
+    [
+     "hear",
+     "horn",
+     "car",
+     "ears",
+     "sound"
+    ],
+    [
+     "touch",
+     "hot",
+     "pan",
+     "skin",
+     "feel"
+    ],
+    [
+     "taste",
+     "sour",
+     "milk"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Smell warns us of smoke, hearing warns us of a car horn, touch warns us of something hot, and taste tells us that milk has gone sour."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "A6",
+   "title": "Our Senses",
+   "strand": "living",
+   "site_skill": "L6",
+   "worksheet": "worksheets/grade-2-science/pdf/a6-our-senses-study-pack.pdf",
+   "id": "g2-a6-026",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Sound and our ears",
+   "stem": "Taller waves mean a louder sound, and waves that are close together mean a higher sound. Which picture shows a loud, high sound, like a loud whistle?",
+   "image": "diagrams/sound-waves-lettered.svg",
+   "image_alt": "Four wave drawings lettered A to D. Some waves are tall and some are short; some are close together and some are far apart.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 2,
+   "explanation": "C has tall waves, so it is loud, and the waves are close together, so it is high. A is loud and low, B is quiet and low, and D is quiet and high."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Land with water all around it is called a…",
+   "options": [
+    "valley",
+    "plain",
+    "island",
+    "cave"
+   ],
+   "answer": 2,
+   "explanation": "An island is land with water all around it. Saint Martin's Island and Bhola are islands in Bangladesh."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Look at the six landforms. Which letter shows an island?",
+   "image": "diagrams/landforms-lettered.svg",
+   "image_alt": "Six landforms drawn and lettered A to F.",
+   "options": [
+    "B",
+    "D",
+    "E",
+    "F"
+   ],
+   "answer": 3,
+   "explanation": "F is an island, with water all around it. A is a mountain, B a hill, C a valley, D a cave and E a plain."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Look at the six landforms. Which letter shows a valley, the low land between hills or mountains?",
+   "image": "diagrams/landforms-lettered.svg",
+   "image_alt": "Six landforms drawn and lettered A to F.",
+   "options": [
+    "A",
+    "C",
+    "D",
+    "F"
+   ],
+   "answer": 1,
+   "explanation": "C is a valley. It is low land between higher land, and a river often flows along it."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Look at the six landforms. Match each letter to its name.",
+   "image": "diagrams/landforms-lettered.svg",
+   "image_alt": "Six landforms drawn and lettered A to F.",
+   "pairs": [
+    [
+     "A",
+     "mountain"
+    ],
+    [
+     "B",
+     "hill"
+    ],
+    [
+     "C",
+     "valley"
+    ],
+    [
+     "D",
+     "cave"
+    ],
+    [
+     "E",
+     "plain"
+    ],
+    [
+     "F",
+     "island"
+    ]
+   ],
+   "explanation": "A is a mountain, B a hill, C a valley, D a cave, E a plain (wide flat land) and F an island."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How water changes the land",
+   "stem": "Look at the river. At which number does the river drop sand and mud and make new land?",
+   "image": "diagrams/river-landscape-numbered.svg",
+   "image_alt": "A river flowing from hills to the sea, with four places numbered 1 to 4.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "At number 3 the river slows down and drops the sand and mud it carried, so new land builds up. Number 2 shows the river carrying soil away."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-006",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Landforms",
+   "stem": "Which of these are landforms? Choose all that are right.",
+   "options": [
+    {
+     "text": "mountain",
+     "image": "openmoji/mountain.svg"
+    },
+    {
+     "text": "tractor",
+     "image": "openmoji/tractor.svg"
+    },
+    {
+     "text": "island",
+     "image": "openmoji/island.svg"
+    },
+    {
+     "text": "house",
+     "image": "openmoji/house.svg"
+    },
+    {
+     "text": "rowing boat",
+     "image": "openmoji/rowing-boat.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "explanation": "A mountain and an island are shapes of the land, so they are landforms. A tractor, a house and a boat were made by people."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fast and slow changes",
+   "stem": "Which picture shows a fast change that shakes the ground?",
+   "options": [
+    {
+     "text": "earthquake",
+     "image": "openmoji/earthquake.svg"
+    },
+    {
+     "text": "flood",
+     "image": "openmoji/flood.svg"
+    },
+    {
+     "text": "tornado",
+     "image": "openmoji/tornado.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "An earthquake shakes the ground very quickly, in only a short time. A flood and a tornado are also fast changes, but they do not shake the ground."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Match each landform to what it is.",
+   "pairs": [
+    [
+     "island",
+     "land with water all around it"
+    ],
+    [
+     "valley",
+     "low land between hills"
+    ],
+    [
+     "mountain",
+     "very high land with steep sides"
+    ],
+    [
+     "plain",
+     "wide, flat land"
+    ],
+    [
+     "cave",
+     "a big hole in rock"
+    ]
+   ],
+   "explanation": "A mountain is very high land with steep sides. A valley is low land between hills. A plain is wide flat land, an island has water all round, and a cave is a big hole in rock."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms in Bangladesh",
+   "stem": "Most of Bangladesh is a huge, flat ___ made by rivers.",
+   "blanks": [
+    [
+     "plain",
+     "plains"
+    ]
+   ],
+   "bank": [
+    "plain",
+    "mountain",
+    "cave"
+   ],
+   "explanation": "A plain is wide, flat land. Rivers made most of Bangladesh by bringing soil and dropping it."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How water changes the land",
+   "stem": "A new island that grows in a river from sand and mud is called a ___.",
+   "blanks": [
+    [
+     "char",
+     "chars"
+    ]
+   ],
+   "bank": [
+    "char",
+    "cave",
+    "valley"
+   ],
+   "explanation": "In the big rivers of Bangladesh, sand and mud pile up to make new islands called chars."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms in Bangladesh",
+   "stem": "In the south-east of Bangladesh, in places like Bandarban and Rangamati, there are hills.",
+   "answer": true,
+   "explanation": "The south-east of Bangladesh has hills in Chattogram, Rangamati and Bandarban. Most of the rest of the country is flat."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Good and bad changes",
+   "stem": "A flood is always bad for people and farmers.",
+   "answer": false,
+   "explanation": "Floods can wash away homes, but they can also bring rich new soil to fields. A change can be good in one way and bad in another."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-013",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How wind and water change the land",
+   "stem": "How do wind and water change the land? Choose all that are right.",
+   "options": [
+    "Rivers carry soil from their banks and drop it elsewhere.",
+    "Waves wear away the coast.",
+    "Wind blows sand into dunes on beaches.",
+    "Rain makes hills grow taller overnight.",
+    "Wind turns soil into rock."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Rivers carry away soil and drop it elsewhere, waves wear away the coast, and wind blows sand into dunes. Rain washes soil down hills, but it does not make hills taller."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-014",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fast and slow changes",
+   "stem": "Is each change fast or slow? Sort them.",
+   "categories": [
+    "Fast change",
+    "Slow change"
+   ],
+   "items": [
+    [
+     "an earthquake",
+     "Fast change"
+    ],
+    [
+     "a volcano erupting",
+     "Fast change"
+    ],
+    [
+     "a landslide",
+     "Fast change"
+    ],
+    [
+     "a river wearing away rock",
+     "Slow change"
+    ],
+    [
+     "a mountain growing",
+     "Slow change"
+    ],
+    [
+     "wind moving sand",
+     "Slow change"
+    ]
+   ],
+   "explanation": "Earthquakes, volcanic eruptions and landslides happen quickly. Rivers wearing away rock, mountains growing and wind moving sand take a very long time."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-015",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Good and bad changes",
+   "stem": "Is each change good or bad for people? Sort them.",
+   "categories": [
+    "Good for people",
+    "Bad for people"
+   ],
+   "items": [
+    [
+     "A flood brings rich new soil to a field.",
+     "Good for people"
+    ],
+    [
+     "The river builds a new char with grass on it.",
+     "Good for people"
+    ],
+    [
+     "A river bank falls in and houses are lost.",
+     "Bad for people"
+    ],
+    [
+     "Waves wear away the coast near a village.",
+     "Bad for people"
+    ],
+    [
+     "Rain washes soil off a bare hill.",
+     "Bad for people"
+    ]
+   ],
+   "explanation": "New soil, new land and grass help people and crops. Falling river banks and eroding coasts make people lose land and homes."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-016",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How water changes the land",
+   "stem": "Put the steps in order to show how a char is made.",
+   "sequence": [
+    "The river carries sand and mud.",
+    "The river drops the sand and mud.",
+    "The sand and mud pile up into new land.",
+    "Grass grows on the new land.",
+    "Families come to live there."
+   ],
+   "explanation": "A char grows slowly. The river drops sand and mud, they pile up into land, grass grows, and then families can live there."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-017",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How water changes the land",
+   "stem": "How can a river make a new island (char)?",
+   "model_answer": "The river drops sand and mud, and it piles up to make new land.",
+   "keywords": [
+    [
+     "sand",
+     "mud",
+     "soil"
+    ],
+    [
+     "drop",
+     "drops",
+     "dropped",
+     "pile",
+     "piles",
+     "build",
+     "builds",
+     "deposit",
+     "settle"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The river carries sand and mud and drops them. Over time they pile up and make new land above the water."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-018",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "How wind and water change the land",
+   "stem": "Class 2B made two sand hills. One was covered with grass and one was bare sand. They poured the same amount of water on each. What do you predict?",
+   "options": [
+    "The grass hill will wash away more.",
+    "The bare hill will wash away more.",
+    "Both hills will stay the same.",
+    "Both hills will turn to rock."
+   ],
+   "answer": 1,
+   "explanation": "Grass roots hold the sand together, so the grass hill keeps its shape. The bare sand washes down and the hill gets flatter."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-019",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Landforms in other places",
+   "stem": "Which sentence compares Bangladesh and Nepal?",
+   "options": [
+    "Both countries are mostly high mountains with no flat land.",
+    "Nepal is mostly flat, but Bangladesh has the tallest mountains in the world.",
+    "Both countries are small islands in the sea.",
+    "Bangladesh is mostly flat, but Nepal has very high mountains."
+   ],
+   "answer": 3,
+   "explanation": "Most of Bangladesh is a flat plain made by rivers. Nepal has very high mountains, including Mount Everest, the tallest mountain in the world."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "How wind and water change the land",
+   "stem": "Mina's family lives near a river bank that keeps washing away in the monsoon. What could help protect the bank?",
+   "options": [
+    "Cut down all the plants on the bank.",
+    "Dig more soil out of the bank.",
+    "Plant grass and trees on the bank.",
+    "Pour more water on the bank."
+   ],
+   "answer": 2,
+   "explanation": "Roots of grass and trees hold soil together, so the water carries less of it away. Digging out soil or cutting plants would make it worse."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Good and bad changes",
+   "stem": "After a big flood, a thick layer of mud covers Raju's family's field on a char. What is good about this?",
+   "options": [
+    "The mud makes the soil rich for crops.",
+    "The mud turns the field into an island.",
+    "The mud turns the field into a high mountain.",
+    "The mud makes the river stop moving."
+   ],
+   "answer": 0,
+   "explanation": "Flood mud brings rich new soil, which helps crops to grow well. This is one way a flood can be good, even though floods can also cause damage."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Fast and slow changes",
+   "stem": "Anika says, 'Earthquakes happen slowly over many years, so people always have plenty of time to get ready.' Is she right?",
+   "answer": false,
+   "explanation": "An earthquake shakes the ground quickly, often in less than a minute. That is why people practise what to do before one happens."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-023",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "How the environment affects living things",
+   "stem": "A family lives on a river char. Which of these are sensible things to do? Choose all that are right.",
+   "options": [
+    "watch how the river changes",
+    "be ready to move the house if the bank falls in",
+    "grow crops on the new soil after a flood",
+    "build the house right at the edge of the bank",
+    "ignore warnings from neighbours"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The river keeps changing the char, so families watch the river, are ready to move, and use the new soil for crops. Building at the edge of a falling bank is dangerous."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How wind and water change the land",
+   "stem": "Class 2B measured two sand hills before and after pouring on the same amount of water (example data). Bare sand hill: 20 cm before, 12 cm after. Grass hill: 20 cm before, 18 cm after. Which statement matches the data?",
+   "options": [
+    "Both hills lost 8 cm.",
+    "The grass hill lost 18 cm.",
+    "The bare hill lost 2 cm and the grass hill lost 8 cm.",
+    "The bare hill lost 8 cm; the grass hill lost 2 cm."
+   ],
+   "answer": 3,
+   "explanation": "The bare hill went from 20 cm to 12 cm, so it lost 8 cm. The grass hill went from 20 cm to 18 cm, so it lost only 2 cm. Grass held the sand together."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "How wind and water change the land",
+   "stem": "Rafi's group poured a big jug of water on the bare sand hill but only a small cup on the grass hill. Why is this not a fair test?",
+   "options": [
+    "One hill had grass and one had none.",
+    "They poured different amounts of water.",
+    "The hills were on different trays.",
+    "They used sand to make the hills."
+   ],
+   "answer": 1,
+   "explanation": "In a fair test only one thing changes: here, grass or no grass. The amount of water must be the same for both hills."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B1",
+   "title": "Landforms and Changes",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+   "id": "g2-b1-026",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Good and bad changes",
+   "stem": "Floods can be good and bad. Give one good thing and one bad thing a flood can do.",
+   "model_answer": "Good: a flood brings rich new soil for crops. Bad: it can wash away river banks and people's homes.",
+   "keywords": [
+    [
+     "rich",
+     "soil",
+     "mud",
+     "crops",
+     "farm",
+     "fertile",
+     "grow"
+    ],
+    [
+     "bank",
+     "banks",
+     "homes",
+     "houses",
+     "wash",
+     "washes",
+     "damage",
+     "lose",
+     "destroy"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A flood can bring rich new soil for crops, which is good. It can also wash away river banks and homes, which is bad."
+  }
+ ]
+}

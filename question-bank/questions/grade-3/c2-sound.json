@@ -1,208 +1,598 @@
 {
-  "grade": 3,
-  "grade_name": "Grade 3",
-  "topic": "C2",
-  "title": "Sound",
-  "strand": "physical",
-  "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
-  "questions": [
-    {
-      "id": "g3-c2-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Sounds come from vibrations",
-      "stem": "All sounds are made when something…",
-      "options": ["vibrates", "gets hot", "changes colour", "stops moving"],
-      "answer": 0,
-      "explanation": "Every sound starts with a vibration: something shaking back and forth very fast, like a drum skin or a guitar string."
-    },
-    {
-      "id": "g3-c2-002", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Sounds come from vibrations",
-      "stem": "Match each instrument to the part that vibrates.",
-      "pairs": [["dhol (drum)", "the drum skin"], ["ektara", "the string"], ["bansuri (flute)", "the air inside it"], ["your voice", "the voice box in your throat"]],
-      "explanation": "Hitting, plucking and blowing all make a part of the instrument vibrate. When you speak, your voice box vibrates."
-    },
-    {
-      "id": "g3-c2-003", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "How sound travels",
-      "stem": "Sound can travel through water.",
-      "answer": true,
-      "explanation": "Sound travels through gases (air), liquids (water) and solids. Whales and dolphins hear each other under water."
-    },
-    {
-      "id": "g3-c2-004", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "How sound travels",
-      "stem": "Astronauts can talk to each other in empty space without radios, because sound travels everywhere.",
-      "answer": false,
-      "explanation": "Sound needs particles to pass the vibrations along. Space is almost empty, so sound cannot travel there. Astronauts use radios."
-    },
-    {
-      "id": "g3-c2-005", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Measuring loudness",
-      "stem": "We measure how loud a sound is in ___, using a sound level ___.",
-      "blanks": [["decibels", "dB", "decibel"], ["meter", "metre"]],
-      "bank": ["decibels", "meter", "metres", "grams", "thermometer"],
-      "explanation": "Loudness is measured in decibels (dB) with a sound level meter. Many mobile phones have a sound meter app."
-    },
-    {
-      "id": "g3-c2-006", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Sound insulation",
-      "stem": "Which materials would be good at blocking sound? Choose all that are right.",
-      "options": ["thick curtains", "a sheet of foil", "foam", "a glass window", "a woollen blanket"],
-      "answer": [0, 2, 4],
-      "explanation": "Soft, thick materials such as curtains, foam and wool soak up sound vibrations. Thin, hard materials like foil and glass let much more sound through."
-    },
-    {
-      "id": "g3-c2-007", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Pitch",
-      "stem": "Sort these into higher pitch or lower pitch.",
-      "categories": ["Higher pitch", "Lower pitch"],
-      "items": [["a short, tight string", "Higher pitch"], ["a small drum", "Higher pitch"], ["a bird tweeting", "Higher pitch"], ["a long, loose string", "Lower pitch"], ["a big drum", "Lower pitch"], ["a cow mooing", "Lower pitch"]],
-      "explanation": "Short, thin, tight and small things vibrate faster and make higher notes. Long, loose and big things vibrate slower and make lower notes."
-    },
-    {
-      "id": "g3-c2-008", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "How sound travels",
-      "stem": "Put the steps in order to show how you hear a school bell.",
-      "sequence": ["The bell is hit and vibrates.", "The air next to the bell vibrates.", "The vibrations travel through the air.", "The vibrations reach your ear.", "Your brain tells you it is a bell."],
-      "explanation": "The vibrating bell makes the air vibrate. The vibration passes from particle to particle until it reaches your ear, and your brain makes sense of it."
-    },
-    {
-      "id": "g3-c2-009", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Pitch",
-      "stem": "**Pitch** tells us how…",
-      "options": ["high or low a sound is", "loud or quiet a sound is", "far away a sound is", "long a sound lasts"],
-      "answer": 0,
-      "explanation": "Pitch is how high or low a sound is. Loudness (volume) is a different thing: a high sound can be loud or quiet."
-    },
-    {
-      "id": "g3-c2-010", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "How sound travels",
-      "stem": "Put your ear on a desk while a friend taps the other end. Why do you hear the tap clearly?",
-      "model_answer": "Sound travels well through solids like the wooden desk, so the vibrations reach your ear clearly.",
-      "keywords": [["solid", "wood", "desk", "table"], ["travel", "travels", "pass", "carry"], ["vibration", "vibrations", "vibrate"]],
-      "min_keywords": 2,
-      "explanation": "Particles in a solid are close together, so they pass vibrations along very well. Sound travels better through solids than through air."
-    },
-    {
-      "id": "g3-c2-011", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Sound insulation",
-      "stem": "Materials that stop sound from travelling through them are called sound ___.",
-      "blanks": [["insulation", "insulators", "insulator"]],
-      "bank": ["insulation", "conductors", "vibrations"],
-      "explanation": "Sound insulation, like foam or thick cloth, soaks up vibrations so less sound gets through."
-    },
-    {
-      "id": "g3-c2-012", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Pitch",
-      "stem": "An ektara player presses her finger on the string to make it shorter. What happens to the note?",
-      "options": ["It gets higher.", "It gets lower.", "It gets louder.", "It stops."],
-      "answer": 0,
-      "explanation": "A shorter string vibrates faster, so the pitch goes up. Plucking harder would make it louder, not higher."
-    },
-    {
-      "id": "g3-c2-013", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Pitch",
-      "stem": "The bottles are tapped with a spoon. Which bottle makes the **highest** note?",
-      "image": "diagrams/bottle-pitch-lettered.svg", "image_alt": "Four glass bottles A to D. A has the least water and D has the most.",
-      "options": ["A", "B", "C", "D"],
-      "answer": 0,
-      "explanation": "When you tap a bottle, the glass and water vibrate. Less water means less to shake, so it vibrates faster: bottle A gives the highest note."
-    },
-    {
-      "id": "g3-c2-014", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Pitch and loudness",
-      "stem": "Look at the four sound pictures. Which one shows a **loud, high** sound?",
-      "image": "diagrams/sound-waves-lettered.svg", "image_alt": "Four wave drawings A to D: tall wide waves, short wide waves, tall close waves and short close waves.",
-      "options": ["A", "B", "C", "D"],
-      "answer": 2,
-      "explanation": "Taller waves mean a louder sound. Waves closer together mean a higher pitch. C has tall, close waves: loud and high."
-    },
-    {
-      "id": "g3-c2-015", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Measuring loudness",
-      "stem": "Use the decibel scale. Which sound could damage your hearing if you listened for a long time?",
-      "image": "diagrams/decibel-scale.svg", "image_alt": "A decibel scale from 0 to 140 with leaves 20, birds 40, talking 60, traffic 80, loud music 100 and a plane 120 dB. Above 85 dB is shaded.",
-      "options": ["birds singing", "talking", "loud music", "leaves rustling"],
-      "answer": 2,
-      "explanation": "Sounds above about 85 dB can damage hearing. Loud music is about 100 dB, so it is in the danger zone."
-    },
-    {
-      "id": "g3-c2-016", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Sounds come from vibrations",
-      "stem": "Match each picture to how it makes a sound.",
-      "pairs": [[{"text": "drum", "image": "openmoji/drum.svg"}, "hit it"], [{"text": "guitar", "image": "openmoji/guitar.svg"}, "pluck the strings"], [{"text": "trumpet", "image": "openmoji/trumpet.svg"}, "blow into it"], [{"text": "bell", "image": "openmoji/bell.svg"}, "shake or strike it"]],
-      "explanation": "Hitting, plucking, blowing and shaking are different ways of making something vibrate."
-    },
-    {
-      "id": "g3-c2-017", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "How sound travels",
-      "stem": "Two children made this string telephone. What must they do to make it work best?",
-      "image": "diagrams/string-phone.svg", "image_alt": "Two cups joined by a long string.",
-      "options": ["Keep the string pulled tight.", "Let the string hang loose.", "Use a very short string with a knot in it.", "Hold the string with their fingers in the middle."],
-      "answer": 0,
-      "explanation": "Vibrations travel along a tight string. A loose string, or fingers touching it, stops the vibrations."
-    },
-    {
-      "id": "g3-c2-018", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Sound insulation",
-      "stem": "A family lives next to a busy road in Dhaka. The baby cannot sleep because of the noise. What is the best thing to try first?",
-      "options": ["Hang thick curtains and put a rug on the floor.", "Paint the walls white.", "Open all the windows.", "Put a metal sheet on the bed."],
-      "answer": 0,
-      "explanation": "Thick, soft materials such as curtains and rugs absorb sound. Opening windows lets more noise in, and paint or metal do not soak up sound."
-    },
-    {
-      "id": "g3-c2-019", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "evaluate", "subskill": "Measuring loudness",
-      "stem": "Rafi works in a factory with loud machines all day. Which advice is the most important for his health?",
-      "options": ["Wear ear defenders at work.", "Drink more water at work.", "Wear a hat at work.", "Talk more quietly at work."],
-      "answer": 0,
-      "explanation": "Loud sounds above about 85 dB, heard for a long time, can damage hearing. Ear defenders block the sound."
-    },
-    {
-      "id": "g3-c2-020", "mode": "real-life", "type": "truefalse", "difficulty": 2, "bloom": "evaluate", "subskill": "How sound travels",
-      "stem": "Mitu says: 'The road outside the hospital is a silent zone, so drivers must not honk their horns.' Is this a sensible rule?",
-      "answer": true,
-      "explanation": "Sick people need rest, and loud horns can harm hearing and sleep. Silent zones near hospitals and schools protect people from noise."
-    },
-    {
-      "id": "g3-c2-021", "mode": "real-life", "type": "multi", "difficulty": 3, "bloom": "create", "subskill": "Sound insulation",
-      "stem": "Your class wants a quiet reading corner. Which changes would help? Choose all that are right.",
-      "options": ["put cushions and a soft rug there", "hang a cloth curtain around it", "put it next to the noisy door", "line one wall with egg boxes or foam", "add a metal bin to drum on"],
-      "answer": [0, 1, 3],
-      "explanation": "Soft, thick, bumpy materials absorb sound. Being next to the door, or adding something to bang, makes the corner noisier."
-    },
-    {
-      "id": "g3-c2-022", "mode": "simulation", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Pitch and loudness",
-      "stem": "In the simulation, what happens to the sound when you move the **frequency** slider up?",
-      "sim": {"id": "sound-waves", "task": "Open Sound Waves. Turn on the sound so you can hear the speaker. Move the frequency slider from low to high and listen. Watch the waves."},
-      "options": ["The pitch gets higher and the waves get closer together.", "The sound gets louder and the waves get taller.", "The sound stops.", "The waves get further apart."],
-      "answer": 0,
-      "explanation": "Frequency is how many vibrations happen each second. More vibrations each second means a higher pitch, so the waves are drawn closer together."
-    },
-    {
-      "id": "g3-c2-023", "mode": "simulation", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Pitch and loudness",
-      "stem": "In the simulation, what happens when you move the **amplitude** slider up?",
-      "sim": {"id": "sound-waves", "task": "Open Sound Waves. Keep the frequency the same. Move the amplitude slider from low to high and listen."},
-      "options": ["The sound gets louder.", "The pitch gets higher.", "The sound gets quieter.", "The speaker stops moving."],
-      "answer": 0,
-      "explanation": "Amplitude is how big the vibrations are. Bigger vibrations make a louder sound, but the pitch stays the same."
-    },
-    {
-      "id": "g3-c2-024", "mode": "simulation", "type": "truefalse", "difficulty": 3, "bloom": "analyse", "subskill": "How sound travels",
-      "stem": "In the simulation, when the air is removed from around the speaker, the sound becomes quieter.",
-      "sim": {"id": "sound-waves", "task": "Open Sound Waves and choose the Air Pressure screen. Turn the sound on, then remove the air from around the speaker and listen."},
-      "answer": true,
-      "explanation": "Sound needs particles to travel. With less air around the speaker, there are fewer particles to pass on the vibrations, so less sound reaches you."
-    },
-    {
-      "id": "g3-c2-025", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "How sound travels",
-      "stem": "In a thunderstorm you see the lightning before you hear the thunder, although both happen at the same time. What does this tell you?",
-      "options": ["Light travels much faster than sound.", "Sound travels faster than light.", "The thunder happens later than the lightning.", "Your ears work more slowly than your eyes."],
-      "answer": 0,
-      "explanation": "Light reaches you almost instantly, but sound travels much more slowly through air. The bigger the gap, the further away the storm."
-    },
-    {
-      "id": "g3-c2-026", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Sound insulation",
-      "stem": "Class 3C tested materials around a ringing alarm clock: none 70 dB, foil 66 dB, newspaper 60 dB, towel 50 dB, foam 45 dB. Which conclusion is best supported?",
-      "options": ["Soft, thick materials blocked the most sound.", "Shiny materials blocked the most sound.", "All the materials blocked the same amount.", "Paper is the best sound insulator."],
-      "answer": 0,
-      "explanation": "Foam and the towel (soft, thick) gave the lowest readings. Foil (shiny, thin) blocked the least. The data support 'soft, thick materials block most sound'."
-    },
-    {
-      "id": "g3-c2-027", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Pitch",
-      "stem": "A guitar has six strings of the same length. The thickest string makes the lowest note. Explain why.",
-      "model_answer": "A thicker string is heavier, so it vibrates more slowly, and slower vibrations make a lower pitch.",
-      "keywords": [["thick", "thicker", "heavy", "heavier"], ["slow", "slower", "slowly"], ["vibrate", "vibrates", "vibration", "vibrations"], ["low", "lower", "pitch"]],
-      "min_keywords": 3,
-      "explanation": "The thicker the string, the more slowly it vibrates. Fewer vibrations each second make a lower note."
-    },
-    {
-      "id": "g3-c2-028", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Measuring loudness",
-      "stem": "Which word means how loud a sound is?",
-      "options": ["volume", "pitch", "vibration", "echo"],
-      "answer": 0,
-      "explanation": "Volume (loudness) is how loud or quiet a sound is. Pitch is how high or low it is."
-    }
-  ]
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "C2",
+ "title": "Sound",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-c2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sounds come from vibrations",
+   "stem": "All sounds are made when something…",
+   "options": [
+    "stops moving",
+    "gets hot",
+    "changes colour",
+    "vibrates"
+   ],
+   "answer": 3,
+   "explanation": "Every sound starts with a vibration: something shaking back and forth very fast, like a drum skin or a guitar string."
+  },
+  {
+   "id": "g3-c2-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sounds come from vibrations",
+   "stem": "Match each instrument to the part that vibrates.",
+   "pairs": [
+    [
+     "dhol (drum)",
+     "the drum skin"
+    ],
+    [
+     "ektara",
+     "the string"
+    ],
+    [
+     "bansuri (flute)",
+     "the air inside it"
+    ],
+    [
+     "your voice",
+     "the voice box in your throat"
+    ]
+   ],
+   "explanation": "Hitting, plucking and blowing all make a part of the instrument vibrate. When you speak, your voice box vibrates."
+  },
+  {
+   "id": "g3-c2-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Sound can travel through water.",
+   "answer": true,
+   "explanation": "Sound travels through gases (air), liquids (water) and solids. Whales and dolphins hear each other under water."
+  },
+  {
+   "id": "g3-c2-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Astronauts can talk to each other in empty space without radios, because sound travels everywhere.",
+   "answer": false,
+   "explanation": "Sound needs particles to pass the vibrations along. Space is almost empty, so sound cannot travel there. Astronauts use radios."
+  },
+  {
+   "id": "g3-c2-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring loudness",
+   "stem": "We measure how loud a sound is in ___, using a sound level ___.",
+   "blanks": [
+    [
+     "decibels",
+     "dB",
+     "decibel"
+    ],
+    [
+     "meter",
+     "metre"
+    ]
+   ],
+   "bank": [
+    "decibels",
+    "meter",
+    "metres",
+    "grams",
+    "thermometer"
+   ],
+   "explanation": "Loudness is measured in decibels (dB) with a sound level meter. Many mobile phones have a sound meter app."
+  },
+  {
+   "id": "g3-c2-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Sound insulation",
+   "stem": "Which materials would be good at blocking sound? Choose all that are right.",
+   "options": [
+    "thick curtains",
+    "a sheet of foil",
+    "foam",
+    "a glass window",
+    "a woollen blanket"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Soft, thick materials such as curtains, foam and wool soak up sound vibrations. Thin, hard materials like foil and glass let much more sound through."
+  },
+  {
+   "id": "g3-c2-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Pitch",
+   "stem": "Sort these into higher pitch or lower pitch.",
+   "categories": [
+    "Higher pitch",
+    "Lower pitch"
+   ],
+   "items": [
+    [
+     "a short, tight string",
+     "Higher pitch"
+    ],
+    [
+     "a small drum",
+     "Higher pitch"
+    ],
+    [
+     "a bird tweeting",
+     "Higher pitch"
+    ],
+    [
+     "a long, loose string",
+     "Lower pitch"
+    ],
+    [
+     "a big drum",
+     "Lower pitch"
+    ],
+    [
+     "a cow mooing",
+     "Lower pitch"
+    ]
+   ],
+   "explanation": "Short, thin, tight and small things vibrate faster and make higher notes. Long, loose and big things vibrate slower and make lower notes."
+  },
+  {
+   "id": "g3-c2-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Put the steps in order to show how you hear a school bell.",
+   "sequence": [
+    "The bell is hit and vibrates.",
+    "The air next to the bell vibrates.",
+    "The vibrations travel through the air.",
+    "The vibrations reach your ear.",
+    "Your brain tells you it is a bell."
+   ],
+   "explanation": "The vibrating bell makes the air vibrate. The vibration passes from particle to particle until it reaches your ear, and your brain makes sense of it."
+  },
+  {
+   "id": "g3-c2-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Pitch",
+   "stem": "**Pitch** tells us how…",
+   "options": [
+    "high or low a sound is",
+    "loud or quiet a sound is",
+    "far away a sound is",
+    "long a sound lasts"
+   ],
+   "answer": 0,
+   "explanation": "Pitch is how high or low a sound is. Loudness (volume) is a different thing: a high sound can be loud or quiet."
+  },
+  {
+   "id": "g3-c2-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Put your ear on a desk while a friend taps the other end. Why do you hear the tap clearly?",
+   "model_answer": "Sound travels well through solids like the wooden desk, so the vibrations reach your ear clearly.",
+   "keywords": [
+    [
+     "solid",
+     "wood",
+     "desk",
+     "table"
+    ],
+    [
+     "travel",
+     "travels",
+     "pass",
+     "carry"
+    ],
+    [
+     "vibration",
+     "vibrations",
+     "vibrate"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Particles in a solid are close together, so they pass vibrations along very well. Sound travels better through solids than through air."
+  },
+  {
+   "id": "g3-c2-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sound insulation",
+   "stem": "Materials that stop sound from travelling through them are called sound ___.",
+   "blanks": [
+    [
+     "insulation",
+     "insulators",
+     "insulator"
+    ]
+   ],
+   "bank": [
+    "insulation",
+    "conductors",
+    "vibrations"
+   ],
+   "explanation": "Sound insulation, like foam or thick cloth, soaks up vibrations so less sound gets through."
+  },
+  {
+   "id": "g3-c2-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Pitch",
+   "stem": "An ektara player presses her finger on the string to make it shorter. What happens to the note?",
+   "options": [
+    "It gets louder.",
+    "It gets lower.",
+    "It gets higher.",
+    "It stops."
+   ],
+   "answer": 2,
+   "explanation": "A shorter string vibrates faster, so the pitch goes up. Plucking harder would make it louder, not higher."
+  },
+  {
+   "id": "g3-c2-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pitch",
+   "stem": "The bottles are tapped with a spoon. Which bottle makes the **highest** note?",
+   "image": "diagrams/bottle-pitch-lettered.svg",
+   "image_alt": "Four glass bottles A to D. A has the least water and D has the most.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 0,
+   "explanation": "When you tap a bottle, the glass and water vibrate. Less water means less to shake, so it vibrates faster: bottle A gives the highest note."
+  },
+  {
+   "id": "g3-c2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pitch and loudness",
+   "stem": "Look at the four sound pictures. Which one shows a **loud, high** sound?",
+   "image": "diagrams/sound-waves-lettered.svg",
+   "image_alt": "Four wave drawings A to D: tall wide waves, short wide waves, tall close waves and short close waves.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 2,
+   "explanation": "Taller waves mean a louder sound. Waves closer together mean a higher pitch. C has tall, close waves: loud and high."
+  },
+  {
+   "id": "g3-c2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Measuring loudness",
+   "stem": "Use the decibel scale. Which sound could damage your hearing if you listened for a long time?",
+   "image": "diagrams/decibel-scale.svg",
+   "image_alt": "A decibel scale from 0 to 140 with leaves 20, birds 40, talking 60, traffic 80, loud music 100 and a plane 120 dB. Above 85 dB is shaded.",
+   "options": [
+    "birds singing",
+    "loud music",
+    "talking",
+    "leaves rustling"
+   ],
+   "answer": 1,
+   "explanation": "Sounds above about 85 dB can damage hearing. Loud music is about 100 dB, so it is in the danger zone."
+  },
+  {
+   "id": "g3-c2-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sounds come from vibrations",
+   "stem": "Match each picture to how it makes a sound.",
+   "pairs": [
+    [
+     {
+      "text": "drum",
+      "image": "openmoji/drum.svg"
+     },
+     "hit it"
+    ],
+    [
+     {
+      "text": "guitar",
+      "image": "openmoji/guitar.svg"
+     },
+     "pluck the strings"
+    ],
+    [
+     {
+      "text": "trumpet",
+      "image": "openmoji/trumpet.svg"
+     },
+     "blow into it"
+    ],
+    [
+     {
+      "text": "bell",
+      "image": "openmoji/bell.svg"
+     },
+     "shake or strike it"
+    ]
+   ],
+   "explanation": "Hitting, plucking, blowing and shaking are different ways of making something vibrate."
+  },
+  {
+   "id": "g3-c2-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "How sound travels",
+   "stem": "Two children made this string telephone. What must they do to make it work best?",
+   "image": "diagrams/string-phone.svg",
+   "image_alt": "Two cups joined by a long string.",
+   "options": [
+    "Use a very short string with a knot in it.",
+    "Let the string hang loose.",
+    "Keep the string pulled tight.",
+    "Hold the string with their fingers in the middle."
+   ],
+   "answer": 2,
+   "explanation": "Vibrations travel along a tight string. A loose string, or fingers touching it, stops the vibrations."
+  },
+  {
+   "id": "g3-c2-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sound insulation",
+   "stem": "A family lives next to a busy road in Dhaka. The baby cannot sleep because of the noise. What is the best thing to try first?",
+   "options": [
+    "Hang thick curtains and put a rug on the floor.",
+    "Paint the walls white.",
+    "Open all the windows.",
+    "Put a metal sheet on the bed."
+   ],
+   "answer": 0,
+   "explanation": "Thick, soft materials such as curtains and rugs absorb sound. Opening windows lets more noise in, and paint or metal do not soak up sound."
+  },
+  {
+   "id": "g3-c2-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Measuring loudness",
+   "stem": "Rafi works in a factory with loud machines all day. Which advice is the most important for his health?",
+   "options": [
+    "Drink more water at work.",
+    "Wear ear defenders at work.",
+    "Wear a hat at work.",
+    "Talk more quietly at work."
+   ],
+   "answer": 1,
+   "explanation": "Loud sounds above about 85 dB, heard for a long time, can damage hearing. Ear defenders block the sound."
+  },
+  {
+   "id": "g3-c2-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "How sound travels",
+   "stem": "Mitu says: 'The road outside the hospital is a silent zone, so drivers must not honk their horns.' Is this a sensible rule?",
+   "answer": true,
+   "explanation": "Sick people need rest, and loud horns can harm hearing and sleep. Silent zones near hospitals and schools protect people from noise."
+  },
+  {
+   "id": "g3-c2-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Sound insulation",
+   "stem": "Your class wants a quiet reading corner. Which changes would help? Choose all that are right.",
+   "options": [
+    "put cushions and a soft rug there",
+    "hang a cloth curtain around it",
+    "put it next to the noisy door",
+    "line one wall with egg boxes or foam",
+    "add a metal bin to drum on"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Soft, thick, bumpy materials absorb sound. Being next to the door, or adding something to bang, makes the corner noisier."
+  },
+  {
+   "id": "g3-c2-022",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pitch and loudness",
+   "stem": "In the simulation, what happens to the sound when you move the **frequency** slider up?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves. Turn on the sound so you can hear the speaker. Move the frequency slider from low to high and listen. Watch the waves."
+   },
+   "options": [
+    "The waves get further apart.",
+    "The sound gets louder and the waves get taller.",
+    "The sound stops.",
+    "The pitch gets higher and the waves get closer together."
+   ],
+   "answer": 3,
+   "explanation": "Frequency is how many vibrations happen each second. More vibrations each second means a higher pitch, so the waves are drawn closer together."
+  },
+  {
+   "id": "g3-c2-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pitch and loudness",
+   "stem": "In the simulation, what happens when you move the **amplitude** slider up?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves. Keep the frequency the same. Move the amplitude slider from low to high and listen."
+   },
+   "options": [
+    "The pitch gets higher.",
+    "The sound gets louder.",
+    "The sound gets quieter.",
+    "The speaker stops moving."
+   ],
+   "answer": 1,
+   "explanation": "Amplitude is how big the vibrations are. Bigger vibrations make a louder sound, but the pitch stays the same."
+  },
+  {
+   "id": "g3-c2-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How sound travels",
+   "stem": "In the simulation, when the air is removed from around the speaker, the sound becomes quieter.",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Air Pressure screen. Turn the sound on, then remove the air from around the speaker and listen."
+   },
+   "answer": true,
+   "explanation": "Sound needs particles to travel. With less air around the speaker, there are fewer particles to pass on the vibrations, so less sound reaches you."
+  },
+  {
+   "id": "g3-c2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How sound travels",
+   "stem": "In a thunderstorm you see the lightning before you hear the thunder, although both happen at the same time. What does this tell you?",
+   "options": [
+    "Your ears work more slowly than your eyes.",
+    "Sound travels faster than light.",
+    "The thunder happens later than the lightning.",
+    "Light travels much faster than sound."
+   ],
+   "answer": 3,
+   "explanation": "Light reaches you almost instantly, but sound travels much more slowly through air. The bigger the gap, the further away the storm."
+  },
+  {
+   "id": "g3-c2-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Sound insulation",
+   "stem": "Class 3C tested materials around a ringing alarm clock: none 70 dB, foil 66 dB, newspaper 60 dB, towel 50 dB, foam 45 dB. Which conclusion is best supported?",
+   "options": [
+    "All the materials blocked the same amount.",
+    "Shiny materials blocked the most sound.",
+    "Soft, thick materials blocked the most sound.",
+    "Paper is the best sound insulator."
+   ],
+   "answer": 2,
+   "explanation": "Foam and the towel (soft, thick) gave the lowest readings. Foil (shiny, thin) blocked the least. The data support 'soft, thick materials block most sound'."
+  },
+  {
+   "id": "g3-c2-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Pitch",
+   "stem": "A guitar has six strings of the same length. The thickest string makes the lowest note. Explain why.",
+   "model_answer": "A thicker string is heavier, so it vibrates more slowly, and slower vibrations make a lower pitch.",
+   "keywords": [
+    [
+     "thick",
+     "thicker",
+     "heavy",
+     "heavier"
+    ],
+    [
+     "slow",
+     "slower",
+     "slowly"
+    ],
+    [
+     "vibrate",
+     "vibrates",
+     "vibration",
+     "vibrations"
+    ],
+    [
+     "low",
+     "lower",
+     "pitch"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "The thicker the string, the more slowly it vibrates. Fewer vibrations each second make a lower note."
+  },
+  {
+   "id": "g3-c2-028",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring loudness",
+   "stem": "Which word means how loud a sound is?",
+   "options": [
+    "volume",
+    "pitch",
+    "vibration",
+    "echo"
+   ],
+   "answer": 0,
+   "explanation": "Volume (loudness) is how loud or quiet a sound is. Pitch is how high or low it is."
+  }
+ ]
 }

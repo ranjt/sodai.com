@@ -1,204 +1,652 @@
 {
-  "grade": 3,
-  "grade_name": "Grade 3",
-  "topic": "A3",
-  "title": "Habitats and Adaptation",
-  "strand": "living",
-  "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
-  "questions": [
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "A3",
+ "title": "Habitats and Adaptation",
+ "strand": "living",
+ "worksheet": "worksheets/grade-3-science/pdf/a3-habitats-and-adaptation-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-a3-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats",
+   "stem": "A **habitat** is…",
+   "options": [
+    "a body part that helps an animal survive",
+    "a nest made of grass",
+    "a set of yes/no questions",
+    "the place where a living thing lives"
+   ],
+   "answer": 3,
+   "explanation": "A habitat is the place where an animal or plant lives. It gives food, water, shelter and a safe place to raise young."
+  },
+  {
+   "id": "g3-a3-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Adaptation",
+   "stem": "Match each animal to the body part or feature that suits its home.",
+   "pairs": [
+    [
+     "fish",
+     "gills and fins"
+    ],
+    [
+     "duck",
+     "webbed feet and waterproof feathers"
+    ],
+    [
+     "earthworm",
+     "a thin, slimy body"
+    ],
+    [
+     "camel",
+     "a hump that stores fat"
+    ]
+   ],
+   "explanation": "Each animal has body parts that help it live in its habitat. This is called adaptation."
+  },
+  {
+   "id": "g3-a3-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Adaptation",
+   "stem": "A body part or behaviour that helps an animal survive in its habitat is called an ___.",
+   "blanks": [
+    [
+     "adaptation"
+    ]
+   ],
+   "bank": [
+    "adaptation",
+    "habitat",
+    "key"
+   ],
+   "explanation": "Adaptations, like gills or webbed feet, help animals live in the place where they are found."
+  },
+  {
+   "id": "g3-a3-004",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "Which adaptations help a fish live in water?",
+   "options": [
+    "a hump to store fat",
+    "long arms for climbing",
+    "gills and fins",
+    "wide feet for sand"
+   ],
+   "answer": 2,
+   "explanation": "Gills let a fish breathe under water, and fins help it swim. A hump suits a camel, and long arms suit a monkey."
+  },
+  {
+   "id": "g3-a3-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Adaptation",
+   "stem": "Sort each body part by the animal that has it.",
+   "categories": [
+    "Fish",
+    "Camel",
+    "Monkey"
+   ],
+   "items": [
+    [
+     "gills",
+     "Fish"
+    ],
+    [
+     "fins",
+     "Fish"
+    ],
+    [
+     "a hump that stores fat",
+     "Camel"
+    ],
+    [
+     "wide feet for walking on sand",
+     "Camel"
+    ],
+    [
+     "long arms for climbing",
+     "Monkey"
+    ],
+    [
+     "a tail for climbing",
+     "Monkey"
+    ]
+   ],
+   "explanation": "Fish live in water, camels live in hot deserts and monkeys live in trees. Each has body parts that suit its habitat."
+  },
+  {
+   "id": "g3-a3-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats",
+   "stem": "A habitat gives an animal food, water and shelter.",
+   "answer": true,
+   "explanation": "A good habitat gives an animal everything it needs, including a safe place to raise its young."
+  },
+  {
+   "id": "g3-a3-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changing the habitat",
+   "stem": "Which animals change their surroundings to meet their needs? Choose all that are right.",
+   "options": [
+    "a baya weaver bird weaving a hanging nest",
+    "termites building a tall mud mound",
+    "an earthworm digging tunnels in soil",
+    "a fish swimming in a river",
+    "a camel walking on sand"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Weaver birds, termites and earthworms all change the place where they live. Swimming and walking do not change the habitat."
+  },
+  {
+   "id": "g3-a3-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Changing the habitat",
+   "stem": "Termites build tall mounds of ___, and earthworms dig ___ in the soil.",
+   "blanks": [
+    [
+     "mud",
+     "soil"
+    ],
+    [
+     "tunnels",
+     "burrows",
+     "holes"
+    ]
+   ],
+   "bank": [
+    "mud",
+    "tunnels",
+    "grass",
+    "nests"
+   ],
+   "explanation": "Termites build mounds from mud, and earthworms make tunnels as they move through the soil."
+  },
+  {
+   "id": "g3-a3-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Investigating woodlice",
+   "stem": "Put the steps of the woodlice investigation in a sensible order.",
+   "sequence": [
+    "Put 10 woodlice in a tray with one dark, damp end and one light, dry end.",
+    "Wait for 10 minutes.",
+    "Count the woodlice at each end.",
+    "Draw a bar chart of the results.",
+    "Gently return the woodlice to where you found them."
+   ],
+   "explanation": "Set up the test, wait, count and show the results. Woodlice are living things, so we always return them safely to their habitat."
+  },
+  {
+   "id": "g3-a3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Using keys",
+   "stem": "A key asks yes/no questions to help you name a living thing.",
+   "answer": true,
+   "explanation": "You start at the top of the key and follow the answers, one yes/no question at a time, until you reach the name."
+  },
+  {
+   "id": "g3-a3-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats",
+   "stem": "A monkey is suited to living in ___, because it has long arms and a tail for climbing.",
+   "blanks": [
+    [
+     "trees",
+     "forests",
+     "the forest",
+     "forest trees",
+     "tree"
+    ]
+   ],
+   "bank": [
+    "trees",
+    "water",
+    "soil",
+    "deserts"
+   ],
+   "explanation": "Long arms and a tail help a monkey climb and swing through the trees where it finds food and shelter."
+  },
+  {
+   "id": "g3-a3-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "Why could a fish not live in a tree?",
+   "model_answer": "A fish needs water. It has gills to breathe in water and fins to swim, so it could not breathe or move in a tree.",
+   "keywords": [
+    [
+     "water",
+     "wet"
+    ],
+    [
+     "gill",
+     "gills",
+     "breathe",
+     "breathing",
+     "fin",
+     "fins",
+     "swim",
+     "swimming"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A fish's body is suited to water, not to air. Without water it could not breathe with its gills."
+  },
+  {
+   "id": "g3-a3-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "Why is an earthworm's thin, slimy body useful?",
+   "options": [
+    "It helps the worm slide through the soil.",
+    "It helps the worm climb trees.",
+    "It helps the worm fly away from danger.",
+    "It helps the worm swim fast in the sea."
+   ],
+   "answer": 0,
+   "explanation": "A thin, slimy body slides easily between soil particles. This adaptation suits the earthworm's habitat."
+  },
+  {
+   "id": "g3-a3-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Adaptation",
+   "stem": "Look at the pond. Which number shows the animal that breathes under water with gills?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
+   "options": [
+    "3",
+    "4",
+    "7",
+    "8"
+   ],
+   "answer": 1,
+   "explanation": "Number 4 is the fish, which breathes with gills. Number 3 is a duck, 7 is water plants and 8 is a frog."
+  },
+  {
+   "id": "g3-a3-015",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Habitats",
+   "stem": "Look at the pond habitat. Which numbers show animals? Choose all that are right.",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Number 3 is a duck, 4 is a fish and 8 is a frog. Number 5 is water and 6 is a rock, which are not living things."
+  },
+  {
+   "id": "g3-a3-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats",
+   "stem": "Match each animal to its habitat.",
+   "pairs": [
+    [
+     {
+      "text": "monkey",
+      "image": "openmoji/monkey.svg"
+     },
+     "forest trees"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "river or sea"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "soil"
+    ],
+    [
+     {
+      "text": "camel",
+      "image": "openmoji/camel.svg"
+     },
+     "hot desert"
+    ]
+   ],
+   "explanation": "Each animal lives where its body is suited: monkeys climb trees, fish swim, worms burrow and camels cope with heat and sand."
+  },
+  {
+   "id": "g3-a3-017",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Habitats",
+   "stem": "Sort the animals by where they live.",
+   "categories": [
+    "River or pond",
+    "Trees",
+    "Under the ground"
+   ],
+   "items": [
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "River or pond"
+    ],
+    [
+     {
+      "text": "duck",
+      "image": "openmoji/duck.svg"
+     },
+     "River or pond"
+    ],
+    [
+     {
+      "text": "monkey",
+      "image": "openmoji/monkey.svg"
+     },
+     "Trees"
+    ],
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "Trees"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "Under the ground"
+    ]
+   ],
+   "explanation": "Fish and ducks live on or in water, monkeys and many birds live in trees, and earthworms live in the soil."
+  },
+  {
+   "id": "g3-a3-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Adaptation",
+   "stem": "Which animal is best suited to living in a hot desert?",
+   "options": [
     {
-      "id": "g3-a3-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Habitats",
-      "stem": "A **habitat** is…",
-      "options": ["a body part that helps an animal survive", "the place where a living thing lives", "a set of yes/no questions", "a nest made of grass"],
-      "answer": 1,
-      "explanation": "A habitat is the place where an animal or plant lives. It gives food, water, shelter and a safe place to raise young."
+     "text": "fish",
+     "image": "openmoji/fish.svg"
     },
     {
-      "id": "g3-a3-002", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Adaptation",
-      "stem": "Match each animal to the body part or feature that suits its home.",
-      "pairs": [["fish", "gills and fins"], ["duck", "webbed feet and waterproof feathers"], ["earthworm", "a thin, slimy body"], ["camel", "a hump that stores fat"]],
-      "explanation": "Each animal has body parts that help it live in its habitat. This is called adaptation."
+     "text": "camel",
+     "image": "openmoji/camel.svg"
     },
     {
-      "id": "g3-a3-003", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Adaptation",
-      "stem": "A body part or behaviour that helps an animal survive in its habitat is called an ___.",
-      "blanks": [["adaptation"]],
-      "bank": ["adaptation", "habitat", "key"],
-      "explanation": "Adaptations, like gills or webbed feet, help animals live in the place where they are found."
-    },
-    {
-      "id": "g3-a3-004", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Adaptation",
-      "stem": "Which adaptations help a fish live in water?",
-      "options": ["a hump to store fat", "long arms for climbing", "gills and fins", "wide feet for sand"],
-      "answer": 2,
-      "explanation": "Gills let a fish breathe under water, and fins help it swim. A hump suits a camel, and long arms suit a monkey."
-    },
-    {
-      "id": "g3-a3-005", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Adaptation",
-      "stem": "Sort each body part by the animal that has it.",
-      "categories": ["Fish", "Camel", "Monkey"],
-      "items": [["gills", "Fish"], ["fins", "Fish"], ["a hump that stores fat", "Camel"], ["wide feet for walking on sand", "Camel"], ["long arms for climbing", "Monkey"], ["a tail for climbing", "Monkey"]],
-      "explanation": "Fish live in water, camels live in hot deserts and monkeys live in trees. Each has body parts that suit its habitat."
-    },
-    {
-      "id": "g3-a3-006", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Habitats",
-      "stem": "A habitat gives an animal food, water and shelter.",
-      "answer": true,
-      "explanation": "A good habitat gives an animal everything it needs, including a safe place to raise its young."
-    },
-    {
-      "id": "g3-a3-007", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Changing the habitat",
-      "stem": "Which animals change their surroundings to meet their needs? Choose all that are right.",
-      "options": ["a baya weaver bird weaving a hanging nest", "termites building a tall mud mound", "an earthworm digging tunnels in soil", "a fish swimming in a river", "a camel walking on sand"],
-      "answer": [0, 1, 2],
-      "explanation": "Weaver birds, termites and earthworms all change the place where they live. Swimming and walking do not change the habitat."
-    },
-    {
-      "id": "g3-a3-008", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Changing the habitat",
-      "stem": "Termites build tall mounds of ___, and earthworms dig ___ in the soil.",
-      "blanks": [["mud", "soil"], ["tunnels", "burrows", "holes"]],
-      "bank": ["mud", "tunnels", "grass", "nests"],
-      "explanation": "Termites build mounds from mud, and earthworms make tunnels as they move through the soil."
-    },
-    {
-      "id": "g3-a3-009", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Investigating woodlice",
-      "stem": "Put the steps of the woodlice investigation in a sensible order.",
-      "sequence": ["Put 10 woodlice in a tray with one dark, damp end and one light, dry end.", "Wait for 10 minutes.", "Count the woodlice at each end.", "Draw a bar chart of the results.", "Gently return the woodlice to where you found them."],
-      "explanation": "Set up the test, wait, count and show the results. Woodlice are living things, so we always return them safely to their habitat."
-    },
-    {
-      "id": "g3-a3-010", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Using keys",
-      "stem": "A key asks yes/no questions to help you name a living thing.",
-      "answer": true,
-      "explanation": "You start at the top of the key and follow the answers, one yes/no question at a time, until you reach the name."
-    },
-    {
-      "id": "g3-a3-011", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Habitats",
-      "stem": "A monkey is suited to living in ___, because it has long arms and a tail for climbing.",
-      "blanks": [["trees", "forests", "the forest", "forest trees", "tree"]],
-      "bank": ["trees", "water", "soil", "deserts"],
-      "explanation": "Long arms and a tail help a monkey climb and swing through the trees where it finds food and shelter."
-    },
-    {
-      "id": "g3-a3-012", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Adaptation",
-      "stem": "Why could a fish not live in a tree?",
-      "model_answer": "A fish needs water. It has gills to breathe in water and fins to swim, so it could not breathe or move in a tree.",
-      "keywords": [["water", "wet"], ["gill", "gills", "breathe", "breathing", "fin", "fins", "swim", "swimming"]],
-      "min_keywords": 2,
-      "explanation": "A fish's body is suited to water, not to air. Without water it could not breathe with its gills."
-    },
-    {
-      "id": "g3-a3-013", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Adaptation",
-      "stem": "Why is an earthworm's thin, slimy body useful?",
-      "options": ["It helps the worm climb trees.", "It helps the worm slide through the soil.", "It helps the worm fly away from danger.", "It helps the worm swim fast in the sea."],
-      "answer": 1,
-      "explanation": "A thin, slimy body slides easily between soil particles. This adaptation suits the earthworm's habitat."
-    },
-    {
-      "id": "g3-a3-014", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Adaptation",
-      "stem": "Look at the pond. Which number shows the animal that breathes under water with gills?",
-      "image": "diagrams/pond-ecosystem-numbered.svg", "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
-      "options": ["3", "4", "7", "8"],
-      "answer": 1,
-      "explanation": "Number 4 is the fish, which breathes with gills. Number 3 is a duck, 7 is water plants and 8 is a frog."
-    },
-    {
-      "id": "g3-a3-015", "mode": "picture", "type": "multi", "difficulty": 2, "bloom": "analyse", "subskill": "Habitats",
-      "stem": "Look at the pond habitat. Which numbers show animals? Choose all that are right.",
-      "image": "diagrams/pond-ecosystem-numbered.svg", "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
-      "options": ["3", "4", "5", "6", "8"],
-      "answer": [0, 1, 4],
-      "explanation": "Number 3 is a duck, 4 is a fish and 8 is a frog. Number 5 is water and 6 is a rock, which are not living things."
-    },
-    {
-      "id": "g3-a3-016", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Habitats",
-      "stem": "Match each animal to its habitat.",
-      "pairs": [[{"text": "monkey", "image": "openmoji/monkey.svg"}, "forest trees"], [{"text": "fish", "image": "openmoji/fish.svg"}, "river or sea"], [{"text": "worm", "image": "openmoji/worm.svg"}, "soil"], [{"text": "camel", "image": "openmoji/camel.svg"}, "hot desert"]],
-      "explanation": "Each animal lives where its body is suited: monkeys climb trees, fish swim, worms burrow and camels cope with heat and sand."
-    },
-    {
-      "id": "g3-a3-017", "mode": "picture", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Habitats",
-      "stem": "Sort the animals by where they live.",
-      "categories": ["River or pond", "Trees", "Under the ground"],
-      "items": [[{"text": "fish", "image": "openmoji/fish.svg"}, "River or pond"], [{"text": "duck", "image": "openmoji/duck.svg"}, "River or pond"], [{"text": "monkey", "image": "openmoji/monkey.svg"}, "Trees"], [{"text": "bird", "image": "openmoji/bird.svg"}, "Trees"], [{"text": "worm", "image": "openmoji/worm.svg"}, "Under the ground"]],
-      "explanation": "Fish and ducks live on or in water, monkeys and many birds live in trees, and earthworms live in the soil."
-    },
-    {
-      "id": "g3-a3-018", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Adaptation",
-      "stem": "Which animal is best suited to living in a hot desert?",
-      "options": [{"text": "fish", "image": "openmoji/fish.svg"}, {"text": "camel", "image": "openmoji/camel.svg"}, {"text": "polar bear", "image": "openmoji/polar-bear.svg"}],
-      "answer": 1,
-      "explanation": "A camel stores fat in its hump and has wide feet that do not sink in sand. A polar bear lives in the cold, and a fish needs water."
-    },
-    {
-      "id": "g3-a3-019", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Using keys",
-      "stem": "Use this key. Q1: Does it have legs? Yes: go to Q2. No: go to Q3. Q2: Does it have feathers? Yes: bird. No: cow. Q3: Does it live in water? Yes: fish. No: snake. Sumi's animal has no legs and does not live in water. Which animal is it?",
-      "options": [{"text": "bird", "image": "openmoji/bird.svg"}, {"text": "cow", "image": "openmoji/cow.svg"}, {"text": "fish", "image": "openmoji/fish.svg"}, {"text": "snake", "image": "openmoji/snake.svg"}],
-      "answer": 3,
-      "explanation": "No legs sends you to Q3. 'Does it live in water?' is No, so the answer is snake."
-    },
-    {
-      "id": "g3-a3-020", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Habitats",
-      "stem": "A pond is dug in a school garden in Sylhet. A few weeks later frogs, water insects and a duck arrive. Why did the animals come?",
-      "options": ["It keeps the soil dry.", "It makes the garden warmer.", "It gives them water, food and shelter.", "It gives them tall trees to climb."],
-      "answer": 2,
-      "explanation": "A habitat gives animals food, water and shelter. The new pond became a habitat for animals that are suited to living in or near water."
-    },
-    {
-      "id": "g3-a3-021", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Changing the habitat",
-      "stem": "In the Sundarbans, fiddler crabs dig holes in the mud. What do the holes do for the crabs when the tide comes in?",
-      "options": ["help them catch fish", "help them hide", "help them make the water salty", "help them grow mangrove trees"],
-      "answer": 1,
-      "explanation": "The crabs dig holes in the mud to hide when the tide comes in. This is an animal changing its surroundings to meet its needs."
-    },
-    {
-      "id": "g3-a3-022", "mode": "real-life", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Changing the habitat",
-      "stem": "The baya weaver bird weaves a nest that hangs from the tip of a branch, often over water. The door is at the bottom of a long tube. How does this keep the eggs safe?",
-      "model_answer": "Snakes and big birds find it very hard to reach the eggs, because the nest hangs from a thin branch and the entrance is at the end of a long tube.",
-      "keywords": [["snake", "snakes", "big birds", "bigger birds", "predator", "predators", "enemy", "enemies"], ["reach", "hard", "difficult", "tube", "hang", "hangs", "hanging", "branch", "entrance", "door", "get to"]],
-      "min_keywords": 2,
-      "explanation": "The weaver changes its habitat to make a safe home. Enemies such as snakes cannot easily climb along the branch or up the tube to the eggs."
-    },
-    {
-      "id": "g3-a3-023", "mode": "real-life", "type": "truefalse", "difficulty": 2, "bloom": "evaluate", "subskill": "Habitats",
-      "stem": "If a forest is cut down, the monkeys that live there lose their food and shelter.",
-      "answer": true,
-      "explanation": "Forest trees give monkeys food and a safe place to live. Without them the monkeys may have to move away, and some may die."
-    },
-    {
-      "id": "g3-a3-024", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Investigating woodlice",
-      "stem": "Joy wants to find some woodlice in her garden in Dhaka. Where is she most likely to find them?",
-      "options": ["on a hot tin roof", "under a damp stone in a shady corner", "on a dry, sunny wall", "in the middle of a bright, dry path"],
-      "answer": 1,
-      "explanation": "Woodlice prefer dark, damp places. In the class test, 9 of 10 woodlice moved to the dark, damp end of the tray."
-    },
-    {
-      "id": "g3-a3-025", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Investigating woodlice",
-      "stem": "In a tray, 9 of 10 woodlice moved to the dark, damp end and 1 to the light, dry end. Rafi says, 'This proves that woodlice like darkness.' What is wrong with his claim?",
-      "options": ["Nothing, because 9 is more than 1.", "The dark end was also damp, so we cannot tell if they chose the dark or the damp.", "Woodlice cannot choose where to go.", "The test needs 100 woodlice before it proves anything."],
-      "answer": 1,
-      "explanation": "Two things were different at each end: light and dampness. To test darkness alone, both ends should be equally damp and only the light should change."
-    },
-    {
-      "id": "g3-a3-026", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "create", "subskill": "Using keys",
-      "stem": "Mina wants a key to sort a bird, a snake, a cow and a fish. Which first question splits them into two groups of two?",
-      "options": ["Does it have feathers?", "Does it live in water?", "Does it have legs?", "Is it an animal?"],
-      "answer": 2,
-      "explanation": "Bird and cow have legs; snake and fish do not. 'Feathers' and 'water' each pick out just one animal, and every one of them is an animal."
-    },
-    {
-      "id": "g3-a3-027", "mode": "olympiad", "type": "multi", "difficulty": 3, "bloom": "create", "subskill": "Investigating woodlice",
-      "stem": "Class 3A wants to find out if woodlice prefer dark or light, not damp or dry. Which changes would make the test better? Choose all that are right.",
-      "options": ["Make both ends of the tray equally damp.", "Make one end dark and the other end light.", "Repeat the test three times.", "Put the damp paper at the dark end only.", "Test only one woodlouse."],
-      "answer": [0, 1, 2],
-      "explanation": "Only the light should change, so the dampness must be the same at both ends. Repeating the test makes the results more reliable. One woodlouse is not enough evidence."
-    },
-    {
-      "id": "g3-a3-028", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Changing the habitat",
-      "stem": "Which of these is an animal **changing its habitat**, rather than a body part that suits it?",
-      "options": ["a camel's wide feet", "a fish's gills", "a monkey's long arms", "a termite's mud mound"],
-      "answer": 3,
-      "explanation": "Wide feet, gills and long arms are adaptations of the body. A termite mound is something the animal builds, so it changes its surroundings."
+     "text": "polar bear",
+     "image": "openmoji/polar-bear.svg"
     }
-  ]
+   ],
+   "answer": 1,
+   "explanation": "A camel stores fat in its hump and has wide feet that do not sink in sand. A polar bear lives in the cold, and a fish needs water."
+  },
+  {
+   "id": "g3-a3-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Using keys",
+   "stem": "Use this key. Q1: Does it have legs? Yes: go to Q2. No: go to Q3. Q2: Does it have feathers? Yes: bird. No: cow. Q3: Does it live in water? Yes: fish. No: snake. Sumi's animal has no legs and does not live in water. Which animal is it?",
+   "options": [
+    {
+     "text": "bird",
+     "image": "openmoji/bird.svg"
+    },
+    {
+     "text": "cow",
+     "image": "openmoji/cow.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "snake",
+     "image": "openmoji/snake.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "No legs sends you to Q3. 'Does it live in water?' is No, so the answer is snake."
+  },
+  {
+   "id": "g3-a3-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Habitats",
+   "stem": "A pond is dug in a school garden in Sylhet. A few weeks later frogs, water insects and a duck arrive. Why did the animals come?",
+   "options": [
+    "It keeps the soil dry.",
+    "It makes the garden warmer.",
+    "It gives them water, food and shelter.",
+    "It gives them tall trees to climb."
+   ],
+   "answer": 2,
+   "explanation": "A habitat gives animals food, water and shelter. The new pond became a habitat for animals that are suited to living in or near water."
+  },
+  {
+   "id": "g3-a3-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Changing the habitat",
+   "stem": "In the Sundarbans, fiddler crabs dig holes in the mud. What do the holes do for the crabs when the tide comes in?",
+   "options": [
+    "help them hide",
+    "help them catch fish",
+    "help them make the water salty",
+    "help them grow mangrove trees"
+   ],
+   "answer": 0,
+   "explanation": "The crabs dig holes in the mud to hide when the tide comes in. This is an animal changing its surroundings to meet its needs."
+  },
+  {
+   "id": "g3-a3-022",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changing the habitat",
+   "stem": "The baya weaver bird weaves a nest that hangs from the tip of a branch, often over water. The door is at the bottom of a long tube. How does this keep the eggs safe?",
+   "model_answer": "Snakes and big birds find it very hard to reach the eggs, because the nest hangs from a thin branch and the entrance is at the end of a long tube.",
+   "keywords": [
+    [
+     "snake",
+     "snakes",
+     "big birds",
+     "bigger birds",
+     "predator",
+     "predators",
+     "enemy",
+     "enemies"
+    ],
+    [
+     "reach",
+     "hard",
+     "difficult",
+     "tube",
+     "hang",
+     "hangs",
+     "hanging",
+     "branch",
+     "entrance",
+     "door",
+     "get to"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The weaver changes its habitat to make a safe home. Enemies such as snakes cannot easily climb along the branch or up the tube to the eggs."
+  },
+  {
+   "id": "g3-a3-023",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Habitats",
+   "stem": "If a forest is cut down, the monkeys that live there lose their food and shelter.",
+   "answer": true,
+   "explanation": "Forest trees give monkeys food and a safe place to live. Without them the monkeys may have to move away, and some may die."
+  },
+  {
+   "id": "g3-a3-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Investigating woodlice",
+   "stem": "Joy wants to find some woodlice in her garden in Dhaka. Where is she most likely to find them?",
+   "options": [
+    "on a hot tin roof",
+    "under a damp stone in a shady corner",
+    "on a dry, sunny wall",
+    "in the middle of a bright, dry path"
+   ],
+   "answer": 1,
+   "explanation": "Woodlice prefer dark, damp places. In the class test, 9 of 10 woodlice moved to the dark, damp end of the tray."
+  },
+  {
+   "id": "g3-a3-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Investigating woodlice",
+   "stem": "In a tray, 9 of 10 woodlice moved to the dark, damp end and 1 to the light, dry end. Rafi says, 'This proves that woodlice like darkness.' What is wrong with his claim?",
+   "options": [
+    "Nothing, because 9 is more than 1.",
+    "The dark end was also damp, so we cannot tell if they chose the dark or the damp.",
+    "Woodlice cannot choose where to go.",
+    "The test needs 100 woodlice before it proves anything."
+   ],
+   "answer": 1,
+   "explanation": "Two things were different at each end: light and dampness. To test darkness alone, both ends should be equally damp and only the light should change."
+  },
+  {
+   "id": "g3-a3-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Using keys",
+   "stem": "Mina wants a key to sort a bird, a snake, a cow and a fish. Which first question splits them into two groups of two?",
+   "options": [
+    "Does it have feathers?",
+    "Does it live in water?",
+    "Does it have legs?",
+    "Is it an animal?"
+   ],
+   "answer": 2,
+   "explanation": "Bird and cow have legs; snake and fish do not. 'Feathers' and 'water' each pick out just one animal, and every one of them is an animal."
+  },
+  {
+   "id": "g3-a3-027",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Investigating woodlice",
+   "stem": "Class 3A wants to find out if woodlice prefer dark or light, not damp or dry. Which changes would make the test better? Choose all that are right.",
+   "options": [
+    "Make both ends of the tray equally damp.",
+    "Make one end dark and the other end light.",
+    "Repeat the test three times.",
+    "Put the damp paper at the dark end only.",
+    "Test only one woodlouse."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Only the light should change, so the dampness must be the same at both ends. Repeating the test makes the results more reliable. One woodlouse is not enough evidence."
+  },
+  {
+   "id": "g3-a3-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Changing the habitat",
+   "stem": "Which of these is an animal **changing its habitat**, rather than a body part that suits it?",
+   "options": [
+    "a camel's wide feet",
+    "a fish's gills",
+    "a monkey's long arms",
+    "a termite's mud mound"
+   ],
+   "answer": 3,
+   "explanation": "Wide feet, gills and long arms are adaptations of the body. A termite mound is something the animal builds, so it changes its surroundings."
+  }
+ ]
 }

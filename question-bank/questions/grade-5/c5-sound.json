@@ -1,0 +1,626 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "C5",
+ "title": "Sound",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-5-science/pdf/c5-sound-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-c5-001",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vibrations and sound waves",
+   "stem": "Every sound starts with a ___. It travels as a ___ and cannot travel through empty ___.",
+   "blanks": [
+    [
+     "vibration",
+     "vibrations"
+    ],
+    [
+     "wave",
+     "sound wave"
+    ],
+    [
+     "space"
+    ]
+   ],
+   "bank": [
+    "vibration",
+    "wave",
+    "space",
+    "light",
+    "gases"
+   ],
+   "explanation": "A vibrating object pushes on the particles next to it, and the vibration passes along as a sound wave. In empty space there are no particles, so sound cannot travel."
+  },
+  {
+   "id": "g5-c5-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vibrations and sound waves",
+   "stem": "Match each sound source to the part that vibrates.",
+   "pairs": [
+    [
+     "dhol (drum)",
+     "the drum skin"
+    ],
+    [
+     "ektara",
+     "the string"
+    ],
+    [
+     "bansuri (flute)",
+     "the air inside"
+    ],
+    [
+     "your voice",
+     "the vocal cords in your throat"
+    ]
+   ],
+   "explanation": "Hitting, plucking and blowing make different parts vibrate. When you hum, you can feel the vibration of your vocal cords with your fingers on your throat."
+  },
+  {
+   "id": "g5-c5-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How sound travels",
+   "stem": "Sound travels faster through steel than through air.",
+   "answer": true,
+   "explanation": "Sound travels at about 340 metres per second in air, 1500 in water and 5900 in steel. Particles in solids are closer together, so they pass the vibrations on faster."
+  },
+  {
+   "id": "g5-c5-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Astronauts standing on the Moon can hear each other talk without radios.",
+   "answer": false,
+   "explanation": "The Moon has no air, so there are no particles to pass the vibrations along. Sound cannot travel through empty space, so astronauts use radios."
+  },
+  {
+   "id": "g5-c5-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Pitch and frequency",
+   "stem": "Sort these changes by what they do to the pitch of a string instrument.",
+   "categories": [
+    "Higher pitch",
+    "Lower pitch"
+   ],
+   "items": [
+    [
+     "making the string shorter",
+     "Higher pitch"
+    ],
+    [
+     "making the string tighter",
+     "Higher pitch"
+    ],
+    [
+     "using a thinner string",
+     "Higher pitch"
+    ],
+    [
+     "making the string longer",
+     "Lower pitch"
+    ],
+    [
+     "making the string looser",
+     "Lower pitch"
+    ],
+    [
+     "using a thicker string",
+     "Lower pitch"
+    ]
+   ],
+   "explanation": "Short, tight, thin strings vibrate faster (a higher frequency), so they make a higher pitch. Long, loose, thick strings vibrate more slowly and make a lower pitch."
+  },
+  {
+   "id": "g5-c5-006",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Hearing and the ear",
+   "stem": "Put the steps in order to show how you hear a sound.",
+   "sequence": [
+    "The outer ear collects the sound.",
+    "The sound goes down the ear canal.",
+    "The eardrum vibrates.",
+    "Three tiny bones pass the vibrations on.",
+    "The cochlea turns them into messages.",
+    "A nerve carries the messages to the brain."
+   ],
+   "explanation": "The eardrum is a thin skin that vibrates when sound reaches it. The tiny bones pass the vibrations to the cochlea, which sends messages along a nerve to the brain."
+  },
+  {
+   "id": "g5-c5-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Pitch and frequency",
+   "stem": "The number of vibrations each second is called the frequency. It is measured in…",
+   "options": [
+    "decibels (dB)",
+    "metres per second",
+    "newtons",
+    "hertz (Hz)"
+   ],
+   "answer": 3,
+   "explanation": "Frequency is measured in hertz (Hz). A frequency of 100 Hz means 100 vibrations every second. Decibels measure loudness, not pitch."
+  },
+  {
+   "id": "g5-c5-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Pitch and frequency",
+   "stem": "Which of these would change the **pitch** of a guitar string? Choose all that are right.",
+   "options": [
+    "making the string shorter",
+    "making the string tighter",
+    "using a thinner string",
+    "plucking the string harder",
+    "plucking the string gently"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Length, tightness and thickness change how fast the string vibrates, and so the pitch. Plucking harder or more gently only changes the size of the vibrations, which changes loudness."
+  },
+  {
+   "id": "g5-c5-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Loudness and amplitude",
+   "stem": "On a wave diagram, what shows how loud the sound is?",
+   "options": [
+    "how long the diagram is",
+    "how close together the waves are",
+    "the height of the wave",
+    "the colour of the line"
+   ],
+   "answer": 2,
+   "explanation": "Taller waves mean bigger vibrations and a louder sound. How close the waves are together shows the pitch."
+  },
+  {
+   "id": "g5-c5-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How sound travels",
+   "stem": "Why do we see lightning before we hear the thunder?",
+   "model_answer": "Light travels much faster than sound, so the light reaches us first and the sound arrives later.",
+   "keywords": [
+    [
+     "light"
+    ],
+    [
+     "faster",
+     "quicker",
+     "fast",
+     "speed"
+    ],
+    [
+     "sound",
+     "slower",
+     "slowly",
+     "thunder"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Light travels almost instantly, but sound travels at only about 340 metres per second in air. The further away the storm, the longer the gap."
+  },
+  {
+   "id": "g5-c5-011",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Hearing and the ear",
+   "stem": "Which number is the eardrum, the thin skin that vibrates when sound reaches it?",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "A cross-section of the ear with parts numbered 1 to 6.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Number 3 is the eardrum. It sits at the end of the ear canal (2) and vibrates when sound waves hit it."
+  },
+  {
+   "id": "g5-c5-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Hearing and the ear",
+   "stem": "Which number is the part that turns vibrations into messages for the brain?",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "A cross-section of the ear with parts numbered 1 to 6.",
+   "options": [
+    "5",
+    "6",
+    "4",
+    "3"
+   ],
+   "answer": 0,
+   "explanation": "The cochlea (5) turns vibrations into messages. A nerve (6) then carries the messages to the brain. The tiny bones (4) only pass the vibrations on."
+  },
+  {
+   "id": "g5-c5-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Loudness and amplitude",
+   "stem": "Which wave shows the **quietest** sound with the **highest** pitch?",
+   "image": "diagrams/sound-waves-lettered.svg",
+   "image_alt": "Four sound wave drawings A to D that differ in height and in how close the waves are.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 3,
+   "explanation": "Short waves mean a quiet sound and waves close together mean a high pitch. Wave D has short waves that are close together."
+  },
+  {
+   "id": "g5-c5-014",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pitch and frequency",
+   "stem": "Look at the four wave pictures. Match each wave to the sound it shows.",
+   "image": "diagrams/sound-waves-lettered.svg",
+   "image_alt": "Four sound wave drawings A to D that differ in height and in how close the waves are.",
+   "pairs": [
+    [
+     "wave A",
+     "loud, low pitch"
+    ],
+    [
+     "wave B",
+     "quiet, low pitch"
+    ],
+    [
+     "wave C",
+     "loud, high pitch"
+    ],
+    [
+     "wave D",
+     "quiet, high pitch"
+    ]
+   ],
+   "explanation": "Height shows loudness: A and C are tall (loud), B and D are short (quiet). Closeness shows pitch: C and D have waves close together (high), A and B have waves far apart (low)."
+  },
+  {
+   "id": "g5-c5-015",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Noise and hearing protection",
+   "stem": "Use the decibel scale. Which sounds could damage hearing if you heard them for a long time? Choose all that are right.",
+   "image": "diagrams/decibel-scale.svg",
+   "image_alt": "A decibel scale from 0 to 140 with leaves 20 dB, birds 40, talking 60, traffic 80, loud music 100 and a plane 120. Sounds above 85 dB are shaded.",
+   "options": [
+    "leaves rustling",
+    "talking",
+    "traffic",
+    "loud music",
+    "a plane taking off"
+   ],
+   "answer": [
+    3,
+    4
+   ],
+   "explanation": "Sounds above about 85 dB can permanently damage hearing. Loud music (100 dB) and a plane (120 dB) are in the shaded danger zone. Traffic, at 80 dB, is just below it."
+  },
+  {
+   "id": "g5-c5-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Vibrations and sound waves",
+   "stem": "Look at the three instruments. Which one makes its sound when the air inside it vibrates?",
+   "image": "diagrams/instruments.svg",
+   "image_alt": "A dhol (drum), an ektara (string instrument) and a bansuri (flute).",
+   "options": [
+    "the dhol (drum)",
+    "the bansuri (flute)",
+    "the ektara (string)"
+   ],
+   "answer": 1,
+   "explanation": "In a bansuri, blowing across the hole makes the column of air inside vibrate. In the dhol it is the drum skin, and in the ektara it is the string."
+  },
+  {
+   "id": "g5-c5-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Pitch and frequency",
+   "stem": "An ektara player squeezes the bamboo neck to make the string tighter. What happens to the pitch?",
+   "options": [
+    "It gets higher, because the string vibrates faster.",
+    "It gets lower, because the string vibrates slower.",
+    "It gets louder, because the vibrations are bigger.",
+    "It stays the same, because the string has not got any shorter."
+   ],
+   "answer": 0,
+   "explanation": "A tighter string vibrates faster, so its frequency and pitch go up. Loudness depends on how hard the string is plucked."
+  },
+  {
+   "id": "g5-c5-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How sound travels",
+   "stem": "Whales can hear each other across hundreds of kilometres of ocean. Which fact helps to explain this?",
+   "options": [
+    "Sound travels well and fast through water.",
+    "Whale calls travel through the air above the waves.",
+    "Light travels through the ocean at the same speed as sound.",
+    "Sound is slower in water than in air, so it lasts longer."
+   ],
+   "answer": 0,
+   "explanation": "The particles of water are close together, so they pass vibrations along quickly and sound carries a long way. Sound travels about 1500 metres per second in water compared with 340 in air."
+  },
+  {
+   "id": "g5-c5-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Noise and hearing protection",
+   "stem": "Rafi's friend listens to loud music through headphones for hours every day. What is the best advice?",
+   "options": [
+    "Turn the volume up so that the quiet parts can be heard.",
+    "Keep the volume as it is, because ears get used to it.",
+    "Only music with a low pitch can harm hearing.",
+    "Turn the volume down and take breaks."
+   ],
+   "answer": 3,
+   "explanation": "Sounds louder than about 85 dB, heard for a long time, can permanently damage hearing. Ears do not get used to loud sound, and it is loudness, not pitch, that causes the harm."
+  },
+  {
+   "id": "g5-c5-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Noise and hearing protection",
+   "stem": "Bangladesh's noise rules make the areas around hospitals and schools silent zones with low noise limits, because loud noise can harm health and learning.",
+   "answer": true,
+   "explanation": "Noise can cause hearing loss, headaches, stress and poor sleep, and it makes it harder for children to concentrate. Silent zones near hospitals and schools protect people, with limits as low as 50 dB in the daytime."
+  },
+  {
+   "id": "g5-c5-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Noise and hearing protection",
+   "stem": "A busy road runs past a school in Dhaka. Which actions would help to make a quiet school zone? Choose all that are right.",
+   "options": [
+    "put up 'No horn' signs near the school",
+    "plant trees and build a wall beside the road",
+    "hang curtains in the classrooms",
+    "let drivers use loud hydraulic horns",
+    "move band practice next to the road"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Signs reduce horn use, and trees and walls block or absorb sound. Soft curtains absorb sound inside the classroom. Loud horns and extra noise make the problem worse."
+  },
+  {
+   "id": "g5-c5-022",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Pitch and frequency",
+   "stem": "In the simulation, when you increase the frequency, the waves are drawn closer together and the sound has a higher pitch.",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Single Source screen. Turn the sound on so that you can hear the speaker. Move the frequency slider from low to high and listen. Watch how close together the waves are."
+   },
+   "answer": true,
+   "explanation": "A higher frequency means more vibrations each second. The waves are closer together and the pitch is higher."
+  },
+  {
+   "id": "g5-c5-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Loudness and amplitude",
+   "stem": "What happens to the sound when you increase the amplitude and keep the frequency the same?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Single Source screen. Turn the sound on. Keep the frequency slider where it is. Move the amplitude slider from low to high, and listen and watch the waves."
+   },
+   "options": [
+    "It gets louder and the pitch goes up.",
+    "It gets quieter; the pitch stays the same.",
+    "It gets louder; the pitch stays the same.",
+    "It gets louder and the pitch goes down."
+   ],
+   "answer": 2,
+   "explanation": "Amplitude is the size of the vibrations. Bigger vibrations make a louder sound with taller waves. Pitch depends only on frequency, so it does not change."
+  },
+  {
+   "id": "g5-c5-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How sound travels",
+   "stem": "What happens to the sound as the air is taken out of the box around the speaker?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Air Pressure screen. Turn the sound on and listen. Then use the pump to take the air out of the box around the speaker, and listen again."
+   },
+   "options": [
+    "It gets louder, because the speaker has more space to move in.",
+    "It gets quieter, because fewer particles pass on the vibrations.",
+    "It stays the same, because the speaker keeps vibrating just as much.",
+    "It gets higher in pitch, because there is less air."
+   ],
+   "answer": 1,
+   "explanation": "Sound needs particles to pass the vibrations along. With less air there are fewer particles, so less sound reaches your ear. In a vacuum there would be no sound at all."
+  },
+  {
+   "id": "g5-c5-025",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Loudness and amplitude",
+   "stem": "In the simulation, on both the Water screen and the Sound screen, a bigger amplitude makes taller waves.",
+   "sim": {
+    "id": "waves-intro",
+    "task": "Open Waves Intro. On the Water screen, move the amplitude slider up and watch the waves. Then choose the Sound screen, turn the sound on, and move the amplitude slider up again."
+   },
+   "answer": true,
+   "explanation": "Amplitude is the size of the wave. A bigger amplitude gives taller water waves and a louder sound. Waves on different screens follow the same rule."
+  },
+  {
+   "id": "g5-c5-026",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "How sound travels",
+   "stem": "You hear thunder 3 seconds after you see the lightning. Sound travels about 340 metres each second in air, so the storm is about ___ metres away.",
+   "blanks": [
+    [
+     "1020",
+     "1,020",
+     "1 020"
+    ]
+   ],
+   "explanation": "Light reaches you almost at once, so the 3 seconds is the time taken by the sound. Distance = 340 m/s × 3 s = 1020 m, which is just over 1 km."
+  },
+  {
+   "id": "g5-c5-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Pitch and frequency",
+   "stem": "Tania twanged a ruler over the edge of a table and a sound app measured the frequency (example results). With 10 cm over the edge it was 120 Hz, 15 cm gave 55 Hz, 20 cm gave 30 Hz and 25 cm gave 20 Hz. What is the best prediction for 12 cm?",
+   "options": [
+    "about 90 Hz",
+    "about 40 Hz",
+    "about 20 Hz",
+    "about 130 Hz"
+   ],
+   "answer": 0,
+   "explanation": "The frequency falls as more ruler sticks out. 12 cm lies between 10 cm (120 Hz) and 15 cm (55 Hz), so the frequency must lie between 55 and 120 Hz. About 90 Hz fits."
+  },
+  {
+   "id": "g5-c5-028",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Noise and hearing protection",
+   "stem": "A class measured the loudness at four places with a sound meter app (example readings): school library 35 dB, classroom 60 dB, busy road outside school 85 dB, bus horn nearby 110 dB. A silent zone near a school can have a limit as low as 50 dB in the daytime. Which places are louder than this limit? Choose all that are right.",
+   "options": [
+    "school library",
+    "classroom",
+    "busy road outside school",
+    "bus horn nearby"
+   ],
+   "answer": [
+    1,
+    2,
+    3
+   ],
+   "explanation": "Only the library (35 dB) is below 50 dB. The classroom (60), busy road (85) and bus horn (110) are all above it. The road and the horn are also loud enough to harm hearing over time."
+  },
+  {
+   "id": "g5-c5-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Noise and hearing protection",
+   "stem": "Explain why a very loud horn can harm the ear. Use what you know about the eardrum.",
+   "model_answer": "A very loud sound makes very big vibrations. These make the eardrum and the tiny parts of the cochlea vibrate very strongly, which can damage them and cause hearing loss.",
+   "keywords": [
+    [
+     "big",
+     "large",
+     "strong",
+     "strongly",
+     "loud",
+     "bigger"
+    ],
+    [
+     "eardrum",
+     "drum",
+     "cochlea",
+     "ear",
+     "bones"
+    ],
+    [
+     "damage",
+     "damaged",
+     "harm",
+     "hurt",
+     "hearing loss",
+     "break"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Loudness depends on the size of the vibrations. Very large vibrations can damage the eardrum and the delicate cochlea, and the damage can be permanent."
+  },
+  {
+   "id": "g5-c5-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "How sound travels",
+   "stem": "A boy taps a long steel rail. His sister at the far end hears two taps: one through the rail and one through the air. Which tap does she hear first, and why?",
+   "options": [
+    "They arrive together, because they come from the same tap.",
+    "The tap through the air, because air is lighter and easier to move.",
+    "The tap through the rail, because steel carries vibrations faster.",
+    "The tap through the air, because it is louder."
+   ],
+   "answer": 2,
+   "explanation": "Sound travels at about 5900 metres per second in steel but only 340 in air. The vibrations in the steel get to her ear first, and the sound through the air arrives later."
+  }
+ ]
+}

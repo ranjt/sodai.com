@@ -1,0 +1,642 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "A5",
+ "title": "Food Chains and Energy Roles",
+ "strand": "living",
+ "worksheet": "worksheets/grade-3-science/pdf/a5-food-chains-and-energy-roles-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-a5-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Every food chain starts with a…",
+   "options": [
+    "consumer",
+    "predator",
+    "decomposer",
+    "producer"
+   ],
+   "answer": 3,
+   "explanation": "Producers are green plants. They make their own food using sunlight, water and air, so every food chain begins with one."
+  },
+  {
+   "id": "g3-a5-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Sort these living things into producers, consumers and decomposers.",
+   "categories": [
+    "Producer",
+    "Consumer",
+    "Decomposer"
+   ],
+   "items": [
+    [
+     "rice plant",
+     "Producer"
+    ],
+    [
+     "sunflower",
+     "Producer"
+    ],
+    [
+     "cow",
+     "Consumer"
+    ],
+    [
+     "eagle",
+     "Consumer"
+    ],
+    [
+     "grasshopper",
+     "Consumer"
+    ],
+    [
+     "mushroom",
+     "Decomposer"
+    ],
+    [
+     "mould",
+     "Decomposer"
+    ],
+    [
+     "earthworm",
+     "Decomposer"
+    ]
+   ],
+   "explanation": "Plants make their own food. Animals eat living plants or animals. Mushrooms, moulds and worms break down dead things."
+  },
+  {
+   "id": "g3-a5-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Building food chains",
+   "stem": "In a food chain, the arrows point from the ___ to the animal that eats it.",
+   "blanks": [
+    [
+     "food",
+     "plant or animal that is eaten",
+     "prey"
+    ]
+   ],
+   "bank": [
+    "food",
+    "Sun",
+    "predator",
+    "soil"
+   ],
+   "explanation": "An arrow means 'is eaten by'. So grass → goat shows that the goat eats the grass."
+  },
+  {
+   "id": "g3-a5-004",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Match each word to what it means.",
+   "pairs": [
+    [
+     "producer",
+     "makes its own food using sunlight"
+    ],
+    [
+     "consumer",
+     "eats living plants or animals"
+    ],
+    [
+     "decomposer",
+     "breaks down dead things into the soil"
+    ],
+    [
+     "predator",
+     "hunts other animals"
+    ],
+    [
+     "prey",
+     "is hunted and eaten"
+    ]
+   ],
+   "explanation": "A predator hunts prey. A tiger is a consumer and a predator, and the deer it hunts is its prey."
+  },
+  {
+   "id": "g3-a5-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Animals can make their own food using sunlight.",
+   "answer": false,
+   "explanation": "Only green plants make their own food from sunlight. Animals are consumers: they must eat plants or other animals."
+  },
+  {
+   "id": "g3-a5-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Why are decomposers important?",
+   "options": [
+    "They hunt other animals so the predators have less food.",
+    "They make food from sunlight for every animal in the chain.",
+    "They break dead things down into goodness for the soil.",
+    "They stop plants and animals from ever dying."
+   ],
+   "answer": 2,
+   "explanation": "Decomposers recycle dead plants and animals into goodness in the soil, which helps new plants grow. Without them dead leaves and animals would pile up everywhere."
+  },
+  {
+   "id": "g3-a5-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Building food chains",
+   "stem": "Put this rice-field food chain in order, starting with the producer.",
+   "sequence": [
+    "grass",
+    "grasshopper",
+    "frog",
+    "snake"
+   ],
+   "explanation": "The grasshopper eats the grass, the frog eats the grasshopper and the snake eats the frog. The arrows point along the chain."
+  },
+  {
+   "id": "g3-a5-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Which of these are decomposers? Choose all that are right.",
+   "options": [
+    "mushrooms",
+    "earthworms",
+    "mould",
+    "grass",
+    "tigers"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Mushrooms and moulds (fungi) and earthworms break down dead things. Grass is a producer and tigers are consumers."
+  },
+  {
+   "id": "g3-a5-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Without ___, dead leaves and animals would pile up everywhere.",
+   "blanks": [
+    [
+     "decomposers",
+     "decomposer"
+    ]
+   ],
+   "bank": [
+    "decomposers",
+    "producers",
+    "predators"
+   ],
+   "explanation": "Decomposers such as worms, mushrooms and microbes break down dead things so that their goodness can return to the soil."
+  },
+  {
+   "id": "g3-a5-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Predicting changes",
+   "stem": "If the predators of an animal disappear, the number of that animal often goes up.",
+   "answer": true,
+   "explanation": "With fewer predators to eat them, more of the prey animals survive. This pattern helps us predict what happens in a food chain."
+  },
+  {
+   "id": "g3-a5-011",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Predicting changes",
+   "stem": "In the food chain grass → grasshopper → frog → snake, all the frogs are caught and sold. What happens to the grasshoppers and to the snakes?",
+   "model_answer": "There will be more grasshoppers because no frogs eat them, and the snakes will have less food.",
+   "keywords": [
+    [
+     "more",
+     "increase",
+     "increases",
+     "go up",
+     "many",
+     "lots"
+    ],
+    [
+     "less food",
+     "less to eat",
+     "fewer",
+     "hungry",
+     "starve",
+     "not enough",
+     "less"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "No frogs means fewer predators for the grasshoppers, so their number rises. The snakes lose their food, so there will be fewer of them."
+  },
+  {
+   "id": "g3-a5-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Where does the energy in a food chain first come from?",
+   "options": [
+    "the soil",
+    "the Sun",
+    "the water",
+    "the wind"
+   ],
+   "answer": 1,
+   "explanation": "Producers use sunlight to make their own food. Consumers get that energy when they eat the plants, or eat animals that ate the plants."
+  },
+  {
+   "id": "g3-a5-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Decomposers turn dead things back into goodness in the ___, which helps new plants grow.",
+   "blanks": [
+    [
+     "soil",
+     "ground",
+     "earth"
+    ]
+   ],
+   "bank": [
+    "soil",
+    "air",
+    "sky"
+   ],
+   "explanation": "Decomposers recycle what was once living. The goodness they add to the soil is used by new plants."
+  },
+  {
+   "id": "g3-a5-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Look at the food chain. Which living thing is the **producer**?",
+   "image": "diagrams/food-chain-rice-field.svg",
+   "image_alt": "A food chain in a rice field: grass, then grasshopper, then frog, then snake.",
+   "options": [
+    "grass",
+    "snake",
+    "frog",
+    "grasshopper"
+   ],
+   "answer": 0,
+   "explanation": "Grass is a green plant that makes its own food using sunlight, so it is the producer. The other three are consumers."
+  },
+  {
+   "id": "g3-a5-015",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Look at the food chain. Which of these are consumers? Choose all that are right.",
+   "image": "diagrams/food-chain-rice-field.svg",
+   "image_alt": "A food chain in a rice field: grass, then grasshopper, then frog, then snake.",
+   "options": [
+    "grass",
+    "grasshopper",
+    "frog",
+    "snake"
+   ],
+   "answer": [
+    1,
+    2,
+    3
+   ],
+   "explanation": "The grasshopper, frog and snake are animals that eat other living things, so they are consumers. Grass is the producer."
+  },
+  {
+   "id": "g3-a5-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Building food chains",
+   "stem": "Look at the Sundarbans food chain. What does the arrow from the deer to the tiger mean?",
+   "image": "diagrams/food-chain-sundarbans.svg",
+   "image_alt": "A food chain in the Sundarbans: leaves, then deer, then tiger.",
+   "options": [
+    "The deer follows the tiger.",
+    "The tiger is bigger than the deer.",
+    "The tiger eats the deer.",
+    "The deer eats the tiger."
+   ],
+   "answer": 2,
+   "explanation": "An arrow points from the food to the animal that eats it. So the arrow from the deer to the tiger means that the tiger eats the deer."
+  },
+  {
+   "id": "g3-a5-017",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Building food chains",
+   "stem": "Use the pictures to build a food chain. Start with the producer.",
+   "sequence": [
+    {
+     "text": "leaves",
+     "image": "openmoji/leafy-green.svg"
+    },
+    {
+     "text": "caterpillar",
+     "image": "openmoji/caterpillar.svg"
+    },
+    {
+     "text": "bird",
+     "image": "openmoji/bird.svg"
+    }
+   ],
+   "explanation": "Leaves are the producer. The caterpillar eats the leaves and the bird eats the caterpillar: leaves → caterpillar → bird."
+  },
+  {
+   "id": "g3-a5-018",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Sort the pictures by the job each living thing does.",
+   "categories": [
+    "Producer",
+    "Consumer",
+    "Decomposer"
+   ],
+   "items": [
+    [
+     {
+      "text": "rice plant",
+      "image": "openmoji/rice-plant.svg"
+     },
+     "Producer"
+    ],
+    [
+     {
+      "text": "sunflower",
+      "image": "openmoji/sunflower.svg"
+     },
+     "Producer"
+    ],
+    [
+     {
+      "text": "deer",
+      "image": "openmoji/deer.svg"
+     },
+     "Consumer"
+    ],
+    [
+     {
+      "text": "tiger",
+      "image": "openmoji/tiger.svg"
+     },
+     "Consumer"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "Consumer"
+    ],
+    [
+     {
+      "text": "mushroom",
+      "image": "openmoji/mushroom.svg"
+     },
+     "Decomposer"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "Decomposer"
+    ]
+   ],
+   "explanation": "Plants are producers, animals that eat are consumers, and mushrooms and worms are decomposers."
+  },
+  {
+   "id": "g3-a5-019",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Building food chains",
+   "stem": "Match each animal to its food.",
+   "pairs": [
+    [
+     {
+      "text": "goat",
+      "image": "openmoji/goat.svg"
+     },
+     "grass"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "grasshoppers"
+    ],
+    [
+     {
+      "text": "tiger",
+      "image": "openmoji/tiger.svg"
+     },
+     "deer"
+    ]
+   ],
+   "explanation": "A goat eats grass, a frog eats grasshoppers and a tiger eats deer. Each pair is one link in a food chain."
+  },
+  {
+   "id": "g3-a5-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Predicting changes",
+   "stem": "In a rice field, people catch and sell most of the frogs. What is likely to happen to the insects that eat the rice?",
+   "options": [
+    "They stay exactly the same.",
+    "Their numbers go up.",
+    "Their numbers go down.",
+    "They all fly away."
+   ],
+   "answer": 1,
+   "explanation": "Frogs eat insects. With fewer frogs, more insects survive and they eat more of the rice. That is why many farmers now protect frogs."
+  },
+  {
+   "id": "g3-a5-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Investigating decay",
+   "stem": "Class 3C kept three slices of bread in bags (example results). Dry bread: no mould after 7 days. Damp bread in a warm room: mould after 3 days. Damp bread in the fridge: mould after 7 days. Which bread went mouldy first?",
+   "options": [
+    "the damp bread in the warm room",
+    "the damp bread in the fridge",
+    "the dry bread in the bag",
+    "the three slices all at the same time"
+   ],
+   "answer": 0,
+   "explanation": "Mould is a decomposer that grows best where it is damp and warm. The damp slice in the warm room went mouldy after only 3 days."
+  },
+  {
+   "id": "g3-a5-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Investigating decay",
+   "stem": "Class 3C finds a bag with mouldy bread. To check it, they open the bag and smell the bread.",
+   "answer": false,
+   "explanation": "Never open the bag or smell mouldy bread. Mould can make you ill. Throw the bags away sealed and wash your hands."
+  },
+  {
+   "id": "g3-a5-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "Mina puts fruit peels and fallen leaves in a heap in the garden. After some weeks the heap has become dark, crumbly soil. Which living things did this work?",
+   "options": [
+    "goats that eat the fruit peels",
+    "snakes that hunt in the heap",
+    "grass that grows on the heap",
+    "worms, mould and microbes"
+   ],
+   "answer": 3,
+   "explanation": "Worms, moulds and microbes are decomposers. They break down the peels and leaves into goodness for the soil."
+  },
+  {
+   "id": "g3-a5-024",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Predicting changes",
+   "stem": "Frogs live in many rice fields in Bangladesh. How can frogs help rice farmers?",
+   "model_answer": "Frogs eat the insects that damage the rice, so farmers need to use less poison on their crops.",
+   "keywords": [
+    [
+     "eat",
+     "eats",
+     "hunt",
+     "hunts",
+     "feed",
+     "catch",
+     "catches"
+    ],
+    [
+     "insect",
+     "insects",
+     "pests",
+     "pest",
+     "damage",
+     "grasshoppers",
+     "bugs"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Frogs are predators of insects that damage rice. When farmers protect the frogs, they need fewer pesticides."
+  },
+  {
+   "id": "g3-a5-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Predicting changes",
+   "stem": "In a rice field the chain is grass → grasshopper → frog → snake. A farmer sprays poison that kills most of the grasshoppers. What is most likely to happen next?",
+   "options": [
+    "Frogs and snakes will have less to eat.",
+    "The snakes will start eating the grass.",
+    "The frogs will find more food than before.",
+    "Nothing will change for frogs or snakes."
+   ],
+   "answer": 0,
+   "explanation": "Fewer grasshoppers means less food for the frogs, and fewer frogs means less food for the snakes. A change at one link affects the whole chain."
+  },
+  {
+   "id": "g3-a5-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Predicting changes",
+   "stem": "In the Sundarbans chain leaves → deer → tiger, the number of deer falls a lot. Which prediction is the best?",
+   "options": [
+    "Tigers will have more food, so there will be more tigers.",
+    "The leaves will disappear because deer protect them.",
+    "Tigers will have less food, and more leaves will be left.",
+    "Nothing will change because tigers can eat leaves."
+   ],
+   "answer": 2,
+   "explanation": "Fewer deer eat fewer leaves, so more leaves are left. Tigers eat deer, so they will have less food. Predators suffer when their prey becomes scarce."
+  },
+  {
+   "id": "g3-a5-027",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Producers, consumers and decomposers",
+   "stem": "If all the decomposers in a forest died, dead leaves and animals would pile up and less goodness would return to the soil for new plants.",
+   "answer": true,
+   "explanation": "Decomposers recycle dead things into goodness in the soil. Without them, dead material piles up and plants would have less goodness to grow with."
+  },
+  {
+   "id": "g3-a5-028",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Investigating decay",
+   "stem": "Class 3C bread results (example): dry bread, no mould after 7 days; damp bread in a warm room, mould after 3 days; damp bread in the fridge, mould after 7 days. Which statements does the evidence support? Choose all that are right.",
+   "options": [
+    "Mould grew faster on damp bread than on dry bread.",
+    "Mould grew faster in the warm room than in the fridge.",
+    "Mould only ever grows on dry bread.",
+    "Bread in a fridge can never go mouldy."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Both damp slices went mouldy, but the dry one did not, so damp helps mould. The warm slice went mouldy sooner than the fridge slice. The fridge slice did go mouldy after 7 days."
+  }
+ ]
+}

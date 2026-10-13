@@ -1,0 +1,5376 @@
+{
+ "grade": 0,
+ "grade_name": "KG",
+ "questions": [
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "Which part do we see with?",
+   "options": [
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
+    },
+    {
+     "text": "nose",
+     "image": "openmoji/nose.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "We see with our eyes. Ears are for hearing and the nose is for smelling."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-002",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "We smell with our ___.",
+   "blanks": [
+    [
+     "nose",
+     "noses"
+    ]
+   ],
+   "bank": [
+    "nose",
+    "ears",
+    "hands"
+   ],
+   "read_aloud": true,
+   "explanation": "We smell with our nose. Breathe in and sniff a flower!"
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-003",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Matching senses to things",
+   "stem": "Match each part to what it finds out.",
+   "pairs": [
+    [
+     {
+      "text": "eyes",
+      "image": "openmoji/eye.svg"
+     },
+     {
+      "text": "rainbow",
+      "image": "openmoji/rainbow.svg"
+     }
+    ],
+    [
+     {
+      "text": "ears",
+      "image": "openmoji/ear.svg"
+     },
+     {
+      "text": "bell",
+      "image": "openmoji/bell.svg"
+     }
+    ],
+    [
+     {
+      "text": "nose",
+      "image": "openmoji/nose.svg"
+     },
+     {
+      "text": "flower",
+      "image": "openmoji/rose.svg"
+     }
+    ],
+    [
+     {
+      "text": "tongue",
+      "image": "openmoji/tongue.svg"
+     },
+     {
+      "text": "lemon",
+      "image": "openmoji/lemon.svg"
+     }
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Eyes see colours, ears hear sounds, a nose smells flowers and a tongue tastes a sour lemon."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "Which part do we taste with?",
+   "options": [
+    {
+     "text": "tongue",
+     "image": "openmoji/tongue.svg"
+    },
+    {
+     "text": "hand",
+     "image": "openmoji/hand.svg"
+    },
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "We taste with our tongue. It tells us if food is sweet or sour."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Asking questions",
+   "stem": "Scientists ask questions.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes! Scientists ask \"What is it?\" and \"What will happen if…?\" Asking questions helps us learn."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-006",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Science tools",
+   "stem": "Rafi wants to see a tiny ant. Which tool helps?",
+   "options": [
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    },
+    {
+     "text": "magnifying glass",
+     "image": "openmoji/magnifying-glass.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A magnifying glass makes small things look bigger, so we can look closely."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-007",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Science tools",
+   "stem": "Tap all the tools a scientist uses.",
+   "options": [
+    {
+     "text": "magnifying glass",
+     "image": "openmoji/magnifying-glass.svg"
+    },
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    },
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "thermometer",
+     "image": "openmoji/thermometer.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Scientists look closely with a magnifying glass, measure with a ruler and check how hot things are with a thermometer. A lollipop and a teddy are not tools."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-008",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Comparing by touch",
+   "stem": "Feel and sort. Is it soft or hard?",
+   "categories": [
+    "Soft",
+    "Hard"
+   ],
+   "items": [
+    [
+     {
+      "text": "sponge",
+      "image": "openmoji/sponge.svg"
+     },
+     "Soft"
+    ],
+    [
+     {
+      "text": "teddy bear",
+      "image": "openmoji/teddy-bear.svg"
+     },
+     "Soft"
+    ],
+    [
+     {
+      "text": "wool",
+      "image": "openmoji/yarn.svg"
+     },
+     "Soft"
+    ],
+    [
+     {
+      "text": "brick",
+      "image": "openmoji/brick.svg"
+     },
+     "Hard"
+    ],
+    [
+     {
+      "text": "rock",
+      "image": "openmoji/rock.svg"
+     },
+     "Hard"
+    ],
+    [
+     {
+      "text": "spoon",
+      "image": "openmoji/spoon.svg"
+     },
+     "Hard"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A sponge, a teddy and wool are soft and squishy. A brick, a rock and a spoon are hard."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Guess and try",
+   "stem": "Put the science steps in order.",
+   "sequence": [
+    "Ask a question",
+    "Make a guess",
+    "Try it out",
+    "Look at what happened"
+   ],
+   "read_aloud": true,
+   "explanation": "A scientist asks a question, makes a guess, tries it out, and then looks to see what happened."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-010",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Guess and try",
+   "stem": "Which one will float in water?",
+   "options": [
+    {
+     "text": "key",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "coin",
+     "image": "openmoji/coin.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Wood floats on water. A key and a coin are heavy for their size, so they sink."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-011",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Guess and try",
+   "stem": "Tap all the things that float.",
+   "options": [
+    {
+     "text": "leaf",
+     "image": "openmoji/fallen-leaf.svg"
+    },
+    {
+     "text": "key",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "stone",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "coin",
+     "image": "openmoji/coin.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "A leaf, a ball and wood float on water. A rock, a key and a coin sink. Try it in a bowl of water to check!"
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-012",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Comparing guess and result",
+   "stem": "Rafi guessed a key would float. It sank. His guess was wrong.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Scientists check their guess by trying it. Rafi saw the key sink, so his guess was wrong, and that is fine because we learn something."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Using senses safely",
+   "stem": "Nadia finds a berry in the garden. What should she do?",
+   "options": [
+    {
+     "text": "Taste it",
+     "image": "openmoji/mouth.svg"
+    },
+    {
+     "text": "Ask a grown-up first",
+     "image": "openmoji/adult.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Only taste food that a grown-up gives you. Some berries are not safe to eat, so always ask a grown-up first."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-014",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Five senses",
+   "stem": "Anika feels something in a bag. Which part helps her?",
+   "options": [
+    {
+     "text": "hand",
+     "image": "openmoji/hand.svg"
+    },
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
+    },
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "We touch and feel with our hands. Our skin tells us if something is soft, hard, hot or cold."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Recording and comparing",
+   "stem": "We heard 4 birds, 6 cars, 2 bells. Which was most?",
+   "options": [
+    {
+     "text": "car",
+     "image": "openmoji/car.svg"
+    },
+    {
+     "text": "bell",
+     "image": "openmoji/bell.svg"
+    },
+    {
+     "text": "bird",
+     "image": "openmoji/bird.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Count and compare: 6 is more than 4 and more than 2. We heard the most cars."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-016",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Comparing things",
+   "stem": "Put them in order, smallest to biggest.",
+   "sequence": [
+    {
+     "text": "ant",
+     "image": "openmoji/ant.svg"
+    },
+    {
+     "text": "mouse",
+     "image": "openmoji/mouse.svg"
+    },
+    {
+     "text": "cat",
+     "image": "openmoji/cat.svg"
+    },
+    {
+     "text": "elephant",
+     "image": "openmoji/elephant.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "We compare things to see which is bigger. An ant is the smallest, then a mouse, a cat and an elephant is the biggest."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Science tools",
+   "stem": "Match each tool to its job.",
+   "pairs": [
+    [
+     {
+      "text": "magnifying glass",
+      "image": "openmoji/magnifying-glass.svg"
+     },
+     "look closely"
+    ],
+    [
+     {
+      "text": "ruler",
+      "image": "openmoji/ruler.svg"
+     },
+     "measure"
+    ],
+    [
+     {
+      "text": "camera",
+      "image": "openmoji/camera.svg"
+     },
+     "take a picture"
+    ],
+    [
+     {
+      "text": "pencil",
+      "image": "openmoji/pencil.svg"
+     },
+     "draw what I see"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A magnifying glass helps us look closely, a ruler measures, a camera takes a picture and a pencil draws what we see."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-018",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Recording what we find",
+   "stem": "We can draw a picture to show what we found.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Scientists draw, take pictures and colour graphs so they can remember and tell others what they found."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-019",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Five senses",
+   "stem": "Eyes shut, you shake a box. Which two parts help?",
+   "options": [
+    {
+     "text": "eyes",
+     "image": "openmoji/eye.svg"
+    },
+    {
+     "text": "hands",
+     "image": "openmoji/hand.svg"
+    },
+    {
+     "text": "ears",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "tongue",
+     "image": "openmoji/tongue.svg"
+    }
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "Your hands feel the box shake and your ears hear the rattle. Your eyes are shut, so they cannot help."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "W1",
+   "title": "Little Explorers",
+   "strand": "skills",
+   "site_skill": "W1",
+   "worksheet": "worksheets/kg-science/pdf/w1-little-explorers-study-pack.pdf",
+   "id": "kg-w1-020",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Guess and try",
+   "stem": "Raju says the stone floats. Mina says it sinks. What next?",
+   "options": [
+    "Vote with friends.",
+    "Guess again.",
+    "Try it in water."
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "We find out by trying it! Put the stone in water and look. Voting or guessing again cannot tell us what really happens."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-001",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living or non-living",
+   "stem": "A dog is a living thing.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. A dog grows, eats, moves and has puppies, so it is living."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Living or non-living",
+   "stem": "Sort the pictures. Living or non-living?",
+   "categories": [
+    "Living",
+    "Non-living"
+   ],
+   "items": [
+    [
+     {
+      "text": "cat",
+      "image": "openmoji/cat.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "flower",
+      "image": "openmoji/rose.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "ant",
+      "image": "openmoji/ant.svg"
+     },
+     "Living"
+    ],
+    [
+     {
+      "text": "teddy bear",
+      "image": "openmoji/teddy-bear.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "car",
+      "image": "openmoji/car.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "chair",
+      "image": "openmoji/chair.svg"
+     },
+     "Non-living"
+    ],
+    [
+     {
+      "text": "rock",
+      "image": "openmoji/rock.svg"
+     },
+     "Non-living"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Cats, fish, flowers and ants grow, need food or water, and make young. A teddy, a car, a chair and a rock were never alive."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living or non-living",
+   "stem": "Which one is a living thing?",
+   "options": [
+    {
+     "text": "rock",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "chair",
+     "image": "openmoji/chair.svg"
+    },
+    {
+     "text": "tree",
+     "image": "openmoji/palm-tree.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A tree grows, drinks water and makes seeds, so it is living. A rock and a chair do not grow."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living or non-living",
+   "stem": "Which one is a non-living thing?",
+   "options": [
+    {
+     "text": "car",
+     "image": "openmoji/car.svg"
+    },
+    {
+     "text": "flower",
+     "image": "openmoji/rose.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A car was never alive. It does not grow, eat or have babies. A fish and a flower are living."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Needs of living things",
+   "stem": "A plant needs water and ___ to grow.",
+   "blanks": [
+    [
+     "sunlight",
+     "light",
+     "sun",
+     "sunshine"
+    ]
+   ],
+   "bank": [
+    "sunlight",
+    "toys",
+    "sweets"
+   ],
+   "read_aloud": true,
+   "explanation": "Plants drink water and need sunlight to grow. Toys and sweets are not food for plants."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Living or non-living",
+   "stem": "A rock can grow like a plant.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. A rock is non-living. It does not grow, eat or have babies. A plant grows from a tiny seed."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-007",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Needs of living things",
+   "stem": "Tap all the things living things need.",
+   "options": [
+    {
+     "text": "water",
+     "image": "openmoji/water-glass.svg"
+    },
+    {
+     "text": "food",
+     "image": "openmoji/bread.svg"
+    },
+    {
+     "text": "TV",
+     "image": "openmoji/television.svg"
+    },
+    {
+     "text": "a home",
+     "image": "openmoji/house.svg"
+    },
+    {
+     "text": "a toy",
+     "image": "openmoji/teddy-bear.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "read_aloud": true,
+   "explanation": "Living things need food, water, air, a home and care. A TV and a toy are fun, but we do not need them to live."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-008",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Growing and babies",
+   "stem": "Match each baby to its grown-up.",
+   "pairs": [
+    [
+     {
+      "text": "chick",
+      "image": "openmoji/baby-chick.svg"
+     },
+     {
+      "text": "hen",
+      "image": "openmoji/chicken.svg"
+     }
+    ],
+    [
+     {
+      "text": "little plant",
+      "image": "openmoji/seedling.svg"
+     },
+     {
+      "text": "tree",
+      "image": "openmoji/palm-tree.svg"
+     }
+    ],
+    [
+     {
+      "text": "baby",
+      "image": "openmoji/baby.svg"
+     },
+     {
+      "text": "grown-up",
+      "image": "openmoji/adult.svg"
+     }
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Living things grow up. A chick grows into a hen, a little plant grows into a tree and a baby grows into a grown-up."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Growing and babies",
+   "stem": "Put Mina's seed story in order.",
+   "sequence": [
+    "Mina plants a seed.",
+    "She gives it water and sun.",
+    "A green shoot comes up.",
+    "It grows into a sunflower."
+   ],
+   "read_aloud": true,
+   "explanation": "A seed in soil needs water and sunshine. It sends up a green shoot and slowly grows into a tall plant."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-010",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Looking after living things",
+   "stem": "Mina's plant looks droopy and dry. What does it need?",
+   "options": [
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "water",
+     "image": "openmoji/watering-can.svg"
+    },
+    {
+     "text": "a toy",
+     "image": "openmoji/teddy-bear.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A dry, droopy plant needs water. Sweets and toys cannot help a plant."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-011",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Looking after living things",
+   "stem": "Nadia has a kitten. Tap what the kitten needs.",
+   "options": [
+    {
+     "text": "fish to eat",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "water",
+     "image": "openmoji/water-glass.svg"
+    },
+    {
+     "text": "TV",
+     "image": "openmoji/television.svg"
+    },
+    {
+     "text": "a safe home",
+     "image": "openmoji/house.svg"
+    },
+    {
+     "text": "a car",
+     "image": "openmoji/car.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "read_aloud": true,
+   "explanation": "A kitten needs food, water and a safe, warm home, like all animals. A TV or a car is of no use to it."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Safe exploring",
+   "stem": "Joy sees a strange bug. What should he do?",
+   "options": [
+    {
+     "text": "Pick it up",
+     "image": "openmoji/hand.svg"
+    },
+    {
+     "text": "Look with my eyes",
+     "image": "openmoji/eye.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Look with your eyes and do not touch bugs you do not know. Some can bite or sting. Wash your hands after exploring."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "remember",
+   "subskill": "Cells",
+   "stem": "What do we need to see cells?",
+   "options": [
+    {
+     "text": "camera",
+     "image": "openmoji/camera.svg"
+    },
+    {
+     "text": "ruler",
+     "image": "openmoji/ruler.svg"
+    },
+    {
+     "text": "microscope",
+     "image": "openmoji/microscope.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Cells are the tiny building blocks of living things. They are so small that we need a microscope to see them."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-014",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "remember",
+   "subskill": "Cells",
+   "stem": "Living things are made of tiny ___.",
+   "blanks": [
+    [
+     "cells",
+     "cell"
+    ]
+   ],
+   "bank": [
+    "cells",
+    "rocks",
+    "toys"
+   ],
+   "read_aloud": true,
+   "explanation": "All living things are made of tiny parts called cells. Cells are so small we need a microscope to see them."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Living or non-living",
+   "stem": "Which one can grow, eat and have babies?",
+   "options": [
+    {
+     "text": "cow",
+     "image": "openmoji/cow.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "chair",
+     "image": "openmoji/chair.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A cow grows, eats grass and has calves. A ball and a chair are non-living."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Counting what we found",
+   "stem": "We found 5 ants, 3 birds, 2 flowers. Which was most?",
+   "options": [
+    {
+     "text": "ant",
+     "image": "openmoji/ant.svg"
+    },
+    {
+     "text": "bird",
+     "image": "openmoji/bird.svg"
+    },
+    {
+     "text": "flower",
+     "image": "openmoji/rose.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Count and compare: 5 is more than 3 and more than 2. We found the most ants."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-017",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Growing and babies",
+   "stem": "A plant grows from a tiny seed.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Plants are living things. A seed grows into a little plant and then a big plant."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Living or non-living",
+   "stem": "A toy car moves. A snail moves. Which one is living?",
+   "options": [
+    {
+     "text": "toy car",
+     "image": "openmoji/car.svg"
+    },
+    {
+     "text": "snail",
+     "image": "openmoji/snail.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Moving is not enough. A snail eats, grows and has babies. A toy car only moves when someone pushes it or it has a motor."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-019",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Growing and babies",
+   "stem": "Put the chick pictures in order.",
+   "sequence": [
+    {
+     "text": "egg",
+     "image": "openmoji/egg.svg"
+    },
+    {
+     "text": "hatching",
+     "image": "openmoji/hatching-chick.svg"
+    },
+    {
+     "text": "chick",
+     "image": "openmoji/baby-chick.svg"
+    },
+    {
+     "text": "hen",
+     "image": "openmoji/chicken.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "A chick grows inside an egg. It hatches, is a fluffy chick, and then grows into a hen."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A1",
+   "title": "Living and Non-living Things",
+   "strand": "living",
+   "site_skill": "L1",
+   "worksheet": "worksheets/kg-science/pdf/a1-living-and-non-living-things-study-pack.pdf",
+   "id": "kg-a1-020",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Living or non-living",
+   "stem": "A teddy bear is a living thing.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. A teddy bear does not eat, grow or have babies. It was never alive."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-001",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How animals move",
+   "stem": "Match each animal to how it moves.",
+   "pairs": [
+    [
+     {
+      "text": "rabbit",
+      "image": "openmoji/rabbit.svg"
+     },
+     "hops"
+    ],
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "flies"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "swims"
+    ],
+    [
+     {
+      "text": "snail",
+      "image": "openmoji/snail.svg"
+     },
+     "slides"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Rabbits hop, birds fly, fish swim and snails slide along slowly. Animals move in different ways."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-002",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "How animals move",
+   "stem": "Tap all the animals that can fly.",
+   "options": [
+    {
+     "text": "bird",
+     "image": "openmoji/bird.svg"
+    },
+    {
+     "text": "butterfly",
+     "image": "openmoji/butterfly.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "cow",
+     "image": "openmoji/cow.svg"
+    },
+    {
+     "text": "bee",
+     "image": "openmoji/honeybee.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Birds have wings and feathers. Butterflies and bees are insects with wings, so they fly too. Fish swim and cows walk."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Animals and plants",
+   "stem": "Which one is an animal?",
+   "options": [
+    {
+     "text": "tree",
+     "image": "openmoji/palm-tree.svg"
+    },
+    {
+     "text": "duck",
+     "image": "openmoji/duck.svg"
+    },
+    {
+     "text": "flower",
+     "image": "openmoji/rose.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A duck is an animal. It moves, eats and has ducklings. A tree and a flower are plants."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-004",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Where animals live",
+   "stem": "Tap all the animals that live in water.",
+   "options": [
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "cat",
+     "image": "openmoji/cat.svg"
+    },
+    {
+     "text": "crab",
+     "image": "openmoji/crab.svg"
+    },
+    {
+     "text": "cow",
+     "image": "openmoji/cow.svg"
+    },
+    {
+     "text": "dolphin",
+     "image": "openmoji/dolphin.svg"
+    },
+    {
+     "text": "dog",
+     "image": "openmoji/dog.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Fish, crabs and dolphins live in water. Cats, cows and dogs live on land."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How animals move",
+   "stem": "An elephant uses its trunk to pick up food.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. An elephant uses its long trunk like a hand to pick up food and to drink water."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-006",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "How animals move",
+   "stem": "Sort the animals by how they move.",
+   "categories": [
+    "Swims",
+    "Flies",
+    "Walks or runs"
+   ],
+   "items": [
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Swims"
+    ],
+    [
+     {
+      "text": "dolphin",
+      "image": "openmoji/dolphin.svg"
+     },
+     "Swims"
+    ],
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "Flies"
+    ],
+    [
+     {
+      "text": "butterfly",
+      "image": "openmoji/butterfly.svg"
+     },
+     "Flies"
+    ],
+    [
+     {
+      "text": "cat",
+      "image": "openmoji/cat.svg"
+     },
+     "Walks or runs"
+    ],
+    [
+     {
+      "text": "cow",
+      "image": "openmoji/cow.svg"
+     },
+     "Walks or runs"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Fish and dolphins swim. Birds and butterflies fly. Cats and cows walk or run on land."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-007",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Animals help us",
+   "stem": "Match each animal to what it gives us.",
+   "pairs": [
+    [
+     {
+      "text": "cow",
+      "image": "openmoji/cow.svg"
+     },
+     {
+      "text": "milk",
+      "image": "openmoji/milk.svg"
+     }
+    ],
+    [
+     {
+      "text": "hen",
+      "image": "openmoji/chicken.svg"
+     },
+     {
+      "text": "egg",
+      "image": "openmoji/egg.svg"
+     }
+    ],
+    [
+     {
+      "text": "bee",
+      "image": "openmoji/honeybee.svg"
+     },
+     {
+      "text": "honey",
+      "image": "openmoji/honey-pot.svg"
+     }
+    ],
+    [
+     {
+      "text": "sheep",
+      "image": "openmoji/sheep.svg"
+     },
+     {
+      "text": "wool",
+      "image": "openmoji/yarn.svg"
+     }
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Cows give us milk, hens give us eggs, bees make honey and sheep give us wool. Animals help us in many ways."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Animals help us",
+   "stem": "A cow gives us ___ to drink.",
+   "blanks": [
+    [
+     "milk"
+    ]
+   ],
+   "bank": [
+    "milk",
+    "wool",
+    "honey"
+   ],
+   "read_aloud": true,
+   "explanation": "Cows give us milk. Hens give us eggs, bees make honey and sheep give us wool."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How animals grow",
+   "stem": "Put Nana's hen story in order.",
+   "sequence": [
+    "The hen sits on her eggs.",
+    "Chicks come out of the eggs.",
+    "The chicks eat and grow.",
+    "The chicks become hens."
+   ],
+   "read_aloud": true,
+   "explanation": "A hen keeps her eggs warm. Chicks hatch, eat and grow bigger every day until they are hens too."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How animals grow",
+   "stem": "A baby animal grows into a grown-up animal.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Animal babies eat and grow bigger, just like you. A chick grows into a hen and a calf grows into a cow."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Animals help us",
+   "stem": "A cow lays eggs.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. Hens lay eggs. A cow gives us milk."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Animals help us",
+   "stem": "Bees make honey.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Honeybees make honey from flower nectar. Animals help us in many ways."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "How animals move",
+   "stem": "Look at the snail. How does it move?",
+   "image": "openmoji/snail.svg",
+   "image_alt": "A snail with a spiral shell.",
+   "options": [
+    "It slides slowly.",
+    "It flies.",
+    "It hops."
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A snail slides along slowly on one soft foot. It cannot hop or fly."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-014",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Where animals live",
+   "stem": "A bird lays its eggs in a ___.",
+   "blanks": [
+    [
+     "nest"
+    ]
+   ],
+   "bank": [
+    "nest",
+    "pond",
+    "cave"
+   ],
+   "read_aloud": true,
+   "explanation": "Birds build nests, often in trees. The mother bird keeps the eggs warm until the chicks hatch."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-015",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Animals help us",
+   "stem": "Tuli wears a woollen shawl. Which animal gave the wool?",
+   "options": [
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "hen",
+     "image": "openmoji/chicken.svg"
+    },
+    {
+     "text": "sheep",
+     "image": "openmoji/sheep.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Sheep grow thick wool. People cut it, spin it into yarn and make warm clothes. Hens and fish do not have wool."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Where animals live",
+   "stem": "Sumi wants to see a fish. Where should she look?",
+   "options": [
+    {
+     "text": "Up a tree",
+     "image": "openmoji/palm-tree.svg"
+    },
+    {
+     "text": "In the pond",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "In the sky",
+     "image": "openmoji/cloud.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Fish live in water, in ponds, rivers and the sea. They breathe in the water and cannot live in trees or the sky."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Staying safe with animals",
+   "stem": "Rafi sees a strange dog near the road. What should he do?",
+   "options": [
+    {
+     "text": "Tell a grown-up",
+     "image": "openmoji/adult.svg"
+    },
+    {
+     "text": "Pat it",
+     "image": "openmoji/hand.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Do not touch animals you do not know. Even a friendly looking dog may bite. Tell a grown-up."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How animals grow",
+   "stem": "This is a chick. What will it grow into?",
+   "image": "openmoji/baby-chick.svg",
+   "image_alt": "A baby chick.",
+   "options": [
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "cow",
+     "image": "openmoji/cow.svg"
+    },
+    {
+     "text": "hen",
+     "image": "openmoji/chicken.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A chick grows into a hen. Baby animals grow into grown-ups of the same kind."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Animals and plants",
+   "stem": "I hop. I have long ears. Who am I?",
+   "options": [
+    {
+     "text": "cat",
+     "image": "openmoji/cat.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "rabbit",
+     "image": "openmoji/rabbit.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A rabbit hops on strong back legs and has long ears. A cat walks and a fish swims."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A2",
+   "title": "Animals Around Us",
+   "strand": "living",
+   "site_skill": "L2",
+   "worksheet": "worksheets/kg-science/pdf/a2-animals-around-us-study-pack.pdf",
+   "id": "kg-a2-020",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "How animals grow",
+   "stem": "A hen sits on 3 eggs. All hatch. How many chicks?",
+   "options": [
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Each egg hatches one chick. 3 eggs make 3 chicks."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Look at the plant. Which number is the flower?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with a flower at the top, leaves, a stem, a fruit and roots under the ground, each marked with a number.",
+   "options": [
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Number 1 is the flower, at the top of the plant. Number 2 is a leaf and number 3 is the stem."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Which number shows the roots under the ground?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with a flower at the top, leaves, a stem, a fruit and roots under the ground, each marked with a number.",
+   "options": [
+    "2",
+    "4",
+    "5"
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Number 4 is the roots. Roots grow under the ground."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-003",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Number 5 is the fruit.",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with a flower at the top, leaves, a stem, a fruit and roots under the ground, each marked with a number.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Number 5 is the fruit. Fruits grow on plants and hold the seeds."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plants help us",
+   "stem": "Match each word to its picture.",
+   "pairs": [
+    [
+     "fruit",
+     {
+      "text": "mango",
+      "image": "openmoji/mango.svg"
+     }
+    ],
+    [
+     "vegetable",
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     }
+    ],
+    [
+     "rice",
+     {
+      "text": "cooked rice",
+      "image": "openmoji/cooked-rice.svg"
+     }
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Fruit, vegetables and rice all come from plants. Plants help us with our food."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-005",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "Tap what a plant needs to grow.",
+   "options": [
+    {
+     "text": "sunlight",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "water",
+     "image": "openmoji/droplet.svg"
+    },
+    {
+     "text": "ice cream",
+     "image": "openmoji/ice-cream.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "Plants need sunlight and water to grow. Sweets, ice cream and balls cannot help a plant grow."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "Roots grow under the ___.",
+   "blanks": [
+    [
+     "ground",
+     "soil",
+     "earth"
+    ]
+   ],
+   "bank": [
+    "ground",
+    "sky",
+    "sea"
+   ],
+   "read_aloud": true,
+   "explanation": "Roots grow under the ground, in the soil. The leaves and flowers are above the ground."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How a seed grows",
+   "stem": "Put the seed story in order.",
+   "sequence": [
+    "A seed is in the soil.",
+    "A tiny shoot comes up.",
+    "Green leaves grow.",
+    "A flower opens."
+   ],
+   "read_aloud": true,
+   "explanation": "A seed in the soil gets water and warmth. A shoot comes up, leaves grow, and later the plant makes flowers."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-008",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Plants around us",
+   "stem": "Sort the plants.",
+   "categories": [
+    "Tree",
+    "Flower",
+    "Vegetable"
+   ],
+   "items": [
+    [
+     {
+      "text": "palm tree",
+      "image": "openmoji/palm-tree.svg"
+     },
+     "Tree"
+    ],
+    [
+     {
+      "text": "tree",
+      "image": "openmoji/deciduous-tree.svg"
+     },
+     "Tree"
+    ],
+    [
+     {
+      "text": "rose",
+      "image": "openmoji/rose.svg"
+     },
+     "Flower"
+    ],
+    [
+     {
+      "text": "sunflower",
+      "image": "openmoji/sunflower.svg"
+     },
+     "Flower"
+    ],
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Vegetable"
+    ],
+    [
+     {
+      "text": "broccoli",
+      "image": "openmoji/broccoli.svg"
+     },
+     "Vegetable"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Palm and other trees are tall plants with a trunk. Roses and sunflowers are flowers. Carrots and broccoli are vegetables we eat."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What plants need",
+   "stem": "Plants need water to grow.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Plants drink water. They also need sunlight to grow well."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need",
+   "stem": "A bean plant grows best in a dark cupboard.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. Without light a bean plant grows pale, thin and weak. It grows best by a window where there is light."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a plant",
+   "stem": "A plant has roots under the ground.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Roots grow under the ground. Leaves, flowers and fruit grow above it."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What plants need",
+   "stem": "Moung's bean plant is under the bed. Where should it go?",
+   "options": [
+    {
+     "text": "Under the bed",
+     "image": "openmoji/bed.svg"
+    },
+    {
+     "text": "By the window",
+     "image": "openmoji/window.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Plants need light. A window lets sunlight in, so the bean plant can grow green and strong."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Plants help us",
+   "stem": "Rafi is hot. Where can he sit in the shade?",
+   "options": [
+    {
+     "text": "Under a tree",
+     "image": "openmoji/deciduous-tree.svg"
+    },
+    {
+     "text": "On a hot rock",
+     "image": "openmoji/rock.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A big tree gives cool shade. Trees help us in many ways."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-014",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Plants help us",
+   "stem": "Grandpa's mango tree is big. Tap what it gives.",
+   "options": [
+    {
+     "text": "sweet fruit",
+     "image": "openmoji/mango.svg"
+    },
+    {
+     "text": "shade",
+     "image": "openmoji/deciduous-tree.svg"
+    },
+    {
+     "text": "a bird home",
+     "image": "openmoji/nest-with-eggs.svg"
+    },
+    {
+     "text": "car",
+     "image": "openmoji/car.svg"
+    },
+    {
+     "text": "TV",
+     "image": "openmoji/television.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "A mango tree gives sweet fruit, cool shade and a safe home for birds. It does not give a car or a TV."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Plants around us",
+   "stem": "Which one is a fruit?",
+   "options": [
+    {
+     "text": "broccoli",
+     "image": "openmoji/broccoli.svg"
+    },
+    {
+     "text": "potato",
+     "image": "openmoji/potato.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "An apple is a fruit. It grows on a tree and has seeds inside. Broccoli and potatoes are vegetables."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How a seed grows",
+   "stem": "Which one is a baby plant?",
+   "options": [
+    {
+     "text": "big tree",
+     "image": "openmoji/palm-tree.svg"
+    },
+    {
+     "text": "little plant",
+     "image": "openmoji/seedling.svg"
+    },
+    {
+     "text": "sunflower",
+     "image": "openmoji/sunflower.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A seedling is a baby plant that has just grown from a seed. It will grow bigger."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-017",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How a seed grows",
+   "stem": "A seed grows into a ___.",
+   "blanks": [
+    [
+     "plant",
+     "plants",
+     "tree"
+    ]
+   ],
+   "bank": [
+    "plant",
+    "rock",
+    "toy"
+   ],
+   "read_aloud": true,
+   "explanation": "A tiny seed, with water and sunlight, grows into a plant."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "What plants need",
+   "stem": "Two beans: one in light, one in dark. Which grows strong?",
+   "options": [
+    "In the dark",
+    "Both the same",
+    "In the light"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "The bean in the light grows green and strong. The bean in the dark grows pale, thin and weak, because plants need light."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "What plants need",
+   "stem": "A: sun. B: water. C: sun, water. Which grows best?",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Plants need both sunlight and water. C gets both, so it grows best."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A3",
+   "title": "Plants Around Us",
+   "strand": "living",
+   "site_skill": "L3",
+   "worksheet": "worksheets/kg-science/pdf/a3-plants-around-us-study-pack.pdf",
+   "id": "kg-a3-020",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Plants help us",
+   "stem": "Tap all the things plants give us.",
+   "options": [
+    {
+     "text": "mango",
+     "image": "openmoji/mango.svg"
+    },
+    {
+     "text": "milk",
+     "image": "openmoji/milk.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "car",
+     "image": "openmoji/car.svg"
+    },
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Mangoes, wood and carrots come from plants. Milk comes from cows and cars are made in factories."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of my body",
+   "stem": "Look at the body. Which number is the head?",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "A child with body parts marked by numbers: head, neck, shoulder, arm, elbow, hand, chest, tummy, leg, knee and foot.",
+   "options": [
+    "1",
+    "3",
+    "6"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Number 1 is the head. Our eyes, ears, nose and mouth are on our head."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of my body",
+   "stem": "Which number is the hand?",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "A child with body parts marked by numbers: head, neck, shoulder, arm, elbow, hand, chest, tummy, leg, knee and foot.",
+   "options": [
+    "4",
+    "6",
+    "9"
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Number 6 is the hand. We use our hands to hold, touch and wave."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Parts of my body",
+   "stem": "Which number is the knee?",
+   "image": "diagrams/body-numbered.svg",
+   "image_alt": "A child with body parts marked by numbers: head, neck, shoulder, arm, elbow, hand, chest, tummy, leg, knee and foot.",
+   "options": [
+    "5",
+    "8",
+    "10"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Number 10 is the knee. It bends in the middle of the leg. Number 5 is the elbow in the arm."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "Match each part to its sense.",
+   "pairs": [
+    [
+     {
+      "text": "eyes",
+      "image": "openmoji/eye.svg"
+     },
+     "see"
+    ],
+    [
+     {
+      "text": "ears",
+      "image": "openmoji/ear.svg"
+     },
+     "hear"
+    ],
+    [
+     {
+      "text": "nose",
+      "image": "openmoji/nose.svg"
+     },
+     "smell"
+    ],
+    [
+     {
+      "text": "tongue",
+      "image": "openmoji/tongue.svg"
+     },
+     "taste"
+    ],
+    [
+     {
+      "text": "skin and hands",
+      "image": "openmoji/hand.svg"
+     },
+     "touch"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Eyes see, ears hear, the nose smells, the tongue tastes and our skin and hands touch. These are our five senses."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-005",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Senses find things out",
+   "stem": "Match each part to what it finds.",
+   "pairs": [
+    [
+     {
+      "text": "ears",
+      "image": "openmoji/ear.svg"
+     },
+     {
+      "text": "music",
+      "image": "openmoji/musical-notes.svg"
+     }
+    ],
+    [
+     {
+      "text": "nose",
+      "image": "openmoji/nose.svg"
+     },
+     {
+      "text": "flower",
+      "image": "openmoji/rose.svg"
+     }
+    ],
+    [
+     {
+      "text": "tongue",
+      "image": "openmoji/tongue.svg"
+     },
+     {
+      "text": "honey",
+      "image": "openmoji/honey-pot.svg"
+     }
+    ],
+    [
+     {
+      "text": "hands",
+      "image": "openmoji/hand.svg"
+     },
+     {
+      "text": "cold ice",
+      "image": "openmoji/ice-cube.svg"
+     }
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Ears hear music, a nose smells a flower, a tongue tastes sweet honey and our hands feel cold ice."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-006",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of my body",
+   "stem": "Tap the parts we use to walk and run.",
+   "options": [
+    {
+     "text": "legs",
+     "image": "openmoji/leg.svg"
+    },
+    {
+     "text": "ears",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "feet",
+     "image": "openmoji/foot.svg"
+    },
+    {
+     "text": "eyes",
+     "image": "openmoji/eye.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "We use our legs and our feet to walk and run. Ears are for hearing and eyes are for seeing."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-007",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Senses are important",
+   "stem": "Tuli wears glasses. Which sense do they help?",
+   "options": [
+    {
+     "text": "hearing",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "smelling",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "seeing",
+     "image": "openmoji/eye.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Glasses help Tuli see clearly. Her eyes help her to read, play and learn."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "We hear with our ___.",
+   "blanks": [
+    [
+     "ears",
+     "ear"
+    ]
+   ],
+   "bank": [
+    "ears",
+    "eyes",
+    "feet"
+   ],
+   "read_aloud": true,
+   "explanation": "We hear with our ears. They help us enjoy music and know when someone calls us."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "We have five senses.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. We see, hear, smell, taste and touch. The five senses help us find out about the world."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Same and different",
+   "stem": "Children are all exactly the same.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. We are the same in some ways, like having eyes and hands. We are different in our hair, height and clothes. That is what makes each of us special."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-011",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Growing up",
+   "stem": "Put them in order, youngest to oldest.",
+   "sequence": [
+    {
+     "text": "baby",
+     "image": "openmoji/baby.svg"
+    },
+    {
+     "text": "child",
+     "image": "openmoji/child.svg"
+    },
+    {
+     "text": "grown-up",
+     "image": "openmoji/adult.svg"
+    },
+    {
+     "text": "grandparent",
+     "image": "openmoji/older-person.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "We start as a baby, grow into a child, then a grown-up, and later we become older."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-012",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Parts of my body",
+   "stem": "Sort the body parts: head, arms or legs?",
+   "categories": [
+    "Head",
+    "Arms and hands",
+    "Legs and feet"
+   ],
+   "items": [
+    [
+     {
+      "text": "eye",
+      "image": "openmoji/eye.svg"
+     },
+     "Head"
+    ],
+    [
+     {
+      "text": "ear",
+      "image": "openmoji/ear.svg"
+     },
+     "Head"
+    ],
+    [
+     {
+      "text": "nose",
+      "image": "openmoji/nose.svg"
+     },
+     "Head"
+    ],
+    [
+     {
+      "text": "hand",
+      "image": "openmoji/hand.svg"
+     },
+     "Arms and hands"
+    ],
+    [
+     {
+      "text": "arm",
+      "image": "openmoji/flexed-biceps.svg"
+     },
+     "Arms and hands"
+    ],
+    [
+     {
+      "text": "foot",
+      "image": "openmoji/foot.svg"
+     },
+     "Legs and feet"
+    ],
+    [
+     {
+      "text": "leg",
+      "image": "openmoji/leg.svg"
+     },
+     "Legs and feet"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Eyes, ears and nose are on our head. Hands and arms are together. Legs and feet help us walk."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Senses are important",
+   "stem": "Mina smells smoke in the kitchen. Which part tells her?",
+   "options": [
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
+    },
+    {
+     "text": "nose",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "tongue",
+     "image": "openmoji/tongue.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Our nose smells smoke and warns us of danger. Mina should tell a grown-up straight away."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-014",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Looking after my senses",
+   "stem": "How can Tuli look after her eyes?",
+   "options": [
+    {
+     "text": "Wear her glasses",
+     "image": "openmoji/glasses.svg"
+    },
+    {
+     "text": "Sit close to the TV",
+     "image": "openmoji/television.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Tuli should wear her glasses and not sit too close to the TV. We should also never look at the Sun."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-015",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Senses find things out",
+   "stem": "Mina smells and tastes a cake. Which two parts does she use?",
+   "options": [
+    {
+     "text": "tongue",
+     "image": "openmoji/tongue.svg"
+    },
+    {
+     "text": "foot",
+     "image": "openmoji/foot.svg"
+    },
+    {
+     "text": "nose",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "She smells the cake with her nose and tastes it with her tongue. Her foot cannot help and her ear is for hearing."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-016",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Growing up",
+   "stem": "You are bigger now than when you were a baby.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Since you were born you have grown taller and stronger. Growing is a sign of being alive."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-017",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Same and different",
+   "stem": "Tap what children have.",
+   "options": [
+    {
+     "text": "eyes",
+     "image": "openmoji/eye.svg"
+    },
+    {
+     "text": "ears",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "hands",
+     "image": "openmoji/hand.svg"
+    },
+    {
+     "text": "a red dress",
+     "image": "openmoji/dress.svg"
+    },
+    {
+     "text": "a football",
+     "image": "openmoji/football.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "Children have eyes, ears and hands. We are the same in many ways. What we wear or play with can be different."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-018",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Five senses",
+   "stem": "We feel hot and cold with our ___.",
+   "blanks": [
+    [
+     "skin"
+    ]
+   ],
+   "bank": [
+    "skin",
+    "ears",
+    "eyes"
+   ],
+   "read_aloud": true,
+   "explanation": "Our skin helps us touch and feel things. It tells us if something is hot, cold, soft or rough."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Senses find things out",
+   "stem": "You hold your nose and taste a mango. What happens?",
+   "options": [
+    "It is harder to taste",
+    "It is the same",
+    "It tastes stronger"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Smell and taste work together. When you hold your nose, it is harder to taste."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A4",
+   "title": "My Body and My Senses",
+   "strand": "living",
+   "site_skill": "L4",
+   "worksheet": "worksheets/kg-science/pdf/a4-my-body-and-my-senses-study-pack.pdf",
+   "id": "kg-a4-020",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Senses help animals",
+   "stem": "A cat has big ears. What can it do well?",
+   "options": [
+    "Fly high",
+    "Swim fast",
+    "Hear small sounds"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Animals use their senses too. A cat can hear small sounds, like a mouse moving."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-001",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy choices",
+   "stem": "Sort the foods. Every day or only a treat?",
+   "categories": [
+    "Every day",
+    "Only a treat"
+   ],
+   "items": [
+    [
+     {
+      "text": "tomato",
+      "image": "openmoji/tomato.svg"
+     },
+     "Every day"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Every day"
+    ],
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Every day"
+    ],
+    [
+     {
+      "text": "burger",
+      "image": "openmoji/burger.svg"
+     },
+     "Only a treat"
+    ],
+    [
+     {
+      "text": "cake",
+      "image": "openmoji/cake.svg"
+     },
+     "Only a treat"
+    ],
+    [
+     {
+      "text": "lollipop",
+      "image": "openmoji/lollipop.svg"
+     },
+     "Only a treat"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Tomatoes, fish and rice are good to eat every day. Burgers, cake and lollipops are treats: just a little, not every day."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water",
+   "stem": "Which is the best drink when you are thirsty?",
+   "options": [
+    {
+     "text": "water",
+     "image": "openmoji/water-glass.svg"
+    },
+    {
+     "text": "fizzy drink",
+     "image": "openmoji/cup-with-straw.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Clean water is the best drink. Fizzy drinks are treats and sweets are not a drink."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-003",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy choices",
+   "stem": "Tap the healthy snacks.",
+   "options": [
+    {
+     "text": "banana",
+     "image": "openmoji/banana.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    },
+    {
+     "text": "chips",
+     "image": "openmoji/french-fries.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Bananas, carrots and apples are healthy snacks. Sweets, chips and doughnuts are treats."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Match each food to its group.",
+   "pairs": [
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Go food"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Grow food"
+    ],
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Glow food"
+    ],
+    [
+     {
+      "text": "lollipop",
+      "image": "openmoji/lollipop.svg"
+     },
+     "Only a treat"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Rice gives us energy to go. Fish helps us grow strong. Carrots help us glow and stay healthy. A lollipop is only a treat."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Go, grow or glow? Sort the foods.",
+   "categories": [
+    "Go",
+    "Grow",
+    "Glow"
+   ],
+   "items": [
+    [
+     {
+      "text": "rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Go"
+    ],
+    [
+     {
+      "text": "potato",
+      "image": "openmoji/potato.svg"
+     },
+     "Go"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Grow"
+    ],
+    [
+     {
+      "text": "egg",
+      "image": "openmoji/egg.svg"
+     },
+     "Grow"
+    ],
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Glow"
+    ],
+    [
+     {
+      "text": "banana",
+      "image": "openmoji/banana.svg"
+     },
+     "Glow"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Go foods give us energy: rice and potato. Grow foods help us grow strong: fish and eggs. Glow foods keep us healthy: carrots and bananas."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water",
+   "stem": "We drink clean ___ every day.",
+   "blanks": [
+    [
+     "water"
+    ]
+   ],
+   "bank": [
+    "water",
+    "sweets",
+    "cake"
+   ],
+   "read_aloud": true,
+   "explanation": "Our body needs clean water every day to stay healthy."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Why we eat food",
+   "stem": "Healthy food gives us energy to play.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Food gives us energy to run and play, and it helps us grow."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy choices",
+   "stem": "Sweets are good to eat every day.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. Sweets, chips and fizzy drinks are treats. Eat just a little, and not every day."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Why we eat food",
+   "stem": "Put Shopon's story in order.",
+   "sequence": [
+    "Shopon eats chips and a fizzy drink.",
+    "He feels tired and hungry.",
+    "Mother packs roti, egg, banana and water.",
+    "Shopon has lots of energy to play."
+   ],
+   "read_aloud": true,
+   "explanation": "Chips and a fizzy drink left Shopon tired and hungry. A tiffin with roti, egg, banana and water gave him lots of energy."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-010",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy choices",
+   "stem": "Mother packs Shopon's tiffin. Which is best?",
+   "options": [
+    {
+     "text": "chips",
+     "image": "openmoji/french-fries.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "banana",
+     "image": "openmoji/banana.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A banana is a healthy fruit. Chips and doughnuts are treats, so they are not good for every day."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Healthy choices",
+   "stem": "It is Imran's birthday. How much cake is a good treat?",
+   "options": [
+    "The whole cake",
+    "A small piece"
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Cake is a treat. A small piece is fine on a special day, but too much sugar is not good for our teeth or body."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Priya has rice for lunch. Which grow food can she add?",
+   "options": [
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Fish helps us grow strong. Rice is a go food, so adding fish makes a better meal. Sweets and lollipops are treats."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-013",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Healthy choices",
+   "stem": "Tap the foods for a healthy lunch.",
+   "options": [
+    {
+     "text": "rice",
+     "image": "openmoji/cooked-rice.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "fizzy drink",
+     "image": "openmoji/cup-with-straw.svg"
+    },
+    {
+     "text": "vegetables",
+     "image": "openmoji/leafy-green.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Rice, fish and vegetables make a healthy lunch with go, grow and glow foods. Sweets and fizzy drinks are only treats."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-014",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Grow foods help us ___ strong.",
+   "blanks": [
+    [
+     "grow"
+    ]
+   ],
+   "bank": [
+    "grow",
+    "sleep",
+    "shrink"
+   ],
+   "read_aloud": true,
+   "explanation": "Fish, eggs, milk and dal are grow foods. They help our body grow strong."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Counting what we like",
+   "stem": "Favourite fruit: mango 6, banana 4, apple 2. Which is most?",
+   "options": [
+    {
+     "text": "mango",
+     "image": "openmoji/mango.svg"
+    },
+    {
+     "text": "banana",
+     "image": "openmoji/banana.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Count and compare: 6 is more than 4 and more than 2. Mango is the favourite."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Healthy choices",
+   "stem": "Which one is only a treat?",
+   "options": [
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    },
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    },
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A lollipop is a treat. We eat just a little, not every day. Apples and carrots are healthy."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-017",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Water",
+   "stem": "We should drink clean water every day.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Water keeps our body healthy. It is the best drink."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Roti is Go. Egg is Grow. Which Glow food can we add?",
+   "options": [
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "apple",
+     "image": "openmoji/apple.svg"
+    },
+    {
+     "text": "cookie",
+     "image": "openmoji/cookie.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "An apple is a glow food. Roti, an egg and an apple make a balanced meal. Doughnuts and cookies are treats."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Healthy choices",
+   "stem": "Which lunch has go, grow and glow foods?",
+   "options": [
+    "rice, fish, carrot",
+    "rice, potato, corn",
+    "chips, cake, sweets"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Rice is go, fish is grow and carrot is glow, so that lunch has all three. The first lunch has only go foods and the last has only treats."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "A5",
+   "title": "Healthy Food",
+   "strand": "living",
+   "site_skill": "L5",
+   "worksheet": "worksheets/kg-science/pdf/a5-healthy-food-study-pack.pdf",
+   "id": "kg-a5-020",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Go, grow and glow foods",
+   "stem": "Tap the foods that give us energy to go.",
+   "options": [
+    {
+     "text": "rice",
+     "image": "openmoji/cooked-rice.svg"
+    },
+    {
+     "text": "egg",
+     "image": "openmoji/egg.svg"
+    },
+    {
+     "text": "roti",
+     "image": "openmoji/bread.svg"
+    },
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    },
+    {
+     "text": "potato",
+     "image": "openmoji/potato.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Rice, roti and potato are go foods. They give us energy to play. Eggs help us grow and carrots help us glow."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-001",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Day and night",
+   "stem": "Sort the pictures. Day or night?",
+   "categories": [
+    "Day",
+    "Night"
+   ],
+   "items": [
+    [
+     {
+      "text": "sunrise",
+      "image": "openmoji/sunrise.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "school",
+      "image": "openmoji/school.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Day"
+    ],
+    [
+     {
+      "text": "stars",
+      "image": "openmoji/star.svg"
+     },
+     "Night"
+    ],
+    [
+     {
+      "text": "moon",
+      "image": "openmoji/moon.svg"
+     },
+     "Night"
+    ],
+    [
+     {
+      "text": "bed",
+      "image": "openmoji/bed.svg"
+     },
+     "Night"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We see the sunrise, the Sun and go to school in the day. At night we see stars and the Moon, and we sleep in bed."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "Which one do we see in the sky at night?",
+   "options": [
+    {
+     "text": "moon",
+     "image": "openmoji/moon.svg"
+    },
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "rainbow",
+     "image": "openmoji/rainbow.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "We see the Moon and the stars in the night sky. The Sun shines in the day."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-003",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weather and clothes",
+   "stem": "Match the weather to what we need.",
+   "pairs": [
+    [
+     {
+      "text": "rainy",
+      "image": "openmoji/rain-cloud.svg"
+     },
+     {
+      "text": "umbrella",
+      "image": "openmoji/umbrella.svg"
+     }
+    ],
+    [
+     {
+      "text": "sunny",
+      "image": "openmoji/sun.svg"
+     },
+     {
+      "text": "cool water",
+      "image": "openmoji/water-glass.svg"
+     }
+    ],
+    [
+     {
+      "text": "cold",
+      "image": "openmoji/cold-face.svg"
+     },
+     {
+      "text": "warm scarf",
+      "image": "openmoji/scarf.svg"
+     }
+    ],
+    [
+     {
+      "text": "windy",
+      "image": "openmoji/wind-face.svg"
+     },
+     {
+      "text": "kite",
+      "image": "openmoji/kite.svg"
+     }
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We use an umbrella in the rain, cool water when it is sunny and hot, a warm scarf when it is cold, and a kite when it is windy."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-004",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Weather and clothes",
+   "stem": "Rain is falling. What should Mina take to school?",
+   "options": [
+    {
+     "text": "ice cream",
+     "image": "openmoji/ice-cream.svg"
+    },
+    {
+     "text": "a ball",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "umbrella",
+     "image": "openmoji/umbrella.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "An umbrella keeps the rain off. Ice cream and a ball do not help in the rain."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "At night, we can see the Moon and the ___.",
+   "blanks": [
+    [
+     "stars",
+     "star"
+    ]
+   ],
+   "bank": [
+    "stars",
+    "Sun",
+    "rainbow"
+   ],
+   "read_aloud": true,
+   "explanation": "At night the sky is dark and we may see the Moon and the stars."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-006",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "Put the times of the day in order.",
+   "sequence": [
+    {
+     "text": "morning",
+     "image": "openmoji/sunrise.svg"
+    },
+    {
+     "text": "day",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "night",
+     "image": "openmoji/night-with-stars.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "The day starts with the morning, then comes the bright day, and then it is night."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "In the day, the ___ lights up our sky.",
+   "blanks": [
+    [
+     "Sun",
+     "sun"
+    ]
+   ],
+   "bank": [
+    "Sun",
+    "Moon",
+    "stars"
+   ],
+   "read_aloud": true,
+   "explanation": "The Sun gives us light in the day. At night it is dark."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "The Sun shines at night.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. The Sun shines in the day. At night the sky is dark and we may see the Moon and stars."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-009",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Weather",
+   "stem": "Tap the pictures that show weather.",
+   "options": [
+    {
+     "text": "sunny",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "bed",
+     "image": "openmoji/bed.svg"
+    },
+    {
+     "text": "rainy",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "school",
+     "image": "openmoji/school.svg"
+    },
+    {
+     "text": "windy",
+     "image": "openmoji/wind-face.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Sunny, rainy and windy are kinds of weather. A bed and a school are not weather."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-010",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "The Sun shines on this side. Is it day or night?",
+   "image": "diagrams/day-night.svg",
+   "image_alt": "The Sun on the left shines on the Earth. The side facing the Sun is marked DAY and the dark side is marked NIGHT.",
+   "options": [
+    {
+     "text": "night",
+     "image": "openmoji/night-with-stars.svg"
+    },
+    {
+     "text": "day",
+     "image": "openmoji/sun.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "It is day on the side of the Earth that faces the Sun. The other side is dark, so it is night there."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-011",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "remember",
+   "subskill": "The Moon",
+   "stem": "Which one is the full Moon?",
+   "options": [
+    {
+     "text": "dark Moon",
+     "image": "openmoji/new-moon.svg"
+    },
+    {
+     "text": "thin Moon",
+     "image": "openmoji/waxing-crescent-moon.svg"
+    },
+    {
+     "text": "round Moon",
+     "image": "openmoji/full-moon.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "The full Moon is the big, round, bright Moon. A thin Moon looks like a smile, and a new Moon is dark."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Weather chart",
+   "stem": "In 10 days: 5 sunny, 3 cloudy, 2 rainy. Which was most?",
+   "options": [
+    {
+     "text": "rainy",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "sunny",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "cloudy",
+     "image": "openmoji/cloud.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Count and compare: 5 is more than 3 and more than 2. There were most sunny days."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-013",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weather and clothes",
+   "stem": "It is a cool winter morning. Tap what Priya can wear.",
+   "options": [
+    {
+     "text": "warm coat",
+     "image": "openmoji/coat.svg"
+    },
+    {
+     "text": "umbrella",
+     "image": "openmoji/umbrella.svg"
+    },
+    {
+     "text": "warm scarf",
+     "image": "openmoji/scarf.svg"
+    },
+    {
+     "text": "a ball",
+     "image": "openmoji/football.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "In the cool season we wear warm clothes like a coat and a scarf. An umbrella is for rain and a ball is for play."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-014",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The Moon",
+   "stem": "Mitu wants to see the thin new Moon. When should she look?",
+   "options": [
+    {
+     "text": "At night",
+     "image": "openmoji/night-with-stars.svg"
+    },
+    {
+     "text": "At midday",
+     "image": "openmoji/sun.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "We can see the Moon at night, when the sky is dark. Mitu's family looks for the thin new Moon to know when Eid begins."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-015",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Weather",
+   "stem": "Windy days are good for flying kites.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. The wind lifts a kite up high. A calm day makes it hard to fly a kite."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Seasons",
+   "stem": "Match each season to what it is like.",
+   "pairs": [
+    [
+     {
+      "text": "summer",
+      "image": "openmoji/sun.svg"
+     },
+     "hot"
+    ],
+    [
+     {
+      "text": "rainy season",
+      "image": "openmoji/umbrella-with-rain.svg"
+     },
+     "lots of rain"
+    ],
+    [
+     {
+      "text": "winter",
+      "image": "openmoji/scarf.svg"
+     },
+     "cool"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "In Bangladesh, summer is hot, the rainy season has lots of rain and winter is cool."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-017",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Seasons and cycles",
+   "stem": "The seasons come back every year.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Summer, the rainy season and winter come again and again. This is a pattern we can count on."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Patterns",
+   "stem": "Example: sunny, cloudy, rainy, sunny, cloudy. What comes next?",
+   "options": [
+    {
+     "text": "sunny",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "rainy",
+     "image": "openmoji/rain-cloud.svg"
+    },
+    {
+     "text": "windy",
+     "image": "openmoji/wind-face.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Look for the pattern: sunny, cloudy, rainy, then it starts again. After cloudy comes rainy."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Day and night",
+   "stem": "It is noon, but dark clouds fill the sky. Is it night?",
+   "options": [
+    "No, it is still day",
+    "Yes, it is night"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Clouds can make the day look dark, but the Sun is still in the sky at noon, so it is day."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B1",
+   "title": "Day, Night and Seasons",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/kg-science/pdf/b1-day-night-and-seasons-study-pack.pdf",
+   "id": "kg-b1-020",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The Moon",
+   "stem": "The Moon looks a little different from night to night.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Some nights the Moon is a thin smile and some nights it is round and bright."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-001",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Natural and built places",
+   "stem": "Sort the places. Natural or built by people?",
+   "categories": [
+    "Natural",
+    "Built by people"
+   ],
+   "items": [
+    [
+     {
+      "text": "forest",
+      "image": "openmoji/deciduous-tree.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "river",
+      "image": "openmoji/water-wave.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "hill",
+      "image": "openmoji/mountain.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "house",
+      "image": "openmoji/house.svg"
+     },
+     "Built by people"
+    ],
+    [
+     {
+      "text": "school",
+      "image": "openmoji/school.svg"
+     },
+     "Built by people"
+    ],
+    [
+     {
+      "text": "city",
+      "image": "openmoji/city.svg"
+     },
+     "Built by people"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Forests, rivers and hills are natural places. Houses, schools and cities are built by people."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and built places",
+   "stem": "Which place is natural?",
+   "options": [
+    {
+     "text": "hill",
+     "image": "openmoji/mountain.svg"
+    },
+    {
+     "text": "school",
+     "image": "openmoji/school.svg"
+    },
+    {
+     "text": "hospital",
+     "image": "openmoji/hospital.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A hill is a natural place. Nature made it. A school and a hospital are built by people."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and built places",
+   "stem": "Which place is built by people?",
+   "options": [
+    {
+     "text": "hill",
+     "image": "openmoji/mountain.svg"
+    },
+    {
+     "text": "river",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "house",
+     "image": "openmoji/house.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "People build houses to live in. A river and a hill are natural places."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-004",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What we use from nature",
+   "stem": "Tap the things we get from nature.",
+   "options": [
+    {
+     "text": "water",
+     "image": "openmoji/water-glass.svg"
+    },
+    {
+     "text": "car",
+     "image": "openmoji/car.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "TV",
+     "image": "openmoji/television.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "We get water, wood and fish from nature. A car and a TV are made by people in factories."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-005",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Match each old thing to its new use.",
+   "pairs": [
+    [
+     {
+      "text": "tin can",
+      "image": "openmoji/tin-can.svg"
+     },
+     "a pencil pot"
+    ],
+    [
+     {
+      "text": "plastic bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "a plant pot"
+    ],
+    [
+     {
+      "text": "box",
+      "image": "openmoji/package.svg"
+     },
+     "a toy car"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We can reuse old things. A tin can makes a pencil pot, a bottle makes a plant pot and a box makes a toy car."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Caring for our world",
+   "stem": "We put rubbish in the ___.",
+   "blanks": [
+    [
+     "bin",
+     "dustbin"
+    ]
+   ],
+   "bank": [
+    "bin",
+    "river",
+    "road"
+   ],
+   "read_aloud": true,
+   "explanation": "Rubbish goes in the bin. It must not go on the ground or in the river."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Reduce, reuse and ___ to help our Earth.",
+   "blanks": [
+    [
+     "recycle"
+    ]
+   ],
+   "bank": [
+    "recycle",
+    "throw",
+    "break"
+   ],
+   "read_aloud": true,
+   "explanation": "Reduce means use less, reuse means use again, and recycle means make old things into new things."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and built places",
+   "stem": "A river is a natural place.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Nature made rivers. People did not build them."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Caring for our world",
+   "stem": "Rubbish in the river is good for fish.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "No. Rubbish makes the water dirty and fish cannot live there. Keep our river clean."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Caring for our world",
+   "stem": "Put the river clean-up story in order.",
+   "sequence": [
+    "Children see rubbish in the river.",
+    "They pick it up and put it in bags.",
+    "The river is clean again.",
+    "They put up a \"Keep our river clean\" sign."
+   ],
+   "read_aloud": true,
+   "explanation": "The children saw rubbish in the river, picked it up with their teachers, and then the river was clean. Then they put up a sign."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Caring for our world",
+   "stem": "Mina has an empty bottle. Where does it go?",
+   "options": [
+    {
+     "text": "In the river",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "In the bin",
+     "image": "openmoji/wastebasket.svg"
+    },
+    {
+     "text": "Under the bed",
+     "image": "openmoji/house.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Rubbish goes in the bin. In the river it would hurt the fish and make the water dirty."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Nadia goes shopping. What can she take to carry things?",
+   "options": [
+    "Nothing at all",
+    "A new plastic bag",
+    "A cloth bag"
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A cloth bag can be used again and again, so we use less plastic."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Caring for our world",
+   "stem": "Joy wants to help nature. What is a good idea?",
+   "options": [
+    "Plant a tree",
+    "Throw rubbish",
+    "Waste water"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Planting a tree is kind to nature. Trees give shade, food and homes for birds. Rubbish and wasted water hurt nature."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-014",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Caring for our world",
+   "stem": "Sort the actions. Kind to nature or hurts nature?",
+   "categories": [
+    "Kind to nature",
+    "Hurts nature"
+   ],
+   "items": [
+    [
+     {
+      "text": "bin rubbish",
+      "image": "openmoji/wastebasket.svg"
+     },
+     "Kind to nature"
+    ],
+    [
+     {
+      "text": "cloth bag",
+      "image": "openmoji/reusable-bag.svg"
+     },
+     "Kind to nature"
+    ],
+    [
+     {
+      "text": "plant a tree",
+      "image": "openmoji/seedling.svg"
+     },
+     "Kind to nature"
+    ],
+    [
+     {
+      "text": "spill oil",
+      "image": "openmoji/oil-spill.svg"
+     },
+     "Hurts nature"
+    ],
+    [
+     {
+      "text": "dirty smoke",
+      "image": "openmoji/factory-smoke.svg"
+     },
+     "Hurts nature"
+    ],
+    [
+     {
+      "text": "bottle on the ground",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "Hurts nature"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Binning rubbish, taking a cloth bag and planting a tree are kind. Spilling oil, dirty smoke and bottles on the ground hurt nature."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Our choices matter",
+   "stem": "Which one makes the air dirty?",
+   "options": [
+    {
+     "text": "a growing tree",
+     "image": "openmoji/seedling.svg"
+    },
+    {
+     "text": "dirty smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "a cloth bag",
+     "image": "openmoji/reusable-bag.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Smoke from a factory makes the air dirty. A growing tree makes the air cleaner, and a cloth bag makes no smoke."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-016",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Match each word to what it means.",
+   "pairs": [
+    [
+     "reduce",
+     "use less"
+    ],
+    [
+     "reuse",
+     "use again"
+    ],
+    [
+     "recycle",
+     "make into something new"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Reduce means use less. Reuse means use it again. Recycle means make old things into new things."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-017",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and built places",
+   "stem": "This place was built by people.",
+   "image": "openmoji/hospital.svg",
+   "image_alt": "A hospital building.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. A hospital is a building that people built to help sick people get better."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Reduce, reuse, recycle",
+   "stem": "Which is the best thing to do with an old bottle?",
+   "options": [
+    "Leave it on the road",
+    "Use it as a plant pot",
+    "Throw it in the river"
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "We can reuse a bottle as a plant pot. Throwing it in the river or on the road makes a mess and hurts nature."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Our choices matter",
+   "stem": "Children throw rubbish in a river. What can happen to fish?",
+   "options": [
+    "They get sick",
+    "They grow bigger",
+    "They become happier"
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Rubbish makes the water dirty, so fish can get sick and cannot live there. Our choices can hurt living things."
+  },
+  {
+   "grade": 0,
+   "grade_name": "KG",
+   "topic": "B2",
+   "title": "Our Environment",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/kg-science/pdf/b2-our-environment-study-pack.pdf",
+   "id": "kg-b2-020",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "What we use from nature",
+   "stem": "We get fish and wood from nature.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Yes. Fish live in rivers and the sea, and wood comes from trees. We use many things from nature."
+  }
+ ]
+}

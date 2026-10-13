@@ -1,0 +1,587 @@
+{
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "topic": "B3",
+ "title": "Keeping Our Environment Clean",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-1-science/pdf/b3-keeping-our-environment-clean-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g1-b3-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Which picture shows something that harms the environment?",
+   "options": [
+    {
+     "text": "bin",
+     "image": "openmoji/wastebasket.svg"
+    },
+    {
+     "text": "tree",
+     "image": "openmoji/deciduous-tree.svg"
+    },
+    {
+     "text": "smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "cloth bag",
+     "image": "openmoji/reusable-bag.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "Smoke makes the air dirty, so it harms the environment. Bins, trees and cloth bags help to keep it clean."
+  },
+  {
+   "id": "g1-b3-002",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Sorting waste",
+   "read_aloud": true,
+   "stem": "Which bin? Match each piece of waste to its bin.",
+   "pairs": [
+    [
+     {
+      "text": "newspaper",
+      "image": "openmoji/newspaper.svg"
+     },
+     "paper bin"
+    ],
+    [
+     {
+      "text": "plastic bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "plastic bin"
+    ],
+    [
+     {
+      "text": "tin can",
+      "image": "openmoji/tin-can.svg"
+     },
+     "metal bin"
+    ],
+    [
+     {
+      "text": "mango peel",
+      "image": "openmoji/mango.svg"
+     },
+     "compost"
+    ]
+   ],
+   "explanation": "We sort waste by what it is made of. Paper, plastic and metal can be recycled. A mango peel is food waste, so it goes to compost."
+  },
+  {
+   "id": "g1-b3-003",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Which pictures show a healthy environment? Choose all that are right.",
+   "options": [
+    {
+     "text": "tree",
+     "image": "openmoji/deciduous-tree.svg"
+    },
+    {
+     "text": "clean water",
+     "image": "openmoji/potable-water.svg"
+    },
+    {
+     "text": "oil in water",
+     "image": "openmoji/oil-spill.svg"
+    },
+    {
+     "text": "smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "litter in a bin",
+     "image": "openmoji/litter-in-bin-sign.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Trees, clean water and litter in a bin all help keep the environment healthy. Oil in water and smoke harm it."
+  },
+  {
+   "id": "g1-b3-004",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Does it help or harm the environment? Sort the pictures.",
+   "categories": [
+    "Helps",
+    "Harms"
+   ],
+   "items": [
+    [
+     {
+      "text": "tree",
+      "image": "openmoji/deciduous-tree.svg"
+     },
+     "Helps"
+    ],
+    [
+     {
+      "text": "cloth bag",
+      "image": "openmoji/reusable-bag.svg"
+     },
+     "Helps"
+    ],
+    [
+     {
+      "text": "litter in a bin",
+      "image": "openmoji/litter-in-bin-sign.svg"
+     },
+     "Helps"
+    ],
+    [
+     {
+      "text": "oil in water",
+      "image": "openmoji/oil-spill.svg"
+     },
+     "Harms"
+    ],
+    [
+     {
+      "text": "smoke",
+      "image": "openmoji/factory-smoke.svg"
+     },
+     "Harms"
+    ],
+    [
+     {
+      "text": "car smoke",
+      "image": "openmoji/car-exhaust.svg"
+     },
+     "Harms"
+    ]
+   ],
+   "explanation": "Trees clean the air. A cloth bag can be used again and again, and a bin keeps litter off the ground. Oil and smoke make the water and air dirty."
+  },
+  {
+   "id": "g1-b3-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "Which picture shows reusing?",
+   "options": [
+    {
+     "text": "bin",
+     "image": "openmoji/wastebasket.svg"
+    },
+    {
+     "text": "cloth bag",
+     "image": "openmoji/reusable-bag.svg"
+    },
+    {
+     "text": "smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "car smoke",
+     "image": "openmoji/car-exhaust.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "We can use a cloth bag again and again. Reuse means to use something again."
+  },
+  {
+   "id": "g1-b3-006",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sorting waste",
+   "read_aloud": true,
+   "stem": "This banana skin is food waste. Where should it go?",
+   "image": "openmoji/banana.svg",
+   "image_alt": "A banana.",
+   "options": [
+    "compost",
+    "metal bin",
+    "plastic bin",
+    "paper bin"
+   ],
+   "answer": 0,
+   "explanation": "Food waste rots and makes the soil rich. We put it in compost, not in the paper, metal or plastic bins."
+  },
+  {
+   "id": "g1-b3-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "Reduce, reuse or recycle? Sort each idea.",
+   "categories": [
+    "Reduce",
+    "Reuse",
+    "Recycle"
+   ],
+   "items": [
+    [
+     "use both sides of the paper",
+     "Reduce"
+    ],
+    [
+     "take only the food you can eat",
+     "Reduce"
+    ],
+    [
+     "use an old jar as a pencil pot",
+     "Reuse"
+    ],
+    [
+     "carry a cloth bag again and again",
+     "Reuse"
+    ],
+    [
+     "put cans in the metal bin",
+     "Recycle"
+    ],
+    [
+     "put old paper in the paper bin",
+     "Recycle"
+    ]
+   ],
+   "explanation": "Reduce means use less. Reuse means use again. Recycle means make something new from old things."
+  },
+  {
+   "id": "g1-b3-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "The three Rs are reduce, reuse and ___.",
+   "blanks": [
+    [
+     "recycle"
+    ]
+   ],
+   "bank": [
+    "recycle",
+    "rubbish",
+    "river"
+   ],
+   "explanation": "Reduce, reuse and recycle are the three Rs. They help us make less rubbish."
+  },
+  {
+   "id": "g1-b3-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sorting waste",
+   "read_aloud": true,
+   "stem": "Food waste can be made into compost.",
+   "answer": true,
+   "explanation": "Food waste rots and makes the soil rich. Gardeners use compost to help plants grow."
+  },
+  {
+   "id": "g1-b3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Cutting down lots of trees helps keep our air clean.",
+   "answer": false,
+   "explanation": "Trees help keep the air clean and are homes for animals. Cutting down lots of trees harms the environment."
+  },
+  {
+   "id": "g1-b3-011",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "What does a healthy environment have? Choose all that are right.",
+   "options": [
+    "clean water",
+    "litter on the ground",
+    "plenty of trees",
+    "smoky air",
+    "fresh air"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "A healthy environment has clean water, plenty of trees and fresh air. Litter and smoke make it unhealthy."
+  },
+  {
+   "id": "g1-b3-012",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Put the steps in order to sort the class rubbish.",
+   "sequence": [
+    "Put on gloves.",
+    "Empty the bin onto a sheet.",
+    "Sort the waste into groups.",
+    "Count each group.",
+    "Wash your hands."
+   ],
+   "explanation": "We wear gloves first to stay safe. Then we empty, sort and count the waste, and wash our hands at the end."
+  },
+  {
+   "id": "g1-b3-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "Reduce means to use less.",
+   "answer": true,
+   "explanation": "To reduce is to use less. When we use less, we make less rubbish."
+  },
+  {
+   "id": "g1-b3-014",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Class 1 sorted their bin. Paper: 12. Plastic: 8. Food: 5. Metal: 2. They had the most ___ waste.",
+   "blanks": [
+    [
+     "paper"
+    ]
+   ],
+   "bank": [
+    "paper",
+    "plastic",
+    "metal"
+   ],
+   "explanation": "12 is the biggest number, so there was most paper waste. They can use both sides of the paper to make less."
+  },
+  {
+   "id": "g1-b3-015",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy and harmful",
+   "read_aloud": true,
+   "stem": "Match each harmful action to the problem it causes.",
+   "pairs": [
+    [
+     "dropping litter",
+     "can hurt animals"
+    ],
+    [
+     "burning rubbish",
+     "makes the air dirty"
+    ],
+    [
+     "dirty river water",
+     "can make people ill"
+    ],
+    [
+     "cutting down trees",
+     "animals lose their homes"
+    ]
+   ],
+   "explanation": "Litter can hurt animals, and smoke makes the air dirty. Dirty water can make people ill. Trees are homes for animals."
+  },
+  {
+   "id": "g1-b3-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Staying safe",
+   "read_aloud": true,
+   "stem": "Moung sees a broken glass bottle on the playground. What should he do?",
+   "options": [
+    "Pick it up with his hands.",
+    "Kick it into the grass.",
+    "Tell a teacher."
+   ],
+   "answer": 2,
+   "explanation": "Broken glass can cut us. We never touch it. We tell a teacher so a grown-up can clear it safely."
+  },
+  {
+   "id": "g1-b3-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Keeping school clean",
+   "read_aloud": true,
+   "stem": "Plastic bags blow around Tuli's playground. What is a good plan?",
+   "options": [
+    "Put labelled bins in each class.",
+    "Burn all the bags behind the school.",
+    "Throw the bags into the pond."
+   ],
+   "answer": 0,
+   "explanation": "Bins in every class help children put litter in the right place. Burning bags makes smoke, and bags in a pond harm the water and animals."
+  },
+  {
+   "id": "g1-b3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sorting waste",
+   "read_aloud": true,
+   "stem": "After cooking, Anika's family has fruit peels and vegetable scraps. What can they do?",
+   "options": [
+    "Burn them with the plastic.",
+    "Make compost for the garden.",
+    "Throw them into the river."
+   ],
+   "answer": 1,
+   "explanation": "Peels and scraps rot and make rich compost for plants. Burning and throwing them in the river harm the air and the water."
+  },
+  {
+   "id": "g1-b3-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Reduce, reuse, recycle",
+   "read_aloud": true,
+   "stem": "At the market, Nadia takes her own cloth bag instead of a new plastic bag each time. This helps the environment.",
+   "answer": true,
+   "explanation": "Using a cloth bag again and again means less plastic is thrown away. This is reusing."
+  },
+  {
+   "id": "g1-b3-020",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Keeping school clean",
+   "read_aloud": true,
+   "stem": "How can our school stay clean and healthy? Choose all that are right.",
+   "options": [
+    "Put bins in the classes.",
+    "Plant trees.",
+    "Drop litter in the playground.",
+    "Keep the toilets clean.",
+    "Leave the taps running."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Bins, trees and clean toilets keep a school healthy. Litter makes the playground dirty, and running taps waste water."
+  },
+  {
+   "id": "g1-b3-021",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Keeping school clean",
+   "read_aloud": true,
+   "stem": "Write one thing you can do to keep your school clean.",
+   "model_answer": "I can put my litter in the bin.",
+   "keywords": [
+    [
+     "bin",
+     "bins",
+     "litter",
+     "rubbish",
+     "waste",
+     "recycle",
+     "reuse",
+     "sort",
+     "sweep",
+     "clean",
+     "trees",
+     "tree",
+     "compost"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "Putting litter in the bin, sorting waste and planting trees all help keep a school clean and healthy."
+  },
+  {
+   "id": "g1-b3-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Class 1 sorted their bin. Paper: 12. Plastic: 8. Food: 5. Metal: 2. How many pieces of waste were there in all?",
+   "options": [
+    "25",
+    "27",
+    "29",
+    "30"
+   ],
+   "answer": 1,
+   "explanation": "12 + 8 = 20. 20 + 5 = 25. 25 + 2 = 27. There were 27 pieces of waste."
+  },
+  {
+   "id": "g1-b3-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Class 1 had 12 pieces of paper, 8 of plastic, 5 of food and 2 of metal. They want to make less rubbish. What is the best first plan?",
+   "options": [
+    "Use both sides of the paper.",
+    "Use fewer metal tins in class.",
+    "Stop eating fruit and snacks."
+   ],
+   "answer": 0,
+   "explanation": "Paper was the biggest pile. Using both sides of the paper makes the biggest change."
+  },
+  {
+   "id": "g1-b3-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Class rubbish survey",
+   "read_aloud": true,
+   "stem": "Class 1 found 12 pieces of paper, 5 of food and 2 of metal. Food and metal together are how many fewer than paper?",
+   "options": [
+    "7",
+    "10",
+    "5",
+    "19"
+   ],
+   "answer": 2,
+   "explanation": "Food and metal together are 5 + 2 = 7. Paper is 12. 12 take away 7 is 5, so food and metal together are 5 fewer."
+  }
+ ]
+}

@@ -1,220 +1,664 @@
 {
-  "grade": 5,
-  "grade_name": "Grade 5",
-  "topic": "B1",
-  "title": "Water for Life and the Water Cycle",
-  "strand": "earth",
-  "worksheet": "worksheets/grade-5-science/pdf/b1-water-for-life-and-the-water-cycle-study-pack.pdf",
-  "questions": [
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "B1",
+ "title": "Water for Life and the Water Cycle",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-5-science/pdf/b1-water-for-life-and-the-water-cycle-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-b1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Changes of state",
+   "stem": "Which change of state turns liquid water into water vapour?",
+   "options": [
+    "evaporation",
+    "freezing",
+    "condensation",
+    "melting"
+   ],
+   "answer": 0,
+   "explanation": "Heating turns liquid water into a gas called water vapour. This is evaporation. Condensation is the opposite change, from gas back to liquid."
+  },
+  {
+   "id": "g5-b1-002",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Changes of state",
+   "stem": "Water boils at ___ °C and ice melts at ___ °C.",
+   "blanks": [
+    [
+     "100"
+    ],
+    [
+     "0",
+     "zero"
+    ]
+   ],
+   "bank": [
+    "0",
+    "50",
+    "100",
+    "37"
+   ],
+   "explanation": "Water boils at 100 °C. Ice melts, and water freezes, at 0 °C."
+  },
+  {
+   "id": "g5-b1-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Changes of state",
+   "stem": "Match each change of state to what happens.",
+   "pairs": [
+    [
+     "evaporation",
+     "liquid becomes a gas"
+    ],
+    [
+     "condensation",
+     "gas becomes a liquid"
+    ],
+    [
+     "melting",
+     "solid becomes a liquid"
+    ],
+    [
+     "freezing",
+     "liquid becomes a solid"
+    ]
+   ],
+   "explanation": "Heating causes evaporation and melting. Cooling causes condensation and freezing."
+  },
+  {
+   "id": "g5-b1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Water cycle steps",
+   "stem": "Rain water is salty because it comes from the sea.",
+   "answer": false,
+   "explanation": "Rain is fresh. When sea water evaporates, the salt is left behind in the sea and only the water vapour rises."
+  },
+  {
+   "id": "g5-b1-005",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Water cycle steps",
+   "stem": "Put the steps in order to follow one drop of water from the Bay of Bengal and back to the sea.",
+   "sequence": [
+    "The Sun heats the sea and water evaporates.",
+    "Water vapour rises and cools.",
+    "The vapour condenses into droplets and forms clouds.",
+    "Droplets join and fall as monsoon rain.",
+    "Rain runs into a river.",
+    "The river flows back into the sea."
+   ],
+   "explanation": "Evaporation, cooling and condensation, precipitation and collection follow each other. Then the river returns the water to the sea and the cycle starts again."
+  },
+  {
+   "id": "g5-b1-006",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Changes of state",
+   "stem": "Sort these events by what causes the change of state.",
+   "categories": [
+    "Caused by heating",
+    "Caused by cooling"
+   ],
+   "items": [
+    [
+     "a puddle drying in the sun",
+     "Caused by heating"
+    ],
+    [
+     "ice melting in a glass",
+     "Caused by heating"
+    ],
+    [
+     "wet clothes drying on a line",
+     "Caused by heating"
+    ],
+    [
+     "dew forming on grass at night",
+     "Caused by cooling"
+    ],
+    [
+     "water freezing in a freezer",
+     "Caused by cooling"
+    ],
+    [
+     "clouds forming high in the sky",
+     "Caused by cooling"
+    ]
+   ],
+   "explanation": "Evaporation and melting need heat. Condensation (dew, clouds) and freezing happen when things cool down."
+  },
+  {
+   "id": "g5-b1-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water cycle steps",
+   "stem": "Which of these are forms of precipitation? Choose all that are right.",
+   "options": [
+    "rain",
+    "hail",
+    "dew on grass",
+    "snow",
+    "water vapour"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Precipitation is water falling from clouds as rain, hail or snow. Dew forms on cool surfaces by condensation, and water vapour is an invisible gas."
+  },
+  {
+   "id": "g5-b1-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water cycle steps",
+   "stem": "Plants take up water through their ___ and lose water vapour from their leaves. This is called ___.",
+   "blanks": [
+    [
+     "roots",
+     "root"
+    ],
+    [
+     "transpiration"
+    ]
+   ],
+   "bank": [
+    "roots",
+    "transpiration",
+    "condensation",
+    "flowers"
+   ],
+   "explanation": "Roots take up water. The water vapour that escapes from the leaves joins the air, and this is called transpiration."
+  },
+  {
+   "id": "g5-b1-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water cycle steps",
+   "stem": "The wind, not the Sun, provides the energy that drives the water cycle.",
+   "answer": false,
+   "explanation": "The Sun's energy heats the water so that it evaporates and keeps the whole cycle going. Wind only helps to move the air and clouds."
+  },
+  {
+   "id": "g5-b1-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Water cycle steps",
+   "stem": "Explain how a cloud forms.",
+   "model_answer": "Water vapour rises into the cooler air high in the sky. There it cools and condenses into tiny droplets, and the droplets together make a cloud.",
+   "keywords": [
+    [
+     "vapour",
+     "vapor",
+     "evaporate",
+     "evaporates",
+     "evaporation",
+     "gas"
+    ],
+    [
+     "cool",
+     "cools",
+     "cooler",
+     "cold",
+     "colder"
+    ],
+    [
+     "condense",
+     "condenses",
+     "condensation",
+     "droplet",
+     "droplets"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Air is cooler high up. Rising water vapour cools, condenses into tiny droplets of liquid water, and millions of droplets make a cloud."
+  },
+  {
+   "id": "g5-b1-011",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Why the water cycle matters",
+   "stem": "Which statements explain why the water cycle matters for life? Choose all that are right.",
+   "options": [
+    "It brings fresh water to the land for plants, animals and people.",
+    "Evaporation leaves the salt behind, so rain is fresh.",
+    "Glaciers and snow store fresh water and release it slowly.",
+    "It makes new water, so the world never runs short.",
+    "It turns all the fresh water into salty water."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The cycle delivers and stores fresh water. It does not make new water: the same water goes round and round, and fresh water that we can use is limited."
+  },
+  {
+   "id": "g5-b1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Desalination",
+   "stem": "A desalination plant heats salt water and then cools the vapour to make pure water. What happens to the salt?",
+   "options": [
+    "It condenses with the water vapour.",
+    "It stays behind when the water evaporates.",
+    "It rises into the air as a gas.",
+    "It turns into ice."
+   ],
+   "answer": 1,
+   "explanation": "Only the water evaporates. The salt cannot become a gas at these temperatures, so it is left behind and the condensed water is pure."
+  },
+  {
+   "id": "g5-b1-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Desalination",
+   "stem": "Reverse osmosis makes salt water drinkable by pushing it through a very fine filter that stops the salt.",
+   "answer": true,
+   "explanation": "Reverse osmosis is one way of desalination. The water is pushed through a filter with tiny holes, and the salt is left behind."
+  },
+  {
+   "id": "g5-b1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Water cycle steps",
+   "stem": "Look at the water cycle diagram. Which number shows condensation, where clouds form?",
+   "image": "diagrams/water-cycle-numbered.svg",
+   "image_alt": "The water cycle with five stages numbered 1 to 5: evaporation, condensation, precipitation, collection and transpiration.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Number 2 is condensation, high in the sky where the air is cool. Number 1 is evaporation, 3 is precipitation and 4 is collection."
+  },
+  {
+   "id": "g5-b1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Water cycle steps",
+   "stem": "Look at number 5 in the diagram. What is this step of the water cycle called?",
+   "image": "diagrams/water-cycle-numbered.svg",
+   "image_alt": "The water cycle with five stages numbered 1 to 5: evaporation, condensation, precipitation, collection and transpiration.",
+   "options": [
+    "collection",
+    "precipitation",
+    "condensation",
+    "transpiration"
+   ],
+   "answer": 3,
+   "explanation": "Number 5 is transpiration: plants lose water vapour from their leaves, and this adds to the water vapour in the air."
+  },
+  {
+   "id": "g5-b1-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Changes of state",
+   "stem": "Look at the particle diagram. What happens to the particles when a liquid evaporates and becomes a gas?",
+   "image": "diagrams/states-particles.svg",
+   "image_alt": "Particles of a solid packed in rows, of a liquid touching but jumbled, and of a gas far apart, with arrows labelled melting, freezing, evaporating and condensing.",
+   "options": [
+    "They pack into neat rows.",
+    "They get bigger.",
+    "They spread far apart.",
+    "They disappear."
+   ],
+   "answer": 2,
+   "explanation": "In a gas the particles are far apart and move fast. The water does not disappear: it is still there as water vapour."
+  },
+  {
+   "id": "g5-b1-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water cycle steps",
+   "stem": "Which picture shows precipitation?",
+   "options": [
     {
-      "id": "g5-b1-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Changes of state",
-      "stem": "Which change of state turns liquid water into water vapour?",
-      "options": ["freezing", "evaporation", "condensation", "melting"],
-      "answer": 1,
-      "explanation": "Heating turns liquid water into a gas called water vapour. This is evaporation. Condensation is the opposite change, from gas back to liquid."
+     "text": "sun",
+     "image": "openmoji/sun.svg"
     },
     {
-      "id": "g5-b1-002", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Changes of state",
-      "stem": "Water boils at ___ °C and ice melts at ___ °C.",
-      "blanks": [["100"], ["0", "zero"]],
-      "bank": ["0", "50", "100", "37"],
-      "explanation": "Water boils at 100 °C. Ice melts, and water freezes, at 0 °C."
+     "text": "rain cloud",
+     "image": "openmoji/rain-cloud.svg"
     },
     {
-      "id": "g5-b1-003", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Changes of state",
-      "stem": "Match each change of state to what happens.",
-      "pairs": [["evaporation", "liquid becomes a gas"], ["condensation", "gas becomes a liquid"], ["melting", "solid becomes a liquid"], ["freezing", "liquid becomes a solid"]],
-      "explanation": "Heating causes evaporation and melting. Cooling causes condensation and freezing."
+     "text": "ice cube",
+     "image": "openmoji/ice-cube.svg"
     },
     {
-      "id": "g5-b1-004", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Water cycle steps",
-      "stem": "Rain water is salty because it comes from the sea.",
-      "answer": false,
-      "explanation": "Rain is fresh. When sea water evaporates, the salt is left behind in the sea and only the water vapour rises."
-    },
-    {
-      "id": "g5-b1-005", "mode": "core", "type": "order", "difficulty": 1, "bloom": "understand", "subskill": "Water cycle steps",
-      "stem": "Put the steps in order to follow one drop of water from the Bay of Bengal and back to the sea.",
-      "sequence": ["The Sun heats the sea and water evaporates.", "Water vapour rises and cools.", "The vapour condenses into droplets and forms clouds.", "Droplets join and fall as monsoon rain.", "Rain runs into a river.", "The river flows back into the sea."],
-      "explanation": "Evaporation, cooling and condensation, precipitation and collection follow each other. Then the river returns the water to the sea and the cycle starts again."
-    },
-    {
-      "id": "g5-b1-006", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Changes of state",
-      "stem": "Sort these events by what causes the change of state.",
-      "categories": ["Caused by heating", "Caused by cooling"],
-      "items": [["a puddle drying in the sun", "Caused by heating"], ["ice melting in a glass", "Caused by heating"], ["wet clothes drying on a line", "Caused by heating"], ["dew forming on grass at night", "Caused by cooling"], ["water freezing in a freezer", "Caused by cooling"], ["clouds forming high in the sky", "Caused by cooling"]],
-      "explanation": "Evaporation and melting need heat. Condensation (dew, clouds) and freezing happen when things cool down."
-    },
-    {
-      "id": "g5-b1-007", "mode": "core", "type": "multi", "difficulty": 1, "bloom": "remember", "subskill": "Water cycle steps",
-      "stem": "Which of these are forms of precipitation? Choose all that are right.",
-      "options": ["rain", "hail", "dew on grass", "snow", "water vapour"],
-      "answer": [0, 1, 3],
-      "explanation": "Precipitation is water falling from clouds as rain, hail or snow. Dew forms on cool surfaces by condensation, and water vapour is an invisible gas."
-    },
-    {
-      "id": "g5-b1-008", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Water cycle steps",
-      "stem": "Plants take up water through their ___ and lose water vapour from their leaves. This is called ___.",
-      "blanks": [["roots", "root"], ["transpiration"]],
-      "bank": ["roots", "transpiration", "condensation", "flowers"],
-      "explanation": "Roots take up water. The water vapour that escapes from the leaves joins the air, and this is called transpiration."
-    },
-    {
-      "id": "g5-b1-009", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Water cycle steps",
-      "stem": "The wind, not the Sun, provides the energy that drives the water cycle.",
-      "answer": false,
-      "explanation": "The Sun's energy heats the water so that it evaporates and keeps the whole cycle going. Wind only helps to move the air and clouds."
-    },
-    {
-      "id": "g5-b1-010", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Water cycle steps",
-      "stem": "Explain how a cloud forms.",
-      "model_answer": "Water vapour rises into the cooler air high in the sky. There it cools and condenses into tiny droplets, and the droplets together make a cloud.",
-      "keywords": [["vapour", "vapor", "evaporate", "evaporates", "evaporation", "gas"], ["cool", "cools", "cooler", "cold", "colder"], ["condense", "condenses", "condensation", "droplet", "droplets"]],
-      "min_keywords": 2,
-      "explanation": "Air is cooler high up. Rising water vapour cools, condenses into tiny droplets of liquid water, and millions of droplets make a cloud."
-    },
-    {
-      "id": "g5-b1-011", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Why the water cycle matters",
-      "stem": "Which statements explain why the water cycle matters for life? Choose all that are right.",
-      "options": ["It brings fresh water to the land for plants, animals and people.", "Evaporation leaves the salt behind, so rain is fresh.", "Glaciers and snow store fresh water and release it slowly.", "It makes new water, so the world never runs short.", "It turns all the fresh water into salty water."],
-      "answer": [0, 1, 2],
-      "explanation": "The cycle delivers and stores fresh water. It does not make new water: the same water goes round and round, and fresh water that we can use is limited."
-    },
-    {
-      "id": "g5-b1-012", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Desalination",
-      "stem": "A desalination plant heats salt water and then cools the vapour to make pure water. What happens to the salt?",
-      "options": ["It condenses with the water vapour.", "It rises into the air as a gas.", "It stays behind when the water evaporates.", "It turns into ice."],
-      "answer": 2,
-      "explanation": "Only the water evaporates. The salt cannot become a gas at these temperatures, so it is left behind and the condensed water is pure."
-    },
-    {
-      "id": "g5-b1-013", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Desalination",
-      "stem": "Reverse osmosis makes salt water drinkable by pushing it through a very fine filter that stops the salt.",
-      "answer": true,
-      "explanation": "Reverse osmosis is one way of desalination. The water is pushed through a filter with tiny holes, and the salt is left behind."
-    },
-    {
-      "id": "g5-b1-014", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Water cycle steps",
-      "stem": "Look at the water cycle diagram. Which number shows condensation, where clouds form?",
-      "image": "diagrams/water-cycle-numbered.svg", "image_alt": "The water cycle with five stages numbered 1 to 5: evaporation, condensation, precipitation, collection and transpiration.",
-      "options": ["1", "2", "3", "4"],
-      "answer": 1,
-      "explanation": "Number 2 is condensation, high in the sky where the air is cool. Number 1 is evaporation, 3 is precipitation and 4 is collection."
-    },
-    {
-      "id": "g5-b1-015", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Water cycle steps",
-      "stem": "Look at number 5 in the diagram. What is this step of the water cycle called?",
-      "image": "diagrams/water-cycle-numbered.svg", "image_alt": "The water cycle with five stages numbered 1 to 5: evaporation, condensation, precipitation, collection and transpiration.",
-      "options": ["collection", "precipitation", "transpiration", "condensation"],
-      "answer": 2,
-      "explanation": "Number 5 is transpiration: plants lose water vapour from their leaves, and this adds to the water vapour in the air."
-    },
-    {
-      "id": "g5-b1-016", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Changes of state",
-      "stem": "Look at the particle diagram. What happens to the particles when a liquid evaporates and becomes a gas?",
-      "image": "diagrams/states-particles.svg", "image_alt": "Particles of a solid packed in rows, of a liquid touching but jumbled, and of a gas far apart, with arrows labelled melting, freezing, evaporating and condensing.",
-      "options": ["They pack into neat rows.", "They spread far apart.", "They get bigger.", "They disappear."],
-      "answer": 1,
-      "explanation": "In a gas the particles are far apart and move fast. The water does not disappear: it is still there as water vapour."
-    },
-    {
-      "id": "g5-b1-017", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Water cycle steps",
-      "stem": "Which picture shows precipitation?",
-      "options": [{"text": "sun", "image": "openmoji/sun.svg"}, {"text": "ice cube", "image": "openmoji/ice-cube.svg"}, {"text": "rain cloud", "image": "openmoji/rain-cloud.svg"}, {"text": "rice plant", "image": "openmoji/rice-plant.svg"}],
-      "answer": 2,
-      "explanation": "Precipitation is water falling from clouds as rain, hail or snow. The rain cloud shows rain falling."
-    },
-    {
-      "id": "g5-b1-018", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "understand", "subskill": "Why the water cycle matters",
-      "stem": "Match each picture to its part in the water story.",
-      "pairs": [[{"text": "snow-capped mountain", "image": "openmoji/snow-capped-mountain.svg"}, "stores fresh water as snow and ice"], [{"text": "rain cloud", "image": "openmoji/rain-cloud.svg"}, "precipitation brings water to the land"], [{"text": "sun", "image": "openmoji/sun.svg"}, "gives the energy that drives the cycle"], [{"text": "rice plant", "image": "openmoji/rice-plant.svg"}, "loses water vapour from its leaves"]],
-      "explanation": "Snow and ice store fresh water and release it slowly. Rain brings it to the land, the Sun powers the cycle, and plants add water vapour by transpiration."
-    },
-    {
-      "id": "g5-b1-019", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Changes of state",
-      "stem": "Sumi hangs out two identical wet shirts. One is in a sunny, windy yard. The other is in a shady, still corner. Which shirt dries first, and why?",
-      "options": ["The shirt in the shady corner, because cool air pulls out the water.", "The shirt in the yard, because the heat and wind help the water evaporate.", "Both at the same time, because water always dries at the same speed.", "The shirt in the yard, because the Sun destroys the water."],
-      "answer": 1,
-      "explanation": "Heat makes water evaporate faster, and wind carries the water vapour away so more can evaporate. The water is not destroyed: it becomes water vapour in the air."
-    },
-    {
-      "id": "g5-b1-020", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "People and fresh water",
-      "stem": "Every year the water level in the tube-wells under Dhaka falls. Which is the best explanation?",
-      "options": ["The Sun heats the underground water until it all evaporates.", "Rain has stopped falling in Bangladesh.", "People pump out groundwater faster than rain can soak in to refill it.", "Plants drink up all of the underground water."],
-      "answer": 2,
-      "explanation": "Groundwater is refilled slowly by rain soaking into the ground. If people take it out faster than it is refilled, the water level falls."
-    },
-    {
-      "id": "g5-b1-021", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "evaluate", "subskill": "People and fresh water",
-      "stem": "After a cyclone, sea water floods the village pond where Nadia lives in Satkhira. Which is the best way for her family to get safe drinking water?",
-      "options": ["Boil the pond water and drink it.", "Collect rainwater from the roof in a clean tank.", "Leave the pond water to settle for a day.", "Add sugar to hide the salty taste."],
-      "answer": 1,
-      "explanation": "Rain is fresh water. Boiling kills germs but leaves the salt behind, settling does not remove dissolved salt, and sugar does not make salty water safe."
-    },
-    {
-      "id": "g5-b1-022", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "create", "subskill": "People and fresh water",
-      "stem": "Class 5 in Khulna wants to protect the water at their school. Which actions would help? Choose all that are right.",
-      "options": ["collect rainwater from the roof in a tank", "fix dripping taps", "throw rubbish into the pond", "keep the tap running while brushing teeth", "put up no-littering signs near the pond"],
-      "answer": [0, 1, 4],
-      "explanation": "Collecting rain, fixing leaks and keeping the pond clean save and protect water. Rubbish pollutes the pond, and a running tap wastes water."
-    },
-    {
-      "id": "g5-b1-023", "mode": "real-life", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Desalination",
-      "stem": "A village in Khulna has strong sunshine but no electricity. Their pond water is salty. Which way of making drinking water needs no electricity?",
-      "options": ["A reverse osmosis plant with an electric pump", "Boiling the salty water and drinking it", "A solar still that uses the Sun's heat to evaporate the water", "Pouring the salty water through a cloth"],
-      "answer": 2,
-      "explanation": "A solar still copies the water cycle using the Sun's heat. Reverse osmosis needs electricity, boiling leaves the salt in the water, and a cloth cannot remove dissolved salt."
-    },
-    {
-      "id": "g5-b1-024", "mode": "simulation", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Changes of state",
-      "stem": "How do the water particles in the gas state compare with the particles in the solid?",
-      "sim": {"id": "states-of-matter-basics", "task": "Open States of Matter Basics and stay on the States screen. Choose water. Press Solid, then Liquid, then Gas. Watch how the particles look and move each time."},
-      "options": ["They are in neat rows and only jiggle.", "They stop moving completely.", "They are much further apart and move faster.", "They are the same, just bigger."],
-      "answer": 2,
-      "explanation": "In a solid the particles are packed in rows and only vibrate. In a gas they are far apart and move quickly in every direction."
-    },
-    {
-      "id": "g5-b1-025", "mode": "simulation", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Changes of state",
-      "stem": "As you add heat, the water particles move faster and the solid starts to melt into a liquid.",
-      "sim": {"id": "states-of-matter-basics", "task": "Open States of Matter Basics and stay on the States screen. Choose water and press Solid. Move the heat/cool slider up slowly. Watch the thermometer and the particles."},
-      "answer": true,
-      "explanation": "Heat energy makes the particles move faster. When they move fast enough they break out of their rows and slide past each other: the solid has melted."
-    },
-    {
-      "id": "g5-b1-026", "mode": "simulation", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Changes of state",
-      "stem": "Heat solid water in the simulation. Put what you see in order.",
-      "sim": {"id": "states-of-matter-basics", "task": "Open States of Matter Basics and stay on the States screen. Choose water and press Solid. Then keep heating with the heat/cool slider. Watch the particles change."},
-      "sequence": ["The particles are packed in rows and only jiggle.", "The rows break up and the particles slide past each other as a liquid.", "The particles fly far apart as a gas."],
-      "explanation": "More heat means faster particles. First they leave their rows (melting), then they break free of each other (evaporating or boiling)."
-    },
-    {
-      "id": "g5-b1-027", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Investigating a solar still",
-      "stem": "Class 5B built two identical solar stills (example data). After 1, 2, 3 and 4 hours the still in the sun had made 4, 9, 15 and 20 ml of clean water. The still in the shade had made 1, 2, 4 and 5 ml. After 4 hours, how many times more clean water did the still in the sun make?",
-      "options": ["2 times", "4 times", "5 times", "15 times"],
-      "answer": 1,
-      "explanation": "20 ml ÷ 5 ml = 4, so the sunny still made 4 times as much. The difference is 15 ml, but the question asks 'how many times'. More heat makes water evaporate faster, so more condenses."
-    },
-    {
-      "id": "g5-b1-028", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Water cycle steps",
-      "stem": "Explain why the water cycle is called a cycle, and why the total amount of water on Earth stays the same.",
-      "model_answer": "The water goes round and round and starts again. It only changes state and moves from place to place, so no water is made or destroyed.",
-      "keywords": [["round and round", "again", "repeat", "repeats", "back", "cycle", "circle", "loop"], ["changes state", "change state", "only changes", "moves", "changes form", "change place"], ["not used up", "none is made", "no new", "not destroyed", "destroyed", "not lost", "same water", "made or"]],
-      "min_keywords": 2,
-      "explanation": "Evaporation, condensation, precipitation and collection lead back to evaporation. The water only changes state and place, so the total stays the same."
-    },
-    {
-      "id": "g5-b1-029", "mode": "olympiad", "type": "fill", "difficulty": 3, "bloom": "apply", "subskill": "People and fresh water",
-      "stem": "A family of 4 needs about 3 litres of drinking water per person each day (example). Together they need ___ litres a day, so a full 1200-litre rainwater tank lasts about ___ days.",
-      "blanks": [["12"], ["100"]],
-      "bank": ["12", "100", "300", "400"],
-      "explanation": "4 × 3 = 12 litres a day. Then 1200 ÷ 12 = 100 days. Dividing by only 4 or only 3 would give 300 or 400, which forgets part of the calculation."
-    },
-    {
-      "id": "g5-b1-030", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Investigating a solar still",
-      "stem": "Nadia wants to find out whether sunshine helps a solar still. She puts Still A in the sun with 500 ml of salty water and Still B in the shade with 250 ml of salty water. Why is her test not fair?",
-      "options": ["Both stills should have been in the shade.", "She changed two things at once: the sunshine and the amount of water.", "She should have used fresh water in one still.", "She should have used only one still."],
-      "answer": 1,
-      "explanation": "In a fair test only one thing is changed (sun or shade). The amount of water, the bowls and the plastic must stay the same, or we cannot tell which change caused the result."
+     "text": "rice plant",
+     "image": "openmoji/rice-plant.svg"
     }
-  ]
+   ],
+   "answer": 1,
+   "explanation": "Precipitation is water falling from clouds as rain, hail or snow. The rain cloud shows rain falling."
+  },
+  {
+   "id": "g5-b1-018",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Why the water cycle matters",
+   "stem": "Match each picture to its part in the water story.",
+   "pairs": [
+    [
+     {
+      "text": "snow-capped mountain",
+      "image": "openmoji/snow-capped-mountain.svg"
+     },
+     "stores fresh water as snow and ice"
+    ],
+    [
+     {
+      "text": "rain cloud",
+      "image": "openmoji/rain-cloud.svg"
+     },
+     "precipitation brings water to the land"
+    ],
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "gives the energy that drives the cycle"
+    ],
+    [
+     {
+      "text": "rice plant",
+      "image": "openmoji/rice-plant.svg"
+     },
+     "loses water vapour from its leaves"
+    ]
+   ],
+   "explanation": "Snow and ice store fresh water and release it slowly. Rain brings it to the land, the Sun powers the cycle, and plants add water vapour by transpiration."
+  },
+  {
+   "id": "g5-b1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Changes of state",
+   "stem": "Sumi hangs out two identical wet shirts. One is in a sunny, windy yard. The other is in a shady, still corner. Which shirt dries first, and why?",
+   "options": [
+    "The shirt in the shady corner, because cool air pulls out the water.",
+    "The shirt in the yard, because the Sun destroys the water.",
+    "Both at the same time, because water always dries at the same speed.",
+    "The shirt in the yard, because the heat and wind help the water evaporate."
+   ],
+   "answer": 3,
+   "explanation": "Heat makes water evaporate faster, and wind carries the water vapour away so more can evaporate. The water is not destroyed: it becomes water vapour in the air."
+  },
+  {
+   "id": "g5-b1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "People and fresh water",
+   "stem": "Every year the water level in the tube-wells under Dhaka falls. Which is the best explanation?",
+   "options": [
+    "The Sun heats the underground water until it all evaporates.",
+    "Rain has stopped falling in Bangladesh.",
+    "People pump out groundwater faster than rain can soak in to refill it.",
+    "Plants drink up all of the underground water."
+   ],
+   "answer": 2,
+   "explanation": "Groundwater is refilled slowly by rain soaking into the ground. If people take it out faster than it is refilled, the water level falls."
+  },
+  {
+   "id": "g5-b1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "People and fresh water",
+   "stem": "After a cyclone, sea water floods the village pond where Nadia lives in Satkhira. Which is the best way for her family to get safe drinking water?",
+   "options": [
+    "Collect rainwater from the roof in a clean tank.",
+    "Boil the pond water and drink it.",
+    "Leave the pond water to settle for a day.",
+    "Add sugar to hide the salty taste."
+   ],
+   "answer": 0,
+   "explanation": "Rain is fresh water. Boiling kills germs but leaves the salt behind, settling does not remove dissolved salt, and sugar does not make salty water safe."
+  },
+  {
+   "id": "g5-b1-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "People and fresh water",
+   "stem": "Class 5 in Khulna wants to protect the water at their school. Which actions would help? Choose all that are right.",
+   "options": [
+    "collect rainwater from the roof in a tank",
+    "fix dripping taps",
+    "throw rubbish into the pond",
+    "keep the tap running while brushing teeth",
+    "put up no-littering signs near the pond"
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Collecting rain, fixing leaks and keeping the pond clean save and protect water. Rubbish pollutes the pond, and a running tap wastes water."
+  },
+  {
+   "id": "g5-b1-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Desalination",
+   "stem": "A village in Khulna has strong sunshine but no electricity. Their pond water is salty. Which way of making drinking water needs no electricity?",
+   "options": [
+    "A reverse osmosis plant with an electric pump",
+    "Boiling the salty water and drinking it",
+    "Pouring the salty water through a cloth",
+    "A solar still that uses the Sun's heat to evaporate the water"
+   ],
+   "answer": 3,
+   "explanation": "A solar still copies the water cycle using the Sun's heat. Reverse osmosis needs electricity, boiling leaves the salt in the water, and a cloth cannot remove dissolved salt."
+  },
+  {
+   "id": "g5-b1-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Changes of state",
+   "stem": "How do the water particles in the gas state compare with the particles in the solid?",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and stay on the States screen. Choose water. Press Solid, then Liquid, then Gas. Watch how the particles look and move each time."
+   },
+   "options": [
+    "They are in neat rows and only jiggle.",
+    "They stop moving completely.",
+    "They are much further apart and move faster.",
+    "They are the same, just bigger."
+   ],
+   "answer": 2,
+   "explanation": "In a solid the particles are packed in rows and only vibrate. In a gas they are far apart and move quickly in every direction."
+  },
+  {
+   "id": "g5-b1-025",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Changes of state",
+   "stem": "As you add heat, the water particles move faster and the solid starts to melt into a liquid.",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and stay on the States screen. Choose water and press Solid. Move the heat/cool slider up slowly. Watch the thermometer and the particles."
+   },
+   "answer": true,
+   "explanation": "Heat energy makes the particles move faster. When they move fast enough they break out of their rows and slide past each other: the solid has melted."
+  },
+  {
+   "id": "g5-b1-026",
+   "mode": "simulation",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changes of state",
+   "stem": "Heat solid water in the simulation. Put what you see in order.",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and stay on the States screen. Choose water and press Solid. Then keep heating with the heat/cool slider. Watch the particles change."
+   },
+   "sequence": [
+    "The particles are packed in rows and only jiggle.",
+    "The rows break up and the particles slide past each other as a liquid.",
+    "The particles fly far apart as a gas."
+   ],
+   "explanation": "More heat means faster particles. First they leave their rows (melting), then they break free of each other (evaporating or boiling)."
+  },
+  {
+   "id": "g5-b1-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Investigating a solar still",
+   "stem": "Class 5B built two identical solar stills (example data). After 1, 2, 3 and 4 hours the still in the sun had made 4, 9, 15 and 20 ml of clean water. The still in the shade had made 1, 2, 4 and 5 ml. After 4 hours, how many times more clean water did the still in the sun make?",
+   "options": [
+    "2 times",
+    "4 times",
+    "5 times",
+    "15 times"
+   ],
+   "answer": 1,
+   "explanation": "20 ml ÷ 5 ml = 4, so the sunny still made 4 times as much. The difference is 15 ml, but the question asks 'how many times'. More heat makes water evaporate faster, so more condenses."
+  },
+  {
+   "id": "g5-b1-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Water cycle steps",
+   "stem": "Explain why the water cycle is called a cycle, and why the total amount of water on Earth stays the same.",
+   "model_answer": "The water goes round and round and starts again. It only changes state and moves from place to place, so no water is made or destroyed.",
+   "keywords": [
+    [
+     "round and round",
+     "again",
+     "repeat",
+     "repeats",
+     "back",
+     "cycle",
+     "circle",
+     "loop"
+    ],
+    [
+     "changes state",
+     "change state",
+     "only changes",
+     "moves",
+     "changes form",
+     "change place"
+    ],
+    [
+     "not used up",
+     "none is made",
+     "no new",
+     "not destroyed",
+     "destroyed",
+     "not lost",
+     "same water",
+     "made or"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Evaporation, condensation, precipitation and collection lead back to evaporation. The water only changes state and place, so the total stays the same."
+  },
+  {
+   "id": "g5-b1-029",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "People and fresh water",
+   "stem": "A family of 4 needs about 3 litres of drinking water per person each day (example). Together they need ___ litres a day, so a full 1200-litre rainwater tank lasts about ___ days.",
+   "blanks": [
+    [
+     "12"
+    ],
+    [
+     "100"
+    ]
+   ],
+   "bank": [
+    "12",
+    "100",
+    "300",
+    "400"
+   ],
+   "explanation": "4 × 3 = 12 litres a day. Then 1200 ÷ 12 = 100 days. Dividing by only 4 or only 3 would give 300 or 400, which forgets part of the calculation."
+  },
+  {
+   "id": "g5-b1-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Investigating a solar still",
+   "stem": "Nadia wants to find out whether sunshine helps a solar still. She puts Still A in the sun with 500 ml of salty water and Still B in the shade with 250 ml of salty water. Why is her test not fair?",
+   "options": [
+    "She changed two things at once: the sunshine and the amount of water.",
+    "Both stills should have been in the shade.",
+    "She should have used fresh water in one still.",
+    "She should have used only one still."
+   ],
+   "answer": 0,
+   "explanation": "In a fair test only one thing is changed (sun or shade). The amount of water, the bowls and the plastic must stay the same, or we cannot tell which change caused the result."
+  }
+ ]
 }

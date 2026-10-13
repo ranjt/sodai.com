@@ -1,0 +1,794 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "A4",
+ "title": "Eating for Health",
+ "strand": "living",
+ "worksheet": "worksheets/grade-5-science/pdf/a4-eating-for-health-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-a4-001",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Nutrients and their jobs",
+   "stem": "Match each nutrient to its job in the body.",
+   "pairs": [
+    [
+     "carbohydrates",
+     "give energy"
+    ],
+    [
+     "proteins",
+     "help us grow and repair"
+    ],
+    [
+     "fibre",
+     "helps food move through the gut"
+    ],
+    [
+     "calcium",
+     "builds strong bones and teeth"
+    ],
+    [
+     "iron",
+     "helps blood carry oxygen"
+    ],
+    [
+     "iodine",
+     "helps the brain develop"
+    ]
+   ],
+   "explanation": "Each nutrient has its own job, so we need a variety of foods. Iodine comes from iodised salt, calcium from milk and small fish, and iron from leafy greens, meat and eggs."
+  },
+  {
+   "id": "g5-a4-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Nutrients and their jobs",
+   "stem": "Sort each food by the main nutrient it gives.",
+   "categories": [
+    "Carbohydrates",
+    "Proteins",
+    "Vitamins and minerals"
+   ],
+   "items": [
+    [
+     "chira (flattened rice)",
+     "Carbohydrates"
+    ],
+    [
+     "bread",
+     "Carbohydrates"
+    ],
+    [
+     "potato",
+     "Carbohydrates"
+    ],
+    [
+     "dal (lentils)",
+     "Proteins"
+    ],
+    [
+     "egg",
+     "Proteins"
+    ],
+    [
+     "fish",
+     "Proteins"
+    ],
+    [
+     "mango",
+     "Vitamins and minerals"
+    ],
+    [
+     "lal shak (red spinach)",
+     "Vitamins and minerals"
+    ],
+    [
+     "tomato",
+     "Vitamins and minerals"
+    ]
+   ],
+   "explanation": "Starchy foods give energy, foods such as fish, eggs and dal help us grow and repair, and fruit and vegetables keep the body healthy with vitamins and minerals."
+  },
+  {
+   "id": "g5-a4-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Healthy plate and balanced diet",
+   "stem": "A balanced diet means eating a ___ of foods in the right ___.",
+   "blanks": [
+    [
+     "variety"
+    ],
+    [
+     "amounts",
+     "amount",
+     "proportions"
+    ]
+   ],
+   "bank": [
+    "variety",
+    "amounts",
+    "sugar",
+    "chips"
+   ],
+   "explanation": "No single food has every nutrient, so we need a variety of foods. Eating too little or too much of any food is not balanced."
+  },
+  {
+   "id": "g5-a4-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Healthy plate and balanced diet",
+   "stem": "A healthy plate is half vegetables and fruit, a quarter ___ (such as rice or roti) and a quarter ___ (such as fish, egg or dal).",
+   "blanks": [
+    [
+     "grains",
+     "grain",
+     "cereals",
+     "carbohydrates",
+     "carbohydrate"
+    ],
+    [
+     "protein",
+     "proteins"
+    ]
+   ],
+   "bank": [
+    "grains",
+    "protein",
+    "sugar",
+    "oil"
+   ],
+   "explanation": "The guidelines say not to fill the plate with rice alone. Half of the plate should be vegetables and fruit, with smaller shares of grains and protein."
+  },
+  {
+   "id": "g5-a4-005",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sugar and food labels",
+   "stem": "Put the steps in order to find out how much sugar a drink contains and whether it is a good choice.",
+   "sequence": [
+    "Find the grams of sugar in one serving on the label.",
+    "Divide the grams by 4, because 4 g make 1 teaspoon.",
+    "Write down the number of teaspoons.",
+    "Compare it with the daily limit of about 6 teaspoons.",
+    "Decide whether the drink is a good choice."
+   ],
+   "explanation": "Reading a label, converting grams to teaspoons and comparing with a limit turns a number into advice you can act on."
+  },
+  {
+   "id": "g5-a4-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Healthy plate and balanced diet",
+   "stem": "The body needs some fat for energy and warmth, so we should never eat any fat.",
+   "answer": false,
+   "explanation": "The statement contradicts itself. We need a little fat, for example from oil, nuts or fish, but too much fried and fatty food is unhealthy. Moderation means not too much and not too little."
+  },
+  {
+   "id": "g5-a4-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy plate and balanced diet",
+   "stem": "Which pieces of advice follow the dietary guidelines for Bangladesh? Choose all that are right.",
+   "options": [
+    "Eat a variety of foods every day.",
+    "Fill the plate with rice alone.",
+    "Eat plenty of vegetables and fruit.",
+    "Use iodised salt.",
+    "Eat fried snacks every day."
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "The guidelines advise variety, plenty of vegetables and fruit and iodised salt, and to limit salt, sugar, oil and fried snacks."
+  },
+  {
+   "id": "g5-a4-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Food choices and media",
+   "stem": "Match each example to the factor that affects food choices.",
+   "pairs": [
+    [
+     "Fresh vegetables cost more than packets of snacks.",
+     "cost"
+    ],
+    [
+     "Mangoes are plentiful only in summer.",
+     "availability and season"
+    ],
+    [
+     "Families eat semai at Eid and pitha in winter.",
+     "culture and family"
+    ],
+    [
+     "Adverts and food-delivery apps make fast food look exciting.",
+     "media and technology"
+    ]
+   ],
+   "explanation": "People's food choices depend on cost, what is available, family and cultural traditions, and the influence of media and technology."
+  },
+  {
+   "id": "g5-a4-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Nutrients and their jobs",
+   "stem": "Which food is a good source of iron, which helps blood carry oxygen?",
+   "options": [
+    "lal shak (red spinach)",
+    "white sugar",
+    "cooking oil",
+    "cola"
+   ],
+   "answer": 0,
+   "explanation": "Leafy greens such as lal shak, as well as meat and eggs, give iron. Sugar, oil and cola give energy but almost no iron."
+  },
+  {
+   "id": "g5-a4-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Caffeine, tobacco, alcohol and drugs",
+   "stem": "Why should children avoid tea, cola and energy drinks in the evening?",
+   "options": [
+    "They contain too much protein for the body to use.",
+    "They make the bones soft if drunk at night.",
+    "Caffeine in them can stop children sleeping well.",
+    "They stop the stomach from digesting food."
+   ],
+   "answer": 2,
+   "explanation": "Tea, coffee, cola and energy drinks contain caffeine, which keeps the brain awake. Children need plenty of sleep to grow and learn."
+  },
+  {
+   "id": "g5-a4-011",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Healthy plate and balanced diet",
+   "stem": "Imran's lunch is a big plate of white rice with a little dal, and a glass of cola. Explain why this is not a balanced meal.",
+   "model_answer": "It is mostly carbohydrate from rice and has little protein. It has no vegetables or fruit for vitamins, minerals and fibre, and cola is full of sugar. A balanced meal needs a variety of foods in the right amounts.",
+   "keywords": [
+    [
+     "rice",
+     "carbohydrate",
+     "carbohydrates",
+     "starch"
+    ],
+    [
+     "vegetable",
+     "vegetables",
+     "fruit",
+     "vitamins",
+     "minerals",
+     "fibre"
+    ],
+    [
+     "variety",
+     "balanced",
+     "right amounts",
+     "protein",
+     "sugar",
+     "cola"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A balanced meal has a variety of foods in the right proportions: about half vegetables and fruit, a quarter grains and a quarter protein, with water rather than a sugary drink."
+  },
+  {
+   "id": "g5-a4-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Nutrients and their jobs",
+   "stem": "Which food is the best source of protein?",
+   "options": [
+    {
+     "text": "cooked rice",
+     "image": "openmoji/cooked-rice.svg"
+    },
+    {
+     "text": "french fries",
+     "image": "openmoji/french-fries.svg"
+    },
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    },
+    {
+     "text": "egg",
+     "image": "openmoji/egg.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "Eggs, like fish, meat, dal and milk, give protein for growth and repair. Rice gives mainly energy, and lollipops and chips give sugar or fat."
+  },
+  {
+   "id": "g5-a4-013",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Healthy plate and balanced diet",
+   "stem": "Sort the foods into everyday foods and occasional treats.",
+   "categories": [
+    "Everyday food",
+    "Occasional treat"
+   ],
+   "items": [
+    [
+     {
+      "text": "carrot",
+      "image": "openmoji/carrot.svg"
+     },
+     "Everyday food"
+    ],
+    [
+     {
+      "text": "banana",
+      "image": "openmoji/banana.svg"
+     },
+     "Everyday food"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Everyday food"
+    ],
+    [
+     {
+      "text": "cooked rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "Everyday food"
+    ],
+    [
+     {
+      "text": "doughnut",
+      "image": "openmoji/doughnut.svg"
+     },
+     "Occasional treat"
+    ],
+    [
+     {
+      "text": "french fries",
+      "image": "openmoji/french-fries.svg"
+     },
+     "Occasional treat"
+    ],
+    [
+     {
+      "text": "candy",
+      "image": "openmoji/candy.svg"
+     },
+     "Occasional treat"
+    ],
+    [
+     {
+      "text": "ice cream",
+      "image": "openmoji/ice-cream.svg"
+     },
+     "Occasional treat"
+    ]
+   ],
+   "explanation": "Fruit, vegetables, fish and rice can be part of daily meals. Sugary and fried foods are fine now and then, but the guidelines say to limit sugar, oil and fried snacks."
+  },
+  {
+   "id": "g5-a4-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Caffeine, tobacco, alcohol and drugs",
+   "stem": "Which drink contains caffeine?",
+   "options": [
+    {
+     "text": "milk",
+     "image": "openmoji/milk.svg"
+    },
+    {
+     "text": "tea",
+     "image": "openmoji/cup-of-tea.svg"
+    },
+    {
+     "text": "water",
+     "image": "openmoji/potable-water.svg"
+    },
+    {
+     "text": "coconut",
+     "image": "openmoji/coconut.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "Caffeine is found in tea, coffee, cola and energy drinks. It can keep children awake at night."
+  },
+  {
+   "id": "g5-a4-015",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Nutrients and their jobs",
+   "stem": "Match each food picture to the nutrient it helps to give.",
+   "pairs": [
+    [
+     {
+      "text": "milk",
+      "image": "openmoji/milk.svg"
+     },
+     "calcium for strong bones"
+    ],
+    [
+     {
+      "text": "leafy greens",
+      "image": "openmoji/leafy-green.svg"
+     },
+     "iron for the blood"
+    ],
+    [
+     {
+      "text": "iodised salt",
+      "image": "openmoji/salt.svg"
+     },
+     "iodine for the brain"
+    ],
+    [
+     {
+      "text": "cooked rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "carbohydrate for energy"
+    ]
+   ],
+   "explanation": "Different foods give different nutrients. Milk and small fish give calcium, leafy greens give iron, iodised salt gives iodine and rice gives carbohydrate."
+  },
+  {
+   "id": "g5-a4-016",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Sugar and food labels",
+   "stem": "Which pictures show foods with a lot of added sugar? Choose all that are right.",
+   "options": [
+    {
+     "text": "candy",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
+    },
+    {
+     "text": "carrot",
+     "image": "openmoji/carrot.svg"
+    },
+    {
+     "text": "ice cream",
+     "image": "openmoji/ice-cream.svg"
+    },
+    {
+     "text": "cooked rice",
+     "image": "openmoji/cooked-rice.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Sweets, doughnuts and ice cream contain a lot of added sugar, which can cause tooth decay and, if eaten too often, obesity. Carrots and rice have no added sugar."
+  },
+  {
+   "id": "g5-a4-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Caffeine, tobacco, alcohol and drugs",
+   "stem": "Which of these is a drug that children should take only when a doctor or parent gives it?",
+   "options": [
+    {
+     "text": "medicine",
+     "image": "openmoji/pill.svg"
+    },
+    {
+     "text": "bread",
+     "image": "openmoji/bread.svg"
+    },
+    {
+     "text": "banana",
+     "image": "openmoji/banana.svg"
+    },
+    {
+     "text": "water",
+     "image": "openmoji/potable-water.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "Medicines are drugs. They help when used correctly, but the wrong medicine or too much can harm the body, so only take them as a doctor or parent says."
+  },
+  {
+   "id": "g5-a4-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Healthy plate and balanced diet",
+   "stem": "Rafi has 60 taka for school tiffin. Prices: banana 10, boiled egg 15, roti (2 pieces) 10, vegetable bhaji 20, guava 15, chips 20, cola 35, water 15. Which tiffin is balanced and costs no more than 60 taka?",
+   "options": [
+    "chips, boiled egg, banana and cola, total 80 Tk",
+    "roti, bhaji, egg and banana, total 55 Tk",
+    "cola, guava, vegetable bhaji and water, total 85 Tk",
+    "chips and cola, total 55 Tk"
+   ],
+   "answer": 1,
+   "explanation": "Roti (carbohydrate), egg (protein), bhaji and banana (vitamins and fibre) cost 10 + 20 + 15 + 10 = 55 Tk. Chips and cola fit the budget but are mostly fat and sugar. The other tiffins cost too much."
+  },
+  {
+   "id": "g5-a4-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Food choices and media",
+   "stem": "Imran's family lives in a city. They buy instant noodles more often than fresh vegetables. Which is the most likely reason?",
+   "options": [
+    "Vegetables are not sold anywhere in the city.",
+    "Noodles contain more vitamins than vegetables.",
+    "Noodles are cheap and quick to cook.",
+    "Doctors say noodles are the healthiest food."
+   ],
+   "answer": 2,
+   "explanation": "Cost and convenience strongly affect food choices, along with adverts and taste. Noodles are not richer in vitamins, but a busy family may find them quicker and cheaper."
+  },
+  {
+   "id": "g5-a4-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Caffeine, tobacco, alcohol and drugs",
+   "stem": "Raju's older cousin offers him a cigarette and says, \"Just try it once.\" What is the best thing for Raju to do?",
+   "options": [
+    "Try a little, because one cigarette cannot do any harm to him.",
+    "Take it, but only smoke it when his parents are away from home.",
+    "Accept it politely so that his cousin does not laugh at him.",
+    "Say no, because tobacco harms the lungs and heart."
+   ],
+   "answer": 3,
+   "explanation": "Tobacco harms the mouth, lungs and heart and is very hard to stop using. The safest choice is not to start, and Raju can talk to a trusted adult."
+  },
+  {
+   "id": "g5-a4-021",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Sugar and food labels",
+   "stem": "Example label: a 250 ml mango juice drink has 32 g of sugar. Since 4 g make 1 teaspoon, it contains ___ teaspoons of sugar.",
+   "blanks": [
+    [
+     "8",
+     "eight"
+    ]
+   ],
+   "explanation": "32 ÷ 4 = 8 teaspoons of sugar in one small serving. That is more than the whole day's limit of about 6 teaspoons for children."
+  },
+  {
+   "id": "g5-a4-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Caffeine, tobacco, alcohol and drugs",
+   "stem": "Moung finds some pills on the road. His friend says they are vitamins, so it is safe to take one.",
+   "answer": false,
+   "explanation": "Never take pills you have found or that nobody trusted has given you. Unknown pills could be dangerous drugs. Moung should give them to a teacher or parent."
+  },
+  {
+   "id": "g5-a4-023",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Food choices and media",
+   "stem": "Nadia's school canteen sells mostly chips, sweets and cola. Suggest two changes the canteen could make, and explain how they would help learners.",
+   "model_answer": "The canteen could sell fruit, boiled eggs and water instead of chips and cola. This gives learners vitamins, protein and less sugar, so they stay healthier and have less tooth decay and obesity.",
+   "keywords": [
+    [
+     "fruit",
+     "vegetables",
+     "water",
+     "milk",
+     "egg",
+     "healthy",
+     "bhaji",
+     "roti"
+    ],
+    [
+     "sugar",
+     "chips",
+     "cola",
+     "fried",
+     "less",
+     "fewer",
+     "instead",
+     "stop selling"
+    ],
+    [
+     "balanced",
+     "healthy",
+     "obesity",
+     "teeth",
+     "tooth",
+     "diabetes",
+     "energy",
+     "vitamins",
+     "protein"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Offering fruit, water, eggs and vegetables while selling fewer sugary and fried snacks makes the healthy choice the easy choice. It helps prevent obesity, tooth decay and later diseases such as diabetes."
+  },
+  {
+   "id": "g5-a4-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Energy in, energy out",
+   "stem": "In the simulation, the person eats a lot of food but does very little exercise. What happens to their weight over time?",
+   "sim": {
+    "id": "eating-exercise-and-energy",
+    "task": "Open Eating and Exercise. Choose plenty of food for the person's diet and only a little activity or exercise. Run the simulation and watch the energy in, the energy used and the person's weight over time."
+   },
+   "options": [
+    "Weight goes down, because less energy goes in than is used.",
+    "Weight goes up, because more energy goes in than is used.",
+    "Weight stays the same, because food does not matter.",
+    "Weight goes down, because exercise makes more energy."
+   ],
+   "answer": 1,
+   "explanation": "When more energy comes in from food than the body uses, the extra is stored and weight goes up over time. This is why moderation in food and enough exercise both matter."
+  },
+  {
+   "id": "g5-a4-025",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Energy in, energy out",
+   "stem": "In the simulation, when you add more exercise and keep the same food, the energy used goes up.",
+   "sim": {
+    "id": "eating-exercise-and-energy",
+    "task": "Open Eating and Exercise. Choose a diet and look at the energy used. Then add more daily activity or exercise without changing the food, and look at the energy used again."
+   },
+   "answer": true,
+   "explanation": "Activity uses energy, so more exercise means more energy used each day. If the food stays the same, there is less left over to be stored."
+  },
+  {
+   "id": "g5-a4-026",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Energy in, energy out",
+   "stem": "You find a diet and exercise plan that keeps the person's weight steady. What is true about the energy in from food and the energy used?",
+   "sim": {
+    "id": "eating-exercise-and-energy",
+    "task": "Open Eating and Exercise. Try different foods and different amounts of activity until the person's weight stays steady over time. Compare the energy in from food with the energy used."
+   },
+   "options": [
+    "Energy in is much bigger than energy used.",
+    "Energy used is much bigger than energy in.",
+    "Energy in is zero.",
+    "They are about equal."
+   ],
+   "answer": 3,
+   "explanation": "Weight stays steady when the energy in from food is about equal to the energy used. More in than out makes weight go up, and less in than out makes it go down."
+  },
+  {
+   "id": "g5-a4-027",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Sugar and food labels",
+   "stem": "Example label: a 250 ml drink has 28 g of sugar. Children should have no more than about 24 g (6 teaspoons) a day. The drink holds ___ teaspoons of sugar (4 g = 1 teaspoon), so one serving is ___ g over the daily limit.",
+   "blanks": [
+    [
+     "7",
+     "seven"
+    ],
+    [
+     "4",
+     "four"
+    ]
+   ],
+   "explanation": "28 ÷ 4 = 7 teaspoons. The limit is 24 g, and 28 − 24 = 4 g, which is 1 teaspoon over. One small drink uses up more than the whole day's sugar."
+  },
+  {
+   "id": "g5-a4-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Healthy plate and balanced diet",
+   "stem": "Raju has 50 taka. Prices: banana 10, boiled egg 15, roti (2 pieces) 10, vegetable bhaji 20, guava 15, chips 20, cola 35, water 15. Which tiffin is balanced and costs no more than 50 taka?",
+   "options": [
+    "roti, bhaji, egg and water, total 60 Tk",
+    "chips, cola and banana, total 65 Tk",
+    "roti, boiled egg and guava, total 40 Tk",
+    "banana and guava only, total 25 Tk"
+   ],
+   "answer": 2,
+   "explanation": "Roti gives carbohydrate, egg gives protein and guava gives vitamins, for 10 + 15 + 15 = 40 Tk. Banana and guava alone fit the budget but have no carbohydrate or protein. The other two cost more than 50 Tk."
+  },
+  {
+   "id": "g5-a4-029",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Healthy plate and balanced diet",
+   "stem": "Which statements are true? Choose all that are right.",
+   "options": [
+    "Eating too little food can stop children growing properly.",
+    "Healthy food eaten in huge amounts is always good for you.",
+    "Too much sugary and fatty food can lead to obesity and, later, diabetes.",
+    "Caffeine can stop children sleeping well.",
+    "Fat should never be eaten."
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "Both too little and too much food cause problems, so moderation matters. Even healthy food can be eaten in the wrong amounts, and a little fat is needed for energy and warmth."
+  },
+  {
+   "id": "g5-a4-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Food choices and media",
+   "stem": "Fifty years ago many Bangladeshi children were too short because of undernutrition. Today doctors in towns see more overweight children. What is the best explanation?",
+   "options": [
+    "More people buy fast food, fried snacks and sugary drinks, and children are less active.",
+    "Children now eat far too many vegetables.",
+    "There is less food grown in the country now.",
+    "Drinking water makes children overweight."
+   ],
+   "answer": 0,
+   "explanation": "The country grows more food now, so fewer children are undernourished. But in towns more fast food, fried snacks, sugary drinks and screen time cause overnutrition for some."
+  }
+ ]
+}

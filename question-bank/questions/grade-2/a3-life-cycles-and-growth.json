@@ -1,325 +1,572 @@
 {
-  "grade": 2,
-  "grade_name": "Grade 2",
-  "topic": "A3",
-  "title": "Life Cycles and Growth",
-  "strand": "living",
-  "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
-  "questions": [
+ "grade": 2,
+ "grade_name": "Grade 2",
+ "topic": "A3",
+ "title": "Life Cycles and Growth",
+ "strand": "living",
+ "worksheet": "worksheets/grade-2-science/pdf/a3-life-cycles-and-growth-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g2-a3-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle stages",
+   "stem": "A chick hatches from an…",
+   "options": [
+    "nest",
+    "egg",
+    "seed",
+    "cow"
+   ],
+   "answer": 1,
+   "explanation": "Chickens lay eggs, and chicks hatch from them. A chick grows into a hen, and the hen lays eggs again."
+  },
+  {
+   "id": "g2-a3-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Young and adult animals",
+   "stem": "Match each young animal to its parent.",
+   "pairs": [
+    [
+     "chick",
+     "hen"
+    ],
+    [
+     "tadpole",
+     "frog"
+    ],
+    [
+     "caterpillar",
+     "butterfly"
+    ],
+    [
+     "calf",
+     "cow"
+    ],
+    [
+     "kitten",
+     "cat"
+    ]
+   ],
+   "explanation": "Young animals have special names: a chick grows into a hen, a tadpole into a frog, a caterpillar into a butterfly, a calf into a cow and a kitten into a cat."
+  },
+  {
+   "id": "g2-a3-003",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How people grow",
+   "stem": "Put the pictures in order, from youngest to oldest.",
+   "sequence": [
     {
-      "id": "g2-a3-001",
-      "mode": "core",
-      "type": "mcq",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Life cycle stages",
-      "stem": "A chick hatches from an…",
-      "options": ["nest", "egg", "seed", "cow"],
-      "answer": 1,
-      "explanation": "Chickens lay eggs, and chicks hatch from them. A chick grows into a hen, and the hen lays eggs again."
+     "text": "baby",
+     "image": "openmoji/baby.svg"
     },
     {
-      "id": "g2-a3-002",
-      "mode": "core",
-      "type": "match",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Young and adult animals",
-      "stem": "Match each young animal to its parent.",
-      "pairs": [["chick", "hen"], ["tadpole", "frog"], ["caterpillar", "butterfly"], ["calf", "cow"], ["kitten", "cat"]],
-      "explanation": "Young animals have special names: a chick grows into a hen, a tadpole into a frog, a caterpillar into a butterfly, a calf into a cow and a kitten into a cat."
+     "text": "child",
+     "image": "openmoji/child.svg"
     },
     {
-      "id": "g2-a3-003",
-      "mode": "core",
-      "type": "order",
-      "difficulty": 1,
-      "bloom": "understand",
-      "subskill": "How people grow",
-      "stem": "Put the pictures in order, from youngest to oldest.",
-      "sequence": [{"text": "baby", "image": "openmoji/baby.svg"}, {"text": "child", "image": "openmoji/child.svg"}, {"text": "adult", "image": "openmoji/adult.svg"}, {"text": "older person", "image": "openmoji/older-person.svg"}],
-      "explanation": "People grow from baby to child to adult to older adult. Children grow taller and heavier, and learn to walk, talk and read."
+     "text": "adult",
+     "image": "openmoji/adult.svg"
     },
     {
-      "id": "g2-a3-004",
-      "mode": "picture",
-      "type": "mcq",
-      "difficulty": 1,
-      "bloom": "understand",
-      "subskill": "Life cycle stages",
-      "stem": "Look at the frog life cycle. What stage comes just after the tadpole?",
-      "image": "diagrams/frog-life-cycle.svg",
-      "image_alt": "The life cycle of a frog drawn as a circle of four labelled stages.",
-      "options": ["eggs (frogspawn)", "adult frog", "froglet"],
-      "answer": 2,
-      "explanation": "A tadpole grows legs and becomes a froglet. The froglet grows into an adult frog."
-    },
-    {
-      "id": "g2-a3-005",
-      "mode": "picture",
-      "type": "mcq",
-      "difficulty": 1,
-      "bloom": "understand",
-      "subskill": "Life cycle stages",
-      "stem": "Look at the butterfly life cycle. What does the caterpillar change into?",
-      "image": "diagrams/butterfly-life-cycle.svg",
-      "image_alt": "The life cycle of a butterfly drawn as a circle of four labelled stages.",
-      "options": ["eggs on a leaf", "chrysalis (pupa)", "adult butterfly"],
-      "answer": 1,
-      "explanation": "The caterpillar eats and grows, then turns into a chrysalis (pupa). An adult butterfly comes out of the chrysalis."
-    },
-    {
-      "id": "g2-a3-006",
-      "mode": "picture",
-      "type": "order",
-      "difficulty": 1,
-      "bloom": "understand",
-      "subskill": "Life cycle stages",
-      "stem": "Look at the picture. Put the chicken life cycle in order, starting with the egg.",
-      "image": "diagrams/chicken-life-cycle.svg",
-      "image_alt": "The life cycle of a chicken drawn as a circle of four labelled stages.",
-      "sequence": ["egg", "hatching", "chick", "adult hen"],
-      "explanation": "A hen lays an egg. The chick hatches, grows and becomes an adult hen, which can lay eggs again."
-    },
-    {
-      "id": "g2-a3-007",
-      "mode": "picture",
-      "type": "mcq",
-      "difficulty": 2,
-      "bloom": "analyse",
-      "subskill": "Habitats at each stage",
-      "stem": "Look at the frog life cycle. Which two stages live only in water?",
-      "image": "diagrams/frog-life-cycle.svg",
-      "image_alt": "The life cycle of a frog drawn as a circle of four labelled stages.",
-      "options": ["eggs and tadpole", "tadpole and froglet", "froglet and adult frog", "eggs and adult frog"],
-      "answer": 0,
-      "explanation": "Frog eggs (frogspawn) and tadpoles need pond water. The froglet starts to live on land as well."
-    },
-    {
-      "id": "g2-a3-008",
-      "mode": "picture",
-      "type": "mcq",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Young and adult animals",
-      "stem": "Which animal starts its life as a tadpole?",
-      "options": [{"text": "fish", "image": "openmoji/fish.svg"}, {"text": "frog", "image": "openmoji/frog.svg"}, {"text": "duck", "image": "openmoji/duck.svg"}],
-      "answer": 1,
-      "explanation": "A tadpole hatches from a frog's egg and lives in water. It grows legs and becomes a frog."
-    },
-    {
-      "id": "g2-a3-009",
-      "mode": "core",
-      "type": "fill",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "How people grow",
-      "stem": "As a child grows, they get ___ and heavier.",
-      "blanks": [["taller", "bigger", "larger"]],
-      "bank": ["taller", "shorter", "smaller"],
-      "explanation": "Children grow taller and heavier. Most children grow about 5 to 6 cm taller every year."
-    },
-    {
-      "id": "g2-a3-010",
-      "mode": "core",
-      "type": "truefalse",
-      "difficulty": 2,
-      "bloom": "analyse",
-      "subskill": "Comparing life cycles",
-      "stem": "A baby human looks like a small person, but a tadpole looks very different from an adult frog.",
-      "answer": true,
-      "explanation": "People do not change shape as they grow. A tadpole has a tail and lives in water. It changes shape, grows legs and becomes a frog."
-    },
-    {
-      "id": "g2-a3-011",
-      "mode": "core",
-      "type": "truefalse",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Habitats at each stage",
-      "stem": "Hilsa fish lay their eggs in rivers.",
-      "answer": true,
-      "explanation": "In Bangladesh, hilsa lay their eggs in rivers. The baby fish grow in the river and then swim to the sea."
-    },
-    {
-      "id": "g2-a3-012",
-      "mode": "core",
-      "type": "multi",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "Changes as animals grow",
-      "stem": "Which of these happen as a tadpole grows into a frog? Choose all that are right.",
-      "options": ["It grows legs.", "Its tail gets shorter.", "It can live on land too.", "It grows feathers.", "It turns into a fish."],
-      "answer": [0, 1, 2],
-      "explanation": "The tadpole grows legs, its tail gets shorter and it begins to live on land too. It does not grow feathers or turn into a fish."
-    },
-    {
-      "id": "g2-a3-013",
-      "mode": "core",
-      "type": "sort",
-      "difficulty": 2,
-      "bloom": "apply",
-      "subskill": "Life cycle stages",
-      "stem": "How does each young animal begin its life? Sort them.",
-      "categories": ["Hatch from eggs", "Born from their mother"],
-      "items": [["chick", "Hatch from eggs"], ["tadpole", "Hatch from eggs"], ["caterpillar", "Hatch from eggs"], ["baby turtle", "Hatch from eggs"], ["calf", "Born from their mother"], ["kitten", "Born from their mother"], ["human baby", "Born from their mother"]],
-      "explanation": "Chicks, tadpoles, caterpillars and baby turtles hatch from eggs. Calves, kittens and human babies are born from their mothers."
-    },
-    {
-      "id": "g2-a3-014",
-      "mode": "core",
-      "type": "order",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "Life cycle stages",
-      "stem": "Put the sea turtle life cycle in order.",
-      "sequence": ["The mother lays eggs in the sand.", "Baby turtles hatch.", "The babies swim in the sea.", "They grow into adults."],
-      "explanation": "A mother turtle lays eggs in the sand. The babies hatch, swim to the sea and grow into adults."
-    },
-    {
-      "id": "g2-a3-015",
-      "mode": "core",
-      "type": "mcq",
-      "difficulty": 2,
-      "bloom": "apply",
-      "subskill": "Habitats at each stage",
-      "stem": "Where should a mother butterfly lay her eggs?",
-      "options": ["in a pond", "in the sand", "on a leaf the caterpillars can eat", "in a warm nest"],
-      "answer": 2,
-      "explanation": "Butterfly eggs are laid on leaves, so the caterpillars can eat the leaves when they hatch."
-    },
-    {
-      "id": "g2-a3-016",
-      "mode": "core",
-      "type": "fill",
-      "difficulty": 1,
-      "bloom": "remember",
-      "subskill": "Habitats at each stage",
-      "stem": "A ___ is the place where an animal finds food, water and shelter.",
-      "blanks": [["habitat", "habitats", "home"]],
-      "bank": ["habitat", "life cycle", "adult"],
-      "explanation": "A habitat is an animal's home. Different stages of an animal's life may need different habitats."
-    },
-    {
-      "id": "g2-a3-017",
-      "mode": "core",
-      "type": "short",
-      "difficulty": 2,
-      "bloom": "understand",
-      "subskill": "Habitats at each stage",
-      "stem": "Why does a frog lay its eggs in a pond, not on dry land?",
-      "model_answer": "The tadpoles need water to live and swim, so the eggs must be in the pond.",
-      "keywords": [["water", "pond", "wet"], ["tadpole", "tadpoles", "swim", "live", "dry", "die", "eggs", "babies"]],
-      "min_keywords": 2,
-      "explanation": "Frog eggs hatch into tadpoles. Tadpoles live in water and cannot live on dry land."
-    },
-    {
-      "id": "g2-a3-018",
-      "mode": "real-life",
-      "type": "mcq",
-      "difficulty": 2,
-      "bloom": "apply",
-      "subskill": "Habitats at each stage",
-      "stem": "Volunteers on a beach at night see baby turtles walking towards bright lights on the road, not towards the sea. What is the best thing for people to do?",
-      "options": ["Bring the babies home to look after them.", "Shine bright torches at them to guide them.", "Leave rubbish on the beach so they can hide.", "Switch off bright lights and keep the beach dark and clean."],
-      "answer": 3,
-      "explanation": "Baby turtles can follow bright lights and lose their way. Keeping the beach dark and clean helps them find the sea."
-    },
-    {
-      "id": "g2-a3-019",
-      "mode": "real-life",
-      "type": "mcq",
-      "difficulty": 1,
-      "bloom": "apply",
-      "subskill": "Habitats at each stage",
-      "stem": "Rafi's hen has hatched six chicks. It is a cold night. Where should the chicks stay?",
-      "options": ["under their mother in a warm, dry nest", "alone in the garden", "in a bowl of water", "on a cold floor by the door"],
-      "answer": 0,
-      "explanation": "Chicks need a warm nest and their mother to keep them warm and safe."
-    },
-    {
-      "id": "g2-a3-020",
-      "mode": "real-life",
-      "type": "truefalse",
-      "difficulty": 2,
-      "bloom": "evaluate",
-      "subskill": "Habitats at each stage",
-      "stem": "Anika finds frogspawn (jelly-like frog eggs) in a ditch near her school. She says, 'The eggs will hatch into tadpoles, so the ditch must not dry up.' Is Anika right?",
-      "answer": true,
-      "explanation": "Tadpoles live and swim in water. If the ditch dried up, the tadpoles could not survive."
-    },
-    {
-      "id": "g2-a3-021",
-      "mode": "real-life",
-      "type": "multi",
-      "difficulty": 2,
-      "bloom": "create",
-      "subskill": "Habitats at each stage",
-      "stem": "Class 2A wants a school pond where frogs can grow up. Which things would help? Choose all that are right.",
-      "options": ["keep water in the pond", "keep rubbish out of the pond", "plant water plants and grass around it", "fill the pond with sand", "let the pond dry out"],
-      "answer": [0, 1, 2],
-      "explanation": "Frogs need water for eggs and tadpoles, a clean place, and plants for shelter and food. A pond filled with sand or one that dries out cannot be a habitat."
-    },
-    {
-      "id": "g2-a3-022",
-      "mode": "olympiad",
-      "type": "mcq",
-      "difficulty": 3,
-      "bloom": "analyse",
-      "subskill": "Measuring growth",
-      "stem": "Raju measured his height every year (example data): age 6: 116 cm, age 7: 122 cm, age 8: 126 cm, age 9: 131 cm. In which year did he grow the most?",
-      "options": ["from age 7 to age 8", "from age 8 to age 9", "from age 6 to age 7", "He grew the same amount each year."],
-      "answer": 2,
-      "explanation": "Between 6 and 7 he grew 6 cm. Between 7 and 8 he grew 4 cm, and between 8 and 9 he grew 5 cm. So he grew the most from age 6 to age 7."
-    },
-    {
-      "id": "g2-a3-023",
-      "mode": "olympiad",
-      "type": "mcq",
-      "difficulty": 3,
-      "bloom": "apply",
-      "subskill": "Measuring growth",
-      "stem": "Most children grow about 5 to 6 cm taller every year. Tuli is 120 cm tall now. About how tall will she be in 2 years?",
-      "options": ["about 122 cm", "about 131 cm", "about 150 cm", "about 120 cm"],
-      "answer": 1,
-      "explanation": "In 2 years she grows about 10 to 12 cm. 120 + 10 = 130 and 120 + 12 = 132, so about 131 cm is the best answer."
-    },
-    {
-      "id": "g2-a3-024",
-      "mode": "olympiad",
-      "type": "mcq",
-      "difficulty": 3,
-      "bloom": "evaluate",
-      "subskill": "Life cycle stages",
-      "stem": "Sumi wrote the frog life cycle as: egg, froglet, tadpole, adult frog. What did she get wrong?",
-      "options": ["The tadpole and froglet are in the wrong order.", "The egg should come last.", "There should be no adult frog.", "Nothing, it is correct."],
-      "answer": 0,
-      "explanation": "The tadpole stage comes before the froglet. A tadpole grows legs and turns into a froglet, then an adult frog."
-    },
-    {
-      "id": "g2-a3-025",
-      "mode": "olympiad",
-      "type": "short",
-      "difficulty": 3,
-      "bloom": "analyse",
-      "subskill": "Comparing life cycles",
-      "stem": "How is the way a baby human grows up different from the way a tadpole grows up?",
-      "model_answer": "A baby human looks like a small person and just gets bigger. A tadpole looks very different: it lives in water and changes shape as it grows legs and a frog body.",
-      "keywords": [["tadpole", "frog"], ["legs", "tail", "water", "different", "change", "changes", "shape"], ["small person", "small adult", "bigger", "taller", "looks like"]],
-      "min_keywords": 2,
-      "explanation": "A baby human already has the shape of a small person and just gets bigger. A tadpole lives in water and changes shape, growing legs and losing its tail."
-    },
-    {
-      "id": "g2-a3-026",
-      "mode": "core",
-      "type": "sort",
-      "difficulty": 2,
-      "bloom": "apply",
-      "subskill": "Habitats at each stage",
-      "stem": "Where does each young animal or egg need to be? Sort them.",
-      "categories": ["In water", "On a leaf", "In a warm nest"],
-      "items": [["frog eggs", "In water"], ["tadpoles", "In water"], ["butterfly eggs", "On a leaf"], ["caterpillars", "On a leaf"], ["chicks", "In a warm nest"], ["hen's eggs", "In a warm nest"]],
-      "explanation": "Frog eggs and tadpoles need water. Butterfly eggs and caterpillars need leaves to eat. Chicks and eggs need a warm nest."
+     "text": "older person",
+     "image": "openmoji/older-person.svg"
     }
-  ]
+   ],
+   "explanation": "People grow from baby to child to adult to older adult. Children grow taller and heavier, and learn to walk, talk and read."
+  },
+  {
+   "id": "g2-a3-004",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Look at the frog life cycle. What stage comes just after the tadpole?",
+   "image": "diagrams/frog-life-cycle.svg",
+   "image_alt": "The life cycle of a frog drawn as a circle of four labelled stages.",
+   "options": [
+    "froglet",
+    "adult frog",
+    "eggs (frogspawn)"
+   ],
+   "answer": 0,
+   "explanation": "A tadpole grows legs and becomes a froglet. The froglet grows into an adult frog."
+  },
+  {
+   "id": "g2-a3-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Look at the butterfly life cycle. What does the caterpillar change into?",
+   "image": "diagrams/butterfly-life-cycle.svg",
+   "image_alt": "The life cycle of a butterfly drawn as a circle of four labelled stages.",
+   "options": [
+    "eggs on a leaf",
+    "adult butterfly",
+    "chrysalis (pupa)"
+   ],
+   "answer": 2,
+   "explanation": "The caterpillar eats and grows, then turns into a chrysalis (pupa). An adult butterfly comes out of the chrysalis."
+  },
+  {
+   "id": "g2-a3-006",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Look at the picture. Put the chicken life cycle in order, starting with the egg.",
+   "image": "diagrams/chicken-life-cycle.svg",
+   "image_alt": "The life cycle of a chicken drawn as a circle of four labelled stages.",
+   "sequence": [
+    "egg",
+    "hatching",
+    "chick",
+    "adult hen"
+   ],
+   "explanation": "A hen lays an egg. The chick hatches, grows and becomes an adult hen, which can lay eggs again."
+  },
+  {
+   "id": "g2-a3-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Habitats at each stage",
+   "stem": "Look at the frog life cycle. Which two stages live only in water?",
+   "image": "diagrams/frog-life-cycle.svg",
+   "image_alt": "The life cycle of a frog drawn as a circle of four labelled stages.",
+   "options": [
+    "eggs and adult frog",
+    "tadpole and froglet",
+    "froglet and adult frog",
+    "eggs and tadpole"
+   ],
+   "answer": 3,
+   "explanation": "Frog eggs (frogspawn) and tadpoles need pond water. The froglet starts to live on land as well."
+  },
+  {
+   "id": "g2-a3-008",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Young and adult animals",
+   "stem": "Which animal starts its life as a tadpole?",
+   "options": [
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "duck",
+     "image": "openmoji/duck.svg"
+    },
+    {
+     "text": "frog",
+     "image": "openmoji/frog.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A tadpole hatches from a frog's egg and lives in water. It grows legs and becomes a frog."
+  },
+  {
+   "id": "g2-a3-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How people grow",
+   "stem": "As a child grows, they get ___ and heavier.",
+   "blanks": [
+    [
+     "taller",
+     "bigger",
+     "larger"
+    ]
+   ],
+   "bank": [
+    "taller",
+    "shorter",
+    "smaller"
+   ],
+   "explanation": "Children grow taller and heavier. Most children grow about 5 to 6 cm taller every year."
+  },
+  {
+   "id": "g2-a3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Comparing life cycles",
+   "stem": "A baby human looks like a small person, but a tadpole looks very different from an adult frog.",
+   "answer": true,
+   "explanation": "People do not change shape as they grow. A tadpole has a tail and lives in water. It changes shape, grows legs and becomes a frog."
+  },
+  {
+   "id": "g2-a3-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats at each stage",
+   "stem": "Hilsa fish lay their eggs in rivers.",
+   "answer": true,
+   "explanation": "In Bangladesh, hilsa lay their eggs in rivers. The baby fish grow in the river and then swim to the sea."
+  },
+  {
+   "id": "g2-a3-012",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changes as animals grow",
+   "stem": "Which of these happen as a tadpole grows into a frog? Choose all that are right.",
+   "options": [
+    "It grows legs.",
+    "Its tail gets shorter.",
+    "It can live on land too.",
+    "It grows feathers.",
+    "It turns into a fish."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The tadpole grows legs, its tail gets shorter and it begins to live on land too. It does not grow feathers or turn into a fish."
+  },
+  {
+   "id": "g2-a3-013",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Life cycle stages",
+   "stem": "How does each young animal begin its life? Sort them.",
+   "categories": [
+    "Hatch from eggs",
+    "Born from their mother"
+   ],
+   "items": [
+    [
+     "chick",
+     "Hatch from eggs"
+    ],
+    [
+     "tadpole",
+     "Hatch from eggs"
+    ],
+    [
+     "caterpillar",
+     "Hatch from eggs"
+    ],
+    [
+     "baby turtle",
+     "Hatch from eggs"
+    ],
+    [
+     "calf",
+     "Born from their mother"
+    ],
+    [
+     "kitten",
+     "Born from their mother"
+    ],
+    [
+     "human baby",
+     "Born from their mother"
+    ]
+   ],
+   "explanation": "Chicks, tadpoles, caterpillars and baby turtles hatch from eggs. Calves, kittens and human babies are born from their mothers."
+  },
+  {
+   "id": "g2-a3-014",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle stages",
+   "stem": "Put the sea turtle life cycle in order.",
+   "sequence": [
+    "The mother lays eggs in the sand.",
+    "Baby turtles hatch.",
+    "The babies swim in the sea.",
+    "They grow into adults."
+   ],
+   "explanation": "A mother turtle lays eggs in the sand. The babies hatch, swim to the sea and grow into adults."
+  },
+  {
+   "id": "g2-a3-015",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Habitats at each stage",
+   "stem": "Where should a mother butterfly lay her eggs?",
+   "options": [
+    "in a pond",
+    "on a leaf the caterpillars can eat",
+    "in the sand",
+    "in a warm nest"
+   ],
+   "answer": 1,
+   "explanation": "Butterfly eggs are laid on leaves, so the caterpillars can eat the leaves when they hatch."
+  },
+  {
+   "id": "g2-a3-016",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats at each stage",
+   "stem": "A ___ is the place where an animal finds food, water and shelter.",
+   "blanks": [
+    [
+     "habitat",
+     "habitats",
+     "home"
+    ]
+   ],
+   "bank": [
+    "habitat",
+    "life cycle",
+    "adult"
+   ],
+   "explanation": "A habitat is an animal's home. Different stages of an animal's life may need different habitats."
+  },
+  {
+   "id": "g2-a3-017",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Habitats at each stage",
+   "stem": "Why does a frog lay its eggs in a pond, not on dry land?",
+   "model_answer": "The tadpoles need water to live and swim, so the eggs must be in the pond.",
+   "keywords": [
+    [
+     "water",
+     "pond",
+     "wet"
+    ],
+    [
+     "tadpole",
+     "tadpoles",
+     "swim",
+     "live",
+     "dry",
+     "die",
+     "eggs",
+     "babies"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Frog eggs hatch into tadpoles. Tadpoles live in water and cannot live on dry land."
+  },
+  {
+   "id": "g2-a3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Habitats at each stage",
+   "stem": "Volunteers on a beach at night see baby turtles walking towards bright lights on the road, not towards the sea. What is the best thing for people to do?",
+   "options": [
+    "Switch off bright lights and keep the beach dark and clean.",
+    "Shine bright torches at them to guide them.",
+    "Leave rubbish on the beach so they can hide.",
+    "Bring the babies home to look after them."
+   ],
+   "answer": 0,
+   "explanation": "Baby turtles can follow bright lights and lose their way. Keeping the beach dark and clean helps them find the sea."
+  },
+  {
+   "id": "g2-a3-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Habitats at each stage",
+   "stem": "Rafi's hen has hatched six chicks. It is a cold night. Where should the chicks stay?",
+   "options": [
+    "on a cold floor by the door",
+    "alone in the garden",
+    "in a bowl of water",
+    "under their mother in a warm, dry nest"
+   ],
+   "answer": 3,
+   "explanation": "Chicks need a warm nest and their mother to keep them warm and safe."
+  },
+  {
+   "id": "g2-a3-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Habitats at each stage",
+   "stem": "Anika finds frogspawn (jelly-like frog eggs) in a ditch near her school. She says, 'The eggs will hatch into tadpoles, so the ditch must not dry up.' Is Anika right?",
+   "answer": true,
+   "explanation": "Tadpoles live and swim in water. If the ditch dried up, the tadpoles could not survive."
+  },
+  {
+   "id": "g2-a3-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Habitats at each stage",
+   "stem": "Class 2A wants a school pond where frogs can grow up. Which things would help? Choose all that are right.",
+   "options": [
+    "keep water in the pond",
+    "keep rubbish out of the pond",
+    "plant water plants and grass around it",
+    "fill the pond with sand",
+    "let the pond dry out"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Frogs need water for eggs and tadpoles, a clean place, and plants for shelter and food. A pond filled with sand or one that dries out cannot be a habitat."
+  },
+  {
+   "id": "g2-a3-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Measuring growth",
+   "stem": "Raju measured his height every year (example data): age 6: 116 cm, age 7: 122 cm, age 8: 126 cm, age 9: 131 cm. In which year did he grow the most?",
+   "options": [
+    "from age 7 to age 8",
+    "from age 6 to age 7",
+    "from age 8 to age 9",
+    "He grew the same amount each year."
+   ],
+   "answer": 1,
+   "explanation": "Between 6 and 7 he grew 6 cm. Between 7 and 8 he grew 4 cm, and between 8 and 9 he grew 5 cm. So he grew the most from age 6 to age 7."
+  },
+  {
+   "id": "g2-a3-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Measuring growth",
+   "stem": "Most children grow about 5 to 6 cm taller every year. Tuli is 120 cm tall now. About how tall will she be in 2 years?",
+   "options": [
+    "about 131 cm",
+    "about 122 cm",
+    "about 150 cm",
+    "about 120 cm"
+   ],
+   "answer": 0,
+   "explanation": "In 2 years she grows about 10 to 12 cm. 120 + 10 = 130 and 120 + 12 = 132, so about 131 cm is the best answer."
+  },
+  {
+   "id": "g2-a3-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Life cycle stages",
+   "stem": "Sumi wrote the frog life cycle as: egg, froglet, tadpole, adult frog. What did she get wrong?",
+   "options": [
+    "There should be no adult frog.",
+    "The egg should come last.",
+    "The tadpole and froglet are in the wrong order.",
+    "Nothing, it is correct."
+   ],
+   "answer": 2,
+   "explanation": "The tadpole stage comes before the froglet. A tadpole grows legs and turns into a froglet, then an adult frog."
+  },
+  {
+   "id": "g2-a3-025",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Comparing life cycles",
+   "stem": "How is the way a baby human grows up different from the way a tadpole grows up?",
+   "model_answer": "A baby human looks like a small person and just gets bigger. A tadpole looks very different: it lives in water and changes shape as it grows legs and a frog body.",
+   "keywords": [
+    [
+     "tadpole",
+     "frog"
+    ],
+    [
+     "legs",
+     "tail",
+     "water",
+     "different",
+     "change",
+     "changes",
+     "shape"
+    ],
+    [
+     "small person",
+     "small adult",
+     "bigger",
+     "taller",
+     "looks like"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A baby human already has the shape of a small person and just gets bigger. A tadpole lives in water and changes shape, growing legs and losing its tail."
+  },
+  {
+   "id": "g2-a3-026",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Habitats at each stage",
+   "stem": "Where does each young animal or egg need to be? Sort them.",
+   "categories": [
+    "In water",
+    "On a leaf",
+    "In a warm nest"
+   ],
+   "items": [
+    [
+     "frog eggs",
+     "In water"
+    ],
+    [
+     "tadpoles",
+     "In water"
+    ],
+    [
+     "butterfly eggs",
+     "On a leaf"
+    ],
+    [
+     "caterpillars",
+     "On a leaf"
+    ],
+    [
+     "chicks",
+     "In a warm nest"
+    ],
+    [
+     "hen's eggs",
+     "In a warm nest"
+    ]
+   ],
+   "explanation": "Frog eggs and tadpoles need water. Butterfly eggs and caterpillars need leaves to eat. Chicks and eggs need a warm nest."
+  }
+ ]
 }

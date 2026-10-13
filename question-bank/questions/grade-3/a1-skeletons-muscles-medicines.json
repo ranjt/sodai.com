@@ -1,204 +1,626 @@
 {
-  "grade": 3,
-  "grade_name": "Grade 3",
-  "topic": "A1",
-  "title": "Skeletons, Muscles and Medicines",
-  "strand": "living",
-  "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
-  "questions": [
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "A1",
+ "title": "Skeletons, Muscles and Medicines",
+ "strand": "living",
+ "worksheet": "worksheets/grade-3-science/pdf/a1-skeletons-muscles-and-medicines-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-a1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Which of these is a job of the skeleton?",
+   "options": [
+    "to digest food",
+    "to hold the body up",
+    "to make sounds",
+    "to see in the dark"
+   ],
+   "answer": 1,
+   "explanation": "The skeleton is a frame of bones that holds the body up and gives it shape. Without it we would flop like a jellyfish."
+  },
+  {
+   "id": "g3-a1-002",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Muscles in pairs",
+   "stem": "Muscles can push and pull bones.",
+   "answer": false,
+   "explanation": "A muscle can only pull. When it contracts (gets shorter and fatter) it pulls a bone. To move the bone back, a second muscle has to pull."
+  },
+  {
+   "id": "g3-a1-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Match each part of the body to its job.",
+   "pairs": [
+    [
+     "skull",
+     "protects the brain"
+    ],
+    [
+     "ribs",
+     "protect the heart and lungs"
+    ],
+    [
+     "backbone (spine)",
+     "protects the spinal cord"
+    ],
+    [
+     "muscles",
+     "pull on bones to move them"
+    ]
+   ],
+   "explanation": "Bones protect soft organs inside the body. Muscles are joined to bones and pull on them to make them move."
+  },
+  {
+   "id": "g3-a1-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Muscles in pairs",
+   "stem": "When a muscle gets shorter and pulls a bone, we say that the muscle ___.",
+   "blanks": [
+    [
+     "contracts",
+     "contract"
+    ]
+   ],
+   "bank": [
+    "contracts",
+    "relaxes",
+    "pushes",
+    "grows"
+   ],
+   "explanation": "A muscle contracts when it gets shorter and fatter. When it relaxes it gets longer again and stops pulling."
+  },
+  {
+   "id": "g3-a1-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Bones and growth",
+   "stem": "A new baby has more bones than an adult has.",
+   "answer": true,
+   "explanation": "A new baby has about 300 small bones. As the child grows, some bones join together, so an adult has 206 bones."
+  },
+  {
+   "id": "g3-a1-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Muscles in pairs",
+   "stem": "Why do muscles work in pairs?",
+   "options": [
+    "Muscles are too heavy to work alone.",
+    "One muscle is always asleep.",
+    "Muscles can only push, not pull.",
+    "A muscle can only pull, so another pulls back."
+   ],
+   "answer": 3,
+   "explanation": "A muscle can only pull. One muscle pulls a bone one way, and its partner pulls it back the other way."
+  },
+  {
+   "id": "g3-a1-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Medicines and safety",
+   "stem": "Which of these are safe things to do with medicine? Choose all that are right.",
+   "options": [
+    "Take it only when a parent, carer or doctor gives it.",
+    "Take the right amount at the right time.",
+    "Share it with a friend who feels the same way.",
+    "Take pills that look like sweets if nobody is watching.",
+    "Keep it where small children cannot reach it."
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Medicines can help, but they can also harm if used wrongly. Never share them, and never take medicine that looks like sweets."
+  },
+  {
+   "id": "g3-a1-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Muscles in pairs",
+   "stem": "Put the steps in order to show how you bend your arm and then straighten it again.",
+   "sequence": [
+    "The biceps contracts and the triceps relaxes.",
+    "The lower arm bone is pulled up and the arm bends.",
+    "The triceps contracts and the biceps relaxes.",
+    "The lower arm bone is pulled down and the arm is straight."
+   ],
+   "explanation": "To bend the arm, the biceps pulls. To straighten it, the triceps pulls and the biceps relaxes. The two muscles take turns."
+  },
+  {
+   "id": "g3-a1-009",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Sort each example into the job it shows.",
+   "categories": [
+    "Supports",
+    "Protects",
+    "Helps us move"
+   ],
+   "items": [
+    [
+     "holding the body up so we can stand",
+     "Supports"
+    ],
+    [
+     "giving the body its shape",
+     "Supports"
+    ],
+    [
+     "the skull around the brain",
+     "Protects"
+    ],
+    [
+     "the ribs around the heart and lungs",
+     "Protects"
+    ],
+    [
+     "muscles pulling on bones to bend the arm",
+     "Helps us move"
+    ],
+    [
+     "the biceps and triceps working as a pair",
+     "Helps us move"
+    ]
+   ],
+   "explanation": "Bones support the body and protect soft organs. Muscles are joined to the bones and pull them, which lets us move."
+  },
+  {
+   "id": "g3-a1-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Medicines and safety",
+   "stem": "Medicines are drugs that help us when we are ___.",
+   "blanks": [
+    [
+     "ill",
+     "sick",
+     "unwell"
+    ]
+   ],
+   "bank": [
+    "ill",
+    "hungry",
+    "sleepy"
+   ],
+   "explanation": "Medicines can stop pain, fight infections or help the body heal when we are ill. They must be used carefully."
+  },
+  {
+   "id": "g3-a1-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Bones and growth",
+   "stem": "About how many bones does an adult human have?",
+   "options": [
+    "300",
+    "106",
+    "206",
+    "26"
+   ],
+   "answer": 2,
+   "explanation": "An adult has 206 bones. A baby has about 300 small bones, but some of them join together as the child grows."
+  },
+  {
+   "id": "g3-a1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Bones and growth",
+   "stem": "What happens to your bones as you grow up?",
+   "options": [
+    "They grow longer and stronger.",
+    "They stay the same size.",
+    "They get smaller.",
+    "They turn into muscles."
+   ],
+   "answer": 0,
+   "explanation": "Bones grow longer and stronger as you grow, which is why you get taller."
+  },
+  {
+   "id": "g3-a1-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Look at the skeleton. Which number shows the bone that protects the brain?",
+   "image": "diagrams/skeleton-numbered.svg",
+   "image_alt": "A human skeleton with six bones numbered 1 to 6.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "Number 1 is the skull. It is a hard case that protects the soft brain. Number 2 is the ribs, which protect the heart and lungs."
+  },
+  {
+   "id": "g3-a1-014",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Jobs of the skeleton",
+   "stem": "Number 3 on the skeleton is the ___.",
+   "image": "diagrams/skeleton-numbered.svg",
+   "image_alt": "A human skeleton with six bones numbered 1 to 6.",
+   "blanks": [
+    [
+     "spine",
+     "backbone",
+     "spine (backbone)",
+     "spinal column"
+    ]
+   ],
+   "bank": [
+    "spine",
+    "ribs",
+    "skull",
+    "pelvis"
+   ],
+   "explanation": "Number 3 is the spine, also called the backbone. It holds the body up and protects the spinal cord."
+  },
+  {
+   "id": "g3-a1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Muscles in pairs",
+   "stem": "Look at the arm. Which number is the muscle that contracts to bend the arm?",
+   "image": "diagrams/arm-muscles-numbered.svg",
+   "image_alt": "An arm showing a bone, the biceps, the triceps and the elbow joint, numbered 1 to 4.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Number 2 is the biceps. It contracts, gets shorter and pulls the lower arm up. Number 3, the triceps, relaxes at the same time."
+  },
+  {
+   "id": "g3-a1-016",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Muscles in pairs",
+   "stem": "Number 3 in the picture is the triceps. It relaxes when you bend your arm.",
+   "image": "diagrams/arm-muscles-numbered.svg",
+   "image_alt": "An arm showing a bone, the biceps, the triceps and the elbow joint, numbered 1 to 4.",
+   "answer": true,
+   "explanation": "The triceps and biceps work as a pair. When the biceps (number 2) contracts to bend the arm, the triceps relaxes."
+  },
+  {
+   "id": "g3-a1-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy habits",
+   "stem": "Match each picture to the way it helps keep the body healthy.",
+   "pairs": [
+    [
+     {
+      "text": "milk",
+      "image": "openmoji/milk.svg"
+     },
+     "calcium for strong bones"
+    ],
+    [
+     {
+      "text": "soap",
+      "image": "openmoji/soap.svg"
+     },
+     "clean hands, fewer germs"
+    ],
+    [
+     {
+      "text": "running",
+      "image": "openmoji/person-running.svg"
+     },
+     "exercise for a healthy body"
+    ],
+    [
+     {
+      "text": "bed",
+      "image": "openmoji/bed.svg"
+     },
+     "sleep to rest the body"
+    ]
+   ],
+   "explanation": "Eating well, washing hands, exercising and sleeping all help to keep us healthy. Milk gives calcium, which bones need to grow strong."
+  },
+  {
+   "id": "g3-a1-018",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Bones and growth",
+   "stem": "Which animals have a bony skeleton inside their bodies? Sort the pictures.",
+   "categories": [
+    "Has a bony skeleton",
+    "Has no bones"
+   ],
+   "items": [
+    [
+     {
+      "text": "dog",
+      "image": "openmoji/dog.svg"
+     },
+     "Has a bony skeleton"
+    ],
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "Has a bony skeleton"
+    ],
+    [
+     {
+      "text": "fish",
+      "image": "openmoji/fish.svg"
+     },
+     "Has a bony skeleton"
+    ],
+    [
+     {
+      "text": "frog",
+      "image": "openmoji/frog.svg"
+     },
+     "Has a bony skeleton"
+    ],
+    [
+     {
+      "text": "jellyfish",
+      "image": "openmoji/jellyfish.svg"
+     },
+     "Has no bones"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "Has no bones"
+    ]
+   ],
+   "explanation": "Dogs, birds, fish and frogs all have bones inside their bodies. Jellyfish and worms have soft bodies with no bones."
+  },
+  {
+   "id": "g3-a1-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Healthy habits",
+   "stem": "Mina wants strong bones. Which food should she choose?",
+   "options": [
     {
-      "id": "g3-a1-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Jobs of the skeleton",
-      "stem": "Which of these is a job of the skeleton?",
-      "options": ["to digest food", "to hold the body up", "to make sounds", "to see in the dark"],
-      "answer": 1,
-      "explanation": "The skeleton is a frame of bones that holds the body up and gives it shape. Without it we would flop like a jellyfish."
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
     },
     {
-      "id": "g3-a1-002", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Muscles in pairs",
-      "stem": "Muscles can push and pull bones.",
-      "answer": false,
-      "explanation": "A muscle can only pull. When it contracts (gets shorter and fatter) it pulls a bone. To move the bone back, a second muscle has to pull."
+     "text": "doughnut",
+     "image": "openmoji/doughnut.svg"
     },
     {
-      "id": "g3-a1-003", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Jobs of the skeleton",
-      "stem": "Match each part of the body to its job.",
-      "pairs": [["skull", "protects the brain"], ["ribs", "protect the heart and lungs"], ["backbone (spine)", "protects the spinal cord"], ["muscles", "pull on bones to move them"]],
-      "explanation": "Bones protect soft organs inside the body. Muscles are joined to bones and pull on them to make them move."
-    },
-    {
-      "id": "g3-a1-004", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Muscles in pairs",
-      "stem": "When a muscle gets shorter and pulls a bone, we say that the muscle ___.",
-      "blanks": [["contracts", "contract"]],
-      "bank": ["contracts", "relaxes", "pushes", "grows"],
-      "explanation": "A muscle contracts when it gets shorter and fatter. When it relaxes it gets longer again and stops pulling."
-    },
-    {
-      "id": "g3-a1-005", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Bones and growth",
-      "stem": "A new baby has more bones than an adult has.",
-      "answer": true,
-      "explanation": "A new baby has about 300 small bones. As the child grows, some bones join together, so an adult has 206 bones."
-    },
-    {
-      "id": "g3-a1-006", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Muscles in pairs",
-      "stem": "Why do muscles work in pairs?",
-      "options": ["Muscles are too heavy to work alone.", "One muscle is always asleep.", "Muscles can only push, not pull.", "A muscle can only pull, so another pulls back."],
-      "answer": 3,
-      "explanation": "A muscle can only pull. One muscle pulls a bone one way, and its partner pulls it back the other way."
-    },
-    {
-      "id": "g3-a1-007", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "Medicines and safety",
-      "stem": "Which of these are safe things to do with medicine? Choose all that are right.",
-      "options": ["Take it only when a parent, carer or doctor gives it.", "Take the right amount at the right time.", "Share it with a friend who feels the same way.", "Take pills that look like sweets if nobody is watching.", "Keep it where small children cannot reach it."],
-      "answer": [0, 1, 4],
-      "explanation": "Medicines can help, but they can also harm if used wrongly. Never share them, and never take medicine that looks like sweets."
-    },
-    {
-      "id": "g3-a1-008", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Muscles in pairs",
-      "stem": "Put the steps in order to show how you bend your arm and then straighten it again.",
-      "sequence": ["The biceps contracts and the triceps relaxes.", "The lower arm bone is pulled up and the arm bends.", "The triceps contracts and the biceps relaxes.", "The lower arm bone is pulled down and the arm is straight."],
-      "explanation": "To bend the arm, the biceps pulls. To straighten it, the triceps pulls and the biceps relaxes. The two muscles take turns."
-    },
-    {
-      "id": "g3-a1-009", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "analyse", "subskill": "Jobs of the skeleton",
-      "stem": "Sort each example into the job it shows.",
-      "categories": ["Supports", "Protects", "Helps us move"],
-      "items": [["holding the body up so we can stand", "Supports"], ["giving the body its shape", "Supports"], ["the skull around the brain", "Protects"], ["the ribs around the heart and lungs", "Protects"], ["muscles pulling on bones to bend the arm", "Helps us move"], ["the biceps and triceps working as a pair", "Helps us move"]],
-      "explanation": "Bones support the body and protect soft organs. Muscles are joined to the bones and pull them, which lets us move."
-    },
-    {
-      "id": "g3-a1-010", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Medicines and safety",
-      "stem": "Medicines are drugs that help us when we are ___.",
-      "blanks": [["ill", "sick", "unwell"]],
-      "bank": ["ill", "hungry", "sleepy"],
-      "explanation": "Medicines can stop pain, fight infections or help the body heal when we are ill. They must be used carefully."
-    },
-    {
-      "id": "g3-a1-011", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Bones and growth",
-      "stem": "About how many bones does an adult human have?",
-      "options": ["300", "106", "206", "26"],
-      "answer": 2,
-      "explanation": "An adult has 206 bones. A baby has about 300 small bones, but some of them join together as the child grows."
-    },
-    {
-      "id": "g3-a1-012", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Bones and growth",
-      "stem": "What happens to your bones as you grow up?",
-      "options": ["They stay the same size.", "They grow longer and stronger.", "They get smaller.", "They turn into muscles."],
-      "answer": 1,
-      "explanation": "Bones grow longer and stronger as you grow, which is why you get taller."
-    },
-    {
-      "id": "g3-a1-013", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Jobs of the skeleton",
-      "stem": "Look at the skeleton. Which number shows the bone that protects the brain?",
-      "image": "diagrams/skeleton-numbered.svg", "image_alt": "A human skeleton with six bones numbered 1 to 6.",
-      "options": ["1", "2", "3", "4"],
-      "answer": 0,
-      "explanation": "Number 1 is the skull. It is a hard case that protects the soft brain. Number 2 is the ribs, which protect the heart and lungs."
-    },
-    {
-      "id": "g3-a1-014", "mode": "picture", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Jobs of the skeleton",
-      "stem": "Number 3 on the skeleton is the ___.",
-      "image": "diagrams/skeleton-numbered.svg", "image_alt": "A human skeleton with six bones numbered 1 to 6.",
-      "blanks": [["spine", "backbone", "spine (backbone)", "spinal column"]],
-      "bank": ["spine", "ribs", "skull", "pelvis"],
-      "explanation": "Number 3 is the spine, also called the backbone. It holds the body up and protects the spinal cord."
-    },
-    {
-      "id": "g3-a1-015", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Muscles in pairs",
-      "stem": "Look at the arm. Which number is the muscle that contracts to bend the arm?",
-      "image": "diagrams/arm-muscles-numbered.svg", "image_alt": "An arm showing a bone, the biceps, the triceps and the elbow joint, numbered 1 to 4.",
-      "options": ["1", "2", "3", "4"],
-      "answer": 1,
-      "explanation": "Number 2 is the biceps. It contracts, gets shorter and pulls the lower arm up. Number 3, the triceps, relaxes at the same time."
-    },
-    {
-      "id": "g3-a1-016", "mode": "picture", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Muscles in pairs",
-      "stem": "Number 3 in the picture is the triceps. It relaxes when you bend your arm.",
-      "image": "diagrams/arm-muscles-numbered.svg", "image_alt": "An arm showing a bone, the biceps, the triceps and the elbow joint, numbered 1 to 4.",
-      "answer": true,
-      "explanation": "The triceps and biceps work as a pair. When the biceps (number 2) contracts to bend the arm, the triceps relaxes."
-    },
-    {
-      "id": "g3-a1-017", "mode": "picture", "type": "match", "difficulty": 2, "bloom": "understand", "subskill": "Healthy habits",
-      "stem": "Match each picture to the way it helps keep the body healthy.",
-      "pairs": [[{"text": "milk", "image": "openmoji/milk.svg"}, "calcium for strong bones"], [{"text": "soap", "image": "openmoji/soap.svg"}, "clean hands, fewer germs"], [{"text": "running", "image": "openmoji/person-running.svg"}, "exercise for a healthy body"], [{"text": "bed", "image": "openmoji/bed.svg"}, "sleep to rest the body"]],
-      "explanation": "Eating well, washing hands, exercising and sleeping all help to keep us healthy. Milk gives calcium, which bones need to grow strong."
-    },
-    {
-      "id": "g3-a1-018", "mode": "picture", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Bones and growth",
-      "stem": "Which animals have a bony skeleton inside their bodies? Sort the pictures.",
-      "categories": ["Has a bony skeleton", "Has no bones"],
-      "items": [[{"text": "dog", "image": "openmoji/dog.svg"}, "Has a bony skeleton"], [{"text": "bird", "image": "openmoji/bird.svg"}, "Has a bony skeleton"], [{"text": "fish", "image": "openmoji/fish.svg"}, "Has a bony skeleton"], [{"text": "frog", "image": "openmoji/frog.svg"}, "Has a bony skeleton"], [{"text": "jellyfish", "image": "openmoji/jellyfish.svg"}, "Has no bones"], [{"text": "worm", "image": "openmoji/worm.svg"}, "Has no bones"]],
-      "explanation": "Dogs, birds, fish and frogs all have bones inside their bodies. Jellyfish and worms have soft bodies with no bones."
-    },
-    {
-      "id": "g3-a1-019", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Healthy habits",
-      "stem": "Mina wants strong bones. Which food should she choose?",
-      "options": [{"text": "sweets", "image": "openmoji/candy.svg"}, {"text": "milk", "image": "openmoji/milk.svg"}, {"text": "doughnut", "image": "openmoji/doughnut.svg"}],
-      "answer": 1,
-      "explanation": "Bones need calcium to grow strong. Milk, yoghurt, green leafy vegetables and small fish give calcium. Sweets and doughnuts do not."
-    },
-    {
-      "id": "g3-a1-020", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Medicines and safety",
-      "stem": "Mina has a cough. She finds a bottle of syrup that her sister used last week. What should she do?",
-      "options": ["Take a big spoonful so it works faster.", "Ask a parent or carer before taking any.", "Give some to her friend who also coughs.", "Take a little every hour until she feels better."],
-      "answer": 1,
-      "explanation": "Only take medicine that a parent, carer or doctor gives you, in the right amount. Medicine that was right for someone else may not be right for you."
-    },
-    {
-      "id": "g3-a1-021", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Healthy habits",
-      "stem": "Families in Bangladesh often eat tiny fish such as mola whole. Why are they good for children's bones?",
-      "options": ["They are small enough to fit in a bowl.", "They swim fast, so they are very strong.", "Their bones are eaten too and contain calcium.", "They have no bones, so they are soft to eat."],
-      "answer": 2,
-      "explanation": "Mola are eaten whole, bones and all. Fish bones contain calcium, which children need to build strong bones."
-    },
-    {
-      "id": "g3-a1-022", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Healthy habits",
-      "stem": "Moung rides his bicycle to school. What protects his head best if he falls?",
-      "options": ["a cloth cap", "a woollen scarf", "a raincoat", "a helmet"],
-      "answer": 3,
-      "explanation": "A helmet is hard and padded. It protects the skull, which protects the brain inside. A cap, scarf or raincoat would not."
-    },
-    {
-      "id": "g3-a1-023", "mode": "real-life", "type": "truefalse", "difficulty": 1, "bloom": "evaluate", "subskill": "Medicines and safety",
-      "stem": "Anika's little brother has a fever. She gives him some of her own medicine from the cupboard. This is a safe thing to do.",
-      "answer": false,
-      "explanation": "Medicine should only be given by a parent, carer or doctor, in the right amount. Never share medicines, because they can harm someone if used wrongly."
-    },
-    {
-      "id": "g3-a1-024", "mode": "real-life", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Medicines and safety",
-      "stem": "Nadia's family keeps all the medicines on a high shelf. Explain why.",
-      "model_answer": "Small children cannot reach them, so they cannot take them by mistake. Medicines can be harmful if they are used wrongly.",
-      "keywords": [["child", "children", "small", "young", "kids", "baby", "babies"], ["reach", "mistake", "harm", "harmful", "dangerous", "poison", "safe", "hurt"]],
-      "min_keywords": 2,
-      "explanation": "Medicines help when used the right way, but they can be dangerous if a small child takes them by mistake. Keeping them high up keeps children safe."
-    },
-    {
-      "id": "g3-a1-025", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Evidence and patterns",
-      "stem": "Class 3B measured arm length and bean-bag throw (example data): Ana 48 cm, 8 m; Bilu 52 cm, 10 m; Chandni 50 cm, 7 m; Dipu 55 cm, 11 m; Eva 46 cm, 9 m. Which statement matches the data?",
-      "options": ["Chandni threw the furthest.", "Longer arms always threw further.", "Eva has the shortest arms but threw further than Chandni.", "Ana has the longest arms."],
-      "answer": 2,
-      "explanation": "Eva (46 cm) threw 9 m but Chandni (50 cm) threw only 7 m, so longer arms do not always throw further. Strength and practice matter too."
-    },
-    {
-      "id": "g3-a1-026", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Muscles in pairs",
-      "stem": "Rafi says, 'I straighten my arm by pushing with my biceps.' What is wrong with this idea?",
-      "options": ["Muscles only pull: the triceps pulls the arm straight.", "The biceps is a bone, not a muscle.", "Arms straighten without using any muscle.", "The biceps pulls harder when it relaxes."],
-      "answer": 0,
-      "explanation": "A muscle can only pull, never push. To straighten the arm the triceps contracts and pulls, while the biceps relaxes."
-    },
-    {
-      "id": "g3-a1-027", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "understand", "subskill": "Jobs of the skeleton",
-      "stem": "An earthworm has no bones. Why can it not stand up tall like a dog?",
-      "model_answer": "A worm has no skeleton to hold its soft body up, so its body flops over.",
-      "keywords": [["bone", "bones", "skeleton", "frame"], ["support", "hold", "holds", "soft", "flop", "floppy", "bendy"]],
-      "min_keywords": 2,
-      "explanation": "A skeleton supports the body and holds it up. Without bones, a worm's soft body cannot stand up on its own."
-    },
-    {
-      "id": "g3-a1-028", "mode": "olympiad", "type": "fill", "difficulty": 3, "bloom": "apply", "subskill": "Healthy habits",
-      "stem": "A child needs 3 glasses of milk a day for strong bones. In 2 weeks she misses 4 glasses in total. She drinks ___ glasses.",
-      "blanks": [["38", "thirty-eight", "thirty eight"]],
-      "explanation": "Two weeks is 14 days, and 3 × 14 = 42 glasses. She misses 4, so 42 − 4 = 38 glasses."
+     "text": "milk",
+     "image": "openmoji/milk.svg"
     }
-  ]
+   ],
+   "answer": 2,
+   "explanation": "Bones need calcium to grow strong. Milk, yoghurt, green leafy vegetables and small fish give calcium. Sweets and doughnuts do not."
+  },
+  {
+   "id": "g3-a1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Medicines and safety",
+   "stem": "Mina has a cough. She finds a bottle of syrup that her sister used last week. What should she do?",
+   "options": [
+    "Take a big spoonful so it works faster.",
+    "Ask a parent or carer before taking any.",
+    "Give some to her friend who also coughs.",
+    "Take a little every hour until she feels better."
+   ],
+   "answer": 1,
+   "explanation": "Only take medicine that a parent, carer or doctor gives you, in the right amount. Medicine that was right for someone else may not be right for you."
+  },
+  {
+   "id": "g3-a1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Healthy habits",
+   "stem": "Families in Bangladesh often eat tiny fish such as mola whole. Why are they good for children's bones?",
+   "options": [
+    "They are small enough to fit in a bowl.",
+    "They swim fast, so they are very strong.",
+    "They have no bones, so they are soft to eat.",
+    "Their bones are eaten too and contain calcium."
+   ],
+   "answer": 3,
+   "explanation": "Mola are eaten whole, bones and all. Fish bones contain calcium, which children need to build strong bones."
+  },
+  {
+   "id": "g3-a1-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Healthy habits",
+   "stem": "Moung rides his bicycle to school. What protects his head best if he falls?",
+   "options": [
+    "a cloth cap",
+    "a woollen scarf",
+    "a helmet",
+    "a raincoat"
+   ],
+   "answer": 2,
+   "explanation": "A helmet is hard and padded. It protects the skull, which protects the brain inside. A cap, scarf or raincoat would not."
+  },
+  {
+   "id": "g3-a1-023",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Medicines and safety",
+   "stem": "Anika's little brother has a fever. She gives him some of her own medicine from the cupboard. This is a safe thing to do.",
+   "answer": false,
+   "explanation": "Medicine should only be given by a parent, carer or doctor, in the right amount. Never share medicines, because they can harm someone if used wrongly."
+  },
+  {
+   "id": "g3-a1-024",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Medicines and safety",
+   "stem": "Nadia's family keeps all the medicines on a high shelf. Explain why.",
+   "model_answer": "Small children cannot reach them, so they cannot take them by mistake. Medicines can be harmful if they are used wrongly.",
+   "keywords": [
+    [
+     "child",
+     "children",
+     "small",
+     "young",
+     "kids",
+     "baby",
+     "babies"
+    ],
+    [
+     "reach",
+     "mistake",
+     "harm",
+     "harmful",
+     "dangerous",
+     "poison",
+     "safe",
+     "hurt"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Medicines help when used the right way, but they can be dangerous if a small child takes them by mistake. Keeping them high up keeps children safe."
+  },
+  {
+   "id": "g3-a1-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Evidence and patterns",
+   "stem": "Class 3B measured arm length and bean-bag throw (example data): Ana 48 cm, 8 m; Bilu 52 cm, 10 m; Chandni 50 cm, 7 m; Dipu 55 cm, 11 m; Eva 46 cm, 9 m. Which statement matches the data?",
+   "options": [
+    "Eva has the shortest arms but threw further than Chandni.",
+    "Longer arms always threw further.",
+    "Chandni threw the furthest.",
+    "Ana has the longest arms."
+   ],
+   "answer": 0,
+   "explanation": "Eva (46 cm) threw 9 m but Chandni (50 cm) threw only 7 m, so longer arms do not always throw further. Strength and practice matter too."
+  },
+  {
+   "id": "g3-a1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Muscles in pairs",
+   "stem": "Rafi says, 'I straighten my arm by pushing with my biceps.' What is wrong with this idea?",
+   "options": [
+    "Arms straighten without using any muscle.",
+    "The biceps is a bone, not a muscle.",
+    "Muscles only pull: the triceps pulls the arm straight.",
+    "The biceps pulls harder when it relaxes."
+   ],
+   "answer": 2,
+   "explanation": "A muscle can only pull, never push. To straighten the arm the triceps contracts and pulls, while the biceps relaxes."
+  },
+  {
+   "id": "g3-a1-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Jobs of the skeleton",
+   "stem": "An earthworm has no bones. Why can it not stand up tall like a dog?",
+   "model_answer": "A worm has no skeleton to hold its soft body up, so its body flops over.",
+   "keywords": [
+    [
+     "bone",
+     "bones",
+     "skeleton",
+     "frame"
+    ],
+    [
+     "support",
+     "hold",
+     "holds",
+     "soft",
+     "flop",
+     "floppy",
+     "bendy"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A skeleton supports the body and holds it up. Without bones, a worm's soft body cannot stand up on its own."
+  },
+  {
+   "id": "g3-a1-028",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Healthy habits",
+   "stem": "A child needs 3 glasses of milk a day for strong bones. In 2 weeks she misses 4 glasses in total. She drinks ___ glasses.",
+   "blanks": [
+    [
+     "38",
+     "thirty-eight",
+     "thirty eight"
+    ]
+   ],
+   "explanation": "Two weeks is 14 days, and 3 × 14 = 42 glasses. She misses 4, so 42 − 4 = 38 glasses."
+  }
+ ]
 }

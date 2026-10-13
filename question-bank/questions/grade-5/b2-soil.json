@@ -1,218 +1,711 @@
 {
-  "grade": 5,
-  "grade_name": "Grade 5",
-  "topic": "B2",
-  "title": "Soil and the Living Earth",
-  "strand": "earth",
-  "worksheet": "worksheets/grade-5-science/pdf/b2-soil-and-the-living-earth-study-pack.pdf",
-  "questions": [
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "B2",
+ "title": "Soil and the Living Earth",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-5-science/pdf/b2-soil-and-the-living-earth-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-b2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What soil is made of",
+   "stem": "Soil has tiny spaces between its particles. What is in these spaces?",
+   "options": [
+    "only humus",
+    "only sand",
+    "nothing, because the spaces are empty",
+    "water and air"
+   ],
+   "answer": 3,
+   "explanation": "The spaces hold water and air. Roots and soil animals such as earthworms need both of them."
+  },
+  {
+   "id": "g5-b2-002",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What soil is made of",
+   "stem": "Humus is the dark, rotted remains of dead plants and animals in the soil.",
+   "answer": true,
+   "explanation": "Decomposers break dead leaves and animals down into humus. It gives soil its dark colour and adds nutrients."
+  },
+  {
+   "id": "g5-b2-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Soil types and the key",
+   "stem": "Match each soil type to how it looks or feels.",
+   "pairs": [
+    [
+     "sandy soil",
+     "large, gritty particles"
+    ],
+    [
+     "clay soil",
+     "tiny particles, sticky when wet"
+    ],
+    [
+     "chalky soil",
+     "pale and stony, fizzes with vinegar"
+    ],
+    [
+     "woodland soil",
+     "dark and crumbly with rotting leaves"
+    ]
+   ],
+   "explanation": "Each soil type has its own clues. Gritty means sand, sticky means clay, fizzing means chalk, and lots of rotting leaves means woodland soil."
+  },
+  {
+   "id": "g5-b2-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How soil forms",
+   "stem": "Rain, ice, heat and plant roots slowly break rocks into small pieces. This is called ___. Dead leaves are broken down by decomposers into dark ___.",
+   "blanks": [
+    [
+     "weathering"
+    ],
+    [
+     "humus"
+    ]
+   ],
+   "bank": [
+    "weathering",
+    "humus",
+    "drainage",
+    "silt"
+   ],
+   "explanation": "Weathering breaks rock into pieces. Humus from rotted plants mixes with the rock pieces and together they make soil."
+  },
+  {
+   "id": "g5-b2-005",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How soil forms",
+   "stem": "Put the steps in order to show how soil forms.",
+   "sequence": [
+    "Rain, ice, heat and plant roots break rock into small pieces.",
+    "Plants grow in the rock pieces and later die.",
+    "Decomposers break the dead plant remains into humus.",
+    "Humus mixes with the rock pieces to make soil."
+   ],
+   "explanation": "Soil needs both rock pieces and humus. This is slow: it can take hundreds of years to make just a few centimetres of soil."
+  },
+  {
+   "id": "g5-b2-006",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Soil types and the key",
+   "stem": "Sort these properties into sandy soil and clay soil.",
+   "categories": [
+    "Sandy soil",
+    "Clay soil"
+   ],
+   "items": [
+    [
+     "large, gritty particles",
+     "Sandy soil"
+    ],
+    [
+     "water drains through fast",
+     "Sandy soil"
+    ],
+    [
+     "dries out quickly",
+     "Sandy soil"
+    ],
+    [
+     "tiny particles",
+     "Clay soil"
+    ],
+    [
+     "sticky when wet",
+     "Clay soil"
+    ],
+    [
+     "cracks when dry",
+     "Clay soil"
+    ]
+   ],
+   "explanation": "Big sand particles leave big gaps, so water runs through. Tiny clay particles are packed tightly, so clay holds water and becomes sticky."
+  },
+  {
+   "id": "g5-b2-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Earthworms and soil animals",
+   "stem": "Which are ways earthworms help the soil? Choose all that are right.",
+   "options": [
+    "Their tunnels let air and water into the soil.",
+    "Their droppings, called worm casts, add nutrients.",
+    "They eat dead leaves and mix them into the soil.",
+    "They make the soil dry out.",
+    "They turn clay into sand."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Earthworms tunnel, eat and produce casts full of nutrients. They do not dry out the soil, and they cannot change one soil type into another."
+  },
+  {
+   "id": "g5-b2-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Earthworms and soil animals",
+   "stem": "Why do earthworms need moist soil?",
+   "options": [
+    "They have lungs that must stay wet.",
+    "They breathe through their damp skin.",
+    "Their eggs hatch only in puddles.",
+    "They eat only wet soil."
+   ],
+   "answer": 1,
+   "explanation": "Earthworms have no lungs. Oxygen goes in through their damp skin, so if the soil dries out their skin dries and they die."
+  },
+  {
+   "id": "g5-b2-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Plants and soil",
+   "stem": "Very sandy soil holds on to water and nutrients well.",
+   "answer": false,
+   "explanation": "Sand has large gaps, so water drains through fast and takes nutrients with it. Adding compost helps sandy soil hold water and nutrients."
+  },
+  {
+   "id": "g5-b2-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Soil types and the key",
+   "stem": "Why does water drain quickly through sandy soil but slowly through clay?",
+   "model_answer": "Sand particles are large with big gaps between them, so water runs through. Clay particles are tiny and packed tightly, so water moves slowly and is held.",
+   "keywords": [
+    [
+     "large",
+     "big",
+     "bigger",
+     "gaps",
+     "spaces",
+     "coarse"
+    ],
+    [
+     "tiny",
+     "small",
+     "smaller",
+     "packed",
+     "close together",
+     "tightly"
+    ],
+    [
+     "drain",
+     "drains",
+     "runs through",
+     "flows",
+     "passes",
+     "held",
+     "holds"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The size of the particles decides the size of the gaps. Big gaps let water through quickly, and tiny gaps slow the water down."
+  },
+  {
+   "id": "g5-b2-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Soil types and the key",
+   "stem": "Use this key. 1. Is the soil gritty? Yes: go to 2. No: go to 3. 2. Does it fizz with vinegar? Yes: chalky soil. No: sandy soil. 3. Is it sticky and shiny when wet? Yes: clay soil. No: go to 4. 4. Is it dark with lots of rotting leaves? Yes: woodland soil. No: garden topsoil. A sample is not gritty, not sticky, and dark and crumbly with only a few leaves. Which soil is it?",
+   "options": [
+    "garden topsoil",
+    "clay soil",
+    "woodland soil",
+    "sandy soil"
+   ],
+   "answer": 0,
+   "explanation": "Not gritty takes you to 3. Not sticky takes you to 4. There are few leaves, so the answer is garden topsoil, a mixture of sand, clay and humus."
+  },
+  {
+   "id": "g5-b2-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plants and soil",
+   "stem": "Plants grow best in soil that is ___ and has plenty of ___.",
+   "blanks": [
+    [
+     "moist",
+     "damp"
+    ],
+    [
+     "nutrients",
+     "minerals"
+    ]
+   ],
+   "bank": [
+    "moist",
+    "nutrients",
+    "dry",
+    "stones"
+   ],
+   "explanation": "Roots need water, air and nutrients (minerals). Moist, nutrient-rich soil gives plants all three."
+  },
+  {
+   "id": "g5-b2-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Soil types and the key",
+   "stem": "Chalky soil fizzes when vinegar is added to it.",
+   "answer": true,
+   "explanation": "Chalky soil contains chalk, which reacts with vinegar and makes bubbles. Sandy soil does not fizz."
+  },
+  {
+   "id": "g5-b2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What soil is made of",
+   "stem": "Look at the layers of soil. Which number is the solid rock at the bottom?",
+   "image": "diagrams/soil-layers-numbered.svg",
+   "image_alt": "Layers of soil numbered from the top: leaf litter, topsoil, subsoil and bedrock.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "explanation": "Layer 4 is the bedrock, the solid rock under all the soil. Layer 1 is leaf litter (humus), 2 is topsoil and 3 is subsoil."
+  },
+  {
+   "id": "g5-b2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What soil is made of",
+   "stem": "Look at the layers of soil. What is the name of layer 3, just above the bedrock?",
+   "image": "diagrams/soil-layers-numbered.svg",
+   "image_alt": "Layers of soil numbered from the top: leaf litter, topsoil, subsoil and bedrock.",
+   "options": [
+    "humus",
+    "bedrock",
+    "subsoil",
+    "topsoil"
+   ],
+   "answer": 2,
+   "explanation": "Layer 3 is subsoil. It has less humus than the topsoil above it. Most roots and earthworms live in the topsoil."
+  },
+  {
+   "id": "g5-b2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Earthworms and soil animals",
+   "stem": "Which animal tunnels through soil and leaves droppings that add nutrients?",
+   "options": [
     {
-      "id": "g5-b2-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "What soil is made of",
-      "stem": "Soil has tiny spaces between its particles. What is in these spaces?",
-      "options": ["only humus", "water and air", "nothing, because the spaces are empty", "only sand"],
-      "answer": 1,
-      "explanation": "The spaces hold water and air. Roots and soil animals such as earthworms need both of them."
+     "text": "earthworm",
+     "image": "openmoji/worm.svg"
     },
     {
-      "id": "g5-b2-002", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "What soil is made of",
-      "stem": "Humus is the dark, rotted remains of dead plants and animals in the soil.",
-      "answer": true,
-      "explanation": "Decomposers break dead leaves and animals down into humus. It gives soil its dark colour and adds nutrients."
+     "text": "snail",
+     "image": "openmoji/snail.svg"
     },
     {
-      "id": "g5-b2-003", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Soil types and the key",
-      "stem": "Match each soil type to how it looks or feels.",
-      "pairs": [["sandy soil", "large, gritty particles"], ["clay soil", "tiny particles, sticky when wet"], ["chalky soil", "pale and stony, fizzes with vinegar"], ["woodland soil", "dark and crumbly with rotting leaves"]],
-      "explanation": "Each soil type has its own clues. Gritty means sand, sticky means clay, fizzing means chalk, and lots of rotting leaves means woodland soil."
+     "text": "butterfly",
+     "image": "openmoji/butterfly.svg"
     },
     {
-      "id": "g5-b2-004", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "How soil forms",
-      "stem": "Rain, ice, heat and plant roots slowly break rocks into small pieces. This is called ___. Dead leaves are broken down by decomposers into dark ___.",
-      "blanks": [["weathering"], ["humus"]],
-      "bank": ["weathering", "humus", "drainage", "silt"],
-      "explanation": "Weathering breaks rock into pieces. Humus from rotted plants mixes with the rock pieces and together they make soil."
-    },
-    {
-      "id": "g5-b2-005", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "How soil forms",
-      "stem": "Put the steps in order to show how soil forms.",
-      "sequence": ["Rain, ice, heat and plant roots break rock into small pieces.", "Plants grow in the rock pieces and later die.", "Decomposers break the dead plant remains into humus.", "Humus mixes with the rock pieces to make soil."],
-      "explanation": "Soil needs both rock pieces and humus. This is slow: it can take hundreds of years to make just a few centimetres of soil."
-    },
-    {
-      "id": "g5-b2-006", "mode": "core", "type": "sort", "difficulty": 1, "bloom": "understand", "subskill": "Soil types and the key",
-      "stem": "Sort these properties into sandy soil and clay soil.",
-      "categories": ["Sandy soil", "Clay soil"],
-      "items": [["large, gritty particles", "Sandy soil"], ["water drains through fast", "Sandy soil"], ["dries out quickly", "Sandy soil"], ["tiny particles", "Clay soil"], ["sticky when wet", "Clay soil"], ["cracks when dry", "Clay soil"]],
-      "explanation": "Big sand particles leave big gaps, so water runs through. Tiny clay particles are packed tightly, so clay holds water and becomes sticky."
-    },
-    {
-      "id": "g5-b2-007", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Earthworms and soil animals",
-      "stem": "Which are ways earthworms help the soil? Choose all that are right.",
-      "options": ["Their tunnels let air and water into the soil.", "Their droppings, called worm casts, add nutrients.", "They eat dead leaves and mix them into the soil.", "They make the soil dry out.", "They turn clay into sand."],
-      "answer": [0, 1, 2],
-      "explanation": "Earthworms tunnel, eat and produce casts full of nutrients. They do not dry out the soil, and they cannot change one soil type into another."
-    },
-    {
-      "id": "g5-b2-008", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Earthworms and soil animals",
-      "stem": "Why do earthworms need moist soil?",
-      "options": ["They have lungs that must stay wet.", "Their eggs hatch only in puddles.", "They breathe through their damp skin.", "They eat only wet soil."],
-      "answer": 2,
-      "explanation": "Earthworms have no lungs. Oxygen goes in through their damp skin, so if the soil dries out their skin dries and they die."
-    },
-    {
-      "id": "g5-b2-009", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Plants and soil",
-      "stem": "Very sandy soil holds on to water and nutrients well.",
-      "answer": false,
-      "explanation": "Sand has large gaps, so water drains through fast and takes nutrients with it. Adding compost helps sandy soil hold water and nutrients."
-    },
-    {
-      "id": "g5-b2-010", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Soil types and the key",
-      "stem": "Why does water drain quickly through sandy soil but slowly through clay?",
-      "model_answer": "Sand particles are large with big gaps between them, so water runs through. Clay particles are tiny and packed tightly, so water moves slowly and is held.",
-      "keywords": [["large", "big", "bigger", "gaps", "spaces", "coarse"], ["tiny", "small", "smaller", "packed", "close together", "tightly"], ["drain", "drains", "runs through", "flows", "passes", "held", "holds"]],
-      "min_keywords": 2,
-      "explanation": "The size of the particles decides the size of the gaps. Big gaps let water through quickly, and tiny gaps slow the water down."
-    },
-    {
-      "id": "g5-b2-011", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Soil types and the key",
-      "stem": "Use this key. 1. Is the soil gritty? Yes: go to 2. No: go to 3. 2. Does it fizz with vinegar? Yes: chalky soil. No: sandy soil. 3. Is it sticky and shiny when wet? Yes: clay soil. No: go to 4. 4. Is it dark with lots of rotting leaves? Yes: woodland soil. No: garden topsoil. A sample is not gritty, not sticky, and dark and crumbly with only a few leaves. Which soil is it?",
-      "options": ["sandy soil", "clay soil", "woodland soil", "garden topsoil"],
-      "answer": 3,
-      "explanation": "Not gritty takes you to 3. Not sticky takes you to 4. There are few leaves, so the answer is garden topsoil, a mixture of sand, clay and humus."
-    },
-    {
-      "id": "g5-b2-012", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Plants and soil",
-      "stem": "Plants grow best in soil that is ___ and has plenty of ___.",
-      "blanks": [["moist", "damp"], ["nutrients", "minerals"]],
-      "bank": ["moist", "nutrients", "dry", "stones"],
-      "explanation": "Roots need water, air and nutrients (minerals). Moist, nutrient-rich soil gives plants all three."
-    },
-    {
-      "id": "g5-b2-013", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Soil types and the key",
-      "stem": "Chalky soil fizzes when vinegar is added to it.",
-      "answer": true,
-      "explanation": "Chalky soil contains chalk, which reacts with vinegar and makes bubbles. Sandy soil does not fizz."
-    },
-    {
-      "id": "g5-b2-014", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "What soil is made of",
-      "stem": "Look at the layers of soil. Which number is the solid rock at the bottom?",
-      "image": "diagrams/soil-layers-numbered.svg", "image_alt": "Layers of soil numbered from the top: leaf litter, topsoil, subsoil and bedrock.",
-      "options": ["1", "2", "3", "4"],
-      "answer": 3,
-      "explanation": "Layer 4 is the bedrock, the solid rock under all the soil. Layer 1 is leaf litter (humus), 2 is topsoil and 3 is subsoil."
-    },
-    {
-      "id": "g5-b2-015", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "What soil is made of",
-      "stem": "Look at the layers of soil. What is the name of layer 3, just above the bedrock?",
-      "image": "diagrams/soil-layers-numbered.svg", "image_alt": "Layers of soil numbered from the top: leaf litter, topsoil, subsoil and bedrock.",
-      "options": ["humus", "subsoil", "bedrock", "topsoil"],
-      "answer": 1,
-      "explanation": "Layer 3 is subsoil. It has less humus than the topsoil above it. Most roots and earthworms live in the topsoil."
-    },
-    {
-      "id": "g5-b2-016", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Earthworms and soil animals",
-      "stem": "Which animal tunnels through soil and leaves droppings that add nutrients?",
-      "options": [{"text": "fish", "image": "openmoji/fish.svg"}, {"text": "snail", "image": "openmoji/snail.svg"}, {"text": "butterfly", "image": "openmoji/butterfly.svg"}, {"text": "earthworm", "image": "openmoji/worm.svg"}],
-      "answer": 3,
-      "explanation": "Earthworms tunnel through the soil. Their tunnels let in air and water, and their droppings (worm casts) are full of nutrients."
-    },
-    {
-      "id": "g5-b2-017", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "understand", "subskill": "What soil is made of",
-      "stem": "Match each picture to its part in soil.",
-      "pairs": [[{"text": "rock", "image": "openmoji/rock.svg"}, "tiny pieces of rock: sand, silt and clay"], [{"text": "fallen leaf", "image": "openmoji/fallen-leaf.svg"}, "rots to make humus"], [{"text": "droplet", "image": "openmoji/droplet.svg"}, "water held in the spaces"], [{"text": "worm", "image": "openmoji/worm.svg"}, "living things that mix and enrich the soil"]],
-      "explanation": "Soil is a mixture of rock particles, humus, water, air and living things such as earthworms."
-    },
-    {
-      "id": "g5-b2-018", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Plants and soil",
-      "stem": "Rina wants to improve her sandy soil. Which of these will rot into humus and add nutrients?",
-      "options": [{"text": "plastic bottle", "image": "openmoji/plastic-bottle.svg"}, {"text": "fallen leaf", "image": "openmoji/fallen-leaf.svg"}, {"text": "brick", "image": "openmoji/brick.svg"}, {"text": "coin", "image": "openmoji/coin.svg"}],
-      "answer": 1,
-      "explanation": "Leaves are plant waste that decomposers can rot into humus. Plastic, bricks and coins do not rot and add no nutrients."
-    },
-    {
-      "id": "g5-b2-019", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Plants and soil",
-      "stem": "Rina's vegetable garden has very sandy soil. The plants dry out quickly and grow poorly. What should she add?",
-      "options": ["more sand to let the water through", "compost or manure to add nutrients and hold water", "stones to make the soil heavier", "nothing, because sandy soil is always best"],
-      "answer": 1,
-      "explanation": "Compost and manure add nutrients and humus, and humus holds water. More sand would make the problem worse."
-    },
-    {
-      "id": "g5-b2-020", "mode": "real-life", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Earthworms and soil animals",
-      "stem": "After heavy rain, Tuli sees many earthworms on the path. Which is the best explanation?",
-      "options": ["The worms want to dry themselves in the Sun.", "The rain makes them grow bigger and climb up.", "The soil gaps fill with water, so they come up for air.", "They are looking for leaves to eat on the path."],
-      "answer": 2,
-      "explanation": "When the soil is soaked, water fills the gaps where air used to be. Earthworms breathe through their skin, so they come to the surface to get air."
-    },
-    {
-      "id": "g5-b2-021", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Plants and soil",
-      "stem": "Farmers near the Meghna river can often grow two or three rice crops a year. What helps most?",
-      "options": ["The soil there is made only of sand.", "The soil there is chalky and fizzes.", "There are no earthworms to disturb the roots.", "Rivers drop fertile silt on the fields every year."],
-      "answer": 3,
-      "explanation": "Bangladesh is a huge river delta. Each year the rivers drop fine silt full of nutrients, so the soil stays fertile."
-    },
-    {
-      "id": "g5-b2-022", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "create", "subskill": "Earthworms and soil animals",
-      "stem": "Class 5 will keep earthworms in a clear 'worm hotel' for one week. Which things will keep the worms healthy? Choose all that are right.",
-      "options": ["moist, loose soil with some dead leaves", "air holes in the lid", "a spot in hot, direct sunshine", "dry, tightly packed soil", "a cool, shaded place", "returning the worms to the garden afterwards"],
-      "answer": [0, 1, 4, 5],
-      "explanation": "Worms need moist, loose soil, food, air and a cool, dark place, and they should go back to the garden afterwards. Heat and dry soil would kill them."
-    },
-    {
-      "id": "g5-b2-023", "mode": "real-life", "type": "sort", "difficulty": 2, "bloom": "evaluate", "subskill": "Protecting soil",
-      "stem": "Sort these actions into ones that protect soil and ones that harm it.",
-      "categories": ["Protects soil", "Harms soil"],
-      "items": [["planting grass and trees on a river bank", "Protects soil"], ["adding compost to the garden", "Protects soil"], ["keeping the soil covered with plants", "Protects soil"], ["leaving bare soil to wash away in floods", "Harms soil"], ["using far too much chemical fertiliser", "Harms soil"], ["dumping plastic rubbish in the fields", "Harms soil"]],
-      "explanation": "Roots and compost hold soil together and feed it. Bare soil washes away, too much chemical fertiliser harms soil life, and plastic does not rot."
-    },
-    {
-      "id": "g5-b2-024", "mode": "real-life", "type": "short", "difficulty": 2, "bloom": "evaluate", "subskill": "Earthworms and soil animals",
-      "stem": "Joy's uncle says earthworms in his field are pests and wants to get rid of them. What would you tell him? Give two reasons.",
-      "model_answer": "Earthworms help the soil. Their tunnels let air and water reach the roots, and their droppings add nutrients, so plants grow better.",
-      "keywords": [["tunnel", "tunnels", "air", "water", "loosen", "loosens"], ["nutrient", "nutrients", "droppings", "casts", "fertile", "fertiliser"], ["help", "helpful", "good", "grow better", "healthier", "healthy"]],
-      "min_keywords": 2,
-      "explanation": "Earthworms are soil engineers. They let air and water in and add nutrients, so a field with worms is usually healthier than one without."
-    },
-    {
-      "id": "g5-b2-025", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Soil types and the key",
-      "stem": "Class 5C poured 100 ml of water through 100 g of each soil. The water that dripped through in 5 minutes was: sand 80 ml, garden soil 55 ml, clay 20 ml. A cactus needs a soil that does not stay wet. Which soil suits it, and how much water did that soil hold?",
-      "options": ["sand, which held 20 ml", "sand, which held 80 ml", "clay, which held 20 ml", "clay, which held 80 ml"],
-      "answer": 0,
-      "explanation": "The water held is the water poured in minus the water that dripped through: sand 100 − 80 = 20 ml. Sand holds the least and drains fastest, so the cactus roots will not sit in water."
-    },
-    {
-      "id": "g5-b2-026", "mode": "olympiad", "type": "fill", "difficulty": 3, "bloom": "apply", "subskill": "Protecting soil",
-      "stem": "Fatema sells vermicompost for 15 taka per kilogram (example). One worm ring makes 40 kg every 2 months, so one ring earns ___ taka in 2 months. With 5 rings, she earns ___ taka in one year (6 lots of 2 months).",
-      "blanks": [["600"], ["18000", "18 000", "18,000"]],
-      "bank": ["600", "3000", "18000", "7200"],
-      "explanation": "40 × 15 = 600 taka for one ring. Five rings earn 600 × 5 = 3000 taka in 2 months, and 3000 × 6 = 18 000 taka in a year."
-    },
-    {
-      "id": "g5-b2-027", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Plants and soil",
-      "stem": "A farmer tested two tomato plots (example results). Plot A, with chemical fertiliser only, gave 120 kg. Plot B, with half chemical fertiliser plus vermicompost, gave 135 kg. Which conclusion is best?",
-      "options": ["Vermicompost will always give 15 kg more tomatoes on any farm.", "Plot B gave 15 kg more, but the test should be repeated before we are sure.", "Chemical fertiliser stops tomatoes from growing at all.", "Plot A did best because it had more chemical fertiliser."],
-      "answer": 1,
-      "explanation": "Plot B did give 15 kg more, but the plots may differ in water, sunlight or pests. One test is not enough, so it should be repeated on more plots and in more seasons."
-    },
-    {
-      "id": "g5-b2-028", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Protecting soil",
-      "stem": "Soil takes hundreds of years to form but can be washed away in one flood. Why should we protect it, and how?",
-      "model_answer": "We grow almost all our food in soil, and it forms so slowly that lost soil cannot quickly be replaced. We can protect it with plants, trees and compost.",
-      "keywords": [["food", "crops", "farm", "farming", "grow", "plants need"], ["hundreds of years", "slowly", "slow", "long time", "cannot be replaced", "replace", "replaced"], ["trees", "plants", "compost", "cover", "roots", "grass"]],
-      "min_keywords": 2,
-      "explanation": "Soil is a thin, slowly formed layer that feeds us. Plant roots and compost hold it in place and keep it healthy."
-    },
-    {
-      "id": "g5-b2-029", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Soil types and the key",
-      "stem": "Imran tests which soil holds the most water. He pours 100 ml of water onto 50 g of sand and 100 ml onto 200 g of clay, and times 5 minutes for each. What makes his test unfair?",
-      "options": ["He poured the same amount of water onto each soil.", "He measured the water in millilitres.", "The two soils have different masses (50 g and 200 g).", "He used the same time for each soil."],
-      "answer": 2,
-      "explanation": "In a fair test only the soil type changes. The mass of soil, volume of water, time, funnel and filter paper must all stay the same."
-    },
-    {
-      "id": "g5-b2-030", "mode": "real-life", "type": "order", "difficulty": 2, "bloom": "apply", "subskill": "Earthworms and soil animals",
-      "stem": "Fatema makes vermicompost in a concrete ring. Put the steps in order.",
-      "sequence": ["Fill the ring with cow dung, vegetable peel and straw.", "Add the earthworms and keep the mixture moist and shaded.", "The worms eat the waste for about 6 to 8 weeks.", "Collect the dark, rich vermicompost.", "Spread it on the fields or sell it."],
-      "explanation": "The worms need food and moist, shaded conditions. After about 6 to 8 weeks they have turned the waste into nutrient-rich vermicompost."
+     "text": "fish",
+     "image": "openmoji/fish.svg"
     }
-  ]
+   ],
+   "answer": 0,
+   "explanation": "Earthworms tunnel through the soil. Their tunnels let in air and water, and their droppings (worm casts) are full of nutrients."
+  },
+  {
+   "id": "g5-b2-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What soil is made of",
+   "stem": "Match each picture to its part in soil.",
+   "pairs": [
+    [
+     {
+      "text": "rock",
+      "image": "openmoji/rock.svg"
+     },
+     "tiny pieces of rock: sand, silt and clay"
+    ],
+    [
+     {
+      "text": "fallen leaf",
+      "image": "openmoji/fallen-leaf.svg"
+     },
+     "rots to make humus"
+    ],
+    [
+     {
+      "text": "droplet",
+      "image": "openmoji/droplet.svg"
+     },
+     "water held in the spaces"
+    ],
+    [
+     {
+      "text": "worm",
+      "image": "openmoji/worm.svg"
+     },
+     "living things that mix and enrich the soil"
+    ]
+   ],
+   "explanation": "Soil is a mixture of rock particles, humus, water, air and living things such as earthworms."
+  },
+  {
+   "id": "g5-b2-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Plants and soil",
+   "stem": "Rina wants to improve her sandy soil. Which of these will rot into humus and add nutrients?",
+   "options": [
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "fallen leaf",
+     "image": "openmoji/fallen-leaf.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "coin",
+     "image": "openmoji/coin.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "Leaves are plant waste that decomposers can rot into humus. Plastic, bricks and coins do not rot and add no nutrients."
+  },
+  {
+   "id": "g5-b2-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Plants and soil",
+   "stem": "Rina's vegetable garden has very sandy soil. The plants dry out quickly and grow poorly. What should she add?",
+   "options": [
+    "more sand to let the water through",
+    "stones to make the soil heavier",
+    "compost or manure to add nutrients and hold water",
+    "nothing, because sandy soil is always best"
+   ],
+   "answer": 2,
+   "explanation": "Compost and manure add nutrients and humus, and humus holds water. More sand would make the problem worse."
+  },
+  {
+   "id": "g5-b2-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Earthworms and soil animals",
+   "stem": "After heavy rain, Tuli sees many earthworms on the path. Which is the best explanation?",
+   "options": [
+    "The worms want to dry themselves in the Sun.",
+    "The rain makes them grow bigger and climb up.",
+    "They are looking for leaves to eat on the path.",
+    "The soil gaps fill with water, so they come up for air."
+   ],
+   "answer": 3,
+   "explanation": "When the soil is soaked, water fills the gaps where air used to be. Earthworms breathe through their skin, so they come to the surface to get air."
+  },
+  {
+   "id": "g5-b2-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Plants and soil",
+   "stem": "Farmers near the Meghna river can often grow two or three rice crops a year. What helps most?",
+   "options": [
+    "The soil there is made only of sand.",
+    "The soil there is chalky and fizzes.",
+    "Rivers drop fertile silt on the fields every year.",
+    "There are no earthworms to disturb the roots."
+   ],
+   "answer": 2,
+   "explanation": "Bangladesh is a huge river delta. Each year the rivers drop fine silt full of nutrients, so the soil stays fertile."
+  },
+  {
+   "id": "g5-b2-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Earthworms and soil animals",
+   "stem": "Class 5 will keep earthworms in a clear 'worm hotel' for one week. Which things will keep the worms healthy? Choose all that are right.",
+   "options": [
+    "moist, loose soil with some dead leaves",
+    "air holes in the lid",
+    "a spot in hot, direct sunshine",
+    "dry, tightly packed soil",
+    "a cool, shaded place",
+    "returning the worms to the garden afterwards"
+   ],
+   "answer": [
+    0,
+    1,
+    4,
+    5
+   ],
+   "explanation": "Worms need moist, loose soil, food, air and a cool, dark place, and they should go back to the garden afterwards. Heat and dry soil would kill them."
+  },
+  {
+   "id": "g5-b2-023",
+   "mode": "real-life",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Protecting soil",
+   "stem": "Sort these actions into ones that protect soil and ones that harm it.",
+   "categories": [
+    "Protects soil",
+    "Harms soil"
+   ],
+   "items": [
+    [
+     "planting grass and trees on a river bank",
+     "Protects soil"
+    ],
+    [
+     "adding compost to the garden",
+     "Protects soil"
+    ],
+    [
+     "keeping the soil covered with plants",
+     "Protects soil"
+    ],
+    [
+     "leaving bare soil to wash away in floods",
+     "Harms soil"
+    ],
+    [
+     "using far too much chemical fertiliser",
+     "Harms soil"
+    ],
+    [
+     "dumping plastic rubbish in the fields",
+     "Harms soil"
+    ]
+   ],
+   "explanation": "Roots and compost hold soil together and feed it. Bare soil washes away, too much chemical fertiliser harms soil life, and plastic does not rot."
+  },
+  {
+   "id": "g5-b2-024",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Earthworms and soil animals",
+   "stem": "Joy's uncle says earthworms in his field are pests and wants to get rid of them. What would you tell him? Give two reasons.",
+   "model_answer": "Earthworms help the soil. Their tunnels let air and water reach the roots, and their droppings add nutrients, so plants grow better.",
+   "keywords": [
+    [
+     "tunnel",
+     "tunnels",
+     "air",
+     "water",
+     "loosen",
+     "loosens"
+    ],
+    [
+     "nutrient",
+     "nutrients",
+     "droppings",
+     "casts",
+     "fertile",
+     "fertiliser"
+    ],
+    [
+     "help",
+     "helpful",
+     "good",
+     "grow better",
+     "healthier",
+     "healthy"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Earthworms are soil engineers. They let air and water in and add nutrients, so a field with worms is usually healthier than one without."
+  },
+  {
+   "id": "g5-b2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Soil types and the key",
+   "stem": "Class 5C poured 100 ml of water through 100 g of each soil. The water that dripped through in 5 minutes was: sand 80 ml, garden soil 55 ml, clay 20 ml. A cactus needs a soil that does not stay wet. Which soil suits it, and how much water did that soil hold?",
+   "options": [
+    "clay, which held 80 ml",
+    "sand, which held 80 ml",
+    "clay, which held 20 ml",
+    "sand, which held 20 ml"
+   ],
+   "answer": 3,
+   "explanation": "The water held is the water poured in minus the water that dripped through: sand 100 − 80 = 20 ml. Sand holds the least and drains fastest, so the cactus roots will not sit in water."
+  },
+  {
+   "id": "g5-b2-026",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Protecting soil",
+   "stem": "Fatema sells vermicompost for 15 taka per kilogram (example). One worm ring makes 40 kg every 2 months, so one ring earns ___ taka in 2 months. With 5 rings, she earns ___ taka in one year (6 lots of 2 months).",
+   "blanks": [
+    [
+     "600"
+    ],
+    [
+     "18000",
+     "18 000",
+     "18,000"
+    ]
+   ],
+   "bank": [
+    "600",
+    "3000",
+    "18000",
+    "7200"
+   ],
+   "explanation": "40 × 15 = 600 taka for one ring. Five rings earn 600 × 5 = 3000 taka in 2 months, and 3000 × 6 = 18 000 taka in a year."
+  },
+  {
+   "id": "g5-b2-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Plants and soil",
+   "stem": "A farmer tested two tomato plots (example results). Plot A, with chemical fertiliser only, gave 120 kg. Plot B, with half chemical fertiliser plus vermicompost, gave 135 kg. Which conclusion is best?",
+   "options": [
+    "Vermicompost will always give 15 kg more tomatoes on any farm.",
+    "Plot B gave 15 kg more, but the test should be repeated before we are sure.",
+    "Chemical fertiliser stops tomatoes from growing at all.",
+    "Plot A did best because it had more chemical fertiliser."
+   ],
+   "answer": 1,
+   "explanation": "Plot B did give 15 kg more, but the plots may differ in water, sunlight or pests. One test is not enough, so it should be repeated on more plots and in more seasons."
+  },
+  {
+   "id": "g5-b2-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Protecting soil",
+   "stem": "Soil takes hundreds of years to form but can be washed away in one flood. Why should we protect it, and how?",
+   "model_answer": "We grow almost all our food in soil, and it forms so slowly that lost soil cannot quickly be replaced. We can protect it with plants, trees and compost.",
+   "keywords": [
+    [
+     "food",
+     "crops",
+     "farm",
+     "farming",
+     "grow",
+     "plants need"
+    ],
+    [
+     "hundreds of years",
+     "slowly",
+     "slow",
+     "long time",
+     "cannot be replaced",
+     "replace",
+     "replaced"
+    ],
+    [
+     "trees",
+     "plants",
+     "compost",
+     "cover",
+     "roots",
+     "grass"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Soil is a thin, slowly formed layer that feeds us. Plant roots and compost hold it in place and keep it healthy."
+  },
+  {
+   "id": "g5-b2-029",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Soil types and the key",
+   "stem": "Imran tests which soil holds the most water. He pours 100 ml of water onto 50 g of sand and 100 ml onto 200 g of clay, and times 5 minutes for each. What makes his test unfair?",
+   "options": [
+    "The two soils have different masses (50 g and 200 g).",
+    "He measured the water in millilitres.",
+    "He poured the same amount of water onto each soil.",
+    "He used the same time for each soil."
+   ],
+   "answer": 0,
+   "explanation": "In a fair test only the soil type changes. The mass of soil, volume of water, time, funnel and filter paper must all stay the same."
+  },
+  {
+   "id": "g5-b2-030",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Earthworms and soil animals",
+   "stem": "Fatema makes vermicompost in a concrete ring. Put the steps in order.",
+   "sequence": [
+    "Fill the ring with cow dung, vegetable peel and straw.",
+    "Add the earthworms and keep the mixture moist and shaded.",
+    "The worms eat the waste for about 6 to 8 weeks.",
+    "Collect the dark, rich vermicompost.",
+    "Spread it on the fields or sell it."
+   ],
+   "explanation": "The worms need food and moist, shaded conditions. After about 6 to 8 weeks they have turned the waste into nutrient-rich vermicompost."
+  }
+ ]
 }

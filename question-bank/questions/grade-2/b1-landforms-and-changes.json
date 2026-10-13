@@ -1,0 +1,593 @@
+{
+ "grade": 2,
+ "grade_name": "Grade 2",
+ "topic": "B1",
+ "title": "Landforms and Changes",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-2-science/pdf/b1-landforms-and-changes-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g2-b1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Land with water all around it is called a…",
+   "options": [
+    "valley",
+    "plain",
+    "island",
+    "cave"
+   ],
+   "answer": 2,
+   "explanation": "An island is land with water all around it. Saint Martin's Island and Bhola are islands in Bangladesh."
+  },
+  {
+   "id": "g2-b1-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Look at the six landforms. Which letter shows an island?",
+   "image": "diagrams/landforms-lettered.svg",
+   "image_alt": "Six landforms drawn and lettered A to F.",
+   "options": [
+    "B",
+    "D",
+    "E",
+    "F"
+   ],
+   "answer": 3,
+   "explanation": "F is an island, with water all around it. A is a mountain, B a hill, C a valley, D a cave and E a plain."
+  },
+  {
+   "id": "g2-b1-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Look at the six landforms. Which letter shows a valley, the low land between hills or mountains?",
+   "image": "diagrams/landforms-lettered.svg",
+   "image_alt": "Six landforms drawn and lettered A to F.",
+   "options": [
+    "A",
+    "C",
+    "D",
+    "F"
+   ],
+   "answer": 1,
+   "explanation": "C is a valley. It is low land between higher land, and a river often flows along it."
+  },
+  {
+   "id": "g2-b1-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Look at the six landforms. Match each letter to its name.",
+   "image": "diagrams/landforms-lettered.svg",
+   "image_alt": "Six landforms drawn and lettered A to F.",
+   "pairs": [
+    [
+     "A",
+     "mountain"
+    ],
+    [
+     "B",
+     "hill"
+    ],
+    [
+     "C",
+     "valley"
+    ],
+    [
+     "D",
+     "cave"
+    ],
+    [
+     "E",
+     "plain"
+    ],
+    [
+     "F",
+     "island"
+    ]
+   ],
+   "explanation": "A is a mountain, B a hill, C a valley, D a cave, E a plain (wide flat land) and F an island."
+  },
+  {
+   "id": "g2-b1-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How water changes the land",
+   "stem": "Look at the river. At which number does the river drop sand and mud and make new land?",
+   "image": "diagrams/river-landscape-numbered.svg",
+   "image_alt": "A river flowing from hills to the sea, with four places numbered 1 to 4.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "At number 3 the river slows down and drops the sand and mud it carried, so new land builds up. Number 2 shows the river carrying soil away."
+  },
+  {
+   "id": "g2-b1-006",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Landforms",
+   "stem": "Which of these are landforms? Choose all that are right.",
+   "options": [
+    {
+     "text": "mountain",
+     "image": "openmoji/mountain.svg"
+    },
+    {
+     "text": "tractor",
+     "image": "openmoji/tractor.svg"
+    },
+    {
+     "text": "island",
+     "image": "openmoji/island.svg"
+    },
+    {
+     "text": "house",
+     "image": "openmoji/house.svg"
+    },
+    {
+     "text": "rowing boat",
+     "image": "openmoji/rowing-boat.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "explanation": "A mountain and an island are shapes of the land, so they are landforms. A tractor, a house and a boat were made by people."
+  },
+  {
+   "id": "g2-b1-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fast and slow changes",
+   "stem": "Which picture shows a fast change that shakes the ground?",
+   "options": [
+    {
+     "text": "earthquake",
+     "image": "openmoji/earthquake.svg"
+    },
+    {
+     "text": "flood",
+     "image": "openmoji/flood.svg"
+    },
+    {
+     "text": "tornado",
+     "image": "openmoji/tornado.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "An earthquake shakes the ground very quickly, in only a short time. A flood and a tornado are also fast changes, but they do not shake the ground."
+  },
+  {
+   "id": "g2-b1-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms",
+   "stem": "Match each landform to what it is.",
+   "pairs": [
+    [
+     "island",
+     "land with water all around it"
+    ],
+    [
+     "valley",
+     "low land between hills"
+    ],
+    [
+     "mountain",
+     "very high land with steep sides"
+    ],
+    [
+     "plain",
+     "wide, flat land"
+    ],
+    [
+     "cave",
+     "a big hole in rock"
+    ]
+   ],
+   "explanation": "A mountain is very high land with steep sides. A valley is low land between hills. A plain is wide flat land, an island has water all round, and a cave is a big hole in rock."
+  },
+  {
+   "id": "g2-b1-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms in Bangladesh",
+   "stem": "Most of Bangladesh is a huge, flat ___ made by rivers.",
+   "blanks": [
+    [
+     "plain",
+     "plains"
+    ]
+   ],
+   "bank": [
+    "plain",
+    "mountain",
+    "cave"
+   ],
+   "explanation": "A plain is wide, flat land. Rivers made most of Bangladesh by bringing soil and dropping it."
+  },
+  {
+   "id": "g2-b1-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How water changes the land",
+   "stem": "A new island that grows in a river from sand and mud is called a ___.",
+   "blanks": [
+    [
+     "char",
+     "chars"
+    ]
+   ],
+   "bank": [
+    "char",
+    "cave",
+    "valley"
+   ],
+   "explanation": "In the big rivers of Bangladesh, sand and mud pile up to make new islands called chars."
+  },
+  {
+   "id": "g2-b1-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Landforms in Bangladesh",
+   "stem": "In the south-east of Bangladesh, in places like Bandarban and Rangamati, there are hills.",
+   "answer": true,
+   "explanation": "The south-east of Bangladesh has hills in Chattogram, Rangamati and Bandarban. Most of the rest of the country is flat."
+  },
+  {
+   "id": "g2-b1-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Good and bad changes",
+   "stem": "A flood is always bad for people and farmers.",
+   "answer": false,
+   "explanation": "Floods can wash away homes, but they can also bring rich new soil to fields. A change can be good in one way and bad in another."
+  },
+  {
+   "id": "g2-b1-013",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How wind and water change the land",
+   "stem": "How do wind and water change the land? Choose all that are right.",
+   "options": [
+    "Rivers carry soil from their banks and drop it elsewhere.",
+    "Waves wear away the coast.",
+    "Wind blows sand into dunes on beaches.",
+    "Rain makes hills grow taller overnight.",
+    "Wind turns soil into rock."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Rivers carry away soil and drop it elsewhere, waves wear away the coast, and wind blows sand into dunes. Rain washes soil down hills, but it does not make hills taller."
+  },
+  {
+   "id": "g2-b1-014",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fast and slow changes",
+   "stem": "Is each change fast or slow? Sort them.",
+   "categories": [
+    "Fast change",
+    "Slow change"
+   ],
+   "items": [
+    [
+     "an earthquake",
+     "Fast change"
+    ],
+    [
+     "a volcano erupting",
+     "Fast change"
+    ],
+    [
+     "a landslide",
+     "Fast change"
+    ],
+    [
+     "a river wearing away rock",
+     "Slow change"
+    ],
+    [
+     "a mountain growing",
+     "Slow change"
+    ],
+    [
+     "wind moving sand",
+     "Slow change"
+    ]
+   ],
+   "explanation": "Earthquakes, volcanic eruptions and landslides happen quickly. Rivers wearing away rock, mountains growing and wind moving sand take a very long time."
+  },
+  {
+   "id": "g2-b1-015",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Good and bad changes",
+   "stem": "Is each change good or bad for people? Sort them.",
+   "categories": [
+    "Good for people",
+    "Bad for people"
+   ],
+   "items": [
+    [
+     "A flood brings rich new soil to a field.",
+     "Good for people"
+    ],
+    [
+     "The river builds a new char with grass on it.",
+     "Good for people"
+    ],
+    [
+     "A river bank falls in and houses are lost.",
+     "Bad for people"
+    ],
+    [
+     "Waves wear away the coast near a village.",
+     "Bad for people"
+    ],
+    [
+     "Rain washes soil off a bare hill.",
+     "Bad for people"
+    ]
+   ],
+   "explanation": "New soil, new land and grass help people and crops. Falling river banks and eroding coasts make people lose land and homes."
+  },
+  {
+   "id": "g2-b1-016",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How water changes the land",
+   "stem": "Put the steps in order to show how a char is made.",
+   "sequence": [
+    "The river carries sand and mud.",
+    "The river drops the sand and mud.",
+    "The sand and mud pile up into new land.",
+    "Grass grows on the new land.",
+    "Families come to live there."
+   ],
+   "explanation": "A char grows slowly. The river drops sand and mud, they pile up into land, grass grows, and then families can live there."
+  },
+  {
+   "id": "g2-b1-017",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How water changes the land",
+   "stem": "How can a river make a new island (char)?",
+   "model_answer": "The river drops sand and mud, and it piles up to make new land.",
+   "keywords": [
+    [
+     "sand",
+     "mud",
+     "soil"
+    ],
+    [
+     "drop",
+     "drops",
+     "dropped",
+     "pile",
+     "piles",
+     "build",
+     "builds",
+     "deposit",
+     "settle"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The river carries sand and mud and drops them. Over time they pile up and make new land above the water."
+  },
+  {
+   "id": "g2-b1-018",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "How wind and water change the land",
+   "stem": "Class 2B made two sand hills. One was covered with grass and one was bare sand. They poured the same amount of water on each. What do you predict?",
+   "options": [
+    "The grass hill will wash away more.",
+    "The bare hill will wash away more.",
+    "Both hills will stay the same.",
+    "Both hills will turn to rock."
+   ],
+   "answer": 1,
+   "explanation": "Grass roots hold the sand together, so the grass hill keeps its shape. The bare sand washes down and the hill gets flatter."
+  },
+  {
+   "id": "g2-b1-019",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Landforms in other places",
+   "stem": "Which sentence compares Bangladesh and Nepal?",
+   "options": [
+    "Both countries are mostly high mountains with no flat land.",
+    "Nepal is mostly flat, but Bangladesh has the tallest mountains in the world.",
+    "Both countries are small islands in the sea.",
+    "Bangladesh is mostly flat, but Nepal has very high mountains."
+   ],
+   "answer": 3,
+   "explanation": "Most of Bangladesh is a flat plain made by rivers. Nepal has very high mountains, including Mount Everest, the tallest mountain in the world."
+  },
+  {
+   "id": "g2-b1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "How wind and water change the land",
+   "stem": "Mina's family lives near a river bank that keeps washing away in the monsoon. What could help protect the bank?",
+   "options": [
+    "Cut down all the plants on the bank.",
+    "Dig more soil out of the bank.",
+    "Plant grass and trees on the bank.",
+    "Pour more water on the bank."
+   ],
+   "answer": 2,
+   "explanation": "Roots of grass and trees hold soil together, so the water carries less of it away. Digging out soil or cutting plants would make it worse."
+  },
+  {
+   "id": "g2-b1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Good and bad changes",
+   "stem": "After a big flood, a thick layer of mud covers Raju's family's field on a char. What is good about this?",
+   "options": [
+    "The mud makes the soil rich for crops.",
+    "The mud turns the field into an island.",
+    "The mud turns the field into a high mountain.",
+    "The mud makes the river stop moving."
+   ],
+   "answer": 0,
+   "explanation": "Flood mud brings rich new soil, which helps crops to grow well. This is one way a flood can be good, even though floods can also cause damage."
+  },
+  {
+   "id": "g2-b1-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Fast and slow changes",
+   "stem": "Anika says, 'Earthquakes happen slowly over many years, so people always have plenty of time to get ready.' Is she right?",
+   "answer": false,
+   "explanation": "An earthquake shakes the ground quickly, often in less than a minute. That is why people practise what to do before one happens."
+  },
+  {
+   "id": "g2-b1-023",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "How the environment affects living things",
+   "stem": "A family lives on a river char. Which of these are sensible things to do? Choose all that are right.",
+   "options": [
+    "watch how the river changes",
+    "be ready to move the house if the bank falls in",
+    "grow crops on the new soil after a flood",
+    "build the house right at the edge of the bank",
+    "ignore warnings from neighbours"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The river keeps changing the char, so families watch the river, are ready to move, and use the new soil for crops. Building at the edge of a falling bank is dangerous."
+  },
+  {
+   "id": "g2-b1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How wind and water change the land",
+   "stem": "Class 2B measured two sand hills before and after pouring on the same amount of water (example data). Bare sand hill: 20 cm before, 12 cm after. Grass hill: 20 cm before, 18 cm after. Which statement matches the data?",
+   "options": [
+    "Both hills lost 8 cm.",
+    "The grass hill lost 18 cm.",
+    "The bare hill lost 2 cm and the grass hill lost 8 cm.",
+    "The bare hill lost 8 cm; the grass hill lost 2 cm."
+   ],
+   "answer": 3,
+   "explanation": "The bare hill went from 20 cm to 12 cm, so it lost 8 cm. The grass hill went from 20 cm to 18 cm, so it lost only 2 cm. Grass held the sand together."
+  },
+  {
+   "id": "g2-b1-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "How wind and water change the land",
+   "stem": "Rafi's group poured a big jug of water on the bare sand hill but only a small cup on the grass hill. Why is this not a fair test?",
+   "options": [
+    "One hill had grass and one had none.",
+    "They poured different amounts of water.",
+    "The hills were on different trays.",
+    "They used sand to make the hills."
+   ],
+   "answer": 1,
+   "explanation": "In a fair test only one thing changes: here, grass or no grass. The amount of water must be the same for both hills."
+  },
+  {
+   "id": "g2-b1-026",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Good and bad changes",
+   "stem": "Floods can be good and bad. Give one good thing and one bad thing a flood can do.",
+   "model_answer": "Good: a flood brings rich new soil for crops. Bad: it can wash away river banks and people's homes.",
+   "keywords": [
+    [
+     "rich",
+     "soil",
+     "mud",
+     "crops",
+     "farm",
+     "fertile",
+     "grow"
+    ],
+    [
+     "bank",
+     "banks",
+     "homes",
+     "houses",
+     "wash",
+     "washes",
+     "damage",
+     "lose",
+     "destroy"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A flood can bring rich new soil for crops, which is good. It can also wash away river banks and homes, which is bad."
+  }
+ ]
+}
