@@ -1,0 +1,220 @@
+{
+  "grade": 4,
+  "grade_name": "Grade 4",
+  "topic": "C1",
+  "title": "Matter: States, Elements and Compounds",
+  "strand": "physical",
+  "worksheet": "worksheets/grade-4-science/pdf/c1-matter-states-elements-and-compounds-study-pack.pdf",
+  "questions": [
+    {
+      "id": "g4-c1-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "What matter is",
+      "stem": "Matter is anything that…",
+      "options": ["can be seen and touched", "has mass and takes up space", "is hot or cold", "is always a solid"],
+      "answer": 1,
+      "explanation": "Matter has mass and takes up space. This includes things we cannot see, such as air."
+    },
+    {
+      "id": "g4-c1-002", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "What matter is",
+      "stem": "Air is matter, even though we cannot see it.",
+      "answer": true,
+      "explanation": "Air takes up space and has mass. When you blow up a balloon, you can see the air taking up space."
+    },
+    {
+      "id": "g4-c1-003", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Particles in solids, liquids and gases",
+      "stem": "In a ___, the particles are packed tightly in rows and can only vibrate.",
+      "blanks": [["solid"]],
+      "bank": ["solid", "liquid", "gas"],
+      "explanation": "Solid particles cannot move around. They only vibrate in their places, which is why a solid keeps its shape."
+    },
+    {
+      "id": "g4-c1-004", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Particles in solids, liquids and gases",
+      "stem": "Match each state of matter to what its particles are like.",
+      "pairs": [["solid", "packed tightly in rows; they only vibrate"], ["liquid", "close together but able to slide past each other"], ["gas", "far apart and moving fast in all directions"]],
+      "explanation": "The way the particles are arranged gives each state its properties: a solid keeps its shape, a liquid flows, and a gas spreads out."
+    },
+    {
+      "id": "g4-c1-005", "mode": "core", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "Properties of the three states",
+      "stem": "Sort these into solid, liquid or gas.",
+      "categories": ["Solid", "Liquid", "Gas"],
+      "items": [["a brick", "Solid"], ["an iron nail", "Solid"], ["coconut water", "Liquid"], ["honey", "Liquid"], ["steam", "Gas"], ["oxygen", "Gas"]],
+      "explanation": "A solid keeps its shape, a liquid flows and fills the bottom of its container, and a gas spreads out to fill all the space it can."
+    },
+    {
+      "id": "g4-c1-006", "mode": "core", "type": "match", "difficulty": 1, "bloom": "understand", "subskill": "Changes of state",
+      "stem": "Match each everyday event to the change of state.",
+      "pairs": [["wet clothes drying in the sun", "evaporating"], ["candle wax dripping near the flame", "melting"], ["water turning into ice in a freezer", "freezing"], ["steam turning into drops on a pot lid", "condensing"]],
+      "explanation": "Melting: solid to liquid. Freezing: liquid to solid. Evaporating: liquid to gas. Condensing: gas to liquid."
+    },
+    {
+      "id": "g4-c1-007", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Changes of state",
+      "stem": "Put the steps in order to show what happens when an ice cube is heated for a long time.",
+      "sequence": ["A solid ice cube is heated.", "The ice melts into liquid water.", "The water gets hotter until it reaches 100 °C.", "The water boils and turns into steam, a gas."],
+      "explanation": "Heating a solid makes it melt into a liquid. Heating the liquid more makes it boil at its boiling point and become a gas."
+    },
+    {
+      "id": "g4-c1-008", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Melting and boiling points",
+      "stem": "Pure water freezes at ___ °C and boils at ___ °C.",
+      "blanks": [["0", "zero"], ["100", "one hundred"]],
+      "bank": ["0", "100", "50", "34"],
+      "explanation": "Pure water melts and freezes at 0 °C and boils at 100 °C."
+    },
+    {
+      "id": "g4-c1-009", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "Melting and boiling points",
+      "stem": "A kitchen is 36 °C. Melting points: butter 32 °C, chocolate 34 °C, candle wax 60 °C, iron 1538 °C, ice 0 °C. Which of these would melt if left in the kitchen? Choose all that are right.",
+      "options": ["butter", "chocolate", "candle wax", "an iron spoon", "ice"],
+      "answer": [0, 1, 4],
+      "explanation": "A solid melts when the temperature is above its melting point. 36 °C is above 32 °C, 34 °C and 0 °C, but below 60 °C and 1538 °C."
+    },
+    {
+      "id": "g4-c1-010", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Pure substances and mixtures",
+      "stem": "Which of these is a pure substance?",
+      "options": ["sea water", "soil", "sugar", "air"],
+      "answer": 2,
+      "explanation": "A pure substance contains only one kind of material. Sea water (water and salt), soil and air (many gases) are all mixtures."
+    },
+    {
+      "id": "g4-c1-011", "mode": "core", "type": "match", "difficulty": 2, "bloom": "understand", "subskill": "Elements and compounds",
+      "stem": "Match each substance to what it is made of.",
+      "pairs": [["oxygen", "only one kind of atom"], ["water", "hydrogen and oxygen atoms joined together"], ["salt", "sodium and chlorine atoms joined together"], ["sea water", "water and salt mixed but not joined"]],
+      "explanation": "An element has one kind of atom. A compound has two or more kinds of atom joined together. A mixture is not joined: the substances are just mixed."
+    },
+    {
+      "id": "g4-c1-012", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Elements and compounds",
+      "stem": "Sort these into element, compound or mixture.",
+      "categories": ["Element", "Compound", "Mixture"],
+      "items": [["oxygen", "Element"], ["iron", "Element"], ["copper", "Element"], ["water", "Compound"], ["carbon dioxide", "Compound"], ["salt", "Compound"], ["air", "Mixture"], ["soil", "Mixture"], ["cha with milk and sugar", "Mixture"]],
+      "explanation": "Oxygen, iron and copper have only one kind of atom. Water, carbon dioxide and salt have joined atoms of different kinds. Air, soil and cha are different substances mixed together."
+    },
+    {
+      "id": "g4-c1-013", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "evaluate", "subskill": "Elements and compounds",
+      "stem": "Nadia says: 'Salt is an element because it is pure.' Is she right?",
+      "answer": false,
+      "explanation": "Salt is pure, but it is a compound. It is made of two kinds of atom, sodium and chlorine, joined together. An element has only one kind of atom."
+    },
+    {
+      "id": "g4-c1-014", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Particles in solids, liquids and gases",
+      "stem": "Use the particle model to explain why a liquid takes the shape of its container.",
+      "model_answer": "The particles in a liquid are close together but can slide past each other, so the liquid flows to fill the bottom of the container.",
+      "keywords": [["slide", "slides", "sliding", "move around", "move past", "flow", "flows"], ["particle", "particles"], ["container", "shape", "fill", "fills"]],
+      "min_keywords": 2,
+      "explanation": "Liquid particles are not locked in rows like a solid, so they can move past one another. The liquid keeps its volume but spreads out to fit the container."
+    },
+    {
+      "id": "g4-c1-015", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Particles in solids, liquids and gases",
+      "stem": "Look at the gas box. What do the small arrows on the particles show?",
+      "image": "diagrams/states-particles.svg", "image_alt": "Three boxes of particles: solid packed in rows, liquid touching but jumbled, and gas far apart with small arrows. Arrows between the boxes are labelled melting, freezing, evaporating and condensing.",
+      "options": ["They are pulled downwards.", "They move fast in all directions.", "They sit in neat rows.", "They are getting colder."],
+      "answer": 1,
+      "explanation": "Gas particles are far apart and move fast in all directions. That is why a gas spreads out to fill any space."
+    },
+    {
+      "id": "g4-c1-016", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Changes of state",
+      "stem": "Steam touches a cold pot lid and turns into drops of water. Find this change in the picture. What is it called?",
+      "image": "diagrams/states-particles.svg", "image_alt": "Three boxes of particles: solid packed in rows, liquid touching but jumbled, and gas far apart. Arrows between the boxes are labelled melting, freezing, evaporating and condensing.",
+      "options": ["Freezing: liquid to solid", "Evaporating: liquid to gas", "Condensing: gas to liquid", "Melting: solid to liquid"],
+      "answer": 2,
+      "explanation": "Steam is a gas. When it cools on the lid it becomes liquid water, so the change is condensing, shown by the arrow from gas back to liquid."
+    },
+    {
+      "id": "g4-c1-017", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Properties of the three states",
+      "stem": "Look at the particles in the picture. Why can you squash a gas, but not a solid?",
+      "image": "diagrams/states-particles.svg", "image_alt": "Three boxes of particles: solid packed in rows, liquid touching but jumbled, and gas with only a few particles far apart.",
+      "options": ["Gas particles are far apart, so they can be pushed closer together.", "Gas particles are smaller than solid particles.", "Gas particles are packed in rows.", "Solid particles move faster than gas particles."],
+      "answer": 0,
+      "explanation": "In a gas there is a lot of empty space between the particles, so they can be pushed closer. Solid particles are already touching."
+    },
+    {
+      "id": "g4-c1-018", "mode": "picture", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "Properties of the three states",
+      "stem": "Look at the pictures. Sort them into solid or liquid.",
+      "categories": ["Solid", "Liquid"],
+      "items": [[{"text": "ice cube", "image": "openmoji/ice-cube.svg"}, "Solid"], [{"text": "rock", "image": "openmoji/rock.svg"}, "Solid"], [{"text": "wood", "image": "openmoji/wood.svg"}, "Solid"], [{"text": "milk", "image": "openmoji/milk.svg"}, "Liquid"], [{"text": "water drop", "image": "openmoji/droplet.svg"}, "Liquid"], [{"text": "honey", "image": "openmoji/honey-pot.svg"}, "Liquid"]],
+      "explanation": "Ice, rock and wood keep their shape. Milk, water and honey flow and take the shape of their container."
+    },
+    {
+      "id": "g4-c1-019", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Melting and boiling points",
+      "stem": "Butter melts at 32 °C and chocolate melts at 34 °C. Three thermometers show the temperature in three different places. In which place will both butter and chocolate melt?",
+      "image": "diagrams/thermometers-abc.svg", "image_alt": "Three thermometers A, B and C showing 5 °C, 25 °C and 40 °C.",
+      "options": ["A", "B", "C"],
+      "answer": 2,
+      "explanation": "Thermometer C shows 40 °C, which is above both 32 °C and 34 °C. A (5 °C) and B (25 °C) are below both melting points."
+    },
+    {
+      "id": "g4-c1-020", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Melting and boiling points",
+      "stem": "Priya wants to carry a bar of chocolate to school on a 36 °C day in Dhaka. Chocolate melts at 34 °C. What is the best way to keep it solid?",
+      "options": ["Put it in a black bag in the sun.", "Keep it in her warm pocket.", "Leave it on top of her bag.", "Pack it with a cold ice pack in a lunch box."],
+      "answer": 3,
+      "explanation": "The day is hotter than chocolate's melting point, so chocolate will melt unless it is kept cool. An ice pack keeps the temperature below 34 °C."
+    },
+    {
+      "id": "g4-c1-021", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "Pure substances and mixtures",
+      "stem": "A health worker in a village in Sylhet is teaching families about mixtures at home. Which of these are mixtures? Choose all that are right.",
+      "options": ["the air we breathe", "ORS drink (salt, sugar and water)", "pure sugar", "sea water", "pure oxygen gas"],
+      "answer": [0, 1, 3],
+      "explanation": "A mixture has two or more substances mixed together. Air, ORS drink and sea water are mixtures. Pure sugar and pure oxygen each contain only one substance."
+    },
+    {
+      "id": "g4-c1-022", "mode": "real-life", "type": "truefalse", "difficulty": 2, "bloom": "evaluate", "subskill": "Uses of mixtures and pure substances",
+      "stem": "Imran's mother stirs oral rehydration salt (ORS) powder into a jug of clean water for his sister, who has diarrhoea. Imran says: 'The drink is a mixture.' Is he right?",
+      "answer": true,
+      "explanation": "ORS is a carefully measured mixture of salt, sugar and water. It was developed and tested in Bangladesh and India, including at icddr,b in Dhaka, and has saved millions of children's lives."
+    },
+    {
+      "id": "g4-c1-023", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Uses of mixtures and pure substances",
+      "stem": "A goldsmith in Dhaka mixes a little copper into the gold before making a ring. Why?",
+      "options": ["It makes the ring a pure substance.", "The mixture is harder, so the ring keeps its shape.", "Copper turns the gold into a compound.", "Copper makes the gold melt at 0 °C."],
+      "answer": 1,
+      "explanation": "Gold jewellery is usually a mixture of gold with a little copper. The mixture is harder than soft pure gold. Mixing does not join the atoms, so it is not a compound."
+    },
+    {
+      "id": "g4-c1-024", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Changes of state",
+      "stem": "Fishers in Cox's Bazar pack hilsa in crushed ice, not in one big block. Why is crushed ice better?",
+      "options": ["Small pieces fit closely around every fish and touch more of its surface.", "Crushed ice is colder than a big block of ice.", "Crushed ice does not melt.", "A big block is made from a different material."],
+      "answer": 0,
+      "explanation": "Crushed ice and a big block are both at 0 °C and both melt. Small pieces touch more of each fish, so the fish cool faster and stay fresh."
+    },
+    {
+      "id": "g4-c1-025", "mode": "simulation", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Particles in solids, liquids and gases",
+      "stem": "In the simulation, what happens to the particles as you go from solid to liquid to gas?",
+      "sim": {"id": "states-of-matter-basics", "task": "Open States of Matter and stay on the States screen. Choose Water. Press Solid, then Liquid, then Gas. Watch how close together the particles are and how fast they move each time."},
+      "options": ["They stay the same distance apart but change colour.", "They get closer together and move slower each time.", "They get further apart and move faster each time.", "They disappear and then come back."],
+      "answer": 2,
+      "explanation": "Solid particles are packed in rows and only vibrate. Liquid particles are close but slide around. Gas particles are far apart and move fastest."
+    },
+    {
+      "id": "g4-c1-026", "mode": "simulation", "type": "truefalse", "difficulty": 2, "bloom": "analyse", "subskill": "Changes of state",
+      "stem": "In the simulation, when you add heat to the solid, its particles move faster and the thermometer reading goes up.",
+      "sim": {"id": "states-of-matter-basics", "task": "Open States of Matter and stay on the States screen. Choose Water and press Solid. Use the heat/cool control to add heat slowly. Watch the particles and the thermometer."},
+      "answer": true,
+      "explanation": "Heating gives the particles more energy, so they move faster and the temperature rises. If you keep heating, the solid melts into a liquid and then becomes a gas."
+    },
+    {
+      "id": "g4-c1-027", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Fair testing",
+      "stem": "Rumi plans a melting race. She puts a big block of ice in the shade, a small cube of butter in the sun and a medium piece of chocolate on a plate indoors. How can she make it a fair test of how fast different solids melt?",
+      "options": ["Use a bigger piece of butter and chocolate.", "Put the ice in the shade and the others in the sun.", "Time each one with a different clock.", "Use the same size cube of each solid, on the same type of lid, in the same sunny place."],
+      "answer": 3,
+      "explanation": "In a fair test we change only the type of solid and keep everything else the same: size, lid, place and start time. Then any difference in melting time comes from the solid."
+    },
+    {
+      "id": "g4-c1-028", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Melting and boiling points",
+      "stem": "Example results: crushed ice is warmed gently with a thermometer in it. Readings: 0 min −4 °C, 2 min 0 °C, 4 min 0 °C, 6 min 0 °C, 8 min 3 °C. Ice was still floating at 6 min. Why did the reading stay at 0 °C from 2 to 6 minutes?",
+      "options": ["The heater stopped working.", "The ice was melting, so the temperature stayed at 0 °C until all the ice had melted.", "The thermometer was broken.", "The water was boiling."],
+      "answer": 1,
+      "explanation": "While ice is melting, its temperature stays at 0 °C until all the ice has melted. After that, at 8 min, the liquid water warms up."
+    },
+    {
+      "id": "g4-c1-029", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Changes of state",
+      "stem": "On a hot day, drops of water appear on the outside of a cold bottle taken from the fridge. The bottle is not leaking. Explain where the drops come from.",
+      "model_answer": "Water vapour (a gas) in the warm air touches the cold bottle, cools down and condenses into liquid water drops.",
+      "keywords": [["vapour", "vapor", "gas", "air"], ["cold", "cool", "cools", "cooled", "cooler"], ["condense", "condenses", "condensed", "condensing", "condensation", "liquid"]],
+      "min_keywords": 2,
+      "explanation": "Air always contains some water vapour. When it touches the cold bottle it cools and changes state from gas to liquid, which is condensing."
+    },
+    {
+      "id": "g4-c1-030", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "apply", "subskill": "Using ice to keep food fresh",
+      "stem": "Example numbers: a fishing boat needs 2 kg of ice for every 1 kg of fish. It has 600 kg of ice on board and catches 350 kg of fish. How much more ice does it need?",
+      "options": ["700 kg", "175 kg", "100 kg", "250 kg"],
+      "answer": 2,
+      "explanation": "350 kg of fish needs 350 × 2 = 700 kg of ice. The boat has 600 kg, so it needs 700 − 600 = 100 kg more. Keeping fish cold stops germs growing fast."
+    }
+  ]
+}

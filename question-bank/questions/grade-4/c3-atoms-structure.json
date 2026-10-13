@@ -1,0 +1,216 @@
+{
+  "grade": 4,
+  "grade_name": "Grade 4",
+  "topic": "C3",
+  "title": "Atoms and Their Structure",
+  "strand": "physical",
+  "worksheet": "worksheets/grade-4-science/pdf/c3-atoms-and-their-structure-study-pack.pdf",
+  "questions": [
+    {
+      "id": "g4-c3-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Everything is made of atoms",
+      "stem": "Air, water, a mango and a mobile phone are all made of tiny particles called…",
+      "options": ["germs", "sand grains", "atoms", "sparks"],
+      "answer": 2,
+      "explanation": "All matter is made of atoms. They are incredibly small: the full stop at the end of a sentence contains millions and millions of them."
+    },
+    {
+      "id": "g4-c3-002", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Mass and charge of particles",
+      "stem": "An electron is heavier than a proton.",
+      "answer": false,
+      "explanation": "An electron is very light, about 2000 times lighter than a proton. Protons and neutrons are the heavy particles."
+    },
+    {
+      "id": "g4-c3-003", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Parts of an atom",
+      "stem": "The tiny centre of an atom is called the ___. Very light ___ move around it.",
+      "blanks": [["nucleus"], ["electrons", "electron"]],
+      "bank": ["nucleus", "electrons", "protons", "atoms"],
+      "explanation": "The nucleus holds the protons and neutrons. The electrons move very fast in the space around it."
+    },
+    {
+      "id": "g4-c3-004", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Mass and charge of particles",
+      "stem": "Match each particle to its electric charge.",
+      "pairs": [["proton", "positive (+)"], ["neutron", "no charge (neutral)"], ["electron", "negative (−)"]],
+      "explanation": "Protons are positive, electrons are negative, and neutrons have no charge."
+    },
+    {
+      "id": "g4-c3-005", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "understand", "subskill": "Mass and charge of particles",
+      "stem": "Sort these facts by the particle they describe.",
+      "categories": ["Proton", "Neutron", "Electron"],
+      "items": [["has a positive charge", "Proton"], ["its number decides the element", "Proton"], ["has no charge", "Neutron"], ["is neutral", "Neutron"], ["has a negative charge", "Electron"], ["moves around the nucleus", "Electron"], ["is about 2000 times lighter than a proton", "Electron"]],
+      "explanation": "Each particle has its own charge and place in the atom. The number of protons decides which element an atom is, and the electron is by far the lightest particle."
+    },
+    {
+      "id": "g4-c3-006", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Mass and charge of particles",
+      "stem": "Neutrons have no electric charge.",
+      "answer": true,
+      "explanation": "Neutrons are neutral. They sit in the nucleus with the protons and add to the mass of the atom."
+    },
+    {
+      "id": "g4-c3-007", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Elements and protons",
+      "stem": "What decides which element an atom is?",
+      "options": ["its number of neutrons", "its size", "its colour", "its number of protons"],
+      "answer": 3,
+      "explanation": "Every hydrogen atom has 1 proton, every carbon atom 6 and every oxygen atom 8. The number of protons decides the element."
+    },
+    {
+      "id": "g4-c3-008", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Parts of an atom",
+      "stem": "Which two kinds of particle are found in the nucleus?",
+      "options": ["protons and electrons", "neutrons and electrons", "protons and neutrons", "only electrons"],
+      "answer": 2,
+      "explanation": "The nucleus holds protons and neutrons. Electrons are outside it, moving around."
+    },
+    {
+      "id": "g4-c3-009", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "remember", "subskill": "Mass and charge of particles",
+      "stem": "An electron is lighter than a proton. How much lighter?",
+      "options": ["about 2 times lighter", "about 20 times lighter", "about 2000 times lighter", "exactly the same mass"],
+      "answer": 2,
+      "explanation": "An electron is about 2000 times lighter than a proton, which is why we leave electrons out when we add up the mass of an atom."
+    },
+    {
+      "id": "g4-c3-010", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "How we found out",
+      "stem": "Put these discoveries about the atom in the order they happened.",
+      "sequence": ["Democritus names the atom (about 400 BCE).", "Dalton says each element is made of its own atoms (1803).", "Thomson discovers the electron (1897).", "Rutherford discovers the nucleus (1911).", "Chadwick discovers the neutron (1932)."],
+      "explanation": "Each scientist used new evidence to improve the model of the atom. Our ideas about atoms changed many times over hundreds of years."
+    },
+    {
+      "id": "g4-c3-011", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Everything is made of atoms",
+      "stem": "Which of these statements about atoms are right? Choose all that are right.",
+      "options": ["Atoms are mostly empty space.", "An atom has the same number of protons and electrons.", "Electrons are found in the nucleus.", "There are about 118 kinds of atom.", "Neutrons have a positive charge."],
+      "answer": [0, 1, 3],
+      "explanation": "An atom is mostly empty space, protons and electrons are equal in number, and there are about 118 kinds of atom, one for each element. Electrons are outside the nucleus and neutrons have no charge."
+    },
+    {
+      "id": "g4-c3-012", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Mass and charge of particles",
+      "stem": "Most of the mass of an atom is in its nucleus. Explain why.",
+      "model_answer": "The nucleus holds the protons and neutrons, which are heavy, while the electrons outside it are very light.",
+      "keywords": [["proton", "protons"], ["neutron", "neutrons"], ["electron", "electrons", "light", "lighter"], ["heavy", "heavier", "mass"]],
+      "min_keywords": 2,
+      "explanation": "Protons and neutrons each count as 1 unit of mass, but an electron is about 2000 times lighter, so nearly all the mass is in the nucleus."
+    },
+    {
+      "id": "g4-c3-013", "mode": "core", "type": "match", "difficulty": 2, "bloom": "remember", "subskill": "Elements and protons",
+      "stem": "Match each element to the number of protons in each of its atoms.",
+      "pairs": [["hydrogen", "1 proton"], ["carbon", "6 protons"], ["oxygen", "8 protons"], ["gold", "79 protons"]],
+      "explanation": "The number of protons is different for every element. Hydrogen is the lightest, with just 1 proton."
+    },
+    {
+      "id": "g4-c3-014", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Atoms join together",
+      "stem": "A molecule of water is made when two hydrogen atoms join with one oxygen atom.",
+      "answer": true,
+      "explanation": "Atoms can join together to make molecules. Water is H2O: two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "id": "g4-c3-015", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Atoms join together",
+      "stem": "What is a molecule?",
+      "options": ["a very large atom", "a particle with a negative charge", "two or more atoms joined together", "the centre of an atom"],
+      "answer": 2,
+      "explanation": "A molecule is two or more atoms joined together, such as the two hydrogen atoms and one oxygen atom in water."
+    },
+    {
+      "id": "g4-c3-016", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Everything is made of atoms",
+      "stem": "Which picture is often used as the symbol for an atom?",
+      "options": [{"text": "DNA", "image": "openmoji/dna.svg"}, {"text": "atom", "image": "openmoji/atom.svg"}, {"text": "microscope", "image": "openmoji/microscope.svg"}, {"text": "magnet", "image": "openmoji/magnet.svg"}],
+      "answer": 1,
+      "explanation": "The atom symbol shows a small centre with paths of electrons around it. It is a model, not an exact drawing of a real atom."
+    },
+    {
+      "id": "g4-c3-017", "mode": "picture", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "Everything is made of atoms",
+      "stem": "Look at the pictures. Which can you see with just your eyes, and which are too small to see? Sort them.",
+      "categories": ["Too small to see with your eyes", "Big enough to see"],
+      "items": [[{"text": "atom", "image": "openmoji/atom.svg"}, "Too small to see with your eyes"], [{"text": "microbe (germ)", "image": "openmoji/microbe.svg"}, "Too small to see with your eyes"], [{"text": "ant", "image": "openmoji/ant.svg"}, "Big enough to see"], [{"text": "mango", "image": "openmoji/mango.svg"}, "Big enough to see"], [{"text": "elephant", "image": "openmoji/elephant.svg"}, "Big enough to see"]],
+      "explanation": "Atoms are far too small to see, even smaller than microbes, which need a microscope. Yet everything we can see, such as an ant, a mango or an elephant, is made of atoms."
+    },
+    {
+      "id": "g4-c3-018", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Everything is made of atoms",
+      "stem": "Each dot in this picture stands for a tiny particle of matter. What does the picture tell us about solids, liquids and gases?",
+      "image": "diagrams/states-particles.svg", "image_alt": "Three boxes of particles: solid packed in rows, liquid touching but jumbled, and gas far apart. Arrows between the boxes are labelled melting, freezing, evaporating and condensing.",
+      "options": ["Only gases are made of particles.", "Solids are not made of particles.", "They are all made of tiny particles, arranged in different ways.", "Liquids are made of one big particle."],
+      "answer": 2,
+      "explanation": "All matter is made of tiny particles such as atoms and molecules. What changes between a solid, a liquid and a gas is how the particles are arranged and how they move."
+    },
+    {
+      "id": "g4-c3-019", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Elements and protons",
+      "stem": "Iron is an element. Which of these is made mostly of iron?",
+      "options": [{"text": "candle", "image": "openmoji/candle.svg"}, {"text": "nut and bolt", "image": "openmoji/nut-and-bolt.svg"}, {"text": "wood", "image": "openmoji/wood.svg"}, {"text": "ice cube", "image": "openmoji/ice-cube.svg"}],
+      "answer": 1,
+      "explanation": "Iron is a hard metal used for things like nuts and bolts, pots and stoves. Wax, wood and ice are made of other substances."
+    },
+    {
+      "id": "g4-c3-020", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Models",
+      "stem": "A model is a way of showing something that is too big, too small or too far away to see directly. Which picture shows a model?",
+      "options": [{"text": "hammer", "image": "openmoji/hammer.svg"}, {"text": "mango", "image": "openmoji/mango.svg"}, {"text": "globe (a model of the Earth)", "image": "openmoji/globe-asia.svg"}, {"text": "apple", "image": "openmoji/apple.svg"}],
+      "answer": 2,
+      "explanation": "A globe is a small model of the whole Earth. Scientists also use drawings, balls and sticks, and computer pictures as models of atoms."
+    },
+    {
+      "id": "g4-c3-021", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Elements and protons",
+      "stem": "Priya makes a clay model of a carbon atom. A carbon atom has 6 protons, 6 neutrons and the right number of electrons. Which pieces does she need?",
+      "options": ["6 protons, 6 neutrons and 12 electrons", "12 protons, 6 neutrons and 6 electrons", "6 protons, 0 neutrons and 6 electrons", "6 protons, 6 neutrons and 6 electrons"],
+      "answer": 3,
+      "explanation": "An atom has the same number of electrons as protons, so the charges balance. Carbon has 6 protons, 6 neutrons and 6 electrons."
+    },
+    {
+      "id": "g4-c3-022", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "evaluate", "subskill": "Models",
+      "stem": "Imran builds an atom model with a clay ball and beads on neat circles around it. He says, 'This is exactly what a real atom looks like.' What is the best reply?",
+      "options": ["Yes, scientists have photographed atoms like this.", "It is a useful model, but real electrons do not move in neat circles and the nucleus is far smaller.", "No, atoms are solid balls.", "No, models are never useful."],
+      "answer": 1,
+      "explanation": "Models help us think about things we cannot see, but they are not exactly like the real thing. In a real atom the nucleus is tiny and electrons do not move in neat circles."
+    },
+    {
+      "id": "g4-c3-023", "mode": "real-life", "type": "fill", "difficulty": 2, "bloom": "apply", "subskill": "Mass and charge of particles",
+      "stem": "A goldsmith in Dhaka tells Mina that every gold atom has 79 protons. So a gold atom has ___ electrons.",
+      "blanks": [["79", "seventy-nine", "seventy nine"]],
+      "bank": ["79", "118", "1", "6"],
+      "explanation": "An atom has the same number of electrons as protons, so the positive and negative charges balance and the atom has no overall charge."
+    },
+    {
+      "id": "g4-c3-024", "mode": "real-life", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Models",
+      "stem": "Mr Rahman shows a marble in the middle of a football field to model an atom's nucleus. This model shows that most of an atom is empty space.",
+      "answer": true,
+      "explanation": "If the nucleus were a marble in the middle of a football field, the electrons would be like tiny specks of dust flying around the edges of the stadium, with empty space between."
+    },
+    {
+      "id": "g4-c3-025", "mode": "real-life", "type": "multi", "difficulty": 3, "bloom": "evaluate", "subskill": "How we found out",
+      "stem": "Nobody has ever seen inside an atom with their eyes. How do scientists know what atoms are like? Choose all that are right.",
+      "options": ["They do experiments and collect evidence.", "They change their models when new evidence appears.", "They look at atoms through a hand lens.", "They use models such as drawings and computer pictures.", "They guess without doing any tests."],
+      "answer": [0, 1, 3],
+      "explanation": "Scientists combine experiments with creative thinking. When new evidence did not fit the old model, such as the electron, nucleus and neutron discoveries, they changed the model."
+    },
+    {
+      "id": "g4-c3-026", "mode": "olympiad", "type": "fill", "difficulty": 3, "bloom": "apply", "subskill": "Mass and charge of particles",
+      "stem": "Example: an atom X has 5 protons and 6 neutrons. Remember: mass = protons + neutrons. Its mass is ___ units and it has ___ electrons.",
+      "blanks": [["11", "eleven"], ["5", "five"]],
+      "bank": ["11", "5", "6", "16"],
+      "explanation": "Mass = 5 + 6 = 11 units (electrons are too light to count). The atom has no overall charge, so it has 5 electrons to balance the 5 protons."
+    },
+    {
+      "id": "g4-c3-027", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Elements and protons",
+      "stem": "Example data: atom A has 6 protons and 6 neutrons. Atom B has 6 protons and 8 neutrons. Atom C has 8 protons and 8 neutrons. Which two atoms are the same element?",
+      "options": ["A and C", "B and C", "A and B", "All three are the same element"],
+      "answer": 2,
+      "explanation": "The number of protons decides the element. A and B both have 6 protons, so both are carbon, even though they have different numbers of neutrons. C has 8 protons, so it is oxygen."
+    },
+    {
+      "id": "g4-c3-028", "mode": "olympiad", "type": "multi", "difficulty": 3, "bloom": "evaluate", "subskill": "Mass and charge of particles",
+      "stem": "Example: a class made models of atoms with no overall charge. Helium: 2 protons, 2 neutrons, 2 electrons. Carbon: 6, 6, 6. Oxygen: 8 protons, 8 neutrons, 6 electrons. Lithium: 3, 4, 3. Nitrogen: 7 protons, 7 neutrons, 8 electrons. Which models have a mistake? Choose all that are right.",
+      "options": ["helium", "carbon", "oxygen", "lithium", "nitrogen"],
+      "answer": [2, 4],
+      "explanation": "An atom with no overall charge has the same number of electrons as protons. Oxygen has 8 protons but only 6 electrons, and nitrogen has 7 protons but 8 electrons, so both models are wrong."
+    },
+    {
+      "id": "g4-c3-029", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "How we found out",
+      "stem": "In 1911 Rutherford fired tiny particles at a thin sheet of gold. Most went straight through, but a few bounced back. What did this show?",
+      "options": ["Atoms are solid balls with no gaps.", "Gold is not made of atoms.", "Electrons are heavier than protons.", "Atoms are mostly empty space with a tiny, heavy centre."],
+      "answer": 3,
+      "explanation": "Most particles passed through the empty space, but a few hit the tiny, heavy nucleus and bounced back. If atoms were solid balls, more particles would have bounced back."
+    },
+    {
+      "id": "g4-c3-030", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Mass and charge of particles",
+      "stem": "An atom contains charged particles, but the atom as a whole has no charge. Explain why.",
+      "model_answer": "It has the same number of positive protons and negative electrons, so the charges cancel out.",
+      "keywords": [["same number", "equal", "equally", "balance", "balanced", "cancel", "cancels", "cancelled"], ["proton", "protons", "positive", "+"], ["electron", "electrons", "negative"]],
+      "min_keywords": 2,
+      "explanation": "Each positive proton is balanced by one negative electron. The neutrons have no charge, so the atom has no overall charge."
+    }
+  ]
+}

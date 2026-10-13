@@ -1,0 +1,221 @@
+{
+  "grade": 5,
+  "grade_name": "Grade 5",
+  "topic": "B3",
+  "title": "Earth's Changing Surface",
+  "strand": "earth",
+  "worksheet": "worksheets/grade-5-science/pdf/b3-earth-s-changing-surface-study-pack.pdf",
+  "questions": [
+    {
+      "id": "g5-b3-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Weathering, erosion and deposition",
+      "stem": "Rain, ice, heat and plant roots slowly break rocks into smaller pieces. What is this called?",
+      "options": ["erosion", "deposition", "weathering", "evaporation"],
+      "answer": 2,
+      "explanation": "Breaking rock into smaller pieces is weathering. Erosion is when the broken pieces are carried away, and deposition is when they are dropped."
+    },
+    {
+      "id": "g5-b3-002", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Weathering, erosion and deposition",
+      "stem": "Match each key word to its meaning.",
+      "pairs": [["weathering", "rocks breaking into smaller pieces"], ["erosion", "rock and soil carried away by water, wind or ice"], ["deposition", "sand and silt dropped in a new place"], ["delta", "flat land built up where a river meets the sea"], ["storm surge", "sea water pushed onto land by a cyclone"]],
+      "explanation": "Weathering breaks rock, erosion carries it, and deposition drops it. A delta is built by deposition, and a storm surge is a wall of sea water driven by a cyclone."
+    },
+    {
+      "id": "g5-b3-003", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Weathering, erosion and deposition",
+      "stem": "Weathering and erosion mean the same thing.",
+      "answer": false,
+      "explanation": "Weathering breaks rock into pieces where it is. Erosion moves the pieces away. They usually happen one after the other, but they are different processes."
+    },
+    {
+      "id": "g5-b3-004", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Weathering, erosion and deposition",
+      "stem": "When water freezes in a crack in a rock, it ___ and splits the rock. This breaking-up is called ___.",
+      "blanks": [["expands", "gets bigger", "swells"], ["weathering"]],
+      "bank": ["expands", "weathering", "erosion", "shrinks"],
+      "explanation": "Water takes up more space as ice, so it pushes the crack wider. Over many winters the rock splits. This is weathering."
+    },
+    {
+      "id": "g5-b3-005", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Weathering, erosion and deposition",
+      "stem": "Which of these cause weathering of rock? Choose all that are right.",
+      "options": ["rain wearing the rock", "water freezing and expanding in a crack", "roots growing into a crack", "a river dropping sand and silt", "heat and cold making rock crack"],
+      "answer": [0, 1, 2, 4],
+      "explanation": "Rain, ice, plant roots, and heat and cold all break rock into pieces. A river dropping sand and silt is deposition, which builds land rather than breaking rock."
+    },
+    {
+      "id": "g5-b3-006", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Landforms and deltas",
+      "stem": "Put the steps in order to show how a delta forms.",
+      "sequence": ["Rain, ice and roots break rock into pieces on the hills.", "Rivers carry the pieces downstream.", "The river slows down where it meets the sea.", "The river drops its sand and silt.", "Over thousands of years the deposits build up into a delta."],
+      "explanation": "Weathering, erosion and then deposition build a delta. Bangladesh sits on the largest delta in the world, built by the Ganges, Brahmaputra and Meghna."
+    },
+    {
+      "id": "g5-b3-007", "mode": "core", "type": "sort", "difficulty": 1, "bloom": "understand", "subskill": "Sudden changes",
+      "stem": "Sort the changes into slow changes and sudden changes.",
+      "categories": ["Slow changes", "Sudden changes"],
+      "items": [["a delta growing", "Slow changes"], ["rock weathering in a cliff", "Slow changes"], ["a river valley getting deeper", "Slow changes"], ["an earthquake", "Sudden changes"], ["a landslide", "Sudden changes"], ["a cyclone storm surge", "Sudden changes"]],
+      "explanation": "Weathering, delta building and valley carving take hundreds or thousands of years. Earthquakes, landslides and storm surges can change the land in minutes."
+    },
+    {
+      "id": "g5-b3-008", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Weathering, erosion and deposition",
+      "stem": "Rivers are the strongest force of erosion in Bangladesh.",
+      "answer": true,
+      "explanation": "A fast river in flood can carry huge amounts of sand and silt and wash away its banks. Every year riverbank erosion destroys homes and farmland along the Jamuna and Padma."
+    },
+    {
+      "id": "g5-b3-009", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Sudden changes",
+      "stem": "Why are landslides more likely on hills where the trees have been cut down?",
+      "model_answer": "Tree roots hold the soil in place and leaves slow the rain. Without trees, heavy rain soaks and loosens the soil so it slides down.",
+      "keywords": [["root", "roots", "hold", "holds", "grip", "bind"], ["soil", "ground", "hillside", "earth"], ["rain", "water", "soak", "soaks", "loosen", "loosens", "slide", "slides"]],
+      "min_keywords": 2,
+      "explanation": "Roots bind the soil together and leaves slow the falling rain. Without them, the soil becomes loose and heavy with water, and it can slide down the slope."
+    },
+    {
+      "id": "g5-b3-010", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "Landforms and deltas",
+      "stem": "Explain how a river can both destroy land and make new land.",
+      "model_answer": "Fast water erodes the banks and carries soil away. Where the river slows down, it deposits the sand and silt and builds new land such as chars and the delta.",
+      "keywords": [["erode", "erodes", "erosion", "wash away", "washes away", "eats away", "destroy", "destroys"], ["deposit", "deposits", "deposition", "drops", "builds", "new land", "char", "chars", "delta"], ["fast", "faster", "slow", "slows", "slower"]],
+      "min_keywords": 2,
+      "explanation": "The same river does both jobs. It erodes where the water is fast, and it deposits sand and silt where the water slows down."
+    },
+    {
+      "id": "g5-b3-011", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Patterns in nature",
+      "stem": "Scientists look for patterns. Which statement describes a pattern?",
+      "options": ["A tree fell down in our garden yesterday.", "Rivers in Bangladesh flood most during the monsoon, from June to September.", "It rained in Dhaka last Tuesday.", "Rafi found a smooth stone by the river."],
+      "answer": 1,
+      "explanation": "A pattern is something that happens again and again. Floods come in the monsoon every year, so people can prepare. The other statements describe single events."
+    },
+    {
+      "id": "g5-b3-012", "mode": "core", "type": "fill", "difficulty": 2, "bloom": "apply", "subskill": "Sudden changes",
+      "stem": "Tectonic plates move a few centimetres a year. If one plate moves 3 cm each year (example), it moves ___ cm in 100 years, which is ___ metres.",
+      "blanks": [["300"], ["3", "three"]],
+      "bank": ["300", "3", "30", "0.3"],
+      "explanation": "3 cm × 100 = 300 cm. There are 100 cm in 1 metre, so 300 cm is 3 metres. The plates move slowly, but sometimes they slip suddenly and cause an earthquake."
+    },
+    {
+      "id": "g5-b3-013", "mode": "picture", "type": "fill", "difficulty": 1, "bloom": "understand", "subskill": "Weathering, erosion and deposition",
+      "stem": "Look at the river diagram. Number 1 is ___, number 2 is ___ and number 3 is ___.",
+      "image": "diagrams/river-landscape-numbered.svg", "image_alt": "A river from the hills to the sea with processes numbered 1 to 4: rock breaking up on the hill, the river carrying rock and soil, a delta forming, and the sea.",
+      "blanks": [["weathering"], ["erosion"], ["deposition"]],
+      "bank": ["weathering", "erosion", "deposition", "evaporation"],
+      "explanation": "On the hill the rock breaks up (weathering). The river carries the pieces away (erosion). Where the river slows near the sea it drops them (deposition) and a delta forms."
+    },
+    {
+      "id": "g5-b3-014", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Weathering, erosion and deposition",
+      "stem": "Which number shows erosion, where the river carries rock and soil away?",
+      "image": "diagrams/river-landscape-numbered.svg", "image_alt": "A river from the hills to the sea with processes numbered 1 to 4: rock breaking up on the hill, the river carrying rock and soil, a delta forming, and the sea.",
+      "options": ["1", "2", "3", "4"],
+      "answer": 1,
+      "explanation": "Number 2 is erosion: the moving water carries the broken rock and soil downstream. Number 1 is weathering and number 3 is deposition."
+    },
+    {
+      "id": "g5-b3-015", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Sudden changes",
+      "stem": "Look at the cyclone from above. Which number shows the eye, where the sky is calm and clear?",
+      "image": "diagrams/cyclone-numbered.svg", "image_alt": "A tropical cyclone seen from above: number 1 is the calm centre, 2 the ring of strongest winds and rain, 3 the spiral rain bands, 4 the winds spinning around the centre.",
+      "options": ["1", "2", "3", "4"],
+      "answer": 0,
+      "explanation": "The eye (1) is the calm centre. The strongest winds and rain are in the eye wall (2) around it, so people must stay in a shelter even when the eye passes over."
+    },
+    {
+      "id": "g5-b3-016", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Sudden changes",
+      "stem": "Which picture shows a sudden change caused by tectonic plates slipping?",
+      "options": [{"text": "cyclone", "image": "openmoji/cyclone.svg"}, {"text": "flood", "image": "openmoji/flood.svg"}, {"text": "tornado", "image": "openmoji/tornado.svg"}, {"text": "earthquake", "image": "openmoji/earthquake.svg"}],
+      "answer": 3,
+      "explanation": "When tectonic plates suddenly slip, the ground shakes in an earthquake. Cyclones, floods and tornadoes are caused by weather, not by moving plates."
+    },
+    {
+      "id": "g5-b3-017", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "understand", "subskill": "Sudden changes",
+      "stem": "Match each picture to what it can do to the Earth's surface.",
+      "pairs": [[{"text": "cyclone", "image": "openmoji/cyclone.svg"}, "pushes a storm surge of sea water onto the coast"], [{"text": "earthquake", "image": "openmoji/earthquake.svg"}, "shakes the ground when plates slip"], [{"text": "flood", "image": "openmoji/flood.svg"}, "drops fertile silt but can destroy homes"], [{"text": "snow-capped mountain", "image": "openmoji/snow-capped-mountain.svg"}, "ice in the cracks slowly splits the rocks"]],
+      "explanation": "Cyclones, earthquakes and floods change the land suddenly. Freezing water in cracks changes mountains slowly, by weathering."
+    },
+    {
+      "id": "g5-b3-018", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Landforms and deltas",
+      "stem": "Which letter shows a valley, the low land between hills that a river can carve out?",
+      "image": "diagrams/landforms-lettered.svg", "image_alt": "Six landforms lettered A to F: a mountain, a hill, a valley, a cave, a plain and an island.",
+      "options": ["A", "B", "C", "D"],
+      "answer": 2,
+      "explanation": "C is a valley. Over thousands of years a river erodes the land and makes its valley deeper."
+    },
+    {
+      "id": "g5-b3-019", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Floods and cyclones",
+      "stem": "When the monsoon flood goes down, Mina's grandfather says, 'The flood brings gold.' What does he mean?",
+      "options": ["Floods wash gold dust down from the hills.", "Floods only wash away weeds.", "Floods drop fertile silt that helps crops grow.", "Floods make the farmland larger."],
+      "answer": 2,
+      "explanation": "The silt left by a flood is full of nutrients, so crops grow well afterwards. Floods can also destroy homes and crops, so they bring both good and harm."
+    },
+    {
+      "id": "g5-b3-020", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Floods and cyclones",
+      "stem": "The radio warns that a cyclone with a storm surge will hit the coast tonight. Moung's family lives in a house near the shore. What should they do?",
+      "options": ["Stay at home on the ground floor.", "Go to the beach to watch the big waves.", "Walk to the cyclone shelter now, before the storm arrives.", "Wait until the water reaches the door."],
+      "answer": 2,
+      "explanation": "A storm surge can flood the coast fast and drown people. Leaving early for a raised cyclone shelter is the safest choice. Waiting or going to the beach is very dangerous."
+    },
+    {
+      "id": "g5-b3-021", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "Sudden changes",
+      "stem": "The ground starts to shake while your class is inside school. Which actions are safe? Choose all that are right.",
+      "options": ["Drop down and take cover under a strong desk.", "Hold on to the desk until the shaking stops.", "Run to the lift to get out quickly.", "Stand next to a big window to see outside.", "Stay away from heavy shelves that could fall."],
+      "answer": [0, 1, 4],
+      "explanation": "Drop, cover and hold on protects you from falling objects. Lifts can get stuck, and windows and heavy shelves can break or fall."
+    },
+    {
+      "id": "g5-b3-022", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "evaluate", "subskill": "Floods and cyclones",
+      "stem": "The riverbank near Rafi's village is eaten away a little more every monsoon. Which action is most likely to slow the erosion?",
+      "options": ["Dig sand out of the bank.", "Plant grass and trees along the bank.", "Cut down the bank's trees for firewood.", "Build new houses at the very edge."],
+      "answer": 1,
+      "explanation": "Roots hold the soil together and leaves slow the water. Taking away sand or trees, or adding weight at the edge, makes the bank weaker."
+    },
+    {
+      "id": "g5-b3-023", "mode": "real-life", "type": "sort", "difficulty": 2, "bloom": "evaluate", "subskill": "Floods and cyclones",
+      "stem": "A flood has passed through a village in Sylhet. Sort its effects into helpful and harmful.",
+      "categories": ["Helpful", "Harmful"],
+      "items": [["new silt for the fields", "Helpful"], ["ponds filled with fish", "Helpful"], ["homes washed away", "Harmful"], ["crops destroyed", "Harmful"], ["dirty water spreads disease", "Harmful"]],
+      "explanation": "Floods bring fertile silt and fish, but they also destroy homes and crops and can spread disease through dirty water."
+    },
+    {
+      "id": "g5-b3-024", "mode": "real-life", "type": "truefalse", "difficulty": 2, "bloom": "evaluate", "subskill": "Floods and cyclones",
+      "stem": "Imran says that floods have only harmful effects on Bangladesh. Is Imran right?",
+      "answer": false,
+      "explanation": "Floods destroy homes and crops, but they also drop fertile silt on the fields, fill ponds with fish and refill groundwater. Their effects are both helpful and harmful."
+    },
+    {
+      "id": "g5-b3-025", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Patterns in nature",
+      "stem": "An example table shows the cyclones that formed in the Bay of Bengal over 20 years: Jan–Mar 1, Apr–May 12, Jun–Sep 4, Oct–Dec 19. Which two periods together had the most cyclones, and how many was that?",
+      "options": ["Jan–Mar and Jun–Sep, 5 cyclones", "Apr–May and Oct–Dec, 31 cyclones", "Apr–May and Jun–Sep, 16 cyclones", "Jun–Sep and Oct–Dec, 23 cyclones"],
+      "answer": 1,
+      "explanation": "12 + 19 = 31 cyclones out of 36 in total. The pattern shows that coastal people should be most prepared in April–May and in October–December."
+    },
+    {
+      "id": "g5-b3-026", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Investigating erosion",
+      "stem": "Class 5D poured 500 ml of water onto a bare soil tray and onto a grass tray, three times each. The bare tray lost 62 g, 58 g and 60 g of soil. The grass tray lost 9 g, 12 g and 9 g. On average, how many times more soil washed away from the bare tray?",
+      "options": ["50 times", "3 times", "10 times", "6 times"],
+      "answer": 3,
+      "explanation": "The averages are (62 + 58 + 60) ÷ 3 = 60 g and (9 + 12 + 9) ÷ 3 = 10 g. 60 ÷ 10 = 6 times. The difference, 50 g, is not the same as 'how many times'."
+    },
+    {
+      "id": "g5-b3-027", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Investigating erosion",
+      "stem": "Arif wants to test whether grass stops erosion. He tilts the bare soil tray at a steeper angle than the grass tray and pours 500 ml of water on each. Which change would make his test fair?",
+      "options": ["Use more water on the grass tray.", "Use sand in one tray and clay in the other.", "Tilt both trays at the same angle.", "Pour water from a different height on each tray."],
+      "answer": 2,
+      "explanation": "In a fair test only one thing changes: here, whether there is grass. The slope, amount of water, height, soil and tray size must stay the same."
+    },
+    {
+      "id": "g5-b3-028", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Landforms and deltas",
+      "stem": "In the same year, one part of a river in Bangladesh gains a new char while another part loses land. Explain how this can happen.",
+      "model_answer": "Where the water is fast, for example on the outside of a bend, the river erodes the bank. Where the water slows, for example on the inside of a bend or near the sea, it deposits silt and builds new land.",
+      "keywords": [["erode", "erodes", "erosion", "eaten", "washed away", "washes away", "lose", "loses"], ["deposit", "deposits", "deposition", "drops", "silt", "builds", "builds up"], ["fast", "faster", "slow", "slows", "slower", "bend", "bends"]],
+      "min_keywords": 2,
+      "explanation": "A river erodes where it flows fast and deposits where it flows slowly. So one river can take land in one place and make new land in another at the same time."
+    },
+    {
+      "id": "g5-b3-029", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Floods and cyclones",
+      "stem": "About 300 000 to 500 000 people died in the Bhola cyclone (1970), about 3400 in Cyclone Sidr (2007), and fewer than 30 in Bangladesh in Cyclone Amphan (2020), when over 2 million people moved to shelters. (Estimates from the Cyclone Preparedness Programme and UN reports.) Which is the best explanation for the fall?",
+      "options": ["Cyclones have become much weaker.", "Warnings, volunteers and cyclone shelters help people reach safety.", "Fewer people live near the coast.", "Storm surges no longer happen."],
+      "answer": 1,
+      "explanation": "Since 1972 trained volunteers, radio warnings, satellite tracking and thousands of raised shelters have helped people move to safety. The other explanations are not supported by the facts."
+    },
+    {
+      "id": "g5-b3-030", "mode": "olympiad", "type": "multi", "difficulty": 3, "bloom": "analyse", "subskill": "Investigating erosion",
+      "stem": "In Class 5D's tray test, the bare tray lost 62, 58 and 60 g of soil and the grass tray lost 9, 12 and 9 g. Which conclusions are supported by the results? Choose all that are right.",
+      "options": ["Grass reduced the amount of soil washed away.", "Every test on the grass tray lost less soil than every test on the bare tray.", "Grass stopped erosion completely.", "The three repeats for each tray gave similar results.", "Roots are the only reason the soil stayed in place."],
+      "answer": [0, 1, 3],
+      "explanation": "The grass tray always lost far less soil (12 g or less against 58 g or more), and the repeats agreed. But some soil still washed away, and the test did not separate roots from leaves."
+    }
+  ]
+}

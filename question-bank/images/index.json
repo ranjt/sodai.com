@@ -173,7 +173,7 @@
   "states-particles": {
    "src": "diagrams/states-particles.svg",
    "alt": "Particles in a solid (packed in rows), a liquid (touching but jumbled) and a gas (far apart).",
-   "key": "solid, liquid, gas"
+   "key": "left to right: solid, liquid, gas; arrows between them labelled melting, freezing (solid–liquid) and evaporating, condensing (liquid–gas)"
   },
   "filtering-numbered": {
    "src": "diagrams/filtering-numbered.svg",

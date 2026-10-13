@@ -1,0 +1,224 @@
+{
+  "grade": 5,
+  "grade_name": "Grade 5",
+  "topic": "B4",
+  "title": "Earth, Sun and Moon: Days, Years and Seasons",
+  "strand": "earth",
+  "worksheet": "worksheets/grade-5-science/pdf/b4-earth-sun-and-moon-days-years-and-seasons-study-pack.pdf",
+  "questions": [
+    {
+      "id": "g5-b4-001", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Day and night",
+      "stem": "The Earth spins on its ___ once every ___ hours, causing day and night.",
+      "blanks": [["axis"], ["24", "twenty-four", "twenty four"]],
+      "bank": ["axis", "24", "12", "orbit"],
+      "explanation": "The Earth spins on an imaginary line called its axis. One complete spin takes 24 hours. The side facing the Sun has day, and the side facing away has night."
+    },
+    {
+      "id": "g5-b4-002", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Day and night",
+      "stem": "Why does the Sun seem to move across the sky from east to west?",
+      "options": ["The Sun orbits the Earth once a day.", "The Moon pushes the Sun across the sky.", "The Earth spins from west to east.", "The Earth orbits the Sun once a day."],
+      "answer": 2,
+      "explanation": "The Earth spins from west to east, so the Sun only appears to move from east to west. The Sun is not really circling the Earth, and the Earth takes a whole year to orbit the Sun."
+    },
+    {
+      "id": "g5-b4-003", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "The Moon",
+      "stem": "The Moon makes its own light.",
+      "answer": false,
+      "explanation": "The Moon only reflects sunlight. We can see it because sunlight bounces off its surface. The Sun is a star that makes its own light."
+    },
+    {
+      "id": "g5-b4-004", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Years and orbits",
+      "stem": "Match each word to its meaning.",
+      "pairs": [["rotation", "one spin of the Earth on its axis"], ["orbit", "the path of one object around another"], ["leap year", "a year with 366 days"], ["constellation", "a pattern of stars"]],
+      "explanation": "A rotation takes 24 hours, and an orbit of the Earth around the Sun takes about 365¼ days. The extra quarter days give a leap year every four years."
+    },
+    {
+      "id": "g5-b4-005", "mode": "core", "type": "order", "difficulty": 1, "bloom": "remember", "subskill": "The solar system",
+      "stem": "Put these planets in order, starting with the closest to the Sun.",
+      "sequence": ["Mercury", "Venus", "Earth", "Mars", "Jupiter"],
+      "explanation": "The order of all eight planets is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune. 'My Very Easy Method Just Speeds Up Naming' can help you remember it."
+    },
+    {
+      "id": "g5-b4-006", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "understand", "subskill": "Years and orbits",
+      "stem": "Sort these into what is caused by the Earth's spin and what is caused by its orbit around the Sun.",
+      "categories": ["Earth's spin (rotation)", "Earth's orbit around the Sun"],
+      "items": [["day and night", "Earth's spin (rotation)"], ["the Sun appearing to rise in the east", "Earth's spin (rotation)"], ["shadows getting shorter towards midday", "Earth's spin (rotation)"], ["one year", "Earth's orbit around the Sun"], ["a leap year every four years", "Earth's orbit around the Sun"], ["the changing seasons through the year", "Earth's orbit around the Sun"]],
+      "explanation": "The spin takes 24 hours and explains the daily changes. The orbit takes about 365¼ days. The seasons come from the tilted axis as the Earth moves around its orbit."
+    },
+    {
+      "id": "g5-b4-007", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "The Moon",
+      "stem": "Which statements about the Moon are right? Choose all that are right.",
+      "options": ["It reflects sunlight.", "It orbits the Earth about once a month.", "Its phases repeat about every 29½ days.", "It makes its own light.", "It is a star."],
+      "answer": [0, 1, 2],
+      "explanation": "The Moon reflects sunlight and takes about a month to orbit the Earth, so the pattern of phases repeats every 29½ days. It is not a star and has no light of its own."
+    },
+    {
+      "id": "g5-b4-008", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "The Moon",
+      "stem": "Why does the Moon seem to change shape during the month?",
+      "model_answer": "The Moon orbits the Earth, so from Earth we see different amounts of its sunlit half as it moves around.",
+      "keywords": [["orbit", "orbits", "goes around", "moves around", "travels around"], ["lit", "sunlit", "sunlight", "light", "reflect", "reflects", "half"], ["different", "change", "changes", "amount", "part", "phase", "phases"]],
+      "min_keywords": 2,
+      "explanation": "Half of the Moon is always lit by the Sun. As the Moon orbits the Earth, we see more or less of that lit half, which gives the phases from new moon to full moon."
+    },
+    {
+      "id": "g5-b4-009", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Seasons",
+      "stem": "What causes the seasons?",
+      "options": ["The Earth moving closer to the Sun in summer.", "The Moon blocking some of the sunlight.", "The Sun getting hotter and cooler.", "The tilt of the Earth's axis as it orbits the Sun."],
+      "answer": 3,
+      "explanation": "The Earth's axis is tilted by about 23.5°. As it orbits, each half is tilted towards the Sun for part of the year (summer) and away from it for part (winter)."
+    },
+    {
+      "id": "g5-b4-010", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Seasons",
+      "stem": "When it is summer in Bangladesh, it is winter in Australia.",
+      "answer": true,
+      "explanation": "When the northern half of the Earth is tilted towards the Sun, the southern half is tilted away. So the two halves have opposite seasons."
+    },
+    {
+      "id": "g5-b4-011", "mode": "picture", "type": "fill", "difficulty": 2, "bloom": "remember", "subskill": "The solar system",
+      "stem": "Look at the planets in order from the Sun. Number 3 is ___, number 4 is ___ and number 5 is ___.",
+      "image": "diagrams/solar-system-numbered.svg", "image_alt": "The Sun and eight planets in order, numbered 1 to 8 (not to scale).",
+      "blanks": [["Earth"], ["Mars"], ["Jupiter"]],
+      "bank": ["Earth", "Mars", "Jupiter", "Venus", "Saturn"],
+      "explanation": "The planets in order are 1 Mercury, 2 Venus, 3 Earth, 4 Mars, 5 Jupiter, 6 Saturn, 7 Uranus and 8 Neptune."
+    },
+    {
+      "id": "g5-b4-012", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Day and night",
+      "stem": "Look at the stick and its shadows. When is the shadow the shortest?",
+      "image": "diagrams/sun-path.svg", "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky from east to west.",
+      "options": ["morning", "midday", "evening", "they are all the same"],
+      "answer": 1,
+      "explanation": "At midday the Sun is highest in the sky, so the shadow is shortest. In the morning and evening the Sun is low, so shadows are long."
+    },
+    {
+      "id": "g5-b4-013", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Day and night",
+      "stem": "Look at the picture. In the evening, which way does the long shadow point?",
+      "image": "diagrams/sun-path.svg", "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky from east to west.",
+      "options": ["west", "north", "east", "south"],
+      "answer": 2,
+      "explanation": "In the evening the Sun is low in the west, so the shadow stretches the other way, towards the east. In the morning the shadow points west."
+    },
+    {
+      "id": "g5-b4-014", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Seasons",
+      "stem": "Look at the Earth's orbit. In which month is the northern half tilted away from the Sun, so it is winter in Bangladesh?",
+      "image": "diagrams/seasons-orbit.svg", "image_alt": "The tilted Earth at four places in its orbit around the Sun, labelled June, September, December and March.",
+      "options": ["June", "September", "December", "March"],
+      "answer": 2,
+      "explanation": "In December the northern half is tilted away from the Sun, so sunlight is spread out, days are short and it is winter. In June it is tilted towards the Sun and it is summer."
+    },
+    {
+      "id": "g5-b4-015", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "The Moon",
+      "stem": "Which number shows the full moon?",
+      "image": "diagrams/moon-phases-numbered.svg", "image_alt": "Eight shapes of the Moon numbered 1 to 8, from new moon to full moon and back again.",
+      "options": ["1", "3", "5", "7"],
+      "answer": 2,
+      "explanation": "Number 5 is the full moon, when we see the whole lit half. Number 1 is the new moon, 3 is the first quarter and 7 is the last quarter."
+    },
+    {
+      "id": "g5-b4-016", "mode": "picture", "type": "match", "difficulty": 2, "bloom": "understand", "subskill": "The Moon",
+      "stem": "Look at the eight Moon shapes. Match each number to its phase.",
+      "image": "diagrams/moon-phases-numbered.svg", "image_alt": "Eight shapes of the Moon numbered 1 to 8, from new moon to full moon and back again.",
+      "pairs": [["1", "new moon"], ["3", "first quarter"], ["5", "full moon"], ["7", "last quarter"]],
+      "explanation": "The Moon goes from new moon (1) through first quarter (3) to full moon (5), then through last quarter (7) back to new moon. This takes about 29½ days."
+    },
+    {
+      "id": "g5-b4-017", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Day and night",
+      "stem": "At noon in Dhaka, Priya's cousin in New York is asleep because it is night there. Why is it night in New York?",
+      "options": ["The Moon blocks the Sun over New York.", "New York faces away from the Sun as the Earth spins.", "The Sun moves around the Earth and skips New York.", "Clouds cover New York at that time."],
+      "answer": 1,
+      "explanation": "The Earth is a sphere, so the Sun can light only half of it at a time. When Dhaka faces the Sun, New York is on the other side, facing away."
+    },
+    {
+      "id": "g5-b4-018", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Seasons",
+      "stem": "In Bangladesh, farmers need tube-well water for Boro rice but not for Aman rice. Why?",
+      "options": ["Aman rice is grown in winter and needs no water.", "Tube-well water is warmer than rain water.", "Boro rice is grown in the monsoon and floods the field.", "Boro rice grows in the dry winter, when there is little rain."],
+      "answer": 3,
+      "explanation": "Boro rice grows in the dry winter, so farmers pump water from tube-wells. Aman rice grows in the monsoon, when rain fills the fields."
+    },
+    {
+      "id": "g5-b4-019", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "create", "subskill": "Day and night",
+      "stem": "Imran's class wants to measure how a stick's shadow changes during the school day. Which steps are part of a fair plan? Choose all that are right.",
+      "options": ["Use the same stick in the same place each time.", "Measure the shadow at several times, such as 9 am, 11 am, 1 pm and 3 pm.", "Use a different stick each time.", "Measure the shadow length with a metre stick or ruler.", "Measure the shadow only once, at 3 pm."],
+      "answer": [0, 1, 3],
+      "explanation": "Keep the stick and place the same, and measure often so that you can see the pattern. One measurement, or a different stick each time, cannot show how the shadow changes."
+    },
+    {
+      "id": "g5-b4-020", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Seasons",
+      "stem": "Mina flies from Dhaka's cool December weather to visit Sydney, Australia. What weather should she pack for?",
+      "options": ["hot summer weather", "cold winter weather", "a monsoon like Bangladesh's", "weather with no seasons at all"],
+      "answer": 0,
+      "explanation": "Sydney is south of the equator. In December the southern half of the Earth is tilted towards the Sun, so it is the middle of summer there."
+    },
+    {
+      "id": "g5-b4-021", "mode": "real-life", "type": "truefalse", "difficulty": 2, "bloom": "apply", "subskill": "The Moon",
+      "stem": "A family in Chattogram sees a full moon tonight. About two weeks later, they will see a new moon.",
+      "answer": true,
+      "explanation": "The Moon goes from one full moon to the next in about 29½ days. After about half of that, around two weeks, it is a new moon."
+    },
+    {
+      "id": "g5-b4-022", "mode": "real-life", "type": "sort", "difficulty": 2, "bloom": "analyse", "subskill": "Seasons",
+      "stem": "Rina is reading about places around the world. Sort these facts into places near the equator and places far in the north.",
+      "categories": ["Near the equator (like Singapore)", "Far north (like Tromsø, Norway)"],
+      "items": [["about 12 hours of daylight all year", "Near the equator (like Singapore)"], ["no real summer or winter", "Near the equator (like Singapore)"], ["hot all year round", "Near the equator (like Singapore)"], ["the Sun never sets for about two months in summer", "Far north (like Tromsø, Norway)"], ["the Sun never rises for about two months in winter", "Far north (like Tromsø, Norway)"], ["the biggest changes in day length", "Far north (like Tromsø, Norway)"]],
+      "explanation": "Near the equator the Sun's height and the day length hardly change. Near the poles the tilt causes huge changes, from the midnight Sun to the polar night."
+    },
+    {
+      "id": "g5-b4-023", "mode": "simulation", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Years and orbits",
+      "stem": "In the simulation, the Moon goes around the Earth while the Earth goes around the Sun.",
+      "sim": {"id": "gravity-and-orbits", "task": "Open Gravity and Orbits. Choose Sun, Earth and Moon. Turn on the path display, then press play and watch the Moon and the Earth move."},
+      "answer": true,
+      "explanation": "The Moon orbits the Earth, and the Earth with its Moon orbits the Sun. Gravity keeps each of them on its path."
+    },
+    {
+      "id": "g5-b4-024", "mode": "simulation", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Years and orbits",
+      "stem": "What happens to the Earth when gravity is turned off?",
+      "sim": {"id": "gravity-and-orbits", "task": "Open Gravity and Orbits. Choose Sun and Earth and press play. Watch the Earth orbit the Sun. Then turn gravity off and watch what the Earth does."},
+      "options": ["It stops moving.", "It keeps orbiting the Sun in the same path.", "It moves off in a straight line.", "It falls straight into the Sun."],
+      "answer": 2,
+      "explanation": "Gravity pulls the Earth towards the Sun and bends its path into an orbit. With no gravity, nothing bends the path, so the Earth moves off in a straight line."
+    },
+    {
+      "id": "g5-b4-025", "mode": "simulation", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Years and orbits",
+      "stem": "About how long does the Earth take to go once around the Sun?",
+      "sim": {"id": "gravity-and-orbits", "task": "Open Gravity and Orbits. Choose Sun and Earth, press play, and watch the clock while the Earth goes once around the Sun."},
+      "options": ["about 1 year", "about 1 day", "about 1 month", "about 10 years"],
+      "answer": 0,
+      "explanation": "One orbit of the Earth around the Sun takes about 365¼ days, which is one year. One spin of the Earth on its axis takes a day."
+    },
+    {
+      "id": "g5-b4-026", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Seasons",
+      "stem": "In Dhaka (approximate data), the longest day is in June with 13.6 hours of daylight and the shortest is in December with 10.7 hours. How much longer is the longest day than the shortest day?",
+      "options": ["2.7 hours", "2.9 hours", "3.1 hours", "24.3 hours"],
+      "answer": 1,
+      "explanation": "13.6 − 10.7 = 2.9 hours, almost 3 hours. Adding the two numbers (24.3) does not compare them. The tilted Earth causes this change through the year."
+    },
+    {
+      "id": "g5-b4-027", "mode": "olympiad", "type": "multi", "difficulty": 3, "bloom": "analyse", "subskill": "Seasons",
+      "stem": "Hours of daylight in Dhaka (approximate data) from January to December: 10.9, 11.4, 12.0, 12.7, 13.3, 13.6, 13.4, 12.9, 12.2, 11.6, 11.0, 10.7. Which statements are supported by the data? Choose all that are right.",
+      "options": ["The longest day is in June.", "The shortest day is in December.", "Days get longer from January to June.", "July has longer days than June.", "Every month has more than 12 hours of daylight."],
+      "answer": [0, 1, 2],
+      "explanation": "June has 13.6 hours (the most) and December 10.7 hours (the least), and the values rise every month from January to June. July (13.4) is shorter than June, and January has only 10.9 hours."
+    },
+    {
+      "id": "g5-b4-028", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "The solar system",
+      "stem": "In 1610 Galileo used a telescope and saw moons going around Jupiter. Why was this important evidence?",
+      "model_answer": "It showed that not everything orbits the Earth, because moons were orbiting Jupiter. This supported the idea that the Earth and the other planets orbit the Sun.",
+      "keywords": [["not everything", "not all", "other planets", "jupiter", "moons"], ["around the sun", "orbit the sun", "orbits the sun", "orbit sun", "go around the sun"], ["earth"]],
+      "min_keywords": 2,
+      "explanation": "If moons can orbit Jupiter, then not everything has to orbit the Earth. This was strong evidence for Copernicus's idea that the Earth and the planets go around the Sun."
+    },
+    {
+      "id": "g5-b4-029", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Seasons",
+      "stem": "In June the northern half of the Earth is tilted towards the Sun. Which description of that month is correct?",
+      "options": ["Tromsø in Norway has the midnight Sun, and Sydney in Australia has winter.", "Tromsø in Norway has the midnight Sun, and Sydney in Australia has summer.", "Tromsø in Norway has polar night, and Sydney in Australia has summer.", "Tromsø in Norway has polar night, and Sydney in Australia has winter."],
+      "answer": 0,
+      "explanation": "Tromsø is far north, so in June it is tilted towards the Sun and has the midnight Sun. Sydney is in the southern half, tilted away from the Sun, so it has winter."
+    },
+    {
+      "id": "g5-b4-030", "mode": "olympiad", "type": "fill", "difficulty": 3, "bloom": "apply", "subskill": "Years and orbits",
+      "stem": "The Earth takes 365¼ days to orbit the Sun. In 8 years the extra quarter days add up to ___ whole days. In 100 years about ___ leap days are needed.",
+      "blanks": [["2", "two"], ["25", "twenty-five", "twenty five"]],
+      "bank": ["2", "25", "4", "100"],
+      "explanation": "Eight quarters make 2 whole days, so 4 years need 1 leap day. In 100 years that is about 100 ÷ 4 = 25 leap days."
+    }
+  ]
+}

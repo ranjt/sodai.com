@@ -17,7 +17,15 @@ offline-simulations/inquirymind-site/
     ├── grade-1-science/ … grade-5-science/   Grades 1–5: 11, 12, 14, 20 and 24 packs
     │   each: index.html (download page), pdf/ (study packs + answer keys), print/, downloads/ (zips), assets/
     └── thinking-routines/         34 Visible Thinking Routine organisers + download page
+└── question-bank/                 science practice questions KG–Grade 5 → inquirymind.org/question-bank/
+    ├── README.md                  question format, practice-card mapping, marking rules
+    ├── dist/                      manifest.json, all-questions.json, kg.json, grade-1.json … grade-5.json
+    ├── images/                    diagrams and OpenMoji pictures used by the questions
+    └── preview/                   demo page (play every question) + qb-player.js / qb-player.css
 ```
+
+The question bank is data for your **Practice** section. Copying it publishes the files; to show the questions inside
+Practice, give Claude the prompt in `INQUIRYMIND-INTEGRATION-PROMPT.md` (in the root of this repository).
 
 ## One-time setup on your Mac
 
@@ -36,7 +44,7 @@ bash publish.sh ~/path/to/your/inquirymind-project --deploy   # copy and go live
 ```
 
 - Only the worksheets: `bash publish.sh ~/path/to/project --only worksheets --deploy`
-- The script only replaces the `simulations/`, `science-simulations/` and `worksheets/` folders inside your hosting
+- The script only replaces the `simulations/`, `science-simulations/`, `worksheets/` and `question-bank/` folders inside your hosting
   folder. Your own pages (home page, about, contact…) are never touched.
 - After new worksheets are made, download the repository again (or `git pull`) and run the same command.
 

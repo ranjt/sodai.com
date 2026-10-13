@@ -1,0 +1,206 @@
+{
+  "grade": 3,
+  "grade_name": "Grade 3",
+  "topic": "A4",
+  "title": "Ecosystems of Bangladesh",
+  "strand": "living",
+  "worksheet": "worksheets/grade-3-science/pdf/a4-ecosystems-of-bangladesh-study-pack.pdf",
+  "questions": [
+    {
+      "id": "g3-a4-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "What is an ecosystem",
+      "stem": "An **ecosystem** is…",
+      "options": ["a group of animals of the same kind", "a list of yes/no questions", "living and non-living things together in a place, depending on each other", "a place where only plants live"],
+      "answer": 2,
+      "explanation": "An ecosystem includes plants, animals and microbes together with non-living things such as water, soil, rocks, air and sunlight. They all depend on each other."
+    },
+    {
+      "id": "g3-a4-002", "mode": "core", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "Living and non-living parts",
+      "stem": "Sort the parts of a school garden into living and non-living.",
+      "categories": ["Living", "Non-living"],
+      "items": [["grass", "Living"], ["earthworm", "Living"], ["butterfly", "Living"], ["sunlight", "Non-living"], ["soil", "Non-living"], ["rock", "Non-living"], ["air", "Non-living"]],
+      "explanation": "Plants and animals are living things. Sunlight, soil, rocks and air are non-living, but living things need them."
+    },
+    {
+      "id": "g3-a4-003", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Living and non-living parts",
+      "stem": "An ecosystem has living things and ___ things such as water, soil and sunlight.",
+      "blanks": [["non-living", "nonliving", "non living"]],
+      "bank": ["non-living", "tiny", "hot"],
+      "explanation": "Water, soil, rocks, air and sunlight are the non-living parts of an ecosystem."
+    },
+    {
+      "id": "g3-a4-004", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Living and non-living parts",
+      "stem": "Sunlight is a living part of an ecosystem.",
+      "answer": false,
+      "explanation": "Sunlight is non-living. Living things need it, but it is not alive itself."
+    },
+    {
+      "id": "g3-a4-005", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Land and water ecosystems",
+      "stem": "Sort these ecosystems into aquatic (in water) and terrestrial (on land).",
+      "categories": ["Aquatic (water)", "Terrestrial (land)"],
+      "items": [["coral reef", "Aquatic (water)"], ["stream", "Aquatic (water)"], ["sea grass bed", "Aquatic (water)"], ["grassland", "Terrestrial (land)"], ["pine forest", "Terrestrial (land)"], ["broadleaf forest", "Terrestrial (land)"]],
+      "explanation": "Coral reefs, streams and sea grass beds are in water. Grasslands and forests are on land."
+    },
+    {
+      "id": "g3-a4-006", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Land and water ecosystems",
+      "stem": "Where in Bangladesh can you find a coral reef?",
+      "options": ["Lawachara forest", "the Sundarbans", "Saint Martin's Island", "Sunamganj haor"],
+      "answer": 2,
+      "explanation": "Saint Martin's Island is the only coral island in Bangladesh. Corals, colourful fish, sea snails and turtles live around it."
+    },
+    {
+      "id": "g3-a4-007", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Who lives where",
+      "stem": "Which living things might you find in a hill stream? Choose all that are right.",
+      "options": ["small fish", "crabs", "water plants", "coral", "sea turtles"],
+      "answer": [0, 1, 2],
+      "explanation": "Small fish, crabs, insects and water plants live in streams. Coral and sea turtles live in the sea."
+    },
+    {
+      "id": "g3-a4-008", "mode": "core", "type": "fill", "difficulty": 2, "bloom": "remember", "subskill": "Land and water ecosystems",
+      "stem": "Aquatic means living in ___, and terrestrial means living on ___.",
+      "blanks": [["water"], ["land", "the land", "ground"]],
+      "bank": ["water", "land", "air", "ice"],
+      "explanation": "Aquatic ecosystems are in water, such as ponds, streams and the sea. Terrestrial ecosystems are on land, such as forests and grasslands."
+    },
+    {
+      "id": "g3-a4-009", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Non-living features",
+      "stem": "Which non-living things help to decide which plants and animals can live in a place? Choose all that are right.",
+      "options": ["the amount of water", "the amount of light and heat", "the kind of soil", "whether the water is salty or fresh", "the colour of the sky at night"],
+      "answer": [0, 1, 2, 3],
+      "explanation": "Water, light, heat, soil and saltiness all decide which living things can survive. The colour of the night sky makes no difference to where plants and animals live."
+    },
+    {
+      "id": "g3-a4-010", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Non-living features",
+      "stem": "A water lily could grow well in a dry field.",
+      "answer": false,
+      "explanation": "Water lilies need fresh water and sunlight. A dry field has no water for them."
+    },
+    {
+      "id": "g3-a4-011", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Non-living features",
+      "stem": "Put the steps of the 'sunny or shady' plant investigation in order.",
+      "sequence": ["Choose a sunny place and a shady place under a tree.", "Lay a 1 metre square of string on the ground in each place.", "Count the plants inside each square.", "Draw a bar chart of the numbers.", "Say where more plants grew, and why."],
+      "explanation": "Use the same size square in both places so the test is fair, then count, show the results in a chart and explain what they show."
+    },
+    {
+      "id": "g3-a4-012", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Land and water ecosystems",
+      "stem": "Only special trees can grow in the salty mud of the ___, home of the tiger.",
+      "blanks": [["Sundarbans", "sundarbans", "Sundarban", "mangrove forest"]],
+      "bank": ["Sundarbans", "haor", "Lawachara"],
+      "explanation": "The Sundarbans is a mangrove ecosystem. Sundari trees and other special trees can live in its salty mud."
+    },
+    {
+      "id": "g3-a4-013", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "analyse", "subskill": "Who lives where",
+      "stem": "Sort these living things by the ecosystem where they live.",
+      "categories": ["Mangrove (Sundarbans)", "Coral reef", "Wetland (haor)"],
+      "items": [["sundari trees", "Mangrove (Sundarbans)"], ["tigers", "Mangrove (Sundarbans)"], ["deer", "Mangrove (Sundarbans)"], ["corals", "Coral reef"], ["sea snails", "Coral reef"], ["water lilies", "Wetland (haor)"], ["ducks", "Wetland (haor)"]],
+      "explanation": "Each ecosystem has its own plants and animals, suited to its water, soil and light."
+    },
+    {
+      "id": "g3-a4-014", "mode": "picture", "type": "multi", "difficulty": 1, "bloom": "analyse", "subskill": "Living and non-living parts",
+      "stem": "Look at the pond. Which numbers show non-living things? Choose all that are right.",
+      "image": "diagrams/pond-ecosystem-numbered.svg", "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
+      "options": ["1", "3", "5", "6", "7"],
+      "answer": [0, 2, 3],
+      "explanation": "Number 1 is the Sun, 5 is water and 6 is a rock, so they are non-living. Number 3 is a duck and 7 is water plants, which are living."
+    },
+    {
+      "id": "g3-a4-015", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Living and non-living parts",
+      "stem": "Look at the pond. Which number shows a living thing that is **not** an animal?",
+      "image": "diagrams/pond-ecosystem-numbered.svg", "image_alt": "A pond ecosystem with the Sun, air, a duck, a fish, water, a rock, water plants and a frog, numbered 1 to 8.",
+      "options": ["2", "5", "6", "7"],
+      "answer": 3,
+      "explanation": "Number 7 is water plants: they are living but they are not animals. Number 2 is air and clouds, 5 is water and 6 is a rock, so they are non-living."
+    },
+    {
+      "id": "g3-a4-016", "mode": "picture", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "Living and non-living parts",
+      "stem": "Sort the pictures of a pond into living and non-living.",
+      "categories": ["Living", "Non-living"],
+      "items": [[{"text": "fish", "image": "openmoji/fish.svg"}, "Living"], [{"text": "frog", "image": "openmoji/frog.svg"}, "Living"], [{"text": "duck", "image": "openmoji/duck.svg"}, "Living"], [{"text": "water lily", "image": "openmoji/lotus.svg"}, "Living"], [{"text": "water", "image": "openmoji/droplet.svg"}, "Non-living"], [{"text": "stone", "image": "openmoji/rock.svg"}, "Non-living"], [{"text": "sunlight", "image": "openmoji/sun.svg"}, "Non-living"]],
+      "explanation": "Fish, frogs, ducks and water lilies are living things. Water, stones and sunlight are non-living parts of the pond ecosystem."
+    },
+    {
+      "id": "g3-a4-017", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Who lives where",
+      "stem": "Match each picture to the ecosystem where it lives.",
+      "pairs": [[{"text": "tiger", "image": "openmoji/tiger.svg"}, "mangrove (Sundarbans)"], [{"text": "coral", "image": "openmoji/coral.svg"}, "coral reef"], [{"text": "water lily", "image": "openmoji/lotus.svg"}, "wetland (haor)"], [{"text": "cattle", "image": "openmoji/cow.svg"}, "grassland"]],
+      "explanation": "Tigers live in the Sundarbans mangrove, corals build reefs in the sea, water lilies grow in wetlands, and cattle graze on grassland."
+    },
+    {
+      "id": "g3-a4-018", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Non-living features",
+      "stem": "Look at the mangrove tree. What kind of mud and water does it grow in?",
+      "image": "diagrams/mangrove.svg", "image_alt": "A mangrove tree with breathing roots and prop roots standing in salty mud and salty water.",
+      "options": ["fresh water only", "dry sand", "salty mud and salty water", "cold mountain streams"],
+      "answer": 2,
+      "explanation": "Mangrove trees grow in salty mud and salty water. Most other trees cannot live in such salty places."
+    },
+    {
+      "id": "g3-a4-019", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Who lives where",
+      "stem": "Which animal lives in the Sundarbans mangrove forest?",
+      "options": [{"text": "penguin", "image": "openmoji/penguin.svg"}, {"text": "tiger", "image": "openmoji/tiger.svg"}, {"text": "camel", "image": "openmoji/camel.svg"}],
+      "answer": 1,
+      "explanation": "Tigers, deer, crabs and crocodiles live in the Sundarbans. Penguins live in cold places and camels in deserts."
+    },
+    {
+      "id": "g3-a4-020", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Land and water ecosystems",
+      "stem": "Moung lives near a haor in Sunamganj. For much of the year the land is covered with water. Which ecosystem is this?",
+      "options": ["coral reef", "pine forest", "wetland", "grassland"],
+      "answer": 2,
+      "explanation": "A wetland is land covered with water for much of the year. Haors and beels in Sylhet and Sunamganj are wetlands with water lilies, fish, ducks and frogs."
+    },
+    {
+      "id": "g3-a4-021", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "evaluate", "subskill": "Protecting ecosystems",
+      "stem": "Joy visits Saint Martin's Island and sees a piece of coral. What is the best thing to do?",
+      "options": ["Break off a small piece to take home.", "Walk on the coral to get a good photo.", "Look at it without touching or breaking it.", "Pick it up and carry it to the boat."],
+      "answer": 2,
+      "explanation": "Corals are tiny animals that build hard homes that grow very slowly. Walking on or breaking coral harms the reef, so we look but do not touch."
+    },
+    {
+      "id": "g3-a4-022", "mode": "real-life", "type": "truefalse", "difficulty": 2, "bloom": "evaluate", "subskill": "Non-living features",
+      "stem": "Rafi's school pond dries up in a very hot, dry season. The fish and water lilies that lived in it cannot live there any more.",
+      "answer": true,
+      "explanation": "Fish and water lilies need water. Without it the pond is no longer a suitable habitat for them."
+    },
+    {
+      "id": "g3-a4-023", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Non-living features",
+      "stem": "Class 3B counted 32 plants in a sunny square and 12 in a shady square. Which non-living thing most likely explains why more plants grew in the sunny square?",
+      "options": ["the number of birds", "the number of fish", "the colour of the string", "the amount of light"],
+      "answer": 3,
+      "explanation": "Plants need light to make their food. The sunny square got more light, so more plants could grow there."
+    },
+    {
+      "id": "g3-a4-024", "mode": "real-life", "type": "short", "difficulty": 2, "bloom": "create", "subskill": "Protecting ecosystems",
+      "stem": "Write one rule for tourists visiting the coral reef at Saint Martin's Island, and say why it matters.",
+      "model_answer": "Do not touch or break the coral, because corals are living animals that grow very slowly and can be harmed.",
+      "keywords": [["touch", "break", "walk", "stand", "take", "plastic", "rubbish", "litter", "boat"], ["alive", "living", "animal", "animals", "slowly", "slow", "harm", "damage", "hurt", "die", "protect"]],
+      "min_keywords": 2,
+      "explanation": "Tourists can harm the reef by walking on coral, breaking pieces off or leaving plastic rubbish. Clear rules protect this special ecosystem."
+    },
+    {
+      "id": "g3-a4-025", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Investigating ecosystems",
+      "stem": "Tuli counts the plants in a 1 m square in a sunny place and in a 2 m square in a shady place. Why is her test not fair?",
+      "options": ["She should count animals as well.", "Shady places never have plants.", "A metre is too short to measure.", "The two squares are different sizes."],
+      "answer": 3,
+      "explanation": "A bigger square will usually hold more plants. To compare sun and shade fairly, both squares must be the same size, so only the amount of light changes."
+    },
+    {
+      "id": "g3-a4-026", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "apply", "subskill": "Investigating ecosystems",
+      "stem": "In a 1 m square of sunny ground there were 32 plants (example data). About how many plants would you expect in 2 square metres of the same sunny ground, if the plants are spread out evenly?",
+      "options": ["32", "44", "64", "12"],
+      "answer": 2,
+      "explanation": "Two squares of the same size hold twice as many plants: 32 + 32 = 64."
+    },
+    {
+      "id": "g3-a4-027", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Non-living features",
+      "stem": "A scientist wants to grow corals and water lilies in the same tank. Why will this not work?",
+      "options": ["Corals and water lilies eat each other.", "Corals need salty water but water lilies need fresh water.", "Water lilies are animals and corals are plants.", "Corals need fresh water and sunlight."],
+      "answer": 1,
+      "explanation": "The non-living features decide who can live where. Coral needs warm, clear, salty water, but water lilies need fresh water and sunlight."
+    },
+    {
+      "id": "g3-a4-028", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Non-living features",
+      "stem": "A pond ecosystem dries up in a very dry season. What will happen to the living things in it, and why?",
+      "model_answer": "The water is gone, so the fish, frogs and water plants cannot live there. They will die or the animals will move away.",
+      "keywords": [["fish", "frogs", "frog", "plants", "animals", "lilies", "ducks", "living things", "everything"], ["die", "dies", "move", "leave", "gone", "lost", "cannot live", "no water", "no home"]],
+      "min_keywords": 2,
+      "explanation": "Water is a very important non-living part of a pond ecosystem. When it disappears, the living things lose their home and their water."
+    }
+  ]
+}

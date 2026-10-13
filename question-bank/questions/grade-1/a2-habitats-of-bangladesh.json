@@ -1,0 +1,176 @@
+{
+  "grade": 1,
+  "grade_name": "Grade 1",
+  "topic": "A2",
+  "title": "Habitats of Bangladesh",
+  "strand": "living",
+  "worksheet": "worksheets/grade-1-science/pdf/a2-habitats-of-bangladesh-study-pack.pdf",
+  "questions": [
+    {
+      "id": "g1-a2-001", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Who lives where", "read_aloud": true,
+      "stem": "Match each animal to its home.",
+      "pairs": [[{"text": "fish", "image": "openmoji/fish.svg"}, "in the water"], [{"text": "monkey", "image": "openmoji/monkey.svg"}, "in a tree"], [{"text": "earthworm", "image": "openmoji/worm.svg"}, "under the ground"], [{"text": "bird", "image": "openmoji/bird.svg"}, "in the sky"]],
+      "explanation": "A fish lives in water and a monkey lives in trees. An earthworm lives under the ground. A bird flies in the sky."
+    },
+    {
+      "id": "g1-a2-002", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Kinds of habitat", "read_aloud": true,
+      "stem": "An animal that lives in trees is…",
+      "options": ["aquatic", "arboreal", "fossorial"],
+      "answer": 1,
+      "explanation": "Arboreal means living in trees. Aquatic means living in water. Fossorial means living under the ground."
+    },
+    {
+      "id": "g1-a2-003", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Kinds of habitat", "read_aloud": true,
+      "stem": "A habitat is the ___ of a plant or an animal.",
+      "blanks": [["home"]],
+      "bank": ["home", "food", "colour"],
+      "explanation": "A habitat is the home of a living thing. It gives food, water, air and shelter."
+    },
+    {
+      "id": "g1-a2-004", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "How habitats help", "read_aloud": true,
+      "stem": "A fish can live on dry land.",
+      "answer": false,
+      "explanation": "A fish needs water to breathe and swim. Its habitat is a pond, a river or the sea."
+    },
+    {
+      "id": "g1-a2-005", "mode": "picture", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Who lives where", "read_aloud": true,
+      "stem": "Where does each animal live? Sort them.",
+      "categories": ["Water", "Trees", "Underground"],
+      "items": [[{"text": "fish", "image": "openmoji/fish.svg"}, "Water"], [{"text": "frog", "image": "openmoji/frog.svg"}, "Water"], [{"text": "monkey", "image": "openmoji/monkey.svg"}, "Trees"], [{"text": "parrot", "image": "openmoji/parrot.svg"}, "Trees"], [{"text": "earthworm", "image": "openmoji/worm.svg"}, "Underground"], [{"text": "rat", "image": "openmoji/rat.svg"}, "Underground"]],
+      "explanation": "Fish and frogs live in water. Monkeys and parrots live in trees. Earthworms and rats dig and live under the ground."
+    },
+    {
+      "id": "g1-a2-006", "mode": "picture", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "Who lives where", "read_aloud": true,
+      "stem": "Which animals are aquatic? They live in water. Choose all that are right.",
+      "options": [{"text": "crab", "image": "openmoji/crab.svg"}, {"text": "cow", "image": "openmoji/cow.svg"}, {"text": "frog", "image": "openmoji/frog.svg"}, {"text": "duck", "image": "openmoji/duck.svg"}, {"text": "monkey", "image": "openmoji/monkey.svg"}, {"text": "fish", "image": "openmoji/fish.svg"}],
+      "answer": [0, 2, 3, 5],
+      "explanation": "Crabs, frogs, ducks and fish all live in or near water. A cow lives on the land and a monkey lives in trees."
+    },
+    {
+      "id": "g1-a2-007", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Kinds of habitat", "read_aloud": true,
+      "stem": "Put the homes in order from the highest to the lowest.",
+      "sequence": ["in the sky", "in a tree", "on the ground", "under the ground"],
+      "explanation": "Birds fly in the sky. Monkeys live in trees. Cows walk on the ground. Earthworms live under the ground."
+    },
+    {
+      "id": "g1-a2-008", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Kinds of habitat", "read_aloud": true,
+      "stem": "Match each word to its meaning.",
+      "pairs": [["habitat", "the home of a living thing"], ["aquatic", "living in water"], ["arboreal", "living in trees"], ["fossorial", "living under the ground"], ["terrestrial", "living on land"]],
+      "explanation": "These five words help us name where animals live."
+    },
+    {
+      "id": "g1-a2-009", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "How habitats help", "read_aloud": true,
+      "stem": "How does a pond help a frog?",
+      "options": ["Branches to climb and sleep on.", "Water to swim in and insects to eat.", "Soil to dig a tunnel in."],
+      "answer": 1,
+      "explanation": "A pond gives a frog water to swim in, insects to eat and plants to hide under. Climbing branches is what a monkey needs."
+    },
+    {
+      "id": "g1-a2-010", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Kinds of habitat", "read_aloud": true,
+      "stem": "Birds, bats and butterflies live in the sky. This is the ___ habitat.",
+      "blanks": [["aerial"]],
+      "bank": ["aerial", "aquatic", "arboreal"],
+      "explanation": "Aerial means in the air and sky. Birds, bats and butterflies fly there."
+    },
+    {
+      "id": "g1-a2-011", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "How habitats help", "read_aloud": true,
+      "stem": "A habitat gives a living thing food, water, air and shelter.",
+      "answer": true,
+      "explanation": "A good habitat meets all the needs of the plants and animals that live there."
+    },
+    {
+      "id": "g1-a2-012", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Looking at a habitat", "read_aloud": true,
+      "stem": "Look at the pond. Which number is the frog?",
+      "image": "diagrams/pond-ecosystem-numbered.svg", "image_alt": "A pond with the Sun, air and clouds, a duck, a fish, water, a rock, water plants and a frog, each with a number.",
+      "options": ["2", "4", "7", "8"],
+      "answer": 3,
+      "explanation": "Number 8 is the frog. Number 4 is the fish, 7 is the water plants and 2 is the air and clouds."
+    },
+    {
+      "id": "g1-a2-013", "mode": "picture", "type": "multi", "difficulty": 2, "bloom": "analyse", "subskill": "Looking at a habitat", "read_aloud": true,
+      "stem": "Look at the pond. Which numbers show animals? Choose all that are right.",
+      "image": "diagrams/pond-ecosystem-numbered.svg", "image_alt": "A pond with the Sun, air and clouds, a duck, a fish, water, a rock, water plants and a frog, each with a number.",
+      "options": ["3", "4", "5", "6", "8"],
+      "answer": [0, 1, 4],
+      "explanation": "Number 3 is a duck, 4 is a fish and 8 is a frog. Number 5 is water and 6 is a rock, so they are not animals."
+    },
+    {
+      "id": "g1-a2-014", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Looking at a habitat", "read_aloud": true,
+      "stem": "Look at the Sundarbans tree. What are its roots standing in?",
+      "image": "diagrams/mangrove.svg", "image_alt": "A mangrove tree with breathing roots and prop roots in salty mud.",
+      "options": ["dry sand", "salty mud", "a flower pot"],
+      "answer": 1,
+      "explanation": "Mangrove trees in the Sundarbans grow in salty mud. Their roots stand in the mud and hold the tree up."
+    },
+    {
+      "id": "g1-a2-015", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Kinds of habitat", "read_aloud": true,
+      "stem": "Tuli goes by boat in the haor in Sylhet. She sees many fish and ducks. What kind of habitat is this?",
+      "options": ["arboreal (trees)", "aquatic (water)", "fossorial (underground)"],
+      "answer": 1,
+      "explanation": "A haor is a big wetland full of water. Fish and ducks live there, so it is an aquatic habitat."
+    },
+    {
+      "id": "g1-a2-016", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "evaluate", "subskill": "Looking at a habitat", "read_aloud": true,
+      "stem": "Anika visits a pond with her class to count the animals. What is the safe way?",
+      "options": ["Reach into the water to catch them.", "Taste the pond water.", "Look with her teacher and do not touch."],
+      "answer": 2,
+      "explanation": "We look, count and do not touch. Staying with a grown-up near water keeps us safe and does not harm the animals."
+    },
+    {
+      "id": "g1-a2-017", "mode": "real-life", "type": "mcq", "difficulty": 1, "bloom": "apply", "subskill": "Who lives where", "read_aloud": true,
+      "stem": "Moung wants to see an earthworm in the garden. Where should he look?",
+      "options": ["in the soil under a stone", "up in the sky", "high in a tree"],
+      "answer": 0,
+      "explanation": "Earthworms live in the soil under the ground. They are fossorial animals."
+    },
+    {
+      "id": "g1-a2-018", "mode": "real-life", "type": "truefalse", "difficulty": 2, "bloom": "understand", "subskill": "Habitats of Bangladesh", "read_aloud": true,
+      "stem": "The Sundarbans has land, trees, water, holes in the mud and sky. It has every kind of habitat.",
+      "answer": true,
+      "explanation": "Tigers and deer walk on land. Monkeys climb trees. Fish and crocodiles swim in the rivers. Crabs dig holes in the mud. Birds fly above."
+    },
+    {
+      "id": "g1-a2-019", "mode": "core", "type": "short", "difficulty": 2, "bloom": "understand", "subskill": "How habitats help", "read_aloud": true,
+      "stem": "Why can a fish not live in a tree?",
+      "model_answer": "A fish needs water to breathe and swim. A tree has no water.",
+      "keywords": [["water"], ["breathe", "swim", "gills", "dry"]],
+      "min_keywords": 1,
+      "explanation": "A fish needs water to breathe and swim. A tree is a habitat for monkeys and parrots, not for fish."
+    },
+    {
+      "id": "g1-a2-020", "mode": "real-life", "type": "fill", "difficulty": 1, "bloom": "apply", "subskill": "Habitats of Bangladesh", "read_aloud": true,
+      "stem": "Crabs dig holes in the mud in the Sundarbans. A hole under the ground is a ___ habitat.",
+      "blanks": [["fossorial", "underground"]],
+      "bank": ["fossorial", "arboreal", "aerial"],
+      "explanation": "Fossorial means living under the ground. Crabs, earthworms and rats use holes in the ground."
+    },
+    {
+      "id": "g1-a2-021", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "analyse", "subskill": "How habitats help", "read_aloud": true,
+      "stem": "Anika sees a monkey eating fruit in a tree. What does the tree give the monkey? Choose all that are right.",
+      "options": ["fruit to eat", "branches to climb", "water to swim in", "a place to sleep", "soil to dig in"],
+      "answer": [0, 1, 3],
+      "explanation": "A tree gives a monkey fruit to eat, branches to climb and a place to sleep. A monkey does not swim or dig."
+    },
+    {
+      "id": "g1-a2-022", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Comparing habitats", "read_aloud": true,
+      "stem": "Class 1 counted animals in 5 minutes. Pond: 4 frogs and 6 fish. Garden: 9 ants and 3 butterflies. Which place had more animals?",
+      "options": ["the pond, 2 more", "the garden, 2 more", "the garden, 6 more", "the pond, 4 more"],
+      "answer": 1,
+      "explanation": "The pond had 4 + 6 = 10 animals. The garden had 9 + 3 = 12 animals. The garden had 2 more."
+    },
+    {
+      "id": "g1-a2-023", "mode": "olympiad", "type": "multi", "difficulty": 3, "bloom": "analyse", "subskill": "Comparing habitats", "read_aloud": true,
+      "stem": "A kingfisher sits on a branch by a pond. It flies over the water and dives in to catch a fish. Which habitats does it use? Choose all that are right.",
+      "options": ["the sky", "a tree", "the pond", "under the ground"],
+      "answer": [0, 1, 2],
+      "explanation": "The kingfisher flies in the sky, rests in a tree and hunts in the pond. It does not live under the ground."
+    },
+    {
+      "id": "g1-a2-024", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Comparing habitats", "read_aloud": true,
+      "stem": "Ants walk on the land and dig homes in the soil. Which two words fit their habitats?",
+      "options": ["aerial and aquatic", "aquatic and arboreal", "terrestrial and fossorial"],
+      "answer": 2,
+      "explanation": "Terrestrial means on land and fossorial means under the ground. An animal can live in more than one habitat."
+    }
+  ]
+}

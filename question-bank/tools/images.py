@@ -67,7 +67,7 @@ DIAGRAMS = {
     'cyclone-numbered': (art4.cyclone_diagram(), 'A tropical cyclone seen from above with parts numbered.', numbered(art4.CYCLONE_PARTS)),
     'sea-breeze': (art4.sea_breeze(), 'Daytime sea breeze: warm air rises over the land and cooler air moves in from the sea.', 'convection current'),
     # materials and heat
-    'states-particles': (art.states_particles(), 'Particles in a solid (packed in rows), a liquid (touching but jumbled) and a gas (far apart).', 'solid, liquid, gas'),
+    'states-particles': (art.states_particles(), 'Particles in a solid (packed in rows), a liquid (touching but jumbled) and a gas (far apart).', 'left to right: solid, liquid, gas; arrows between them labelled melting, freezing (solid–liquid) and evaporating, condensing (liquid–gas)'),
     'filtering-numbered': (art.filtering(), 'Filtering muddy water with a funnel and filter paper, parts numbered.', numbered(art.FILTER_PARTS)),
     'heat-transfer-lettered': (art23.heat_transfer(names=False), 'Three pictures lettered A, B, C: a spoon in a hot drink, a pot of water over a flame with arrows, and the Sun warming a hand.', lettered(art23.HEAT_WAYS)),
     'heat-transfer-labelled': (art23.heat_transfer(), 'Conduction, convection and radiation shown with examples.', 'labelled'),

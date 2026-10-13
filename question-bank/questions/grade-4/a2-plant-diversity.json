@@ -1,0 +1,216 @@
+{
+  "grade": 4,
+  "grade_name": "Grade 4",
+  "topic": "A2",
+  "title": "Plants of Bangladesh: Diversity and Adaptation",
+  "strand": "living",
+  "worksheet": "worksheets/grade-4-science/pdf/a2-plants-of-bangladesh-diversity-and-adaptation-study-pack.pdf",
+  "questions": [
+    {
+      "id": "g4-a2-001", "mode": "core", "type": "sort", "difficulty": 1, "bloom": "apply", "subskill": "Plant groups",
+      "stem": "Sort these living things into flowering plants, non-flowering plants and things that are not plants.",
+      "categories": ["Flowering plant", "Non-flowering plant", "Not a plant"],
+      "items": [["rice", "Flowering plant"], ["mango tree", "Flowering plant"], ["lotus", "Flowering plant"], ["fern", "Non-flowering plant"], ["moss", "Non-flowering plant"], ["pine tree", "Non-flowering plant"], ["mushroom", "Not a plant"], ["mould on bread", "Not a plant"]],
+      "explanation": "Flowering plants make flowers and seeds. Ferns and mosses make spores and pine trees make seeds in cones. Mushrooms and moulds are fungi, not plants."
+    },
+    {
+      "id": "g4-a2-002", "mode": "core", "type": "match", "difficulty": 1, "bloom": "remember", "subskill": "Adaptations of plants",
+      "stem": "Match each plant to its adaptation.",
+      "pairs": [["mangrove", "breathing roots that stick up out of salty mud"], ["water hyacinth", "spongy stalks full of air"], ["cactus", "thick stem that stores water, and spines instead of leaves"], ["lotus", "waxy leaves that water rolls off"], ["coconut palm", "bendy trunk that does not snap in storms"]],
+      "explanation": "Each adaptation suits the plant's habitat: air roots for muddy ground, floats for water, a water store for deserts, waxy leaves for wet places and a bendy trunk for storms."
+    },
+    {
+      "id": "g4-a2-003", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "remember", "subskill": "Plant groups",
+      "stem": "Rice plants do not have flowers.",
+      "answer": false,
+      "explanation": "Rice is a flowering plant. Its flowers are small and green, so we often do not notice them. The grains of rice are its seeds."
+    },
+    {
+      "id": "g4-a2-004", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Plant groups",
+      "stem": "Ferns and mosses do not grow from seeds. They grow from tiny ___.",
+      "blanks": [["spores", "spore"]],
+      "bank": ["spores", "seeds", "cones", "flowers"],
+      "explanation": "Ferns and mosses are non-flowering plants. They make tiny cells called spores that can grow into new plants."
+    },
+    {
+      "id": "g4-a2-005", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Plant groups",
+      "stem": "A pine tree makes its seeds inside cones, not flowers. What kind of plant is it?",
+      "options": ["a flowering plant", "a non-flowering plant", "a fungus", "an animal"],
+      "answer": 1,
+      "explanation": "Pine trees are conifers, which are non-flowering plants. They still make seeds, but inside cones."
+    },
+    {
+      "id": "g4-a2-006", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Plant groups",
+      "stem": "Mushrooms are not plants. They belong to a different group called…",
+      "options": ["mosses", "fungi", "ferns", "conifers"],
+      "answer": 1,
+      "explanation": "Mushrooms and moulds are fungi. They cannot make their own food from sunlight, which plants can."
+    },
+    {
+      "id": "g4-a2-007", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Mangroves and floating plants",
+      "stem": "Why do many mangrove trees have roots that poke up out of the mud?",
+      "options": ["to catch fish for the tree to eat", "to drink salty water from above", "to hold up the flowers", "to take in air, because the wet salty mud has very little air"],
+      "answer": 3,
+      "explanation": "Roots need air too. The salty mud of the Sundarbans has very little air, so breathing roots grow up into the air."
+    },
+    {
+      "id": "g4-a2-008", "mode": "core", "type": "short", "difficulty": 2, "bloom": "evaluate", "subskill": "Adaptations of plants",
+      "stem": "Tisha says, 'A cactus would grow well in the Sundarbans.' Do you agree? Explain.",
+      "model_answer": "No. A cactus is adapted to dry places. In the wet, salty, muddy Sundarbans its roots would rot and it could not survive.",
+      "keywords": [["dry", "desert", "little water"], ["wet", "salty", "salt", "mud", "muddy", "rot", "soggy"], ["adapt", "adapted", "survive", "live"]],
+      "min_keywords": 2,
+      "explanation": "Adaptations only help in the right habitat. A cactus stores water for dry places, but the Sundarbans is wet and salty, so it would not survive there."
+    },
+    {
+      "id": "g4-a2-009", "mode": "core", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Natural changes",
+      "stem": "Put these steps in order to show how a storm can harm a rice field near the coast.",
+      "sequence": ["A strong cyclone pushes sea water over the land.", "Salty water floods a rice field.", "The salt stops the rice roots from taking in water.", "The rice grows badly or dies."],
+      "explanation": "Rice is not adapted to salt. Salty water pushed inland by a storm surge can kill crops, so natural changes can change which plants can grow in a place."
+    },
+    {
+      "id": "g4-a2-010", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Mangroves and floating plants",
+      "stem": "Water hyacinth floats because its leaf stalks are swollen and full of ___.",
+      "blanks": [["air"]],
+      "bank": ["air", "water", "salt", "sand"],
+      "explanation": "The spongy, air-filled stalks work like floats, so the plant stays on the surface while its roots hang down to take in minerals from the water."
+    },
+    {
+      "id": "g4-a2-011", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Mangroves and floating plants",
+      "stem": "Which are adaptations of mangrove trees? Choose all that are right.",
+      "options": ["breathing roots that take in air", "prop roots that hold the tree steady in soft mud", "leaves that can get rid of extra salt", "a thick stem that stores water", "spongy stalks that make the plant float"],
+      "answer": [0, 1, 2],
+      "explanation": "Mangroves live in salty, soft, airless mud. A thick water-storing stem belongs to a cactus and floating stalks belong to water hyacinth."
+    },
+    {
+      "id": "g4-a2-012", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "evaluate", "subskill": "Mangroves and floating plants",
+      "stem": "Water hyacinth is a problem and a gift. Sort these effects.",
+      "categories": ["Good for people", "Bad for people or nature"],
+      "items": [["floating gardens for vegetables", "Good for people"], ["baskets and mats", "Good for people"], ["compost for fields", "Good for people"], ["blocks boats", "Bad for people or nature"], ["less light for fish", "Bad for people or nature"], ["mosquitoes breed underneath", "Bad for people or nature"]],
+      "explanation": "Water hyacinth covers ponds and canals, which causes problems. But farmers and craft workers have found clever uses for it, such as floating gardens (dhap) and woven baskets."
+    },
+    {
+      "id": "g4-a2-013", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Mangroves and floating plants",
+      "stem": "The lotus has long, hollow stems. What is their job?",
+      "options": ["to carry air down to its roots in the mud", "to store water for dry weather", "to make the plant sink", "to hold up the roots like props"],
+      "answer": 0,
+      "explanation": "The roots of a lotus are buried in muddy water with little air. The hollow stems carry air down to them."
+    },
+    {
+      "id": "g4-a2-014", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Mangroves and floating plants",
+      "stem": "Look at the mangrove tree. Which labelled part holds the tree steady in the soft mud?",
+      "image": "diagrams/mangrove.svg", "image_alt": "A mangrove tree with breathing roots and prop roots in salty mud, labelled breathing roots, prop roots, salty mud and salty water.",
+      "options": ["breathing roots", "salty mud", "prop roots", "salty water"],
+      "answer": 2,
+      "explanation": "Prop roots spread out like legs and hold the tree firmly in the soft mud, so storms and tides do not knock it over. The breathing roots take in air."
+    },
+    {
+      "id": "g4-a2-015", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Plant groups",
+      "stem": "Which of these is **not** a plant?",
+      "options": [{"text": "rice plant", "image": "openmoji/rice-plant.svg"}, {"text": "mushroom", "image": "openmoji/mushroom.svg"}, {"text": "palm tree", "image": "openmoji/palm-tree.svg"}, {"text": "cactus", "image": "openmoji/cactus.svg"}],
+      "answer": 1,
+      "explanation": "A mushroom is a fungus. It cannot make its own food from sunlight, so it is not a plant."
+    },
+    {
+      "id": "g4-a2-016", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "understand", "subskill": "Adaptations of plants",
+      "stem": "Match each plant to the adaptation that helps it survive.",
+      "pairs": [[{"text": "lotus", "image": "openmoji/lotus.svg"}, "waxy leaves that water rolls off"], [{"text": "cactus", "image": "openmoji/cactus.svg"}, "thick stem that stores water"], [{"text": "palm tree", "image": "openmoji/palm-tree.svg"}, "bendy trunk that survives storms"]],
+      "explanation": "Water slides off a lotus leaf, a cactus keeps a store of water in its stem for dry weather, and a palm bends in the wind instead of snapping."
+    },
+    {
+      "id": "g4-a2-017", "mode": "picture", "type": "multi", "difficulty": 1, "bloom": "apply", "subskill": "Plant groups",
+      "stem": "Which of these are flowering plants? Choose all that are right.",
+      "options": [{"text": "sunflower", "image": "openmoji/sunflower.svg"}, {"text": "mushroom", "image": "openmoji/mushroom.svg"}, {"text": "lotus", "image": "openmoji/lotus.svg"}, {"text": "rose", "image": "openmoji/rose.svg"}],
+      "answer": [0, 2, 3],
+      "explanation": "Sunflowers, lotuses and roses all grow flowers that make seeds. A mushroom is a fungus, so it is not a plant at all."
+    },
+    {
+      "id": "g4-a2-018", "mode": "picture", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Adaptations of plants",
+      "stem": "Where is each plant adapted to live? Sort the pictures.",
+      "categories": ["Dry, sandy place", "Wet place", "Windy coast"],
+      "items": [[{"text": "cactus", "image": "openmoji/cactus.svg"}, "Dry, sandy place"], [{"text": "lotus", "image": "openmoji/lotus.svg"}, "Wet place"], [{"text": "rice plant", "image": "openmoji/rice-plant.svg"}, "Wet place"], [{"text": "palm tree", "image": "openmoji/palm-tree.svg"}, "Windy coast"]],
+      "explanation": "A cactus stores water for deserts, lotus and rice grow in water or flooded fields, and palm trees bend in the strong winds of the coast."
+    },
+    {
+      "id": "g4-a2-019", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Mangroves and floating plants",
+      "stem": "Which plant has waxy leaves that water rolls off and long hollow stems that carry air down to its roots in the mud?",
+      "options": [{"text": "cactus", "image": "openmoji/cactus.svg"}, {"text": "lotus", "image": "openmoji/lotus.svg"}, {"text": "palm tree", "image": "openmoji/palm-tree.svg"}, {"text": "mushroom", "image": "openmoji/mushroom.svg"}],
+      "answer": 1,
+      "explanation": "The lotus lives in muddy pools. Its waxy leaves shed water and its hollow stems bring air to the roots."
+    },
+    {
+      "id": "g4-a2-020", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Natural changes",
+      "stem": "A cyclone floods a farm near Khulna with salty sea water. The farmer wants to grow a crop that has a chance of surviving next season. What is the sensible choice?",
+      "options": ["a variety of rice that can grow in slightly salty soil", "a cactus, because it stores water", "lotus, because it likes standing water", "the same ordinary rice, but with more salty water"],
+      "answer": 0,
+      "explanation": "Salt-tolerant rice is bred to cope with salty soil. Ordinary rice is not adapted to salt, and a cactus is adapted to dry places, not salty ones."
+    },
+    {
+      "id": "g4-a2-021", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Plant groups",
+      "stem": "Mina finds green moss on a damp, shady garden wall. Where else would she be most likely to find moss?",
+      "options": ["on a hot, dry, sunny road", "on a damp, shady tree trunk", "on a tin roof in the sun", "in dry sand"],
+      "answer": 1,
+      "explanation": "Mosses are non-flowering plants that grow in damp, shady places, where their spores can grow and they do not dry out."
+    },
+    {
+      "id": "g4-a2-022", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "evaluate", "subskill": "Mangroves and floating plants",
+      "stem": "A village pond is covered by water hyacinth and the fishing boats are stuck. What is a sensible way to use the plants once they are pulled out?",
+      "options": ["pour strong chemicals into the pond", "put them back in the pond to rot", "pile them up for compost or a floating vegetable garden", "burn them on the pond bank all week"],
+      "answer": 2,
+      "explanation": "In Bangladesh people use water hyacinth for compost, cattle food, craft baskets and floating gardens (dhap). Chemicals would harm the fish and the water."
+    },
+    {
+      "id": "g4-a2-023", "mode": "real-life", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Plant groups",
+      "stem": "Raju sees green fuzzy mould growing on old bread. He says it is a small plant because it is green and it grows.",
+      "answer": false,
+      "explanation": "Mould is a fungus, not a plant. It cannot make its own food from sunlight, so it gets its food by growing on the bread."
+    },
+    {
+      "id": "g4-a2-024", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Natural changes",
+      "stem": "People in villages behind the Sundarbans say the forest protects them when a cyclone comes. Why?",
+      "options": ["The mangroves turn the cyclone away from the coast.", "The mangroves stop the tide from coming in.", "The mangroves slow the wind and the waves.", "The mangroves make the rain stop."],
+      "answer": 2,
+      "explanation": "The trees and thick roots of the mangroves slow down the wind and the waves, so less force reaches the villages behind them."
+    },
+    {
+      "id": "g4-a2-025", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "apply", "subskill": "Mangroves and floating plants",
+      "stem": "A patch of water hyacinth covers 3 square metres of a pond and doubles its area every 2 weeks. How much will it cover after 6 weeks?",
+      "options": ["9 square metres", "18 square metres", "24 square metres", "12 square metres"],
+      "answer": 2,
+      "explanation": "After 2 weeks: 6 m². After 4 weeks: 12 m². After 6 weeks: 24 m². 'Doubles' means multiply by 2 each time, not add 3."
+    },
+    {
+      "id": "g4-a2-026", "mode": "olympiad", "type": "fill", "difficulty": 3, "bloom": "analyse", "subskill": "Adaptations of plants",
+      "stem": "Class 4B repeated the model-leaf test (example data). Plain leaves lost 10 g and 14 g of water. Waxy leaves lost 2 g and 4 g. On average, the plain leaves lost ___ times as much water as the waxy leaves.",
+      "blanks": [["4", "four"]],
+      "explanation": "Mean for plain leaves = (10 + 14) ÷ 2 = 12 g. Mean for waxy leaves = (2 + 4) ÷ 2 = 3 g. 12 ÷ 3 = 4 times. A waxy coat stops a leaf losing so much water."
+    },
+    {
+      "id": "g4-a2-027", "mode": "olympiad", "type": "multi", "difficulty": 3, "bloom": "evaluate", "subskill": "Adaptations of plants",
+      "stem": "Class 4A tests whether a waxy coat stops model leaves (wet paper towels) drying out. Which choices would make the test **unfair**? Choose all that are right.",
+      "options": ["using a bigger paper towel for the waxy leaf", "leaving the plain leaves in the shade and the waxy leaves in the sun", "using the same amount of water on every leaf", "weighing each leaf at the start and again after 3 hours", "leaving the waxy leaves for 6 hours and the plain leaves for 3 hours"],
+      "answer": [0, 1, 4],
+      "explanation": "Only the wax should change. Different sizes, different places and different times are extra changes. The same water and weighing at the start and end are good practice."
+    },
+    {
+      "id": "g4-a2-028", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "analyse", "subskill": "Adaptations of plants",
+      "stem": "In a long drought, plant X has small waxy leaves and deep roots. Plant Y has large thin leaves and shallow roots. Which statement is best?",
+      "options": ["X survives better, because waxy leaves lose less water and deep roots reach water underground.", "Y survives better, because large leaves can collect more rain.", "Y survives better, because shallow roots are closer to the sun.", "X survives better, because waxy leaves make water for the plant."],
+      "answer": 0,
+      "explanation": "Small waxy leaves lose little water to the air, and deep roots reach water below the dry surface. Plants do not make water, and large thin leaves lose more of it."
+    },
+    {
+      "id": "g4-a2-029", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Mangroves and floating plants",
+      "stem": "Joy says, 'Water hyacinth is only a problem. We should destroy all of it.' Give one reason why she may be right and one reason why she may be wrong.",
+      "model_answer": "She may be right because water hyacinth blocks boats, shades the water so fish get less light and air, and lets mosquitoes breed. She may be wrong because people use it for compost, floating gardens, cattle food and baskets.",
+      "keywords": [["block", "blocks", "boat", "boats", "mosquito", "mosquitoes", "fish", "light", "shade", "stuck"], ["garden", "gardens", "compost", "food", "basket", "baskets", "craft", "mats", "useful", "uses", "dhap"]],
+      "min_keywords": 2,
+      "explanation": "A good answer weighs both sides with evidence. Water hyacinth causes problems for boats, fish and health, but it is also a useful material for farmers and craft workers."
+    },
+    {
+      "id": "g4-a2-030", "mode": "olympiad", "type": "truefalse", "difficulty": 3, "bloom": "evaluate", "subskill": "Natural changes",
+      "stem": "About a quarter of the Sundarbans was badly damaged by Cyclone Sidr in 2007, but the mangroves grew back over the following years. Hamid says, 'This proves that no kind of plant ever dies out after a cyclone.' Is Hamid's conclusion supported?",
+      "answer": false,
+      "explanation": "The evidence only shows that the mangroves grew back. It does not tell us about every plant, and natural changes can make some plants die and new kinds take their place."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "grade": 4,
+  "grade_name": "Grade 4",
+  "topic": "C4",
+  "title": "Forces and Motion",
+  "strand": "physical",
+  "worksheet": "worksheets/grade-4-science/pdf/c4-forces-and-motion-study-pack.pdf",
+  "questions": [
+    {
+      "id": "g4-c4-001", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "What forces are and do",
+      "stem": "A force is…",
+      "options": ["a kind of energy", "a type of matter", "a push or a pull", "a measure of speed"],
+      "answer": 2,
+      "explanation": "A force is a push or a pull. We cannot see forces, but we can see what they do: start, stop, speed up, slow down, change direction or change shape."
+    },
+    {
+      "id": "g4-c4-002", "mode": "core", "type": "sort", "difficulty": 2, "bloom": "apply", "subskill": "Mass and weight",
+      "stem": "Sort these into mass (measured in kg) or weight and force (measured in N).",
+      "categories": ["Mass (kg)", "Weight or force (N)"],
+      "items": [["the amount of matter in a bag of rice", "Mass (kg)"], ["the number shown by a balance", "Mass (kg)"], ["the pull of gravity on a mango", "Weight or force (N)"], ["a push on a door", "Weight or force (N)"], ["a reading on a forcemeter", "Weight or force (N)"]],
+      "explanation": "Mass is how much matter something has and is measured in kilograms with a balance. Weight is the pull of gravity, a force, so it is measured in newtons with a forcemeter."
+    },
+    {
+      "id": "g4-c4-003", "mode": "core", "type": "sort", "difficulty": 1, "bloom": "understand", "subskill": "Types of force",
+      "stem": "Sort these forces into contact forces or non-contact forces.",
+      "categories": ["Contact force", "Non-contact force"],
+      "items": [["friction", "Contact force"], ["tension in a rope", "Contact force"], ["a kick", "Contact force"], ["upthrust from water", "Contact force"], ["gravity", "Non-contact force"], ["magnetic force", "Non-contact force"]],
+      "explanation": "Contact forces need the objects to touch. Gravity and magnetic force act at a distance: gravity pulls a mango down from a tree without touching it."
+    },
+    {
+      "id": "g4-c4-004", "mode": "core", "type": "match", "difficulty": 1, "bloom": "understand", "subskill": "Types of force",
+      "stem": "Match each event to the force at work.",
+      "pairs": [["a coconut falls from a palm", "gravity"], ["a rickshaw's brakes slow its wheels", "friction"], ["the string of a flying kite is pulled tight", "tension"], ["a boat floats on the river", "upthrust"]],
+      "explanation": "Gravity pulls things down, friction slows things that rub, tension is the pull in a stretched string, and upthrust is water pushing up on an object."
+    },
+    {
+      "id": "g4-c4-005", "mode": "core", "type": "fill", "difficulty": 1, "bloom": "remember", "subskill": "Mass and weight",
+      "stem": "Mass is measured in ___ and weight is measured in ___.",
+      "blanks": [["kilograms", "kilogram", "kg"], ["newtons", "newton", "N"]],
+      "bank": ["kilograms", "newtons", "metres", "litres"],
+      "explanation": "Mass is measured in kilograms (kg). Weight is a force, so it is measured in newtons (N)."
+    },
+    {
+      "id": "g4-c4-006", "mode": "core", "type": "truefalse", "difficulty": 1, "bloom": "understand", "subskill": "Mass and weight",
+      "stem": "An astronaut has a smaller mass on the Moon than on Earth.",
+      "answer": false,
+      "explanation": "Mass is the amount of matter, so it stays the same. Her weight is smaller on the Moon because the Moon's gravity pulls less."
+    },
+    {
+      "id": "g4-c4-007", "mode": "core", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Mass and weight",
+      "stem": "On Earth, an object with a mass of 1 kg has a weight of about…",
+      "options": ["1 N", "6 N", "10 N", "100 N"],
+      "answer": 2,
+      "explanation": "On Earth, each kilogram has a weight of about 10 newtons."
+    },
+    {
+      "id": "g4-c4-008", "mode": "core", "type": "mcq", "difficulty": 2, "bloom": "understand", "subskill": "Laws of motion",
+      "stem": "A football rolls across grass and slowly stops. Which is the best explanation?",
+      "options": ["The football runs out of force.", "Gravity pulls it backwards.", "Friction from the grass slows it down.", "The grass pushes it up."],
+      "answer": 2,
+      "explanation": "A moving object keeps moving in a straight line unless a force acts on it. Friction between the ball and the grass is the force that stops it."
+    },
+    {
+      "id": "g4-c4-009", "mode": "core", "type": "match", "difficulty": 2, "bloom": "understand", "subskill": "Laws of motion",
+      "stem": "Match each example to the law of motion it shows.",
+      "pairs": [["a still football stays still until it is kicked", "things keep doing what they are doing"], ["a heavy cart needs a bigger push than a light one", "bigger force, bigger change"], ["a rocket pushes gas down and the gas pushes the rocket up", "every push has a push back"]],
+      "explanation": "Law 1: things keep doing what they are doing unless a force acts. Law 2: a bigger force makes a bigger change. Law 3: every push has a push back."
+    },
+    {
+      "id": "g4-c4-010", "mode": "core", "type": "truefalse", "difficulty": 2, "bloom": "analyse", "subskill": "Friction and air resistance",
+      "stem": "A rickshaw could stop easily without any friction between its tyres and the road.",
+      "answer": false,
+      "explanation": "Brakes and tyres work because of friction. Without friction, the rickshaw would keep sliding and moving, just as the first law of motion says."
+    },
+    {
+      "id": "g4-c4-011", "mode": "core", "type": "multi", "difficulty": 2, "bloom": "understand", "subskill": "Friction and air resistance",
+      "stem": "Which of these things can friction do? Choose all that are right.",
+      "options": ["slow down a moving object", "help shoes grip the ground", "make rubbing surfaces warm", "make a still object start moving by itself", "make objects heavier"],
+      "answer": [0, 1, 2],
+      "explanation": "Friction slows moving things, lets us grip the ground without slipping, and turns movement energy into heat. It cannot start motion on its own or change weight."
+    },
+    {
+      "id": "g4-c4-012", "mode": "core", "type": "short", "difficulty": 2, "bloom": "apply", "subskill": "Friction and air resistance",
+      "stem": "Why do people spread sand or gravel on a slippery, muddy path in the monsoon?",
+      "model_answer": "Sand and gravel increase the friction, so feet and tyres grip the path and do not slip.",
+      "keywords": [["friction", "grip", "grips", "gripping"], ["slip", "slips", "slipping", "slippery"], ["sand", "gravel", "rough"]],
+      "min_keywords": 2,
+      "explanation": "Mud is very smooth, so there is little friction. A rough layer of sand or gravel gives more friction, so people and tyres can grip."
+    },
+    {
+      "id": "g4-c4-013", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "remember", "subskill": "Measuring forces",
+      "stem": "Read the forcemeter. What force does it show?",
+      "image": "diagrams/forcemeter-4n.svg", "image_alt": "A forcemeter with a scale from 0 to 10 newtons. The pointer is at 4.",
+      "options": ["3 N", "5 N", "4 N", "6 N"],
+      "answer": 2,
+      "explanation": "The pointer is at the 4 on the scale, so the force is 4 newtons. The bigger the pull, the more the spring inside stretches."
+    },
+    {
+      "id": "g4-c4-014", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Mass and weight",
+      "stem": "Mina hangs a bag of rice on the forcemeter. It reads as shown. On Earth, 1 kg weighs about 10 N. About what is the mass of the rice?",
+      "image": "diagrams/forcemeter-7n.svg", "image_alt": "A forcemeter with a scale from 0 to 10 newtons. The pointer is at 7.",
+      "options": ["7 kg", "0.7 kg", "70 kg", "1 kg"],
+      "answer": 1,
+      "explanation": "The reading is 7 N, which is the weight. Dividing by 10 N for each kilogram gives a mass of about 0.7 kg."
+    },
+    {
+      "id": "g4-c4-015", "mode": "picture", "type": "mcq", "difficulty": 1, "bloom": "understand", "subskill": "Types of force",
+      "stem": "Look at the picture. Which labelled force acts against the pull and slows the box?",
+      "image": "diagrams/force-arrows.svg", "image_alt": "A box on the floor with four arrows: pull to the right, friction to the left, weight (gravity) down and support from the floor up.",
+      "options": ["weight (gravity)", "friction", "support from the floor", "pull"],
+      "answer": 1,
+      "explanation": "Friction acts in the opposite direction to the movement, where the box rubs on the floor. It is shown by the arrow pointing to the left."
+    },
+    {
+      "id": "g4-c4-016", "mode": "picture", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Types of force",
+      "stem": "Look at the picture. Which of these forces acts on the box without touching it?",
+      "image": "diagrams/force-arrows.svg", "image_alt": "A box on the floor with four arrows: pull to the right, friction to the left, weight (gravity) down and support from the floor up.",
+      "options": ["pull", "friction", "support from the floor", "weight (gravity)"],
+      "answer": 3,
+      "explanation": "Gravity is a non-contact force: it pulls the box down towards the Earth at a distance. The pull, friction and the support from the floor all need contact."
+    },
+    {
+      "id": "g4-c4-017", "mode": "picture", "type": "match", "difficulty": 1, "bloom": "understand", "subskill": "Types of force",
+      "stem": "Match each picture to the force that is acting.",
+      "pairs": [[{"text": "parachute", "image": "openmoji/parachute.svg"}, "air resistance slows its fall"], [{"text": "rowing boat", "image": "openmoji/rowing-boat.svg"}, "upthrust holds it up on the water"], [{"text": "magnet", "image": "openmoji/magnet.svg"}, "magnetic force acts at a distance"], [{"text": "kite", "image": "openmoji/kite.svg"}, "tension in the string"]],
+      "explanation": "Air resistance is friction from the air, upthrust is the push of water or air upwards, a magnet pulls without touching, and a stretched string pulls with tension."
+    },
+    {
+      "id": "g4-c4-018", "mode": "real-life", "type": "fill", "difficulty": 2, "bloom": "apply", "subskill": "Balanced and unbalanced forces",
+      "stem": "Example tug-of-war (dori tana): in round 2, Team Shapla pulls with 900 N and Team Doel with 750 N. The rope moves towards Team ___, and the difference in force is ___ N.",
+      "blanks": [["Shapla"], ["150", "one hundred and fifty"]],
+      "bank": ["Shapla", "Doel", "150", "1650"],
+      "explanation": "The team that pulls harder wins. The unbalanced force is 900 − 750 = 150 N towards Shapla. If both teams pulled 800 N, the forces would be balanced and the rope would not move."
+    },
+    {
+      "id": "g4-c4-019", "mode": "real-life", "type": "multi", "difficulty": 2, "bloom": "apply", "subskill": "Friction and air resistance",
+      "stem": "Kabaddi players play barefoot and must grip the ground to push off and turn. Which surfaces would give good grip? Choose all that are right.",
+      "options": ["dry soil", "a thick rubber mat", "polished smooth tiles", "a wet plastic sheet", "a rough jute mat"],
+      "answer": [0, 1, 4],
+      "explanation": "Rough surfaces such as soil and mats have a lot of friction, so feet grip. Smooth or wet surfaces have little friction, so players would slip."
+    },
+    {
+      "id": "g4-c4-020", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Laws of motion",
+      "stem": "A boatman pushes the water backwards with his oar, and the boat moves forwards. Which is the best explanation?",
+      "options": ["The oar pulls the boat forwards through the air.", "The water pushes back on the oar, so the boat moves forwards.", "Gravity pulls the boat along the river.", "The boat moves because it has no mass."],
+      "answer": 1,
+      "explanation": "This is the third law of motion: every push has a push back. When the oar pushes the water backwards, the water pushes the oar, and so the boat, forwards."
+    },
+    {
+      "id": "g4-c4-021", "mode": "real-life", "type": "mcq", "difficulty": 2, "bloom": "apply", "subskill": "Friction and air resistance",
+      "stem": "Racing bicycles have a smooth, narrow shape. How does this help a cyclist?",
+      "options": ["It makes gravity weaker.", "It increases air resistance.", "It makes the bike heavier.", "It reduces air resistance, so the bike can go faster."],
+      "answer": 3,
+      "explanation": "Air resistance is friction from the air. A shape that cuts through the air has less air resistance, so the cyclist is slowed down less."
+    },
+    {
+      "id": "g4-c4-022", "mode": "real-life", "type": "order", "difficulty": 2, "bloom": "understand", "subskill": "Movement passes between objects",
+      "stem": "Put the steps in order for a carrom shot.",
+      "sequence": ["The striker is flicked and moves across the board.", "The striker hits a coin.", "Movement energy passes from the striker to the coin.", "The striker slows down.", "The coin moves off."],
+      "explanation": "Moving things have movement (kinetic) energy. When the striker hits the coin, some of its energy passes to the coin, so the striker slows and the coin moves."
+    },
+    {
+      "id": "g4-c4-023", "mode": "simulation", "type": "fill", "difficulty": 1, "bloom": "analyse", "subskill": "Balanced and unbalanced forces",
+      "stem": "In the simulation, with one small puller on the left and one large puller on the right, the cart moves towards the ___ when you press Go.",
+      "sim": {"id": "forces-and-motion-basics", "task": "Open Forces and Motion: Basics and choose the Net Force screen. Put one small puller on the left (blue) rope and one large puller on the right (red) rope. Press Go and watch the cart."},
+      "blanks": [["right", "red"]],
+      "bank": ["left", "right", "neither side"],
+      "explanation": "The bigger total pull wins, so the cart moves towards the large puller on the right. If the pulls were equal, the forces would be balanced and the cart would not move."
+    },
+    {
+      "id": "g4-c4-024", "mode": "simulation", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Laws of motion",
+      "stem": "In the simulation, with friction set to none, what does the crate do after you stop pushing?",
+      "sim": {"id": "forces-and-motion-basics", "task": "Open Forces and Motion: Basics and choose the Friction screen. Set the friction slider to none. Use the applied-force slider to push the crate until it is moving, then set the applied force back to zero and watch the crate."},
+      "options": ["It stops at once.", "It slows down slowly and stops.", "It keeps moving at the same speed.", "It speeds up more and more."],
+      "answer": 2,
+      "explanation": "With no friction there is no force to slow the crate, so it keeps moving at the same speed in a straight line. This is the first law of motion. Try again with lots of friction to see it stop."
+    },
+    {
+      "id": "g4-c4-025", "mode": "simulation", "type": "mcq", "difficulty": 2, "bloom": "analyse", "subskill": "Friction and air resistance",
+      "stem": "In the simulation, what happens as you keep rubbing the top book across the bottom book?",
+      "sim": {"id": "friction", "task": "Open Friction. Drag the top book back and forth across the bottom book for a while. Watch the atoms and the thermometer."},
+      "options": ["Nothing changes.", "The thermometer reading goes up and the atoms jiggle faster.", "The thermometer reading goes down.", "The books get heavier."],
+      "answer": 1,
+      "explanation": "Friction turns movement energy into heat. The atoms jiggle faster, so the surfaces get warmer. This is why your hands feel warm when you rub them together."
+    },
+    {
+      "id": "g4-c4-026", "mode": "olympiad", "type": "order", "difficulty": 3, "bloom": "analyse", "subskill": "Friction and air resistance",
+      "stem": "Class 4D rolled a toy car down a ramp onto four surfaces (example results, mean of three tries): tiles 160 cm, wood 120 cm, carpet 50 cm, grass 25 cm. Put the surfaces in order from the least friction to the most friction.",
+      "sequence": ["tiles (160 cm)", "wood (120 cm)", "carpet (50 cm)", "grass (25 cm)"],
+      "explanation": "The more friction a surface has, the sooner the car stops. The shortest distance, on grass, means the most friction, and the longest distance, on tiles, means the least."
+    },
+    {
+      "id": "g4-c4-027", "mode": "olympiad", "type": "multi", "difficulty": 3, "bloom": "analyse", "subskill": "Balanced and unbalanced forces",
+      "stem": "Example tug-of-war results, in newtons. In which rounds are the forces unbalanced, so that the rope moves? Choose all that are right.",
+      "options": ["Round 1: Shapla 800 N, Doel 800 N", "Round 2: Shapla 900 N, Doel 750 N", "Round 3: Shapla 700 N, Doel 850 N", "Round 4: Shapla 600 N, Doel 600 N", "Round 5: Shapla 1000 N, Doel 950 N"],
+      "answer": [1, 2, 4],
+      "explanation": "Forces are unbalanced when the two pulls are different, even if the difference is small. Rounds 1 and 4 have equal pulls, so the forces are balanced and the rope does not move."
+    },
+    {
+      "id": "g4-c4-028", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "apply", "subskill": "Mass and weight",
+      "stem": "An astronaut has a mass of 60 kg. On Earth her weight is about 600 N. The Moon's gravity is about 6 times weaker. What are her mass and weight on the Moon?",
+      "options": ["10 kg and 100 N", "60 kg and 100 N", "60 kg and 600 N", "10 kg and 600 N"],
+      "answer": 1,
+      "explanation": "Her mass stays 60 kg because the amount of matter does not change. Her weight is 600 N ÷ 6 = 100 N because gravity is weaker."
+    },
+    {
+      "id": "g4-c4-029", "mode": "olympiad", "type": "short", "difficulty": 3, "bloom": "evaluate", "subskill": "Laws of motion",
+      "stem": "A rickshaw puller pushes an empty van and then the same van loaded with sacks, using the same force each time. Which one speeds up more slowly? Explain why.",
+      "model_answer": "The loaded van speeds up more slowly, because it has more mass, so the same force makes a smaller change in its speed.",
+      "keywords": [["loaded", "full", "heavy", "heavier", "sacks", "more mass"], ["same force", "force", "push", "pull"], ["slower", "slowly", "less", "smaller"]],
+      "min_keywords": 2,
+      "explanation": "A bigger mass needs a bigger force to change its speed by the same amount. With the same force, the heavier van changes speed more slowly."
+    },
+    {
+      "id": "g4-c4-030", "mode": "olympiad", "type": "mcq", "difficulty": 3, "bloom": "evaluate", "subskill": "Fair testing",
+      "stem": "Joy tests how far a toy car rolls on different surfaces. For the sandpaper she lets the car go from higher up the ramp than for the tiles. What is wrong?",
+      "options": ["Nothing is wrong, because a higher start makes the test fairer.", "She should have used a heavier car on the sandpaper.", "She changed the start height as well as the surface, so the test is not fair.", "She should have used a different ramp for each surface."],
+      "answer": 2,
+      "explanation": "In a fair test only one thing is changed, here the surface. The car, ramp, slope and starting point must stay the same, otherwise we cannot tell what caused the difference in distance."
+    }
+  ]
+}
