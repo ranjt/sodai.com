@@ -1,0 +1,686 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "A7",
+ "title": "Living Things in Their Environment",
+ "strand": "living",
+ "worksheet": "worksheets/grade-5-science/pdf/a7-living-things-in-their-environment-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-a7-001",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Food chains and food webs",
+   "stem": "Match each ecology word to its meaning.",
+   "pairs": [
+    [
+     "producer",
+     "makes its own food using light"
+    ],
+    [
+     "herbivore",
+     "eats only plants"
+    ],
+    [
+     "carnivore",
+     "eats only animals"
+    ],
+    [
+     "omnivore",
+     "eats plants and animals"
+    ],
+    [
+     "decomposer",
+     "breaks down dead plants and animals"
+    ],
+    [
+     "habitat",
+     "the place where a living thing lives"
+    ]
+   ],
+   "explanation": "Producers start every food chain. Consumers eat other living things, and decomposers break down what is dead."
+  },
+  {
+   "id": "g5-a7-002",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Food chains and food webs",
+   "stem": "Every food chain starts with a producer.",
+   "answer": true,
+   "explanation": "Producers, such as green plants and algae, make their own food using light energy from the Sun. All the animals in the chain depend on them."
+  },
+  {
+   "id": "g5-a7-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Food chains and food webs",
+   "stem": "In a food web, the arrows point from the animal that eats to the food it eats.",
+   "answer": false,
+   "explanation": "The arrows point from the food to the animal that eats it, because they show the direction in which energy moves."
+  },
+  {
+   "id": "g5-a7-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Habitats and biodiversity",
+   "stem": "A field with only one crop has high biodiversity.",
+   "answer": false,
+   "explanation": "Biodiversity is the variety of living things in a place. A field with one crop has very little variety. A rainforest or a coral reef has a great deal."
+  },
+  {
+   "id": "g5-a7-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Energy and matter in ecosystems",
+   "stem": "Energy enters a food web as ___ from the Sun. Plants use it to make ___.",
+   "blanks": [
+    [
+     "sunlight",
+     "light"
+    ],
+    [
+     "food"
+    ]
+   ],
+   "bank": [
+    "sunlight",
+    "food",
+    "soil",
+    "rain"
+   ],
+   "explanation": "Plants and algae trap light energy from the Sun and use it to make food. Consumers then get the energy by eating them."
+  },
+  {
+   "id": "g5-a7-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Learning from nature",
+   "stem": "Copying ideas from nature to solve human problems is called ___.",
+   "blanks": [
+    [
+     "biomimicry"
+    ]
+   ],
+   "bank": [
+    "biomimicry",
+    "biodiversity",
+    "habitat",
+    "decomposer"
+   ],
+   "explanation": "Velcro copies the hooks of burrs and the bullet train's nose copies a kingfisher's beak. Both are examples of biomimicry."
+  },
+  {
+   "id": "g5-a7-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Food chains and food webs",
+   "stem": "Sort each living thing into producer, consumer or decomposer.",
+   "categories": [
+    "Producer",
+    "Consumer",
+    "Decomposer"
+   ],
+   "items": [
+    [
+     "algae",
+     "Producer"
+    ],
+    [
+     "mangrove tree",
+     "Producer"
+    ],
+    [
+     "deer",
+     "Consumer"
+    ],
+    [
+     "tiger",
+     "Consumer"
+    ],
+    [
+     "shrimp",
+     "Consumer"
+    ],
+    [
+     "fungi",
+     "Decomposer"
+    ],
+    [
+     "bacteria",
+     "Decomposer"
+    ],
+    [
+     "earthworm",
+     "Decomposer"
+    ]
+   ],
+   "explanation": "Producers make their own food. Consumers eat other living things. Decomposers such as fungi, bacteria and earthworms break down dead material and return nutrients to the soil."
+  },
+  {
+   "id": "g5-a7-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Food chains and food webs",
+   "stem": "Put this food chain in order, starting with the producer.",
+   "sequence": [
+    "algae",
+    "shrimp",
+    "fish",
+    "kingfisher"
+   ],
+   "explanation": "Each animal eats the one before it, and the energy moves along the arrows: algae → shrimp → fish → kingfisher."
+  },
+  {
+   "id": "g5-a7-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Energy and matter in ecosystems",
+   "stem": "Why are there far fewer tigers than deer in the Sundarbans?",
+   "options": [
+    "Energy is lost at each step, so there is less left for tigers.",
+    "Deer pass on all of their energy, so tigers need very little.",
+    "Tigers are less able to find fresh water than the deer are.",
+    "Tigers eat only leaves, and there are very few leaves."
+   ],
+   "answer": 0,
+   "explanation": "At each step much energy is used for moving and keeping warm, so less is passed on. A forest can feed many deer but only a few top predators."
+  },
+  {
+   "id": "g5-a7-010",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Learning from nature",
+   "stem": "Which of these are examples of biomimicry? Choose all that are right.",
+   "options": [
+    "Velcro copied from burrs",
+    "a train nose shaped like a kingfisher's beak",
+    "buildings cooled like a termite mound",
+    "planting trees in a park",
+    "building a fence round a forest"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Biomimicry means copying how plants and animals do things. Planting trees and building fences protect nature but do not copy a feature of it."
+  },
+  {
+   "id": "g5-a7-011",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Energy and matter in ecosystems",
+   "stem": "Why are decomposers important in an ecosystem?",
+   "model_answer": "Decomposers break down dead plants and animals and return nutrients to the soil, so plants can use them again.",
+   "keywords": [
+    [
+     "break down",
+     "breaks down",
+     "decompose",
+     "rot",
+     "recycle",
+     "recycles"
+    ],
+    [
+     "dead",
+     "waste",
+     "plants and animals"
+    ],
+    [
+     "nutrients",
+     "soil",
+     "minerals",
+     "reused",
+     "again"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Without decomposers dead material would pile up and nutrients would stay locked inside it. They return the nutrients to the soil for new plants."
+  },
+  {
+   "id": "g5-a7-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Habitats and biodiversity",
+   "stem": "What does biodiversity mean?",
+   "options": [
+    "the number of people living in a big city",
+    "the total size of a forest, pond or field",
+    "the amount of rain that falls in a place",
+    "the variety of living things in a place"
+   ],
+   "answer": 3,
+   "explanation": "A pond, a mangrove forest or a coral reef can each have a great variety of living things. High biodiversity usually makes an ecosystem healthier."
+  },
+  {
+   "id": "g5-a7-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Food chains and food webs",
+   "stem": "What does the arrow from the deer to the tiger show?",
+   "image": "diagrams/food-chain-sundarbans.svg",
+   "image_alt": "A food chain in the Sundarbans: leaves, then deer, then tiger.",
+   "options": [
+    "The tiger gives all of its energy to the deer.",
+    "Energy passes from the deer to the tiger.",
+    "The deer hunts and eats the tiger each day.",
+    "The tiger is a producer that makes food."
+   ],
+   "answer": 1,
+   "explanation": "The arrow shows the direction in which energy moves: from the food to the animal that eats it. The tiger eats the deer."
+  },
+  {
+   "id": "g5-a7-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Food chains and food webs",
+   "stem": "Which living thing is the top predator in this food chain?",
+   "image": "diagrams/food-chain-rice-field.svg",
+   "image_alt": "A rice field food chain: grass, then grasshopper, then frog, then snake.",
+   "options": [
+    "grass",
+    "grasshopper",
+    "frog",
+    "snake"
+   ],
+   "answer": 3,
+   "explanation": "The snake eats the frog and is not eaten by anything else in this chain, so it is the top predator. The grass is the producer."
+  },
+  {
+   "id": "g5-a7-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Food chains and food webs",
+   "stem": "Which number shows a producer in the pond?",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with parts numbered: 1 Sun, 2 air and clouds, 3 duck, 4 fish, 5 water, 6 rock, 7 water plants, 8 frog.",
+   "options": [
+    "3",
+    "4",
+    "7",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "Water plants (7) make their own food using light energy from the Sun (1). The duck, fish and frog are consumers."
+  },
+  {
+   "id": "g5-a7-016",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Habitats and biodiversity",
+   "stem": "Which numbers are non-living parts of the pond ecosystem? Choose all that are right.",
+   "image": "diagrams/pond-ecosystem-numbered.svg",
+   "image_alt": "A pond ecosystem with parts numbered: 1 Sun, 2 air and clouds, 3 duck, 4 fish, 5 water, 6 rock, 7 water plants, 8 frog.",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "The Sun (1), the water (5) and the rock (6) are non-living. The duck (3), water plants (7) and frog (8) are living things. Together they make the ecosystem."
+  },
+  {
+   "id": "g5-a7-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Habitats and biodiversity",
+   "stem": "Why do the mangrove tree's roots poke up out of the mud?",
+   "image": "diagrams/mangrove.svg",
+   "image_alt": "A mangrove tree with breathing roots and prop roots standing in salty mud and salty water.",
+   "options": [
+    "to take in air",
+    "to find the tiger's footprints",
+    "to collect fresh water from the rain",
+    "to make seeds for the tree"
+   ],
+   "answer": 0,
+   "explanation": "Mangrove mud is salty and has little air. The special breathing roots stick up above the mud so that the tree can breathe."
+  },
+  {
+   "id": "g5-a7-018",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Food chains and food webs",
+   "stem": "Sort the animals by what they eat.",
+   "categories": [
+    "Herbivore",
+    "Carnivore",
+    "Omnivore"
+   ],
+   "items": [
+    [
+     {
+      "text": "deer",
+      "image": "openmoji/deer.svg"
+     },
+     "Herbivore"
+    ],
+    [
+     {
+      "text": "cow",
+      "image": "openmoji/cow.svg"
+     },
+     "Herbivore"
+    ],
+    [
+     {
+      "text": "tiger",
+      "image": "openmoji/tiger.svg"
+     },
+     "Carnivore"
+    ],
+    [
+     {
+      "text": "snake",
+      "image": "openmoji/snake.svg"
+     },
+     "Carnivore"
+    ],
+    [
+     {
+      "text": "pig",
+      "image": "openmoji/pig.svg"
+     },
+     "Omnivore"
+    ],
+    [
+     {
+      "text": "rat",
+      "image": "openmoji/rat.svg"
+     },
+     "Omnivore"
+    ]
+   ],
+   "explanation": "Herbivores eat only plants, carnivores eat only animals, and omnivores eat both."
+  },
+  {
+   "id": "g5-a7-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Food chains and food webs",
+   "stem": "A factory pours chemicals into a pond and kills all the algae. In the chain algae → shrimp → fish → kingfisher, which animals lose their food first?",
+   "options": [
+    "the kingfishers, because they are at the top",
+    "the tigers, because they are the largest",
+    "the shrimp",
+    "the earthworms, because they live in the soil"
+   ],
+   "answer": 2,
+   "explanation": "The shrimp eat the algae, so they run short of food first. The fish and kingfishers are affected next as the loss passes along the food chain."
+  },
+  {
+   "id": "g5-a7-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Human impact",
+   "stem": "In 2014 an oil tanker spilled heavy oil in the Shela River inside the Sundarbans. Why could this harm the whole food web?",
+   "options": [
+    "Oil makes all of the mangrove trees grow far too quickly.",
+    "Producers are harmed, so their consumers lose food.",
+    "Oil attracts many more tigers to the river banks to drink.",
+    "Oil turns all of the river water into very salty water."
+   ],
+   "answer": 1,
+   "explanation": "The oil coated mud, roots and animals. When producers are damaged, the animals that depend on them lose food, and the harm passes along the web."
+  },
+  {
+   "id": "g5-a7-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Habitats and biodiversity",
+   "stem": "Nadia's school field has only short grass and very few kinds of living things. Which changes would increase its biodiversity? Choose all that are right.",
+   "options": [
+    "leave a strip of grass unmowed",
+    "plant native flowers and trees",
+    "make a small pond or a log pile",
+    "mow every part of the field very short",
+    "cover the field with concrete"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "More habitats mean more kinds of food and shelter, so more kinds of living things can live there. Mowing short or covering the ground reduces biodiversity."
+  },
+  {
+   "id": "g5-a7-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Human impact",
+   "stem": "All the mangrove trees in a bay are cut down. Rafi says only the trees will be affected, not the animals.",
+   "answer": false,
+   "explanation": "Crabs, fish, birds and other animals use the mangroves for food and shelter. When one species disappears, others that depend on it are affected too."
+  },
+  {
+   "id": "g5-a7-023",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Human impact",
+   "stem": "Should big cargo ships be allowed to travel through the Sundarbans rivers? Give your opinion, one piece of evidence and one way to reduce the harm.",
+   "model_answer": "No, or only with strict rules. The 2014 oil spill harmed the forest. Ships could take another route, travel slowly and carry spill-cleaning equipment.",
+   "keywords": [
+    [
+     "spill",
+     "oil",
+     "2014",
+     "shela",
+     "pollution",
+     "pollute",
+     "harm"
+    ],
+    [
+     "slow",
+     "slowly",
+     "double",
+     "route",
+     "rules",
+     "clean",
+     "equipment",
+     "another",
+     "limit",
+     "fewer",
+     "strict"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A good answer gives an opinion backed by evidence, such as the 2014 spill. It also suggests a practical way to cut the risk to the ecosystem."
+  },
+  {
+   "id": "g5-a7-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Learning from nature",
+   "stem": "A school classroom roof gets very hot in summer. Which idea copies nature to help?",
+   "options": [
+    "Add tall air vents like a termite mound has.",
+    "Paint the roof black so it looks like a tiger.",
+    "Cover the roof with thin sheets of foil.",
+    "Add more electric heaters under the roof."
+   ],
+   "answer": 0,
+   "explanation": "Termite mounds have air channels that keep the nest cool. Tall vents let hot air escape in the same way, without needing electricity."
+  },
+  {
+   "id": "g5-a7-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Energy and matter in ecosystems",
+   "stem": "In the simulation, wolves are switched on. Which bunnies survive better?",
+   "sim": {
+    "id": "natural-selection",
+    "task": "Open Natural Selection. Choose the Arctic environment. Add a mate so the bunnies reproduce, and add a mutation for fur colour. Then switch on the wolves and watch the bunnies and the population graph over several generations."
+   },
+   "options": [
+    "the ones whose fur is easiest to see against the background",
+    "the ones with the longest ears and biggest teeth",
+    "the ones whose fur is hard to see against the background",
+    "none, because wolves catch all of the bunnies equally"
+   ],
+   "answer": 2,
+   "explanation": "Wolves find it harder to spot bunnies whose fur matches the background. Those bunnies survive and have babies, so that fur colour becomes more common over the generations."
+  },
+  {
+   "id": "g5-a7-026",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Energy and matter in ecosystems",
+   "stem": "In the simulation, when you add a mate and the bunnies reproduce, the number of bunnies goes up.",
+   "sim": {
+    "id": "natural-selection",
+    "task": "Open Natural Selection. Do not switch on any wolves or food limits. Add a mate and watch the bunnies and the population graph for a short time."
+   },
+   "answer": true,
+   "explanation": "Bunnies that reproduce make more bunnies, so the population graph rises. Wolves and a shortage of food are among the things that can make it fall again."
+  },
+  {
+   "id": "g5-a7-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Comparing habitats with data",
+   "stem": "Class 5A found these living things. Football field: grass, clover, ant. Pond garden: grass, clover, dandelion, fern, moss, ant, earthworm, snail, spider. How many different kinds were found in both habitats altogether?",
+   "options": [
+    "3",
+    "9",
+    "12",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "Grass, clover and ant were found in both places, so they must be counted only once. All 3 kinds from the field are already in the pond garden's 9, so the total is 9."
+  },
+  {
+   "id": "g5-a7-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Comparing habitats with data",
+   "stem": "Imran throws his quadrat only onto the flowery patches of the football field. Why is this a poor way to compare the two habitats?",
+   "options": [
+    "The quadrat is far too big to fit round the flowers.",
+    "Flowers are not counted as living things in a quadrat.",
+    "He should have counted only the animals he could see.",
+    "He is not sampling at random, so it is unfair."
+   ],
+   "answer": 3,
+   "explanation": "Throwing the quadrat at random stops you choosing only the interesting spots. Choosing flowery patches would make the field look richer than it really is."
+  },
+  {
+   "id": "g5-a7-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Energy and matter in ecosystems",
+   "stem": "Explain why matter is recycled in an ecosystem but energy is not.",
+   "model_answer": "Decomposers break dead things down into nutrients that plants use again, so matter goes round. Energy is given off as heat at each step, so new energy must keep coming from the Sun.",
+   "keywords": [
+    [
+     "decomposer",
+     "decomposers",
+     "fungi",
+     "bacteria",
+     "break down",
+     "breaks down"
+    ],
+    [
+     "nutrients",
+     "soil",
+     "matter",
+     "reused",
+     "used again",
+     "recycled",
+     "goes round"
+    ],
+    [
+     "energy",
+     "sun",
+     "sunlight",
+     "heat",
+     "lost",
+     "used up"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "Matter such as nutrients can be used again and again. Energy is used for living and escapes as heat, so the ecosystem needs sunlight all the time."
+  },
+  {
+   "id": "g5-a7-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Food chains and food webs",
+   "stem": "In a pond, algae are eaten by water fleas and tadpoles. Small fish eat both. Herons eat the small fish. A disease kills most of the small fish. What would you expect to happen first?",
+   "options": [
+    "Herons have less food, and water fleas and tadpoles increase.",
+    "The algae die out and the number of herons grows quickly.",
+    "The tadpoles have less food and become fewer in number.",
+    "Nothing changes at all, because herons eat many different foods."
+   ],
+   "answer": 0,
+   "explanation": "Fewer small fish means less food for herons. The water fleas and tadpoles are eaten less, so for a while their numbers rise. Everything in a food web is linked."
+  }
+ ]
+}

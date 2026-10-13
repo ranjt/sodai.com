@@ -1,0 +1,675 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "B1",
+ "title": "Weather and Climate",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-4-science/pdf/b1-weather-and-climate-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-b1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Weather and climate",
+   "stem": "Which sentence describes the **climate** of a place?",
+   "options": [
+    "It is very windy at school this afternoon.",
+    "Sylhet gets a lot of rain every year.",
+    "Tomorrow morning will be foggy in Dhaka.",
+    "It rained heavily here all night last night."
+   ],
+   "answer": 1,
+   "explanation": "Climate is the usual weather of a place over many years. The other sentences describe the weather on one day, which can change in a few hours."
+  },
+  {
+   "id": "g4-b1-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weather and climate",
+   "stem": "Sort these sentences into weather and climate.",
+   "categories": [
+    "Weather",
+    "Climate"
+   ],
+   "items": [
+    [
+     "It is very windy this afternoon.",
+     "Weather"
+    ],
+    [
+     "Sylhet gets a lot of rain every year.",
+     "Climate"
+    ],
+    [
+     "Tomorrow will be foggy.",
+     "Weather"
+    ],
+    [
+     "Bangladesh has a monsoon season every year.",
+     "Climate"
+    ],
+    [
+     "It rained heavily last night.",
+     "Weather"
+    ],
+    [
+     "Winters in Dhaka are cool and dry.",
+     "Climate"
+    ]
+   ],
+   "explanation": "Weather is what the air is like today or this week. Climate is the usual weather of a place, worked out from many years of measurements."
+  },
+  {
+   "id": "g4-b1-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather and climate",
+   "stem": "Climate is the usual weather of a place, worked out from many ___ of measurements.",
+   "blanks": [
+    [
+     "years"
+    ]
+   ],
+   "bank": [
+    "years",
+    "hours",
+    "days",
+    "metres"
+   ],
+   "explanation": "Climate is found by measuring the weather for many years, usually 30."
+  },
+  {
+   "id": "g4-b1-004",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather instruments",
+   "stem": "Match each weather instrument to what it measures.",
+   "pairs": [
+    [
+     "thermometer",
+     "temperature"
+    ],
+    [
+     "rain gauge",
+     "rainfall"
+    ],
+    [
+     "wind vane",
+     "wind direction"
+    ],
+    [
+     "anemometer",
+     "wind speed"
+    ],
+    [
+     "barometer",
+     "air pressure"
+    ]
+   ],
+   "explanation": "A thermometer measures temperature in °C and a rain gauge measures rain in mm. The wind vane shows direction, the anemometer shows speed, and the barometer measures air pressure."
+  },
+  {
+   "id": "g4-b1-005",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather and climate",
+   "stem": "Match each season in Bangladesh to its months (about).",
+   "pairs": [
+    [
+     "summer (pre-monsoon)",
+     "March to May"
+    ],
+    [
+     "monsoon",
+     "June to October"
+    ],
+    [
+     "winter",
+     "November to February"
+    ]
+   ],
+   "explanation": "Summer is very hot with sudden storms. The monsoon is warm and very wet. Winter is cool and dry with foggy mornings."
+  },
+  {
+   "id": "g4-b1-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Weather and climate",
+   "stem": "Weather and climate can change non-living things too: heavy rain can make rivers flood.",
+   "answer": true,
+   "explanation": "Weather and climate affect living things (rice is planted when the monsoon rains come) and non-living things (rivers flood, and heat and rain slowly break up rocks and roads)."
+  },
+  {
+   "id": "g4-b1-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Moving air",
+   "stem": "Why is the air near the ceiling of a room warmer than the air near the floor?",
+   "options": [
+    "Warm air rises to the ceiling.",
+    "Warm air sinks to the floor.",
+    "The ceiling gives out heat.",
+    "Heat cannot reach the floor."
+   ],
+   "answer": 0,
+   "explanation": "When air is warmed it spreads out, becomes lighter and rises. Cooler air stays lower down."
+  },
+  {
+   "id": "g4-b1-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Moving air",
+   "stem": "Put the steps in order to show how a sea breeze forms.",
+   "sequence": [
+    "The Sun warms the land faster than the sea.",
+    "The warm air over the land rises.",
+    "Cooler air from the sea moves in to take its place.",
+    "This moving air is a sea breeze."
+   ],
+   "explanation": "Wind is moving air. On a sunny day the land warms faster than the water, warm air rises over the land and cool air blows in from the sea."
+  },
+  {
+   "id": "g4-b1-009",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Warm and cool places",
+   "stem": "Which places are likely to be the warmest at noon? Choose all that are right.",
+   "options": [
+    "a dark tin roof in direct sunshine",
+    "a dark road in direct sunshine",
+    "under a big shady tree",
+    "beside a pond in the shade"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "It is warmest in direct sunshine, especially on dark surfaces. It is coolest in the shade of trees and near water."
+  },
+  {
+   "id": "g4-b1-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather instruments",
+   "stem": "A thermometer for measuring the air temperature should be kept in the ___.",
+   "blanks": [
+    [
+     "shade"
+    ]
+   ],
+   "bank": [
+    "shade",
+    "sunshine",
+    "water",
+    "cupboard"
+   ],
+   "explanation": "In direct sunshine a thermometer shows the temperature of the sunshine, not of the air. Keep it in the shade, about 1.5 m above the ground."
+  },
+  {
+   "id": "g4-b1-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Weather instruments",
+   "stem": "A thermometer left in direct sunshine shows the true temperature of the air.",
+   "answer": false,
+   "explanation": "In direct sunshine the thermometer heats up and shows the temperature of the sunshine, not the air. It should be kept in the shade."
+  },
+  {
+   "id": "g4-b1-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Moving air",
+   "stem": "Why do many old houses in Bangladesh have small openings high up in the walls?",
+   "model_answer": "Warm air rises and escapes through the high openings, and cooler air comes in lower down, keeping the house cool.",
+   "keywords": [
+    [
+     "warm",
+     "hot"
+    ],
+    [
+     "rise",
+     "rises",
+     "rising",
+     "escape",
+     "escapes",
+     "out",
+     "up"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Warm air rises. The high openings let it out, and cooler air flows in lower down to take its place."
+  },
+  {
+   "id": "g4-b1-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather instruments",
+   "stem": "What does a barometer measure?",
+   "options": [
+    "rainfall",
+    "air pressure",
+    "wind direction",
+    "temperature"
+   ],
+   "answer": 1,
+   "explanation": "A barometer measures air pressure. Falling pressure often means a storm is coming."
+  },
+  {
+   "id": "g4-b1-014",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Clouds and forecasts",
+   "stem": "White, puffy clouds in a blue sky usually mean…",
+   "options": [
+    "a storm is coming",
+    "heavy rain is on the way",
+    "fine weather",
+    "a cyclone is near"
+   ],
+   "answer": 2,
+   "explanation": "White, puffy clouds mean fine weather. Dark grey clouds hold more water and often bring rain."
+  },
+  {
+   "id": "g4-b1-015",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Clouds and forecasts",
+   "stem": "Which clues can tell you that a storm may be coming? Choose all that are right.",
+   "options": [
+    "the barometer is falling",
+    "tall dark clouds are growing",
+    "the wind changes direction",
+    "a clear blue sky with a few thin white clouds",
+    "calm air and no clouds at all"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Falling pressure, tall dark clouds and a change of wind direction can all mean the weather is about to change."
+  },
+  {
+   "id": "g4-b1-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weather instruments",
+   "stem": "Look at the weather instruments. Match each letter to its name.",
+   "image": "diagrams/weather-instruments-lettered.svg",
+   "image_alt": "Five weather instruments lettered A to E.",
+   "pairs": [
+    [
+     "A",
+     "thermometer"
+    ],
+    [
+     "B",
+     "rain gauge"
+    ],
+    [
+     "C",
+     "wind vane"
+    ],
+    [
+     "D",
+     "anemometer"
+    ],
+    [
+     "E",
+     "barometer"
+    ]
+   ],
+   "explanation": "A is a thermometer, B a rain gauge, C a wind vane, D an anemometer and E a barometer."
+  },
+  {
+   "id": "g4-b1-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Clouds and forecasts",
+   "stem": "Which letter shows the white, puffy cloud that usually comes with fine weather?",
+   "image": "diagrams/cloud-types-lettered.svg",
+   "image_alt": "Cloud types lettered.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 0,
+   "explanation": "A is a cumulus cloud: white and puffy, a sign of fine weather. D is a tall cumulonimbus that can bring thunderstorms."
+  },
+  {
+   "id": "g4-b1-018",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Clouds and forecasts",
+   "stem": "Look at the clouds. Match each letter to the name of the cloud.",
+   "image": "diagrams/cloud-types-lettered.svg",
+   "image_alt": "Cloud types lettered.",
+   "pairs": [
+    [
+     "A",
+     "cumulus"
+    ],
+    [
+     "B",
+     "stratus"
+    ],
+    [
+     "C",
+     "cirrus"
+    ],
+    [
+     "D",
+     "cumulonimbus"
+    ]
+   ],
+   "explanation": "Cumulus clouds are puffy, stratus clouds form flat grey layers, cirrus clouds are thin and wispy, and cumulonimbus clouds are tall and bring thunderstorms."
+  },
+  {
+   "id": "g4-b1-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Moving air",
+   "stem": "Look at the sea breeze picture. In the daytime, which way does the cool air move near the ground?",
+   "image": "diagrams/sea-breeze.svg",
+   "image_alt": "Daytime sea breeze: warm air rises over the land and cooler air moves in from the sea.",
+   "options": [
+    "from the land to the sea",
+    "straight up into the sky",
+    "straight down into the sea",
+    "from the sea to the land"
+   ],
+   "answer": 3,
+   "explanation": "The land warms faster than the sea, so warm air rises over the land and cooler air moves in from the sea to take its place."
+  },
+  {
+   "id": "g4-b1-020",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Clouds and forecasts",
+   "stem": "Sort these weather pictures into fine weather and wet or stormy weather.",
+   "categories": [
+    "Fine weather",
+    "Wet or stormy"
+   ],
+   "items": [
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Fine weather"
+    ],
+    [
+     {
+      "text": "rain cloud",
+      "image": "openmoji/rain-cloud.svg"
+     },
+     "Wet or stormy"
+    ],
+    [
+     {
+      "text": "sun behind small cloud",
+      "image": "openmoji/sun-behind-small-cloud.svg"
+     },
+     "Fine weather"
+    ],
+    [
+     {
+      "text": "thunder cloud",
+      "image": "openmoji/thunder-cloud.svg"
+     },
+     "Wet or stormy"
+    ],
+    [
+     {
+      "text": "sunrise",
+      "image": "openmoji/sunrise.svg"
+     },
+     "Fine weather"
+    ],
+    [
+     {
+      "text": "cyclone",
+      "image": "openmoji/cyclone.svg"
+     },
+     "Wet or stormy"
+    ]
+   ],
+   "explanation": "A bright sun and a few small clouds mean fine weather. Rain clouds, thunder clouds and cyclones bring wet or stormy weather."
+  },
+  {
+   "id": "g4-b1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weather instruments",
+   "stem": "Rina's class sets up a weather station. Where should they keep the thermometer to measure the air temperature?",
+   "options": [
+    "on the tin roof of the shed in the sun",
+    "on the hot concrete in the sunshine",
+    "in the shade, about 1.5 m above the ground",
+    "inside a closed cupboard"
+   ],
+   "answer": 2,
+   "explanation": "The air temperature should be measured in the shade, away from heat from the ground and the Sun. A tin roof or concrete in the sun would read much too high."
+  },
+  {
+   "id": "g4-b1-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Moving air",
+   "stem": "On a hot afternoon, Joy wants to cool her room. It has one window near the floor and one near the ceiling. What should she do?",
+   "options": [
+    "Open only the low window.",
+    "Open both windows.",
+    "Open only the high window.",
+    "Close both windows."
+   ],
+   "answer": 1,
+   "explanation": "Cool air comes in through the low window and warm air rises out through the high window, so opening both keeps the air moving."
+  },
+  {
+   "id": "g4-b1-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Clouds and forecasts",
+   "stem": "Tomorrow is Sports Day. This afternoon the barometer is falling, the wind has changed direction and tall dark clouds are growing. What is the best forecast?",
+   "options": [
+    "A storm with heavy rain is likely.",
+    "Hot, dry and sunny weather is likely.",
+    "Calm, clear weather is likely.",
+    "Cold, foggy weather is likely."
+   ],
+   "answer": 0,
+   "explanation": "Falling pressure, a change of wind direction and tall dark (cumulonimbus) clouds are signs of a storm."
+  },
+  {
+   "id": "g4-b1-024",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Reading weather data",
+   "stem": "A haor farmer hears a flash flood warning on the radio. It is better to wait until the rice is completely ripe before harvesting.",
+   "answer": false,
+   "explanation": "Slightly unripe rice still gives some food and money, but a flash flood would destroy all of it. Farmers should harvest early."
+  },
+  {
+   "id": "g4-b1-025",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Weather and climate",
+   "stem": "Why do farmers in Bangladesh plant rice when the monsoon rains arrive?",
+   "options": [
+    "Rice grows best in cold dry weather.",
+    "Rice needs a lot of water to grow.",
+    "Rain keeps birds away from the rice.",
+    "The monsoon makes the soil harder."
+   ],
+   "answer": 1,
+   "explanation": "Weather and climate affect living things. The monsoon brings the water that rice plants need."
+  },
+  {
+   "id": "g4-b1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Reading weather data",
+   "stem": "Class 4A measured the rainfall each morning for five days: 0 mm, 2 mm, 10 mm, 25 mm and 30 mm. What was the total rainfall?",
+   "options": [
+    "57 mm",
+    "67 mm",
+    "77 mm",
+    "87 mm"
+   ],
+   "answer": 1,
+   "explanation": "0 + 2 + 10 + 25 + 30 = 67 mm."
+  },
+  {
+   "id": "g4-b1-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Reading weather data",
+   "stem": "Class 4A recorded the weather at 9 a.m. in June. Rain (mm): Sun 0, Mon 2, Tue 10, Wed 25, Thu 30. Pressure: steady, falling, falling, falling, low. On Thursday the clouds were dark and tall and the wind blew from the south-east, from the sea. Which forecast for Friday is best supported?",
+   "options": [
+    "Dry and sunny, because Sunday was dry.",
+    "Dry, because the wind comes from the sea.",
+    "Wet again, because the rain is increasing and the pressure is low.",
+    "Cold and snowy, because the temperature is falling."
+   ],
+   "answer": 2,
+   "explanation": "A forecast uses trends. Rainfall has gone up every day, the pressure is low and the clouds are dark and tall, so more rain is likely."
+  },
+  {
+   "id": "g4-b1-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Reading weather data",
+   "stem": "A flood forecast for the hills near a haor gives the rain for the next five days as 5 mm, 10 mm, 60 mm, 120 mm and 80 mm (example values). What is the best advice for the farmers?",
+   "options": [
+    "Wait until day 5, then harvest everything.",
+    "Harvest only on day 4, when the rice is driest.",
+    "Do nothing, because the rain amounts are small.",
+    "Harvest on days 1 and 2, before the heavy rain starts."
+   ],
+   "answer": 3,
+   "explanation": "The heavy rain begins on day 3 and a flash flood could come soon after. Harvesting early saves most of the crop."
+  },
+  {
+   "id": "g4-b1-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Moving air",
+   "stem": "Explain how wind is made. Use the words warm, rises and cool.",
+   "model_answer": "The Sun warms the ground, which warms the air above it. Warm air rises and cooler air moves in to take its place. This moving air is wind.",
+   "keywords": [
+    [
+     "warm",
+     "warmed",
+     "warms",
+     "heated"
+    ],
+    [
+     "rises",
+     "rise",
+     "rising",
+     "up",
+     "lighter"
+    ],
+    [
+     "cool",
+     "cooler",
+     "cold"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "Wind is air moving from a cooler place to take the place of warm air that has risen."
+  },
+  {
+   "id": "g4-b1-030",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Reading weather data",
+   "stem": "A class measured the temperature at 9 o'clock every morning for a week. Why did they measure at the same time each day?",
+   "model_answer": "So the results can be compared fairly, because the temperature changes during the day.",
+   "keywords": [
+    [
+     "compare",
+     "compared",
+     "comparing",
+     "fair",
+     "fairly",
+     "fair test"
+    ],
+    [
+     "temperature changes",
+     "changes during the day",
+     "changes through the day",
+     "hotter",
+     "cooler",
+     "different times"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "The temperature rises and falls through the day, so measuring at different times would make the results unfair to compare."
+  }
+ ]
+}

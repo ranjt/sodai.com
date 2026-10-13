@@ -1,0 +1,654 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "B2",
+ "title": "Storms, Cyclones and Climate Change",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-4-science/pdf/b2-storms-cyclones-and-climate-change-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-b2-001",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How cyclones form",
+   "stem": "Put the steps in order to show how a cyclone forms.",
+   "sequence": [
+    "The Sun heats the sea above 27 °C.",
+    "Water evaporates and warm, damp air rises.",
+    "Huge clouds form as the vapour condenses.",
+    "Air rushes in to take its place and starts to spin.",
+    "The storm grows into a cyclone."
+   ],
+   "explanation": "Warm sea water evaporates, the warm damp air rises and cools, and clouds form. More air rushes in and spins because the Earth is spinning."
+  },
+  {
+   "id": "g4-b2-002",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How cyclones form",
+   "stem": "A cyclone forms over warm sea water, warmer than about ___ °C.",
+   "blanks": [
+    [
+     "27"
+    ]
+   ],
+   "bank": [
+    "27",
+    "7",
+    "57",
+    "100"
+   ],
+   "explanation": "When the sea is warmer than about 27 °C, lots of water evaporates and feeds the storm."
+  },
+  {
+   "id": "g4-b2-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Cyclone strength and names",
+   "stem": "The same kind of storm has different names. Match each name to where it happens.",
+   "pairs": [
+    [
+     "cyclone",
+     "Bay of Bengal and Indian Ocean"
+    ],
+    [
+     "hurricane",
+     "Atlantic Ocean"
+    ],
+    [
+     "typhoon",
+     "Pacific Ocean"
+    ]
+   ],
+   "explanation": "A cyclone, a hurricane and a typhoon are the same kind of huge spinning storm. Only the name changes with the ocean."
+  },
+  {
+   "id": "g4-b2-004",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Cyclone strength and names",
+   "stem": "Sort these wind speeds into the right kind of storm. (Depression: up to 61 km/h. Cyclonic storm: 62 to 88 km/h. Severe cyclonic storm: 89 to 117 km/h. Very severe cyclone: 118 km/h or more.)",
+   "categories": [
+    "Depression",
+    "Cyclonic storm",
+    "Severe cyclonic storm",
+    "Very severe cyclone"
+   ],
+   "items": [
+    [
+     "40 km/h",
+     "Depression"
+    ],
+    [
+     "75 km/h",
+     "Cyclonic storm"
+    ],
+    [
+     "90 km/h",
+     "Severe cyclonic storm"
+    ],
+    [
+     "120 km/h",
+     "Very severe cyclone"
+    ],
+    [
+     "60 km/h",
+     "Depression"
+    ],
+    [
+     "80 km/h",
+     "Cyclonic storm"
+    ],
+    [
+     "100 km/h",
+     "Severe cyclonic storm"
+    ],
+    [
+     "130 km/h",
+     "Very severe cyclone"
+    ]
+   ],
+   "explanation": "The stronger the winds, the stronger the storm: depression, cyclonic storm, severe cyclonic storm and very severe cyclone."
+  },
+  {
+   "id": "g4-b2-005",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Effects of cyclones",
+   "stem": "Which of these are dangers of a cyclone? Choose all that are right.",
+   "options": [
+    "strong winds that blow down houses and trees",
+    "heavy rain that causes floods and landslides",
+    "a storm surge that floods villages and makes the soil salty",
+    "the sea becoming much colder",
+    "the soil becoming drier and drier"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A cyclone brings strong winds, heavy rain and a storm surge. They destroy homes and crops and flood the land with salty water."
+  },
+  {
+   "id": "g4-b2-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Effects of cyclones",
+   "stem": "Match each danger to what it does.",
+   "pairs": [
+    [
+     "strong wind",
+     "blows down trees and houses"
+    ],
+    [
+     "heavy rain",
+     "causes floods and landslides"
+    ],
+    [
+     "storm surge",
+     "pushes salty sea water onto the land"
+    ]
+   ],
+   "explanation": "A storm surge is a wall of sea water pushed onto the land by the wind. It floods villages and makes the soil salty."
+  },
+  {
+   "id": "g4-b2-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Staying safe",
+   "stem": "A cyclone shelter is built on tall pillars so that it stands above the storm surge.",
+   "answer": true,
+   "explanation": "The pillars lift the shelter above the flood water, so people inside stay safe."
+  },
+  {
+   "id": "g4-b2-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How cyclones form",
+   "stem": "Why do cyclones get weaker after they move over land?",
+   "options": [
+    "They lose the warm sea water that feeds them.",
+    "The Earth spins more slowly when they are over land.",
+    "Trees on land push the whole cyclone back out to sea.",
+    "Land is always much colder than the sea at night."
+   ],
+   "answer": 0,
+   "explanation": "A cyclone gets its energy from warm sea water. Over land there is no warm water to feed it, so it loses energy."
+  },
+  {
+   "id": "g4-b2-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Tracking and warnings",
+   "stem": "Which warning signals mean great danger and tell people on the coast to go to a shelter?",
+   "options": [
+    "1, 2, 3 and 4",
+    "3, 4 and 5",
+    "8, 9 and 10",
+    "5, 6 and 7"
+   ],
+   "answer": 2,
+   "explanation": "Bangladesh warning signals go from 1 to 11 for the sea ports. The higher the number, the greater the danger. Signals 8, 9 and 10 mean great danger."
+  },
+  {
+   "id": "g4-b2-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Human actions and climate",
+   "stem": "Burning coal, oil and gas adds more ___ to the air, and this traps heat.",
+   "blanks": [
+    [
+     "carbon dioxide",
+     "CO2",
+     "co2"
+    ]
+   ],
+   "bank": [
+    "carbon dioxide",
+    "oxygen",
+    "nitrogen",
+    "helium"
+   ],
+   "explanation": "Carbon dioxide acts like a blanket and traps heat, so the Earth is slowly getting warmer."
+  },
+  {
+   "id": "g4-b2-011",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Human actions and climate",
+   "stem": "Put the steps in order to show how human actions can make cyclones more dangerous.",
+   "sequence": [
+    "People burn coal, oil and gas.",
+    "More carbon dioxide is in the air.",
+    "Heat is trapped and the Earth warms.",
+    "The sea gets warmer.",
+    "Cyclones can become stronger."
+   ],
+   "explanation": "Burning fuels adds carbon dioxide, which traps heat. A warmer Earth means warmer seas, and warm seas can make cyclones stronger and wetter."
+  },
+  {
+   "id": "g4-b2-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How cyclones form",
+   "stem": "Why do most cyclones in the Bay of Bengal happen in April–May and October–November, and not in January?",
+   "model_answer": "The sea is warmest before and after the monsoon. In January the sea is cooler, so there is not enough warm, damp air to feed a cyclone.",
+   "keywords": [
+    [
+     "warm",
+     "warmer",
+     "warmest",
+     "hot"
+    ],
+    [
+     "cool",
+     "cooler",
+     "cold",
+     "colder",
+     "january"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Cyclones need very warm sea water. In January the sea is cooler, so cyclones are rare."
+  },
+  {
+   "id": "g4-b2-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Human actions and climate",
+   "stem": "Bangladesh produces only a tiny share of the world's carbon dioxide, but it is one of the countries most at risk from climate change.",
+   "answer": true,
+   "explanation": "Much of Bangladesh is low and close to the sea, so rising sea level and stronger cyclones are serious dangers."
+  },
+  {
+   "id": "g4-b2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How cyclones form",
+   "stem": "Look at the cyclone from above. Which number shows the **eye** of the cyclone?",
+   "image": "diagrams/cyclone-numbered.svg",
+   "image_alt": "A tropical cyclone seen from above with parts numbered.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "The eye (1) is the calm, clear centre of the cyclone. The strongest winds and rain are in the eye wall (2) around it."
+  },
+  {
+   "id": "g4-b2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Effects of cyclones",
+   "stem": "Which number shows where the strongest winds and heaviest rain are found?",
+   "image": "diagrams/cyclone-numbered.svg",
+   "image_alt": "A tropical cyclone seen from above with parts numbered.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "The eye wall (2) is the ring of tall clouds around the eye. It has the strongest winds and rain. Rain bands (3) are further out."
+  },
+  {
+   "id": "g4-b2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How cyclones form",
+   "stem": "Which picture shows a storm that forms over warm sea water?",
+   "options": [
+    {
+     "text": "snowflake",
+     "image": "openmoji/snowflake.svg"
+    },
+    {
+     "text": "cactus",
+     "image": "openmoji/cactus.svg"
+    },
+    {
+     "text": "cyclone",
+     "image": "openmoji/cyclone.svg"
+    },
+    {
+     "text": "iceberg",
+     "image": "openmoji/iceberg.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "Cyclones form over warm seas. Snow, deserts and icebergs belong to cold or dry places."
+  },
+  {
+   "id": "g4-b2-017",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Staying safe",
+   "stem": "Rahima's family is going to the cyclone shelter. Sort these pictures into things to take and things to leave at home.",
+   "categories": [
+    "Take to the shelter",
+    "Leave at home"
+   ],
+   "items": [
+    [
+     {
+      "text": "drinking water",
+      "image": "openmoji/potable-water.svg"
+     },
+     "Take to the shelter"
+    ],
+    [
+     {
+      "text": "television",
+      "image": "openmoji/television.svg"
+     },
+     "Leave at home"
+    ],
+    [
+     {
+      "text": "medicines",
+      "image": "openmoji/pill.svg"
+     },
+     "Take to the shelter"
+    ],
+    [
+     {
+      "text": "heavy furniture",
+      "image": "openmoji/chair.svg"
+     },
+     "Leave at home"
+    ],
+    [
+     {
+      "text": "torch",
+      "image": "openmoji/flashlight.svg"
+     },
+     "Take to the shelter"
+    ],
+    [
+     {
+      "text": "bed",
+      "image": "openmoji/bed.svg"
+     },
+     "Leave at home"
+    ]
+   ],
+   "explanation": "Take things you need to stay safe and healthy: drinking water, medicines and a torch. Heavy furniture, a television and a bed are too bulky to carry."
+  },
+  {
+   "id": "g4-b2-018",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How cyclones form",
+   "stem": "In the picture, the winds of the cyclone spin round the eye in an anticlockwise direction.",
+   "image": "diagrams/cyclone-numbered.svg",
+   "image_alt": "A tropical cyclone seen from above with parts numbered.",
+   "answer": true,
+   "explanation": "Cyclones north of the Equator spin anticlockwise because of the Earth's spin."
+  },
+  {
+   "id": "g4-b2-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Staying safe",
+   "stem": "Rahima hears on the radio that the warning signal has gone up to 9. What should her family do?",
+   "options": [
+    "Wait to see if the wind gets stronger.",
+    "Go to the cyclone shelter now.",
+    "Stay at home and cook dinner.",
+    "Go to the river to see the waves."
+   ],
+   "answer": 1,
+   "explanation": "Signal 9 means great danger. The family must go to the shelter straight away, before the winds and the storm surge arrive."
+  },
+  {
+   "id": "g4-b2-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Staying safe",
+   "stem": "Rahima's family has goats and chickens. How can they keep the animals safe?",
+   "options": [
+    "Tie them tightly to a tree in the open field.",
+    "Lock them inside the house until it is over.",
+    "Leave them tied up in the field overnight.",
+    "Take them to raised ground near the shelter."
+   ],
+   "answer": 3,
+   "explanation": "Animals can drown in a storm surge. Raised ground near the shelter (many shelters have space for animals) is much safer."
+  },
+  {
+   "id": "g4-b2-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Staying safe",
+   "stem": "Rahima's grandmother cannot walk far. What is the best plan?",
+   "options": [
+    "Leave early and ask neighbours to help carry her.",
+    "Leave her at home with plenty of food and water.",
+    "Wait until the storm starts, then decide what to do.",
+    "Let her walk to the shelter on her own."
+   ],
+   "answer": 0,
+   "explanation": "Older people, babies and people who are ill need extra help. Leaving early gives time to reach the shelter safely."
+  },
+  {
+   "id": "g4-b2-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Tracking and warnings",
+   "stem": "Volunteers help to spread cyclone warnings using megaphones, flags and mobile phone messages.",
+   "answer": true,
+   "explanation": "Volunteers from the Cyclone Preparedness Programme walk through villages so that everyone, even people without a radio, hears the warning."
+  },
+  {
+   "id": "g4-b2-023",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Staying safe",
+   "stem": "Which things should be on a family's \"cyclone ready\" checklist? Choose all that are right.",
+   "options": [
+    "listen to the radio for the warning signal",
+    "know the way to the cyclone shelter",
+    "pack water, food, medicine and a torch",
+    "help neighbours who need it",
+    "stay outside to watch the storm come"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "explanation": "A good plan means listening to warnings, knowing the way, packing what you need and helping others. Staying outside is dangerous."
+  },
+  {
+   "id": "g4-b2-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Human actions and climate",
+   "stem": "In the simulation, what happens to the temperature when you add more greenhouse gases?",
+   "sim": {
+    "id": "greenhouse-effect",
+    "task": "Open Greenhouse Effect. Find the control for the amount of greenhouse gases and the thermometer that shows the temperature. Start with a small amount of gases, then increase them and watch the temperature for a minute."
+   },
+   "options": [
+    "It goes up.",
+    "It goes down.",
+    "It stays the same."
+   ],
+   "answer": 0,
+   "explanation": "Greenhouse gases trap heat. The more of them there are, the more heat is trapped and the hotter the Earth gets."
+  },
+  {
+   "id": "g4-b2-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Human actions and climate",
+   "stem": "In the simulation, what do greenhouse gases do to the heat that travels up from the ground?",
+   "sim": {
+    "id": "greenhouse-effect",
+    "task": "Open Greenhouse Effect. Add some greenhouse gases and watch what happens to the heat (infrared) waves that travel up from the ground when they reach the gases."
+   },
+   "options": [
+    "They let all of it escape straight into space.",
+    "They trap some of it and send some back.",
+    "They change the heat into sunlight again.",
+    "They make the heat disappear completely."
+   ],
+   "answer": 1,
+   "explanation": "Heat leaving the ground is absorbed by greenhouse gases, and some is sent back towards the surface. This is how the gases act like a blanket."
+  },
+  {
+   "id": "g4-b2-026",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Human actions and climate",
+   "stem": "In the simulation, the Earth is cooler with very few greenhouse gases than with many greenhouse gases.",
+   "sim": {
+    "id": "greenhouse-effect",
+    "task": "Open Greenhouse Effect. Set the greenhouse gases to a very small amount and note the temperature. Then set them to a large amount and compare."
+   },
+   "answer": true,
+   "explanation": "With fewer gases, less heat is trapped and more escapes into space, so the temperature is lower."
+  },
+  {
+   "id": "g4-b2-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Tracking and warnings",
+   "stem": "The centre of Cyclone Sidr was at 15 °N on 13 November, 17.5 °N on 14 November and 21 °N on 15 November (rounded values). About how far north did it move each day on average between 13 and 15 November?",
+   "options": [
+    "1.5 degrees of latitude",
+    "3 degrees of latitude",
+    "6 degrees of latitude",
+    "7.5 degrees of latitude"
+   ],
+   "answer": 1,
+   "explanation": "21 − 15 = 6 degrees in 2 days, and 6 ÷ 2 = 3 degrees a day. Tracking the position each day helps scientists predict when a cyclone will reach land."
+  },
+  {
+   "id": "g4-b2-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "How cyclones form",
+   "stem": "Example sea temperatures in the Bay of Bengal: 25 °C in January and 30 °C in May. In which month is a cyclone more likely, and why?",
+   "options": [
+    "January, because the sea is cooler.",
+    "January, because the sea is warmer than 27 °C.",
+    "May, because the sea is colder than 27 °C.",
+    "May, because the sea is warmer than 27 °C."
+   ],
+   "answer": 3,
+   "explanation": "Cyclones need sea water warmer than about 27 °C. May's 30 °C is above that and January's 25 °C is below it."
+  },
+  {
+   "id": "g4-b2-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Human actions and climate",
+   "stem": "Bangladesh is planting mangrove forests along the coast. Explain how this can protect people from cyclones and how it helps the climate.",
+   "model_answer": "Mangroves slow down the wind and the storm surge, so less water and wind reach villages. Trees also take in carbon dioxide, which helps slow climate change.",
+   "keywords": [
+    [
+     "mangrove",
+     "mangroves",
+     "trees"
+    ],
+    [
+     "slow",
+     "slows",
+     "reduce",
+     "reduces",
+     "block",
+     "blocks",
+     "protect",
+     "protects",
+     "stop",
+     "stops",
+     "break"
+    ],
+    [
+     "carbon dioxide",
+     "carbon",
+     "co2",
+     "climate",
+     "air"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Mangroves act like a green wall against wind and waves, and all trees take in carbon dioxide as they grow."
+  },
+  {
+   "id": "g4-b2-030",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Human actions and climate",
+   "stem": "Bangladesh produces only a tiny share of the world's carbon dioxide, so climate change cannot hurt Bangladesh.",
+   "answer": false,
+   "explanation": "Climate change is global. Bangladesh is low and close to the sea, so it is one of the countries most at risk even though it adds little carbon dioxide."
+  }
+ ]
+}

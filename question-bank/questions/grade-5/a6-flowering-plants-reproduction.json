@@ -1,0 +1,663 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "A6",
+ "title": "Flowering Plants: Reproduction and Life Cycles",
+ "strand": "living",
+ "worksheet": "worksheets/grade-5-science/pdf/a6-flowering-plants-reproduction-and-life-cycles-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-a6-001",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Pollination",
+   "stem": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "pollination",
+     "pollen moves from an anther to a stigma"
+    ],
+    [
+     "fertilisation",
+     "a male cell joins with a female cell in an ovule"
+    ],
+    [
+     "seed dispersal",
+     "seeds are carried away from the parent plant"
+    ],
+    [
+     "germination",
+     "a seed starts to grow"
+    ],
+    [
+     "nectar",
+     "a sweet liquid that attracts insects"
+    ],
+    [
+     "pollen",
+     "a powder made by the anther"
+    ]
+   ],
+   "explanation": "Pollination comes first, then fertilisation makes a seed. Dispersal spreads the seeds and germination starts a new plant."
+  },
+  {
+   "id": "g5-a6-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Parts of a flower",
+   "stem": "Sort the flower parts into male, female and other parts.",
+   "categories": [
+    "Male parts",
+    "Female parts",
+    "Other parts"
+   ],
+   "items": [
+    [
+     "anther",
+     "Male parts"
+    ],
+    [
+     "filament",
+     "Male parts"
+    ],
+    [
+     "stigma",
+     "Female parts"
+    ],
+    [
+     "style",
+     "Female parts"
+    ],
+    [
+     "ovary",
+     "Female parts"
+    ],
+    [
+     "ovule",
+     "Female parts"
+    ],
+    [
+     "petal",
+     "Other parts"
+    ],
+    [
+     "sepal",
+     "Other parts"
+    ]
+   ],
+   "explanation": "The stamen (anther and filament) is the male part. The carpel (stigma, style, ovary with ovules) is the female part. Petals and sepals attract insects and protect the bud."
+  },
+  {
+   "id": "g5-a6-003",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fertilisation and seeds",
+   "stem": "After a bee visits a flower, what happens? Put the steps in order.",
+   "sequence": [
+    "A bee carries pollen from another flower.",
+    "Pollen lands on the sticky stigma.",
+    "A pollen tube grows down the style to the ovary.",
+    "The male cell joins the female cell in the ovule.",
+    "The ovule becomes a seed and the ovary becomes a fruit.",
+    "The fruit is eaten and the seed is dropped far away."
+   ],
+   "explanation": "Pollination comes first, then the pollen tube carries the male cell to the ovule for fertilisation. The seed and fruit form, and dispersal spreads the seed."
+  },
+  {
+   "id": "g5-a6-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a flower",
+   "stem": "The anther is a female part of the flower.",
+   "answer": false,
+   "explanation": "The anther is part of the stamen, the male part. It makes pollen. The female part is the carpel, with the stigma, style and ovary."
+  },
+  {
+   "id": "g5-a6-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Pollination",
+   "stem": "Wind-pollinated flowers usually have big, bright petals and a sweet smell.",
+   "answer": false,
+   "explanation": "Wind-pollinated flowers, such as grasses and maize, are small and dull with no scent or nectar. They do not need to attract insects."
+  },
+  {
+   "id": "g5-a6-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Pollination",
+   "stem": "Pollen is made in the ___, and it is caught by the sticky ___.",
+   "blanks": [
+    [
+     "anther",
+     "anthers"
+    ],
+    [
+     "stigma"
+    ]
+   ],
+   "bank": [
+    "anther",
+    "stigma",
+    "ovary",
+    "petal"
+   ],
+   "explanation": "Pollen forms in the anther. For pollination, it must travel to the sticky stigma at the top of the carpel."
+  },
+  {
+   "id": "g5-a6-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fertilisation and seeds",
+   "stem": "After fertilisation, each fertilised ovule becomes a ___ and the ovary grows into a ___.",
+   "blanks": [
+    [
+     "seed"
+    ],
+    [
+     "fruit"
+    ]
+   ],
+   "bank": [
+    "seed",
+    "fruit",
+    "flower",
+    "root"
+   ],
+   "explanation": "The seed holds the baby plant, and the fruit protects the seeds. A mango has one large seed, but a tomato has many."
+  },
+  {
+   "id": "g5-a6-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fertilisation and seeds",
+   "stem": "Which part of a flower becomes the fruit?",
+   "options": [
+    "the petal",
+    "the ovary",
+    "the stigma",
+    "the anther"
+   ],
+   "answer": 1,
+   "explanation": "After fertilisation the petals wither and fall, and the ovary grows into the fruit that protects the seeds."
+  },
+  {
+   "id": "g5-a6-009",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pollination",
+   "stem": "Which features suggest that a flower is pollinated by insects? Choose all that are right.",
+   "options": [
+    "large, bright petals",
+    "a sweet scent",
+    "sugary nectar",
+    "anthers hanging outside the flower",
+    "feathery stigmas",
+    "lots of light, dusty pollen"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Bright petals, scent and nectar attract insects. Hanging anthers, feathery stigmas and light, dusty pollen are signs of wind pollination."
+  },
+  {
+   "id": "g5-a6-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Seed dispersal",
+   "stem": "Why is it important for seeds to be dispersed away from the parent plant?",
+   "model_answer": "So the young plants do not compete with their parent for light, water and space, and so the plant can spread to new places.",
+   "keywords": [
+    [
+     "compete",
+     "competition",
+     "crowded",
+     "share",
+     "fight"
+    ],
+    [
+     "light",
+     "water",
+     "space",
+     "nutrients",
+     "food"
+    ],
+    [
+     "spread",
+     "new places",
+     "new place",
+     "far",
+     "away"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "If all the seeds fell under the parent plant they would be crowded together and short of light, water and space."
+  },
+  {
+   "id": "g5-a6-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Pollination",
+   "stem": "Why do wind-pollinated flowers such as grasses make huge amounts of pollen?",
+   "options": [
+    "They need to attract insects with bright colours.",
+    "Their heavy pollen drops straight to the ground.",
+    "They do not have any stigma to catch the pollen.",
+    "Most of the pollen blown by the wind is lost."
+   ],
+   "answer": 3,
+   "explanation": "Wind blows pollen everywhere, so only a tiny amount lands on a stigma. A huge supply makes sure that some of it arrives."
+  },
+  {
+   "id": "g5-a6-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Fertilisation and seeds",
+   "stem": "What does the pollen tube do?",
+   "options": [
+    "It carries the male cell to the ovule.",
+    "It catches the pollen grains on the stigma.",
+    "It carries sugary nectar to the visiting bees.",
+    "It carries ripe seeds out of the flower."
+   ],
+   "answer": 0,
+   "explanation": "After pollen lands on the stigma it grows a thin tube down through the style to the ovary. The male cell travels down the tube to the ovule."
+  },
+  {
+   "id": "g5-a6-013",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Seed dispersal",
+   "stem": "Match each seed feature to the way it helps the seed to travel.",
+   "pairs": [
+    [
+     "a parachute of fluffy hairs",
+     "carried by the wind"
+    ],
+    [
+     "air inside so it floats",
+     "carried by water"
+    ],
+    [
+     "tiny hooks",
+     "caught on animal fur"
+    ],
+    [
+     "a sweet, juicy fruit",
+     "eaten by animals"
+    ],
+    [
+     "a pod that dries and bursts",
+     "thrown out by an explosion"
+    ]
+   ],
+   "explanation": "Seeds are shaped for the way they travel. Light, fluffy seeds fly, floating seeds drift, hooked seeds cling, juicy fruits are eaten and dry pods burst."
+  },
+  {
+   "id": "g5-a6-014",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Life cycle",
+   "stem": "Put the stages of the life cycle of a flowering plant in order, starting with the seed.",
+   "sequence": [
+    "seed",
+    "germination",
+    "young plant",
+    "flowering",
+    "pollination",
+    "fertilisation and fruit",
+    "seed dispersal"
+   ],
+   "explanation": "The life cycle goes round and round: a seed germinates, grows into a plant and flowers. After pollination and fertilisation, fruits and seeds form and the seeds are dispersed."
+  },
+  {
+   "id": "g5-a6-015",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Pollination",
+   "stem": "Pollen contains the male cells of a flower.",
+   "answer": true,
+   "explanation": "Pollen is made by the anther and holds the male cells. One of these cells joins with the female cell in the ovule at fertilisation."
+  },
+  {
+   "id": "g5-a6-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a flower",
+   "stem": "Which number shows the sticky part that catches pollen?",
+   "image": "diagrams/flower-parts-numbered.svg",
+   "image_alt": "A flower cut in half with parts numbered: 1 petal, 2 anther, 3 filament, 4 stigma, 5 style, 6 ovary, 7 ovule, 8 sepal, 9 flower stalk.",
+   "options": [
+    "2",
+    "6",
+    "7",
+    "4"
+   ],
+   "answer": 3,
+   "explanation": "The stigma (4) is sticky so that pollen grains stay on it. The anther (2) makes the pollen."
+  },
+  {
+   "id": "g5-a6-017",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Parts of a flower",
+   "stem": "Which numbers are male parts of the flower? Choose all that are right.",
+   "image": "diagrams/flower-parts-numbered.svg",
+   "image_alt": "A flower cut in half with parts numbered: 1 petal, 2 anther, 3 filament, 4 stigma, 5 style, 6 ovary, 7 ovule, 8 sepal, 9 flower stalk.",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6",
+    "8"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "The anther (2) makes pollen and the filament (3) holds it up. Together they form the stamen. The stigma (4) and ovary (6) are female, and the sepal (8) protects the bud."
+  },
+  {
+   "id": "g5-a6-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Life cycle",
+   "stem": "Which number shows the stage when pollen lands on the stigma?",
+   "image": "diagrams/plant-life-cycle-numbered.svg",
+   "image_alt": "The life cycle of a flowering plant with stages numbered: 1 seed, 2 germination, 3 young plant, 4 flowering, 5 pollination, 6 fertilisation and fruit, 7 seed dispersal.",
+   "options": [
+    "5",
+    "2",
+    "6",
+    "7"
+   ],
+   "answer": 0,
+   "explanation": "Pollination (5) is when pollen moves to a stigma. Germination (2) is the seed starting to grow, fertilisation and fruit (6) comes after it, and seed dispersal (7) is the last stage."
+  },
+  {
+   "id": "g5-a6-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Pollination",
+   "stem": "In winter, mustard flowers are pollinated while an animal collects nectar from them. Which one is it?",
+   "options": [
+    {
+     "text": "water buffalo",
+     "image": "openmoji/water-buffalo.svg"
+    },
+    {
+     "text": "tropical fish",
+     "image": "openmoji/tropical-fish.svg"
+    },
+    {
+     "text": "honeybee",
+     "image": "openmoji/honeybee.svg"
+    },
+    {
+     "text": "hedgehog",
+     "image": "openmoji/hedgehog.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "Bees drink nectar, and sticky pollen rubs onto their hairy bodies. At the next flower some of it brushes off onto the stigma."
+  },
+  {
+   "id": "g5-a6-020",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Fertilisation and seeds",
+   "stem": "Which number is the ovule, the part that becomes a seed after fertilisation?",
+   "image": "diagrams/flower-parts-numbered.svg",
+   "image_alt": "A flower cut in half with parts numbered: 1 petal, 2 anther, 3 filament, 4 stigma, 5 style, 6 ovary, 7 ovule, 8 sepal, 9 flower stalk.",
+   "options": [
+    "3",
+    "7",
+    "5",
+    "9"
+   ],
+   "answer": 1,
+   "explanation": "Each ovule holds a female cell. When a male cell joins it, the ovule becomes a seed."
+  },
+  {
+   "id": "g5-a6-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Pollination",
+   "stem": "Ayesha moves her bee boxes next to a mustard field. Why are the farmers pleased?",
+   "options": [
+    "Bees pollinate the flowers, so the plants make more seeds.",
+    "Bees dig the soil so that all the seeds can germinate quickly.",
+    "Bees keep insect pests away from every leaf and stem.",
+    "Bees give the plants water from their hives in summer."
+   ],
+   "answer": 0,
+   "explanation": "As bees visit flowers for nectar they carry pollen from one flower to the next. More pollination means more seeds, and more seeds mean more mustard oil."
+  },
+  {
+   "id": "g5-a6-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Plants, animals and data",
+   "stem": "Some farmers spray pesticides on mustard flowers. Why is it better to spray in the late evening?",
+   "options": [
+    "The flowers are closed so the spray cannot reach them.",
+    "The pesticide works better in the dark.",
+    "The bees are back in their hives, so fewer are killed.",
+    "Bees only visit the field in the late evening."
+   ],
+   "answer": 2,
+   "explanation": "Pesticide that kills pests can also kill bees. Spraying when the bees are in their hives protects the pollinators that help the crop."
+  },
+  {
+   "id": "g5-a6-023",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pollination",
+   "stem": "Imran sees maize plants with small, dull green flowers, no smell and anthers hanging outside. He says the wind is probably their pollinator. Is he right?",
+   "answer": true,
+   "explanation": "These are the signs of wind pollination: small dull flowers, no scent or nectar, and anthers that hang out to release light pollen."
+  },
+  {
+   "id": "g5-a6-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Seed dispersal",
+   "stem": "In the Sundarbans, a mangrove tree drops its seedlings into the water. How do they reach new places?",
+   "options": [
+    "The wind blows them like a parachute.",
+    "They burst out of a dry pod.",
+    "They stick to the tiger's fur.",
+    "The water carries them away."
+   ],
+   "answer": 3,
+   "explanation": "Mangrove seedlings float, so tides and rivers can carry them to new mud banks where they take root."
+  },
+  {
+   "id": "g5-a6-025",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Plants, animals and data",
+   "stem": "What would happen to the fruits and vegetables we eat if all the bees and other pollinators disappeared? Explain.",
+   "model_answer": "Many plants could not be pollinated, so they would make fewer fruits and seeds and there would be less food.",
+   "keywords": [
+    [
+     "pollinate",
+     "pollinated",
+     "pollination",
+     "pollen"
+    ],
+    [
+     "fewer",
+     "less",
+     "not",
+     "no",
+     "fail",
+     "cannot",
+     "could not"
+    ],
+    [
+     "fruit",
+     "fruits",
+     "seed",
+     "seeds",
+     "vegetables",
+     "food",
+     "crops"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Many flowers depend on insects to carry pollen. Without pollination they cannot form seeds and fruits, so there would be less food."
+  },
+  {
+   "id": "g5-a6-026",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Seed dispersal",
+   "stem": "After a walk through the long grass, Mina's socks are covered in tiny sticky seeds. How were the seeds being dispersed?",
+   "options": [
+    "The seeds float away on the water in the field.",
+    "Hooks on the seeds catch on animals and clothes.",
+    "The seeds burst out of a dry pod with a loud bang.",
+    "The seeds are eaten by animals and dropped later."
+   ],
+   "answer": 1,
+   "explanation": "Burrs such as the seeds of chorkanta grass have tiny hooks that catch on fur and clothes. The animal carries the seed away from the parent plant."
+  },
+  {
+   "id": "g5-a6-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Plants, animals and data",
+   "stem": "Class 5B dropped paper helicopters with different wing lengths three times each. Times in seconds: 4 cm wings: 1.2, 1.3, 1.1. 6 cm: 1.6, 1.5, 1.7. 8 cm: 2.0, 2.1, 1.9. 10 cm: 2.4, 1.5, 2.6. Which result does not fit the pattern?",
+   "options": [
+    "4 cm wings, the third drop (1.1 s)",
+    "6 cm wings, the second drop (1.5 s)",
+    "10 cm wings, second drop (1.5 s)",
+    "8 cm wings, the first drop (2.0 s)"
+   ],
+   "answer": 2,
+   "explanation": "Longer wings should fall more slowly, so the 10 cm helicopter should take more than 2.0 s. A time of 1.5 s is out of line, perhaps because it was dropped badly or the stopwatch was started late."
+  },
+  {
+   "id": "g5-a6-028",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Plants, animals and data",
+   "stem": "Leaving out the odd result, the 10 cm helicopter took 2.4 s and 2.6 s. The average time is ___ s.",
+   "blanks": [
+    [
+     "2.5"
+    ]
+   ],
+   "explanation": "(2.4 + 2.6) ÷ 2 = 5.0 ÷ 2 = 2.5 s. Now the averages 1.2, 1.6, 2.0 and 2.5 show a clear pattern: longer wings, slower fall."
+  },
+  {
+   "id": "g5-a6-029",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Plants, animals and data",
+   "stem": "Karim grew mustard in two fields of the same size, with the same seeds, soil and water. Field A (next to bee boxes) gave 180 kg of seed. Field B (no bees nearby) gave 150 kg. Which conclusion is best supported?",
+   "options": [
+    "Bees probably helped Field A make more seed.",
+    "Field A must have had much richer soil than Field B.",
+    "Bees make the mustard seeds grow taller and heavier.",
+    "Both fields made exactly the same amount of seed."
+   ],
+   "answer": 0,
+   "explanation": "The fields were the same except for the bees, so the extra 30 kg is probably because bees pollinated more flowers in Field A. More pollination means more fertilised ovules and more seeds."
+  },
+  {
+   "id": "g5-a6-030",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Seed dispersal",
+   "stem": "Design a model seed that will stick to a woollen sock and stay on while you walk 10 steps. Say how it works and how you would test it.",
+   "model_answer": "Cover a small clay ball with bent toothpicks or Velcro hooks like a burr. Press it on a sock, walk 10 steps and count how many models stay on.",
+   "keywords": [
+    [
+     "hook",
+     "hooks",
+     "velcro",
+     "bent",
+     "spikes",
+     "burr",
+     "sticky"
+    ],
+    [
+     "sock",
+     "wool",
+     "woollen",
+     "walk",
+     "steps",
+     "test",
+     "count",
+     "repeat"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Burrs have tiny hooks that catch on fur and cloth. A good test repeats the walk several times and counts how many models stay attached."
+  }
+ ]
+}
