@@ -1,0 +1,657 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "C4",
+ "title": "Electricity and Magnets",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-c4-001",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a circuit",
+   "stem": "Match each part of a circuit to its job.",
+   "pairs": [
+    [
+     "cell",
+     "stores electricity"
+    ],
+    [
+     "lamp",
+     "gives out light"
+    ],
+    [
+     "switch",
+     "opens or closes a gap in the circuit"
+    ],
+    [
+     "buzzer",
+     "makes a sound"
+    ],
+    [
+     "wire",
+     "joins the parts together"
+    ]
+   ],
+   "explanation": "A circuit needs a cell to push the electricity round, wires to carry it, and something to use it, such as a lamp or buzzer. A switch lets us turn it on and off."
+  },
+  {
+   "id": "g3-c4-002",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "A lamp will light only if the circuit is a complete loop.",
+   "answer": true,
+   "explanation": "Electricity can flow only if there is no gap. If the loop is complete, the lamp lights."
+  },
+  {
+   "id": "g3-c4-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Electricity can flow only if the circuit is a complete ___.",
+   "blanks": [
+    [
+     "loop",
+     "circle"
+    ]
+   ],
+   "bank": [
+    "loop",
+    "gap",
+    "switch",
+    "magnet"
+   ],
+   "explanation": "A circuit is a loop. Electricity flows from one end of the cell, through the wires and the lamp, and back to the other end."
+  },
+  {
+   "id": "g3-c4-004",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Put the steps in order to show what happens when you close the switch in a working circuit.",
+   "sequence": [
+    "The switch is closed.",
+    "The gap in the circuit is closed.",
+    "Electricity flows all the way round the loop.",
+    "The lamp lights."
+   ],
+   "explanation": "Closing the switch fills the gap. With a complete loop, electricity can flow round and the lamp lights."
+  },
+  {
+   "id": "g3-c4-005",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Model of current",
+   "stem": "In the model of electric current, tiny particles in the wires…",
+   "options": [
+    "stay still inside the cell",
+    "flow round the whole circuit",
+    "are all used up by the lamp",
+    "fly out of the wires into the air"
+   ],
+   "answer": 1,
+   "explanation": "In the model, the cell pushes the particles and they flow all the way round the loop, like children in a ring passing a ball. They are not used up."
+  },
+  {
+   "id": "g3-c4-006",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Magnetic metals",
+   "stem": "Sort these objects into those a magnet attracts and those it does not.",
+   "categories": [
+    "Attracted by a magnet",
+    "Not attracted"
+   ],
+   "items": [
+    [
+     "iron nail",
+     "Attracted by a magnet"
+    ],
+    [
+     "aluminium foil",
+     "Not attracted"
+    ],
+    [
+     "steel pin",
+     "Attracted by a magnet"
+    ],
+    [
+     "copper wire",
+     "Not attracted"
+    ],
+    [
+     "steel spoon",
+     "Attracted by a magnet"
+    ],
+    [
+     "plastic toy",
+     "Not attracted"
+    ]
+   ],
+   "explanation": "Magnets attract iron and steel. Aluminium, copper and plastic are not magnetic."
+  },
+  {
+   "id": "g3-c4-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Attract and repel",
+   "stem": "Will the magnets attract or repel? Sort these.",
+   "categories": [
+    "Attract",
+    "Repel"
+   ],
+   "items": [
+    [
+     "north pole facing south pole",
+     "Attract"
+    ],
+    [
+     "north pole facing north pole",
+     "Repel"
+    ],
+    [
+     "south pole facing north pole",
+     "Attract"
+    ],
+    [
+     "south pole facing south pole",
+     "Repel"
+    ]
+   ],
+   "explanation": "Different poles attract. Two poles that are the same repel, which means they push apart."
+  },
+  {
+   "id": "g3-c4-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Magnetic metals",
+   "stem": "Which materials does a magnet attract? Choose all that are right.",
+   "options": [
+    "iron",
+    "steel",
+    "aluminium",
+    "copper",
+    "plastic"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "A magnet attracts iron and steel. Aluminium and copper are metals that are not attracted, and plastic is not a metal at all."
+  },
+  {
+   "id": "g3-c4-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Attract and repel",
+   "stem": "Each magnet has two ends called ___: north and south.",
+   "blanks": [
+    [
+     "poles",
+     "pole"
+    ]
+   ],
+   "bank": [
+    "poles",
+    "cells",
+    "wires",
+    "loops"
+   ],
+   "explanation": "The two ends of a magnet are its poles, a north pole (N) and a south pole (S)."
+  },
+  {
+   "id": "g3-c4-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Model of current",
+   "stem": "Use the particle model to explain why the lamp goes out when you open the switch.",
+   "model_answer": "Opening the switch makes a gap, so the ring of particles is broken. The particles cannot flow round the circuit, so the lamp goes out.",
+   "keywords": [
+    [
+     "gap",
+     "break",
+     "broken",
+     "open",
+     "opens"
+    ],
+    [
+     "particles",
+     "flow",
+     "flows",
+     "current",
+     "electricity",
+     "ring",
+     "loop",
+     "stop",
+     "stops"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The particles can only flow round a complete loop, like children passing a ball in a ring. If the ring breaks, everything stops."
+  },
+  {
+   "id": "g3-c4-011",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Look at the circuit. What will the lamp do?",
+   "image": "diagrams/circuit-closed.svg",
+   "image_alt": "A circuit with a cell, a lamp and a closed switch.",
+   "options": [
+    "It will light up.",
+    "It will stay dark.",
+    "It will make a sound."
+   ],
+   "answer": 0,
+   "explanation": "The cell, wires, lamp and closed switch make a complete loop, so electricity flows and the lamp lights."
+  },
+  {
+   "id": "g3-c4-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Look at the circuit. Why is the lamp off?",
+   "image": "diagrams/circuit-open.svg",
+   "image_alt": "A circuit with a cell, a lamp and an open switch.",
+   "options": [
+    "The lamp has been put in the circuit the wrong way round.",
+    "There are too many wires in the circuit.",
+    "The open switch makes a gap in the loop.",
+    "The wires in the circuit are too short."
+   ],
+   "answer": 2,
+   "explanation": "An open switch is a gap in the circuit. Electricity cannot flow across the gap, so the lamp stays off."
+  },
+  {
+   "id": "g3-c4-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Compared with one lamp in a circuit with one cell, how bright are the two lamps in this picture?",
+   "image": "diagrams/circuit-two-lamps.svg",
+   "image_alt": "A circuit with one cell and two lamps in a loop.",
+   "options": [
+    "brighter",
+    "dimmer",
+    "just the same",
+    "much brighter"
+   ],
+   "answer": 1,
+   "explanation": "The two lamps share the electricity from one cell, so each is dimmer than a single lamp would be."
+  },
+  {
+   "id": "g3-c4-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Attract and repel",
+   "stem": "Look at the bar magnets. What happens when two north poles face each other?",
+   "image": "diagrams/bar-magnets.svg",
+   "image_alt": "Bar magnets: north facing south attract; north facing north repel.",
+   "options": [
+    "They attract: they pull together.",
+    "They stick and cannot be moved.",
+    "Nothing happens.",
+    "They repel: they push apart."
+   ],
+   "answer": 3,
+   "explanation": "Two poles that are the same repel each other. Different poles attract."
+  },
+  {
+   "id": "g3-c4-015",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Parts of a circuit",
+   "stem": "Sort these pictures into things that need electricity to work and things that do not.",
+   "categories": [
+    "Needs electricity",
+    "Does not need electricity"
+   ],
+   "items": [
+    [
+     {
+      "text": "fan",
+      "image": "openmoji/fan.svg"
+     },
+     "Needs electricity"
+    ],
+    [
+     {
+      "text": "bicycle",
+      "image": "openmoji/bicycle.svg"
+     },
+     "Does not need electricity"
+    ],
+    [
+     {
+      "text": "television",
+      "image": "openmoji/television.svg"
+     },
+     "Needs electricity"
+    ],
+    [
+     {
+      "text": "candle",
+      "image": "openmoji/candle.svg"
+     },
+     "Does not need electricity"
+    ],
+    [
+     {
+      "text": "mobile phone",
+      "image": "openmoji/mobile-phone.svg"
+     },
+     "Needs electricity"
+    ],
+    [
+     {
+      "text": "broom",
+      "image": "openmoji/broom.svg"
+     },
+     "Does not need electricity"
+    ],
+    [
+     {
+      "text": "light bulb",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Needs electricity"
+    ],
+    [
+     {
+      "text": "hammer",
+      "image": "openmoji/hammer.svg"
+     },
+     "Does not need electricity"
+    ]
+   ],
+   "explanation": "Fans, televisions, phones and light bulbs all use electricity. A bicycle, a candle, a broom and a hammer do not."
+  },
+  {
+   "id": "g3-c4-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Electricity at home",
+   "stem": "Rafi finds a loose wire sticking out of a wall socket. What is the safe thing to do?",
+   "options": [
+    "Push it back into the socket with a pencil.",
+    "Pull it out of the socket with wet hands.",
+    "Do not touch it and tell an adult.",
+    "Cover it with a wet cloth and walk away."
+   ],
+   "answer": 2,
+   "explanation": "Mains electricity is very dangerous and can kill. Never touch sockets or wires, and never use wet hands. Tell an adult."
+  },
+  {
+   "id": "g3-c4-017",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Raju's torch does not light. Which could be the reason? Choose all that are right.",
+   "options": [
+    "The cell is flat (used up).",
+    "The switch is off.",
+    "A wire has come loose, leaving a gap.",
+    "The torch is too heavy.",
+    "The torch case is red."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A torch needs a cell with electricity and a complete loop. A flat cell, an open switch or a gap all stop it working. Weight and colour make no difference."
+  },
+  {
+   "id": "g3-c4-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnetic metals",
+   "stem": "A scrapyard crane has a huge magnet to lift scrap. Which scrap can it lift?",
+   "options": [
+    "old iron bars",
+    "aluminium drink cans",
+    "copper pipes",
+    "plastic bottles"
+   ],
+   "answer": 0,
+   "explanation": "Iron is magnetic, so the crane magnet pulls it up. Aluminium, copper and plastic are not magnetic."
+  },
+  {
+   "id": "g3-c4-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "A solar home system in a village has a solar panel, a battery, wires, switches and lamps. At night the battery lights the lamps.",
+   "answer": true,
+   "explanation": "The solar panel charges the battery in the day. At night the battery sends electricity round the circuit to the lamps."
+  },
+  {
+   "id": "g3-c4-020",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Parts of a circuit",
+   "stem": "In a solar home system, the solar panel turns ___ into electricity, which is stored in a ___.",
+   "blanks": [
+    [
+     "sunlight",
+     "light",
+     "Sun",
+     "sun"
+    ],
+    [
+     "battery",
+     "cell"
+    ]
+   ],
+   "bank": [
+    "sunlight",
+    "battery",
+    "wire",
+    "magnet"
+   ],
+   "explanation": "Solar panels turn sunlight into electricity. The battery stores it so that families can use lamps at night without smoky kerosene lamps."
+  },
+  {
+   "id": "g3-c4-021",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "In the simulation, what happens to the bulb when you open the switch?",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC. Drag a battery, a light bulb, a switch and some wires onto the board and join them in one loop with the switch closed, so the bulb is lit. Now click the switch to open it."
+   },
+   "options": [
+    "It gets brighter.",
+    "It goes out.",
+    "It stays on."
+   ],
+   "answer": 1,
+   "explanation": "Opening the switch makes a gap in the loop, so electricity stops flowing and the bulb goes out."
+  },
+  {
+   "id": "g3-c4-022",
+   "mode": "simulation",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Magnetic metals",
+   "stem": "In the simulation, which objects make the bulb light? Choose all that are right.",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC and choose the Lab screen. Join a battery and a bulb with wires but leave a gap in the loop. Put each object in the gap one at a time: the paper clip, the coin, the eraser and the dollar bill. Watch the bulb."
+   },
+   "options": [
+    "the paper clip",
+    "the coin",
+    "the eraser",
+    "the dollar bill"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Metals such as the paper clip and coin let electricity through and complete the circuit. The eraser and the dollar bill do not."
+  },
+  {
+   "id": "g3-c4-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "In the simulation, what happens to the brightness of the bulbs when you add a second bulb in the same loop?",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC. Build a loop with one battery and one bulb and look at how bright it is. Then add a second bulb in the same loop (in a line with the first) and compare."
+   },
+   "options": [
+    "They are dimmer than one bulb alone.",
+    "They are brighter than one bulb alone.",
+    "They stay the same as one bulb alone."
+   ],
+   "answer": 0,
+   "explanation": "The two bulbs share the electricity from one battery, so each is dimmer."
+  },
+  {
+   "id": "g3-c4-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Attract and repel",
+   "stem": "In the simulation, when you flip the bar magnet over, the compass needle turns to point the opposite way.",
+   "sim": {
+    "id": "magnet-and-compass",
+    "task": "Open Magnet and Compass. Drag the compass close to one end of the bar magnet and see which way the needle points. Now flip the magnet over and watch the needle."
+   },
+   "answer": true,
+   "explanation": "A compass needle is a small magnet. When the poles of the bar magnet swap places, the needle swaps too."
+  },
+  {
+   "id": "g3-c4-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "A circuit has one cell, a closed switch and two lamps joined in one loop. Both lamps are lit. Imran unscrews one lamp from its holder. What happens to the other lamp?",
+   "options": [
+    "It gets brighter, because it now gets all the electricity.",
+    "It stays the same, because electricity goes round the gap.",
+    "It flickers for a moment, then stays lit.",
+    "It goes out too, because the loop is broken."
+   ],
+   "answer": 3,
+   "explanation": "Unscrewing a lamp makes a gap in the only loop. Electricity cannot flow anywhere, so the other lamp goes out too."
+  },
+  {
+   "id": "g3-c4-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Attract and repel",
+   "stem": "Class 3B hung paper clips in a chain from each magnet until no more would stick. Results: bar magnet 8, horseshoe magnet 12, ring magnet 5, fridge magnet 2. Which statement is correct?",
+   "options": [
+    "The ring magnet held more clips than the bar magnet.",
+    "The horseshoe magnet held 4 more clips than the bar magnet.",
+    "The fridge magnet held 5 clips.",
+    "The bar magnet was the strongest magnet."
+   ],
+   "answer": 1,
+   "explanation": "12 minus 8 is 4, so the horseshoe held 4 more than the bar. The horseshoe held the most clips, so it was the strongest."
+  },
+  {
+   "id": "g3-c4-027",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Nadia's lamp does not light because there is a gap in a wire. Using a stronger cell will make it light.",
+   "answer": false,
+   "explanation": "Electricity cannot cross a gap, however strong the cell is. She must close the gap to make a complete loop."
+  },
+  {
+   "id": "g3-c4-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Magnetic metals",
+   "stem": "How could you use a magnet to separate iron nails from sand?",
+   "model_answer": "Move a magnet through the mixture. The iron nails stick to the magnet and the sand stays behind.",
+   "keywords": [
+    [
+     "magnet"
+    ],
+    [
+     "nails",
+     "nail",
+     "iron",
+     "stick",
+     "sticks",
+     "attract",
+     "attracted",
+     "pull",
+     "pulls",
+     "pick",
+     "picks"
+    ],
+    [
+     "sand",
+     "stays",
+     "left",
+     "behind"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Iron is magnetic and sand is not. The magnet picks up the nails and leaves the sand."
+  }
+ ]
+}

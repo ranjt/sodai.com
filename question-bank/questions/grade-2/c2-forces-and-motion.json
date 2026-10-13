@@ -1,0 +1,536 @@
+{
+ "grade": 2,
+ "grade_name": "Grade 2",
+ "topic": "C2",
+ "title": "Forces and Motion",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g2-c2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Pushes and pulls",
+   "stem": "A force is a…",
+   "options": [
+    "colour or a shape",
+    "push or a pull",
+    "sound or a smell",
+    "speed or a size"
+   ],
+   "answer": 1,
+   "explanation": "Every push and every pull is a force. Forces can start things moving, stop them, or change their shape."
+  },
+  {
+   "id": "g2-c2-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Pushes and pulls",
+   "stem": "Sort each action into push or pull.",
+   "categories": [
+    "Push",
+    "Pull"
+   ],
+   "items": [
+    [
+     "pushing a pram",
+     "Push"
+    ],
+    [
+     "kicking a ball",
+     "Push"
+    ],
+    [
+     "pressing a button",
+     "Push"
+    ],
+    [
+     "opening a drawer",
+     "Pull"
+    ],
+    [
+     "pulling a rope",
+     "Pull"
+    ],
+    [
+     "flying a kite",
+     "Pull"
+    ]
+   ],
+   "explanation": "When you kick, press or push a pram, you push away from yourself. When you open a drawer, pull a rope or hold a kite string, you pull towards yourself."
+  },
+  {
+   "id": "g2-c2-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What forces do",
+   "stem": "Match each action to what the force does.",
+   "pairs": [
+    [
+     "squashing clay",
+     "changes its shape"
+    ],
+    [
+     "catching a ball",
+     "stops it"
+    ],
+    [
+     "pushing a swing",
+     "starts it moving"
+    ],
+    [
+     "hitting a ball with a bat",
+     "changes its direction"
+    ]
+   ],
+   "explanation": "Forces can change shape, start movement, stop movement and change the way something moves."
+  },
+  {
+   "id": "g2-c2-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Gravity and friction",
+   "stem": "A mango falls down because of ___. A ball stops on grass because of ___. A force is a push or a ___.",
+   "blanks": [
+    [
+     "gravity"
+    ],
+    [
+     "friction"
+    ],
+    [
+     "pull"
+    ]
+   ],
+   "bank": [
+    "gravity",
+    "friction",
+    "pull",
+    "light"
+   ],
+   "explanation": "Gravity pulls things down towards the Earth. Friction slows things that rub together, such as a ball on grass."
+  },
+  {
+   "id": "g2-c2-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Gravity and friction",
+   "stem": "Friction is a force that slows things down when they rub together.",
+   "answer": true,
+   "explanation": "Friction happens when two surfaces rub. A ball rolls far on a smooth floor but stops quickly on rough grass."
+  },
+  {
+   "id": "g2-c2-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring forces",
+   "stem": "We measure forces with a ___, and the unit is the ___.",
+   "blanks": [
+    [
+     "forcemeter",
+     "force meter",
+     "newton meter",
+     "newtonmeter"
+    ],
+    [
+     "newton",
+     "newtons",
+     "N"
+    ]
+   ],
+   "bank": [
+    "forcemeter",
+    "newton",
+    "ruler",
+    "metre"
+   ],
+   "explanation": "A forcemeter has a spring inside. The harder you pull, the more it stretches, and the reading is in newtons (N)."
+  },
+  {
+   "id": "g2-c2-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring forces",
+   "stem": "Look at the forcemeter. What force does it show?",
+   "image": "diagrams/forcemeter-4n.svg",
+   "image_alt": "A forcemeter with its pointer at 4 newtons.",
+   "options": [
+    "2 N",
+    "7 N",
+    "4 N",
+    "10 N"
+   ],
+   "answer": 2,
+   "explanation": "The pointer is at 4, so the force is 4 newtons (4 N). A forcemeter reads the size of a force."
+  },
+  {
+   "id": "g2-c2-008",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Weight and force",
+   "stem": "This forcemeter lifts a bag and shows 7 N. A second bag shows 4 N. Which bag is heavier?",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter with its pointer at 7 newtons.",
+   "options": [
+    "the bag that shows 7 N",
+    "the bag that shows 4 N",
+    "both bags weigh the same",
+    "we cannot tell"
+   ],
+   "answer": 0,
+   "explanation": "The heavier a bag is, the more force you need to lift it, so the bigger reading belongs to the heavier bag."
+  },
+  {
+   "id": "g2-c2-009",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Measuring forces",
+   "stem": "Look at the box. How much force is needed to lift it straight up?",
+   "image": "diagrams/ramp-lift.svg",
+   "image_alt": "A box lifted straight up with a force of 10 newtons, and pulled up a ramp with a force of 4 newtons.",
+   "options": [
+    "4 N",
+    "10 N",
+    "7 N",
+    "14 N"
+   ],
+   "answer": 1,
+   "explanation": "The picture says lifting the box straight up needs 10 N. Pulling it up the ramp needs only 4 N, but the path is longer."
+  },
+  {
+   "id": "g2-c2-010",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Gravity and friction",
+   "stem": "Look at the arrows on the aeroplane. Which force pulls it down towards the Earth?",
+   "image": "diagrams/flight-forces.svg",
+   "image_alt": "An aeroplane with four arrows: lift up, weight down, thrust forward and drag backward.",
+   "options": [
+    "lift",
+    "thrust",
+    "drag",
+    "weight"
+   ],
+   "answer": 3,
+   "explanation": "Weight is how hard gravity pulls on something, so the arrow pointing down is weight. The other arrows point up, forwards and backwards."
+  },
+  {
+   "id": "g2-c2-011",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Weight and force",
+   "stem": "The forcemeter shows 7 N. If a lighter bag is hung on it, the reading will go down.",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter with its pointer at 7 newtons.",
+   "answer": true,
+   "explanation": "A lighter bag needs less force to hold it up, so the pointer moves back towards a smaller number."
+  },
+  {
+   "id": "g2-c2-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Motion",
+   "stem": "Motion means a change in position over time.",
+   "answer": true,
+   "explanation": "If something is in a different place after some time, it has moved. A car that goes further in the same time is moving faster."
+  },
+  {
+   "id": "g2-c2-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Motion",
+   "stem": "In 5 seconds toy car A goes 2 metres and toy car B goes 4 metres. Which car is moving faster?",
+   "options": [
+    "car A",
+    "they are moving at the same speed",
+    "car B",
+    "neither car is moving"
+   ],
+   "answer": 2,
+   "explanation": "Car B goes further in the same time, so it is moving faster."
+  },
+  {
+   "id": "g2-c2-014",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Gravity and friction",
+   "stem": "Why is it easier to slide on a wet, smooth floor than on a rough mat?",
+   "model_answer": "The smooth floor has less friction, so you slide. The rough mat has more friction.",
+   "keywords": [
+    [
+     "less friction",
+     "little friction",
+     "not much friction",
+     "smooth",
+     "slippery"
+    ],
+    [
+     "rough",
+     "more friction",
+     "grips",
+     "grip",
+     "mat"
+    ],
+    [
+     "slide",
+     "slides",
+     "slip",
+     "slippery"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Friction is the force between two surfaces that rub. A smooth, wet floor has less of it, so things slide easily. A rough mat has more, so it slows you down."
+  },
+  {
+   "id": "g2-c2-015",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Gravity and friction",
+   "stem": "Put the steps of a fair test in order to find which surface has the most friction.",
+   "sequence": [
+    "Roll a toy car down a ramp onto the smooth floor.",
+    "Measure how far the car went.",
+    "Roll the same car down the same ramp onto the mat.",
+    "Measure how far it went this time.",
+    "Compare the two distances."
+   ],
+   "explanation": "We keep the car and ramp the same and change only the surface. The surface where the car stops soonest has the most friction."
+  },
+  {
+   "id": "g2-c2-016",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What forces do",
+   "stem": "What can a force do to an object? Choose all that are right.",
+   "options": [
+    "start it moving",
+    "stop it moving",
+    "change its shape",
+    "change its colour",
+    "change its direction"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "explanation": "Forces can start and stop movement, change direction and change shape, such as squashing clay. A force does not change colour."
+  },
+  {
+   "id": "g2-c2-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weight and force",
+   "stem": "Kamal drives a rickshaw van. Why is it harder to pedal when the van is full of potatoes?",
+   "options": [
+    "The van is heavier and needs more force.",
+    "The potatoes make the road much smoother.",
+    "Gravity stops pulling on the loaded van.",
+    "The wheels turn the wrong way round."
+   ],
+   "answer": 0,
+   "explanation": "Heavier things need more force to move. A full van has more weight, so Kamal must push the pedals harder."
+  },
+  {
+   "id": "g2-c2-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Gravity and friction",
+   "stem": "On a wet road the van slides more when Kamal brakes. Why should he go slowly?",
+   "options": [
+    "There is more friction, so it stops at once.",
+    "There is less friction, so it stops slowly.",
+    "The brakes make it go faster instead.",
+    "Gravity is weaker on wet roads here."
+   ],
+   "answer": 1,
+   "explanation": "Water makes the road slippery, so there is less friction between the tyres and the road. The van needs more space to stop."
+  },
+  {
+   "id": "g2-c2-019",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Gravity and friction",
+   "stem": "Which are ways that friction helps us? Choose all that are right.",
+   "options": [
+    "Shoes grip the ground so we do not slip.",
+    "Bicycle brakes stop the wheels.",
+    "A wet, smooth floor lets us slide.",
+    "A mango falls from the tree."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Shoes grip because of friction, and brakes use friction to slow the wheels. Sliding on a smooth floor means very little friction, and a falling mango is gravity."
+  },
+  {
+   "id": "g2-c2-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Gravity and friction",
+   "stem": "After rain the school corridor is wet and smooth. Sumi walks slowly because there is less friction and she could slip.",
+   "answer": true,
+   "explanation": "A wet, smooth floor has less friction, so shoes grip less and it is easy to slip. Walking slowly is the safe choice."
+  },
+  {
+   "id": "g2-c2-021",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pushes and pulls",
+   "stem": "In the simulation, what happens to the cart when the same-size pullers pull equally on both ropes?",
+   "sim": {
+    "id": "forces-and-motion-basics",
+    "task": "Open Forces and Motion: Basics and choose the Net Force screen. Put one medium puller on the left rope and one medium puller on the right rope, then press Go."
+   },
+   "options": [
+    "It moves to the left.",
+    "It moves to the right.",
+    "It does not move.",
+    "It spins around."
+   ],
+   "answer": 2,
+   "explanation": "Equal pulls in opposite directions cancel each other, so the cart stays still. The side with the bigger total pull wins."
+  },
+  {
+   "id": "g2-c2-022",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Gravity and friction",
+   "stem": "In the simulation, a crate you have pushed slows down and stops faster when the friction is set to lots.",
+   "sim": {
+    "id": "forces-and-motion-basics",
+    "task": "Open Forces and Motion: Basics and choose the Friction screen. Push the crate so it moves, then set the push back to zero. Do this once with the friction slider on a little and once on lots."
+   },
+   "answer": true,
+   "explanation": "More friction means a bigger force slowing the crate. With little friction it slides much further."
+  },
+  {
+   "id": "g2-c2-023",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Weight and force",
+   "stem": "In the simulation, with the same push, the heavy fridge speeds up more slowly than the crate.",
+   "sim": {
+    "id": "forces-and-motion-basics",
+    "task": "Open Forces and Motion: Basics and choose the Motion screen. Set friction to none. Push the crate with the applied force slider and watch its speed. Then use the same push on the fridge."
+   },
+   "answer": true,
+   "explanation": "A heavier object needs a bigger force to speed up. The same push makes the lighter crate speed up faster than the fridge."
+  },
+  {
+   "id": "g2-c2-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Gravity and friction",
+   "stem": "Class 2B rolled a toy car down a ramp: smooth floor 150 cm, mat 80 cm, sand 20 cm. They now try a polished tile with even less friction than the smooth floor. What is the best prediction?",
+   "options": [
+    "It goes about 80 cm, like the mat.",
+    "It goes less than 20 cm, like sand.",
+    "It goes exactly 150 cm again.",
+    "It goes further than 150 cm."
+   ],
+   "answer": 3,
+   "explanation": "The less friction a surface has, the further the car rolls. The smooth floor went furthest so far, so a surface with even less friction should take the car further."
+  },
+  {
+   "id": "g2-c2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Gravity and friction",
+   "stem": "Mina rolls a car down a tall ramp onto sand. Raju rolls the same car down a short ramp onto a smooth floor. Why is this not a fair test of friction?",
+   "options": [
+    "The surfaces are different from each other.",
+    "The ramps are different heights.",
+    "They used the same car both times.",
+    "They did both tests in one room."
+   ],
+   "answer": 1,
+   "explanation": "In a fair test only the surface should change. A taller ramp gives the car a faster start, so the ramp must be the same height each time."
+  },
+  {
+   "id": "g2-c2-026",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Gravity and friction",
+   "stem": "Tuli says, \"Gravity only pulls on things that are falling.\" A book is lying on a table. Is Tuli right? Explain.",
+   "model_answer": "No. Gravity pulls on everything all the time. The book does not fall because the table holds it up.",
+   "keywords": [
+    [
+     "no",
+     "wrong",
+     "not right",
+     "not correct"
+    ],
+    [
+     "everything",
+     "all",
+     "always",
+     "book",
+     "pulls"
+    ],
+    [
+     "table",
+     "holds",
+     "stops",
+     "supports"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Gravity pulls on every object, even when it is still. The book stays where it is because the table is in the way, so it cannot fall."
+  }
+ ]
+}

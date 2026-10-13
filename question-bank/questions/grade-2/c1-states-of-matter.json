@@ -1,0 +1,585 @@
+{
+ "grade": 2,
+ "grade_name": "Grade 2",
+ "topic": "C1",
+ "title": "States of Matter",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g2-c1-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Which of these keeps its own shape?",
+   "options": [
+    {
+     "text": "milk",
+     "image": "openmoji/milk.svg"
+    },
+    {
+     "text": "a rock",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "air in a balloon",
+     "image": "openmoji/balloon.svg"
+    },
+    {
+     "text": "a water drop",
+     "image": "openmoji/droplet.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A solid keeps its own shape. Liquids take the shape of their container and gases spread out to fill the space."
+  },
+  {
+   "id": "g2-c1-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Sort the pictures into solid or liquid.",
+   "categories": [
+    "Solid",
+    "Liquid"
+   ],
+   "items": [
+    [
+     {
+      "text": "ice cube",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "Solid"
+    ],
+    [
+     {
+      "text": "brick",
+      "image": "openmoji/brick.svg"
+     },
+     "Solid"
+    ],
+    [
+     {
+      "text": "rock",
+      "image": "openmoji/rock.svg"
+     },
+     "Solid"
+    ],
+    [
+     {
+      "text": "milk",
+      "image": "openmoji/milk.svg"
+     },
+     "Liquid"
+    ],
+    [
+     {
+      "text": "droplet",
+      "image": "openmoji/droplet.svg"
+     },
+     "Liquid"
+    ],
+    [
+     {
+      "text": "water glass",
+      "image": "openmoji/water-glass.svg"
+     },
+     "Liquid"
+    ]
+   ],
+   "explanation": "Ice, bricks and rocks keep their shape, so they are solids. Milk, a water drop and water in a glass can be poured, so they are liquids."
+  },
+  {
+   "id": "g2-c1-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Solids, liquids and gases",
+   "stem": "The boxes show tiny particles. Which box shows a gas, with particles far apart?",
+   "image": "diagrams/states-particles.svg",
+   "image_alt": "Three boxes of tiny particles from left to right: a solid, a liquid and a gas.",
+   "options": [
+    "the right box",
+    "the left box",
+    "the middle box",
+    "no box"
+   ],
+   "answer": 0,
+   "explanation": "In a gas the particles are far apart and move about quickly, so the gas spreads out to fill the space. The box on the left is a solid and the middle box is a liquid."
+  },
+  {
+   "id": "g2-c1-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Match each picture to its state of matter.",
+   "pairs": [
+    [
+     {
+      "text": "ice cube",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "solid"
+    ],
+    [
+     {
+      "text": "milk",
+      "image": "openmoji/milk.svg"
+     },
+     "liquid"
+    ],
+    [
+     {
+      "text": "air in a balloon",
+      "image": "openmoji/balloon.svg"
+     },
+     "gas"
+    ]
+   ],
+   "explanation": "Ice keeps its shape, milk can be poured, and the air inside a balloon is a gas that spreads out to fill it."
+  },
+  {
+   "id": "g2-c1-005",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Solids, liquids and gases",
+   "stem": "In the picture, the particles in the box on the left are packed close together in rows.",
+   "image": "diagrams/states-particles.svg",
+   "image_alt": "Three boxes of tiny particles from left to right: a solid, a liquid and a gas.",
+   "answer": true,
+   "explanation": "In a solid the particles are packed tightly in rows and only jiggle in place. That is why a solid keeps its shape."
+  },
+  {
+   "id": "g2-c1-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Match each state of matter to how it behaves.",
+   "pairs": [
+    [
+     "solid",
+     "keeps its shape"
+    ],
+    [
+     "liquid",
+     "takes the shape of its container"
+    ],
+    [
+     "gas",
+     "spreads out to fill the space"
+    ]
+   ],
+   "explanation": "A solid keeps its shape, a liquid takes the shape of its container, and a gas spreads out to fill all the space it can."
+  },
+  {
+   "id": "g2-c1-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What is matter",
+   "stem": "Air is matter because it takes up space.",
+   "answer": true,
+   "explanation": "Matter is anything that has mass and takes up space. You cannot see air, but it fills a balloon, so it is matter."
+  },
+  {
+   "id": "g2-c1-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What is matter",
+   "stem": "Everything that has mass and takes up ___ is called matter.",
+   "blanks": [
+    [
+     "space",
+     "room"
+    ]
+   ],
+   "bank": [
+    "space",
+    "colour",
+    "light"
+   ],
+   "explanation": "Matter has mass and takes up space. Solids, liquids and gases are all matter."
+  },
+  {
+   "id": "g2-c1-009",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Which of these are liquids? Choose all that are right.",
+   "options": [
+    "milk",
+    "cooking oil",
+    "ice",
+    "juice",
+    "steam"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Milk, oil and juice can be poured and take the shape of their container. Ice is a solid and steam is a gas."
+  },
+  {
+   "id": "g2-c1-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Melting and freezing",
+   "stem": "Ice ___ into water when it is warm. Water ___ into ice in a freezer.",
+   "blanks": [
+    [
+     "melts",
+     "melt"
+    ],
+    [
+     "freezes",
+     "freeze"
+    ]
+   ],
+   "bank": [
+    "melts",
+    "freezes",
+    "boils",
+    "sand"
+   ],
+   "explanation": "A solid turns into a liquid when it melts. A liquid turns into a solid when it freezes."
+  },
+  {
+   "id": "g2-c1-011",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Water and steam",
+   "stem": "Put the steps in order to show what happens when water boils in a pot with a lid.",
+   "sequence": [
+    "The water is heated.",
+    "The water boils.",
+    "Steam rises from the water.",
+    "Steam touches the cold lid.",
+    "Water drops form on the lid."
+   ],
+   "explanation": "Heating makes water boil and turn into steam, which is a gas. When the steam touches the cold lid it turns back into drops of water."
+  },
+  {
+   "id": "g2-c1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Melting and freezing",
+   "stem": "Melting is the reverse of…",
+   "options": [
+    "boiling",
+    "floating",
+    "pouring",
+    "freezing"
+   ],
+   "answer": 3,
+   "explanation": "Melting turns a solid into a liquid. Freezing turns a liquid back into a solid, so they are opposites."
+  },
+  {
+   "id": "g2-c1-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Melting and freezing",
+   "stem": "Joy left a bar of chocolate in her school bag on a hot day. What will she find?",
+   "options": [
+    "The chocolate has melted.",
+    "The chocolate has frozen hard.",
+    "The chocolate has turned to steam.",
+    "The chocolate has not changed at all."
+   ],
+   "answer": 0,
+   "explanation": "Heat makes the chocolate melt. If she puts it in the fridge, it cools and becomes a solid again."
+  },
+  {
+   "id": "g2-c1-014",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Water and steam",
+   "stem": "Rina puts a lid on a pot of boiling water. Later the lid is wet inside. Why?",
+   "model_answer": "Steam from the water touched the cold lid and turned back into drops of water.",
+   "keywords": [
+    [
+     "steam",
+     "gas",
+     "vapour",
+     "vapor"
+    ],
+    [
+     "cold",
+     "cool",
+     "cooler"
+    ],
+    [
+     "lid",
+     "drops",
+     "drop",
+     "water",
+     "liquid"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Steam is water as a gas. When it touches the cooler lid it turns back into water drops."
+  },
+  {
+   "id": "g2-c1-015",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Melting and freezing",
+   "stem": "Sort each change into melting, freezing or water turning into steam.",
+   "categories": [
+    "Melting",
+    "Freezing",
+    "Water turning into steam"
+   ],
+   "items": [
+    [
+     "an ice cube in the sun",
+     "Melting"
+    ],
+    [
+     "butter on a hot roti",
+     "Melting"
+    ],
+    [
+     "water in the freezer",
+     "Freezing"
+    ],
+    [
+     "juice made into an ice lolly",
+     "Freezing"
+    ],
+    [
+     "water boiling in a kettle",
+     "Water turning into steam"
+    ],
+    [
+     "a pot of rice with bubbling water",
+     "Water turning into steam"
+    ]
+   ],
+   "explanation": "Melting is a solid turning into a liquid. Freezing is a liquid turning into a solid. Boiling water turns into steam."
+  },
+  {
+   "id": "g2-c1-016",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water and steam",
+   "stem": "Steam is a liquid.",
+   "answer": false,
+   "explanation": "Steam is water as a gas. Liquid water turns into steam when it is heated until it boils."
+  },
+  {
+   "id": "g2-c1-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Water and steam",
+   "stem": "Tuli sees steam coming out of the kettle on the stove. What is the safe thing to do?",
+   "options": [
+    "Touch the steam to feel it.",
+    "Lift the lid and look inside.",
+    "Ask an adult for help.",
+    "Hold her hand over the spout."
+   ],
+   "answer": 2,
+   "explanation": "Steam and boiling water can burn you badly. Always ask an adult to help with anything that is being heated."
+  },
+  {
+   "id": "g2-c1-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Melting and freezing",
+   "stem": "Mina wants to make ice at home in Dhaka. Where should she put a tray of water?",
+   "options": [
+    "on the table by the fan",
+    "in the freezer of the fridge",
+    "in the garden at night",
+    "in the shade outside"
+   ],
+   "answer": 1,
+   "explanation": "Water only freezes below 0 degrees Celsius. In Bangladesh it is not that cold outside, even in winter, so you need a fridge freezer."
+  },
+  {
+   "id": "g2-c1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Melting and freezing",
+   "stem": "The ice cream seller keeps lots of ice in a thick-walled box in his cart. Why?",
+   "options": [
+    "It keeps the ice cream cold so it stays solid.",
+    "It makes the ice cream hotter.",
+    "It turns the ice cream into steam.",
+    "It makes the cart lighter."
+   ],
+   "answer": 0,
+   "explanation": "The ice stays cold and keeps the ice cream from melting. By the evening most of the ice has melted into water, a liquid."
+  },
+  {
+   "id": "g2-c1-020",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Heating and cooling",
+   "stem": "In the simulation, when you heat the water, the particles move faster.",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and choose the States screen. Pick water and press Solid. Then use the heat slider to heat the water and watch the particles."
+   },
+   "answer": true,
+   "explanation": "Heat gives the particles more energy, so they move faster. That is why a solid melts to a liquid and a liquid becomes a gas as it is heated."
+  },
+  {
+   "id": "g2-c1-021",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Solids, liquids and gases",
+   "stem": "In the simulation, which state of water has particles far apart and moving about very fast?",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and choose the States screen. Pick water. Press the Solid, Liquid and Gas buttons one at a time and watch the particles each time."
+   },
+   "options": [
+    "solid",
+    "liquid",
+    "gas",
+    "all three states"
+   ],
+   "answer": 2,
+   "explanation": "In a gas the particles are far apart and zoom about. In a solid they are packed in rows, and in a liquid they are close but slide around."
+  },
+  {
+   "id": "g2-c1-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Heating and cooling",
+   "stem": "Class 2A timed ice cubes of the same size until they melted: in the sun 10 minutes, on a table 25, in the shade 30, in a cool box 90. How much longer did the ice last in the cool box than in the shade?",
+   "options": [
+    "120 minutes",
+    "60 minutes",
+    "80 minutes",
+    "30 minutes"
+   ],
+   "answer": 1,
+   "explanation": "90 minus 30 is 60 minutes. The cool box kept the ice colder than any other place, so the ice melted slowest there."
+  },
+  {
+   "id": "g2-c1-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "What is matter",
+   "stem": "Imran says, \"Air is not matter because I cannot see it.\" Which test shows that he is wrong?",
+   "options": [
+    "Hold a stone in your hand.",
+    "Look at a glass of water.",
+    "Shout across the field.",
+    "Blow up a balloon: the air fills it."
+   ],
+   "answer": 3,
+   "explanation": "Air takes up space: it fills the balloon and makes it bigger. Anything that has mass and takes up space is matter, even if we cannot see it."
+  },
+  {
+   "id": "g2-c1-024",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Heating and cooling",
+   "stem": "Ice cubes of the same size were put in the sun and in a cool box. The ice in the sun melted much faster. Explain why.",
+   "model_answer": "The sun makes the ice warm so it melts quickly, but the cool box keeps the ice cold so it melts slowly.",
+   "keywords": [
+    [
+     "sun",
+     "sunny",
+     "warm",
+     "warmer",
+     "hot",
+     "hotter",
+     "heat"
+    ],
+    [
+     "cold",
+     "cool",
+     "colder",
+     "cooler"
+    ],
+    [
+     "melt",
+     "melts",
+     "melted",
+     "melting"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Heat makes ice melt. The sun is the warmest place so the ice melts fastest there. A thick cool box keeps heat out so the ice stays solid longer."
+  },
+  {
+   "id": "g2-c1-025",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water and steam",
+   "stem": "When steam touches a cold lid, it turns back into drops of water.",
+   "answer": true,
+   "explanation": "Cooling turns steam (a gas) back into liquid water. This is the opposite of boiling."
+  },
+  {
+   "id": "g2-c1-026",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Melting and freezing",
+   "stem": "Water turns into ice when it is…",
+   "options": [
+    "cooled",
+    "heated",
+    "stirred",
+    "poured"
+   ],
+   "answer": 0,
+   "explanation": "Cooling a liquid enough makes it freeze into a solid. Water freezes into ice below 0 degrees Celsius."
+  }
+ ]
+}

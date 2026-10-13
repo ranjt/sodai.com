@@ -1,0 +1,590 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "B2",
+ "title": "Day, Night, Seasons and the Moon",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-b2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "Why do we have day and night?",
+   "options": [
+    "The Earth spins.",
+    "The Sun goes around the Earth.",
+    "Clouds cover the Sun.",
+    "The Moon pushes the Sun away."
+   ],
+   "answer": 0,
+   "explanation": "The Earth spins (rotates) once every 24 hours. The side facing the Sun has day and the side facing away has night. The Sun does not really move around us."
+  },
+  {
+   "id": "g3-b2-002",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "The Earth spins once every ___ hours. The Earth goes around the ___ once a year.",
+   "blanks": [
+    [
+     "24",
+     "twenty-four",
+     "twenty four"
+    ],
+    [
+     "Sun",
+     "sun"
+    ]
+   ],
+   "bank": [
+    "24",
+    "Sun",
+    "Moon",
+    "365"
+   ],
+   "explanation": "One spin takes 24 hours, which gives us day and night. One trip around the Sun takes a year."
+  },
+  {
+   "id": "g3-b2-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "The Sun moves around the Earth every day.",
+   "answer": false,
+   "explanation": "The Earth spins, so the Sun only seems to move across the sky from east to west."
+  },
+  {
+   "id": "g3-b2-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Sun across the sky",
+   "stem": "A shadow stick has its shortest shadow at midday.",
+   "answer": true,
+   "explanation": "At midday the Sun is highest in the sky, so the shadow is shortest. It is long in the morning and long again in the evening."
+  },
+  {
+   "id": "g3-b2-005",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The Moon and its phases",
+   "stem": "Put the phases of the Moon in order, starting at the new moon.",
+   "sequence": [
+    "new moon",
+    "waxing crescent",
+    "first quarter",
+    "waxing gibbous",
+    "full moon",
+    "waning gibbous",
+    "last quarter"
+   ],
+   "explanation": "The Moon goes from new moon to full moon as more of its lit side comes into view, then shrinks again through the waning phases."
+  },
+  {
+   "id": "g3-b2-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "rotate",
+     "spin around"
+    ],
+    [
+     "orbit",
+     "travel around"
+    ],
+    [
+     "axis",
+     "the imaginary line the Earth spins around"
+    ],
+    [
+     "phase",
+     "the shape of the lit part of the Moon we see"
+    ],
+    [
+     "tide",
+     "the sea going up and down each day"
+    ]
+   ],
+   "explanation": "The Earth rotates on its axis and orbits the Sun. A phase is the Moon's shape and a tide is the rise and fall of the sea."
+  },
+  {
+   "id": "g3-b2-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Seasons",
+   "stem": "How do the seasons affect living things? Choose all that are right.",
+   "options": [
+    "Farmers plant crops at the right season.",
+    "Some birds fly to Bangladesh in winter.",
+    "Trees grow new leaves in spring.",
+    "The Moon grows bigger in summer.",
+    "The Earth stops spinning in the rainy season."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "People, animals and plants all follow the seasons. The Moon's shape and the Earth's spin do not depend on the season."
+  },
+  {
+   "id": "g3-b2-008",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Movements of the Earth and Moon",
+   "stem": "Sort each event by the movement that causes it.",
+   "categories": [
+    "Earth spinning",
+    "Earth going around the Sun",
+    "Moon going around the Earth"
+   ],
+   "items": [
+    [
+     "day and night",
+     "Earth spinning"
+    ],
+    [
+     "the Sun seeming to rise in the east",
+     "Earth spinning"
+    ],
+    [
+     "a year of 365¼ days",
+     "Earth going around the Sun"
+    ],
+    [
+     "the seasons",
+     "Earth going around the Sun"
+    ],
+    [
+     "the phases of the Moon",
+     "Moon going around the Earth"
+    ],
+    [
+     "a month",
+     "Moon going around the Earth"
+    ]
+   ],
+   "explanation": "The spin of the Earth gives day and night. The Earth's trip around the Sun (with its tilt) gives the year and the seasons. The Moon's trip around the Earth gives the phases."
+  },
+  {
+   "id": "g3-b2-009",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "When it is day in Bangladesh, it is night in America. Why?",
+   "model_answer": "Bangladesh faces the Sun while America is on the other side of the spinning Earth, facing away from the Sun.",
+   "keywords": [
+    [
+     "face",
+     "faces",
+     "facing",
+     "toward",
+     "towards",
+     "lit",
+     "sunlight"
+    ],
+    [
+     "other side",
+     "away",
+     "opposite",
+     "dark",
+     "not facing"
+    ],
+    [
+     "earth",
+     "spin",
+     "spins",
+     "spinning",
+     "rotate",
+     "rotates",
+     "round"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The Earth is a ball, so the Sun lights only half of it at a time. When Bangladesh faces the Sun it has day while the far side has night."
+  },
+  {
+   "id": "g3-b2-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Seasons",
+   "stem": "It is hotter in summer because the Sun is higher in the sky, so its light is stronger.",
+   "answer": true,
+   "explanation": "In summer our part of the Earth leans towards the Sun. The Sun is high, the light is strong and the weather is warmer."
+  },
+  {
+   "id": "g3-b2-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Moon and its phases",
+   "stem": "The Moon travels around the Earth about once a month.",
+   "answer": true,
+   "explanation": "The Moon orbits the Earth in about a month. As it moves, we see different amounts of its lit side, which are the phases."
+  },
+  {
+   "id": "g3-b2-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Moon and its phases",
+   "stem": "The Moon has no light of its own. It ___ sunlight.",
+   "blanks": [
+    [
+     "reflects",
+     "reflect",
+     "bounces",
+     "bounces back"
+    ]
+   ],
+   "bank": [
+    "reflects",
+    "makes",
+    "absorbs"
+   ],
+   "explanation": "We see the Moon because sunlight bounces off it. The part we see lit changes as the Moon moves round the Earth."
+  },
+  {
+   "id": "g3-b2-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "The Sun across the sky",
+   "stem": "Look at the stick and its shadow at three times of the day. When is the shadow shortest?",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky.",
+   "options": [
+    "early in the morning",
+    "in the evening",
+    "at midday",
+    "at midnight"
+   ],
+   "answer": 2,
+   "explanation": "At midday the Sun is at its highest, so the shadow is shortest. When the Sun is low in the morning and evening the shadow is long."
+  },
+  {
+   "id": "g3-b2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "Look at the picture of the Earth and the Sun. Which part of the Earth has daytime?",
+   "image": "diagrams/day-night.svg",
+   "image_alt": "The Sun lighting one half of the spinning Earth: day on the side facing the Sun and night on the other side.",
+   "options": [
+    "the side facing away from the Sun",
+    "the side facing the Sun",
+    "the whole Earth at once",
+    "only the North Pole"
+   ],
+   "answer": 1,
+   "explanation": "The Sun lights the side of the Earth that faces it, so that side has day. The side facing away is in the dark, so it has night."
+  },
+  {
+   "id": "g3-b2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Seasons",
+   "stem": "The Earth is tilted. When the top half of the Earth leans towards the Sun, what season does that half have?",
+   "image": "diagrams/seasons-orbit.svg",
+   "image_alt": "The tilted Earth at different places in its orbit around the Sun.",
+   "options": [
+    "summer",
+    "winter",
+    "night",
+    "a new year"
+   ],
+   "answer": 0,
+   "explanation": "Leaning towards the Sun means the Sun is higher and its light is stronger, so that half has summer. Six months later it leans away and has winter."
+  },
+  {
+   "id": "g3-b2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Moon and its phases",
+   "stem": "Which number shows the full moon?",
+   "image": "diagrams/moon-phases-numbered.svg",
+   "image_alt": "Eight shapes of the Moon numbered 1 to 8 in order through a month.",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "7"
+   ],
+   "answer": 2,
+   "explanation": "Number 5 is the full moon, when the whole lit side faces us. Number 1 is the new moon, when we cannot see the lit side at all."
+  },
+  {
+   "id": "g3-b2-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "The Moon and its phases",
+   "stem": "Match each number in the picture to its Moon phase.",
+   "image": "diagrams/moon-phases-numbered.svg",
+   "image_alt": "Eight shapes of the Moon numbered 1 to 8 in order through a month.",
+   "pairs": [
+    [
+     "1",
+     "new moon"
+    ],
+    [
+     "3",
+     "first quarter"
+    ],
+    [
+     "5",
+     "full moon"
+    ],
+    [
+     "7",
+     "last quarter"
+    ]
+   ],
+   "explanation": "The phases go in order: 1 new moon, 2 waxing crescent, 3 first quarter, 4 waxing gibbous, 5 full moon, 6 waning gibbous, 7 last quarter, 8 waning crescent."
+  },
+  {
+   "id": "g3-b2-018",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "The Moon and its phases",
+   "stem": "Number 2 is a waxing crescent. This thin Moon will look bigger on the next few nights.",
+   "image": "diagrams/moon-phases-numbered.svg",
+   "image_alt": "Eight shapes of the Moon numbered 1 to 8 in order through a month.",
+   "answer": true,
+   "explanation": "\"Waxing\" means growing. After the crescent comes the first quarter, then the bigger gibbous Moon, and then the full moon."
+  },
+  {
+   "id": "g3-b2-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The Moon and its phases",
+   "stem": "Rafi's father is a fisher on the coast. Why does he watch the Moon?",
+   "options": [
+    "The Moon heats the sea.",
+    "The Moon affects the tides.",
+    "The Moon calls the fish.",
+    "The Moon makes the wind blow."
+   ],
+   "answer": 1,
+   "explanation": "The Moon's pull makes the tides rise and fall. At full moon and new moon the tides are very high and very low, so fishers plan when to go out and come in."
+  },
+  {
+   "id": "g3-b2-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "The Moon and its phases",
+   "stem": "Families look for the thin new crescent moon. What does it tell them?",
+   "options": [
+    "The Moon has stopped moving.",
+    "The tide has turned.",
+    "The year has ended.",
+    "A new Islamic month has begun."
+   ],
+   "answer": 3,
+   "explanation": "The Islamic months begin when the new crescent moon is seen, so it also tells people when Eid will be celebrated."
+  },
+  {
+   "id": "g3-b2-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Seasons",
+   "stem": "Why do farmers in Bangladesh plant different crops in different seasons?",
+   "options": [
+    "The Moon tells crops when to grow.",
+    "The Earth stops spinning in some seasons.",
+    "The weather changes through the year.",
+    "Crops grow only at night."
+   ],
+   "answer": 2,
+   "explanation": "Seasons bring different weather, such as heat, rain or cooler dry days. Farmers pick the crops that grow best in each one."
+  },
+  {
+   "id": "g3-b2-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "The Sun across the sky",
+   "stem": "At 8 am Imran's school shadow stick has a long shadow pointing west. Where will its shadow point at 4 pm?",
+   "options": [
+    "to the east",
+    "to the west",
+    "straight up",
+    "there will be no shadow"
+   ],
+   "answer": 0,
+   "explanation": "In the morning the Sun is in the east, so the shadow points west. In the afternoon the Sun is in the west, so the shadow points east and is long again."
+  },
+  {
+   "id": "g3-b2-023",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Movements of the Earth and Moon",
+   "stem": "In the simulation, the Earth stays still while the Sun goes around it.",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun and Earth, then press play. Watch the clock until the Earth has made one trip around the Sun."
+   },
+   "answer": false,
+   "explanation": "The Earth is the one that moves: it goes around the Sun once a year, which the clock in the simulation shows. The Sun only seems to move across our sky because the Earth spins."
+  },
+  {
+   "id": "g3-b2-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Movements of the Earth and Moon",
+   "stem": "In the simulation, what does the Moon go around?",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun, Earth and Moon, press play and tick the box that shows the paths. Watch where the Moon goes."
+   },
+   "options": [
+    "the Earth",
+    "Mars",
+    "nothing at all"
+   ],
+   "answer": 0,
+   "explanation": "The Moon orbits the Earth about once a month, while the Earth and Moon travel together around the Sun."
+  },
+  {
+   "id": "g3-b2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "The Sun across the sky",
+   "stem": "Class 3A measured a shadow stick: 8 am 80 cm, 10 am 40 cm, 12 noon 15 cm, 2 pm 35 cm, 4 pm 75 cm. What is the best prediction for 5 pm?",
+   "options": [
+    "about 15 cm",
+    "about 40 cm",
+    "no shadow",
+    "about 100 cm"
+   ],
+   "answer": 3,
+   "explanation": "As the Sun sinks lower in the evening, the shadow gets longer. At 4 pm it was 75 cm, so at 5 pm it should be longer than that."
+  },
+  {
+   "id": "g3-b2-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Seasons",
+   "stem": "Priya says, \"It is summer because the Earth moves closer to the Sun.\" What is the best correction?",
+   "options": [
+    "The Earth spins faster in summer.",
+    "The Earth is tilted, so in summer our part leans towards the Sun.",
+    "The Moon is brighter in summer.",
+    "The Sun moves nearer in summer."
+   ],
+   "answer": 1,
+   "explanation": "Seasons are caused by the tilt of the Earth as it goes around the Sun. When we lean towards the Sun it is high in the sky and its light is stronger."
+  },
+  {
+   "id": "g3-b2-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Day and night",
+   "stem": "Explain how the spinning Earth makes the Sun seem to move across the sky from east to west.",
+   "model_answer": "The Earth spins, so the Sun only seems to move. It looks as if it rises in the east and sets in the west.",
+   "keywords": [
+    [
+     "earth",
+     "spin",
+     "spins",
+     "spinning",
+     "rotate",
+     "rotates",
+     "turns"
+    ],
+    [
+     "seems",
+     "seem",
+     "appears",
+     "looks",
+     "not really",
+     "only"
+    ],
+    [
+     "east",
+     "west",
+     "rise",
+     "rises",
+     "set",
+     "sets"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "It is the Earth that turns, not the Sun. As our part of the Earth turns towards the Sun we see it rise in the east, and as it turns away we see it set in the west."
+  },
+  {
+   "id": "g3-b2-028",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Patterns we can predict",
+   "stem": "Which of these can people predict from patterns in the sky? Choose all that are right.",
+   "options": [
+    "The Sun will rise in the east tomorrow.",
+    "The Moon will pass through its phases again in about a month.",
+    "Summer will come again next year.",
+    "Exactly how much rain will fall next Tuesday."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The spin of the Earth, the Moon's orbit and the Earth's orbit repeat in regular patterns, so we can predict them. Exact rainfall depends on changing weather."
+  }
+ ]
+}

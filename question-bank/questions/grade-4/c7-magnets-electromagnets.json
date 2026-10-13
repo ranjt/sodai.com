@@ -1,0 +1,703 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "C7",
+ "title": "Magnets and Electromagnets",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-4-science/pdf/c7-magnets-and-electromagnets-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-c7-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Magnetic materials",
+   "stem": "Which of these would a magnet attract?",
+   "options": [
+    "a copper wire",
+    "an aluminium can",
+    "an iron nail",
+    "a plastic ruler"
+   ],
+   "answer": 2,
+   "explanation": "Iron, steel, nickel and cobalt are magnetic materials. Copper and aluminium are metals but are not magnetic, and plastic is not magnetic either."
+  },
+  {
+   "id": "g4-c7-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "Sort these objects into those a magnet attracts and those it does not.",
+   "categories": [
+    "Attracted to a magnet",
+    "Not attracted"
+   ],
+   "items": [
+    [
+     "steel paper clip",
+     "Attracted to a magnet"
+    ],
+    [
+     "iron nail",
+     "Attracted to a magnet"
+    ],
+    [
+     "steel spoon",
+     "Attracted to a magnet"
+    ],
+    [
+     "aluminium can",
+     "Not attracted"
+    ],
+    [
+     "copper wire",
+     "Not attracted"
+    ],
+    [
+     "gold ring",
+     "Not attracted"
+    ],
+    [
+     "plastic ruler",
+     "Not attracted"
+    ],
+    [
+     "wooden pencil",
+     "Not attracted"
+    ]
+   ],
+   "explanation": "Only iron, steel, nickel and cobalt are attracted. Aluminium, copper and gold are metals but they are not magnetic."
+  },
+  {
+   "id": "g4-c7-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Poles and forces",
+   "stem": "Match each key word to its meaning.",
+   "pairs": [
+    [
+     "poles",
+     "the two ends of a magnet, where the force is strongest"
+    ],
+    [
+     "compass",
+     "a small magnet that swings to point north"
+    ],
+    [
+     "magnetic field",
+     "the space around a magnet where it has an effect"
+    ],
+    [
+     "electromagnet",
+     "a magnet made when electricity flows in a coil"
+    ]
+   ],
+   "explanation": "Every magnet has two poles. A compass needle is a small magnet. The field is the space where the magnet can act, and an electromagnet works only while electricity flows."
+  },
+  {
+   "id": "g4-c7-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Magnetic materials",
+   "stem": "All metals are magnetic.",
+   "answer": false,
+   "explanation": "Only some metals, such as iron, steel and nickel, are magnetic. A magnet will pick up a steel paper clip but not an aluminium can or a copper wire."
+  },
+  {
+   "id": "g4-c7-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Poles and forces",
+   "stem": "The ends of a magnet are called ___. Like poles ___ each other.",
+   "blanks": [
+    [
+     "poles",
+     "pole"
+    ],
+    [
+     "repel",
+     "push away"
+    ]
+   ],
+   "bank": [
+    "poles",
+    "repel",
+    "attract",
+    "wires"
+   ],
+   "explanation": "A magnet has a north pole and a south pole. Like poles (N and N, or S and S) repel; unlike poles attract."
+  },
+  {
+   "id": "g4-c7-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Poles and forces",
+   "stem": "A magnet can pull a paper clip through a sheet of paper without touching the clip.",
+   "answer": true,
+   "explanation": "Magnetism is a non-contact force. It acts through the space around the magnet and passes through paper, plastic, water and even your hand."
+  },
+  {
+   "id": "g4-c7-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Electromagnets",
+   "stem": "Put the steps in order to make and use an electromagnet.",
+   "sequence": [
+    "Wrap a long wire many times around an iron nail.",
+    "Join the ends of the wire to a battery.",
+    "Electricity flows through the coil and the nail becomes a magnet.",
+    "Pick up some paper clips with the nail.",
+    "Disconnect the battery so the clips drop."
+   ],
+   "explanation": "The coil and the nail are made first, then the electricity is switched on. When the electricity is switched off the magnetism disappears and the clips fall."
+  },
+  {
+   "id": "g4-c7-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Electromagnets",
+   "stem": "Which changes would make an electromagnet stronger? Choose all that are right.",
+   "options": [
+    "wrap more coils of wire",
+    "use more cells",
+    "switch the electricity off",
+    "use a wooden stick instead of the iron nail",
+    "use a thicker iron core"
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "More coils, more cells and a thicker iron core all make the magnet stronger. With no electricity there is no magnetism, and wood is not magnetic."
+  },
+  {
+   "id": "g4-c7-009",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Magnetic materials",
+   "stem": "Why can a magnet pick up a steel paper clip but not an aluminium can?",
+   "model_answer": "Steel contains iron, which is a magnetic material, but aluminium is not magnetic.",
+   "keywords": [
+    [
+     "iron",
+     "steel"
+    ],
+    [
+     "magnetic",
+     "attract",
+     "attracts",
+     "attracted"
+    ],
+    [
+     "aluminium",
+     "aluminum",
+     "not magnetic",
+     "non-magnetic"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Magnets attract only iron, steel, nickel and cobalt. Aluminium is a metal but it is not a magnetic material."
+  },
+  {
+   "id": "g4-c7-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Magnet strength and Earth",
+   "stem": "Why does a compass needle swing round to point north?",
+   "options": [
+    "The Sun pulls the needle towards the north.",
+    "Earth behaves like a giant magnet.",
+    "The wind always blows the needle northwards.",
+    "The north is the lightest direction to turn."
+   ],
+   "answer": 1,
+   "explanation": "A compass needle is a small magnet. The Earth acts like a huge magnet, so the needle lines up with it and points north."
+  },
+  {
+   "id": "g4-c7-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Magnet strength and Earth",
+   "stem": "A big magnet is always stronger than a small magnet.",
+   "answer": false,
+   "explanation": "Size does not tell you the strength. Some tiny magnets are very strong and some big ones are weak. We test strength by counting paper clips or sheets of paper."
+  },
+  {
+   "id": "g4-c7-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Electromagnets",
+   "stem": "An electromagnet is made from a coil of ___ wrapped around an iron ___.",
+   "blanks": [
+    [
+     "wire"
+    ],
+    [
+     "nail",
+     "core",
+     "bar",
+     "rod"
+    ]
+   ],
+   "bank": [
+    "wire",
+    "nail",
+    "string",
+    "plastic"
+   ],
+   "explanation": "Electricity flowing through the coil of wire turns the iron nail into a magnet. Switch off the electricity and the magnetism disappears."
+  },
+  {
+   "id": "g4-c7-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Poles and forces",
+   "stem": "Mina turns the right-hand magnet in the top pair round, so that two N poles face each other. What will the magnets do?",
+   "image": "diagrams/bar-magnets.svg",
+   "image_alt": "Two pairs of bar magnets. In one pair S faces N and they attract. In the other pair N faces N and they repel.",
+   "options": [
+    "They will pull tightly together.",
+    "They will stay exactly where they are.",
+    "They will lose their poles for a while.",
+    "They will push each other apart."
+   ],
+   "answer": 3,
+   "explanation": "Two like poles (N and N) repel. The magnets only attract when a north pole faces a south pole."
+  },
+  {
+   "id": "g4-c7-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "Which of these would a magnet pick up?",
+   "options": [
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "paper clip",
+     "image": "openmoji/paperclip.svg"
+    },
+    {
+     "text": "glass bottle",
+     "image": "openmoji/glass-bottle.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A steel paper clip contains iron, so a magnet attracts it. Wood, plastic and glass are not magnetic."
+  },
+  {
+   "id": "g4-c7-015",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "Sort the pictures into things a magnet attracts and things it does not.",
+   "categories": [
+    "Attracted",
+    "Not attracted"
+   ],
+   "items": [
+    [
+     {
+      "text": "nut and bolt",
+      "image": "openmoji/nut-and-bolt.svg"
+     },
+     "Attracted"
+    ],
+    [
+     {
+      "text": "safety pin",
+      "image": "openmoji/safety-pin.svg"
+     },
+     "Attracted"
+    ],
+    [
+     {
+      "text": "sewing needle",
+      "image": "openmoji/sewing-needle.svg"
+     },
+     "Attracted"
+    ],
+    [
+     {
+      "text": "feather",
+      "image": "openmoji/feather.svg"
+     },
+     "Not attracted"
+    ],
+    [
+     {
+      "text": "wood",
+      "image": "openmoji/wood.svg"
+     },
+     "Not attracted"
+    ],
+    [
+     {
+      "text": "glass bottle",
+      "image": "openmoji/glass-bottle.svg"
+     },
+     "Not attracted"
+    ]
+   ],
+   "explanation": "Nuts, bolts, pins and needles are made of steel, which contains iron. Feathers, wood and glass are not magnetic."
+  },
+  {
+   "id": "g4-c7-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Magnets in everyday life",
+   "stem": "Match each picture to how it uses magnets or electricity.",
+   "pairs": [
+    [
+     {
+      "text": "compass",
+      "image": "openmoji/compass.svg"
+     },
+     "finds the way by pointing north"
+    ],
+    [
+     {
+      "text": "loudspeaker",
+      "image": "openmoji/loudspeaker.svg"
+     },
+     "uses a magnet to make sound"
+    ],
+    [
+     {
+      "text": "fan",
+      "image": "openmoji/fan.svg"
+     },
+     "spins with an electric motor"
+    ],
+    [
+     {
+      "text": "bell",
+      "image": "openmoji/bell.svg"
+     },
+     "rings when an electromagnet pulls"
+    ]
+   ],
+   "explanation": "Compasses, speakers, motors and electric bells all use magnets. Many everyday machines depend on them."
+  },
+  {
+   "id": "g4-c7-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Magnet strength and Earth",
+   "stem": "Fishers on the Bay of Bengal use one of these to find north. Which one?",
+   "options": [
+    {
+     "text": "flashlight",
+     "image": "openmoji/flashlight.svg"
+    },
+    {
+     "text": "key",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "compass",
+     "image": "openmoji/compass.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "A compass has a magnetic needle that points north. Torches, keys and candles cannot show direction."
+  },
+  {
+   "id": "g4-c7-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Magnets in everyday life",
+   "stem": "Rafi has a sack of mixed steel cans and aluminium cans for recycling. How can he separate them quickly?",
+   "options": [
+    "Use a magnet to pick up steel cans.",
+    "Drop each can into a bucket of water.",
+    "Shine a torch on every single can.",
+    "Weigh each can on a kitchen scale."
+   ],
+   "answer": 0,
+   "explanation": "A magnet attracts the steel cans but not the aluminium ones. This is how recycling plants sort cans."
+  },
+  {
+   "id": "g4-c7-019",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Electromagnets",
+   "stem": "A scrap yard crane uses a huge electromagnet, not an ordinary magnet, to move iron and steel. Explain why.",
+   "model_answer": "An electromagnet can be switched off to drop the scrap where it is needed, but an ordinary magnet would never let go.",
+   "keywords": [
+    [
+     "switch",
+     "switched",
+     "turn",
+     "turned",
+     "off",
+     "current",
+     "electricity"
+    ],
+    [
+     "drop",
+     "release",
+     "releases",
+     "let go",
+     "lets go",
+     "put down"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "An electromagnet works only while electricity flows. Switch it on to pick up the scrap, and off to drop it onto the truck."
+  },
+  {
+   "id": "g4-c7-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnet strength and Earth",
+   "stem": "A fisher is far out on the Bay of Bengal on a cloudy night and cannot see the stars. How can a compass help?",
+   "options": [
+    "It shows how deep the water is below the boat.",
+    "It tells him where the fish are swimming.",
+    "It warns him when a cyclone is coming.",
+    "It shows which way is north."
+   ],
+   "answer": 3,
+   "explanation": "The magnetic needle always swings to point north, so the fisher can work out which way to travel even when he cannot see landmarks."
+  },
+  {
+   "id": "g4-c7-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Magnets in everyday life",
+   "stem": "Little Sumi finds a tiny round magnet and puts it in her mouth. This is safe because the magnet is so small.",
+   "answer": false,
+   "explanation": "Never let small children swallow magnets. They can be very dangerous inside the body. Tell an adult at once."
+  },
+  {
+   "id": "g4-c7-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Electromagnets",
+   "stem": "Tuli's electromagnet lifts only 4 paper clips, but she wants it to lift 10. What should she change?",
+   "options": [
+    "Take one cell away.",
+    "Wrap more coils of wire round the nail.",
+    "Swap the iron nail for a long wooden stick.",
+    "Let the wire hang loosely off the nail."
+   ],
+   "answer": 1,
+   "explanation": "More coils make the electromagnet stronger. Fewer cells, a wooden core or a loose wire would make it weaker."
+  },
+  {
+   "id": "g4-c7-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Electromagnets",
+   "stem": "In the simulation, you add more loops of wire to the coil. What happens to the electromagnet?",
+   "sim": {
+    "id": "magnets-and-electromagnets",
+    "task": "Open Magnets and Electromagnets and choose the Electromagnet screen. Switch on the battery. Look at the field meter and compass. Then increase the number of loops in the coil and watch again."
+   },
+   "options": [
+    "It gets stronger.",
+    "It gets weaker.",
+    "It stops working altogether.",
+    "Nothing changes."
+   ],
+   "answer": 0,
+   "explanation": "More loops make a stronger magnetic field, so the electromagnet can pull harder. This matches what happens with a real coil and nail."
+  },
+  {
+   "id": "g4-c7-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Electromagnets",
+   "stem": "In the simulation, you reverse the battery of the electromagnet. What happens to its poles?",
+   "sim": {
+    "id": "magnets-and-electromagnets",
+    "task": "Open Magnets and Electromagnets and choose the Electromagnet screen. Switch on the battery and put the compass near one end of the coil. Note where the needle points. Then reverse the battery and watch the compass."
+   },
+   "options": [
+    "The poles stay exactly where they were.",
+    "The magnet disappears.",
+    "The north and south poles swap ends.",
+    "Both ends become north poles."
+   ],
+   "answer": 2,
+   "explanation": "Reversing the battery reverses the direction of the electricity, so the north and south poles swap. You can see it from the compass needle turning round."
+  },
+  {
+   "id": "g4-c7-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Poles and forces",
+   "stem": "In the simulation, you flip the bar magnet over. What does the compass needle do?",
+   "sim": {
+    "id": "magnet-and-compass",
+    "task": "Open Magnet and Compass. Move the compass near the bar magnet and watch the needle. Then flip the bar magnet over and watch the needle again."
+   },
+   "options": [
+    "It stays pointing in exactly the same way.",
+    "It flips round to point the other way.",
+    "It spins round and round for ever.",
+    "It disappears."
+   ],
+   "answer": 1,
+   "explanation": "The compass needle is a small magnet that lines up with the magnetic field. Flipping the bar magnet flips the field, so the needle turns round."
+  },
+  {
+   "id": "g4-c7-026",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Electromagnets",
+   "stem": "In the simulation, with the battery voltage turned down to zero, the coil still works as a strong magnet.",
+   "sim": {
+    "id": "magnets-and-electromagnets",
+    "task": "Open Magnets and Electromagnets and choose the Electromagnet screen. Set the battery voltage to its highest and look at the field meter. Then turn the voltage down to zero and look again."
+   },
+   "answer": false,
+   "explanation": "No electricity flowing means no magnetism in an electromagnet. The field meter reads almost zero, and the compass needle is not pulled."
+  },
+  {
+   "id": "g4-c7-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests and data",
+   "stem": "Class 4B counted how many sheets of paper each magnet could pull a paper clip through (mean of 3 tries): bar magnet 13, horseshoe magnet 18, fridge magnet 3, small round magnet 21. Which statement does the data support?",
+   "options": [
+    "The biggest magnet was the strongest.",
+    "The small round magnet was the strongest.",
+    "The fridge magnet was stronger than the bar magnet.",
+    "The horseshoe magnet was the strongest of the four."
+   ],
+   "answer": 1,
+   "explanation": "The small round magnet held the clip through the most sheets (21), so it was the strongest. The data do not show that bigger magnets are stronger."
+  },
+  {
+   "id": "g4-c7-028",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Fair tests and data",
+   "stem": "Raju tested an electromagnet (example results): 10 coils lifted 3 clips, 20 coils lifted 6 clips and 30 coils lifted 9 clips. With 40 coils it should lift about ___ clips.",
+   "blanks": [
+    [
+     "12",
+     "twelve"
+    ]
+   ],
+   "explanation": "Every extra 10 coils lifts 3 more clips, so 40 coils should lift 9 + 3 = 12 clips. This is a prediction from the pattern, which we would then test."
+  },
+  {
+   "id": "g4-c7-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Poles and forces",
+   "stem": "You have a magnet with N and S marked, and a second magnet with no labels. How can you find out which end of the second magnet is its north pole?",
+   "model_answer": "Bring the N pole of the labelled magnet near one end. If that end repels it, it is a north pole; if it attracts it, it is a south pole.",
+   "keywords": [
+    [
+     "repel",
+     "repels",
+     "push",
+     "pushes",
+     "pushed away"
+    ],
+    [
+     "attract",
+     "attracts",
+     "pull",
+     "pulls"
+    ],
+    [
+     "north",
+     "N pole",
+     "N"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Like poles repel and unlike poles attract. So an end that pushes the labelled N pole away must also be a north pole."
+  },
+  {
+   "id": "g4-c7-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Poles and forces",
+   "stem": "Raju brings the N pole of his magnet near each end of a mystery bar. One end is attracted and the other end is pushed away. What must the bar be?",
+   "options": [
+    "a plain iron bar",
+    "an aluminium bar",
+    "a magnet",
+    "a copper bar"
+   ],
+   "answer": 2,
+   "explanation": "Plain iron is attracted at both ends but is never pushed away. Only a magnet can repel another magnet's pole, so the bar is a magnet."
+  }
+ ]
+}

@@ -1,0 +1,600 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "C5",
+ "title": "Simple Machines",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-c5-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What a simple machine is",
+   "stem": "A simple machine is a tool that…",
+   "options": [
+    "needs a motor to work",
+    "has hundreds of moving parts",
+    "makes work easier",
+    "always uses electricity"
+   ],
+   "answer": 2,
+   "explanation": "A simple machine has few or no moving parts and makes work easier. It can let us use less force, change the direction of a force, or move something further or faster."
+  },
+  {
+   "id": "g3-c5-002",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What a simple machine is",
+   "stem": "Which of these are simple machines? Choose all that are right.",
+   "options": [
+    "a lever",
+    "a ramp",
+    "a pulley",
+    "a mobile phone",
+    "a television"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Levers, ramps and pulleys are simple machines. Phones and televisions are complicated electrical devices."
+  },
+  {
+   "id": "g3-c5-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "A lever is a bar that turns on a point called the ___.",
+   "blanks": [
+    [
+     "fulcrum",
+     "pivot"
+    ]
+   ],
+   "bank": [
+    "fulcrum",
+    "load",
+    "effort",
+    "gear"
+   ],
+   "explanation": "The fulcrum (pivot) is the point a lever turns on. The effort is your push or pull, and the load is the thing being moved."
+  },
+  {
+   "id": "g3-c5-004",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "Match each lever word to its meaning.",
+   "pairs": [
+    [
+     "effort",
+     "the push or pull you give"
+    ],
+    [
+     "load",
+     "the thing being moved"
+    ],
+    [
+     "fulcrum",
+     "the point a lever turns on"
+    ]
+   ],
+   "explanation": "When you press a spoon under a tin lid, your push is the effort, the lid is the load and the rim of the tin is the fulcrum."
+  },
+  {
+   "id": "g3-c5-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Machines in daily life",
+   "stem": "Sort these into levers, ramps, and pulleys or gears.",
+   "categories": [
+    "Lever",
+    "Ramp",
+    "Pulley or gear"
+   ],
+   "items": [
+    [
+     "see-saw",
+     "Lever"
+    ],
+    [
+     "wheelchair slope",
+     "Ramp"
+    ],
+    [
+     "flag rope on a pole",
+     "Pulley or gear"
+    ],
+    [
+     "scissors",
+     "Lever"
+    ],
+    [
+     "zig-zag hill road",
+     "Ramp"
+    ],
+    [
+     "bucket rope at a well",
+     "Pulley or gear"
+    ],
+    [
+     "dheki",
+     "Lever"
+    ],
+    [
+     "egg beater",
+     "Pulley or gear"
+    ]
+   ],
+   "explanation": "Levers turn on a fulcrum. Ramps are slopes. Pulleys use a wheel and rope, and gears are wheels with teeth."
+  },
+  {
+   "id": "g3-c5-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Ramps",
+   "stem": "A ramp lets you use less force, but you must move the load further.",
+   "answer": true,
+   "explanation": "It is easier to push a heavy load up a ramp than to lift it straight up, but the path is longer."
+  },
+  {
+   "id": "g3-c5-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "Why is it easier to open a tin lid with a long spoon than with a coin?",
+   "options": [
+    "The effort is further from the fulcrum, so less force is needed.",
+    "The spoon is made of a different metal, so the lid is lighter.",
+    "The spoon is heavier, so the lid feels lighter to open.",
+    "A coin has sharp edges, so it cannot touch the lid."
+   ],
+   "answer": 0,
+   "explanation": "The longer the handle, the further your push is from the fulcrum, and the less force you need. The lid does not get lighter."
+  },
+  {
+   "id": "g3-c5-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Pulleys and gears",
+   "stem": "Put the steps in order to show how a flag is raised with a pulley.",
+   "sequence": [
+    "The flag is tied to the rope.",
+    "The rope goes over the pulley wheel at the top of the pole.",
+    "Someone pulls down on the rope.",
+    "The flag goes up the pole."
+   ],
+   "explanation": "A pulley is a wheel with a rope over it. Pulling down on the rope lifts the flag up."
+  },
+  {
+   "id": "g3-c5-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Pulleys and gears",
+   "stem": "A pulley is a wheel with a ___ over it. Gears are wheels with ___ that turn each other.",
+   "blanks": [
+    [
+     "rope",
+     "string"
+    ],
+    [
+     "teeth"
+    ]
+   ],
+   "bank": [
+    "rope",
+    "teeth",
+    "hooks",
+    "spokes"
+   ],
+   "explanation": "Pulleys lift buckets from wells and flags up poles. Gears, in bicycles, clocks and rice mills, turn each other with their teeth."
+  },
+  {
+   "id": "g3-c5-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Pulleys and gears",
+   "stem": "How does a pulley help someone raise a flag?",
+   "model_answer": "Pulling down on the rope makes the flag go up, so the person can stay on the ground and pull in an easy direction.",
+   "keywords": [
+    [
+     "pull down",
+     "pulling down",
+     "pull the rope down",
+     "pulls down",
+     "down"
+    ],
+    [
+     "up",
+     "raise",
+     "raises",
+     "lift",
+     "lifts",
+     "higher"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A pulley changes the direction of the force. Pulling down is easier than climbing the pole to push the flag up."
+  },
+  {
+   "id": "g3-c5-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Ramps",
+   "stem": "A ramp makes a heavy load lighter.",
+   "answer": false,
+   "explanation": "The load keeps the same weight. A ramp lets you move it a longer way with less force at a time."
+  },
+  {
+   "id": "g3-c5-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "Look at the see-saw lever. Which number shows the **fulcrum**?",
+   "image": "diagrams/lever-numbered.svg",
+   "image_alt": "A see-saw lever with three parts numbered: 1 effort, 2 fulcrum, 3 load.",
+   "options": [
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "The fulcrum (pivot) is the point the see-saw turns on: number 2. Number 1 is the effort (push) and number 3 is the load."
+  },
+  {
+   "id": "g3-c5-013",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "What a simple machine is",
+   "stem": "Look at the six simple machines. Match each letter to its name.",
+   "image": "diagrams/simple-machines-lettered.svg",
+   "image_alt": "Six simple machines lettered A to F: lever, pulley, wheel and axle, inclined plane, wedge and screw.",
+   "pairs": [
+    [
+     "A",
+     "lever"
+    ],
+    [
+     "B",
+     "pulley"
+    ],
+    [
+     "C",
+     "wheel and axle"
+    ],
+    [
+     "D",
+     "ramp (inclined plane)"
+    ]
+   ],
+   "explanation": "A is a lever, B a pulley, C a wheel and axle, and D an inclined plane (ramp). E is a wedge and F is a screw."
+  },
+  {
+   "id": "g3-c5-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Machines in daily life",
+   "stem": "The handle of a hand tubewell is a lever. Which number shows the handle you push?",
+   "image": "diagrams/tubewell-numbered.svg",
+   "image_alt": "A hand tubewell: 1 handle, 2 pivot, 3 pump body, 4 spout, 5 pipe to underground water.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "Number 1 is the handle, which is the lever. Number 2 is the pivot (fulcrum). A long handle makes it easier to lift the water."
+  },
+  {
+   "id": "g3-c5-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Ramps",
+   "stem": "Lifting the box straight up needs 10 N. Pulling it up the ramp needs 4 N. What does the picture show?",
+   "image": "diagrams/ramp-lift.svg",
+   "image_alt": "Lifting a box straight up needs 10 N; pulling it up a ramp needs 4 N.",
+   "options": [
+    "The ramp needs more force than lifting.",
+    "The ramp makes the box lighter.",
+    "The ramp needs less force but a longer path.",
+    "The ramp needs the same force but is shorter."
+   ],
+   "answer": 2,
+   "explanation": "The ramp lets you use less force (4 N instead of 10 N), but the box travels a longer way."
+  },
+  {
+   "id": "g3-c5-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Machines in daily life",
+   "stem": "Match each picture to the simple machine it shows.",
+   "pairs": [
+    [
+     {
+      "text": "scissors",
+      "image": "openmoji/scissors.svg"
+     },
+     "lever"
+    ],
+    [
+     {
+      "text": "slide",
+      "image": "openmoji/playground-slide.svg"
+     },
+     "ramp (inclined plane)"
+    ],
+    [
+     {
+      "text": "gear",
+      "image": "openmoji/gear.svg"
+     },
+     "gear"
+    ],
+    [
+     {
+      "text": "wheel",
+      "image": "openmoji/wheel.svg"
+     },
+     "wheel and axle"
+    ]
+   ],
+   "explanation": "Scissors are two levers joined at a pivot. A slide is a ramp. Gears are wheels with teeth. A wheel turns on an axle."
+  },
+  {
+   "id": "g3-c5-017",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Investigating ramps",
+   "stem": "The forcemeter shows ___ newtons (N).",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter reading 7 newtons.",
+   "blanks": [
+    [
+     "7",
+     "seven"
+    ]
+   ],
+   "explanation": "Read the pointer on the scale: it points to 7 N."
+  },
+  {
+   "id": "g3-c5-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Ramps",
+   "stem": "Nadia must put a heavy sack of rice onto a truck. Which way needs the least force?",
+   "options": [
+    "Lift it straight up by hand.",
+    "Push it up a short, steep ramp.",
+    "Throw it onto the truck.",
+    "Push it up a long, gentle ramp."
+   ],
+   "answer": 3,
+   "explanation": "A long, gentle ramp needs the least force. A short, steep ramp is hard work, and lifting straight up needs the most force."
+  },
+  {
+   "id": "g3-c5-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Machines in daily life",
+   "stem": "In many villages women husk rice with a long wooden dheki, which turns on a pivot. What kind of simple machine is a dheki?",
+   "options": [
+    "a pulley",
+    "a lever",
+    "a ramp",
+    "a gear"
+   ],
+   "answer": 1,
+   "explanation": "A dheki is a long beam that turns on a pivot. One end is stepped on and the other end lifts and thumps down, so it is a lever."
+  },
+  {
+   "id": "g3-c5-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Machines in daily life",
+   "stem": "A tubewell handle is a lever. Pumping the long handle takes less force than lifting the water straight up by hand.",
+   "answer": true,
+   "explanation": "The long handle is a lever. The longer the handle, the less force you need to lift the water."
+  },
+  {
+   "id": "g3-c5-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "What a simple machine is",
+   "stem": "Imran must raise a heavy box into the back of a truck. Which things could help? Choose all that are right.",
+   "options": [
+    "a long plank used as a ramp",
+    "a pulley and rope fixed above",
+    "a long bar used as a lever",
+    "shaking the box",
+    "pushing it with no tool"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A ramp, a pulley and a lever are simple machines that make the job easier. Shaking the box or pushing with no tool does not help."
+  },
+  {
+   "id": "g3-c5-022",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "In the simulation, what happens to the plank when you remove the supports?",
+   "sim": {
+    "id": "balancing-act",
+    "task": "Open Balancing Act and choose the Intro screen. Drag one brick onto the left side of the plank and an identical brick onto the right side at the same distance from the pivot. Then remove the supports under the plank."
+   },
+   "options": [
+    "It stays level.",
+    "The left side goes down.",
+    "The right side goes down."
+   ],
+   "answer": 0,
+   "explanation": "Two identical bricks at equal distances from the pivot pull down equally, so the plank balances."
+  },
+  {
+   "id": "g3-c5-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "In the simulation, which side goes down?",
+   "sim": {
+    "id": "balancing-act",
+    "task": "Open Balancing Act and choose the Intro screen. Put one brick on the left side of the plank, far from the pivot. Put an identical brick on the right side, close to the pivot. Then remove the supports under the plank."
+   },
+   "options": [
+    "The right side, where the brick is closer to the pivot.",
+    "The left side, where the brick is further from the pivot.",
+    "Neither side, because the bricks weigh the same.",
+    "Both sides go down together."
+   ],
+   "answer": 1,
+   "explanation": "The two bricks weigh the same, but the one further from the pivot has a bigger turning effect, so the plank tips on that side."
+  },
+  {
+   "id": "g3-c5-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "In the simulation, one brick on the left and two bricks on the right at the same distance from the pivot make the right side go down.",
+   "sim": {
+    "id": "balancing-act",
+    "task": "Open Balancing Act and choose the Intro screen. Put one brick on the left side and two bricks on the right side, both at the same distance from the pivot. Then remove the supports under the plank."
+   },
+   "answer": true,
+   "explanation": "More weight at the same distance gives a bigger turning effect, so the heavier side goes down."
+  },
+  {
+   "id": "g3-c5-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Investigating ramps",
+   "stem": "Class 3C pulled a toy truck up ramps with a forcemeter. Force needed: 10 cm ramp 3 N, 20 cm ramp 5 N, 30 cm ramp 7 N, lifting straight up 10 N. Which statement is correct?",
+   "options": [
+    "The 30 cm ramp needed 3 N less than lifting straight up.",
+    "The 10 cm ramp needed 7 N.",
+    "The 20 cm ramp needed more force than the 30 cm ramp.",
+    "Lifting straight up needed the least force."
+   ],
+   "answer": 0,
+   "explanation": "10 N minus 7 N is 3 N. The lower the ramp, the less force is needed: 3 N, 5 N, 7 N and then 10 N for lifting straight up."
+  },
+  {
+   "id": "g3-c5-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "Rafi is heavier than his little sister Tuli. They want to balance on a see-saw. Where should Tuli sit?",
+   "options": [
+    "closer to the middle than Rafi",
+    "the same distance from the middle as Rafi",
+    "further from the middle than Rafi",
+    "on the same side as Rafi"
+   ],
+   "answer": 2,
+   "explanation": "A lighter person further from the pivot can balance a heavier person who sits closer to it."
+  },
+  {
+   "id": "g3-c5-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Pulleys and gears",
+   "stem": "Design a machine to lift a bucket of sand to a first-floor window. Name the simple machines you use.",
+   "model_answer": "Fix a pulley above the window and put a rope over it. Tie the bucket to one end and pull down on the other end from the ground. A winding handle (wheel and axle) could make it easier.",
+   "keywords": [
+    [
+     "pulley",
+     "pulleys",
+     "wheel and axle",
+     "lever",
+     "ramp"
+    ],
+    [
+     "rope",
+     "string",
+     "chain",
+     "handle"
+    ],
+    [
+     "bucket",
+     "sand",
+     "lift",
+     "raise",
+     "window",
+     "up"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A pulley with a rope lets you stand on the ground and pull down to raise the load. Other simple machines can help too."
+  },
+  {
+   "id": "g3-c5-028",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Ramps",
+   "stem": "A steeper ramp needs less force than a gentle ramp to lift the same load.",
+   "answer": false,
+   "explanation": "The gentler (lower) the ramp, the less force is needed. A steep ramp is closer to lifting the load straight up."
+  }
+ ]
+}

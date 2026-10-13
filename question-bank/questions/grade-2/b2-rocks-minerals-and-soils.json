@@ -1,0 +1,554 @@
+{
+ "grade": 2,
+ "grade_name": "Grade 2",
+ "topic": "B2",
+ "title": "Rocks, Minerals and Soils",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g2-b2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Types of rock",
+   "stem": "Which rock is soft, white and crumbly, and is used to write on boards?",
+   "options": [
+    "granite",
+    "marble",
+    "chalk",
+    "slate"
+   ],
+   "answer": 2,
+   "explanation": "Chalk is a soft, white, crumbly rock, so it leaves marks on a board. Granite, marble and slate are much harder."
+  },
+  {
+   "id": "g2-b2-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Types of rock",
+   "stem": "Look at the five rocks. Which letter shows slate, the rock that splits into thin flat sheets?",
+   "image": "diagrams/rocks-lettered.svg",
+   "image_alt": "Five kinds of rock drawn and lettered A to E.",
+   "options": [
+    "A",
+    "B",
+    "D",
+    "E"
+   ],
+   "answer": 2,
+   "explanation": "D is slate. It splits into thin, flat sheets, so it is used for roofs and writing boards. A is granite, B sandstone, C marble and E chalk."
+  },
+  {
+   "id": "g2-b2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Types of rock",
+   "stem": "Look at the five rocks. Which letter shows marble, the smooth rock that can be polished for floors and statues?",
+   "image": "diagrams/rocks-lettered.svg",
+   "image_alt": "Five kinds of rock drawn and lettered A to E.",
+   "options": [
+    "C",
+    "A",
+    "B",
+    "D",
+    "E"
+   ],
+   "answer": 0,
+   "explanation": "C is marble. It is smooth and can be polished until it shines, so it is used for floors and statues."
+  },
+  {
+   "id": "g2-b2-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Match each picture to what it is made from or grown in.",
+   "pairs": [
+    [
+     {
+      "text": "brick",
+      "image": "openmoji/brick.svg"
+     },
+     "clay soil baked in a fire"
+    ],
+    [
+     {
+      "text": "salt",
+      "image": "openmoji/salt.svg"
+     },
+     "a mineral we put on food"
+    ],
+    [
+     {
+      "text": "gem stone",
+      "image": "openmoji/gem-stone.svg"
+     },
+     "a shiny mineral"
+    ],
+    [
+     {
+      "text": "potted plant",
+      "image": "openmoji/potted-plant.svg"
+     },
+     "soil"
+    ]
+   ],
+   "explanation": "Bricks are made by baking clay soil. Salt and gems are minerals. Plants grow in soil."
+  },
+  {
+   "id": "g2-b2-005",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Uses of rocks",
+   "stem": "Match each rock to its use.",
+   "pairs": [
+    [
+     "slate",
+     "roofs"
+    ],
+    [
+     "marble",
+     "floors and statues"
+    ],
+    [
+     "chalk",
+     "writing on boards"
+    ],
+    [
+     "granite",
+     "buildings and kitchen tops"
+    ]
+   ],
+   "explanation": "Each rock is used for what it is good at: slate splits into flat sheets, marble polishes smoothly, chalk is soft and leaves marks, and granite is very hard."
+  },
+  {
+   "id": "g2-b2-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Minerals",
+   "stem": "Salt is a mineral.",
+   "answer": true,
+   "explanation": "Minerals are natural materials that rocks are made of. Salt is a mineral, and so are gems."
+  },
+  {
+   "id": "g2-b2-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Soil",
+   "stem": "Soil is made only of tiny bits of rock.",
+   "answer": false,
+   "explanation": "Soil is a mixture of tiny bits of rock, humus (rotted plants and animals), water and air."
+  },
+  {
+   "id": "g2-b2-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Minerals",
+   "stem": "Rocks are made of natural materials called ___.",
+   "blanks": [
+    [
+     "minerals",
+     "mineral"
+    ]
+   ],
+   "bank": [
+    "minerals",
+    "humus",
+    "plastics"
+   ],
+   "explanation": "Rocks are made of minerals. Humus is rotted plants and animals in soil."
+  },
+  {
+   "id": "g2-b2-009",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Soil",
+   "stem": "What is soil made of? Choose all that are right.",
+   "options": [
+    "tiny bits of rock",
+    "humus (rotted plants and animals)",
+    "water",
+    "air",
+    "plastic bags"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "explanation": "Soil is a mixture of tiny bits of rock, humus, water and air. Plastic is made by people and is not part of natural soil."
+  },
+  {
+   "id": "g2-b2-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Rocks break down",
+   "stem": "Put the pictures in order to show how a big rock becomes soil.",
+   "sequence": [
+    "a big rock",
+    "cracks in the rock",
+    "small stones",
+    "sand",
+    "soil"
+   ],
+   "explanation": "Rain, heat, cold and roots crack a big rock. The pieces get smaller and smaller until they are sand and then soil. It takes thousands of years."
+  },
+  {
+   "id": "g2-b2-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Rocks break down",
+   "stem": "Rain, heat and cold can crack rocks.",
+   "answer": true,
+   "explanation": "Water gets into small cracks, and heating and cooling make the rock split. Over a long time this helps break rock into soil."
+  },
+  {
+   "id": "g2-b2-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Rocks break down",
+   "stem": "A tiny plant grows in a crack in a rock. How can its root break the rock?",
+   "model_answer": "The root grows into the crack and pushes, making the crack bigger until the rock breaks.",
+   "keywords": [
+    [
+     "root",
+     "roots",
+     "plant"
+    ],
+    [
+     "push",
+     "pushes",
+     "pushing",
+     "grow",
+     "grows",
+     "growing"
+    ],
+    [
+     "crack",
+     "cracks",
+     "bigger",
+     "wider",
+     "split",
+     "splits",
+     "break",
+     "breaks"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "As the root grows it pushes on the sides of the crack. The crack gets bigger and the rock slowly breaks."
+  },
+  {
+   "id": "g2-b2-013",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Sort each thing into rock, mineral or soil.",
+   "categories": [
+    "Rock",
+    "Mineral",
+    "Soil"
+   ],
+   "items": [
+    [
+     "stone for roads",
+     "Rock"
+    ],
+    [
+     "a marble floor",
+     "Rock"
+    ],
+    [
+     "salt for cooking",
+     "Mineral"
+    ],
+    [
+     "copper in a wire",
+     "Mineral"
+    ],
+    [
+     "bricks of baked clay",
+     "Soil"
+    ],
+    [
+     "a field of growing vegetables",
+     "Soil"
+    ]
+   ],
+   "explanation": "Stone and marble are rocks. Salt and copper come from minerals. Bricks are baked clay, a kind of soil, and vegetables grow in soil."
+  },
+  {
+   "id": "g2-b2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Soil",
+   "stem": "Look at the layers of soil. Which number shows the solid rock at the bottom?",
+   "image": "diagrams/soil-layers-numbered.svg",
+   "image_alt": "Four layers of soil numbered 1 to 4 from the top.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "explanation": "Number 4 is bedrock, the solid rock under the soil. Number 1 is leaf litter (humus), 2 is topsoil and 3 is subsoil."
+  },
+  {
+   "id": "g2-b2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Rocks break down",
+   "stem": "Look at the river. Which number shows rock breaking up into smaller pieces?",
+   "image": "diagrams/river-landscape-numbered.svg",
+   "image_alt": "A river from the hills to the sea with four numbers marking what happens.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "At number 1 the rock cracks and breaks into pieces. At number 2 the river carries the pieces away, and at number 3 they settle as new land by the sea (4)."
+  },
+  {
+   "id": "g2-b2-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Raju wants to know what builders in Bangladesh use to make walls, because there are very few rocks on the surface. What do they use?",
+   "options": [
+    "walls of cut slate sheets",
+    "bricks baked from clay",
+    "blocks of pressed chalk",
+    "lumps of salt and sand"
+   ],
+   "answer": 1,
+   "explanation": "Builders dig up clay soil, shape it into blocks and bake it in a brick kiln. This gives hard bricks for houses, schools and roads."
+  },
+  {
+   "id": "g2-b2-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Soil",
+   "stem": "Lina has a paddy field in the haor that must hold water for the rice. Which soil is best?",
+   "options": [
+    "sand, because it drains very fast",
+    "sand, because it is light and soft",
+    "clay, because it holds water well",
+    "gravel, because it is made of stones"
+   ],
+   "answer": 2,
+   "explanation": "In the class test only 20 ml of water dripped through clay, so it holds water best. Sand lets water drain away."
+  },
+  {
+   "id": "g2-b2-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Rocks break down",
+   "stem": "Nadia finds smooth, round pebbles at the river. Why are they smooth?",
+   "options": [
+    "Moving water rolls and rubs them.",
+    "People polish them with cloth.",
+    "They were smooth from the start.",
+    "The Sun melts their sharp edges."
+   ],
+   "answer": 0,
+   "explanation": "Rivers roll stones along, and the stones rub against each other. The sharp edges wear off and the stones become smooth and small."
+  },
+  {
+   "id": "g2-b2-019",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "A brick kiln has a tall chimney near a village. Which are problems that kilns can cause? Choose all that are right.",
+   "options": [
+    "The smoke makes the air dirty.",
+    "They use up good farm soil.",
+    "They make bricks for new houses.",
+    "They are very quiet."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Brick kilns make smoke and use farm soil, and these are problems. Making bricks for houses is a good thing about kilns."
+  },
+  {
+   "id": "g2-b2-020",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Soil",
+   "stem": "Class 2C poured 100 ml of water on each soil. Water that dripped through: sand 80 ml, garden soil 50 ml, clay 20 ml. Tuli says, \"Sand holds the most water because it has the biggest number.\" What is the best reply?",
+   "options": [
+    "Yes. A bigger number always means more water held.",
+    "No. Sand holds 80 ml and clay holds 20 ml.",
+    "Yes. Sand is the heaviest soil of all.",
+    "No. The number shows water that went through."
+   ],
+   "answer": 3,
+   "explanation": "The number is the water that dripped through. Sand let 80 ml through and kept about 20 ml. Clay let 20 ml through and kept about 80 ml, so clay held the most."
+  },
+  {
+   "id": "g2-b2-021",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Bangladesh has very few rocks on the surface, but there are many brick kilns. Explain why.",
+   "model_answer": "There is little rock for building, but there is plenty of clay soil that can be baked into hard bricks.",
+   "keywords": [
+    [
+     "few",
+     "little",
+     "not many",
+     "no rock",
+     "no rocks",
+     "not enough"
+    ],
+    [
+     "clay",
+     "soil",
+     "mud"
+    ],
+    [
+     "brick",
+     "bricks"
+    ],
+    [
+     "bake",
+     "baked",
+     "baking",
+     "fire",
+     "burn",
+     "burnt",
+     "hard"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Builders cannot dig much stone, so they use clay soil. Baking the clay in a kiln makes it hard enough for walls."
+  },
+  {
+   "id": "g2-b2-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Soil",
+   "stem": "Imran tests sand with 100 ml of water. Anika tests clay with 200 ml of water. Why is their test not fair?",
+   "options": [
+    "The water amounts were different.",
+    "Clay cannot be tested with water.",
+    "Sand is too dry to be tested.",
+    "Imran and Anika are different ages."
+   ],
+   "answer": 0,
+   "explanation": "In a fair test only one thing changes: the type of soil. The amount of water, the funnel and the amount of soil must stay the same."
+  },
+  {
+   "id": "g2-b2-023",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Put the steps in order to show how a brick is made.",
+   "sequence": [
+    "dig up clay soil",
+    "mix it with water",
+    "shape it into blocks",
+    "bake the blocks in a hot fire",
+    "hard bricks are ready"
+   ],
+   "explanation": "Clay is dug up, mixed with water and shaped into blocks. Baking it in a very hot fire turns the soft clay into hard bricks."
+  },
+  {
+   "id": "g2-b2-024",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Soil",
+   "stem": "Rotted plants and animals in soil are called ___.",
+   "blanks": [
+    [
+     "humus"
+    ]
+   ],
+   "bank": [
+    "humus",
+    "sand",
+    "minerals"
+   ],
+   "explanation": "Humus is made of dead plants and animals that have rotted. It makes soil good for growing plants."
+  },
+  {
+   "id": "g2-b2-025",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Minerals",
+   "stem": "Metals such as iron and copper come from…",
+   "options": [
+    "rain clouds",
+    "minerals in rocks",
+    "the air around us",
+    "dead leaves"
+   ],
+   "answer": 1,
+   "explanation": "Gold, iron and copper are taken from minerals in rocks. People use them to make tools, wires and jewellery."
+  },
+  {
+   "id": "g2-b2-026",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Bangladesh has lots of big rocks on the surface, so most houses are built of stone.",
+   "answer": false,
+   "explanation": "Bangladesh has very few rocks on the surface. Builders make bricks by baking clay soil instead."
+  }
+ ]
+}

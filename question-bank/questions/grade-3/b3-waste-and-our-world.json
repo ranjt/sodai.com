@@ -1,0 +1,662 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "B3",
+ "title": "Waste and Our World",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-b3-001",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of waste",
+   "stem": "___ is rotted plant waste that makes soil rich.",
+   "blanks": [
+    [
+     "compost",
+     "Compost"
+    ]
+   ],
+   "bank": [
+    "compost",
+    "plastic",
+    "smoke"
+   ],
+   "explanation": "Compost is made when plant waste such as peels and leaves rots. It adds goodness to the soil."
+  },
+  {
+   "id": "g3-b3-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The three Rs",
+   "stem": "Match each of the three Rs to its meaning.",
+   "pairs": [
+    [
+     "reduce",
+     "use less"
+    ],
+    [
+     "reuse",
+     "use again"
+    ],
+    [
+     "recycle",
+     "make into something new"
+    ]
+   ],
+   "explanation": "Reduce means use less, reuse means use things again, and recycle means turn old things into new ones."
+  },
+  {
+   "id": "g3-b3-003",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Kinds of waste",
+   "stem": "Sort each waste into solid, liquid or gas.",
+   "categories": [
+    "Solid",
+    "Liquid",
+    "Gas"
+   ],
+   "items": [
+    [
+     "food scraps",
+     "Solid"
+    ],
+    [
+     "plastic packets",
+     "Solid"
+    ],
+    [
+     "dirty water from washing",
+     "Liquid"
+    ],
+    [
+     "dirty water from a factory",
+     "Liquid"
+    ],
+    [
+     "smoke from a cooking fire",
+     "Gas"
+    ],
+    [
+     "carbon dioxide we breathe out",
+     "Gas"
+    ]
+   ],
+   "explanation": "Food scraps and plastic are solids. Dirty water is a liquid. Smoke and the carbon dioxide we breathe out are gases."
+  },
+  {
+   "id": "g3-b3-004",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Which of these can be composted? Choose all that are right.",
+   "options": [
+    "fruit and vegetable peels",
+    "dead leaves",
+    "egg shells",
+    "a plastic bag",
+    "a metal can"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Plant and food waste rots and becomes compost. Plastic and metal do not rot, so they do not belong in a compost pit."
+  },
+  {
+   "id": "g3-b3-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Harm from waste",
+   "stem": "A plastic bag buried in the soil will rot away within a few weeks.",
+   "answer": false,
+   "explanation": "Plastic does not rot. A plastic bag buried for four weeks shows no change, so it stays in the environment for a very long time."
+  },
+  {
+   "id": "g3-b3-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Kinds of waste",
+   "stem": "The oxygen that plants release is a gas waste that is useful to us.",
+   "answer": true,
+   "explanation": "Plants give out oxygen as a waste gas, and we need it to breathe. Not all waste is harmful."
+  },
+  {
+   "id": "g3-b3-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Put the steps in order to show how a community makes compost.",
+   "sequence": [
+    "Workers collect food and vegetable waste from homes.",
+    "The waste is piled in boxes at a compost plant.",
+    "Worms and microbes break the waste down.",
+    "After about two months it becomes dark, crumbly compost.",
+    "Farmers and gardeners use the compost on their soil."
+   ],
+   "explanation": "Food waste rots easily, so decomposers such as worms and microbes turn it into compost. Less rubbish goes to the dump and farmers get good soil."
+  },
+  {
+   "id": "g3-b3-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The three Rs",
+   "stem": "Which is an example of **reusing**?",
+   "options": [
+    "using an old jar as a pencil pot",
+    "giving old paper to the bhangari collector",
+    "buying food with less packaging",
+    "making peels into compost"
+   ],
+   "answer": 0,
+   "explanation": "Reuse means using something again, so a jar can become a pencil pot. Giving paper to a collector is recycling, buying less packaging is reducing, and peels make compost."
+  },
+  {
+   "id": "g3-b3-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "The three Rs",
+   "stem": "Taking a cloth bag to the shop is an example of…",
+   "options": [
+    "recycling waste",
+    "reducing waste",
+    "burning waste",
+    "composting waste"
+   ],
+   "answer": 1,
+   "explanation": "A cloth bag can be used many times, so you use fewer plastic bags. Using less is called reducing."
+  },
+  {
+   "id": "g3-b3-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Harm from waste",
+   "stem": "How can plastic bags cause floods in a city?",
+   "model_answer": "They block the drains, so rain water cannot flow away.",
+   "keywords": [
+    [
+     "block",
+     "blocks",
+     "blocked",
+     "clog",
+     "clogs",
+     "clogged",
+     "stuck",
+     "jam",
+     "jams",
+     "fill",
+     "fills"
+    ],
+    [
+     "drain",
+     "drains",
+     "pipe",
+     "pipes",
+     "water cannot",
+     "cannot flow",
+     "can't flow"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Plastic bags do not rot. They collect in drains and stop rain water flowing away, so the streets flood."
+  },
+  {
+   "id": "g3-b3-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Why is compost good for a garden?",
+   "options": [
+    "It makes the soil hard like a brick.",
+    "It stops rain from falling on plants.",
+    "It makes soil rich for plants.",
+    "It keeps all the worms away."
+   ],
+   "answer": 2,
+   "explanation": "Compost adds goodness to the soil, so plants get what they need to grow well."
+  },
+  {
+   "id": "g3-b3-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Harm from waste",
+   "stem": "Rubbish heaps attract rats and flies that can spread disease.",
+   "answer": true,
+   "explanation": "Rats and flies live and feed on rubbish. They can carry germs, so piles of waste can make people ill."
+  },
+  {
+   "id": "g3-b3-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The three Rs",
+   "stem": "To reduce is to use ___. To reuse is to use things ___.",
+   "blanks": [
+    [
+     "less",
+     "fewer"
+    ],
+    [
+     "again"
+    ]
+   ],
+   "bank": [
+    "less",
+    "again",
+    "more",
+    "once"
+   ],
+   "explanation": "Reduce means use less. Reuse means use the same thing again instead of throwing it away."
+  },
+  {
+   "id": "g3-b3-014",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Kinds of waste",
+   "stem": "Animals breathe out a waste gas called ___.",
+   "blanks": [
+    [
+     "carbon dioxide",
+     "carbon-dioxide",
+     "CO2",
+     "co2"
+    ]
+   ],
+   "bank": [
+    "carbon dioxide",
+    "oxygen",
+    "smoke"
+   ],
+   "explanation": "Animals breathe in oxygen and breathe out carbon dioxide. Plants use carbon dioxide to make their food."
+  },
+  {
+   "id": "g3-b3-015",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Harm from waste",
+   "stem": "Dirty water from factories can pollute rivers like the Buriganga.",
+   "answer": true,
+   "explanation": "Factory waste water often carries chemicals. When it flows into a river it pollutes the water and harms fish and the people who use the river."
+  },
+  {
+   "id": "g3-b3-016",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Sort the pictures into compost, recycle or reuse.",
+   "categories": [
+    "Compost",
+    "Recycle",
+    "Reuse"
+   ],
+   "items": [
+    [
+     {
+      "text": "banana peel",
+      "image": "openmoji/banana.svg"
+     },
+     "Compost"
+    ],
+    [
+     {
+      "text": "dead leaves",
+      "image": "openmoji/fallen-leaf.svg"
+     },
+     "Compost"
+    ],
+    [
+     {
+      "text": "newspaper",
+      "image": "openmoji/newspaper.svg"
+     },
+     "Recycle"
+    ],
+    [
+     {
+      "text": "metal can",
+      "image": "openmoji/tin-can.svg"
+     },
+     "Recycle"
+    ],
+    [
+     {
+      "text": "cloth bag",
+      "image": "openmoji/reusable-bag.svg"
+     },
+     "Reuse"
+    ],
+    [
+     {
+      "text": "old jeans",
+      "image": "openmoji/jeans.svg"
+     },
+     "Reuse"
+    ]
+   ],
+   "explanation": "Peels and leaves rot into compost. Paper and metal cans can be made into new things. A cloth bag and old clothes can be used again."
+  },
+  {
+   "id": "g3-b3-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Which picture shows waste that can be composted?",
+   "options": [
+    {
+     "text": "banana peel",
+     "image": "openmoji/banana.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "metal can",
+     "image": "openmoji/tin-can.svg"
+    },
+    {
+     "text": "glass bottle",
+     "image": "openmoji/glass-bottle.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "A banana peel is plant waste. It rots and turns into compost. Plastic, metal and glass do not rot."
+  },
+  {
+   "id": "g3-b3-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Kinds of waste",
+   "stem": "Which picture shows a gas waste from vehicles?",
+   "options": [
+    {
+     "text": "spilled oil",
+     "image": "openmoji/oil-spill.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "exhaust fumes",
+     "image": "openmoji/car-exhaust.svg"
+    },
+    {
+     "text": "banana peel",
+     "image": "openmoji/banana.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "Exhaust fumes are gas waste. Spilled oil is a liquid, and a bottle and a banana peel are solids."
+  },
+  {
+   "id": "g3-b3-019",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Kinds of waste",
+   "stem": "Match each picture to the kind of waste it shows.",
+   "pairs": [
+    [
+     {
+      "text": "plastic bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "solid waste"
+    ],
+    [
+     {
+      "text": "spilled oil",
+      "image": "openmoji/oil-spill.svg"
+     },
+     "liquid waste"
+    ],
+    [
+     {
+      "text": "factory smoke",
+      "image": "openmoji/factory-smoke.svg"
+     },
+     "gas waste"
+    ]
+   ],
+   "explanation": "A bottle is a solid, oil is a liquid and smoke is a gas. Factories and vehicles make all three kinds of waste."
+  },
+  {
+   "id": "g3-b3-020",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "The three Rs",
+   "stem": "Which picture shows a good way to reduce waste when shopping?",
+   "options": [
+    {
+     "text": "lots of packaging",
+     "image": "openmoji/package.svg"
+    },
+    {
+     "text": "a cloth bag",
+     "image": "openmoji/reusable-bag.svg"
+    },
+    {
+     "text": "a new plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "a full bin",
+     "image": "openmoji/wastebasket.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A cloth bag can be used again and again, so you need fewer plastic bags. Lots of packaging and new bottles make more waste."
+  },
+  {
+   "id": "g3-b3-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Harm from waste",
+   "stem": "After heavy rain a street in Dhaka floods because plastic bags block the drain. What is the best long-term fix?",
+   "options": [
+    "Use fewer plastic bags and bin used ones.",
+    "Burn the bags at the side of the street.",
+    "Throw the bags into the river instead.",
+    "Wait for the rain to stop falling."
+   ],
+   "answer": 0,
+   "explanation": "Using fewer bags and binning the rest stops plastic reaching drains. Burning makes smoke, and rivers are polluted by plastic too."
+  },
+  {
+   "id": "g3-b3-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Mina's family has vegetable peels every day. What is the best thing to do with them?",
+   "options": [
+    "Throw them into the river.",
+    "Put them in a compost pit.",
+    "Burn them near the house.",
+    "Put them with the plastic for recycling."
+   ],
+   "answer": 1,
+   "explanation": "Vegetable peels rot and become compost, which makes soil rich for plants. Rivers and the air should not be polluted."
+  },
+  {
+   "id": "g3-b3-023",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Lina's family wants to give things to the bhangari collector for recycling. Which can they give? Choose all that are right.",
+   "options": [
+    "old newspapers",
+    "empty metal cans",
+    "some plastic bottles",
+    "banana peels"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Paper, metal and some plastic can be made into new things. Banana peels are best for compost."
+  },
+  {
+   "id": "g3-b3-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Harm from waste",
+   "stem": "Arif's neighbour burns a pile of rubbish behind the house. What is the problem?",
+   "options": [
+    "The ashes will turn into compost.",
+    "The fire makes the rubbish disappear safely.",
+    "The smoke cleans the air.",
+    "The smoke makes the air unhealthy."
+   ],
+   "answer": 3,
+   "explanation": "Smoke from burning rubbish is gas waste. It makes the air unhealthy to breathe, so it is better to compost, reuse or recycle."
+  },
+  {
+   "id": "g3-b3-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Harm from waste",
+   "stem": "Class 3B buried four things for four weeks. Banana peel: mostly gone. Paper: soft and falling apart. Plastic bag: no change. Metal bottle cap: no change, a little rust. Which conclusion is best?",
+   "options": [
+    "Everything rots completely in four weeks.",
+    "Plant waste rots; plastic and metal do not.",
+    "Metal rots faster than paper does in soil.",
+    "Plastic bags rot faster than banana peels do."
+   ],
+   "answer": 1,
+   "explanation": "The banana peel and the paper came from plants, and decomposers broke them down. Plastic and metal showed no change, so they stay in the environment for a very long time."
+  },
+  {
+   "id": "g3-b3-026",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Harm from waste",
+   "stem": "Why is a plastic bag in a river a bigger problem than a banana peel?",
+   "model_answer": "Plastic does not rot, so it stays for a very long time and can harm fish and turtles. A banana peel rots away.",
+   "keywords": [
+    [
+     "not rot",
+     "does not rot",
+     "doesn't rot",
+     "never rot",
+     "stays",
+     "stay",
+     "long time",
+     "forever",
+     "for ever",
+     "years"
+    ],
+    [
+     "harm",
+     "harms",
+     "hurt",
+     "fish",
+     "turtles",
+     "animals",
+     "block",
+     "drains",
+     "pollute",
+     "pollutes",
+     "pollution"
+    ],
+    [
+     "peel rots",
+     "rots",
+     "rot away",
+     "decompose",
+     "breaks down"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A banana peel rots and becomes part of the soil. Plastic does not rot, so it keeps polluting and can harm animals or block drains."
+  },
+  {
+   "id": "g3-b3-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "In an example neighbourhood, 40 families each make 2 kg of food waste a day. All of it is made into compost. How much food waste is kept out of the dump in 5 days?",
+   "options": [
+    "80 kg",
+    "200 kg",
+    "400 kg",
+    "10 kg"
+   ],
+   "answer": 2,
+   "explanation": "40 families × 2 kg = 80 kg every day. Over 5 days that is 80 × 5 = 400 kg. 80 kg is only one day."
+  },
+  {
+   "id": "g3-b3-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Kinds of waste",
+   "stem": "Imran says, \"Smoke from a fire is not waste because it just disappears into the air.\" What is the best reply?",
+   "options": [
+    "Smoke is gas waste, and it makes the air unhealthy.",
+    "Smoke is solid waste, so it can be recycled easily.",
+    "Smoke is only waste if you can see it clearly.",
+    "Smoke is useful waste, just like the oxygen from plants."
+   ],
+   "answer": 0,
+   "explanation": "Smoke does not disappear: it spreads through the air and can harm our breathing. Smoke from fires, vehicles and factories is gas waste."
+  }
+ ]
+}

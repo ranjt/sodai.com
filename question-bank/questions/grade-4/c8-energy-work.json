@@ -1,0 +1,742 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "C8",
+ "title": "Energy and Work",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-4-science/pdf/c8-energy-and-work-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-c8-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Forms of energy",
+   "stem": "Energy is what makes things…",
+   "options": [
+    "stop, stay still or break",
+    "work, move or change",
+    "grow heavy or light",
+    "get lost or found"
+   ],
+   "answer": 1,
+   "explanation": "You need energy to run and think, a fan needs it to spin and a lamp needs it to shine. We cannot see energy, but we can see what it does."
+  },
+  {
+   "id": "g4-c8-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Forms of energy",
+   "stem": "Match each example to the form of energy it shows.",
+   "pairs": [
+    [
+     "a flowing river",
+     "kinetic (movement)"
+    ],
+    [
+     "a plate of rice",
+     "chemical"
+    ],
+    [
+     "a ringing bell",
+     "sound"
+    ],
+    [
+     "a stretched catapult",
+     "stored (potential)"
+    ],
+    [
+     "sunshine",
+     "light"
+    ]
+   ],
+   "explanation": "Moving things have kinetic energy. Food and fuels store chemical energy. A stretched band stores energy ready to be used."
+  },
+  {
+   "id": "g4-c8-003",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Saving energy and sources",
+   "stem": "Sort these energy sources into those that will run out and those that will not.",
+   "categories": [
+    "Renewable",
+    "Will run out"
+   ],
+   "items": [
+    [
+     "sunlight",
+     "Renewable"
+    ],
+    [
+     "wind",
+     "Renewable"
+    ],
+    [
+     "biogas",
+     "Renewable"
+    ],
+    [
+     "flowing river water",
+     "Renewable"
+    ],
+    [
+     "coal",
+     "Will run out"
+    ],
+    [
+     "natural gas",
+     "Will run out"
+    ],
+    [
+     "oil",
+     "Will run out"
+    ]
+   ],
+   "explanation": "Coal, oil and gas took millions of years to form and will run out. Sunlight, wind, flowing water and biogas can be used again and again."
+  },
+  {
+   "id": "g4-c8-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Energy changes and transfers",
+   "stem": "Energy can be ___ from one form to another, and ___ from one object to another.",
+   "blanks": [
+    [
+     "converted",
+     "changed"
+    ],
+    [
+     "transferred",
+     "passed on",
+     "passed"
+    ]
+   ],
+   "bank": [
+    "converted",
+    "transferred",
+    "stored",
+    "destroyed"
+   ],
+   "explanation": "When a fan spins, electrical energy is converted to kinetic energy. When a hot spoon warms your hand, heat is transferred from the spoon to you."
+  },
+  {
+   "id": "g4-c8-005",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Tracking energy",
+   "stem": "Put the steps in order to show how a solar home system gives light.",
+   "sequence": [
+    "Sunlight shines on the solar panel.",
+    "The panel changes the light into electrical energy.",
+    "Electricity flows along the wires.",
+    "The bulb changes the electricity into light and a little heat."
+   ],
+   "explanation": "Energy is tracked step by step: light, then electrical energy, then light again at the bulb, with some heat given off."
+  },
+  {
+   "id": "g4-c8-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Energy changes and transfers",
+   "stem": "What energy change happens in a solar panel?",
+   "options": [
+    "electrical → light",
+    "heat → sound",
+    "light → electrical",
+    "kinetic → chemical"
+   ],
+   "answer": 2,
+   "explanation": "A solar panel catches sunlight and changes it into electrical energy. Many families in Bangladesh use solar home systems for lights and phone charging."
+  },
+  {
+   "id": "g4-c8-007",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Energy changes and transfers",
+   "stem": "Match each device to the energy change it makes.",
+   "pairs": [
+    [
+     "electric fan",
+     "electrical → kinetic"
+    ],
+    [
+     "solar panel",
+     "light → electrical"
+    ],
+    [
+     "radio",
+     "electrical → sound"
+    ],
+    [
+     "candle",
+     "chemical → light and heat"
+    ]
+   ],
+   "explanation": "Each device changes energy from one form to another, so we can show it as an energy chain."
+  },
+  {
+   "id": "g4-c8-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Energy changes and transfers",
+   "stem": "Rubbing your hands together changes kinetic energy into heat.",
+   "answer": true,
+   "explanation": "Your hands move (kinetic energy), and friction changes some of that movement into heat, so your hands feel warm."
+  },
+  {
+   "id": "g4-c8-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Energy changes and transfers",
+   "stem": "A hot spoon warms your hand. What is happening to the heat energy?",
+   "options": [
+    "It is destroyed when it touches skin.",
+    "It is made from nothing at all.",
+    "It is changed into sound.",
+    "It is passed on to your hand."
+   ],
+   "answer": 3,
+   "explanation": "Heat energy is transferred (passed on) from the hot spoon to your cooler hand. Energy is not destroyed or created."
+  },
+  {
+   "id": "g4-c8-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Tracking energy",
+   "stem": "Why do we say that almost all of our energy comes from the Sun? Give one example.",
+   "model_answer": "Plants use the Sun's light to make food, which gives us energy, and coal, oil and gas came from ancient plants.",
+   "keywords": [
+    [
+     "plant",
+     "plants",
+     "rice",
+     "crops",
+     "grass",
+     "food"
+    ],
+    [
+     "sun",
+     "sunlight",
+     "light"
+    ],
+    [
+     "coal",
+     "oil",
+     "gas",
+     "store",
+     "stores",
+     "stored",
+     "chemical",
+     "wind"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Plants store the Sun's energy in food. Fuels such as coal, oil and gas came from ancient plants, and wind and rain are driven by the Sun's heat."
+  },
+  {
+   "id": "g4-c8-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Saving energy and sources",
+   "stem": "Which action helps to save energy at home?",
+   "options": [
+    "Switch off fans in empty rooms.",
+    "Leave the TV on while you sleep.",
+    "Use the oldest, hottest bulbs.",
+    "Keep the fridge door open longer."
+   ],
+   "answer": 0,
+   "explanation": "Using less electricity saves energy. Switching off fans, lights and TVs when nobody is using them is one of the easiest ways."
+  },
+  {
+   "id": "g4-c8-012",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Forms of energy",
+   "stem": "Which of these have stored (potential) energy? Choose all that are right.",
+   "options": [
+    "a book on a high shelf",
+    "a stretched rubber band",
+    "water behind a dam",
+    "a rolling football",
+    "a flowing river"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Stored energy is waiting to be used. A rolling football and a flowing river are moving, so they have kinetic energy."
+  },
+  {
+   "id": "g4-c8-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Energy changes and transfers",
+   "stem": "Some energy is always wasted as ___, which is why a bulb or a motor gets warm.",
+   "blanks": [
+    [
+     "heat"
+    ]
+   ],
+   "bank": [
+    "heat",
+    "sound",
+    "food",
+    "wind"
+   ],
+   "explanation": "No machine turns all its energy into useful work. Some always escapes as heat."
+  },
+  {
+   "id": "g4-c8-014",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Forms of energy",
+   "stem": "Sort these pictures by the main useful energy they give out.",
+   "categories": [
+    "Light",
+    "Sound",
+    "Movement"
+   ],
+   "items": [
+    [
+     {
+      "text": "light bulb",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Light"
+    ],
+    [
+     {
+      "text": "flashlight",
+      "image": "openmoji/flashlight.svg"
+     },
+     "Light"
+    ],
+    [
+     {
+      "text": "loudspeaker",
+      "image": "openmoji/loudspeaker.svg"
+     },
+     "Sound"
+    ],
+    [
+     {
+      "text": "radio",
+      "image": "openmoji/radio.svg"
+     },
+     "Sound"
+    ],
+    [
+     {
+      "text": "fan",
+      "image": "openmoji/fan.svg"
+     },
+     "Movement"
+    ],
+    [
+     {
+      "text": "car",
+      "image": "openmoji/car.svg"
+     },
+     "Movement"
+    ]
+   ],
+   "explanation": "Bulbs and torches give out light, speakers and radios give out sound, and fans and cars move. Each one converts energy into a useful form."
+  },
+  {
+   "id": "g4-c8-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Energy changes and transfers",
+   "stem": "Which picture shows a device that changes light from the Sun into electrical energy?",
+   "options": [
+    {
+     "text": "fan",
+     "image": "openmoji/fan.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "solar panel",
+     "image": "openmoji/solar-energy.svg"
+    },
+    {
+     "text": "loudspeaker",
+     "image": "openmoji/loudspeaker.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A solar panel catches sunlight and changes it into electrical energy. A fan, a candle and a loudspeaker do different jobs."
+  },
+  {
+   "id": "g4-c8-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Forms of energy",
+   "stem": "Match each picture to the energy it stores or gives out.",
+   "pairs": [
+    [
+     {
+      "text": "cooked rice",
+      "image": "openmoji/cooked-rice.svg"
+     },
+     "stores chemical energy"
+    ],
+    [
+     {
+      "text": "fire",
+      "image": "openmoji/fire.svg"
+     },
+     "gives out heat and light"
+    ],
+    [
+     {
+      "text": "loudspeaker",
+      "image": "openmoji/loudspeaker.svg"
+     },
+     "gives out sound"
+    ],
+    [
+     {
+      "text": "wind energy",
+      "image": "openmoji/wind-energy.svg"
+     },
+     "has kinetic energy in moving air"
+    ]
+   ],
+   "explanation": "Food stores chemical energy, a fire gives out heat and light, a speaker gives out sound, and moving air has kinetic energy."
+  },
+  {
+   "id": "g4-c8-017",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Tracking energy",
+   "stem": "Put the pictures in order to follow the energy from the Sun to a bicycle ride.",
+   "sequence": [
+    {
+     "text": "Sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "rice plant",
+     "image": "openmoji/rice-plant.svg"
+    },
+    {
+     "text": "cooked rice",
+     "image": "openmoji/cooked-rice.svg"
+    },
+    {
+     "text": "person cycling",
+     "image": "openmoji/person-cycling.svg"
+    }
+   ],
+   "explanation": "The Sun's light helps rice grow and stores chemical energy. We eat the rice, and our muscles change the chemical energy into the movement of the bicycle."
+  },
+  {
+   "id": "g4-c8-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Energy changes and transfers",
+   "stem": "Which picture shows a device that changes electrical energy into sound?",
+   "options": [
+    {
+     "text": "light bulb",
+     "image": "openmoji/light-bulb.svg"
+    },
+    {
+     "text": "loudspeaker",
+     "image": "openmoji/loudspeaker.svg"
+    },
+    {
+     "text": "fan",
+     "image": "openmoji/fan.svg"
+    },
+    {
+     "text": "electric torch",
+     "image": "openmoji/flashlight.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A loudspeaker turns electrical energy into sound. A bulb makes light, a fan makes movement, and a torch changes chemical energy in its cells to light."
+  },
+  {
+   "id": "g4-c8-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Saving energy and sources",
+   "stem": "A family in a village makes biogas from cow dung. Why is biogas called a renewable source?",
+   "options": [
+    "It took millions of years to form deep underground.",
+    "It comes from under the ground and is soon used up.",
+    "More gas can be made while the cows keep eating.",
+    "It is made from coal that has been cleaned."
+   ],
+   "answer": 2,
+   "explanation": "Cows eat grass and make dung all the time, so new gas can keep being made. Coal, oil and natural gas took millions of years to form and will run out."
+  },
+  {
+   "id": "g4-c8-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Saving energy and sources",
+   "stem": "An old filament bulb gets very hot, but an LED bulb stays cool. Which one wastes more energy as heat?",
+   "options": [
+    "the old filament bulb",
+    "the LED bulb",
+    "both waste exactly the same",
+    "neither one wastes any"
+   ],
+   "answer": 0,
+   "explanation": "Much of the electrical energy in a filament bulb becomes heat instead of light. LEDs give the same light with much less electricity."
+  },
+  {
+   "id": "g4-c8-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Saving energy and sources",
+   "stem": "Sumi's village home has a small solar panel on the roof that lights her lamp at night. Where does that energy come from?",
+   "options": [
+    "burning coal at the power station",
+    "gas from under the ground",
+    "the wind turning the panel",
+    "the light of the Sun"
+   ],
+   "answer": 3,
+   "explanation": "The solar panel changes sunlight into electrical energy, which can be stored in a battery for the evening. Sunlight is a renewable source."
+  },
+  {
+   "id": "g4-c8-022",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Energy data and reasoning",
+   "stem": "A family burns 15 kg of firewood every week. If a biogas plant replaces all of it, they save ___ kg of wood in a year of 52 weeks.",
+   "blanks": [
+    [
+     "780"
+    ]
+   ],
+   "explanation": "15 × 52 = 780 kg. Biogas also means no smoke in the kitchen and fewer trees cut down."
+  },
+  {
+   "id": "g4-c8-023",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Saving energy and sources",
+   "stem": "Why is cooking with biogas healthier for a family than burning wood or dried dung?",
+   "model_answer": "Biogas burns with a clean flame and makes no smoke, so the family does not breathe smoke that harms their lungs.",
+   "keywords": [
+    [
+     "smoke",
+     "smoky",
+     "clean"
+    ],
+    [
+     "lungs",
+     "breathe",
+     "breathing",
+     "health",
+     "healthy",
+     "healthier",
+     "cough"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Smoke from wood and dung fills the kitchen and harms the lungs of women and children. Biogas burns cleanly and the leftover slurry makes fertiliser."
+  },
+  {
+   "id": "g4-c8-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Tracking energy",
+   "stem": "In the simulation you choose the Sun, a solar panel and a light bulb. What is the energy chain?",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Systems screen. Choose the Sun as the energy source, the solar panel as the energy changer and the light bulb as the energy user. Watch the energy symbols."
+   },
+   "options": [
+    "electrical → kinetic → heat",
+    "light → electrical → light",
+    "chemical → sound → light",
+    "heat → electrical → sound"
+   ],
+   "answer": 1,
+   "explanation": "The solar panel changes the Sun's light into electrical energy. The bulb then changes the electricity back into light, with a little heat."
+  },
+  {
+   "id": "g4-c8-025",
+   "mode": "simulation",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Tracking energy",
+   "stem": "In the simulation, the cyclist pedals to light a bulb through a generator. Put the energy changes in order.",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Systems screen. Choose the cyclist as the energy source, the generator as the changer and the light bulb as the user. Watch the energy symbols as the cyclist pedals."
+   },
+   "sequence": [
+    "chemical energy in the cyclist's body",
+    "kinetic energy of the pedalling cyclist",
+    "electrical energy from the generator",
+    "light from the bulb"
+   ],
+   "explanation": "The cyclist's food energy (chemical) becomes movement (kinetic). The generator turns movement into electricity, and the bulb turns electricity into light."
+  },
+  {
+   "id": "g4-c8-026",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Energy changes and transfers",
+   "stem": "In the simulation, where does the skater have the most kinetic energy (movement energy)?",
+   "sim": {
+    "id": "energy-skate-park-basics",
+    "task": "Open Energy Skate Park Basics and choose the Intro screen. Switch on the energy bar graph. Release the skater from the top of the ramp and watch the bars as the skater rolls down."
+   },
+   "options": [
+    "at the bottom of the ramp",
+    "at the top, before letting go",
+    "at the same level on both sides",
+    "only when the skater is stopped"
+   ],
+   "answer": 0,
+   "explanation": "As the skater rolls down, stored energy changes to kinetic energy. The kinetic energy is greatest at the bottom, where the skater moves fastest."
+  },
+  {
+   "id": "g4-c8-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Energy data and reasoning",
+   "stem": "Class 4A pulled a rubber band back by 2, 4, 6, 8 and 10 cm. A toy car travelled 40, 85, 130, 170 and 210 cm. About how far would the car go for a pull of 12 cm?",
+   "options": [
+    "about 190 cm",
+    "about 300 cm",
+    "about 420 cm",
+    "about 250 cm"
+   ],
+   "answer": 3,
+   "explanation": "Each extra 2 cm of pull adds about 40 to 45 cm, so 12 cm gives about 210 + 40 = 250 cm. A more stretched band stores more energy, which becomes more kinetic energy."
+  },
+  {
+   "id": "g4-c8-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Tracking energy",
+   "stem": "A bouncing ball rises a little lower after each bounce until it stops. Where does the ball's lost movement energy go?",
+   "options": [
+    "It disappears completely.",
+    "It changes into heat and sound.",
+    "It goes into the Sun.",
+    "It is stored in the air as light."
+   ],
+   "answer": 1,
+   "explanation": "Energy is never destroyed, only changed. Each bounce turns some movement energy into heat and sound in the ball and the floor."
+  },
+  {
+   "id": "g4-c8-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Tracking energy",
+   "stem": "'Energy is never used up, it only changes form.' Use a bicycle that slows down and stops when you stop pedalling to explain this.",
+   "model_answer": "The bicycle's kinetic energy is not destroyed. Friction and air resistance change it into heat, and a little sound, in the tyres, brakes and air.",
+   "keywords": [
+    [
+     "friction",
+     "brakes",
+     "air resistance",
+     "tyres",
+     "tyre",
+     "ground"
+    ],
+    [
+     "heat",
+     "warm",
+     "thermal"
+    ],
+    [
+     "kinetic",
+     "movement",
+     "moving",
+     "changes",
+     "changed",
+     "converted"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "When you stop pedalling, friction and air resistance slowly turn the kinetic energy into heat. The energy has changed form, not vanished."
+  },
+  {
+   "id": "g4-c8-030",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Energy data and reasoning",
+   "stem": "An old bulb takes in 100 units of electrical energy (example numbers) and gives out only 10 units as light. The other ___ units are wasted, mostly as heat.",
+   "blanks": [
+    [
+     "90",
+     "ninety"
+    ]
+   ],
+   "explanation": "100 - 10 = 90 units are wasted as heat. An LED turns much more of its energy into light, so it wastes less and stays cool."
+  }
+ ]
+}

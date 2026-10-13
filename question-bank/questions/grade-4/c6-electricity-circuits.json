@@ -1,0 +1,703 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "C6",
+ "title": "Electricity and Circuits",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-4-science/pdf/c6-electricity-and-circuits-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-c6-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits",
+   "stem": "What do we call a complete path that electricity flows round?",
+   "options": [
+    "a switch",
+    "a circuit",
+    "a conductor",
+    "an insulator"
+   ],
+   "answer": 1,
+   "explanation": "A circuit is a complete path with no gaps. Electricity flows from one end of the cell, through the wires and components, and back to the other end."
+  },
+  {
+   "id": "g4-c6-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits",
+   "stem": "Match each circuit part to its job.",
+   "pairs": [
+    [
+     "cell",
+     "pushes electricity round the circuit"
+    ],
+    [
+     "lamp",
+     "gives out light"
+    ],
+    [
+     "switch",
+     "opens or closes a gap"
+    ],
+    [
+     "buzzer",
+     "makes a sound"
+    ],
+    [
+     "motor",
+     "makes something spin"
+    ]
+   ],
+   "explanation": "Scientists give each component a job and a symbol. The cell is the energy store; the lamp, buzzer and motor use the energy; the switch controls the circuit."
+  },
+  {
+   "id": "g4-c6-003",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Changing circuits",
+   "stem": "What happens to the lamp in a series circuit when you make each change?",
+   "categories": [
+    "Brighter",
+    "Dimmer",
+    "Goes out"
+   ],
+   "items": [
+    [
+     "add another cell",
+     "Brighter"
+    ],
+    [
+     "add a second lamp in the same loop",
+     "Dimmer"
+    ],
+    [
+     "use a much longer wire",
+     "Dimmer"
+    ],
+    [
+     "open the switch",
+     "Goes out"
+    ],
+    [
+     "take one wire out of the loop",
+     "Goes out"
+    ],
+    [
+     "add two more cells",
+     "Brighter"
+    ]
+   ],
+   "explanation": "More cells push harder, so the lamp is brighter. A second lamp shares the push, and a longer wire lets less electricity through, so the lamp is dimmer. Any gap stops the electricity completely."
+  },
+  {
+   "id": "g4-c6-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits",
+   "stem": "Electricity can flow round a circuit that has a gap in it.",
+   "answer": false,
+   "explanation": "Electricity needs a complete loop. A gap, such as an open switch or a loose wire, makes the lamp go out."
+  },
+  {
+   "id": "g4-c6-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Conductors and insulators",
+   "stem": "Materials that let electricity flow through them are called ___. Materials that do not let it flow are called ___.",
+   "blanks": [
+    [
+     "conductors",
+     "conductor"
+    ],
+    [
+     "insulators",
+     "insulator"
+    ]
+   ],
+   "bank": [
+    "conductors",
+    "insulators",
+    "circuits",
+    "switches"
+   ],
+   "explanation": "Most metals are conductors. Plastic, rubber, wood and glass are insulators."
+  },
+  {
+   "id": "g4-c6-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conductors and insulators",
+   "stem": "Why is the inside of an electric cable made of copper?",
+   "options": [
+    "Copper stops shocks reaching our hands.",
+    "Copper is a good insulator for wires.",
+    "Copper is a magnetic material.",
+    "Copper is an excellent conductor."
+   ],
+   "answer": 3,
+   "explanation": "Copper lets electricity flow very easily. It is the plastic cover, not the copper, that stops electricity reaching our hands."
+  },
+  {
+   "id": "g4-c6-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Conductors and insulators",
+   "stem": "A bulb is in a circuit with a gap. Which objects would make the bulb light if you joined the gap with them? Choose all that are right.",
+   "options": [
+    "a steel key",
+    "a plastic straw",
+    "aluminium foil",
+    "a wooden spoon",
+    "a copper coin",
+    "a rubber band"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Steel, aluminium and copper are metals, so they conduct and complete the circuit. Plastic, wood and rubber are insulators, so the gap stays."
+  },
+  {
+   "id": "g4-c6-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests and data",
+   "stem": "Put the steps in order to find out how wire length changes the brightness of a bulb.",
+   "sequence": [
+    "Build a circuit with a cell, a bulb and a long thin wire with a crocodile clip.",
+    "Clip at 10 cm and measure the brightness with a light meter.",
+    "Move the clip to 20 cm and measure again, then 30, 40 and 50 cm.",
+    "Draw a line graph of brightness against wire length.",
+    "Describe the pattern in the graph."
+   ],
+   "explanation": "First set up the circuit, then take the measurements, then draw the graph, and last describe the pattern you see."
+  },
+  {
+   "id": "g4-c6-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Switches and safety",
+   "stem": "A ___ opens or closes a gap in a circuit, and a ___ cuts off the electricity if too much flows.",
+   "blanks": [
+    [
+     "switch"
+    ],
+    [
+     "fuse",
+     "circuit breaker"
+    ]
+   ],
+   "bank": [
+    "switch",
+    "fuse",
+    "motor",
+    "cell"
+   ],
+   "explanation": "A switch lets us turn things on and off. Fuses and circuit breakers are safety switches that stop wires getting hot and starting a fire."
+  },
+  {
+   "id": "g4-c6-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conductors and insulators",
+   "stem": "Why is an electric cable made with copper wire inside and a plastic cover outside?",
+   "model_answer": "Copper conducts electricity well, and the plastic is an insulator that keeps the electricity in and protects us from shocks.",
+   "keywords": [
+    [
+     "conduct",
+     "conducts",
+     "conductor",
+     "flow",
+     "flows",
+     "carries"
+    ],
+    [
+     "insulator",
+     "insulates",
+     "insulate",
+     "safe",
+     "shock",
+     "protect",
+     "protects"
+    ],
+    [
+     "plastic"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The copper lets electricity flow along the cable. The plastic does not let it flow, so people who touch the cable stay safe."
+  },
+  {
+   "id": "g4-c6-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Switches and safety",
+   "stem": "A fuse or circuit breaker switches off the electricity if too much flows, before the wires get hot.",
+   "answer": true,
+   "explanation": "Fuses and circuit breakers are safety switches. Without them, overheated wires could start a fire."
+  },
+  {
+   "id": "g4-c6-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair tests and data",
+   "stem": "In 2000, about 32 out of every 100 homes in Bangladesh had electricity. In 2020 it was about 96 out of 100. The rise was ___ homes out of 100.",
+   "blanks": [
+    [
+     "64"
+    ]
+   ],
+   "explanation": "96 - 32 = 64. The figures are approximate, from World Bank data on access to electricity."
+  },
+  {
+   "id": "g4-c6-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits",
+   "stem": "Why is the lamp off in this circuit?",
+   "image": "diagrams/circuit-open.svg",
+   "image_alt": "A circuit with a cell, a lamp and an open switch; the lamp is off.",
+   "options": [
+    "The switch is open, so there is a gap.",
+    "The wires are the wrong colour.",
+    "The lamp is too close to the cell.",
+    "The cell is too small to push electricity."
+   ],
+   "answer": 0,
+   "explanation": "An open switch is a gap in the loop. Electricity cannot flow round, so the lamp stays off. Closing the switch would complete the circuit."
+  },
+  {
+   "id": "g4-c6-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Changing circuits",
+   "stem": "Compare this circuit with one that has the same cell and only one lamp. What is different about the lamps here?",
+   "image": "diagrams/circuit-two-lamps.svg",
+   "image_alt": "A circuit with one cell and two lamps in one loop. Both lamps are on.",
+   "options": [
+    "Each lamp is brighter.",
+    "Both lamps are the same brightness as one lamp alone.",
+    "Each lamp is dimmer.",
+    "Only the first lamp lights."
+   ],
+   "answer": 2,
+   "explanation": "The cell has to push electricity through two lamps, so it is shared. Each lamp gets less and looks dimmer than a single lamp."
+  },
+  {
+   "id": "g4-c6-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Complete circuits",
+   "stem": "This model shows tiny particles moving round a circuit. What does it tell us?",
+   "image": "diagrams/current-model.svg",
+   "image_alt": "Tiny particles flowing round a complete circuit loop.",
+   "options": [
+    "They are used up in the lamp.",
+    "They flow from the cell to the lamp and stop.",
+    "They stay inside the cell.",
+    "They flow all the way round the complete loop."
+   ],
+   "answer": 3,
+   "explanation": "In a circuit the flow goes all the way round. The lamp changes the energy into light, but the flow itself is not used up."
+  },
+  {
+   "id": "g4-c6-016",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Conductors and insulators",
+   "stem": "Sort these pictures into conductors and insulators.",
+   "categories": [
+    "Conductor",
+    "Insulator"
+   ],
+   "items": [
+    [
+     {
+      "text": "key",
+      "image": "openmoji/key.svg"
+     },
+     "Conductor"
+    ],
+    [
+     {
+      "text": "coin",
+      "image": "openmoji/coin.svg"
+     },
+     "Conductor"
+    ],
+    [
+     {
+      "text": "paper clip",
+      "image": "openmoji/paperclip.svg"
+     },
+     "Conductor"
+    ],
+    [
+     {
+      "text": "plastic bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "Insulator"
+    ],
+    [
+     {
+      "text": "glass bottle",
+      "image": "openmoji/glass-bottle.svg"
+     },
+     "Insulator"
+    ],
+    [
+     {
+      "text": "wood",
+      "image": "openmoji/wood.svg"
+     },
+     "Insulator"
+    ]
+   ],
+   "explanation": "Keys, coins and steel paper clips are made of metal, so they conduct. Plastic, glass and wood are insulators."
+  },
+  {
+   "id": "g4-c6-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Electricity at home and school",
+   "stem": "Match each picture to its job.",
+   "pairs": [
+    [
+     {
+      "text": "traffic light",
+      "image": "openmoji/traffic-light.svg"
+     },
+     "tells drivers when to stop and go"
+    ],
+    [
+     {
+      "text": "fan",
+      "image": "openmoji/fan.svg"
+     },
+     "moves air to keep us cool"
+    ],
+    [
+     {
+      "text": "light bulb",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "gives light to read at night"
+    ],
+    [
+     {
+      "text": "mobile phone",
+      "image": "openmoji/mobile-phone.svg"
+     },
+     "charges from a plug or solar panel"
+    ]
+   ],
+   "explanation": "Electrical systems are in homes, schools and the community. Each has a source, wires and a part that does a job."
+  },
+  {
+   "id": "g4-c6-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Switches and safety",
+   "stem": "Tuli has just washed her hands and they are wet. She needs to plug in her phone charger. What should she do?",
+   "options": [
+    "Plug it in quickly while her hands are wet.",
+    "Wrap a wet cloth round the plug.",
+    "Dry her hands well first.",
+    "Push the plug in with a metal spoon."
+   ],
+   "answer": 2,
+   "explanation": "Water can conduct electricity, so wet hands near a socket can give a dangerous shock. Always dry your hands first and never push a metal object into a socket."
+  },
+  {
+   "id": "g4-c6-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Switches and safety",
+   "stem": "Raju's kite gets caught on a power line. What should he do?",
+   "options": [
+    "Leave it there and tell an adult.",
+    "Pull the string hard to get it down.",
+    "Climb the pole to reach it.",
+    "Throw a stick at the wire."
+   ],
+   "answer": 0,
+   "explanation": "Power lines carry very strong electricity, and a wet string or stick can let it travel down to you. Never touch the kite and always tell an adult."
+  },
+  {
+   "id": "g4-c6-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Switches and safety",
+   "stem": "Lina plugs a fan, a TV, a heater and three chargers into one socket with an adaptor. Why is this dangerous?",
+   "options": [
+    "The electricity will stop flowing to every device.",
+    "Too much electricity can overheat the wires and start a fire.",
+    "The electricity will leak out of the unused holes.",
+    "The devices will all run too fast."
+   ],
+   "answer": 1,
+   "explanation": "Each device draws electricity. If too much flows through one socket the wires get hot, which can cause a fire. Use fewer plugs in each socket."
+  },
+  {
+   "id": "g4-c6-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Switches and safety",
+   "stem": "A cable has a cracked plastic cover and the copper wire is showing. Anika says it is safe to keep using it if she does not touch the wire. Is she right?",
+   "answer": false,
+   "explanation": "Bare copper can give a deadly shock if anything touches it, and it can start a fire. A damaged cable must be replaced by an adult."
+  },
+  {
+   "id": "g4-c6-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Electricity at home and school",
+   "stem": "Nadia's class wants to save electricity at school. Which actions would help? Choose all that are right.",
+   "options": [
+    "switch off fans and lights at break",
+    "use LED bulbs",
+    "leave the computers on all night",
+    "unplug chargers when they are not needed",
+    "run the fans in empty rooms"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Using less electricity, or using it more efficiently, saves energy. Leaving things on when nobody uses them wastes it."
+  },
+  {
+   "id": "g4-c6-023",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Switches and safety",
+   "stem": "Why is it dangerous to use a hair dryer with wet hands in a bathroom?",
+   "model_answer": "Water that is dirty or salty can conduct electricity, so electricity could flow through your body and give a dangerous shock.",
+   "keywords": [
+    [
+     "water",
+     "wet"
+    ],
+    [
+     "conduct",
+     "conducts",
+     "conductor",
+     "flow",
+     "flows"
+    ],
+    [
+     "shock",
+     "dangerous",
+     "body",
+     "injure",
+     "kill"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Normal tap water has dissolved salts, so it conducts. Wet skin lets electricity pass into your body, which can be deadly."
+  },
+  {
+   "id": "g4-c6-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits",
+   "stem": "In the simulation, what happens to the bulb when you open the switch?",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit. Drag a battery, a light bulb, a switch and wires onto the board to make one complete loop. Close the switch and watch the bulb. Then open the switch."
+   },
+   "options": [
+    "The bulb gets brighter.",
+    "The bulb gets a little dimmer.",
+    "The bulb goes out.",
+    "The bulb stays lit."
+   ],
+   "answer": 2,
+   "explanation": "Opening the switch makes a gap in the loop, so no electricity flows and the bulb goes out. Closing it lights the bulb again."
+  },
+  {
+   "id": "g4-c6-025",
+   "mode": "simulation",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Conductors and insulators",
+   "stem": "In the simulation, which objects made the bulb light when you put them in the circuit? Choose all that are right.",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit and choose the Lab screen. Build a loop with a battery and a bulb, leaving a gap. Put each object in the gap one at a time: coin, paper clip, eraser, dollar bill. Watch the bulb each time."
+   },
+   "options": [
+    "coin",
+    "paper clip",
+    "eraser",
+    "dollar bill"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "The coin and the paper clip are metal, so they conduct electricity and the bulb lights. The eraser and the paper money are insulators."
+  },
+  {
+   "id": "g4-c6-026",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Changing circuits",
+   "stem": "In the simulation, you put a second bulb in the same loop as the first. What happens to the first bulb?",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit. Build a loop with one battery and one bulb and note how bright it is. Then add a second bulb into the same loop (one after the other). Compare the brightness."
+   },
+   "options": [
+    "It gets brighter.",
+    "It gets dimmer.",
+    "It goes out.",
+    "It stays just as bright."
+   ],
+   "answer": 1,
+   "explanation": "The battery has to push electricity through both bulbs, so each one is dimmer than a single bulb on its own."
+  },
+  {
+   "id": "g4-c6-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair tests and data",
+   "stem": "Class 4C measured the brightness of a bulb (in lux) as they made the wire in the circuit longer: 10 cm = 200, 20 cm = 160, 30 cm = 130, 40 cm = 110, 50 cm = 95. What brightness would you expect for 60 cm?",
+   "options": [
+    "about 60 lux",
+    "about 110 lux",
+    "about 82 lux",
+    "about 130 lux"
+   ],
+   "answer": 2,
+   "explanation": "The bulb gets dimmer as the wire gets longer, but the drops get smaller each time (40, 30, 20, 15). The next drop would be about 12 or 13, giving about 82 lux."
+  },
+  {
+   "id": "g4-c6-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests and data",
+   "stem": "Joy tests whether wire length changes bulb brightness. Test 1 uses a 10 cm wire and a new cell. Test 2 uses a 30 cm wire and an old cell. Why is her test unfair?",
+   "options": [
+    "She changed two things, the wire length and the cell.",
+    "She measured the brightness with a light meter.",
+    "She used a bulb in both tests.",
+    "She tested only two lengths."
+   ],
+   "answer": 0,
+   "explanation": "In a fair test only one thing is changed. Joy changed the wire and the cell, so she cannot tell which one made the difference."
+  },
+  {
+   "id": "g4-c6-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Electricity at home and school",
+   "stem": "Design a burglar alarm for a box. A buzzer must sound when someone opens the lid. Explain how your circuit works.",
+   "model_answer": "Use a cell, a buzzer and a switch made of two foil strips. When the lid opens the foil strips touch, the circuit is complete, and the buzzer sounds.",
+   "keywords": [
+    [
+     "switch",
+     "foil",
+     "strip",
+     "strips",
+     "touch",
+     "contact"
+    ],
+    [
+     "buzzer"
+    ],
+    [
+     "complete",
+     "closed",
+     "close",
+     "closes",
+     "loop",
+     "joined"
+    ],
+    [
+     "lid"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "The alarm needs a switch that closes when the lid opens. Closing the switch completes the circuit so electricity flows to the buzzer."
+  },
+  {
+   "id": "g4-c6-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Complete circuits",
+   "stem": "Raju joins one wire from the top of a cell to the base of a bulb. Nothing else touches the bulb or the bottom of the cell. Will the bulb light?",
+   "options": [
+    "Yes, electricity only needs to leave the top of the cell.",
+    "Yes, the bulb lights dimly because the wire is short.",
+    "No, because a single wire is too short to carry any electricity.",
+    "No, there is no complete loop back to the cell."
+   ],
+   "answer": 3,
+   "explanation": "A bulb needs a complete loop: out of one end of the cell and back to the other. One wire makes a gap, so electricity cannot flow and the bulb stays off."
+  }
+ ]
+}

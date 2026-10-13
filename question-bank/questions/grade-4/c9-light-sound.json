@@ -1,0 +1,627 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "C9",
+ "title": "Light and Sound",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-4-science/pdf/c9-light-and-sound-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-c9-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vibrations and how sound travels",
+   "stem": "All sounds are made by…",
+   "options": [
+    "reflections",
+    "shadows",
+    "vibrations",
+    "refractions"
+   ],
+   "answer": 2,
+   "explanation": "A vibration is a very fast movement backwards and forwards. You can feel your voice box vibrate when you hum."
+  },
+  {
+   "id": "g4-c9-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vibrations and how sound travels",
+   "stem": "Match each instrument or voice to the part that vibrates.",
+   "pairs": [
+    [
+     "dhol (drum)",
+     "the drum skin"
+    ],
+    [
+     "ektara",
+     "the string"
+    ],
+    [
+     "banshi (flute)",
+     "the air inside"
+    ],
+    [
+     "your voice",
+     "your vocal cords"
+    ]
+   ],
+   "explanation": "Hitting, plucking and blowing all make something vibrate. When you speak, your vocal cords vibrate."
+  },
+  {
+   "id": "g4-c9-003",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Absorb, reflect and refract",
+   "stem": "Is the light or sound absorbed, reflected or refracted? Sort each example.",
+   "categories": [
+    "Absorbed",
+    "Reflected",
+    "Refracted"
+   ],
+   "items": [
+    [
+     "a black shirt gets hot in the sun",
+     "Absorbed"
+    ],
+    [
+     "thick curtains make a room quieter",
+     "Absorbed"
+    ],
+    [
+     "you see yourself in a mirror",
+     "Reflected"
+    ],
+    [
+     "you hear an echo in a big empty hall",
+     "Reflected"
+    ],
+    [
+     "a straw looks bent in a glass of water",
+     "Refracted"
+    ],
+    [
+     "a coin looks closer to the top of a bowl of water",
+     "Refracted"
+    ]
+   ],
+   "explanation": "Dark, soft materials absorb. Shiny and hard surfaces reflect. Light bends (refracts) as it passes from water or glass into air."
+  },
+  {
+   "id": "g4-c9-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vibrations and how sound travels",
+   "stem": "Sound travels best through ___, because their particles are close together.",
+   "blanks": [
+    [
+     "solids",
+     "solid"
+    ]
+   ],
+   "bank": [
+    "solids",
+    "liquids",
+    "gases",
+    "space"
+   ],
+   "explanation": "In a solid the particles are packed close together, so they pass vibrations along very well. Sound travels well along a string or a wooden desk."
+  },
+  {
+   "id": "g4-c9-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vibrations and how sound travels",
+   "stem": "Sound can travel through empty space.",
+   "answer": false,
+   "explanation": "Sound needs particles to pass the vibration on. There are no particles in empty space, so sound cannot travel there."
+  },
+  {
+   "id": "g4-c9-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Loudness and pitch",
+   "stem": "A bigger vibration makes a ___ sound, and faster vibrations make a ___ pitch.",
+   "blanks": [
+    [
+     "louder",
+     "loud"
+    ],
+    [
+     "higher",
+     "high"
+    ]
+   ],
+   "bank": [
+    "louder",
+    "quieter",
+    "higher",
+    "lower"
+   ],
+   "explanation": "Hit a drum harder and the vibrations are bigger, so it is louder. Faster vibrations give a higher pitch."
+  },
+  {
+   "id": "g4-c9-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Vibrations and how sound travels",
+   "stem": "Put the steps in order to show how you hear a dhol being played.",
+   "sequence": [
+    "The drum skin is hit and vibrates.",
+    "The air next to the drum skin vibrates.",
+    "The vibration passes from particle to particle through the air.",
+    "The vibration reaches your ear."
+   ],
+   "explanation": "The vibration travels like a ripple, with each particle passing it to the next, until it reaches your ear."
+  },
+  {
+   "id": "g4-c9-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Absorb, reflect and refract",
+   "stem": "Which surfaces are good at reflecting light? Choose all that are right.",
+   "options": [
+    "a mirror",
+    "a shiny steel plate",
+    "white paper",
+    "black velvet cloth",
+    "dull black paint"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Light-coloured and shiny surfaces reflect light well. Dark, dull surfaces absorb most of it, so they look dark."
+  },
+  {
+   "id": "g4-c9-009",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Muffling and echoes",
+   "stem": "Why do recording studios have soft foam on their walls?",
+   "model_answer": "Soft foam absorbs sound, so there are no echoes and noise from outside is muffled.",
+   "keywords": [
+    [
+     "absorb",
+     "absorbs",
+     "soak",
+     "soaks",
+     "muffle",
+     "muffles",
+     "muffled"
+    ],
+    [
+     "echo",
+     "echoes",
+     "reflect",
+     "reflected"
+    ],
+    [
+     "foam",
+     "soft"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Hard walls reflect sound and make echoes. Soft, thick materials absorb sound, so the recording is clear."
+  },
+  {
+   "id": "g4-c9-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Loudness and pitch",
+   "stem": "Anika wants a louder sound from her dhol. What should she do?",
+   "options": [
+    "Hit the drum skin harder.",
+    "Hit the drum skin more gently.",
+    "Cover the drum skin with a thick cloth.",
+    "Stand much further away from the drum."
+   ],
+   "answer": 0,
+   "explanation": "A harder hit makes a bigger vibration, and a bigger vibration makes a louder sound. A cloth would muffle the sound."
+  },
+  {
+   "id": "g4-c9-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Loudness and pitch",
+   "stem": "Pitch tells us how loud a sound is.",
+   "answer": false,
+   "explanation": "Pitch is how high or low a sound is. Loudness (volume) is how loud or soft it is, and is measured in decibels."
+  },
+  {
+   "id": "g4-c9-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Muffling and echoes",
+   "stem": "Hard, smooth surfaces such as walls and cliffs ___ sound, which can make an echo.",
+   "blanks": [
+    [
+     "reflect",
+     "reflects",
+     "bounce",
+     "bounces"
+    ]
+   ],
+   "bank": [
+    "reflect",
+    "absorb",
+    "refract",
+    "make"
+   ],
+   "explanation": "An echo is sound that has been reflected back to you. Soft surfaces absorb sound instead, so they do not make echoes."
+  },
+  {
+   "id": "g4-c9-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Loudness and pitch",
+   "stem": "Which picture shows a **quiet**, **high** sound?",
+   "image": "diagrams/sound-waves-lettered.svg",
+   "image_alt": "Four wave drawings A to D. A is loud and low, B is quiet and low, C is loud and high, D is quiet and high.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 3,
+   "explanation": "Short waves mean a quiet sound and waves close together mean a high pitch. D has short, close waves."
+  },
+  {
+   "id": "g4-c9-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Loudness and pitch",
+   "stem": "Mina taps the bottles with a spoon. Which bottle vibrates the fastest?",
+   "image": "diagrams/bottle-pitch-lettered.svg",
+   "image_alt": "Four bottles A to D. A has the least water and D has the most.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 0,
+   "explanation": "Less water means less to shake, so bottle A vibrates fastest and gives the highest note. Fast vibrations mean a high pitch."
+  },
+  {
+   "id": "g4-c9-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Data and reasoning",
+   "stem": "Use the scale. How many decibels louder is a plane taking off than people talking?",
+   "image": "diagrams/decibel-scale.svg",
+   "image_alt": "A loudness scale in decibels: leaves 20, birds 40, talking 60, busy traffic 80, loud music 100 and a plane taking off 120.",
+   "options": [
+    "20 dB",
+    "60 dB",
+    "40 dB",
+    "100 dB"
+   ],
+   "answer": 1,
+   "explanation": "The plane is at 120 dB and talking is at 60 dB, so the difference is 120 - 60 = 60 dB."
+  },
+  {
+   "id": "g4-c9-016",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Absorb, reflect and refract",
+   "stem": "The picture shows that a ray of light hits a mirror at the same angle as it bounces away.",
+   "image": "diagrams/reflection.svg",
+   "image_alt": "A ray of light hitting a mirror and reflecting away. The angle in equals the angle out.",
+   "answer": true,
+   "explanation": "The angle of the incoming ray equals the angle of the reflected ray. This is why a mirror gives a clear picture."
+  },
+  {
+   "id": "g4-c9-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Vibrations and how sound travels",
+   "stem": "In the picture, which instrument makes its sound when the air inside it vibrates?",
+   "image": "diagrams/instruments.svg",
+   "image_alt": "A dhol (drum), an ektara (string instrument) and a banshi (flute).",
+   "options": [
+    "the dhol (drum)",
+    "the ektara (string)",
+    "the banshi (flute)",
+    "the dhol and the ektara"
+   ],
+   "answer": 2,
+   "explanation": "Blowing into the flute makes the column of air inside vibrate. The drum skin vibrates in the dhol, and the string vibrates in the ektara."
+  },
+  {
+   "id": "g4-c9-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Muffling and echoes",
+   "stem": "The school hall in Chattogram has bare walls and a tiled floor, and every shout makes an echo. What would help most?",
+   "options": [
+    "Paint the walls with shiny gloss paint.",
+    "Cover the floor with more tiles.",
+    "Take all the furniture out of the hall.",
+    "Hang thick curtains and lay carpets."
+   ],
+   "answer": 3,
+   "explanation": "Soft, thick materials absorb sound, so there is less to bounce back. Hard, shiny and empty spaces make echoes worse."
+  },
+  {
+   "id": "g4-c9-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Absorb, reflect and refract",
+   "stem": "On a sunny day in Chattogram, Nadia wears a black shirt and Priya wears a white shirt. Who feels hotter, and why?",
+   "options": [
+    "Priya, because white colours absorb more light.",
+    "Nadia, because dark colours absorb more light.",
+    "Nadia, because black shirts reflect more light.",
+    "Both the same, because the Sun heats everyone equally."
+   ],
+   "answer": 1,
+   "explanation": "Dark objects absorb most of the light that hits them and warm up. White objects reflect much of it, so they stay cooler."
+  },
+  {
+   "id": "g4-c9-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Absorb, reflect and refract",
+   "stem": "Joy puts a pencil in a glass of water. It looks broken, so she says the pencil really is broken. Is she right?",
+   "answer": false,
+   "explanation": "Light bends (refracts) as it leaves the water and goes into the air, so the pencil only looks broken. The pencil itself is not damaged."
+  },
+  {
+   "id": "g4-c9-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Data and reasoning",
+   "stem": "During a storm in Sylhet, Sumi sees a flash of lightning and hears the thunder six seconds later. Why does she see it first?",
+   "options": [
+    "Light travels much faster than sound.",
+    "Sound travels faster than light.",
+    "Her eyes work faster than her ears.",
+    "The thunder is made later than the lightning."
+   ],
+   "answer": 0,
+   "explanation": "Light travels about 300 000 km every second, while sound in air travels only about 340 m a second. They start together, but the light arrives first."
+  },
+  {
+   "id": "g4-c9-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Muffling and echoes",
+   "stem": "A family wants a quieter bedroom next to a noisy road. Which changes would help? Choose all that are right.",
+   "options": [
+    "hang thick curtains",
+    "put a rug on the floor",
+    "fix egg boxes to one wall",
+    "remove the curtains and rug",
+    "cover the walls with a metal sheet"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Soft, thick and bumpy materials absorb sound. Hard, smooth surfaces such as metal reflect it instead."
+  },
+  {
+   "id": "g4-c9-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Loudness and pitch",
+   "stem": "In the simulation, you move the frequency slider up. What happens to the sound?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Single Source screen. Turn the sound on so that you can hear the speaker. Move the frequency slider from low to high and listen. Watch the waves."
+   },
+   "options": [
+    "The sound gets louder.",
+    "The pitch gets higher.",
+    "The sound gets quieter.",
+    "The sound stops."
+   ],
+   "answer": 1,
+   "explanation": "Frequency is how many vibrations happen each second. More vibrations each second give a higher pitch, and the waves are drawn closer together."
+  },
+  {
+   "id": "g4-c9-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Loudness and pitch",
+   "stem": "In the simulation, when you move the amplitude slider up the waves look taller and the sound gets louder.",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Single Source screen. Turn the sound on and keep the frequency the same. Move the amplitude slider from low to high. Watch the waves and listen."
+   },
+   "answer": true,
+   "explanation": "Amplitude is the size of the vibration. A bigger vibration makes a louder sound, but the pitch does not change."
+  },
+  {
+   "id": "g4-c9-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Vibrations and how sound travels",
+   "stem": "In the simulation, the air is pumped out from around the speaker. What happens to the sound you hear?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Air Pressure screen. Turn the sound on and listen. Then remove the air from around the speaker and listen again."
+   },
+   "options": [
+    "It gets louder.",
+    "It gets higher in pitch.",
+    "It gets quieter.",
+    "It stays just the same."
+   ],
+   "answer": 2,
+   "explanation": "With less air there are fewer particles to pass on the vibrations, so less sound reaches you. With no particles at all there would be silence."
+  },
+  {
+   "id": "g4-c9-026",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "Absorb, reflect and refract",
+   "stem": "In the simulation, a white bulb with a red filter gives out only red light.",
+   "sim": {
+    "id": "color-vision",
+    "task": "Open Color Vision and choose the Single Bulb screen. Make the bulb give white light. Add the red filter and look at the colour of the light that comes out."
+   },
+   "answer": true,
+   "explanation": "A red filter lets red light through and absorbs the other colours. This is why light through a coloured filter takes on the colour of the filter."
+  },
+  {
+   "id": "g4-c9-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Data and reasoning",
+   "stem": "Class 4D covered a box with a beeping phone using different materials and measured the loudness 1 m away: no cover 80 dB, newspaper 68 dB, foil 72 dB, bubble wrap 60 dB, cotton wool 52 dB. Which material muffled the sound most, and by how much?",
+   "options": [
+    "bubble wrap, by 20 dB",
+    "cotton wool, by 28 dB",
+    "newspaper, by 12 dB",
+    "foil, by 8 dB"
+   ],
+   "answer": 1,
+   "explanation": "The lowest reading is the best muffler. Cotton wool gave 52 dB, which is 80 - 52 = 28 dB less than with no cover."
+  },
+  {
+   "id": "g4-c9-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Vibrations and how sound travels",
+   "stem": "Astronauts on the Moon talk to each other by radio, even when they stand side by side. Explain why.",
+   "model_answer": "There is no air on the Moon, so there are no particles to carry sound vibrations. Radio signals can travel through empty space.",
+   "keywords": [
+    [
+     "no air",
+     "no particles",
+     "empty",
+     "vacuum",
+     "space"
+    ],
+    [
+     "sound",
+     "vibration",
+     "vibrations",
+     "vibrate"
+    ],
+    [
+     "radio",
+     "radio signal",
+     "radio signals"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Sound needs particles to pass the vibration on. On the Moon there is almost no air, but radio waves do not need particles."
+  },
+  {
+   "id": "g4-c9-029",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Data and reasoning",
+   "stem": "Nadia sees lightning and hears thunder 3 seconds later. Sound in air travels about 340 m each second. About how far away is the storm?",
+   "options": [
+    "about 100 m",
+    "about 340 m",
+    "about 1 km",
+    "about 10 km"
+   ],
+   "answer": 2,
+   "explanation": "The light reaches her almost at once, so the 3 seconds is the sound travelling. 340 m × 3 = 1020 m, which is about 1 km."
+  },
+  {
+   "id": "g4-c9-030",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Loudness and pitch",
+   "stem": "Design an instrument from rubber bands stretched over a box. Explain how to make a high note and a low note.",
+   "model_answer": "Thin, tight, short rubber bands vibrate faster and give high notes. Thick, loose, long rubber bands vibrate more slowly and give low notes.",
+   "keywords": [
+    [
+     "thin",
+     "thinner",
+     "tight",
+     "tighter",
+     "short",
+     "shorter"
+    ],
+    [
+     "high",
+     "higher"
+    ],
+    [
+     "thick",
+     "thicker",
+     "loose",
+     "looser",
+     "long",
+     "longer"
+    ],
+    [
+     "low",
+     "lower"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "Faster vibrations make a higher pitch and slower vibrations make a lower pitch. A thinner, tighter or shorter band vibrates faster."
+  }
+ ]
+}

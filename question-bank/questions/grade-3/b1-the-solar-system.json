@@ -1,0 +1,604 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "B1",
+ "title": "The Solar System",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-b1-001",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Stars, planets and moons",
+   "stem": "Put the steps in order to show how we see the Moon shine at night.",
+   "sequence": [
+    "The Sun shines light on the Moon.",
+    "The light hits the Moon's surface.",
+    "The light bounces (reflects) off the Moon.",
+    "The light reaches our eyes.",
+    "We see the Moon shining."
+   ],
+   "explanation": "The Moon has no light of its own. It reflects sunlight, and the reflected light travels to our eyes."
+  },
+  {
+   "id": "g3-b1-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Stars, planets and moons",
+   "stem": "Match each space object to what it is.",
+   "pairs": [
+    [
+     "star",
+     "a ball of hot glowing gas"
+    ],
+    [
+     "planet",
+     "travels around a star"
+    ],
+    [
+     "moon",
+     "travels around a planet"
+    ],
+    [
+     "meteor",
+     "a space rock that burns up in our air"
+    ],
+    [
+     "satellite",
+     "sends TV and phone signals"
+    ]
+   ],
+   "explanation": "A star makes its own light. A planet orbits a star and a moon orbits a planet. A meteor is a \"shooting star\" and a satellite can send signals to us."
+  },
+  {
+   "id": "g3-b1-003",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The solar system",
+   "stem": "Put the first six planets in order, starting nearest the Sun.",
+   "sequence": [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn"
+   ],
+   "explanation": "The order from the Sun is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. \"My Very Easy Method Just Speeds Up Naming\" helps you remember."
+  },
+  {
+   "id": "g3-b1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Stars, planets and moons",
+   "stem": "The Moon makes its own light.",
+   "answer": false,
+   "explanation": "The Moon only looks bright because it reflects light from the Sun. The Sun is a star and makes its own light."
+  },
+  {
+   "id": "g3-b1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How the solar system works",
+   "stem": "The Earth takes one ___ to go once around the ___.",
+   "blanks": [
+    [
+     "year"
+    ],
+    [
+     "Sun",
+     "sun"
+    ]
+   ],
+   "bank": [
+    "year",
+    "Sun",
+    "day",
+    "Moon"
+   ],
+   "explanation": "The Earth orbits the Sun once in a year. The Moon orbits the Earth."
+  },
+  {
+   "id": "g3-b1-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How the solar system works",
+   "stem": "What keeps the planets going around the Sun?",
+   "options": [
+    "gravity",
+    "wind",
+    "magnets",
+    "rivers of fire"
+   ],
+   "answer": 0,
+   "explanation": "The Sun's gravity pulls on the planets and keeps them in their paths (orbits)."
+  },
+  {
+   "id": "g3-b1-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Stars, planets and moons",
+   "stem": "Which of these are planets in our solar system? Choose all that are right.",
+   "options": [
+    "Mars",
+    "Jupiter",
+    "the Sun",
+    "the Moon",
+    "Saturn"
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Mars, Jupiter and Saturn are planets. The Sun is a star and the Moon is a moon that orbits the Earth."
+  },
+  {
+   "id": "g3-b1-008",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Stars, planets and moons",
+   "stem": "Sort each object into star, planet or moon.",
+   "categories": [
+    "Star",
+    "Planet",
+    "Moon"
+   ],
+   "items": [
+    [
+     "the Sun",
+     "Star"
+    ],
+    [
+     "the twinkling stars at night",
+     "Star"
+    ],
+    [
+     "Earth",
+     "Planet"
+    ],
+    [
+     "Jupiter",
+     "Planet"
+    ],
+    [
+     "our Moon",
+     "Moon"
+    ],
+    [
+     "one of the four moons Galileo saw near Jupiter",
+     "Moon"
+    ]
+   ],
+   "explanation": "Stars make their own light. Planets travel around a star, and moons travel around a planet."
+  },
+  {
+   "id": "g3-b1-009",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Scientists who studied the sky",
+   "stem": "Match each scientist to what they discovered or said.",
+   "pairs": [
+    [
+     "Aryabhata",
+     "said the Earth spins"
+    ],
+    [
+     "Copernicus",
+     "said the planets go around the Sun"
+    ],
+    [
+     "Galileo",
+     "found four moons around Jupiter"
+    ],
+    [
+     "Dr Jamal Nazrul Islam",
+     "wrote about how the universe began"
+    ]
+   ],
+   "explanation": "Aryabhata said the Earth spins, Copernicus put the Sun at the centre, Galileo used a telescope to find Jupiter's moons, and Dr Jamal Nazrul Islam of Chattogram studied the universe."
+  },
+  {
+   "id": "g3-b1-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Stars, planets and moons",
+   "stem": "Why does the Moon shine at night if it has no light of its own?",
+   "model_answer": "Sunlight bounces off (reflects from) the Moon and reaches our eyes.",
+   "keywords": [
+    [
+     "sun",
+     "sunlight",
+     "light from the sun"
+    ],
+    [
+     "bounce",
+     "bounces",
+     "reflect",
+     "reflects",
+     "reflected",
+     "bounced"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "We see the Moon because it reflects the Sun's light, just like a mirror reflects a torch beam."
+  },
+  {
+   "id": "g3-b1-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The solar system",
+   "stem": "Earth is the only planet we know that has living things.",
+   "answer": true,
+   "explanation": "Earth has water, air and the right temperature for life. Scientists have not found living things on any other planet yet."
+  },
+  {
+   "id": "g3-b1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Stars, planets and moons",
+   "stem": "A meteor, or \"shooting star\", is really a…",
+   "options": [
+    "star that has fallen to Earth",
+    "space rock burning up in our air",
+    "planet that is breaking apart",
+    "satellite that is switching off"
+   ],
+   "answer": 1,
+   "explanation": "A meteor is a small space rock that burns up as it hurtles through the air around Earth, making a bright streak. It is not a real star."
+  },
+  {
+   "id": "g3-b1-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Satellites",
+   "stem": "An artificial satellite is a machine that people send into space to orbit a planet.",
+   "answer": true,
+   "explanation": "People build artificial satellites for TV, phones and weather. Bangabandhu Satellite-1 orbits the Earth and is Bangladesh's first."
+  },
+  {
+   "id": "g3-b1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The solar system",
+   "stem": "Look at the planets in order from the Sun. Which number is the Earth?",
+   "image": "diagrams/solar-system-numbered.svg",
+   "image_alt": "The Sun and eight planets in a row, numbered 1 to 8 from the Sun (not to scale).",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Earth is the third planet from the Sun, after Mercury (1) and Venus (2). Mars is number 4."
+  },
+  {
+   "id": "g3-b1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The solar system",
+   "stem": "Which number is Jupiter, the biggest planet?",
+   "image": "diagrams/solar-system-numbered.svg",
+   "image_alt": "The Sun and eight planets in a row, numbered 1 to 8 from the Sun (not to scale).",
+   "options": [
+    "4",
+    "6",
+    "7",
+    "5"
+   ],
+   "answer": 3,
+   "explanation": "Jupiter is the fifth planet from the Sun and the biggest planet in the solar system. Saturn (6) comes next."
+  },
+  {
+   "id": "g3-b1-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "The solar system",
+   "stem": "Match each number in the picture to its planet.",
+   "image": "diagrams/solar-system-numbered.svg",
+   "image_alt": "The Sun and eight planets in a row, numbered 1 to 8 from the Sun (not to scale).",
+   "pairs": [
+    [
+     "1",
+     "Mercury"
+    ],
+    [
+     "3",
+     "Earth"
+    ],
+    [
+     "6",
+     "Saturn"
+    ],
+    [
+     "8",
+     "Neptune"
+    ]
+   ],
+   "explanation": "Counting out from the Sun: 1 Mercury, 2 Venus, 3 Earth, 4 Mars, 5 Jupiter, 6 Saturn, 7 Uranus, 8 Neptune."
+  },
+  {
+   "id": "g3-b1-017",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "The solar system",
+   "stem": "In the picture, number 4 is Mars. Mars is nearer to the Sun than Earth is.",
+   "image": "diagrams/solar-system-numbered.svg",
+   "image_alt": "The Sun and eight planets in a row, numbered 1 to 8 from the Sun (not to scale).",
+   "answer": false,
+   "explanation": "Earth is number 3 and Mars is number 4, so Mars is further from the Sun than Earth."
+  },
+  {
+   "id": "g3-b1-018",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Stars, planets and moons",
+   "stem": "Match each picture to what it is.",
+   "pairs": [
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "a star"
+    ],
+    [
+     {
+      "text": "ringed planet",
+      "image": "openmoji/ringed-planet.svg"
+     },
+     "a planet"
+    ],
+    [
+     {
+      "text": "full moon",
+      "image": "openmoji/full-moon.svg"
+     },
+     "a moon"
+    ],
+    [
+     {
+      "text": "shooting star",
+      "image": "openmoji/shooting-star.svg"
+     },
+     "a meteor"
+    ],
+    [
+     {
+      "text": "satellite",
+      "image": "openmoji/satellite.svg"
+     },
+     "a satellite"
+    ]
+   ],
+   "explanation": "The Sun is a star. Saturn is a planet with rings. The Moon travels around the Earth, a meteor streaks across the sky, and a satellite is a machine that orbits."
+  },
+  {
+   "id": "g3-b1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Staying safe",
+   "stem": "Moung wants to see the Sun better, so he plans to look at it through dark sunglasses. What is the right advice?",
+   "options": [
+    "It is safe for a minute.",
+    "Use two pairs of sunglasses.",
+    "Never look at the Sun.",
+    "Look only at midday."
+   ],
+   "answer": 2,
+   "explanation": "Never look at the Sun, even through sunglasses or a telescope. It can damage your eyes."
+  },
+  {
+   "id": "g3-b1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Satellites",
+   "stem": "Nadia's family lives on an island where it is hard to lay cables. How can they get TV and internet?",
+   "options": [
+    "by signals from a satellite",
+    "by signals from a meteor",
+    "by signals from the Moon's light",
+    "by signals from the wind"
+   ],
+   "answer": 0,
+   "explanation": "A satellite such as Bangabandhu Satellite-1 sends TV and internet signals across Bangladesh, even to islands and hills."
+  },
+  {
+   "id": "g3-b1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Satellites",
+   "stem": "A weather satellite sees a cyclone forming over the Bay of Bengal. How does this help people on the coast?",
+   "options": [
+    "It turns the cyclone away.",
+    "It warns them early so they can reach a shelter.",
+    "It makes the sea calmer.",
+    "It stops the rain."
+   ],
+   "answer": 1,
+   "explanation": "Weather satellites help people see cyclones coming. An early warning gives families time to move to a cyclone shelter."
+  },
+  {
+   "id": "g3-b1-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "The solar system",
+   "stem": "Raju makes a model of the solar system with eight balls of the same size. What can his model **not** show well?",
+   "options": [
+    "the order of the planets",
+    "that there are eight planets",
+    "that the Sun is in the middle",
+    "how big each planet really is"
+   ],
+   "answer": 3,
+   "explanation": "His model shows the order and the number of planets, but the real planets are very different sizes (Jupiter is the biggest). Models also cannot show the huge distances."
+  },
+  {
+   "id": "g3-b1-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How the solar system works",
+   "stem": "In the simulation, what does the Moon do while the Earth moves?",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun, Earth and Moon, then press play. Watch the Moon for a while. You can tick the box that shows the paths."
+   },
+   "options": [
+    "It travels around the Earth.",
+    "It stays still in the middle.",
+    "It travels around the Sun only.",
+    "It disappears from view."
+   ],
+   "answer": 0,
+   "explanation": "The Moon orbits the Earth. At the same time, the Earth and Moon travel together around the Sun."
+  },
+  {
+   "id": "g3-b1-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How the solar system works",
+   "stem": "In the simulation, the Earth goes once around the Sun in one year.",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun and Earth, then press play. Watch the clock until the Earth has gone once around the Sun."
+   },
+   "answer": true,
+   "explanation": "The clock in the simulation shows that one orbit of the Earth around the Sun takes about one year."
+  },
+  {
+   "id": "g3-b1-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How the solar system works",
+   "stem": "In the simulation, you turn gravity off while the Earth is moving. What happens to the Earth?",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun and Earth, then press play. While the Earth is going round, turn gravity off and watch what happens."
+   },
+   "options": [
+    "It keeps going round in a circle.",
+    "It falls into the Sun.",
+    "It moves off in a straight line.",
+    "It stops at once."
+   ],
+   "answer": 2,
+   "explanation": "Gravity pulls the Earth towards the Sun and bends its path into an orbit. With no gravity, nothing pulls it, so it moves off in a straight line."
+  },
+  {
+   "id": "g3-b1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Scientists who studied the sky",
+   "stem": "In 1610 Galileo saw four moons going around Jupiter. Why did this help Copernicus's idea?",
+   "options": [
+    "It showed that Jupiter is the biggest planet.",
+    "It showed that not everything goes around the Earth.",
+    "It showed that the Moon makes its own light.",
+    "It showed that the Sun is a star."
+   ],
+   "answer": 1,
+   "explanation": "Copernicus said the planets go around the Sun. If four moons go around Jupiter, then Earth is not the centre of everything, which supported his idea."
+  },
+  {
+   "id": "g3-b1-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Stars, planets and moons",
+   "stem": "Mina says, \"The Sun is a planet because it is big and round.\" What is the best correction?",
+   "options": [
+    "The Sun is a star that makes its own light.",
+    "The Sun is a moon because it is very hot.",
+    "The Sun is a planet because the Earth orbits it.",
+    "The Sun is a meteor because it is bright."
+   ],
+   "answer": 0,
+   "explanation": "A star is a ball of hot, glowing gas that makes its own light. The planets, including Earth, travel around our star, the Sun."
+  },
+  {
+   "id": "g3-b1-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "The solar system",
+   "stem": "Why do you think there is life on Earth but not on Mercury?",
+   "model_answer": "Earth has water, air and the right temperature. Mercury is too hot by day, too cold by night, and has no air.",
+   "keywords": [
+    [
+     "water",
+     "air",
+     "oxygen",
+     "atmosphere"
+    ],
+    [
+     "temperature",
+     "warm",
+     "right",
+     "hot",
+     "cold",
+     "too hot",
+     "too cold",
+     "heat"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Living things need water, air and a suitable temperature. Earth has all three. Mercury is very hot in the day, very cold at night, and has almost no air."
+  }
+ ]
+}

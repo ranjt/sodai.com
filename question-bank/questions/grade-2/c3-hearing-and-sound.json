@@ -1,0 +1,605 @@
+{
+ "grade": 2,
+ "grade_name": "Grade 2",
+ "topic": "C3",
+ "title": "Hearing and Sound",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g2-c3-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How we hear",
+   "stem": "All sounds are made when something…",
+   "options": [
+    "vibrates",
+    "gets hot",
+    "changes colour",
+    "stands still"
+   ],
+   "answer": 0,
+   "explanation": "A vibration is a very fast shaking backwards and forwards. A drum skin, a bell and your voice box all vibrate to make sound."
+  },
+  {
+   "id": "g2-c3-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of the ear",
+   "stem": "Look at the ear. Which number is the eardrum, the thin skin that vibrates?",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "Cross-section of the ear with six parts numbered 1 to 6.",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "Number 3 is the eardrum. Sound makes it vibrate like a tiny drum. Number 1 is the outer ear, 5 the cochlea and 6 the nerve to the brain."
+  },
+  {
+   "id": "g2-c3-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Parts of the ear",
+   "stem": "Which number is the snail-shaped part that turns vibrations into messages?",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "Cross-section of the ear with six parts numbered 1 to 6.",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Number 5 is the cochlea, in the inner ear. It looks like a snail shell and turns vibrations into messages for the brain."
+  },
+  {
+   "id": "g2-c3-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Parts of the ear",
+   "stem": "Match each number in the picture to the right part of the ear.",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "Cross-section of the ear with six parts numbered 1 to 6.",
+   "pairs": [
+    [
+     "1",
+     "outer ear"
+    ],
+    [
+     "3",
+     "eardrum"
+    ],
+    [
+     "5",
+     "cochlea"
+    ],
+    [
+     "6",
+     "nerve to the brain"
+    ]
+   ],
+   "explanation": "The outer ear collects sound, the eardrum vibrates, the cochlea turns vibrations into messages, and the nerve carries the messages to the brain."
+  },
+  {
+   "id": "g2-c3-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Sources of light and sound",
+   "stem": "Sort the pictures into sound sources and light sources.",
+   "categories": [
+    "Sound source",
+    "Light source"
+   ],
+   "items": [
+    [
+     {
+      "text": "bell",
+      "image": "openmoji/bell.svg"
+     },
+     "Sound source"
+    ],
+    [
+     {
+      "text": "drum",
+      "image": "openmoji/drum.svg"
+     },
+     "Sound source"
+    ],
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "Sound source"
+    ],
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Light source"
+    ],
+    [
+     {
+      "text": "lamp",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Light source"
+    ],
+    [
+     {
+      "text": "candle",
+      "image": "openmoji/candle.svg"
+     },
+     "Light source"
+    ]
+   ],
+   "explanation": "A bell, a drum and a bird make sound. The Sun, a lamp and a candle make light. A source is where light or sound comes from."
+  },
+  {
+   "id": "g2-c3-006",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How we hear",
+   "stem": "Put the steps in order to show how you hear a sound.",
+   "sequence": [
+    "The outer ear collects the sound.",
+    "The sound travels down the ear canal.",
+    "The eardrum vibrates.",
+    "The cochlea turns the vibrations into messages.",
+    "A nerve carries the messages to the brain.",
+    "The brain tells you what you hear."
+   ],
+   "explanation": "Sound goes in through the outer ear and makes the eardrum vibrate. The cochlea changes the vibrations into messages, and a nerve carries them to the brain."
+  },
+  {
+   "id": "g2-c3-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How we hear",
+   "stem": "Sounds are made when things ___. Sound makes the ___ vibrate. A ___ carries messages to the brain.",
+   "blanks": [
+    [
+     "vibrate",
+     "vibrates"
+    ],
+    [
+     "eardrum",
+     "ear drum"
+    ],
+    [
+     "nerve"
+    ]
+   ],
+   "bank": [
+    "vibrate",
+    "eardrum",
+    "nerve",
+    "nose"
+   ],
+   "explanation": "Vibrations make sound. The sound makes the eardrum vibrate, and a nerve takes the message to the brain."
+  },
+  {
+   "id": "g2-c3-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Why hearing matters",
+   "stem": "Match each animal to how it uses hearing.",
+   "pairs": [
+    [
+     {
+      "text": "deer",
+      "image": "openmoji/deer.svg"
+     },
+     "listens for danger such as a tiger"
+    ],
+    [
+     {
+      "text": "owl",
+      "image": "openmoji/owl.svg"
+     },
+     "hunts mice by listening in the dark"
+    ],
+    [
+     {
+      "text": "bat",
+      "image": "openmoji/bat.svg"
+     },
+     "finds insects using echoes"
+    ]
+   ],
+   "explanation": "Many animals depend on hearing. Deer listen for danger, owls hear mice in the dark, and bats use echoes to find insects."
+  },
+  {
+   "id": "g2-c3-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Noise and blocking sound",
+   "stem": "Very loud sound for a long time can damage your hearing.",
+   "answer": true,
+   "explanation": "Loud sound can harm the ear. If a sound is so loud that it hurts, cover your ears and move away."
+  },
+  {
+   "id": "g2-c3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "It is safe to push a small stick into your ear to clean it.",
+   "answer": false,
+   "explanation": "Never put anything inside your ear. You could hurt your eardrum. Ask an adult if you think your ear needs care."
+  },
+  {
+   "id": "g2-c3-011",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Noise and blocking sound",
+   "stem": "Which of these are sources of noise pollution? Choose all that are right.",
+   "options": [
+    "car horns",
+    "loudspeakers",
+    "noisy machines",
+    "a whisper in the library"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Noise pollution is too much unwanted loud sound. Horns, loudspeakers and machines are common sources. A quiet whisper is not."
+  },
+  {
+   "id": "g2-c3-012",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Noise and blocking sound",
+   "stem": "Which things can help block sound? Choose all that are right.",
+   "options": [
+    "thick curtains",
+    "foam",
+    "ear muffs",
+    "a wide open window"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Soft materials such as curtains and foam soak up sound, and ear muffs cover the ears. An open window lets noise straight in."
+  },
+  {
+   "id": "g2-c3-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Noise and blocking sound",
+   "stem": "Which of these is best for blocking noise?",
+   "options": [
+    "glass",
+    "metal",
+    "a plastic ruler",
+    "thick cloth"
+   ],
+   "answer": 3,
+   "explanation": "Soft, thick materials such as cloth soak up sound vibrations. Hard materials like glass and metal let more sound through."
+  },
+  {
+   "id": "g2-c3-014",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Why hearing matters",
+   "stem": "How does hearing help to keep you safe when you cross the road?",
+   "model_answer": "I can hear cars and horns coming, even when I cannot see them.",
+   "keywords": [
+    [
+     "hear",
+     "hears",
+     "listen",
+     "listens",
+     "hearing"
+    ],
+    [
+     "car",
+     "cars",
+     "horn",
+     "horns",
+     "bus",
+     "rickshaw",
+     "traffic",
+     "vehicle",
+     "vehicles"
+    ],
+    [
+     "safe",
+     "danger",
+     "coming",
+     "see",
+     "warn",
+     "warning"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Hearing warns us about things we cannot see. A car horn or an engine tells us something is coming."
+  },
+  {
+   "id": "g2-c3-015",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "Sort each into things that block sound and things that let sound through.",
+   "categories": [
+    "Blocks sound",
+    "Lets sound through"
+   ],
+   "items": [
+    [
+     "cotton wool",
+     "Blocks sound"
+    ],
+    [
+     "thick curtains",
+     "Blocks sound"
+    ],
+    [
+     "ear muffs",
+     "Blocks sound"
+    ],
+    [
+     "an open window",
+     "Lets sound through"
+    ],
+    [
+     "an open door",
+     "Lets sound through"
+    ],
+    [
+     "a gap under the door",
+     "Lets sound through"
+    ]
+   ],
+   "explanation": "Soft, thick things stop sound. Open spaces let sound pass straight through, so closing windows and doors helps."
+  },
+  {
+   "id": "g2-c3-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "Priya's classroom is next to a noisy road. Which two changes will make it quieter?",
+   "options": [
+    "Close the windows and hang thick curtains.",
+    "Open the windows and turn on a fan.",
+    "Open the doors and take the curtains down.",
+    "Paint the walls and move the desks."
+   ],
+   "answer": 0,
+   "explanation": "Closed windows and thick curtains block and soak up sound. Opening windows and doors lets more noise in."
+  },
+  {
+   "id": "g2-c3-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "Rafi works with a loud machine in a factory all day. What should he wear?",
+   "options": [
+    "a hat",
+    "ear muffs",
+    "sunglasses",
+    "a raincoat"
+   ],
+   "answer": 1,
+   "explanation": "Ear muffs block loud sound and protect his hearing. Loud sound for a long time can damage the ears."
+  },
+  {
+   "id": "g2-c3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "Drivers keep honking near a hospital in Dhaka, but sick people need quiet. What could children do?",
+   "options": [
+    "Shout loudly at the drivers.",
+    "Honk back as loudly as they can.",
+    "Make posters and politely ask drivers not to honk.",
+    "Play loud music for the patients."
+   ],
+   "answer": 2,
+   "explanation": "A quiet, polite message can help drivers remember. Patients need quiet so they can rest and get better, and shouting or loud music adds more noise."
+  },
+  {
+   "id": "g2-c3-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "A loudspeaker at a fair is so loud that Mina's ears hurt. What should she do?",
+   "options": [
+    "Cover her ears and move away.",
+    "Stand closer to it.",
+    "Shout to be heard over it.",
+    "Put her fingers deep in her ears."
+   ],
+   "answer": 0,
+   "explanation": "Very loud sound can damage hearing. Covering your ears and moving further away protects them, and nothing should go inside your ears."
+  },
+  {
+   "id": "g2-c3-020",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How we hear",
+   "stem": "In the simulation, when you make the amplitude bigger, the sound gets louder.",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Single Source screen. Turn the sound on so you can hear the speaker. Move the amplitude slider from low to high and listen."
+   },
+   "answer": true,
+   "explanation": "Amplitude is how big the vibrations are. Bigger vibrations make a louder sound."
+  },
+  {
+   "id": "g2-c3-021",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How we hear",
+   "stem": "In the simulation, what happens to the sound as you take the air out of the box?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Air Pressure screen. Turn the sound on so you can hear the speaker, then take the air out of the box and listen."
+   },
+   "options": [
+    "It gets louder.",
+    "It gets quieter.",
+    "It gets higher.",
+    "It stays exactly the same."
+   ],
+   "answer": 1,
+   "explanation": "Sound needs air to carry the vibrations to your ear. With less air around the speaker, less sound reaches you."
+  },
+  {
+   "id": "g2-c3-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Noise and blocking sound",
+   "stem": "Class 2C covered a ticking clock with different materials and scored how loud it was (5 = very loud, 1 = very quiet): nothing 5, paper 4, cloth 3, cotton wool 1. Which conclusion is best?",
+   "options": [
+    "Paper blocked the most sound.",
+    "Every material blocked the same amount.",
+    "Cloth made the clock louder.",
+    "Cotton wool blocked the most sound."
+   ],
+   "answer": 3,
+   "explanation": "The lowest score means the quietest sound, so cotton wool blocked the most. Paper blocked only a little and the cloth was in between."
+  },
+  {
+   "id": "g2-c3-023",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Noise and blocking sound",
+   "stem": "In the clock test, which things must stay the same to make it a fair test? Choose all that are right.",
+   "options": [
+    "the clock",
+    "the box",
+    "where the child stands",
+    "the material that covers the box"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Only one thing should change: the material. The clock, the box and the child's place must stay the same, or we cannot tell what caused the difference."
+  },
+  {
+   "id": "g2-c3-024",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Noise and blocking sound",
+   "stem": "A school is next to a noisy generator. Give two ways to make a classroom quieter and say why they work.",
+   "model_answer": "Close the windows and hang thick curtains or foam on the walls, because soft thick things soak up and block sound.",
+   "keywords": [
+    [
+     "window",
+     "windows",
+     "curtain",
+     "curtains",
+     "foam",
+     "cloth",
+     "ear muffs",
+     "wool",
+     "further away",
+     "move away",
+     "trees"
+    ],
+    [
+     "block",
+     "blocks",
+     "stop",
+     "stops",
+     "soak",
+     "absorb",
+     "quieter",
+     "quiet",
+     "less sound",
+     "less noise"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Closing windows and using soft, thick materials such as curtains or foam stops sound getting in. Moving the class further from the noise also helps."
+  },
+  {
+   "id": "g2-c3-025",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Parts of the ear",
+   "stem": "In the picture, number 3 is the eardrum, which vibrates when sound reaches it.",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "Cross-section of the ear with six parts numbered 1 to 6.",
+   "answer": true,
+   "explanation": "The eardrum is a thin skin in the middle ear. Sound makes it vibrate like a tiny drum."
+  },
+  {
+   "id": "g2-c3-026",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Why hearing matters",
+   "stem": "A bat finds insects in the dark by using…",
+   "options": [
+    "bright light",
+    "echoes",
+    "smell only",
+    "its eyes only"
+   ],
+   "answer": 1,
+   "explanation": "A bat makes sounds and listens for the echoes that bounce back from insects. This is how it finds food in the dark."
+  }
+ ]
+}

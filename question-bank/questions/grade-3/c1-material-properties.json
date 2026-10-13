@@ -1,0 +1,666 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "C1",
+ "title": "Material Properties",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-c1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Property words",
+   "stem": "A **property** of a material tells us…",
+   "options": [
+    "who made the material",
+    "where the material was bought",
+    "what the material is like",
+    "how much the material costs"
+   ],
+   "answer": 2,
+   "explanation": "A property describes what a material is like, for example hard, shiny or waterproof. Every material has its own properties."
+  },
+  {
+   "id": "g3-c1-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Property words",
+   "stem": "Match each property word to its meaning.",
+   "pairs": [
+    [
+     "hard",
+     "does not dent easily"
+    ],
+    [
+     "flexible",
+     "bends easily"
+    ],
+    [
+     "transparent",
+     "you can see through it"
+    ],
+    [
+     "waterproof",
+     "keeps water out"
+    ],
+    [
+     "absorbent",
+     "soaks up water"
+    ]
+   ],
+   "explanation": "These property words help us describe materials. A towel is absorbent, a raincoat is waterproof and a window is transparent."
+  },
+  {
+   "id": "g3-c1-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Property words",
+   "stem": "Opposite words: shiny and ___; flexible and ___.",
+   "blanks": [
+    [
+     "dull"
+    ],
+    [
+     "stiff",
+     "rigid"
+    ]
+   ],
+   "bank": [
+    "dull",
+    "stiff",
+    "absorbent",
+    "weak"
+   ],
+   "explanation": "A shiny material reflects light, so its opposite is dull. A flexible material bends easily, so its opposite is stiff."
+  },
+  {
+   "id": "g3-c1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Magnetic materials",
+   "stem": "All metals are attracted by a magnet.",
+   "answer": false,
+   "explanation": "A magnet attracts iron and steel (and a few others such as nickel). Aluminium, copper, gold and silver are metals that a magnet does not attract."
+  },
+  {
+   "id": "g3-c1-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Sorting materials",
+   "stem": "Sort these materials into hard and soft.",
+   "categories": [
+    "Hard",
+    "Soft"
+   ],
+   "items": [
+    [
+     "stone",
+     "Hard"
+    ],
+    [
+     "cotton wool",
+     "Soft"
+    ],
+    [
+     "steel",
+     "Hard"
+    ],
+    [
+     "sponge",
+     "Soft"
+    ],
+    [
+     "glass",
+     "Hard"
+    ],
+    [
+     "wool",
+     "Soft"
+    ]
+   ],
+   "explanation": "Hard materials do not dent when you press them. Soft materials squash easily."
+  },
+  {
+   "id": "g3-c1-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Magnetic materials",
+   "stem": "A magnet attracts things made of ___ and steel.",
+   "blanks": [
+    [
+     "iron"
+    ]
+   ],
+   "bank": [
+    "iron",
+    "wood",
+    "copper",
+    "plastic"
+   ],
+   "explanation": "Magnetic materials are iron and steel. Wood, plastic and copper are not magnetic."
+  },
+  {
+   "id": "g3-c1-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "A magnet is held near each object. Which objects will it pull? Choose all that are right.",
+   "options": [
+    "an iron nail",
+    "an aluminium drink can",
+    "a steel paper clip",
+    "a plastic ruler",
+    "a steel pin"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Iron and steel are magnetic, so the nail, the paper clip and the pin are pulled. Aluminium and plastic are not magnetic."
+  },
+  {
+   "id": "g3-c1-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Choosing materials",
+   "stem": "Glass is used for windows because it is…",
+   "options": [
+    "transparent",
+    "absorbent",
+    "magnetic",
+    "flexible"
+   ],
+   "answer": 0,
+   "explanation": "Glass is transparent, so light comes in and we can see out. Wood is opaque, so it would block the light."
+  },
+  {
+   "id": "g3-c1-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing materials",
+   "stem": "A paper umbrella would be a good idea for the monsoon.",
+   "answer": false,
+   "explanation": "Paper is absorbent and weak. It would get soggy and tear in the rain. An umbrella needs a waterproof material."
+  },
+  {
+   "id": "g3-c1-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair test",
+   "stem": "Put the steps of a fair test in order to find which material soaks up the most water.",
+   "sequence": [
+    "Cut a square of the same size from each material.",
+    "Pour the same amount of water into each dish.",
+    "Put one square into each dish for one minute.",
+    "Lift the squares out and measure the water left in each dish.",
+    "Work out how much water each material soaked up."
+   ],
+   "explanation": "A fair test keeps everything the same (size, water, time) except the material. The water left tells you how much was soaked up."
+  },
+  {
+   "id": "g3-c1-011",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Choosing materials",
+   "stem": "Why is a window made of glass and not wood?",
+   "model_answer": "Glass is transparent, so light comes in and we can see through it. Wood is opaque and blocks the light.",
+   "keywords": [
+    [
+     "transparent",
+     "see through",
+     "see-through",
+     "clear",
+     "see out"
+    ],
+    [
+     "wood",
+     "opaque",
+     "cannot see",
+     "can't see",
+     "block",
+     "blocks"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "Windows must let light in, so they need a transparent material. Wood is opaque: you cannot see through it."
+  },
+  {
+   "id": "g3-c1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Jute, the golden fibre",
+   "stem": "Jute is used to make sacks and rope because the fibres are…",
+   "options": [
+    "hard and see-through",
+    "weak and stiff",
+    "magnetic and heavy",
+    "strong and flexible"
+   ],
+   "answer": 3,
+   "explanation": "Jute fibres are strong and flexible, so they can be twisted into rope and woven into sacks and bags."
+  },
+  {
+   "id": "g3-c1-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Property words",
+   "stem": "A material that soaks up water is ___. A material that keeps water out is ___.",
+   "blanks": [
+    [
+     "absorbent"
+    ],
+    [
+     "waterproof"
+    ]
+   ],
+   "bank": [
+    "absorbent",
+    "waterproof",
+    "transparent",
+    "flexible"
+   ],
+   "explanation": "A towel is absorbent, so it soaks up water. A plastic raincoat is waterproof, so water stays outside."
+  },
+  {
+   "id": "g3-c1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Property words",
+   "stem": "Which picture shows something **transparent**?",
+   "options": [
+    {
+     "text": "door",
+     "image": "openmoji/door.svg"
+    },
+    {
+     "text": "window",
+     "image": "openmoji/window.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "wooden log",
+     "image": "openmoji/wood.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "You can see through the glass in a window, so it is transparent. A door, a brick and a log are opaque: you cannot see through them."
+  },
+  {
+   "id": "g3-c1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "A magnet is held over these pictures. Which one will it pick up?",
+   "options": [
+    {
+     "text": "feather",
+     "image": "openmoji/feather.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "wooden log",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "paper clip",
+     "image": "openmoji/paperclip.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "A paper clip is made of steel, and steel is magnetic. Feathers, plastic and wood are not magnetic."
+  },
+  {
+   "id": "g3-c1-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sorting materials",
+   "stem": "Match each picture to the material it is mostly made of.",
+   "pairs": [
+    [
+     {
+      "text": "brick",
+      "image": "openmoji/brick.svg"
+     },
+     "clay"
+    ],
+    [
+     {
+      "text": "glass bottle",
+      "image": "openmoji/glass-bottle.svg"
+     },
+     "glass"
+    ],
+    [
+     {
+      "text": "newspaper",
+      "image": "openmoji/newspaper.svg"
+     },
+     "paper"
+    ],
+    [
+     {
+      "text": "jeans",
+      "image": "openmoji/jeans.svg"
+     },
+     "cotton cloth"
+    ],
+    [
+     {
+      "text": "tin can",
+      "image": "openmoji/tin-can.svg"
+     },
+     "metal"
+    ]
+   ],
+   "explanation": "Everyday objects are made from materials such as clay, glass, paper, cloth and metal."
+  },
+  {
+   "id": "g3-c1-017",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "Sort these things into magnetic and not magnetic.",
+   "categories": [
+    "Magnetic",
+    "Not magnetic"
+   ],
+   "items": [
+    [
+     {
+      "text": "paper clip",
+      "image": "openmoji/paperclip.svg"
+     },
+     "Magnetic"
+    ],
+    [
+     {
+      "text": "plastic bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "Not magnetic"
+    ],
+    [
+     {
+      "text": "safety pin",
+      "image": "openmoji/safety-pin.svg"
+     },
+     "Magnetic"
+    ],
+    [
+     {
+      "text": "feather",
+      "image": "openmoji/feather.svg"
+     },
+     "Not magnetic"
+    ],
+    [
+     {
+      "text": "sewing needle",
+      "image": "openmoji/sewing-needle.svg"
+     },
+     "Magnetic"
+    ],
+    [
+     {
+      "text": "wooden log",
+      "image": "openmoji/wood.svg"
+     },
+     "Not magnetic"
+    ],
+    [
+     {
+      "text": "glass bottle",
+      "image": "openmoji/glass-bottle.svg"
+     },
+     "Not magnetic"
+    ]
+   ],
+   "explanation": "Paper clips, safety pins and sewing needles are made of steel, so a magnet attracts them. Plastic, feathers, wood and glass are not magnetic."
+  },
+  {
+   "id": "g3-c1-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Property words",
+   "stem": "Which picture shows something that is both **hard** and **opaque**?",
+   "options": [
+    {
+     "text": "sponge",
+     "image": "openmoji/sponge.svg"
+    },
+    {
+     "text": "window",
+     "image": "openmoji/window.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "yarn",
+     "image": "openmoji/yarn.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A brick is hard and you cannot see through it. A sponge and yarn are soft, and a window is hard but transparent."
+  },
+  {
+   "id": "g3-c1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Jute, the golden fibre",
+   "stem": "Mina is going to the bazar. She wants a strong bag that rots away safely when it is thrown out. Which bag should she take?",
+   "options": [
+    "a thin plastic bag",
+    "a bag made of foil",
+    "a jute bag",
+    "a bag made of cotton wool"
+   ],
+   "answer": 2,
+   "explanation": "Jute is strong and rots away in the soil. A thin plastic bag stays for hundreds of years and can block drains."
+  },
+  {
+   "id": "g3-c1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing materials",
+   "stem": "It is the monsoon. Anika needs a coat for the walk to school. Which material is best for the outside of the coat?",
+   "options": [
+    "a thick woollen blanket",
+    "a thin sheet of paper",
+    "a soft cotton towel",
+    "a waterproof plastic sheet"
+   ],
+   "answer": 3,
+   "explanation": "A raincoat must keep water out, so its outer layer must be waterproof. Wool, paper and towel cloth soak up water."
+  },
+  {
+   "id": "g3-c1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "Imran drops a steel needle into a pile of sand. What is the quickest way to find it?",
+   "options": [
+    "Move a magnet over the sand.",
+    "Pour water over the sand.",
+    "Wave a plastic ruler over the sand.",
+    "Shine a torch on the sand."
+   ],
+   "answer": 0,
+   "explanation": "Steel is magnetic, so the needle jumps to the magnet. Sand is not magnetic and stays behind."
+  },
+  {
+   "id": "g3-c1-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Choosing materials",
+   "stem": "A pot for cooking rice on a stove needs the right material. Which properties does the material need? Choose all that are right.",
+   "options": [
+    "strong",
+    "does not melt on a stove",
+    "absorbent like a sponge",
+    "breaks easily"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "A cooking pot must be strong and must not melt on the stove. An absorbent or easily broken pot would be no use."
+  },
+  {
+   "id": "g3-c1-023",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Jute, the golden fibre",
+   "stem": "Farmers in Bangladesh store rice in jute sacks. Jute is a good material for sacks because the fibres are strong.",
+   "answer": true,
+   "explanation": "Strong fibres do not tear easily, so jute sacks can hold heavy rice and be used again and again."
+  },
+  {
+   "id": "g3-c1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair test",
+   "stem": "Class 3A put a 10 cm square of each material into 50 ml of water for one minute. Water left in the dish: cotton towel 20 ml, paper towel 30 ml, newspaper 40 ml, plastic 50 ml. Which statement is correct?",
+   "options": [
+    "The plastic soaked up the most: 50 ml.",
+    "The newspaper soaked up 40 ml.",
+    "The paper towel soaked up more than the cotton towel.",
+    "The cotton towel soaked up the most: 30 ml."
+   ],
+   "answer": 3,
+   "explanation": "Water soaked up = 50 ml minus water left. Cotton towel 30 ml, paper towel 20 ml, newspaper 10 ml, plastic 0 ml. The plastic left all 50 ml behind, so it soaked up nothing."
+  },
+  {
+   "id": "g3-c1-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair test",
+   "stem": "Lina tests which cloth soaks up the most water. She puts a 10 cm square of cotton in 50 ml of water and a 20 cm square of wool in 100 ml of water. Why is this not a fair test?",
+   "options": [
+    "She should have used only one cloth in the whole test.",
+    "She changed the size of the cloth and the amount of water, not only the material.",
+    "She used cloth instead of paper in the test.",
+    "She should have used no water in the test."
+   ],
+   "answer": 1,
+   "explanation": "In a fair test only one thing changes (here the material). Size, amount of water and time must stay the same."
+  },
+  {
+   "id": "g3-c1-026",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Magnetic materials",
+   "stem": "Aisha says: \"A coin is made of metal, so a magnet will always pick it up.\" Aisha is right.",
+   "answer": false,
+   "explanation": "Some coins contain steel and stick to a magnet, but others are made of metals that are not magnetic. You must test each one."
+  },
+  {
+   "id": "g3-c1-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Choosing materials",
+   "stem": "A builder needs a material for a footbridge over a canal. Which properties must it have? Give two.",
+   "model_answer": "It must be strong and stiff, and waterproof or not rot or rust in water.",
+   "keywords": [
+    [
+     "strong",
+     "strength",
+     "hard to break"
+    ],
+    [
+     "stiff",
+     "hard",
+     "does not bend"
+    ],
+    [
+     "waterproof",
+     "rust",
+     "rot",
+     "water"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A bridge carries heavy loads, so it must be strong and stiff. It also stays outdoors in rain, so it must not rot or rust easily."
+  },
+  {
+   "id": "g3-c1-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Magnetic materials",
+   "stem": "Four things are tested with a magnet. Which one is the odd one out?",
+   "options": [
+    "the iron nail",
+    "the aluminium can",
+    "the steel pin",
+    "the paper clip"
+   ],
+   "answer": 1,
+   "explanation": "The nail, the pin and the paper clip are made of iron or steel, so a magnet attracts them. Aluminium is not magnetic."
+  }
+ ]
+}

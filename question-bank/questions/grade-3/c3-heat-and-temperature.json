@@ -1,0 +1,660 @@
+{
+ "grade": 3,
+ "grade_name": "Grade 3",
+ "topic": "C3",
+ "title": "Heat and Temperature",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g3-c3-001",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sources of heat",
+   "stem": "Heat is a kind of ___ that makes things warmer.",
+   "blanks": [
+    [
+     "energy"
+    ]
+   ],
+   "bank": [
+    "energy",
+    "colour",
+    "metal",
+    "sound"
+   ],
+   "explanation": "Heat is a kind of energy. When you rub your hands together, they get warm."
+  },
+  {
+   "id": "g3-c3-002",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Sources of heat",
+   "stem": "Which of these are sources of heat? Choose all that are right.",
+   "options": [
+    "the Sun",
+    "a fire",
+    "an electric heater",
+    "an ice cube",
+    "a light bulb"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "explanation": "The Sun, fire, electric heaters and light bulbs all give out heat. An ice cube is cold: it takes in heat and melts."
+  },
+  {
+   "id": "g3-c3-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring temperature",
+   "stem": "Match each thing to its temperature.",
+   "pairs": [
+    [
+     "ice melts",
+     "0 °C"
+    ],
+    [
+     "a healthy human body",
+     "about 37 °C"
+    ],
+    [
+     "water boils",
+     "100 °C"
+    ]
+   ],
+   "explanation": "Temperature is measured in degrees Celsius. Ice melts at 0 °C, our body is about 37 °C and water boils at 100 °C."
+  },
+  {
+   "id": "g3-c3-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring temperature",
+   "stem": "We measure temperature in degrees ___ using a ___.",
+   "blanks": [
+    [
+     "Celsius",
+     "centigrade"
+    ],
+    [
+     "thermometer"
+    ]
+   ],
+   "bank": [
+    "Celsius",
+    "thermometer",
+    "ruler",
+    "kilograms"
+   ],
+   "explanation": "Temperature is measured in degrees Celsius (°C) with a thermometer. The liquid inside rises when it gets warmer."
+  },
+  {
+   "id": "g3-c3-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Is heat added or removed? Sort these changes.",
+   "categories": [
+    "Heat added",
+    "Heat removed"
+   ],
+   "items": [
+    [
+     "ice cream melts",
+     "Heat added"
+    ],
+    [
+     "water freezes in the freezer",
+     "Heat removed"
+    ],
+    [
+     "rice cooks",
+     "Heat added"
+    ],
+    [
+     "hot tea cools down",
+     "Heat removed"
+    ],
+    [
+     "wet clothes dry in the sun",
+     "Heat added"
+    ],
+    [
+     "melted wax goes hard",
+     "Heat removed"
+    ]
+   ],
+   "explanation": "Melting, cooking and drying need heat to be added. Freezing, cooling and setting hard happen when heat is taken away."
+  },
+  {
+   "id": "g3-c3-006",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How heat travels",
+   "stem": "Rafi stirs hot tea with a metal spoon. Put the steps in order to show how the heat reaches his fingers.",
+   "sequence": [
+    "The hot tea heats the bottom of the spoon.",
+    "Heat travels up through the metal.",
+    "The handle of the spoon gets hot.",
+    "Rafi's fingers feel the heat."
+   ],
+   "explanation": "Heat travels through the solid metal from the hot end to the cold end. This is called conduction."
+  },
+  {
+   "id": "g3-c3-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How heat travels",
+   "stem": "Heat always moves from…",
+   "options": [
+    "colder places to hotter places",
+    "bigger things to smaller things",
+    "heavier things to lighter things",
+    "hotter places to colder places"
+   ],
+   "answer": 3,
+   "explanation": "Heat always moves from hotter places to colder places. That is why a hot drink cools down and a cold drink warms up."
+  },
+  {
+   "id": "g3-c3-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How heat travels",
+   "stem": "Match each way heat travels to what happens.",
+   "pairs": [
+    [
+     "conduction",
+     "heat travels through a solid"
+    ],
+    [
+     "convection",
+     "warm water or air rises and cool water or air sinks"
+    ],
+    [
+     "radiation",
+     "heat travels as invisible rays"
+    ]
+   ],
+   "explanation": "Conduction is for solids, convection is for liquids and gases that move, and radiation needs no material at all: it is how the Sun warms us."
+  },
+  {
+   "id": "g3-c3-009",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Conductors and insulators",
+   "stem": "Sort these into conductors and insulators of heat.",
+   "categories": [
+    "Conductor",
+    "Insulator"
+   ],
+   "items": [
+    [
+     "steel spoon",
+     "Conductor"
+    ],
+    [
+     "wooden spoon",
+     "Insulator"
+    ],
+    [
+     "aluminium pot",
+     "Conductor"
+    ],
+    [
+     "wool",
+     "Insulator"
+    ],
+    [
+     "iron nail",
+     "Conductor"
+    ],
+    [
+     "plastic handle",
+     "Insulator"
+    ]
+   ],
+   "explanation": "Metals let heat through easily, so they are conductors. Wood, wool and plastic do not, so they are insulators."
+  },
+  {
+   "id": "g3-c3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conductors and insulators",
+   "stem": "A woolly jumper keeps you warm because wool makes its own heat.",
+   "answer": false,
+   "explanation": "Wool does not make heat. It is an insulator and traps air, so your body heat stays in."
+  },
+  {
+   "id": "g3-c3-011",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conductors and insulators",
+   "stem": "Why do cooking pots have wooden or plastic handles?",
+   "model_answer": "Wood and plastic are insulators, so the handle does not get too hot to hold.",
+   "keywords": [
+    [
+     "insulator",
+     "insulators",
+     "not conduct",
+     "not let heat",
+     "does not get hot",
+     "doesn't get hot",
+     "not get hot",
+     "stay cool",
+     "stays cool"
+    ],
+    [
+     "hold",
+     "burn",
+     "burnt",
+     "touch",
+     "too hot"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "The pot is metal, which conducts heat. A wooden or plastic handle is an insulator, so you can hold it without burning your hand."
+  },
+  {
+   "id": "g3-c3-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring temperature",
+   "stem": "Look at the thermometers. Which one could show the temperature of a healthy person?",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers A, B and C reading 12 °C, 37 °C and 48 °C.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 1,
+   "explanation": "A healthy body is about 37 °C, so thermometer B is the one. A (12 °C) is much too cold and C (48 °C) is much too hot."
+  },
+  {
+   "id": "g3-c3-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring temperature",
+   "stem": "What temperature does thermometer C show?",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers A, B and C reading 5 °C, 25 °C and 40 °C.",
+   "options": [
+    "30 °C",
+    "35 °C",
+    "40 °C",
+    "45 °C"
+   ],
+   "answer": 2,
+   "explanation": "Thermometer C reads 40 °C. Thermometer A reads 5 °C and B reads 25 °C."
+  },
+  {
+   "id": "g3-c3-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How heat travels",
+   "stem": "Which picture shows heat travelling through a solid?",
+   "image": "diagrams/heat-transfer-lettered.svg",
+   "image_alt": "Three pictures: A a spoon in a hot drink, B a pot of water over a flame with arrows, C the Sun warming a hand.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 0,
+   "explanation": "In picture A the heat travels along the metal spoon: that is conduction. B shows convection in water and C shows radiation from the Sun."
+  },
+  {
+   "id": "g3-c3-015",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Sources of heat",
+   "stem": "Sort these pictures into things that give out heat and things that do not.",
+   "categories": [
+    "Gives out heat",
+    "Does not give out heat"
+   ],
+   "items": [
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Gives out heat"
+    ],
+    [
+     {
+      "text": "ice cube",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "Does not give out heat"
+    ],
+    [
+     {
+      "text": "fire",
+      "image": "openmoji/fire.svg"
+     },
+     "Gives out heat"
+    ],
+    [
+     {
+      "text": "snowflake",
+      "image": "openmoji/snowflake.svg"
+     },
+     "Does not give out heat"
+    ],
+    [
+     {
+      "text": "light bulb",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Gives out heat"
+    ],
+    [
+     {
+      "text": "iceberg",
+      "image": "openmoji/iceberg.svg"
+     },
+     "Does not give out heat"
+    ],
+    [
+     {
+      "text": "candle",
+      "image": "openmoji/candle.svg"
+     },
+     "Gives out heat"
+    ],
+    [
+     {
+      "text": "snowman",
+      "image": "openmoji/snowman.svg"
+     },
+     "Does not give out heat"
+    ]
+   ],
+   "explanation": "The Sun, fire, light bulbs and candles are sources of heat. Ice, snow and icebergs are cold."
+  },
+  {
+   "id": "g3-c3-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Heating and cooling",
+   "stem": "The four cups hold the same amount of hot water. Only one thing is different. What is being changed in this investigation?",
+   "image": "diagrams/insulation-cups.svg",
+   "image_alt": "Four cups of hot water: one with no cover and others wrapped in newspaper, wool and foil.",
+   "options": [
+    "the amount of water",
+    "the first temperature",
+    "the size of the cups",
+    "the cover on each cup"
+   ],
+   "answer": 3,
+   "explanation": "The cups are the same and have the same hot water. Only the cover is different (none, newspaper, wool or foil), so the test finds out which cover keeps heat in best."
+  },
+  {
+   "id": "g3-c3-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heat safety",
+   "stem": "Priya touches a hot pan by accident and gets a small burn on her finger. What should she do first?",
+   "options": [
+    "Put it near the fire to dry it and carry on cooking.",
+    "Wrap it in a dry cloth and tell nobody about it.",
+    "Hold it under clean running water for 20 minutes and tell an adult.",
+    "Rub it hard with a rough cloth and wait."
+   ],
+   "answer": 2,
+   "explanation": "Cool a burn under clean running water for 20 minutes and tell an adult. Hiding a burn or rubbing it can make it worse."
+  },
+  {
+   "id": "g3-c3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Heat safety",
+   "stem": "On a cold winter night in the north of Bangladesh, Nadia wants to stay warm safely. Which is the best choice?",
+   "options": [
+    "Wear warm layers and use a thick quilt.",
+    "Wear one thin shirt and open the window.",
+    "Sleep very close to the open fire.",
+    "Sleep on the cold floor under a thin sheet."
+   ],
+   "answer": 0,
+   "explanation": "Layers and a quilt trap air, which is an insulator, so body heat stays in. Sleeping close to an open fire is dangerous."
+  },
+  {
+   "id": "g3-c3-019",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Heat safety",
+   "stem": "Tuli's family sits near a small open fire on a cold night. Which rules are safe? Choose all that are right.",
+   "options": [
+    "Sit at a safe distance.",
+    "Tie back loose clothes such as an orna.",
+    "Go to sleep and leave the fire burning.",
+    "Keep water or sand nearby.",
+    "Hang a shawl over the fire to dry it."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Sit away from the fire, tie back loose clothes and keep water or sand nearby. Never leave a fire alone or put cloth near it."
+  },
+  {
+   "id": "g3-c3-020",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Heat safety",
+   "stem": "Joy's clothes catch fire. Put the safe steps in order.",
+   "sequence": [
+    "Stop moving.",
+    "Drop to the ground.",
+    "Roll over to put out the flames."
+   ],
+   "explanation": "Stop, drop and roll. Running makes the flames bigger and rolling smothers them."
+  },
+  {
+   "id": "g3-c3-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heat safety",
+   "stem": "It is safe to touch the flat plate of an electric iron to check whether it is hot.",
+   "answer": false,
+   "explanation": "Irons, stoves, hot oil and steam can burn you. Never touch them to test them."
+  },
+  {
+   "id": "g3-c3-022",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "In the simulation, what happens to the thermometer reading in the water?",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Drag the beaker of water onto the stand above the burner and drag a thermometer into the water. Slide the burner control up to heat the water and watch the thermometer for a minute."
+   },
+   "options": [
+    "It goes up.",
+    "It goes down.",
+    "It stays the same."
+   ],
+   "answer": 0,
+   "explanation": "The burner adds heat to the water, so the water gets hotter and the thermometer reading rises."
+  },
+  {
+   "id": "g3-c3-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How heat travels",
+   "stem": "In the simulation, what happens to the two thermometers?",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Drag one thermometer onto the iron block and one onto the brick block. Heat the iron block with the burner, then move it so that it touches the cooler brick block. Watch both thermometers."
+   },
+   "options": [
+    "Both readings go up.",
+    "The iron's reading goes down and the brick's reading goes up.",
+    "Both readings go down.",
+    "Neither reading changes."
+   ],
+   "answer": 1,
+   "explanation": "Heat moves from the hotter iron block to the cooler brick block. The iron loses heat and cools, and the brick gains heat and warms, until they are the same temperature."
+  },
+  {
+   "id": "g3-c3-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "In the simulation, when the burner is set to the blue cooling side under the water, the temperature of the water goes down.",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Put the beaker of water on the stand above the burner and drag a thermometer into the water. Slide the burner control to the blue cooling side and watch the thermometer for a minute."
+   },
+   "answer": true,
+   "explanation": "Cooling takes heat away from the water, so its temperature falls."
+  },
+  {
+   "id": "g3-c3-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Conductors and insulators",
+   "stem": "Class 3A filled four cups with hot water at 80 °C and covered three of them. After 20 minutes the temperatures were: no cover 45 °C, newspaper 52 °C, wool 60 °C, foil 55 °C. Which statement is best supported?",
+   "options": [
+    "Foil was the best insulator of the four.",
+    "Wool was the best insulator of the four.",
+    "The cup with no cover kept the most heat.",
+    "Newspaper was a better insulator than wool."
+   ],
+   "answer": 1,
+   "explanation": "The hottest water after 20 minutes (60 °C) was in the wool cup, so wool let the least heat escape. The cup with no cover cooled the most (45 °C)."
+  },
+  {
+   "id": "g3-c3-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Conductors and insulators",
+   "stem": "Raju wraps one cold bottle of water in a woollen scarf and leaves another bottle unwrapped on the table. After an hour the unwrapped bottle is warmer. Why?",
+   "options": [
+    "Wool gives out cold and chills the bottle.",
+    "Wool is a good conductor, so it carried heat away.",
+    "Wool is an insulator, so it slowed the heat moving into the wrapped bottle.",
+    "The unwrapped bottle was heavier than the other."
+   ],
+   "answer": 2,
+   "explanation": "Insulators slow heat down in both directions: they keep warm things warm and cold things cold. Wool does not give out cold."
+  },
+  {
+   "id": "g3-c3-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Conductors and insulators",
+   "stem": "Design a box to keep a lunch of hot rice warm. Which materials would you use and why?",
+   "model_answer": "A metal tiffin box wrapped in wool or cloth and put in a plastic bag. These insulators trap the heat so the rice stays warm.",
+   "keywords": [
+    [
+     "wool",
+     "cloth",
+     "cotton",
+     "quilt",
+     "towel",
+     "blanket",
+     "foam",
+     "plastic",
+     "newspaper",
+     "paper",
+     "kantha"
+    ],
+    [
+     "insulator",
+     "insulators",
+     "insulate",
+     "trap",
+     "keep the heat",
+     "keeps the heat",
+     "keep heat",
+     "keeps heat",
+     "heat in",
+     "stop heat",
+     "stops heat",
+     "not let heat",
+     "heat escape"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "To keep heat in, wrap the food in insulators such as wool, cloth or foam. Air trapped in these materials slows the heat escaping."
+  },
+  {
+   "id": "g3-c3-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Conductors and insulators",
+   "stem": "In an example experiment, a dot of wax is put on the end of four spoons. The other ends are put in the same hot water. The wax melts after 40 seconds on the aluminium spoon and 60 seconds on the steel spoon. After 5 minutes the wax on the wooden and plastic spoons has not melted. Which conclusion is best?",
+   "options": [
+    "Wood and plastic are the best conductors.",
+    "Steel conducts heat faster than aluminium.",
+    "All four spoons conduct heat equally well.",
+    "Metals are good conductors and wood and plastic are insulators."
+   ],
+   "answer": 3,
+   "explanation": "Heat reached the wax fastest through aluminium, then steel, so metals conduct well. It did not reach the wax through wood or plastic, so they are insulators."
+  }
+ ]
+}
