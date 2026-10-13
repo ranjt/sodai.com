@@ -1,0 +1,698 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "C10",
+ "title": "Energy Resources: Renewable, Non-renewable and Green Energy",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-5-science/pdf/c10-energy-resources-renewable-non-renewable-and-green-energy-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-c10-001",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Renewable and non-renewable",
+   "stem": "Sort these energy resources into renewable and non-renewable.",
+   "categories": [
+    "Renewable",
+    "Non-renewable"
+   ],
+   "items": [
+    [
+     "solar",
+     "Renewable"
+    ],
+    [
+     "wind",
+     "Renewable"
+    ],
+    [
+     "hydro",
+     "Renewable"
+    ],
+    [
+     "biogas",
+     "Renewable"
+    ],
+    [
+     "coal",
+     "Non-renewable"
+    ],
+    [
+     "oil",
+     "Non-renewable"
+    ],
+    [
+     "natural gas",
+     "Non-renewable"
+    ],
+    [
+     "uranium",
+     "Non-renewable"
+    ]
+   ],
+   "explanation": "Renewable resources are replaced by nature and will not run out. Coal, oil and natural gas took millions of years to form, and uranium (nuclear fuel) is also limited."
+  },
+  {
+   "id": "g5-c10-002",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Renewable and non-renewable",
+   "stem": "Natural gas is a renewable resource.",
+   "answer": false,
+   "explanation": "Natural gas is a fossil fuel. It formed over millions of years and we use it much faster than it forms, so it will run out."
+  },
+  {
+   "id": "g5-c10-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Fossil fuels and climate change",
+   "stem": "Burning fossil fuels releases ___ ___ (CO₂), a greenhouse gas that traps heat in the air.",
+   "blanks": [
+    [
+     "carbon"
+    ],
+    [
+     "dioxide"
+    ]
+   ],
+   "bank": [
+    "carbon",
+    "dioxide",
+    "oxygen",
+    "nitrogen"
+   ],
+   "explanation": "Carbon dioxide traps heat, so more of it in the air leads to climate change."
+  },
+  {
+   "id": "g5-c10-004",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Renewable and non-renewable",
+   "stem": "A renewable energy resource is one that…",
+   "options": [
+    "is replaced naturally and will not run out",
+    "is made in a factory and sold in shops",
+    "formed from buried plants over millions of years",
+    "can be used only once by one power station"
+   ],
+   "answer": 0,
+   "explanation": "Sunlight, wind and moving water are renewable. The resource formed from buried plants over millions of years describes a fossil fuel, which is non-renewable."
+  },
+  {
+   "id": "g5-c10-005",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Making electricity",
+   "stem": "Match each energy resource to what it comes from.",
+   "pairs": [
+    [
+     "solar",
+     "sunlight"
+    ],
+    [
+     "wind",
+     "moving air"
+    ],
+    [
+     "hydro",
+     "moving water"
+    ],
+    [
+     "biogas",
+     "animal dung and plants"
+    ],
+    [
+     "geothermal",
+     "heat from inside the Earth"
+    ],
+    [
+     "coal",
+     "plants buried for millions of years"
+    ]
+   ],
+   "explanation": "Renewable resources come from the Sun, the wind, water, living things or heat inside the Earth. Coal is a fossil fuel made from plants buried for millions of years."
+  },
+  {
+   "id": "g5-c10-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Fossil fuels and climate change",
+   "stem": "Nuclear power stations release a lot of carbon dioxide.",
+   "answer": false,
+   "explanation": "They release almost none. But nuclear fuel (uranium) is non-renewable and the waste is dangerous."
+  },
+  {
+   "id": "g5-c10-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Green energy and efficiency",
+   "stem": "Which of these are green energy choices? Choose all that are right.",
+   "options": [
+    "solar panels",
+    "wind turbines",
+    "burning more coal",
+    "LED bulbs that use less energy",
+    "leaving fans on in empty rooms"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Solar and wind release little or no pollution, and using energy efficiently is green too. Burning coal and wasting electricity do the opposite."
+  },
+  {
+   "id": "g5-c10-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Fossil fuels and climate change",
+   "stem": "Put the steps in order to show how burning fossil fuels causes climate change.",
+   "sequence": [
+    "Coal, oil or gas is burned.",
+    "Carbon dioxide is released into the air.",
+    "The extra carbon dioxide traps more heat.",
+    "The Earth warms and the climate changes."
+   ],
+   "explanation": "Greenhouse gases such as carbon dioxide trap heat, so more of them means a warmer Earth, with changes such as stronger cyclones and rising seas."
+  },
+  {
+   "id": "g5-c10-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Fossil fuels and climate change",
+   "stem": "Why is burning fossil fuels a **global** problem?",
+   "options": [
+    "It only harms the town where the fuel is burned.",
+    "It makes all the fuel renewable.",
+    "The carbon dioxide spreads through the air and affects the whole planet.",
+    "It makes the air colder everywhere."
+   ],
+   "answer": 2,
+   "explanation": "Carbon dioxide from any country mixes in the air and traps heat everywhere. That is why countries must act together."
+  },
+  {
+   "id": "g5-c10-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Fossil fuels and climate change",
+   "stem": "Why is Bangladesh one of the countries most at risk from climate change?",
+   "model_answer": "Climate change brings stronger cyclones, floods and rising sea levels, and Bangladesh is low and has a long coast.",
+   "keywords": [
+    [
+     "cyclone",
+     "cyclones",
+     "storm",
+     "storms"
+    ],
+    [
+     "flood",
+     "floods",
+     "flooding"
+    ],
+    [
+     "sea",
+     "sea-level",
+     "sea level",
+     "coast",
+     "coastal"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Bangladesh faces stronger cyclones, floods and sea-level rise along the coast, which put homes, farms and lives at risk."
+  },
+  {
+   "id": "g5-c10-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Energy data",
+   "stem": "About 685 million people in the world still had no electricity at home in 2022 (Tracking SDG7). In which region do most of them live?",
+   "options": [
+    "Europe",
+    "North America",
+    "Australia",
+    "Sub-Saharan Africa"
+   ],
+   "answer": 3,
+   "explanation": "Most people without electricity live in Sub-Saharan Africa. Energy access is a global issue as well as a climate issue."
+  },
+  {
+   "id": "g5-c10-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Green energy and efficiency",
+   "stem": "Which picture shows a source of green energy?",
+   "options": [
+    {
+     "text": "factory smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "wind turbines",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "car exhaust",
+     "image": "openmoji/car-exhaust.svg"
+    },
+    {
+     "text": "oil spill",
+     "image": "openmoji/oil-spill.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "Wind turbines use renewable wind and release no smoke. The other pictures show pollution from burning or using fossil fuels."
+  },
+  {
+   "id": "g5-c10-013",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Making electricity",
+   "stem": "Match each picture to the energy it uses.",
+   "pairs": [
+    [
+     {
+      "text": "solar panel",
+      "image": "openmoji/solar-energy.svg"
+     },
+     "sunlight"
+    ],
+    [
+     {
+      "text": "wind turbine",
+      "image": "openmoji/wind-energy.svg"
+     },
+     "moving air"
+    ],
+    [
+     {
+      "text": "waves and rivers",
+      "image": "openmoji/water-wave.svg"
+     },
+     "moving water"
+    ],
+    [
+     {
+      "text": "power station",
+      "image": "openmoji/nuclear-power-plant.svg"
+     },
+     "uranium"
+    ]
+   ],
+   "explanation": "Solar, wind and hydro use sunlight, moving air and moving water. A nuclear power station uses uranium, which is non-renewable."
+  },
+  {
+   "id": "g5-c10-014",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Fossil fuels and climate change",
+   "stem": "Which pictures show things that put smoke or fumes into the air? Choose all that are right.",
+   "options": [
+    {
+     "text": "factory smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "car exhaust",
+     "image": "openmoji/car-exhaust.svg"
+    },
+    {
+     "text": "solar panel",
+     "image": "openmoji/solar-energy.svg"
+    },
+    {
+     "text": "wind turbine",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "bicycle",
+     "image": "openmoji/bicycle.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Factories and cars burning fossil fuels release smoke, fumes and carbon dioxide. Solar panels, wind turbines and bicycles do not."
+  },
+  {
+   "id": "g5-c10-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Fossil fuels and climate change",
+   "stem": "Which picture shows a hazard that climate change is making worse for Bangladesh?",
+   "options": [
+    {
+     "text": "volcano",
+     "image": "openmoji/volcano.svg"
+    },
+    {
+     "text": "snowman",
+     "image": "openmoji/snowman.svg"
+    },
+    {
+     "text": "cyclone",
+     "image": "openmoji/cyclone.svg"
+    },
+    {
+     "text": "desert",
+     "image": "openmoji/desert.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "Climate change brings stronger cyclones, floods and sea-level rise to Bangladesh. Volcanoes, snow and deserts are not the main risks."
+  },
+  {
+   "id": "g5-c10-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Making electricity",
+   "stem": "A hydro power station makes electricity using which of these?",
+   "options": [
+    {
+     "text": "moving water",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "sunlight",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "fire",
+     "image": "openmoji/fire.svg"
+    },
+    {
+     "text": "wind",
+     "image": "openmoji/wind-face.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "Hydro means water. Moving water turns a generator to make electricity, as at the Kaptai plant on the Karnaphuli River."
+  },
+  {
+   "id": "g5-c10-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Green energy and efficiency",
+   "stem": "Rafi’s school wants to cut its electricity bill. Which change helps most without lowering learning?",
+   "options": [
+    "leave the lights on all day",
+    "buy more fans and keep them on",
+    "run the computers overnight",
+    "swap old bulbs for LED bulbs"
+   ],
+   "answer": 3,
+   "explanation": "LED bulbs give the same light with less electricity. The cleanest energy is the energy we do not waste."
+  },
+  {
+   "id": "g5-c10-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Making electricity",
+   "stem": "A family on a remote char far from the national grid wants clean electricity for lights and a phone charger. What is a good choice?",
+   "options": [
+    "a coal-fired generator",
+    "a solar home system",
+    "a big hydro dam",
+    "a nuclear power station"
+   ],
+   "answer": 1,
+   "explanation": "Solar home systems use sunlight, release no pollution, and are already used by millions of homes in Bangladesh. The other options are far too large or polluting for one family."
+  },
+  {
+   "id": "g5-c10-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Green energy and efficiency",
+   "stem": "Anika switches off the fan and lights when she leaves an empty classroom. This saves electricity and helps to cut carbon dioxide.",
+   "answer": true,
+   "explanation": "Much of our electricity still comes from fossil fuels. Using less electricity means less fuel is burned."
+  },
+  {
+   "id": "g5-c10-020",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Green energy and efficiency",
+   "stem": "The school wants to cut its electricity bill and its carbon footprint. Which actions would help? Choose all that are right.",
+   "options": [
+    "put solar panels on the roof",
+    "use LED bulbs",
+    "switch off fans and lights in empty rooms",
+    "leave the computers on overnight",
+    "use old bulbs that waste more energy"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Solar panels give clean electricity, and LED bulbs and switching off save energy. Leaving things on or using wasteful bulbs does the opposite."
+  },
+  {
+   "id": "g5-c10-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Making electricity",
+   "stem": "Nadia’s family in a village keeps cows. How could they get a renewable fuel for cooking?",
+   "options": [
+    "a biogas plant that uses dung",
+    "burning plastic bottles",
+    "buying coal from the market",
+    "collecting natural gas from the ground"
+   ],
+   "answer": 0,
+   "explanation": "Biogas is made from animal dung and plants, so it can be replaced all the time. Coal and natural gas are fossil fuels, and burning plastic is harmful."
+  },
+  {
+   "id": "g5-c10-022",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Fossil fuels and climate change",
+   "stem": "In the simulation, what happens to the temperature when you add more greenhouse gases to the air?",
+   "sim": {
+    "id": "greenhouse-effect",
+    "task": "Open Greenhouse Effect. Turn on the sunlight. Watch the thermometer, then add more greenhouse gases to the air and watch again."
+   },
+   "options": [
+    "It goes down.",
+    "It goes up.",
+    "It stays exactly the same.",
+    "It goes up and then falls back to zero."
+   ],
+   "answer": 1,
+   "explanation": "Greenhouse gases trap heat that tries to escape from the ground, so the air warms. This is why burning fossil fuels causes climate change."
+  },
+  {
+   "id": "g5-c10-023",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Fossil fuels and climate change",
+   "stem": "In the simulation, with more greenhouse gases in the air, more of the heat (infrared) rising from the ground is trapped instead of escaping.",
+   "sim": {
+    "id": "greenhouse-effect",
+    "task": "Open Greenhouse Effect. Turn on the sunlight. Compare the heat (infrared) rays leaving the ground with only a little gas in the air and with a lot of greenhouse gas."
+   },
+   "answer": true,
+   "explanation": "Greenhouse gases absorb the heat rays and send some back down. More gas means more heat is trapped."
+  },
+  {
+   "id": "g5-c10-024",
+   "mode": "simulation",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Making electricity",
+   "stem": "Put the energy chain in order for a solar panel lighting a bulb.",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Systems screen. Choose the Sun as the source, a solar panel as the energy changer and a light bulb as the user. Watch where the energy goes."
+   },
+   "sequence": [
+    "Sunlight shines on the solar panel.",
+    "The solar panel changes the light into electricity.",
+    "Electricity flows to the light bulb.",
+    "The bulb gives out light."
+   ],
+   "explanation": "The Sun is the energy source, the solar panel changes the energy, and the bulb uses it. Sunlight is a renewable resource."
+  },
+  {
+   "id": "g5-c10-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Making electricity",
+   "stem": "In the simulation, running water turns the generator and the light bulb lights up. Which kind of power station does this copy?",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Systems screen. Choose the tap with running water as the source, the generator as the energy changer and a light bulb as the user. Watch the generator and the bulb."
+   },
+   "options": [
+    "a solar power station",
+    "a nuclear power station",
+    "a hydro power station",
+    "a coal power station"
+   ],
+   "answer": 2,
+   "explanation": "Moving water turns the generator, just as in a hydro plant like Kaptai. Water is a renewable resource."
+  },
+  {
+   "id": "g5-c10-026",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Energy data",
+   "stem": "World electricity in 2024 (Ember, rounded): coal 34%, gas 22%, other fossil 3%, nuclear 9%, hydro 14%, wind 8%, solar 7%, other renewable 3%. Which statements are right? Choose all that are right.",
+   "options": [
+    "Fossil fuels together made about 59%.",
+    "Wind and solar together made more electricity than hydro.",
+    "Nuclear and all renewables together made about 41%.",
+    "Gas made more electricity than coal.",
+    "Hydro, wind, solar and other renewables together made more than coal."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "34 + 22 + 3 = 59%. Wind + solar = 15%, which is more than hydro (14%). Nuclear 9 + renewables 32 = 41%. Coal (34%) beat gas (22%), and renewables (32%) were just below coal."
+  },
+  {
+   "id": "g5-c10-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Energy data",
+   "stem": "Bangladesh made 55% of its electricity from natural gas, 20% from oil, 14% from coal and 11% from imports, hydro and solar (2023, PGCB data reported by Reuters). The world made 22% from gas and 34% from coal (2024, Ember). Which comparison is correct?",
+   "options": [
+    "Bangladesh used a bigger share of gas than the world did.",
+    "Bangladesh used a bigger share of coal than the world did.",
+    "Bangladesh made over half its electricity from renewables.",
+    "The world made most of its electricity from gas."
+   ],
+   "answer": 0,
+   "explanation": "55% is bigger than 22% for gas. For coal, Bangladesh (14%) used a smaller share than the world (34%). Neither made most of its electricity from renewables."
+  },
+  {
+   "id": "g5-c10-028",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Energy data",
+   "stem": "In 2023 Bangladesh made 55% of its electricity from natural gas, 20% from oil and 14% from coal (PGCB data reported by Reuters). Together, fossil fuels made ___ % of its electricity.",
+   "blanks": [
+    [
+     "89",
+     "89%"
+    ]
+   ],
+   "explanation": "55 + 20 + 14 = 89%. Only about 11% came from imports, hydro and solar, so Bangladesh depends heavily on fossil fuels."
+  },
+  {
+   "id": "g5-c10-029",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Green energy and efficiency",
+   "stem": "Class 5A tested a paper wind turbine with 6 blades in front of a fan (example data). The turns in 30 seconds were 52, 55 and 55. The mean number of turns is ___.",
+   "blanks": [
+    [
+     "54"
+    ]
+   ],
+   "explanation": "52 + 55 + 55 = 162, and 162 ÷ 3 = 54. Repeating a test and finding the mean makes results more reliable."
+  },
+  {
+   "id": "g5-c10-030",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Green energy and efficiency",
+   "stem": "Class 5A’s mean turns in 30 seconds (example data): 2 blades 40, 3 blades 56, 4 blades 61, 6 blades 54, 8 blades 44. Describe the pattern and explain why more blades are not always better.",
+   "model_answer": "The speed rose up to 4 blades and then fell. More blades catch more wind, but too many add weight and block the air.",
+   "keywords": [
+    [
+     "rose",
+     "increased",
+     "increase",
+     "went up",
+     "up to 4",
+     "up to four",
+     "best at 4",
+     "4 blades",
+     "four blades"
+    ],
+    [
+     "fell",
+     "decreased",
+     "decrease",
+     "went down",
+     "dropped",
+     "slower",
+     "less"
+    ],
+    [
+     "weight",
+     "heavy",
+     "heavier",
+     "block",
+     "blocks",
+     "blocked",
+     "air"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The best result was 61 turns with 4 blades. After that extra blades made the turbine heavier and got in each other’s way, so it turned more slowly."
+  }
+ ]
+}

@@ -1,0 +1,665 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "C9",
+ "title": "Heat Transfer: Conduction, Convection and Radiation",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-5-science/pdf/c9-heat-transfer-conduction-convection-and-radiation-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-c9-001",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heat and temperature",
+   "stem": "Which kind of heat transfer is it? Sort the examples.",
+   "categories": [
+    "Conduction",
+    "Convection",
+    "Radiation"
+   ],
+   "items": [
+    [
+     "a metal pan handle gets hot",
+     "Conduction"
+    ],
+    [
+     "feet feel cold on a tiled floor",
+     "Conduction"
+    ],
+    [
+     "warm air rises from a heater",
+     "Convection"
+    ],
+    [
+     "a hot-air balloon rises",
+     "Convection"
+    ],
+    [
+     "the Sun warms your face",
+     "Radiation"
+    ],
+    [
+     "you feel warm in front of a fire",
+     "Radiation"
+    ]
+   ],
+   "explanation": "Conduction passes heat through solids by touch. Convection is warm air or liquid rising. Radiation is heat travelling as invisible infrared rays, even through space."
+  },
+  {
+   "id": "g5-c9-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Conductors and insulators",
+   "stem": "Sort these materials into good conductors and good insulators of heat.",
+   "categories": [
+    "Good conductor",
+    "Good insulator"
+   ],
+   "items": [
+    [
+     "copper",
+     "Good conductor"
+    ],
+    [
+     "steel",
+     "Good conductor"
+    ],
+    [
+     "aluminium",
+     "Good conductor"
+    ],
+    [
+     "wool",
+     "Good insulator"
+    ],
+    [
+     "wood",
+     "Good insulator"
+    ],
+    [
+     "trapped air",
+     "Good insulator"
+    ]
+   ],
+   "explanation": "Metals let heat through easily. Wool, wood and especially trapped air slow the flow of heat."
+  },
+  {
+   "id": "g5-c9-003",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Radiation",
+   "stem": "Heat from the Sun reaches the Earth through empty space. How does it travel?",
+   "options": [
+    "by conduction",
+    "by convection",
+    "by radiation",
+    "by evaporation"
+   ],
+   "answer": 2,
+   "explanation": "Radiation does not need particles, so infrared rays can cross empty space. Conduction and convection need particles."
+  },
+  {
+   "id": "g5-c9-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Heat and temperature",
+   "stem": "In a solid, heat passes from particle to particle by ___. In liquids and gases, warm parts rise in a loop called ___.",
+   "blanks": [
+    [
+     "conduction"
+    ],
+    [
+     "convection",
+     "a convection current",
+     "convection current"
+    ]
+   ],
+   "bank": [
+    "conduction",
+    "convection",
+    "radiation",
+    "insulation"
+   ],
+   "explanation": "Conduction needs touching particles in a solid. Convection is the loop of rising warm and sinking cool fluid."
+  },
+  {
+   "id": "g5-c9-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heat and temperature",
+   "stem": "A big bucket of warm water holds more heat than a small cup of boiling water.",
+   "answer": true,
+   "explanation": "Temperature tells us how hot something is, but heat depends on how much material there is as well. The bucket has many more particles holding energy."
+  },
+  {
+   "id": "g5-c9-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Conductors and insulators",
+   "stem": "Trapped air is a good insulator, which is why a woollen jumper keeps you warm.",
+   "answer": true,
+   "explanation": "Wool traps many tiny pockets of air. Trapped air slows the movement of heat away from your body."
+  },
+  {
+   "id": "g5-c9-007",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Conduction",
+   "stem": "Explain, using particles, why a metal spoon in hot dal gets hot all the way up to the handle.",
+   "model_answer": "The particles at the hot end vibrate faster and bump into their neighbours, passing energy along the metal to the handle. This is conduction, and metal is a good conductor.",
+   "keywords": [
+    [
+     "particle",
+     "particles"
+    ],
+    [
+     "vibrate",
+     "vibrates",
+     "vibrating",
+     "bump",
+     "bumps",
+     "pass",
+     "passes",
+     "passing"
+    ],
+    [
+     "conduction",
+     "conductor",
+     "conducts",
+     "conduct"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "In a solid the particles are close together, so hotter, faster-vibrating particles quickly pass energy to their neighbours."
+  },
+  {
+   "id": "g5-c9-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Controlling heat",
+   "stem": "Which parts of a vacuum flask slow down heat transfer? Choose all that are right.",
+   "options": [
+    "the vacuum between the walls",
+    "the shiny silver walls",
+    "the stopper",
+    "a dark, dull inner wall",
+    "a thin metal base touching the table"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The vacuum has no particles, so no conduction or convection. Shiny walls reflect radiation. The stopper stops warm air escaping by convection."
+  },
+  {
+   "id": "g5-c9-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Convection",
+   "stem": "Put the steps in order to show how a convection current forms in a pot of water on a stove.",
+   "sequence": [
+    "The stove heats the water at the bottom.",
+    "The warm water expands and becomes less dense.",
+    "The warm water rises.",
+    "Cooler, denser water sinks to take its place.",
+    "A loop of moving water forms: a convection current."
+   ],
+   "explanation": "Warm liquid is less dense and rises, and cooler, denser liquid sinks. The moving loop stirs the whole pot."
+  },
+  {
+   "id": "g5-c9-010",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Heat and temperature",
+   "stem": "Match each key word to its meaning.",
+   "pairs": [
+    [
+     "conduction",
+     "heat passing through a solid, particle to particle"
+    ],
+    [
+     "convection",
+     "heat carried by a moving liquid or gas"
+    ],
+    [
+     "radiation",
+     "heat travelling as infrared rays"
+    ],
+    [
+     "insulator",
+     "slows the flow of heat"
+    ],
+    [
+     "conductor",
+     "lets heat through easily"
+    ]
+   ],
+   "explanation": "These five words describe how heat moves and how materials handle it."
+  },
+  {
+   "id": "g5-c9-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Heat and temperature",
+   "stem": "In which direction does heat move?",
+   "options": [
+    "from colder things to hotter things",
+    "only through metals",
+    "only upwards",
+    "from hotter things to colder things"
+   ],
+   "answer": 3,
+   "explanation": "Heat is energy that moves because of a temperature difference, from hot to cold, until the temperatures are the same."
+  },
+  {
+   "id": "g5-c9-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Conductors and insulators",
+   "stem": "A cook’s pan has a copper base and a plastic handle. Explain both choices.",
+   "model_answer": "Copper is a good conductor, so it passes heat quickly to the food. Plastic is an insulator, so the handle stays cool to hold.",
+   "keywords": [
+    [
+     "copper",
+     "base",
+     "bottom"
+    ],
+    [
+     "conductor",
+     "conducts",
+     "conduct",
+     "heat quickly",
+     "passes heat",
+     "transfers heat"
+    ],
+    [
+     "plastic",
+     "handle"
+    ],
+    [
+     "insulator",
+     "insulate",
+     "stays cool",
+     "does not get hot",
+     "not get hot"
+    ]
+   ],
+   "min_keywords": 3,
+   "explanation": "Pans need heat to flow into the food, so the base is a conductor. The handle must slow heat flow, so it is an insulator."
+  },
+  {
+   "id": "g5-c9-013",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Heat and temperature",
+   "stem": "Look at the three pictures. Match each letter to the way heat travels.",
+   "image": "diagrams/heat-transfer-lettered.svg",
+   "image_alt": "Three pictures lettered A, B and C: a spoon in a hot drink, a pot of water over a flame with arrows, and the Sun warming a hand.",
+   "pairs": [
+    [
+     "A",
+     "conduction"
+    ],
+    [
+     "B",
+     "convection"
+    ],
+    [
+     "C",
+     "radiation"
+    ]
+   ],
+   "explanation": "A: a spoon in a hot drink gets hot by conduction. B: water moves in a loop over the flame (convection). C: the Sun warms a hand by radiation."
+  },
+  {
+   "id": "g5-c9-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Convection",
+   "stem": "In picture B, why does the warm water at the bottom of the pot rise?",
+   "image": "diagrams/heat-transfer-lettered.svg",
+   "image_alt": "Three pictures lettered A, B and C: a spoon in a hot drink, a pot of water over a flame with arrows, and the Sun warming a hand.",
+   "options": [
+    "It becomes heavier than the cool water.",
+    "It expands and becomes less dense.",
+    "It is pushed up by the spoon.",
+    "It turns into the flame."
+   ],
+   "answer": 1,
+   "explanation": "Warm water expands, so it is less dense than the cooler water around it and floats upwards. Cooler, denser water sinks to take its place."
+  },
+  {
+   "id": "g5-c9-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Controlling heat",
+   "stem": "In the vacuum flask, which number is the **vacuum**, the empty space between the walls?",
+   "image": "diagrams/vacuum-flask-numbered.svg",
+   "image_alt": "A vacuum flask cut in half with parts numbered 1 to 5.",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "5"
+   ],
+   "answer": 0,
+   "explanation": "Number 3 is the vacuum. It has no particles, so heat cannot cross it by conduction or convection."
+  },
+  {
+   "id": "g5-c9-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Radiation",
+   "stem": "Which part of the flask reflects heat radiation back towards the hot drink?",
+   "image": "diagrams/vacuum-flask-numbered.svg",
+   "image_alt": "A vacuum flask cut in half with parts numbered 1 to 5.",
+   "options": [
+    "number 1, the stopper",
+    "number 4, the hot drink",
+    "number 5, the outer case",
+    "number 2, the shiny silver walls"
+   ],
+   "answer": 3,
+   "explanation": "Shiny surfaces reflect radiation, so the silver walls (2) send heat back instead of letting it escape. The stopper (1) stops warm air rising out."
+  },
+  {
+   "id": "g5-c9-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Conductors and insulators",
+   "stem": "Four cups hold the same hot water. Which cup will cool down the fastest?",
+   "image": "diagrams/insulation-cups.svg",
+   "image_alt": "Four cups of hot water: no cover, newspaper, wool and foil.",
+   "options": [
+    "the cup wrapped in newspaper",
+    "the cup wrapped in wool",
+    "the cup with no cover",
+    "the cup wrapped in foil"
+   ],
+   "answer": 2,
+   "explanation": "Without a cover there is nothing to slow the heat loss. Newspaper and wool are insulators, and foil reflects radiation."
+  },
+  {
+   "id": "g5-c9-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Convection",
+   "stem": "Where should a room heater be placed to warm the whole room best?",
+   "options": [
+    "near the ceiling",
+    "near the floor",
+    "inside a cupboard",
+    "right next to the door"
+   ],
+   "answer": 1,
+   "explanation": "Warm air rises, so a low heater sets up a convection current: warm air goes up and cooler air sinks to be warmed."
+  },
+  {
+   "id": "g5-c9-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Radiation",
+   "stem": "It is a very sunny day in Dhaka. Which shirt will keep Rafi coolest?",
+   "options": [
+    "a black cotton shirt",
+    "a dark blue woollen shirt",
+    "a dark nylon shirt",
+    "a light-coloured cotton shirt"
+   ],
+   "answer": 3,
+   "explanation": "Light colours reflect more of the Sun’s radiation and absorb less heat, so they stay cooler than dark clothes."
+  },
+  {
+   "id": "g5-c9-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Controlling heat",
+   "stem": "Mina wants her rice to stay warm for four hours on a school trip. Which is the best choice?",
+   "options": [
+    "an open metal bowl",
+    "a tightly closed container wrapped in a woollen cloth",
+    "a metal tin with its lid off",
+    "a bowl placed on a cold stone"
+   ],
+   "answer": 1,
+   "explanation": "A lid stops warm air escaping by convection, and wool is an insulator that slows conduction. An open metal bowl loses heat quickly."
+  },
+  {
+   "id": "g5-c9-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Controlling heat",
+   "stem": "Many homes in Dhaka have thin tin roofs that get very hot in the sun. Which ideas would help cool the room below? Choose all that are right.",
+   "options": [
+    "paint the roof white",
+    "add a jute or bamboo ceiling with an air gap",
+    "grow creepers or trees for shade",
+    "paint the roof black",
+    "take the ceiling out"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "White paint reflects radiation, jute and trapped air are insulators, and shade blocks the Sun. A black roof absorbs more heat, and removing a ceiling removes insulation."
+  },
+  {
+   "id": "g5-c9-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Controlling heat",
+   "stem": "Before lifting a hot metal pan from the stove, Sumi should use a cloth or oven glove, because metal conducts heat quickly.",
+   "answer": true,
+   "explanation": "Metal is a good conductor, so a hot pan handle can burn bare hands. Cloth is an insulator and protects the skin."
+  },
+  {
+   "id": "g5-c9-023",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Heat and temperature",
+   "stem": "In the simulation, the thermometer reading goes up while the burner heats the water.",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Put the beaker of water over a burner, slide the burner to heat, and watch the thermometer."
+   },
+   "answer": true,
+   "explanation": "Heat from the burner makes the water particles move faster, so the temperature rises."
+  },
+  {
+   "id": "g5-c9-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Conduction",
+   "stem": "In the simulation, a hot iron block touches a cooler brick block. What happens to their temperatures?",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Heat the iron block with a burner, then move it so that it touches the cooler brick block. Watch both thermometers."
+   },
+   "options": [
+    "The iron cools down and the brick warms up.",
+    "Both stay exactly the same.",
+    "The iron gets hotter and the brick colder.",
+    "The brick cools down and the iron warms up."
+   ],
+   "answer": 0,
+   "explanation": "Heat flows from the hotter object to the colder one by conduction, until they reach about the same temperature."
+  },
+  {
+   "id": "g5-c9-025",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Heat and temperature",
+   "stem": "In the simulation, when the burner is slid to the cooling side under the water, the thermometer reading goes down.",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Slide the burner under the beaker of water to the cooling side and watch the thermometer."
+   },
+   "answer": true,
+   "explanation": "Cooling takes heat energy out of the water, so its particles slow down and the temperature falls."
+  },
+  {
+   "id": "g5-c9-026",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Radiation",
+   "stem": "Class 5B wrapped three cans of water in black paper, white paper and shiny foil and put them in the sun (example data). After 40 minutes: black 45 °C, white 35 °C, foil 32 °C, all starting at 28 °C. The black can ended ___ °C hotter than the foil can.",
+   "blanks": [
+    [
+     "13"
+    ]
+   ],
+   "explanation": "45 − 32 = 13 °C. Dark, dull surfaces absorb radiation best, and shiny foil reflects most of it."
+  },
+  {
+   "id": "g5-c9-027",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Radiation",
+   "stem": "Use the can results (start 28 °C; after 40 minutes black 45 °C, white 35 °C, foil 32 °C). Which conclusions are supported? Choose all that are right.",
+   "options": [
+    "The black can warmed the most.",
+    "The shiny foil can warmed the least.",
+    "The white can warmed faster than the black can.",
+    "Dark colours would keep a can cooler in the sun.",
+    "The white can rose by 7 °C in 40 minutes."
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Black rose 17 °C, white 7 °C and foil 4 °C. Dark colours absorb more radiation, so they heat up faster, not stay cooler."
+  },
+  {
+   "id": "g5-c9-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Controlling heat",
+   "stem": "A community group measured four rooms at 2 pm (example data): bare tin roof 41 °C, white-painted roof 36 °C, jute ceiling with air gap 35 °C, tree shade + white roof 32 °C. How much cooler was the best room than the bare tin roof room?",
+   "options": [
+    "4 °C",
+    "9 °C",
+    "5 °C",
+    "6 °C"
+   ],
+   "answer": 1,
+   "explanation": "41 − 32 = 9 °C. The shade stops radiation reaching the roof and the white paint reflects the rest."
+  },
+  {
+   "id": "g5-c9-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Controlling heat",
+   "stem": "Design a lunch box that keeps rice hot for four hours. Say how it reduces conduction, convection **and** radiation.",
+   "model_answer": "Double walls with an air gap or a wool cover reduce conduction. A tight lid stops warm air escaping, which reduces convection. A shiny inner lining reflects radiation.",
+   "keywords": [
+    [
+     "air gap",
+     "double wall",
+     "double walls",
+     "wool",
+     "insulator",
+     "insulating",
+     "insulation",
+     "cover",
+     "foam"
+    ],
+    [
+     "lid",
+     "tight",
+     "sealed",
+     "closed",
+     "cap",
+     "stopper"
+    ],
+    [
+     "shiny",
+     "foil",
+     "silver",
+     "reflect",
+     "reflects",
+     "reflective"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Each part tackles one kind of heat transfer: insulators slow conduction, a lid stops convection and shiny surfaces reflect radiation, just like a vacuum flask."
+  },
+  {
+   "id": "g5-c9-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Heat and temperature",
+   "stem": "Which statement about heat and temperature is correct?",
+   "options": [
+    "Hot things always hold more heat than cooler things.",
+    "Temperature and heat are two names for the same thing.",
+    "A bucket of warm water holds more heat than a cup of boiling water.",
+    "A thermometer measures how much heat an object holds."
+   ],
+   "answer": 2,
+   "explanation": "Temperature is how hot something is. Heat depends on temperature and on how much material there is, so a large bucket can hold more heat than a small cup."
+  }
+ ]
+}

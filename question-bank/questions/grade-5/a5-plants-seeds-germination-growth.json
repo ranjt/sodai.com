@@ -1,0 +1,646 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "A5",
+ "title": "Plants: Seeds, Germination and Growth",
+ "strand": "living",
+ "worksheet": "worksheets/grade-5-science/pdf/a5-plants-seeds-germination-and-growth-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-a5-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a seed",
+   "stem": "What is the job of the food store inside a seed?",
+   "options": [
+    "It protects the seed from damage and drying out.",
+    "It catches light energy for the seed to use.",
+    "It gives the embryo its energy.",
+    "It takes in water from the soil for the seed."
+   ],
+   "answer": 2,
+   "explanation": "The embryo has no leaves yet, so it cannot make food. The food store gives it energy until the leaves grow. The seed coat is the part that protects the seed."
+  },
+  {
+   "id": "g5-a5-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plant parts and jobs",
+   "stem": "Match each plant part to its job.",
+   "pairs": [
+    [
+     "roots",
+     "take in water and hold the plant in the soil"
+    ],
+    [
+     "stem",
+     "holds the plant up and carries water"
+    ],
+    [
+     "leaves",
+     "use light energy to make food"
+    ],
+    [
+     "flower",
+     "makes seeds for new plants"
+    ]
+   ],
+   "explanation": "Each part of a plant has a job. Leaves make food, roots and stem look after water and support, and flowers make seeds."
+  },
+  {
+   "id": "g5-a5-003",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Parts of a seed",
+   "stem": "Does each sentence describe a seed before germination, or a plant with leaves?",
+   "categories": [
+    "A seed",
+    "A plant with leaves"
+   ],
+   "items": [
+    [
+     "gets its energy from a food store",
+     "A seed"
+    ],
+    [
+     "is protected by a tough seed coat",
+     "A seed"
+    ],
+    [
+     "contains a tiny embryo",
+     "A seed"
+    ],
+    [
+     "makes its own food in its leaves",
+     "A plant with leaves"
+    ],
+    [
+     "has chlorophyll to trap light energy",
+     "A plant with leaves"
+    ],
+    [
+     "grows towards the light",
+     "A plant with leaves"
+    ]
+   ],
+   "explanation": "A seed has no leaves, so it lives on its food store. Once leaves open, the plant makes its own food using light energy trapped by chlorophyll."
+  },
+  {
+   "id": "g5-a5-004",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Germination",
+   "stem": "Put the stages of germination in order.",
+   "sequence": [
+    "The seed absorbs water and swells.",
+    "The seed coat splits.",
+    "The first root grows down into the soil.",
+    "The first shoot grows up towards the light.",
+    "The first leaves open and the seed shrivels."
+   ],
+   "explanation": "Water starts germination. The root grows first to take in water and hold the plant, then the shoot grows up and the leaves open. The food store is used up, so the seed shrivels."
+  },
+  {
+   "id": "g5-a5-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Germination",
+   "stem": "Seeds need water, warmth and ___ to germinate, but they do not need ___.",
+   "blanks": [
+    [
+     "air",
+     "oxygen"
+    ],
+    [
+     "light",
+     "sunlight"
+    ]
+   ],
+   "bank": [
+    "air",
+    "light",
+    "soil",
+    "sugar"
+   ],
+   "explanation": "Seeds can germinate deep in dark soil because their food store gives them energy. Light matters later, once the plant has leaves."
+  },
+  {
+   "id": "g5-a5-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Germination",
+   "stem": "Seeds need light to germinate.",
+   "answer": false,
+   "explanation": "Seeds do not need light to germinate because the food store gives them energy. That is why seeds can germinate deep in dark soil."
+  },
+  {
+   "id": "g5-a5-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Plants and light",
+   "stem": "A plant kept in the dark grows tall, thin and pale.",
+   "answer": true,
+   "explanation": "Without light the plant cannot make food. It stretches upwards, its leaves turn pale yellow and in the end it dies."
+  },
+  {
+   "id": "g5-a5-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plants and light",
+   "stem": "Which green substance in leaves traps light energy?",
+   "options": [
+    "chlorophyll",
+    "nutrients",
+    "the embryo",
+    "the food store"
+   ],
+   "answer": 0,
+   "explanation": "Chlorophyll traps light energy so that the leaf can make food. Nutrients are minerals taken in from the soil."
+  },
+  {
+   "id": "g5-a5-009",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What plants need to grow",
+   "stem": "A plant with leaves needs certain things to grow well. Which are they? Choose all that are right.",
+   "options": [
+    "light",
+    "water",
+    "warmth",
+    "air",
+    "a seed coat"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "explanation": "Plants need light, water, warmth and air. A seed coat protects a seed but a grown plant does not need one."
+  },
+  {
+   "id": "g5-a5-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Parts of a seed",
+   "stem": "Why does a seed need a food store, but a grown plant does not?",
+   "model_answer": "A seed has no leaves yet, so it cannot make food. The food store gives it energy until its leaves grow and make food using light.",
+   "keywords": [
+    [
+     "no leaves",
+     "not got leaves",
+     "cannot make food",
+     "can't make food",
+     "no leaf"
+    ],
+    [
+     "energy",
+     "food store",
+     "food"
+    ],
+    [
+     "light",
+     "leaves grow",
+     "makes its own",
+     "make its own",
+     "make food",
+     "makes food"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The seed lives on stored food until the first leaves open. A grown plant makes food in its leaves using light energy."
+  },
+  {
+   "id": "g5-a5-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plants and light",
+   "stem": "Where do plants make their food?",
+   "options": [
+    "in their roots and stem",
+    "in their leaves",
+    "in the soil around them",
+    "in their seeds and fruits"
+   ],
+   "answer": 1,
+   "explanation": "Plants make food in their leaves, using light energy. The roots take in water and nutrients from the soil, but the soil is not their food."
+  },
+  {
+   "id": "g5-a5-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Plant parts and jobs",
+   "stem": "Roots take in water and ___ from the soil, and they hold the plant in place.",
+   "blanks": [
+    [
+     "nutrients",
+     "minerals",
+     "nutrient",
+     "mineral"
+    ]
+   ],
+   "bank": [
+    "nutrients",
+    "light",
+    "seeds",
+    "sugar"
+   ],
+   "explanation": "Roots absorb water and nutrients (minerals), which help the plant stay healthy. They also anchor the plant in the ground."
+  },
+  {
+   "id": "g5-a5-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Germination",
+   "stem": "What happens to the seed's food store as the seedling grows leaves?",
+   "options": [
+    "It grows bigger and bigger each day.",
+    "It turns into the tough seed coat.",
+    "It changes into the green chlorophyll.",
+    "It is used up and the seed shrivels."
+   ],
+   "answer": 3,
+   "explanation": "The seedling uses the stored food for energy. When the leaves open and start making food, the empty seed shrivels away."
+  },
+  {
+   "id": "g5-a5-014",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a seed",
+   "stem": "Match each key word to its meaning.",
+   "pairs": [
+    [
+     "germination",
+     "when a seed starts to grow"
+    ],
+    [
+     "embryo",
+     "the tiny plant inside a seed"
+    ],
+    [
+     "absorb",
+     "to take in, like a sponge takes in water"
+    ],
+    [
+     "chlorophyll",
+     "green substance that traps light energy"
+    ],
+    [
+     "nutrients",
+     "minerals from the soil that help plants stay healthy"
+    ]
+   ],
+   "explanation": "These key words describe how a seed turns into a plant and how a plant gets what it needs."
+  },
+  {
+   "id": "g5-a5-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "analyse",
+   "subskill": "What plants need to grow",
+   "stem": "Look at the tall, thin, pale plant. Which factor is it missing?",
+   "image": "diagrams/plant-needs.svg",
+   "image_alt": "Four potted plants: a healthy plant, a wilted plant with no water, a tall pale plant with no light and a very small plant that is too cold.",
+   "options": [
+    "water",
+    "warmth",
+    "light",
+    "air"
+   ],
+   "answer": 2,
+   "explanation": "A plant without light cannot make food. It grows tall and thin, with pale leaves, as it stretches to look for light."
+  },
+  {
+   "id": "g5-a5-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "What plants need to grow",
+   "stem": "Look at the very small plant that has hardly grown. Which factor is it missing?",
+   "image": "diagrams/plant-needs.svg",
+   "image_alt": "Four potted plants: a healthy plant, a wilted plant with no water, a tall pale plant with no light and a very small plant that is too cold.",
+   "options": [
+    "warmth",
+    "light",
+    "water",
+    "a food store"
+   ],
+   "answer": 0,
+   "explanation": "A plant that is too cold grows very slowly, so it stays small. A plant without water would droop, and one without light would be tall and pale."
+  },
+  {
+   "id": "g5-a5-017",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Parts of a seed",
+   "stem": "Which numbers show parts of the embryo? Choose all that are right.",
+   "image": "diagrams/bean-seed-numbered.svg",
+   "image_alt": "Inside a bean seed with parts numbered: 1 seed coat, 2 scar, 3 food store, 4 embryo root, 5 embryo shoot.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": [
+    3,
+    4
+   ],
+   "explanation": "The embryo is the tiny baby plant: its first root (4) and first shoot (5). The seed coat (1) protects it, and the food store (3) feeds it."
+  },
+  {
+   "id": "g5-a5-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Plant parts and jobs",
+   "stem": "Which number shows the part that uses light energy to make food?",
+   "image": "diagrams/plant-parts-numbered.svg",
+   "image_alt": "A plant with five parts numbered: 1 flower, 2 leaf, 3 stem, 4 roots, 5 fruit.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Leaves (2) make food using light energy. Roots (4) take in water, the stem (3) carries it, and the flower (1) makes seeds."
+  },
+  {
+   "id": "g5-a5-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Plant parts and jobs",
+   "stem": "A white flower stands in coloured water, and the colour travels up to the petals. What does this show?",
+   "image": "diagrams/celery-stem.svg",
+   "image_alt": "A white flower stem in coloured water with the colour travelling up the stem to the petals.",
+   "options": [
+    "Water moves up the stem.",
+    "Water moves down the roots.",
+    "The petals make coloured water.",
+    "The flower makes its own food."
+   ],
+   "answer": 0,
+   "explanation": "The coloured water is carried up the stem to the flower. The stem holds the plant up and carries water around it."
+  },
+  {
+   "id": "g5-a5-020",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What plants need to grow",
+   "stem": "The plant with drooping, wilted leaves is the one that has no water.",
+   "image": "diagrams/plant-needs.svg",
+   "image_alt": "Four potted plants: a healthy plant, a wilted plant with no water, a tall pale plant with no light and a very small plant that is too cold.",
+   "answer": true,
+   "explanation": "Plants droop when they do not get enough water. Without water the stem and leaves lose their firmness."
+  },
+  {
+   "id": "g5-a5-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Germination",
+   "stem": "A farmer plants rice seeds in a field covered by flood water. Few seeds germinate. Why?",
+   "options": [
+    "The flood water blocks light that the seeds need.",
+    "The seeds need dry soil to absorb water.",
+    "Flood water is far too bright for seeds.",
+    "They cannot get enough air under the flood water."
+   ],
+   "answer": 3,
+   "explanation": "Seeds need air (oxygen) as well as water to germinate. Under deep flood water they cannot get enough air and may rot. Seeds do not need light to germinate."
+  },
+  {
+   "id": "g5-a5-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Germination",
+   "stem": "Rice farmers in Bangladesh first grow seeds in a small, wet seedbed. Why is the wet soil important?",
+   "options": [
+    "The seeds need water to germinate.",
+    "The seeds need the Sun to be hot.",
+    "The seeds need less air.",
+    "The seeds need to stay in the dark."
+   ],
+   "answer": 0,
+   "explanation": "Germination begins when a seed absorbs water and swells. A warm, wet seedbed gives the seeds what they need."
+  },
+  {
+   "id": "g5-a5-023",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Plants and light",
+   "stem": "Mina keeps a pot plant in a dark cupboard and waters it every day. She says it will grow well because it gets water. Is she right?",
+   "answer": false,
+   "explanation": "A plant with leaves also needs light to make food. In the dark cupboard it will grow tall, thin and pale, even with water."
+  },
+  {
+   "id": "g5-a5-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Plants and light",
+   "stem": "The pot plant on Imran's windowsill leans towards the window. Why?",
+   "options": [
+    "Plants grow away from the wall.",
+    "Plants lean to find water.",
+    "Plants grow towards the light.",
+    "The window is warmer than the room."
+   ],
+   "answer": 2,
+   "explanation": "Leaves need light to make food, so plants grow towards the light. Turning the pot makes the plant grow upright again."
+  },
+  {
+   "id": "g5-a5-025",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "What plants need to grow",
+   "stem": "In southern Bangladesh, farmers grow vegetables on floating gardens made of water hyacinth. Why is this a clever idea?",
+   "model_answer": "It turns a problem weed into compost and a raft for growing food, and it helps clear the rivers.",
+   "keywords": [
+    [
+     "weed",
+     "hyacinth",
+     "problem"
+    ],
+    [
+     "compost",
+     "nutrients",
+     "fertiliser",
+     "fertilizer",
+     "raft",
+     "float",
+     "floats",
+     "grow",
+     "vegetables"
+    ],
+    [
+     "clear",
+     "clears",
+     "river",
+     "rivers",
+     "waterway",
+     "waterways",
+     "useful",
+     "free"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The rotting water hyacinth makes rich compost full of nutrients, and the garden rises and falls with the flood water, so the crops never drown."
+  },
+  {
+   "id": "g5-a5-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair tests and data",
+   "stem": "Class 5A put 20 cress seeds in each dish. Dish 1: warm, wet, in the light. Dish 2: warm, wet, in the dark. Dish 3: cold, wet, in the dark. Dish 4: warm, dry, in the light. Which two dishes should they compare to find out if seeds need warmth?",
+   "options": [
+    "Dish 2 and Dish 3",
+    "Dish 1 and Dish 2",
+    "Dish 1 and Dish 4",
+    "Dish 3 and Dish 4"
+   ],
+   "answer": 0,
+   "explanation": "Dishes 2 and 3 differ in only one thing: temperature. Dishes 1 and 2 test light, and Dishes 1 and 4 test water. Dishes 3 and 4 differ in several ways, so they would not be a fair comparison."
+  },
+  {
+   "id": "g5-a5-027",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair tests and data",
+   "stem": "Nadia and Tanvir counted leaves each week. In week 4 Plant A (in the light) had 12 leaves and Plant B (in the dark) had 5 leaves. Plant A had ___ more leaves than Plant B.",
+   "blanks": [
+    [
+     "7",
+     "seven"
+    ]
+   ],
+   "explanation": "12 - 5 = 7. These results are an example from a class investigation into light and plant growth."
+  },
+  {
+   "id": "g5-a5-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Plants and light",
+   "stem": "Plant B (in the dark cupboard) went from 5 leaves in week 4 to 4 leaves in week 5. What is the best explanation?",
+   "options": [
+    "The plant grew a new leaf and lost two.",
+    "Without light it could not make food.",
+    "Plants in the dark need a lot more water.",
+    "The seed's food store had been used up."
+   ],
+   "answer": 1,
+   "explanation": "A plant with leaves needs light to make food. In the dark it weakens, its leaves turn yellow and some fall off. The food store belongs to the seed, which is long gone."
+  },
+  {
+   "id": "g5-a5-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Germination",
+   "stem": "A seed is planted deep in dark soil. Will it germinate? Explain your answer.",
+   "model_answer": "Yes, if it has water, warmth and air. Seeds do not need light to germinate because they use their food store for energy.",
+   "keywords": [
+    [
+     "yes",
+     "will germinate",
+     "can germinate"
+    ],
+    [
+     "water",
+     "warm",
+     "warmth",
+     "air",
+     "oxygen"
+    ],
+    [
+     "food store",
+     "energy",
+     "not need light",
+     "no light",
+     "does not need light",
+     "do not need light",
+     "without light"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Germination needs water, warmth and air. The seed's food store gives it energy, so it does not need light until the leaves open."
+  },
+  {
+   "id": "g5-a5-030",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair tests and data",
+   "stem": "Nadia tests whether the amount of water changes how tall bean plants grow. Which things should she keep the same? Choose all that are right.",
+   "options": [
+    "the type of bean",
+    "the size of the pot",
+    "the amount of light",
+    "the amount of water",
+    "the temperature"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "explanation": "In a fair test only one thing changes: the amount of water. Everything else, such as bean, pot, light and temperature, must stay the same."
+  }
+ ]
+}

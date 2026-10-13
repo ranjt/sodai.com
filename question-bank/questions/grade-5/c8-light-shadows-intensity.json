@@ -1,0 +1,607 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "C8",
+ "title": "Light: Shadows and Intensity",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-5-science/pdf/c8-light-shadows-and-intensity-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-c8-001",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Transparent, translucent, opaque",
+   "stem": "Sort the materials into transparent, translucent or opaque.",
+   "categories": [
+    "Transparent",
+    "Translucent",
+    "Opaque"
+   ],
+   "items": [
+    [
+     "clear glass",
+     "Transparent"
+    ],
+    [
+     "water",
+     "Transparent"
+    ],
+    [
+     "tracing paper",
+     "Translucent"
+    ],
+    [
+     "frosted glass",
+     "Translucent"
+    ],
+    [
+     "thin cotton cloth",
+     "Translucent"
+    ],
+    [
+     "wood",
+     "Opaque"
+    ],
+    [
+     "cardboard",
+     "Opaque"
+    ],
+    [
+     "steel tray",
+     "Opaque"
+    ]
+   ],
+   "explanation": "Transparent materials let almost all light through. Translucent materials let some through but scatter it. Opaque materials let none through."
+  },
+  {
+   "id": "g5-c8-002",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Transparent, translucent, opaque",
+   "stem": "Which material would make the darkest shadow?",
+   "options": [
+    "clear glass",
+    "tracing paper",
+    "cardboard",
+    "water"
+   ],
+   "answer": 2,
+   "explanation": "Cardboard is opaque, so it blocks all the light. Clear glass and water let light pass, and tracing paper lets some through."
+  },
+  {
+   "id": "g5-c8-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light travels in straight lines",
+   "stem": "Light travels in ___ lines. A shadow forms when an ___ object blocks the light.",
+   "blanks": [
+    [
+     "straight"
+    ],
+    [
+     "opaque"
+    ]
+   ],
+   "bank": [
+    "straight",
+    "curved",
+    "opaque",
+    "transparent"
+   ],
+   "explanation": "Light cannot bend round an opaque object, so a dark area, the shadow, is left behind it."
+  },
+  {
+   "id": "g5-c8-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How shadows form",
+   "stem": "A shadow shows the colours of the object that makes it.",
+   "answer": false,
+   "explanation": "A shadow shows only the outline shape of the object. It has no colour or detail."
+  },
+  {
+   "id": "g5-c8-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Shadows during the day",
+   "stem": "Shadows point towards the Sun.",
+   "answer": false,
+   "explanation": "The object blocks the light coming from the Sun, so the shadow falls on the side **away** from the Sun."
+  },
+  {
+   "id": "g5-c8-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring light intensity",
+   "stem": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "transparent",
+     "lets light through clearly"
+    ],
+    [
+     "translucent",
+     "lets some light through but scatters it"
+    ],
+    [
+     "opaque",
+     "lets no light through"
+    ],
+    [
+     "lux",
+     "unit of light intensity"
+    ],
+    [
+     "light meter",
+     "instrument that measures light intensity"
+    ]
+   ],
+   "explanation": "These key words describe how materials treat light and how we measure how bright light is."
+  },
+  {
+   "id": "g5-c8-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Shadows during the day",
+   "stem": "Why are shadows longer in the morning and evening than at midday?",
+   "options": [
+    "The Sun is brighter.",
+    "The Sun is low in the sky.",
+    "The object grows taller.",
+    "The shadow is pushed by the wind."
+   ],
+   "answer": 1,
+   "explanation": "When the Sun is low, its light hits objects at a slant and makes long shadows. At midday the Sun is highest, so shadows are shortest."
+  },
+  {
+   "id": "g5-c8-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Light travels in straight lines",
+   "stem": "Which of these show that light travels in straight lines? Choose all that are right.",
+   "options": [
+    "Sunbeams shine through a gap in the curtains.",
+    "A torch beam cuts through mist.",
+    "We cannot see round a corner.",
+    "Light bends round a wall to fill its shadow.",
+    "A sundial works at night."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Beams, and not being able to see round corners, show straight-line travel. If light bent round objects there would be no shadows."
+  },
+  {
+   "id": "g5-c8-009",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How shadows form",
+   "stem": "Put the steps in order to show how a shadow puppet’s shadow forms.",
+   "sequence": [
+    "A lamp gives out light.",
+    "The light travels in straight lines.",
+    "The opaque puppet blocks some of the light.",
+    "A dark shape of the puppet appears on the cloth screen."
+   ],
+   "explanation": "Because the light cannot bend round or go through the puppet, the screen behind it stays dark in the shape of the puppet."
+  },
+  {
+   "id": "g5-c8-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Transparent, translucent, opaque",
+   "stem": "Why can you read a book through clear glass but not through tracing paper or cardboard?",
+   "model_answer": "Clear glass is transparent, so light passes straight through. Tracing paper is translucent and scatters the light so words look blurred. Cardboard is opaque and lets no light through.",
+   "keywords": [
+    [
+     "transparent",
+     "passes straight",
+     "pass straight",
+     "goes straight through",
+     "lets light through"
+    ],
+    [
+     "translucent",
+     "scatter",
+     "scatters",
+     "blurred",
+     "blurry"
+    ],
+    [
+     "opaque",
+     "no light",
+     "blocks",
+     "block"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "How clearly we see through a material depends on whether it lets light pass straight through, scatters it or blocks it."
+  },
+  {
+   "id": "g5-c8-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring light intensity",
+   "stem": "What is the unit of light intensity?",
+   "options": [
+    "decibel",
+    "newton",
+    "degree",
+    "lux"
+   ],
+   "answer": 3,
+   "explanation": "Light intensity (how bright light is) is measured with a light meter in lux."
+  },
+  {
+   "id": "g5-c8-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Shadow size and shape",
+   "stem": "Moving an object further from the torch makes its shadow smaller and sharper.",
+   "answer": true,
+   "explanation": "A nearer object blocks more of the light and makes a bigger shadow. Moving it away makes the shadow smaller and sharper."
+  },
+  {
+   "id": "g5-c8-013",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How shadows form",
+   "stem": "Why can you not see a clear shadow on a very cloudy day?",
+   "model_answer": "Clouds scatter the sunlight, so light comes from all directions and nothing blocks all of it.",
+   "keywords": [
+    [
+     "scatter",
+     "scatters",
+     "spread",
+     "spreads",
+     "all directions",
+     "every direction",
+     "many directions"
+    ],
+    [
+     "cloud",
+     "clouds"
+    ],
+    [
+     "block",
+     "blocks",
+     "blocked",
+     "no shadow",
+     "not blocked"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A clear shadow needs light from one direction that an object blocks. Clouds mix the light up so no dark area forms."
+  },
+  {
+   "id": "g5-c8-014",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Measuring light intensity",
+   "stem": "Sunlight takes about 8 minutes to reach the Earth.",
+   "answer": true,
+   "explanation": "Light is very fast, about 300 000 km every second, but the Sun is so far away that its light still takes about 8 minutes to get here."
+  },
+  {
+   "id": "g5-c8-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Shadows during the day",
+   "stem": "The picture shows a stick and its shadow at three times of day. When is the shadow shortest?",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow at morning, midday and evening as the Sun moves across the sky.",
+   "options": [
+    "morning",
+    "evening",
+    "midday",
+    "it is always the same"
+   ],
+   "answer": 2,
+   "explanation": "At midday the Sun is highest in the sky, so the shadow is shortest. In the morning and evening it is long."
+  },
+  {
+   "id": "g5-c8-016",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Shadows during the day",
+   "stem": "Look at the picture. The evening shadow is long because the Sun is low in the sky.",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow at morning, midday and evening as the Sun moves across the sky.",
+   "answer": true,
+   "explanation": "When the Sun is low, objects block its light at a slant and make long shadows. The morning shadow is long for the same reason."
+  },
+  {
+   "id": "g5-c8-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Shadow size and shape",
+   "stem": "In the picture the object is moved **closer to the torch**. What happens to the shadow on the screen?",
+   "image": "diagrams/shadow-setup.svg",
+   "image_alt": "A torch, an object and its shadow on a screen.",
+   "options": [
+    "It gets bigger.",
+    "It gets smaller.",
+    "It disappears.",
+    "It changes colour."
+   ],
+   "answer": 0,
+   "explanation": "A nearer object blocks more of the light from the torch, so its shadow is bigger (and a little more blurred)."
+  },
+  {
+   "id": "g5-c8-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Shadow size and shape",
+   "stem": "Without changing the object in the picture, how could you make a different shadow **shape**?",
+   "image": "diagrams/shadow-setup.svg",
+   "image_alt": "A torch, an object and its shadow on a screen.",
+   "options": [
+    "move the screen away",
+    "turn or tilt the object",
+    "use a brighter torch",
+    "make the room darker"
+   ],
+   "answer": 1,
+   "explanation": "The shadow is the outline of the object as seen from the light. Turning or tilting the object changes the outline, so the shape changes."
+  },
+  {
+   "id": "g5-c8-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How shadows form",
+   "stem": "Why is there a dark shadow on the screen in the picture?",
+   "image": "diagrams/shadow-setup.svg",
+   "image_alt": "A torch, an object and its shadow on a screen.",
+   "options": [
+    "The torch gives out dark light.",
+    "The screen absorbs all the light.",
+    "The object makes its own darkness.",
+    "The opaque object blocks the light."
+   ],
+   "answer": 3,
+   "explanation": "Light cannot go through an opaque object or bend round it, so the screen behind it receives no light."
+  },
+  {
+   "id": "g5-c8-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Shadow size and shape",
+   "stem": "Rafi is putting on a shadow puppet show with a lamp and a cloth screen. How can he make a puppet’s shadow bigger?",
+   "options": [
+    "move it closer to the lamp",
+    "move it closer to the screen",
+    "move it further from the lamp",
+    "use a coloured paper puppet"
+   ],
+   "answer": 0,
+   "explanation": "The closer the puppet is to the lamp, the more light it blocks and the bigger the shadow. Colour makes no difference to a shadow."
+  },
+  {
+   "id": "g5-c8-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "create",
+   "subskill": "Transparent, translucent, opaque",
+   "stem": "A hot Dhaka classroom has glare near the windows and a dark back corner. Which ideas would help make it brighter and cooler? Choose all that are right.",
+   "options": [
+    "paint the walls and ceiling white",
+    "use translucent blinds on the windows",
+    "plant trees outside the windows",
+    "paint the walls black",
+    "close thick curtains all day"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "White surfaces reflect light round the room. Translucent blinds let light in but cut glare and heat. Trees block direct sun. Black walls and thick curtains make the room darker."
+  },
+  {
+   "id": "g5-c8-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Measuring light intensity",
+   "stem": "A light meter shows 120 lux at the back corner of a classroom. Experts recommend 300 to 500 lux for reading, so this corner is too dim.",
+   "answer": true,
+   "explanation": "120 lux is well below 300 lux. Too little light strains the eyes, so learners at the back may need more light or a better seat."
+  },
+  {
+   "id": "g5-c8-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Shadows during the day",
+   "stem": "The school has a sundial. Why does its shadow move round during the day?",
+   "options": [
+    "The stick slowly turns round on the ground.",
+    "The wind pushes the shadow round the stick.",
+    "The Sun gets bigger and then smaller.",
+    "The Sun seems to move as the Earth spins."
+   ],
+   "answer": 3,
+   "explanation": "Shadows always point away from the Sun. As the Sun seems to move from east to west, the shadow moves round, so the sundial can tell the time."
+  },
+  {
+   "id": "g5-c8-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Transparent, translucent, opaque",
+   "stem": "Joy wants a lampshade that gives soft light, not a harsh glare. Which material is best?",
+   "options": [
+    "a steel tray",
+    "thin cotton cloth",
+    "cardboard",
+    "clear glass"
+   ],
+   "answer": 1,
+   "explanation": "Thin cotton cloth is translucent, so it lets some light through but scatters it. Steel and cardboard block it, and clear glass lets a harsh glare through."
+  },
+  {
+   "id": "g5-c8-025",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Measuring light intensity",
+   "stem": "Anika says one window gives more light than another. Measuring both with a light meter app is fairer than saying \"it looks quite bright\".",
+   "answer": true,
+   "explanation": "A light meter gives a number in lux, so the results can be compared and checked by other people."
+  },
+  {
+   "id": "g5-c8-026",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Shadows during the day",
+   "stem": "Nadia measured a 1 m stick’s shadow in the school yard (example data): 8 am 210 cm, 10 am 80 cm, 12 noon 30 cm, 2 pm 75 cm, 4 pm 190 cm. Which conclusions are supported? Choose all that are right.",
+   "options": [
+    "The shadow was shortest at 12 noon.",
+    "The 8 am shadow was more than twice as long as the 10 am shadow.",
+    "The shadows at 10 am and 2 pm were exactly the same length.",
+    "Thicker sticks make shorter shadows.",
+    "The shadow got longer between 2 pm and 4 pm."
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "30 cm is the smallest. 210 ÷ 80 is about 2.6, so more than double. 80 cm and 75 cm are close but not equal, and the test did not compare different sticks."
+  },
+  {
+   "id": "g5-c8-027",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Shadow size and shape",
+   "stem": "Jamal held a 10 cm puppet at different distances from a torch, with a screen 60 cm away (example data): 10 cm → shadow 60 cm; 20 cm → 30 cm; 30 cm → 20 cm; 40 cm → 15 cm; 50 cm → 12 cm. Predict the shadow height with the puppet 15 cm from the torch: about ___ cm.",
+   "blanks": [
+    [
+     "40",
+     "40 cm",
+     "39",
+     "41",
+     "42",
+     "38"
+    ]
+   ],
+   "explanation": "The closer the puppet, the taller the shadow. Distance × shadow height is always 600 (10 × 60, 20 × 30, 30 × 20…), so at 15 cm the shadow is 600 ÷ 15 = 40 cm."
+  },
+  {
+   "id": "g5-c8-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Shadow size and shape",
+   "stem": "In Jamal’s test, which change would make the test unfair?",
+   "options": [
+    "using the same torch every time",
+    "using a bigger puppet for the 30 cm trial",
+    "keeping the screen 60 cm from the torch",
+    "measuring the shadow height each time"
+   ],
+   "answer": 1,
+   "explanation": "Only the distance from the torch may change. A different puppet size would change the shadow too, so we could not tell what caused the difference."
+  },
+  {
+   "id": "g5-c8-029",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Measuring light intensity",
+   "stem": "In 1676 Ole Rømer noticed that one of Jupiter’s moons appeared from behind the planet later than expected when Earth was further away. What did this show about light?",
+   "model_answer": "Light takes time to travel. When Earth was further away, the light had further to go, so it arrived later.",
+   "keywords": [
+    [
+     "time",
+     "speed",
+     "not instant",
+     "not instantly",
+     "takes time",
+     "delay",
+     "delayed",
+     "later"
+    ],
+    [
+     "further",
+     "farther",
+     "distance",
+     "far",
+     "extra"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "People once thought light arrived instantly. Rømer’s observation showed that light has a speed, so a longer distance means a longer travel time."
+  },
+  {
+   "id": "g5-c8-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Measuring light intensity",
+   "stem": "A well-lit classroom has 300 to 500 lux. A sunny day outdoors has 50 000 to 100 000 lux. At the very least, how many times brighter is a sunny day than the brightest well-lit classroom?",
+   "options": [
+    "10 times",
+    "1000 times",
+    "100 times",
+    "10 000 times"
+   ],
+   "answer": 2,
+   "explanation": "Compare the lowest sunny value with the highest classroom value: 50 000 ÷ 500 = 100. So a sunny day is at least 100 times brighter."
+  }
+ ]
+}

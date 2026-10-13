@@ -1,0 +1,643 @@
+{
+ "grade": 5,
+ "grade_name": "Grade 5",
+ "topic": "C7",
+ "title": "Light: Sources, Reflection and Refraction",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-5-science/pdf/c7-light-sources-reflection-and-refraction-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g5-c7-001",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Light sources and seeing",
+   "stem": "Sort these into light sources and things that only reflect light.",
+   "categories": [
+    "Light source",
+    "Reflects light"
+   ],
+   "items": [
+    [
+     "the Sun",
+     "Light source"
+    ],
+    [
+     "a candle flame",
+     "Light source"
+    ],
+    [
+     "a firefly",
+     "Light source"
+    ],
+    [
+     "an LED bulb",
+     "Light source"
+    ],
+    [
+     "the Moon",
+     "Reflects light"
+    ],
+    [
+     "a mirror",
+     "Reflects light"
+    ],
+    [
+     "a white page",
+     "Reflects light"
+    ],
+    [
+     "a shiny spoon",
+     "Reflects light"
+    ]
+   ],
+   "explanation": "A light source makes its own light. The Moon only reflects sunlight, and a mirror, a page and a spoon reflect light from a source."
+  },
+  {
+   "id": "g5-c7-002",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light sources and seeing",
+   "stem": "We see a light source, such as a candle flame, when…",
+   "options": [
+    "our eyes send rays out to it",
+    "it makes the air around it bright",
+    "light from it enters our eyes",
+    "it casts a shadow on our eyes"
+   ],
+   "answer": 2,
+   "explanation": "Seeing happens when light enters the eye. Ibn al-Haytham showed more than 1000 years ago that our eyes do not send out rays."
+  },
+  {
+   "id": "g5-c7-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light sources and seeing",
+   "stem": "Our eyes send out rays of light so that we can see things.",
+   "answer": false,
+   "explanation": "Light comes **into** our eyes, either straight from a source or reflected from an object. In a completely dark room we see nothing."
+  },
+  {
+   "id": "g5-c7-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Reflection and mirrors",
+   "stem": "The line at right angles to a mirror is called the ___. A mirror image is right way up but back to front, which is called lateral ___.",
+   "blanks": [
+    [
+     "normal"
+    ],
+    [
+     "inversion"
+    ]
+   ],
+   "bank": [
+    "normal",
+    "inversion",
+    "reflection",
+    "refraction"
+   ],
+   "explanation": "Angles of light rays are measured from the normal. Lateral inversion swaps left and right, so your right hand looks like a left hand in a mirror."
+  },
+  {
+   "id": "g5-c7-005",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Optical devices",
+   "stem": "Match each optical device to what it does.",
+   "pairs": [
+    [
+     "hand lens",
+     "makes small things look bigger"
+    ],
+    [
+     "telescope",
+     "makes far-away objects look closer"
+    ],
+    [
+     "pinhole camera",
+     "makes an upside-down image through a tiny hole"
+    ],
+    [
+     "kaleidoscope",
+     "uses mirrors to make repeating patterns"
+    ],
+    [
+     "periscope",
+     "uses two mirrors to see over a wall"
+    ]
+   ],
+   "explanation": "Each device uses lenses or mirrors to change the way light travels, and so changes the image we see."
+  },
+  {
+   "id": "g5-c7-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Absorb, reflect, refract",
+   "stem": "What can happen when light hits a material? Choose all that are right.",
+   "options": [
+    "It is absorbed, so the material looks darker.",
+    "It bounces off, so we can see the object.",
+    "It turns into sound.",
+    "It passes through a transparent material and bends.",
+    "It always bounces back exactly the same way, from any surface."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Light can be absorbed, reflected, or pass through a transparent material and be refracted (bent). Rough surfaces scatter light in many directions instead of one."
+  },
+  {
+   "id": "g5-c7-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Light sources and seeing",
+   "stem": "Put the steps in order to show how Mina sees a mango on a tree.",
+   "sequence": [
+    "The Sun gives out light.",
+    "The light hits the mango.",
+    "The mango reflects some of the light.",
+    "The light enters Mina’s eye through the pupil.",
+    "The retina sends messages along the nerve to her brain."
+   ],
+   "explanation": "The mango is not a light source. We see it because light from the Sun bounces off it and enters the eye."
+  },
+  {
+   "id": "g5-c7-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Refraction",
+   "stem": "A straw in a glass of water looks bent. This is because of…",
+   "options": [
+    "reflection",
+    "refraction",
+    "absorption",
+    "lateral inversion"
+   ],
+   "answer": 1,
+   "explanation": "Light travels more slowly in water than in air, so it changes direction at the surface. This bending is refraction."
+  },
+  {
+   "id": "g5-c7-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The human eye",
+   "stem": "Why does the pupil get smaller when you walk out into bright sunshine?",
+   "options": [
+    "to make the lens bigger",
+    "to stop the eyelid closing",
+    "to send light back out",
+    "to let less light into the eye"
+   ],
+   "answer": 3,
+   "explanation": "The pupil is a hole that gets smaller in bright light and bigger in the dark. A smaller pupil protects the retina from too much light."
+  },
+  {
+   "id": "g5-c7-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reflection and mirrors",
+   "stem": "The word AMBULANCE is painted back to front on the front of an ambulance. Why?",
+   "model_answer": "A driver in front sees it in the mirror. A mirror reverses left and right (lateral inversion), so the word reads the right way round.",
+   "keywords": [
+    [
+     "mirror",
+     "mirrors",
+     "rear-view",
+     "rear view",
+     "reflection"
+    ],
+    [
+     "back to front",
+     "reversed",
+     "reverse",
+     "lateral inversion",
+     "flipped",
+     "flips",
+     "turned round"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Mirrors swap left and right. Writing the word back to front means it looks correct in a driver’s mirror."
+  },
+  {
+   "id": "g5-c7-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Reflection and mirrors",
+   "stem": "A rough surface, such as a rock, scatters light in all directions, so it does not make a clear image.",
+   "answer": true,
+   "explanation": "Only a very smooth, shiny surface like a mirror reflects light neatly in one direction."
+  },
+  {
+   "id": "g5-c7-012",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The human eye",
+   "stem": "Look at the eye. Match each number to its part.",
+   "image": "diagrams/eye-numbered.svg",
+   "image_alt": "A side view of the eye with parts numbered 1 to 5.",
+   "pairs": [
+    [
+     "1",
+     "eyelid"
+    ],
+    [
+     "2",
+     "pupil"
+    ],
+    [
+     "3",
+     "lens"
+    ],
+    [
+     "4",
+     "retina"
+    ],
+    [
+     "5",
+     "optic nerve"
+    ]
+   ],
+   "explanation": "Light enters through the pupil (2), the lens (3) focuses it on the retina (4), and the optic nerve (5) carries messages to the brain."
+  },
+  {
+   "id": "g5-c7-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The human eye",
+   "stem": "Which numbered part focuses light to make a tiny upside-down image on the retina?",
+   "image": "diagrams/eye-numbered.svg",
+   "image_alt": "A side view of the eye with parts numbered 1 to 5.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Number 3 is the lens. The retina (4) is where the image forms, and the brain turns it the right way up."
+  },
+  {
+   "id": "g5-c7-014",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Optical devices",
+   "stem": "Look at the five devices. Match each letter to its name.",
+   "image": "diagrams/optical-devices-lettered.svg",
+   "image_alt": "Five optical devices lettered A to E.",
+   "pairs": [
+    [
+     "A",
+     "hand lens"
+    ],
+    [
+     "B",
+     "telescope"
+    ],
+    [
+     "C",
+     "pinhole camera"
+    ],
+    [
+     "D",
+     "camera"
+    ],
+    [
+     "E",
+     "kaleidoscope"
+    ]
+   ],
+   "explanation": "These are five optical devices that use lenses, mirrors or a tiny hole to change how we see things."
+  },
+  {
+   "id": "g5-c7-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Optical devices",
+   "stem": "Which device makes an upside-down image because light travels in straight lines through a tiny hole?",
+   "image": "diagrams/optical-devices-lettered.svg",
+   "image_alt": "Five optical devices lettered A to E.",
+   "options": [
+    "A",
+    "C",
+    "B",
+    "E"
+   ],
+   "answer": 1,
+   "explanation": "C is the pinhole camera. A is a hand lens, B a telescope and E a kaleidoscope."
+  },
+  {
+   "id": "g5-c7-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Optical devices",
+   "stem": "This periscope lets you see over a wall. What does the light do inside it?",
+   "image": "diagrams/periscope.svg",
+   "image_alt": "A periscope with two mirrors at 45 degrees.",
+   "options": [
+    "It reflects off two mirrors.",
+    "It bends through a lens.",
+    "It is absorbed by the tube.",
+    "It travels straight through."
+   ],
+   "answer": 0,
+   "explanation": "The two mirrors are set at 45°, so the light turns a right angle at each one: first down the tube, then out to the eye."
+  },
+  {
+   "id": "g5-c7-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Reflection and mirrors",
+   "stem": "A ray hits the mirror with angle i = 35° to the normal. What is the angle r of the reflected ray?",
+   "image": "diagrams/reflection.svg",
+   "image_alt": "A light ray reflecting off a mirror with the normal, angle i and angle r marked.",
+   "options": [
+    "55°",
+    "70°",
+    "145°",
+    "35°"
+   ],
+   "answer": 3,
+   "explanation": "The picture shows that angle i = angle r. The light bounces off at the same angle, measured from the normal."
+  },
+  {
+   "id": "g5-c7-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Refraction",
+   "stem": "A fisherman at a pond sees a fish that looks close to the water surface, but his spear misses. Where should he aim?",
+   "options": [
+    "exactly where the fish seems to be",
+    "lower than where the fish seems to be",
+    "higher than where the fish seems to be",
+    "at the shadow of the boat"
+   ],
+   "answer": 1,
+   "explanation": "Light from the fish bends as it leaves the water, so the fish looks higher (shallower) than it really is. He must aim lower."
+  },
+  {
+   "id": "g5-c7-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "evaluate",
+   "subskill": "Light sources and seeing",
+   "stem": "At lunch, Priya’s friends dare her to look straight at the bright Sun for a few seconds. What should she do?",
+   "options": [
+    "Look quickly through sunglasses",
+    "Look for just one second",
+    "Say no, because it can damage her eyes for ever",
+    "Look only if she squints"
+   ],
+   "answer": 2,
+   "explanation": "Never look directly at the Sun, even with sunglasses. Its light is strong enough to damage the retina permanently."
+  },
+  {
+   "id": "g5-c7-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Eye health",
+   "stem": "Anika has been doing close work on a tablet for 20 minutes. Which habit protects her eyes best?",
+   "options": [
+    "stare at the screen even harder",
+    "close one eye and keep reading",
+    "hold the tablet closer to her face",
+    "look at something about 6 metres away for 20 seconds"
+   ],
+   "answer": 3,
+   "explanation": "This is the 20-20-20 rule: after every 20 minutes of close work, look about 6 metres (20 feet) away for 20 seconds to rest the eyes."
+  },
+  {
+   "id": "g5-c7-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Eye health",
+   "stem": "Joy wants to keep her eyes healthy. Which actions would help? Choose all that are right.",
+   "options": [
+    "play outdoors in daylight every day",
+    "follow the 20-20-20 rule on screens",
+    "eat vitamin A foods such as spinach, carrots and mango",
+    "look at the Sun to make her eyes stronger",
+    "skip eye tests even if the board looks blurry"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Daylight outdoors, regular screen breaks and vitamin A foods all help. Looking at the Sun damages the eyes, and blurry sight should always be checked by an eye doctor."
+  },
+  {
+   "id": "g5-c7-022",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Eye health",
+   "stem": "Bangladesh’s national Vitamin A campaign gives capsules to young children to protect them from night blindness.",
+   "answer": true,
+   "explanation": "Without enough vitamin A people can develop night blindness. Spinach, carrots, mangoes, eggs and small fish like mola are good sources."
+  },
+  {
+   "id": "g5-c7-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Refraction",
+   "stem": "In the simulation, what happens to the rays from the object when they pass through the convex lens?",
+   "sim": {
+    "id": "geometric-optics-basics",
+    "task": "Open Geometric Optics: Basics and choose the Lens screen. Turn on the rays and move the object to different places. Watch what the rays do as they go through the lens."
+   },
+   "options": [
+    "They pass straight through, unchanged.",
+    "They bend as they go into and out of the glass.",
+    "They stop at the lens.",
+    "They turn into different colours."
+   ],
+   "answer": 1,
+   "explanation": "A convex lens refracts light: the rays change direction in the glass, and the bent rays can meet to make an image."
+  },
+  {
+   "id": "g5-c7-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Reflection and mirrors",
+   "stem": "In the simulation, the rays from the object go through the flat mirror and come out of the other side.",
+   "sim": {
+    "id": "geometric-optics-basics",
+    "task": "Open Geometric Optics: Basics and choose the Mirror screen. Turn on the rays and move the object. Watch where the rays go when they reach the flat mirror."
+   },
+   "answer": false,
+   "explanation": "A mirror reflects the rays: they bounce off and go back. They do not pass through."
+  },
+  {
+   "id": "g5-c7-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Absorb, reflect, refract",
+   "stem": "In the simulation, white light shines through a red filter. Which light comes out?",
+   "sim": {
+    "id": "color-vision",
+    "task": "Open Color Vision and choose the Single Bulb screen. Keep the white bulb on and put the red filter in front of it. Look at the colour of the light that comes out."
+   },
+   "options": [
+    "white light, but dimmer",
+    "red, green and blue light",
+    "no light at all",
+    "only red light"
+   ],
+   "answer": 3,
+   "explanation": "The red filter absorbs the other colours and lets only red light through. The filter is an example of a material that absorbs some light."
+  },
+  {
+   "id": "g5-c7-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Reflection and mirrors",
+   "stem": "Class 5C measured angles of incoming and reflected rays at a mirror. Example results (incoming → reflected): 20° → 20°, 30° → 31°, 40° → 40°, 50° → 56°, 60° → 60°. Which result fits the pattern worst?",
+   "options": [
+    "50° → 56°",
+    "20° → 20°",
+    "30° → 31°",
+    "60° → 60°"
+   ],
+   "answer": 0,
+   "explanation": "The law of reflection says the two angles are equal. 30° → 31° is only 1° out (a reading error), but 56° is 6° too big, so it is the outlier."
+  },
+  {
+   "id": "g5-c7-027",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Reflection and mirrors",
+   "stem": "Using the pattern in the class results, a ray arriving at 75° to the normal will be reflected at ___ degrees.",
+   "blanks": [
+    [
+     "75",
+     "75°"
+    ]
+   ],
+   "explanation": "The angle of reflection equals the angle of incidence, so a 75° ray reflects at 75°."
+  },
+  {
+   "id": "g5-c7-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Reflection and mirrors",
+   "stem": "In the class results the 50° ray was measured as 56° after reflection. Suggest a reason, and say what the class should do.",
+   "model_answer": "They may have misread the protractor or drawn the normal wrongly, so they should repeat the measurement.",
+   "keywords": [
+    [
+     "misread",
+     "read wrongly",
+     "mistake",
+     "error",
+     "protractor",
+     "normal",
+     "measured wrongly",
+     "measurement"
+    ],
+    [
+     "repeat",
+     "again",
+     "check",
+     "measure again",
+     "redo",
+     "retest"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A result that does not fit is often a measuring slip. Repeating the measurement carefully shows whether it was an error."
+  },
+  {
+   "id": "g5-c7-029",
+   "mode": "olympiad",
+   "type": "fill",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Eye health",
+   "stem": "Class 5C asked 30 learners about screen time (example data): less than 1 hour 4, 1 to 2 hours 9, 2 to 3 hours 10, more than 3 hours 7. How many learners use screens for 2 hours or more each day? ___",
+   "blanks": [
+    [
+     "17"
+    ]
+   ],
+   "explanation": "Add the last two groups: 10 + 7 = 17 learners. The first two groups (4 + 9 = 13) use screens for less than 2 hours."
+  },
+  {
+   "id": "g5-c7-030",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Optical devices",
+   "stem": "Which of these happen because light travels in straight lines? Choose all that are right.",
+   "options": [
+    "A pinhole camera makes an upside-down image.",
+    "A periscope needs mirrors to turn light round a corner.",
+    "You can see round a corner without a mirror.",
+    "The Moon makes its own light.",
+    "An opaque object makes a shadow behind it."
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Light goes in straight lines, so a pinhole flips the image, a corner blocks the view unless mirrors turn the light, and opaque objects block light to make shadows. The Moon only reflects sunlight."
+  }
+ ]
+}
