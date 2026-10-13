@@ -1,0 +1,549 @@
+{
+ "grade": 0,
+ "grade_name": "Kindergarten",
+ "topic": "C1",
+ "title": "Materials Around Us",
+ "strand": "physical",
+ "worksheet": "worksheets/kg-science/pdf/c1-materials-around-us-study-pack.pdf",
+ "questions": [
+  {
+   "id": "kg-c1-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What things are made of",
+   "stem": "What is a pencil made of?",
+   "image": "openmoji/pencil.svg",
+   "image_alt": "A pencil.",
+   "options": [
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "glass",
+     "image": "openmoji/glass-bottle.svg"
+    },
+    {
+     "text": "cloth",
+     "image": "openmoji/yarn.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A pencil is made of wood. Wood comes from trees."
+  },
+  {
+   "id": "kg-c1-002",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "What things are made of",
+   "stem": "Match each thing to its material.",
+   "pairs": [
+    [
+     {
+      "text": "chair",
+      "image": "openmoji/chair.svg"
+     },
+     "wood"
+    ],
+    [
+     {
+      "text": "key",
+      "image": "openmoji/key.svg"
+     },
+     "metal"
+    ],
+    [
+     {
+      "text": "socks",
+      "image": "openmoji/socks.svg"
+     },
+     "cloth"
+    ],
+    [
+     {
+      "text": "bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "plastic"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A chair is made of wood, a key of metal, socks of cloth and a bottle of plastic."
+  },
+  {
+   "id": "kg-c1-003",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Hard and soft",
+   "stem": "Sort the pictures. Hard or soft?",
+   "categories": [
+    "Hard",
+    "Soft"
+   ],
+   "items": [
+    [
+     {
+      "text": "stone",
+      "image": "openmoji/rock.svg"
+     },
+     "Hard"
+    ],
+    [
+     {
+      "text": "key",
+      "image": "openmoji/key.svg"
+     },
+     "Hard"
+    ],
+    [
+     {
+      "text": "brick",
+      "image": "openmoji/brick.svg"
+     },
+     "Hard"
+    ],
+    [
+     {
+      "text": "teddy bear",
+      "image": "openmoji/teddy-bear.svg"
+     },
+     "Soft"
+    ],
+    [
+     {
+      "text": "socks",
+      "image": "openmoji/socks.svg"
+     },
+     "Soft"
+    ],
+    [
+     {
+      "text": "yarn",
+      "image": "openmoji/yarn.svg"
+     },
+     "Soft"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A stone, a key and a brick feel hard. A teddy bear, socks and yarn feel soft."
+  },
+  {
+   "id": "kg-c1-004",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing the right material",
+   "stem": "Mina needs a raincoat. Which material keeps rain out?",
+   "options": [
+    {
+     "text": "paper",
+     "image": "openmoji/newspaper.svg"
+    },
+    {
+     "text": "plastic",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "wool",
+     "image": "openmoji/yarn.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Plastic keeps rain out. Paper gets soggy and wool soaks up water."
+  },
+  {
+   "id": "kg-c1-005",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Choosing the right material",
+   "stem": "Which one can we see through?",
+   "options": [
+    {
+     "text": "wood door",
+     "image": "openmoji/door.svg"
+    },
+    {
+     "text": "glass",
+     "image": "openmoji/glass-bottle.svg"
+    },
+    {
+     "text": "brick wall",
+     "image": "openmoji/brick.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "We can see through clear glass. We cannot see through wood or brick."
+  },
+  {
+   "id": "kg-c1-006",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "What things are made of",
+   "stem": "Tap the things made of metal.",
+   "options": [
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "key",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "coin",
+     "image": "openmoji/coin.svg"
+    },
+    {
+     "text": "socks",
+     "image": "openmoji/socks.svg"
+    },
+    {
+     "text": "nut and bolt",
+     "image": "openmoji/nut-and-bolt.svg"
+    }
+   ],
+   "answer": [
+    1,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "A key, a coin and a nut and bolt are made of metal. Socks are cloth and a teddy bear is cloth too."
+  },
+  {
+   "id": "kg-c1-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Naming materials",
+   "stem": "Everything is made of a material.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Every thing around us is made of one or more materials, like wood, plastic, metal, glass, paper or cloth."
+  },
+  {
+   "id": "kg-c1-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What things are made of",
+   "stem": "A teddy is made of ___.",
+   "blanks": [
+    [
+     "cloth",
+     "fabric"
+    ]
+   ],
+   "bank": [
+    "cloth",
+    "glass",
+    "metal"
+   ],
+   "read_aloud": true,
+   "explanation": "Most teddy bears are made of soft cloth."
+  },
+  {
+   "id": "kg-c1-009",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Hard and soft",
+   "stem": "Which one feels hard?",
+   "options": [
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "socks",
+     "image": "openmoji/socks.svg"
+    },
+    {
+     "text": "stone",
+     "image": "openmoji/rock.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A stone feels hard. A teddy bear and socks feel soft."
+  },
+  {
+   "id": "kg-c1-010",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Patterns and conclusions",
+   "stem": "Put the house story in order.",
+   "sequence": [
+    {
+     "text": "friends build houses",
+     "image": "openmoji/house.svg"
+    },
+    {
+     "text": "strong wind comes",
+     "image": "openmoji/wind-face.svg"
+    },
+    {
+     "text": "brick house stays up",
+     "image": "openmoji/brick.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "First the friends build houses. Then a strong wind comes. At the end only the brick house is still standing."
+  },
+  {
+   "id": "kg-c1-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing the right material",
+   "stem": "A strong wind is coming. Which house is safest?",
+   "options": [
+    {
+     "text": "brick house",
+     "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "paper house",
+     "image": "openmoji/newspaper.svg"
+    },
+    {
+     "text": "stick house",
+     "image": "openmoji/wood.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "The brick house stayed up in the story. Bricks are strong, but paper and sticks are blown away or fall down."
+  },
+  {
+   "id": "kg-c1-012",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing the right material",
+   "stem": "Tia says a paper house is strong in a big wind.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "Paper is weak. A strong wind blew the paper house away."
+  },
+  {
+   "id": "kg-c1-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Choosing the right material",
+   "stem": "Plastic can keep rain out.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Plastic is waterproof, so raincoats are often made of it."
+  },
+  {
+   "id": "kg-c1-014",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What things are made of",
+   "stem": "A key is made of ___.",
+   "blanks": [
+    [
+     "metal"
+    ]
+   ],
+   "bank": [
+    "metal",
+    "paper",
+    "cloth"
+   ],
+   "read_aloud": true,
+   "explanation": "Keys are made of metal. Metal is hard."
+  },
+  {
+   "id": "kg-c1-015",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Hard and soft",
+   "stem": "Tap the words for how a material feels.",
+   "options": [
+    {
+     "text": "soft"
+    },
+    {
+     "text": "loud"
+    },
+    {
+     "text": "rough"
+    },
+    {
+     "text": "smooth"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "read_aloud": true,
+   "explanation": "Soft, rough and smooth tell us how a material feels when we touch it. Loud is about sound."
+  },
+  {
+   "id": "kg-c1-016",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Patterns and conclusions",
+   "stem": "Example: 5 wood, 3 plastic, 2 metal things. Which was most?",
+   "options": [
+    {
+     "text": "plastic",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "metal",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Count each group. Wood has 5, which is more than 3 or 2."
+  },
+  {
+   "id": "kg-c1-017",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Patterns and conclusions",
+   "stem": "Key, coin, spoon: hard and shiny. What are they made of?",
+   "options": [
+    {
+     "text": "cloth",
+     "image": "openmoji/socks.svg"
+    },
+    {
+     "text": "metal",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Keys, coins and spoons are all hard and shiny. They are made of metal."
+  },
+  {
+   "id": "kg-c1-018",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Choosing the right material",
+   "stem": "We can see through a wooden door.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "Wood is not clear, so we cannot see through it. We can see through clear glass."
+  },
+  {
+   "id": "kg-c1-019",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What things are made of",
+   "stem": "Sort the pictures. Wood or metal?",
+   "categories": [
+    "Wood",
+    "Metal"
+   ],
+   "items": [
+    [
+     {
+      "text": "chair",
+      "image": "openmoji/chair.svg"
+     },
+     "Wood"
+    ],
+    [
+     {
+      "text": "pencil",
+      "image": "openmoji/pencil.svg"
+     },
+     "Wood"
+    ],
+    [
+     {
+      "text": "door",
+      "image": "openmoji/door.svg"
+     },
+     "Wood"
+    ],
+    [
+     {
+      "text": "key",
+      "image": "openmoji/key.svg"
+     },
+     "Metal"
+    ],
+    [
+     {
+      "text": "spoon",
+      "image": "openmoji/spoon.svg"
+     },
+     "Metal"
+    ],
+    [
+     {
+      "text": "coin",
+      "image": "openmoji/coin.svg"
+     },
+     "Metal"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Chairs, pencils and doors are made of wood. Keys, spoons and coins are made of metal."
+  },
+  {
+   "id": "kg-c1-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Choosing the right material",
+   "stem": "Tuli uses a plastic bucket to carry water.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A plastic bucket can hold water and does not soak it up."
+  }
+ ]
+}

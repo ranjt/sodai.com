@@ -1,0 +1,580 @@
+{
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "topic": "C4",
+ "title": "Electricity",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g1-c4-001",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and switches",
+   "stem": "The lamp in this circuit will light.",
+   "image": "diagrams/circuit-closed.svg",
+   "image_alt": "A circuit with a cell, a lamp and a closed switch.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "The loop is complete and the switch is closed, so electricity flows round and the lamp lights."
+  },
+  {
+   "id": "g1-c4-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Complete circuits and switches",
+   "stem": "Why is the lamp off in this circuit?",
+   "image": "diagrams/circuit-open.svg",
+   "image_alt": "A circuit with a cell, a lamp and an open switch.",
+   "options": [
+    {
+     "text": "The loop has a gap."
+    },
+    {
+     "text": "The cell is too big."
+    },
+    {
+     "text": "The wire is too long."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "The open switch makes a gap in the loop. Electricity cannot flow round, so the lamp stays off."
+  },
+  {
+   "id": "g1-c4-003",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Parts of a circuit",
+   "stem": "Match each part of a circuit to its job.",
+   "pairs": [
+    [
+     {
+      "text": "cell",
+      "image": "openmoji/battery.svg"
+     },
+     "pushes electricity round"
+    ],
+    [
+     "wire",
+     "carries electricity"
+    ],
+    [
+     "switch",
+     "turns it on and off"
+    ],
+    [
+     {
+      "text": "lamp",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "gives light"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A cell pushes electricity round. A wire carries it. A switch turns the circuit on and off. A lamp gives light."
+  },
+  {
+   "id": "g1-c4-004",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Electrical safety",
+   "stem": "Is it safe or not safe? Sort the actions.",
+   "categories": [
+    "Safe",
+    "Not safe"
+   ],
+   "items": [
+    [
+     "using a torch with batteries",
+     "Safe"
+    ],
+    [
+     "asking an adult to plug in",
+     "Safe"
+    ],
+    [
+     "keeping water away from sockets",
+     "Safe"
+    ],
+    [
+     "touching a switch with wet hands",
+     "Not safe"
+    ],
+    [
+     "poking a socket",
+     "Not safe"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We use torches with batteries and ask an adult to plug things in. We never touch switches with wet hands or poke sockets."
+  },
+  {
+   "id": "g1-c4-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Things that use electricity",
+   "stem": "Does it use electricity? Sort the pictures.",
+   "categories": [
+    "Uses electricity",
+    "Does not use electricity"
+   ],
+   "items": [
+    [
+     {
+      "text": "fan",
+      "image": "openmoji/fan.svg"
+     },
+     "Uses electricity"
+    ],
+    [
+     {
+      "text": "television",
+      "image": "openmoji/television.svg"
+     },
+     "Uses electricity"
+    ],
+    [
+     {
+      "text": "phone",
+      "image": "openmoji/mobile-phone.svg"
+     },
+     "Uses electricity"
+    ],
+    [
+     {
+      "text": "ball",
+      "image": "openmoji/football.svg"
+     },
+     "Does not use electricity"
+    ],
+    [
+     {
+      "text": "chair",
+      "image": "openmoji/chair.svg"
+     },
+     "Does not use electricity"
+    ],
+    [
+     {
+      "text": "teddy bear",
+      "image": "openmoji/teddy-bear.svg"
+     },
+     "Does not use electricity"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A fan, a television and a mobile phone use electricity. A ball, a chair and a teddy bear do not."
+  },
+  {
+   "id": "g1-c4-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits and switches",
+   "stem": "A circuit is a loop.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A circuit is a complete loop. Electricity flows round it from the cell, through the lamp and back."
+  },
+  {
+   "id": "g1-c4-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Electrical safety",
+   "stem": "Electricity from the wall is safe to touch.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "Electricity from the wall is dangerous. Never touch sockets or wires."
+  },
+  {
+   "id": "g1-c4-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits and switches",
+   "stem": "A switch can make a gap in a circuit.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Opening a switch makes a gap, so the circuit is off. Closing it fills the gap."
+  },
+  {
+   "id": "g1-c4-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Complete circuits and switches",
+   "stem": "A lamp lights when the circuit is ___.",
+   "blanks": [
+    [
+     "complete",
+     "closed",
+     "joined"
+    ]
+   ],
+   "bank": [
+    "complete",
+    "broken",
+    "open"
+   ],
+   "read_aloud": true,
+   "explanation": "Electricity can only flow round a complete circuit with no gaps."
+  },
+  {
+   "id": "g1-c4-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a circuit",
+   "stem": "A cell is a battery that stores ___.",
+   "blanks": [
+    [
+     "electricity"
+    ]
+   ],
+   "bank": [
+    "electricity",
+    "water",
+    "light"
+   ],
+   "read_aloud": true,
+   "explanation": "A cell stores electricity and pushes it round the circuit."
+  },
+  {
+   "id": "g1-c4-011",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Complete circuits and switches",
+   "stem": "Put the steps in order to make a lamp light.",
+   "sequence": [
+    "Join the cell, wires and lamp in a loop.",
+    "Check there are no gaps.",
+    "Close the switch.",
+    "The lamp lights."
+   ],
+   "read_aloud": true,
+   "explanation": "Join the parts in a loop, check there are no gaps, close the switch and then the lamp lights."
+  },
+  {
+   "id": "g1-c4-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits and switches",
+   "stem": "Which part turns a circuit on and off?",
+   "options": [
+    {
+     "text": "battery"
+    },
+    {
+     "text": "switch"
+    },
+    {
+     "text": "lamp"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A switch opens and closes the circuit. A lamp gives light and a wire carries electricity."
+  },
+  {
+   "id": "g1-c4-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Where electricity comes from",
+   "stem": "Which picture shows where solar electricity comes from?",
+   "options": [
+    {
+     "text": "wind",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "river",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "Sun",
+     "image": "openmoji/sun.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A solar panel turns sunlight into electricity."
+  },
+  {
+   "id": "g1-c4-014",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Where electricity comes from",
+   "stem": "Where does electricity come from? Choose all that are right.",
+   "options": [
+    {
+     "text": "sunlight",
+     "image": "openmoji/solar-energy.svg"
+    },
+    {
+     "text": "a stone",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "wind",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "moving water",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "a teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "read_aloud": true,
+   "explanation": "Sunlight, wind and moving water can all make electricity. A stone and a teddy bear cannot."
+  },
+  {
+   "id": "g1-c4-015",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Where electricity comes from",
+   "stem": "There are no wires on Shuvo's char. Where does his electricity come from?",
+   "options": [
+    {
+     "text": "a solar panel"
+    },
+    {
+     "text": "a wall socket far away"
+    },
+    {
+     "text": "a big tree"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Shuvo's family has a solar panel on the roof. It turns sunlight into electricity."
+  },
+  {
+   "id": "g1-c4-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Electrical safety",
+   "stem": "Anika's hands are wet. A switch is on the wall. What should she do?",
+   "options": [
+    {
+     "text": "Touch it quickly."
+    },
+    {
+     "text": "Poke it with a pin."
+    },
+    {
+     "text": "Ask an adult."
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Wet hands and electricity are dangerous. Anika asks an adult for help."
+  },
+  {
+   "id": "g1-c4-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and switches",
+   "stem": "Mina's toy light does not work. A wire has fallen off the cell. Why?",
+   "options": [
+    {
+     "text": "The room is too cold."
+    },
+    {
+     "text": "The loop is broken."
+    },
+    {
+     "text": "The lamp is too happy."
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "The wire is part of the loop. With a wire off, there is a gap and electricity cannot flow."
+  },
+  {
+   "id": "g1-c4-018",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Where electricity comes from",
+   "stem": "At night, Shuvo's battery lights the lamps.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "The solar panel charges the battery in the day. At night the battery lights the lamps."
+  },
+  {
+   "id": "g1-c4-019",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Where electricity comes from",
+   "stem": "Why is a solar panel useful on the char?",
+   "model_answer": "There are no electricity wires on the char, so the solar panel makes electricity from sunlight.",
+   "keywords": [
+    [
+     "no wires",
+     "no electricity",
+     "no power",
+     "island",
+     "char",
+     "far",
+     "no cables",
+     "without wires"
+    ],
+    [
+     "sun",
+     "sunlight",
+     "sunny",
+     "light"
+    ]
+   ],
+   "min_keywords": 1,
+   "read_aloud": true,
+   "explanation": "There are no electricity wires on the char. A solar panel makes electricity from sunlight."
+  },
+  {
+   "id": "g1-c4-020",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Complete circuits and switches",
+   "stem": "What happens to the bulb in a complete loop?",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC. Drag a battery, a light bulb and wires onto the board. Join them in one complete loop with no gaps. Watch the bulb."
+   },
+   "options": [
+    {
+     "text": "It lights up."
+    },
+    {
+     "text": "It goes out."
+    },
+    {
+     "text": "It turns blue."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A bulb lights only when the loop is complete. Electricity flows from the battery through the bulb and back."
+  },
+  {
+   "id": "g1-c4-021",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Complete circuits and switches",
+   "stem": "The bulb stays lit when the switch is open.",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC. Make a loop with a battery, a bulb and wires, and add a switch. Click the switch to open it, then click it again to close it. Watch the bulb each time."
+   },
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "An open switch makes a gap in the loop, so the bulb goes out. Closing the switch lights it again."
+  },
+  {
+   "id": "g1-c4-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Complete circuits and switches",
+   "stem": "A wire is off the loop. You close the switch. Does the lamp light?",
+   "options": [
+    {
+     "text": "Yes, the switch fixes it."
+    },
+    {
+     "text": "No, it still has a gap."
+    },
+    {
+     "text": "Yes, but it is dim."
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "The missing wire leaves a gap, so closing the switch does not help."
+  },
+  {
+   "id": "g1-c4-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Parts of a circuit",
+   "stem": "Each torch uses 2 cells. How many cells do 3 torches need?",
+   "options": [
+    {
+     "text": "4"
+    },
+    {
+     "text": "5"
+    },
+    {
+     "text": "6"
+    },
+    {
+     "text": "8"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "2 + 2 + 2 = 6, so 3 torches need 6 cells."
+  },
+  {
+   "id": "g1-c4-024",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Metals and electricity",
+   "stem": "Metal things such as a coin let electricity pass through.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Metals let electricity through. Things like a rubber eraser do not."
+  }
+ ]
+}

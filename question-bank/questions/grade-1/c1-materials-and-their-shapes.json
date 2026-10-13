@@ -1,0 +1,603 @@
+{
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "topic": "C1",
+ "title": "Materials and Their Shapes",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g1-c1-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Which picture shows a natural material?",
+   "options": [
+    {
+     "text": "plastic",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "glass",
+     "image": "openmoji/glass-bottle.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Wood comes from trees, so it is natural. Plastic and glass are made by people."
+  },
+  {
+   "id": "g1-c1-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Natural and made materials",
+   "stem": "Natural or made by people? Sort the pictures.",
+   "categories": [
+    "Natural",
+    "Made by people"
+   ],
+   "items": [
+    [
+     {
+      "text": "wood",
+      "image": "openmoji/wood.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "stone",
+      "image": "openmoji/rock.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "wool",
+      "image": "openmoji/yarn.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "plastic",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "Made by people"
+    ],
+    [
+     {
+      "text": "glass",
+      "image": "openmoji/glass-bottle.svg"
+     },
+     "Made by people"
+    ],
+    [
+     {
+      "text": "paper",
+      "image": "openmoji/newspaper.svg"
+     },
+     "Made by people"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Wood, stone and wool come from nature. Plastic, glass and paper are made by people."
+  },
+  {
+   "id": "g1-c1-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Wool is a natural material.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Wool comes from sheep, so it is natural."
+  },
+  {
+   "id": "g1-c1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Paper is found in nature. People do not make it.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "People make paper in factories or by hand. It is not found in nature."
+  },
+  {
+   "id": "g1-c1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Changing shape",
+   "stem": "We can ___ a sponge by pressing it hard.",
+   "blanks": [
+    [
+     "squash",
+     "squeeze",
+     "press"
+    ]
+   ],
+   "bank": [
+    "squash",
+    "stretch",
+    "twist"
+   ],
+   "read_aloud": true,
+   "explanation": "Pressing hard on a sponge squashes it."
+  },
+  {
+   "id": "g1-c1-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Changing shape",
+   "stem": "Match each action to the thing you do it to.",
+   "pairs": [
+    [
+     "squash",
+     "a sponge"
+    ],
+    [
+     "stretch",
+     "a rubber band"
+    ],
+    [
+     "twist",
+     "a wet towel"
+    ],
+    [
+     "bend",
+     "a pipe cleaner"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We squash a sponge, stretch a rubber band, twist a wet towel and bend a pipe cleaner."
+  },
+  {
+   "id": "g1-c1-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Changing shape",
+   "stem": "Which one can we stretch?",
+   "options": [
+    {
+     "text": "balloon",
+     "image": "openmoji/balloon.svg"
+    },
+    {
+     "text": "stone",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A balloon stretches when we blow it up. A stone and a brick do not stretch."
+  },
+  {
+   "id": "g1-c1-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changing shape",
+   "stem": "Which goes back to its shape after squashing?",
+   "options": [
+    {
+     "text": "clay"
+    },
+    {
+     "text": "sponge"
+    },
+    {
+     "text": "wet sand"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A sponge goes back to its shape. Clay stays in its new shape."
+  },
+  {
+   "id": "g1-c1-009",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Choosing materials",
+   "stem": "Why is a ball made of rubber, not stone?",
+   "model_answer": "Rubber bounces and is soft. A stone is hard and would hurt.",
+   "keywords": [
+    [
+     "bounce",
+     "bounces",
+     "bouncy",
+     "soft",
+     "squash",
+     "squashy",
+     "hurt",
+     "hard",
+     "heavy"
+    ]
+   ],
+   "min_keywords": 1,
+   "read_aloud": true,
+   "explanation": "Rubber is soft and bounces. A stone is hard and does not bounce."
+  },
+  {
+   "id": "g1-c1-010",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Clay and the potter",
+   "stem": "Put the steps in order to make a clay pot.",
+   "sequence": [
+    "Dig clay from the river bank.",
+    "Squash and shape the clay on the wheel.",
+    "Dry the pot in the sun.",
+    "Heat the pot in a hot kiln."
+   ],
+   "read_aloud": true,
+   "explanation": "Mr Paul digs the clay, shapes it on the wheel, dries the pot and then heats it in the kiln."
+  },
+  {
+   "id": "g1-c1-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Clay and the potter",
+   "stem": "Mr Paul heats clay pots in a kiln. What happens?",
+   "options": [
+    {
+     "text": "The clay becomes hard."
+    },
+    {
+     "text": "The clay goes soft again."
+    },
+    {
+     "text": "The clay turns into water."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Heating in the kiln makes the clay hard. It will never go soft again."
+  },
+  {
+   "id": "g1-c1-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Choosing materials",
+   "stem": "Joy wants a toy he can squash and shape. Which is best?",
+   "options": [
+    {
+     "text": "stone"
+    },
+    {
+     "text": "glass"
+    },
+    {
+     "text": "clay"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Clay is soft and can be squashed into new shapes. Stone and glass are hard."
+  },
+  {
+   "id": "g1-c1-013",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Changing shape",
+   "stem": "Nadia twists a wet towel to dry it. This changes its shape.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Twisting changes the shape of a towel and squeezes the water out."
+  },
+  {
+   "id": "g1-c1-014",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Which are made by people? Choose all that are right.",
+   "options": [
+    {
+     "text": "plastic"
+    },
+    {
+     "text": "stone"
+    },
+    {
+     "text": "glass"
+    },
+    {
+     "text": "wool"
+    },
+    {
+     "text": "paper"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Plastic, glass and paper are made by people. Stone and wool come from nature."
+  },
+  {
+   "id": "g1-c1-015",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Choosing materials",
+   "stem": "Match each picture to its material.",
+   "pairs": [
+    [
+     {
+      "text": "chair",
+      "image": "openmoji/chair.svg"
+     },
+     "wood"
+    ],
+    [
+     {
+      "text": "key",
+      "image": "openmoji/key.svg"
+     },
+     "metal"
+    ],
+    [
+     {
+      "text": "bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "plastic"
+    ],
+    [
+     {
+      "text": "socks",
+      "image": "openmoji/socks.svg"
+     },
+     "cloth"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A chair is made of wood, a key of metal and a bottle of plastic. Socks are made of cloth."
+  },
+  {
+   "id": "g1-c1-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing materials",
+   "stem": "Which picture shows something made of metal?",
+   "options": [
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "key",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "newspaper",
+     "image": "openmoji/newspaper.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A key is made of metal. A newspaper is paper and a teddy bear is cloth."
+  },
+  {
+   "id": "g1-c1-017",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Changing shape",
+   "stem": "A sponge stays flat after you squash it and let go.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "A sponge goes back to its shape. Clay is the one that stays flat."
+  },
+  {
+   "id": "g1-c1-018",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Changing shape",
+   "stem": "Squashing, bending, twisting and ___ change the shape of materials.",
+   "blanks": [
+    [
+     "stretching",
+     "stretch",
+     "stretches"
+    ]
+   ],
+   "bank": [
+    "stretching",
+    "freezing",
+    "shining"
+   ],
+   "read_aloud": true,
+   "explanation": "The four ways to change shape are squashing, bending, twisting and stretching."
+  },
+  {
+   "id": "g1-c1-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair test and stretching",
+   "stem": "Class 1 test: thin band 14 cm, medium 11 cm, thick 8 cm. Which stretched most?",
+   "options": [
+    {
+     "text": "medium"
+    },
+    {
+     "text": "thin"
+    },
+    {
+     "text": "thick"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "The thin band became the longest, 14 cm, so it stretched the most."
+  },
+  {
+   "id": "g1-c1-020",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair test and stretching",
+   "stem": "Thin band: 14 cm. Thick band: 8 cm. How much longer is the thin band?",
+   "options": [
+    {
+     "text": "4 cm"
+    },
+    {
+     "text": "8 cm"
+    },
+    {
+     "text": "6 cm"
+    },
+    {
+     "text": "22 cm"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "14 minus 8 is 6, so the thin band was 6 cm longer."
+  },
+  {
+   "id": "g1-c1-021",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Changing shape",
+   "stem": "Rafi squashes clay and a sponge, then lets go. What happens?",
+   "options": [
+    {
+     "text": "The clay stays flat. The sponge springs back."
+    },
+    {
+     "text": "Both go back to their shape."
+    },
+    {
+     "text": "Both stay squashed."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Clay stays squashed. A sponge goes back to its shape."
+  },
+  {
+   "id": "g1-c1-022",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changing shape",
+   "stem": "Sort by what happens after you squash or stretch.",
+   "categories": [
+    "Goes back",
+    "Stays in new shape"
+   ],
+   "items": [
+    [
+     "sponge",
+     "Goes back"
+    ],
+    [
+     "rubber band",
+     "Goes back"
+    ],
+    [
+     "clay",
+     "Stays in new shape"
+    ],
+    [
+     "play dough",
+     "Stays in new shape"
+    ],
+    [
+     "bent pipe cleaner",
+     "Stays in new shape"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A sponge and a rubber band go back to their shape. Clay, play dough and a bent pipe cleaner stay in the new shape."
+  },
+  {
+   "id": "g1-c1-023",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Jute is a natural material.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Jute comes from plants, so it is a natural material."
+  },
+  {
+   "id": "g1-c1-024",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Which picture shows something made by people?",
+   "options": [
+    {
+     "text": "stone",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "plastic",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A plastic bottle is made by people in a factory. Wood and stone come from nature."
+  }
+ ]
+}

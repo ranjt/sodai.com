@@ -1,0 +1,601 @@
+{
+ "grade": 1,
+ "grade_name": "Grade 1",
+ "topic": "C2",
+ "title": "Heating, Cooling and Dissolving",
+ "strand": "physical",
+ "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g1-c2-001",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Is it heating or cooling? Sort the changes.",
+   "categories": [
+    "Heating",
+    "Cooling"
+   ],
+   "items": [
+    [
+     "ice melts",
+     "Heating"
+    ],
+    [
+     "an egg cooks",
+     "Heating"
+    ],
+    [
+     "water boils",
+     "Heating"
+    ],
+    [
+     "water freezes",
+     "Cooling"
+    ],
+    [
+     "jelly sets",
+     "Cooling"
+    ],
+    [
+     "melted chocolate goes hard",
+     "Cooling"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Ice melts, an egg cooks and water boils when they are heated. Water freezes, jelly sets and melted chocolate goes hard when they are cooled."
+  },
+  {
+   "id": "g1-c2-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "An ice cube sits in the hot sun. What will it become?",
+   "image": "openmoji/ice-cube.svg",
+   "image_alt": "An ice cube.",
+   "options": [
+    {
+     "text": "water",
+     "image": "openmoji/droplet.svg"
+    },
+    {
+     "text": "a rock",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "snow",
+     "image": "openmoji/snowflake.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Heat melts ice into water."
+  },
+  {
+   "id": "g1-c2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Which picture shows something that melts in the sun?",
+   "options": [
+    {
+     "text": "a heavy rock",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "a metal coin",
+     "image": "openmoji/coin.svg"
+    },
+    {
+     "text": "ice cream",
+     "image": "openmoji/ice-cream.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Ice cream melts when it gets warm. A rock and a coin do not melt in the sun."
+  },
+  {
+   "id": "g1-c2-004",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Which can melt when heated? Choose all that are right.",
+   "options": [
+    {
+     "text": "ice",
+     "image": "openmoji/ice-cube.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "chocolate",
+     "image": "openmoji/chocolate.svg"
+    },
+    {
+     "text": "key",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "ice cream",
+     "image": "openmoji/ice-cream.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Ice, chocolate and ice cream melt when they are heated. A brick and a key do not melt in everyday heat."
+  },
+  {
+   "id": "g1-c2-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Heating and cooling",
+   "stem": "Water boils and turns to steam.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "When water is heated until it boils, it turns into steam."
+  },
+  {
+   "id": "g1-c2-006",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changes that can go back",
+   "stem": "This egg is cooked. It can turn back into a raw egg.",
+   "image": "openmoji/frying-egg.svg",
+   "image_alt": "A fried egg in a pan.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "A cooked egg cannot go back. Cooking is a change that cannot go back."
+  },
+  {
+   "id": "g1-c2-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Heating and cooling",
+   "stem": "Water turns into ice when it is ___.",
+   "blanks": [
+    [
+     "cooled",
+     "cooled down",
+     "chilled",
+     "cold"
+    ]
+   ],
+   "bank": [
+    "cooled",
+    "heated",
+    "stirred"
+   ],
+   "read_aloud": true,
+   "explanation": "Cooling water makes it freeze into ice."
+  },
+  {
+   "id": "g1-c2-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Dissolving",
+   "stem": "Salt ___ in water and seems to disappear.",
+   "blanks": [
+    [
+     "dissolves",
+     "dissolve",
+     "dissolved"
+    ]
+   ],
+   "bank": [
+    "dissolves",
+    "boils",
+    "freezes"
+   ],
+   "read_aloud": true,
+   "explanation": "Salt dissolves in water. It mixes in and seems to disappear."
+  },
+  {
+   "id": "g1-c2-009",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Heating and cooling",
+   "stem": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "melt",
+     "solid to liquid"
+    ],
+    [
+     "freeze",
+     "liquid to solid"
+    ],
+    [
+     "dissolve",
+     "mixes into water"
+    ],
+    [
+     "boil",
+     "water turns to steam"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Melt is solid to liquid. Freeze is liquid to solid. Dissolve is mixing into water and seeming to disappear. Boil is water turning to steam."
+  },
+  {
+   "id": "g1-c2-010",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Cooking and pitha",
+   "stem": "Put the steps in order to make pitha.",
+   "sequence": [
+    "Mix rice flour and water into dough.",
+    "Steam the pitha over hot water.",
+    "The dough turns into a firm cake.",
+    "Share the warm pitha."
+   ],
+   "read_aloud": true,
+   "explanation": "Grandma mixes flour and water into dough. She steams it over hot water. The dough turns into a firm cake."
+  },
+  {
+   "id": "g1-c2-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Mina leaves butter in the hot sun. What happens?",
+   "options": [
+    {
+     "text": "It melts."
+    },
+    {
+     "text": "It freezes."
+    },
+    {
+     "text": "It dissolves."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Heat melts butter."
+  },
+  {
+   "id": "g1-c2-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Rina wants ice cubes for a drink. Where should she put water?",
+   "options": [
+    {
+     "text": "on the stove"
+    },
+    {
+     "text": "in the freezer"
+    },
+    {
+     "text": "in the sun"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Cooling water makes it freeze. A freezer is very cold."
+  },
+  {
+   "id": "g1-c2-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Dissolving",
+   "stem": "Imran stirs sugar in his tea. What happens to the sugar?",
+   "options": [
+    {
+     "text": "It turns to ice."
+    },
+    {
+     "text": "It boils away."
+    },
+    {
+     "text": "It dissolves."
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Sugar dissolves in hot tea. It mixes in and seems to disappear."
+  },
+  {
+   "id": "g1-c2-014",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Cooking and pitha",
+   "stem": "Only grown-ups use the stove and hot water.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Stoves and hot water can burn us. Children ask a grown-up for help."
+  },
+  {
+   "id": "g1-c2-015",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Changes that can go back",
+   "stem": "Joy puts melted chocolate in the fridge. It goes hard again.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Cooling makes melted chocolate go hard again. This change can go back."
+  },
+  {
+   "id": "g1-c2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "Steam rises from a hot drink. When steam cools, it turns into...",
+   "image": "openmoji/hot-drink.svg",
+   "image_alt": "A hot drink with steam.",
+   "options": [
+    {
+     "text": "ice cubes",
+     "image": "openmoji/ice-cube.svg"
+    },
+    {
+     "text": "water drops",
+     "image": "openmoji/droplet.svg"
+    },
+    {
+     "text": "black smoke",
+     "image": "openmoji/factory-smoke.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Steam turns back into water drops when it cools."
+  },
+  {
+   "id": "g1-c2-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "Match each picture to what happens.",
+   "pairs": [
+    [
+     {
+      "text": "ice",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "melts when heated"
+    ],
+    [
+     {
+      "text": "egg",
+      "image": "openmoji/frying-egg.svg"
+     },
+     "cooks and goes hard"
+    ],
+    [
+     {
+      "text": "water",
+      "image": "openmoji/droplet.svg"
+     },
+     "freezes when cooled"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Ice melts when heated. A fried egg cooks and goes hard. Water drops freeze into ice when cooled."
+  },
+  {
+   "id": "g1-c2-018",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "Why does ice cream melt on a hot day?",
+   "model_answer": "The hot day heats the ice cream, so it melts into a liquid.",
+   "keywords": [
+    [
+     "heat",
+     "hot",
+     "warm",
+     "warms",
+     "sun",
+     "warmer"
+    ],
+    [
+     "melt",
+     "melts",
+     "melted",
+     "liquid",
+     "runny",
+     "soft"
+    ]
+   ],
+   "min_keywords": 1,
+   "read_aloud": true,
+   "explanation": "Heat from the air and sun warms the ice cream. A solid ice cream turns into a liquid."
+  },
+  {
+   "id": "g1-c2-019",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Dissolving",
+   "stem": "Which things dissolve in water? Choose all that are right.",
+   "options": [
+    {
+     "text": "salt"
+    },
+    {
+     "text": "sand"
+    },
+    {
+     "text": "sugar"
+    },
+    {
+     "text": "rice"
+    },
+    {
+     "text": "coin"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "Salt and sugar dissolve in water. Sand, rice and coins do not."
+  },
+  {
+   "id": "g1-c2-020",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changes that can go back",
+   "stem": "Can the change go back? Sort the changes.",
+   "categories": [
+    "Can go back",
+    "Cannot go back"
+   ],
+   "items": [
+    [
+     "ice melts into water",
+     "Can go back"
+    ],
+    [
+     "melted chocolate goes hard",
+     "Can go back"
+    ],
+    [
+     "water freezes into ice",
+     "Can go back"
+    ],
+    [
+     "an egg cooks",
+     "Cannot go back"
+    ],
+    [
+     "pitha is steamed",
+     "Cannot go back"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Ice melting, chocolate melting and water freezing can go back. A cooked egg and steamed pitha cannot."
+  },
+  {
+   "id": "g1-c2-021",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Melting test",
+   "stem": "Melting times: sun 10 minutes, classroom 25, fridge 60. Where did ice melt fastest?",
+   "options": [
+    {
+     "text": "in the sun"
+    },
+    {
+     "text": "in the fridge"
+    },
+    {
+     "text": "in the classroom"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "The shortest time was in the sun, 10 minutes, so ice melted fastest there."
+  },
+  {
+   "id": "g1-c2-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Melting test",
+   "stem": "Fridge: 60 minutes. Sun: 10 minutes. How many more minutes in the fridge?",
+   "options": [
+    {
+     "text": "35"
+    },
+    {
+     "text": "50"
+    },
+    {
+     "text": "70"
+    },
+    {
+     "text": "15"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "60 minus 10 is 50, so the ice took 50 minutes longer in the fridge."
+  },
+  {
+   "id": "g1-c2-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Melting test",
+   "stem": "Is it a fair test to use ice cubes of different sizes?",
+   "options": [
+    {
+     "text": "Yes, any size will work."
+    },
+    {
+     "text": "No, same size is needed."
+    },
+    {
+     "text": "Yes, ice never melts."
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Big ice cubes take longer to melt. For a fair test the ice cubes must be the same size."
+  },
+  {
+   "id": "g1-c2-024",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Dissolving",
+   "stem": "Sand dissolves in water.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "Sand does not dissolve. It sinks to the bottom."
+  }
+ ]
+}

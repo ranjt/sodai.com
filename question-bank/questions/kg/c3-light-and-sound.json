@@ -1,0 +1,505 @@
+{
+ "grade": 0,
+ "grade_name": "Kindergarten",
+ "topic": "C3",
+ "title": "Light and Sound",
+ "strand": "physical",
+ "worksheet": "worksheets/kg-science/pdf/c3-light-and-sound-study-pack.pdf",
+ "questions": [
+  {
+   "id": "kg-c3-001",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light sources",
+   "stem": "Tap the things that give light.",
+   "options": [
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "torch",
+     "image": "openmoji/flashlight.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "The Sun, a candle and a torch give out light. A teddy bear and a ball do not."
+  },
+  {
+   "id": "kg-c3-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Light sources",
+   "stem": "Sort the pictures. Makes light or makes sound?",
+   "categories": [
+    "Light",
+    "Sound"
+   ],
+   "items": [
+    [
+     {
+      "text": "fire",
+      "image": "openmoji/fire.svg"
+     },
+     "Light"
+    ],
+    [
+     {
+      "text": "barking dog",
+      "image": "openmoji/dog.svg"
+     },
+     "Sound"
+    ],
+    [
+     {
+      "text": "stars",
+      "image": "openmoji/star.svg"
+     },
+     "Light"
+    ],
+    [
+     {
+      "text": "drum",
+      "image": "openmoji/drum.svg"
+     },
+     "Sound"
+    ],
+    [
+     {
+      "text": "lamp",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Light"
+    ],
+    [
+     {
+      "text": "bell",
+      "image": "openmoji/bell.svg"
+     },
+     "Sound"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Fire, stars and a lamp make light. A barking dog, a drum and a bell make sound."
+  },
+  {
+   "id": "kg-c3-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Hearing sounds",
+   "stem": "Which part of us hears sounds?",
+   "options": [
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
+    },
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "hand",
+     "image": "openmoji/hand.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "We hear sounds with our ears. Eyes are for seeing."
+  },
+  {
+   "id": "kg-c3-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Ways to make sounds",
+   "stem": "Match each instrument to how we play it.",
+   "pairs": [
+    [
+     {
+      "text": "drum",
+      "image": "openmoji/drum.svg"
+     },
+     "hit it"
+    ],
+    [
+     {
+      "text": "guitar",
+      "image": "openmoji/guitar.svg"
+     },
+     "pluck it"
+    ],
+    [
+     {
+      "text": "shaker",
+      "image": "openmoji/maracas.svg"
+     },
+     "shake it"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We hit a drum, pluck the strings of a guitar and shake maracas. Each way makes a different sound."
+  },
+  {
+   "id": "kg-c3-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light sources",
+   "stem": "The Sun gives us light.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "The Sun is our biggest light source. It lights up the day."
+  },
+  {
+   "id": "kg-c3-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Near and far sounds",
+   "stem": "A bell sounds quieter when we are far away.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Sound gets fainter as it travels away from the bell."
+  },
+  {
+   "id": "kg-c3-007",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Light sources",
+   "stem": "Babu is in the dark. What gives him light?",
+   "options": [
+    {
+     "text": "torch",
+     "image": "openmoji/flashlight.svg"
+    },
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A torch gives out light, so Babu can see. A teddy bear and a ball give no light."
+  },
+  {
+   "id": "kg-c3-008",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Near and far sounds",
+   "stem": "Mina walks away from the school bell. The sound gets...",
+   "options": [
+    {
+     "text": "Louder"
+    },
+    {
+     "text": "The same"
+    },
+    {
+     "text": "Quieter"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "The farther we are from a sound, the quieter it is."
+  },
+  {
+   "id": "kg-c3-009",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Light and sound in daily life",
+   "stem": "Put the power cut story in order.",
+   "sequence": [
+    {
+     "text": "lights go out",
+     "image": "openmoji/light-bulb.svg"
+    },
+    {
+     "text": "torch is on",
+     "image": "openmoji/flashlight.svg"
+    },
+    {
+     "text": "Babu sees toys",
+     "image": "openmoji/teddy-bear.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "First the lights go out. Then Father switches on a torch. Now Babu can see his toys."
+  },
+  {
+   "id": "kg-c3-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Hearing sounds",
+   "stem": "We hear sounds with our ___.",
+   "blanks": [
+    [
+     "ears",
+     "ear"
+    ]
+   ],
+   "bank": [
+    "ears",
+    "eyes",
+    "hands"
+   ],
+   "read_aloud": true,
+   "explanation": "We hear when sound goes into our ears."
+  },
+  {
+   "id": "kg-c3-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Ways to make sounds",
+   "stem": "A drum makes sound when we ___ it.",
+   "blanks": [
+    [
+     "hit",
+     "strike",
+     "tap",
+     "beat",
+     "bang"
+    ]
+   ],
+   "bank": [
+    "hit",
+    "blow",
+    "shake"
+   ],
+   "read_aloud": true,
+   "explanation": "Hitting the drum makes a sound."
+  },
+  {
+   "id": "kg-c3-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Ways to make sounds",
+   "stem": "How do we play a flute?",
+   "image": "openmoji/flute.svg",
+   "image_alt": "A flute.",
+   "options": [
+    {
+     "text": "hit"
+    },
+    {
+     "text": "blow"
+    },
+    {
+     "text": "shake"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "We blow into a flute. We hit a drum and shake a shaker."
+  },
+  {
+   "id": "kg-c3-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Ways to make sounds",
+   "stem": "Which one makes a sound when we shake it?",
+   "options": [
+    {
+     "text": "shaker",
+     "image": "openmoji/maracas.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "torch",
+     "image": "openmoji/flashlight.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A shaker makes a sound when we shake it. A candle and a torch do not."
+  },
+  {
+   "id": "kg-c3-014",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Ways to make sounds",
+   "stem": "Tap the ways to make a sound.",
+   "options": [
+    {
+     "text": "hit a drum",
+     "image": "openmoji/drum.svg"
+    },
+    {
+     "text": "clap",
+     "image": "openmoji/clapping-hands.svg"
+    },
+    {
+     "text": "sleep",
+     "image": "openmoji/sleeping-face.svg"
+    },
+    {
+     "text": "blow a flute",
+     "image": "openmoji/flute.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "read_aloud": true,
+   "explanation": "We can hit a drum, clap or blow a flute to make sounds. Sleeping makes no sound."
+  },
+  {
+   "id": "kg-c3-015",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light sources",
+   "stem": "A teddy bear gives out light.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "A teddy bear is not a light source. It does not give out light."
+  },
+  {
+   "id": "kg-c3-016",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Light and sound in daily life",
+   "stem": "Only a grown-up should light a candle.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Candles have fire, which can burn us. Only a grown-up lights a candle."
+  },
+  {
+   "id": "kg-c3-017",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Light and sound in daily life",
+   "stem": "We can look straight at the Sun.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "Looking straight at the Sun can hurt our eyes. We never do it."
+  },
+  {
+   "id": "kg-c3-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Ways to make sounds",
+   "stem": "Example: more boxes = louder. Rice 3, dal 5, stones 8. Loudest?",
+   "options": [
+    {
+     "text": "rice"
+    },
+    {
+     "text": "dal"
+    },
+    {
+     "text": "stones"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Count the boxes. Stones have 8, which is more than 5 or 3, so stones were loudest."
+  },
+  {
+   "id": "kg-c3-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Near and far sounds",
+   "stem": "Babu hears a quiet bell. How can he hear it louder?",
+   "options": [
+    {
+     "text": "Walk away"
+    },
+    {
+     "text": "Walk closer"
+    },
+    {
+     "text": "Cover his ears"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A sound is louder when we are closer to it. Walking away makes it quieter."
+  },
+  {
+   "id": "kg-c3-020",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Light sources",
+   "stem": "Which gives light in the night sky?",
+   "options": [
+    {
+     "text": "stars",
+     "image": "openmoji/star.svg"
+    },
+    {
+     "text": "kite",
+     "image": "openmoji/kite.svg"
+    },
+    {
+     "text": "bird",
+     "image": "openmoji/bird.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Stars give out light in the night sky, like tiny faraway suns. A kite and a bird do not."
+  }
+ ]
+}

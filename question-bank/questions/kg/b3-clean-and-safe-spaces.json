@@ -1,0 +1,525 @@
+{
+ "grade": 0,
+ "grade_name": "Kindergarten",
+ "topic": "B3",
+ "title": "Clean and Safe Spaces",
+ "strand": "earth",
+ "worksheet": "worksheets/kg-science/pdf/b3-clean-and-safe-spaces-study-pack.pdf",
+ "questions": [
+  {
+   "id": "kg-b3-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Dangers around us",
+   "stem": "Which one can hurt us?",
+   "options": [
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "fire",
+     "image": "openmoji/fire.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Fire is hot and can burn us. A teddy bear and a ball are safe to play with."
+  },
+  {
+   "id": "kg-b3-002",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Dangers around us",
+   "stem": "Tap the things that can hurt us.",
+   "options": [
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "fire",
+     "image": "openmoji/fire.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "socket",
+     "image": "openmoji/outlet.svg"
+    },
+    {
+     "text": "knife",
+     "image": "openmoji/kitchen-knife.svg"
+    }
+   ],
+   "answer": [
+    1,
+    3,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Fire, sockets and sharp knives can hurt us, so we keep away. A teddy bear and a ball are safe toys."
+  },
+  {
+   "id": "kg-b3-003",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Dangers around us",
+   "stem": "Sort the pictures. Play with it or keep away?",
+   "categories": [
+    "Play with",
+    "Keep away"
+   ],
+   "items": [
+    [
+     {
+      "text": "teddy bear",
+      "image": "openmoji/teddy-bear.svg"
+     },
+     "Play with"
+    ],
+    [
+     {
+      "text": "ball",
+      "image": "openmoji/football.svg"
+     },
+     "Play with"
+    ],
+    [
+     {
+      "text": "crayon",
+      "image": "openmoji/crayon.svg"
+     },
+     "Play with"
+    ],
+    [
+     {
+      "text": "fire",
+      "image": "openmoji/fire.svg"
+     },
+     "Keep away"
+    ],
+    [
+     {
+      "text": "knife",
+      "image": "openmoji/kitchen-knife.svg"
+     },
+     "Keep away"
+    ],
+    [
+     {
+      "text": "socket",
+      "image": "openmoji/outlet.svg"
+     },
+     "Keep away"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We play with toys like a teddy bear, a ball and crayons. We keep away from fire, knives and sockets."
+  },
+  {
+   "id": "kg-b3-004",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Rules and signs",
+   "stem": "The light is red. What does Mina do?",
+   "options": [
+    {
+     "text": "walk across",
+     "image": "openmoji/person-walking.svg"
+    },
+    {
+     "text": "stop",
+     "image": "openmoji/stop-sign.svg"
+    },
+    {
+     "text": "run across",
+     "image": "openmoji/person-running.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A red light means stop. Mina stops and waits for green before she goes."
+  },
+  {
+   "id": "kg-b3-005",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Rules and signs",
+   "stem": "Match each sign to what it says.",
+   "pairs": [
+    [
+     {
+      "text": "stop sign",
+      "image": "openmoji/stop-sign.svg"
+     },
+     "stop"
+    ],
+    [
+     {
+      "text": "warning",
+      "image": "openmoji/warning.svg"
+     },
+     "take care"
+    ],
+    [
+     {
+      "text": "traffic light",
+      "image": "openmoji/traffic-light.svg"
+     },
+     "wait for green"
+    ],
+    [
+     {
+      "text": "bin sign",
+      "image": "openmoji/litter-in-bin-sign.svg"
+     },
+     "use the bin"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A stop sign says stop. A warning sign says take care. A traffic light says wait for green. A bin sign says use the bin."
+  },
+  {
+   "id": "kg-b3-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Keeping places clean",
+   "stem": "We put rubbish in the ___.",
+   "blanks": [
+    [
+     "bin",
+     "dustbin",
+     "waste bin",
+     "wastebin"
+    ]
+   ],
+   "bank": [
+    "bin",
+    "river",
+    "tree"
+   ],
+   "read_aloud": true,
+   "explanation": "Rubbish goes in the bin. It does not go in the river or under a tree."
+  },
+  {
+   "id": "kg-b3-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Keeping places clean",
+   "stem": "Which one helps keep our hands clean?",
+   "options": [
+    {
+     "text": "soap",
+     "image": "openmoji/soap.svg"
+    },
+    {
+     "text": "sweets",
+     "image": "openmoji/candy.svg"
+    },
+    {
+     "text": "crayon",
+     "image": "openmoji/crayon.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Soap and water wash germs and dirt off our hands. Sweets and crayons do not clean us."
+  },
+  {
+   "id": "kg-b3-008",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Keeping places clean",
+   "stem": "Tap what helps keep us clean.",
+   "options": [
+    {
+     "text": "soap",
+     "image": "openmoji/soap.svg"
+    },
+    {
+     "text": "lollipop",
+     "image": "openmoji/lollipop.svg"
+    },
+    {
+     "text": "broom",
+     "image": "openmoji/broom.svg"
+    },
+    {
+     "text": "toothbrush",
+     "image": "openmoji/toothbrush.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "read_aloud": true,
+   "explanation": "Soap, a broom and a toothbrush help keep us and our places clean. A lollipop does not clean anything."
+  },
+  {
+   "id": "kg-b3-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Clean and dirty places",
+   "stem": "A clean place has no rubbish on the floor.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A clean place has no rubbish and smells fresh."
+  },
+  {
+   "id": "kg-b3-010",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "What to do in danger",
+   "stem": "Danger! Put what we do in order.",
+   "sequence": [
+    {
+     "text": "stop",
+     "image": "openmoji/stop-sign.svg"
+    },
+    {
+     "text": "keep away",
+     "image": "openmoji/no-entry.svg"
+    },
+    {
+     "text": "tell a grown-up",
+     "image": "openmoji/adult.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "First we stop. Then we keep away. Last we tell a grown-up, who can help."
+  },
+  {
+   "id": "kg-b3-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What to do in danger",
+   "stem": "Ayaan sees a hot pan. What should he do?",
+   "options": [
+    {
+     "text": "Touch the pan"
+    },
+    {
+     "text": "Pick it up"
+    },
+    {
+     "text": "Keep away"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A hot pan can burn us. Ayaan keeps away from the stove."
+  },
+  {
+   "id": "kg-b3-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Keeping places clean",
+   "stem": "Raju has an empty can. Where should it go?",
+   "image": "openmoji/tin-can.svg",
+   "image_alt": "A tin can.",
+   "options": [
+    {
+     "text": "river",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "bin",
+     "image": "openmoji/wastebasket.svg"
+    },
+    {
+     "text": "tree",
+     "image": "openmoji/deciduous-tree.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Empty cans go in the bin. Rubbish in a river or under a tree makes the place dirty."
+  },
+  {
+   "id": "kg-b3-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Dangers around us",
+   "stem": "Tuli finds some medicine. What should she do?",
+   "image": "openmoji/pill.svg",
+   "image_alt": "A pill.",
+   "options": [
+    {
+     "text": "tell a grown-up",
+     "image": "openmoji/adult.svg"
+    },
+    {
+     "text": "taste it",
+     "image": "openmoji/tongue.svg"
+    },
+    {
+     "text": "play with it",
+     "image": "openmoji/yo-yo.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Medicine can be dangerous if we take it by ourselves. Tuli tells a grown-up."
+  },
+  {
+   "id": "kg-b3-014",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Rules and signs",
+   "stem": "Nadia waits for the green light before she crosses.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "We wait for the green light and look both ways before we cross."
+  },
+  {
+   "id": "kg-b3-015",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Dangers around us",
+   "stem": "A hot pan can burn us.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Hot pans and stoves can burn us, so we keep away."
+  },
+  {
+   "id": "kg-b3-016",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Clean and dirty places",
+   "stem": "Example: 4 papers, 3 bottles, 2 cans. Which was most?",
+   "options": [
+    {
+     "text": "cans",
+     "image": "openmoji/tin-can.svg"
+    },
+    {
+     "text": "bottles",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "paper",
+     "image": "openmoji/newspaper.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Count each one. There were 4 papers, which is more than 3 bottles or 2 cans."
+  },
+  {
+   "id": "kg-b3-017",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "What to do in danger",
+   "stem": "A ball rolls onto the road. What should Joy do?",
+   "options": [
+    {
+     "text": "Stop and ask a grown-up"
+    },
+    {
+     "text": "Run after it"
+    },
+    {
+     "text": "Close her eyes"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Joy should stop and ask a grown-up. Running onto the road is dangerous."
+  },
+  {
+   "id": "kg-b3-018",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Dangers around us",
+   "stem": "We can play with plugs and sockets.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "Plugs and sockets use strong electricity and can hurt us. We never play with them."
+  },
+  {
+   "id": "kg-b3-019",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "What to do in danger",
+   "stem": "If something looks dangerous, tell a ___.",
+   "blanks": [
+    [
+     "grown-up",
+     "grown up",
+     "grownup",
+     "adult",
+     "teacher",
+     "parent",
+     "mother",
+     "father"
+    ]
+   ],
+   "bank": [
+    "grown-up",
+    "toy",
+    "pet"
+   ],
+   "read_aloud": true,
+   "explanation": "When we see danger, we keep away and tell a grown-up."
+  },
+  {
+   "id": "kg-b3-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Dangers around us",
+   "stem": "Mina is by deep water. She stays with a grown-up.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Deep water is a danger. Staying with a grown-up keeps us safe."
+  }
+ ]
+}

@@ -1,0 +1,490 @@
+{
+ "grade": 0,
+ "grade_name": "Kindergarten",
+ "topic": "C2",
+ "title": "Pushes and Pulls",
+ "strand": "physical",
+ "worksheet": "worksheets/kg-science/pdf/c2-pushes-and-pulls-study-pack.pdf",
+ "questions": [
+  {
+   "id": "kg-c2-001",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Push or pull?",
+   "stem": "Sort the pictures. Push or pull?",
+   "categories": [
+    "Push",
+    "Pull"
+   ],
+   "items": [
+    [
+     {
+      "text": "kick a ball",
+      "image": "openmoji/football.svg"
+     },
+     "Push"
+    ],
+    [
+     {
+      "text": "shut a door",
+      "image": "openmoji/door.svg"
+     },
+     "Push"
+    ],
+    [
+     {
+      "text": "trolley",
+      "image": "openmoji/shopping-cart.svg"
+     },
+     "Push"
+    ],
+    [
+     {
+      "text": "kite string",
+      "image": "openmoji/kite.svg"
+     },
+     "Pull"
+    ],
+    [
+     {
+      "text": "bucket rope",
+      "image": "openmoji/bucket.svg"
+     },
+     "Pull"
+    ],
+    [
+     {
+      "text": "tractor and trailer",
+      "image": "openmoji/tractor.svg"
+     },
+     "Pull"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We push a ball when we kick it, push a door shut and push a trolley. We pull a kite string, pull a bucket rope and a tractor pulls a trailer."
+  },
+  {
+   "id": "kg-c2-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Push or pull?",
+   "stem": "Which one do we push?",
+   "options": [
+    {
+     "text": "kite string",
+     "image": "openmoji/kite.svg"
+    },
+    {
+     "text": "trolley",
+     "image": "openmoji/shopping-cart.svg"
+    },
+    {
+     "text": "bucket rope",
+     "image": "openmoji/bucket.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "We push a trolley away from us. We pull a kite string and a bucket rope towards us."
+  },
+  {
+   "id": "kg-c2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Push or pull?",
+   "stem": "Which one shows a pull?",
+   "options": [
+    {
+     "text": "pull it",
+     "image": "openmoji/bucket.svg"
+    },
+    {
+     "text": "kick it",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "shut it",
+     "image": "openmoji/door.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Pulling up a bucket on a rope is a pull. Kicking a ball and shutting a door are pushes."
+  },
+  {
+   "id": "kg-c2-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Push or pull?",
+   "stem": "A push moves something away from you.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A push moves things away from us. A pull moves things towards us."
+  },
+  {
+   "id": "kg-c2-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Push or pull?",
+   "stem": "A pull moves something towards you.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A pull brings things closer to us, like pulling a cart or a kite string."
+  },
+  {
+   "id": "kg-c2-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Pushes and pulls every day",
+   "stem": "Opening a drawer is a ___.",
+   "blanks": [
+    [
+     "pull"
+    ]
+   ],
+   "bank": [
+    "pull",
+    "push",
+    "jump"
+   ],
+   "read_aloud": true,
+   "explanation": "We pull a drawer towards us to open it."
+  },
+  {
+   "id": "kg-c2-007",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What pushes and pulls can do",
+   "stem": "Match what we do to what happens.",
+   "pairs": [
+    [
+     {
+      "text": "kick a still ball",
+      "image": "openmoji/football.svg"
+     },
+     "it starts to move"
+    ],
+    [
+     {
+      "text": "catch a rolling ball",
+      "image": "openmoji/hand.svg"
+     },
+     "it stops"
+    ],
+    [
+     {
+      "text": "pedal harder",
+      "image": "openmoji/bicycle.svg"
+     },
+     "it goes faster"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Kicking a still ball starts it moving. Catching a rolling ball stops it. Pedalling harder makes a bicycle go faster."
+  },
+  {
+   "id": "kg-c2-008",
+   "mode": "picture",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Movement and causes",
+   "stem": "Put the boat story in order.",
+   "sequence": [
+    {
+     "text": "boat in the river",
+     "image": "openmoji/rowing-boat.svg"
+    },
+    {
+     "text": "push and pull",
+     "image": "openmoji/family.svg"
+    },
+    {
+     "text": "boat on the bank",
+     "image": "openmoji/beach.svg"
+    }
+   ],
+   "read_aloud": true,
+   "explanation": "The boat comes back from the river. Then the people push and pull it. At the end it is up on the bank."
+  },
+  {
+   "id": "kg-c2-009",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Movement and causes",
+   "stem": "Which will roll down a slope?",
+   "options": [
+    {
+     "text": "book",
+     "image": "openmoji/notebook.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "box",
+     "image": "openmoji/package.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A ball is round, so it rolls down a slope. A flat book or a box slides but does not roll."
+  },
+  {
+   "id": "kg-c2-010",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Movement and causes",
+   "stem": "Mina wants her toy car to go faster. What can she do?",
+   "options": [
+    {
+     "text": "Hold it still"
+    },
+    {
+     "text": "Push it softly"
+    },
+    {
+     "text": "Push it hard"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A bigger push makes the car go faster. A small push makes it go slowly and holding it makes it stop."
+  },
+  {
+   "id": "kg-c2-011",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Movement and causes",
+   "stem": "A push from a friend makes Tuli's swing go faster.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A push can make something go faster, like a swing."
+  },
+  {
+   "id": "kg-c2-012",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Pushes and pulls every day",
+   "stem": "Tap how the people move the heavy boat.",
+   "options": [
+    {
+     "text": "Pull the rope"
+    },
+    {
+     "text": "Go to sleep"
+    },
+    {
+     "text": "Push the back"
+    },
+    {
+     "text": "Eat a mango"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "The people pulled the rope and pushed the back of the boat. Sleeping and eating do not move a boat."
+  },
+  {
+   "id": "kg-c2-013",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pushes and pulls in a simulation",
+   "stem": "The cart stays still when both teams pull the same.",
+   "sim": {
+    "id": "forces-and-motion-basics",
+    "task": "Open Forces and Motion: Basics and choose Net Force. Put one small puller on the blue rope on the left and one small puller on the red rope on the right. Press Go and watch the cart."
+   },
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "When both sides pull with the same strength, the pulls cancel out and the cart does not move."
+  },
+  {
+   "id": "kg-c2-014",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Pushes and pulls in a simulation",
+   "stem": "Which way does the cart go?",
+   "sim": {
+    "id": "forces-and-motion-basics",
+    "task": "Open Forces and Motion: Basics and choose Net Force. Put one small puller on the blue rope on the left. Put two small pullers on the red rope on the right. Press Go and watch the cart."
+   },
+   "options": [
+    {
+     "text": "to the red side"
+    },
+    {
+     "text": "to the blue side"
+    },
+    {
+     "text": "it stays still"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Two pullers pull harder than one puller. The cart goes to the red side where there are more pullers."
+  },
+  {
+   "id": "kg-c2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Pushes and pulls every day",
+   "stem": "Which animal can pull a cart?",
+   "options": [
+    {
+     "text": "cow",
+     "image": "openmoji/cow.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "owl",
+     "image": "openmoji/owl.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A cow or a water buffalo is strong and can pull a cart. Fish and owls cannot."
+  },
+  {
+   "id": "kg-c2-016",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Movement and causes",
+   "stem": "Example: car 7 tiles, bus 4, rickshaw 5. Which went farthest?",
+   "options": [
+    {
+     "text": "rickshaw",
+     "image": "openmoji/auto-rickshaw.svg"
+    },
+    {
+     "text": "bus",
+     "image": "openmoji/bus.svg"
+    },
+    {
+     "text": "red car",
+     "image": "openmoji/car.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Compare the numbers. The red car rolled 7 tiles, which is more than 5 or 4."
+  },
+  {
+   "id": "kg-c2-017",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What pushes and pulls can do",
+   "stem": "A ball starts to roll. A push or pull made it.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Things do not start moving by themselves. A push or a pull makes them move."
+  },
+  {
+   "id": "kg-c2-018",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What pushes and pulls can do",
+   "stem": "A push can make a ball do what?",
+   "options": [
+    {
+     "text": "sing"
+    },
+    {
+     "text": "roll"
+    },
+    {
+     "text": "grow"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A push can make a ball roll, speed up, slow down or change direction. It cannot make a ball sing or grow."
+  },
+  {
+   "id": "kg-c2-019",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Push or pull?",
+   "stem": "Tap the things we push.",
+   "options": [
+    {
+     "text": "trolley",
+     "image": "openmoji/shopping-cart.svg"
+    },
+    {
+     "text": "kite string",
+     "image": "openmoji/kite.svg"
+    },
+    {
+     "text": "kick a ball",
+     "image": "openmoji/football.svg"
+    },
+    {
+     "text": "bucket rope",
+     "image": "openmoji/bucket.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "We push a trolley and we push a ball when we kick it. We pull a kite string and a bucket rope."
+  },
+  {
+   "id": "kg-c2-020",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What pushes and pulls can do",
+   "stem": "A push can make a moving thing stop.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A push can stop something, like a hand stopping a rolling ball."
+  }
+ ]
+}
