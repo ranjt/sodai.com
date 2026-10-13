@@ -16,11 +16,11 @@
    "stem": "Energy is what makes things…",
    "options": [
     "stop, stay still or break",
-    "work, move or change",
+    "get lost or found",
     "grow heavy or light",
-    "get lost or found"
+    "work, move or change"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "You need energy to run and think, a fan needs it to spin and a lamp needs it to shine. We cannot see energy, but we can see what it does."
   },
   {
@@ -207,12 +207,12 @@
    "subskill": "Energy changes and transfers",
    "stem": "A hot spoon warms your hand. What is happening to the heat energy?",
    "options": [
-    "It is destroyed when it touches skin.",
+    "It is passed on to your hand.",
     "It is made from nothing at all.",
     "It is changed into sound.",
-    "It is passed on to your hand."
+    "It is destroyed when it touches skin."
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "Heat energy is transferred (passed on) from the hot spoon to your cooler hand. Energy is not destroyed or created."
   },
   {
@@ -261,12 +261,12 @@
    "subskill": "Saving energy and sources",
    "stem": "Which action helps to save energy at home?",
    "options": [
-    "Switch off fans in empty rooms.",
     "Leave the TV on while you sleep.",
+    "Switch off fans in empty rooms.",
     "Use the oldest, hottest bulbs.",
     "Keep the fridge door open longer."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Using less electricity saves energy. Switching off fans, lights and TVs when nobody is using them is one of the easiest ways."
   },
   {
@@ -381,23 +381,23 @@
    "stem": "Which picture shows a device that changes light from the Sun into electrical energy?",
    "options": [
     {
-     "text": "fan",
-     "image": "openmoji/fan.svg"
+     "text": "solar panel",
+     "image": "openmoji/solar-energy.svg"
     },
     {
      "text": "candle",
      "image": "openmoji/candle.svg"
     },
     {
-     "text": "solar panel",
-     "image": "openmoji/solar-energy.svg"
+     "text": "fan",
+     "image": "openmoji/fan.svg"
     },
     {
      "text": "loudspeaker",
      "image": "openmoji/loudspeaker.svg"
     }
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "A solar panel catches sunlight and changes it into electrical energy. A fan, a candle and a loudspeaker do different jobs."
   },
   {
@@ -482,19 +482,19 @@
      "image": "openmoji/light-bulb.svg"
     },
     {
-     "text": "loudspeaker",
-     "image": "openmoji/loudspeaker.svg"
+     "text": "electric torch",
+     "image": "openmoji/flashlight.svg"
     },
     {
      "text": "fan",
      "image": "openmoji/fan.svg"
     },
     {
-     "text": "electric torch",
-     "image": "openmoji/flashlight.svg"
+     "text": "loudspeaker",
+     "image": "openmoji/loudspeaker.svg"
     }
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "A loudspeaker turns electrical energy into sound. A bulb makes light, a fan makes movement, and a torch changes chemical energy in its cells to light."
   },
   {
@@ -507,11 +507,11 @@
    "stem": "A family in a village makes biogas from cow dung. Why is biogas called a renewable source?",
    "options": [
     "It took millions of years to form deep underground.",
-    "It comes from under the ground and is soon used up.",
     "More gas can be made while the cows keep eating.",
+    "It comes from under the ground and is soon used up.",
     "It is made from coal that has been cleaned."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Cows eat grass and make dung all the time, so new gas can keep being made. Coal, oil and natural gas took millions of years to form and will run out."
   },
   {
@@ -523,12 +523,12 @@
    "subskill": "Saving energy and sources",
    "stem": "An old filament bulb gets very hot, but an LED bulb stays cool. Which one wastes more energy as heat?",
    "options": [
-    "the old filament bulb",
-    "the LED bulb",
     "both waste exactly the same",
+    "the LED bulb",
+    "the old filament bulb",
     "neither one wastes any"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "Much of the electrical energy in a filament bulb becomes heat instead of light. LEDs give the same light with much less electricity."
   },
   {
@@ -605,11 +605,11 @@
    },
    "options": [
     "electrical → kinetic → heat",
-    "light → electrical → light",
     "chemical → sound → light",
+    "light → electrical → light",
     "heat → electrical → sound"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "The solar panel changes the Sun's light into electrical energy. The bulb then changes the electricity back into light, with a little heat."
   },
   {
@@ -663,11 +663,11 @@
    "stem": "Class 4A pulled a rubber band back by 2, 4, 6, 8 and 10 cm. A toy car travelled 40, 85, 130, 170 and 210 cm. About how far would the car go for a pull of 12 cm?",
    "options": [
     "about 190 cm",
-    "about 300 cm",
+    "about 250 cm",
     "about 420 cm",
-    "about 250 cm"
+    "about 300 cm"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "Each extra 2 cm of pull adds about 40 to 45 cm, so 12 cm gives about 210 + 40 = 250 cm. A more stretched band stores more energy, which becomes more kinetic energy."
   },
   {

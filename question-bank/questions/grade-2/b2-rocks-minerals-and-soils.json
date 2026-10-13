@@ -16,11 +16,11 @@
    "stem": "Which rock is soft, white and crumbly, and is used to write on boards?",
    "options": [
     "granite",
-    "marble",
     "chalk",
+    "marble",
     "slate"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Chalk is a soft, white, crumbly rock, so it leaves marks on a board. Granite, marble and slate are much harder."
   },
   {
@@ -350,11 +350,11 @@
    "stem": "Raju wants to know what builders in Bangladesh use to make walls, because there are very few rocks on the surface. What do they use?",
    "options": [
     "walls of cut slate sheets",
-    "bricks baked from clay",
+    "lumps of salt and sand",
     "blocks of pressed chalk",
-    "lumps of salt and sand"
+    "bricks baked from clay"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Builders dig up clay soil, shape it into blocks and bake it in a brick kiln. This gives hard bricks for houses, schools and roads."
   },
   {
@@ -421,11 +421,11 @@
    "stem": "Class 2C poured 100 ml of water on each soil. Water that dripped through: sand 80 ml, garden soil 50 ml, clay 20 ml. Tuli says, \"Sand holds the most water because it has the biggest number.\" What is the best reply?",
    "options": [
     "Yes. A bigger number always means more water held.",
-    "No. Sand holds 80 ml and clay holds 20 ml.",
+    "No. The number shows water that went through.",
     "Yes. Sand is the heaviest soil of all.",
-    "No. The number shows water that went through."
+    "No. Sand holds 80 ml and clay holds 20 ml."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "The number is the water that dripped through. Sand let 80 ml through and kept about 20 ml. Clay let 20 ml through and kept about 80 ml, so clay held the most."
   },
   {
@@ -477,12 +477,12 @@
    "subskill": "Soil",
    "stem": "Imran tests sand with 100 ml of water. Anika tests clay with 200 ml of water. Why is their test not fair?",
    "options": [
-    "The water amounts were different.",
-    "Clay cannot be tested with water.",
     "Sand is too dry to be tested.",
+    "Clay cannot be tested with water.",
+    "The water amounts were different.",
     "Imran and Anika are different ages."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "In a fair test only one thing changes: the type of soil. The amount of water, the funnel and the amount of soil must stay the same."
   },
   {
@@ -531,12 +531,12 @@
    "subskill": "Minerals",
    "stem": "Metals such as iron and copper come from…",
    "options": [
-    "rain clouds",
     "minerals in rocks",
+    "rain clouds",
     "the air around us",
     "dead leaves"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Gold, iron and copper are taken from minerals in rocks. People use them to make tools, wires and jewellery."
   },
   {

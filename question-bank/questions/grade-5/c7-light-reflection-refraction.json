@@ -63,12 +63,12 @@
    "subskill": "Light sources and seeing",
    "stem": "We see a light source, such as a candle flame, when…",
    "options": [
-    "our eyes send rays out to it",
-    "it makes the air around it bright",
     "light from it enters our eyes",
+    "it makes the air around it bright",
+    "our eyes send rays out to it",
     "it casts a shadow on our eyes"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Seeing happens when light enters the eye. Ibn al-Haytham showed more than 1000 years ago that our eyes do not send out rays."
   },
   {
@@ -187,11 +187,11 @@
    "stem": "A straw in a glass of water looks bent. This is because of…",
    "options": [
     "reflection",
-    "refraction",
+    "lateral inversion",
     "absorption",
-    "lateral inversion"
+    "refraction"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Light travels more slowly in water than in air, so it changes direction at the surface. This bending is refraction."
   },
   {
@@ -204,11 +204,11 @@
    "stem": "Why does the pupil get smaller when you walk out into bright sunshine?",
    "options": [
     "to make the lens bigger",
-    "to stop the eyelid closing",
+    "to let less light into the eye",
     "to send light back out",
-    "to let less light into the eye"
+    "to stop the eyelid closing"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "The pupil is a hole that gets smaller in bright light and bigger in the dark. A smaller pupil protects the retina from too much light."
   },
   {
@@ -369,12 +369,12 @@
    "image": "diagrams/periscope.svg",
    "image_alt": "A periscope with two mirrors at 45 degrees.",
    "options": [
-    "It reflects off two mirrors.",
-    "It bends through a lens.",
     "It is absorbed by the tube.",
+    "It bends through a lens.",
+    "It reflects off two mirrors.",
     "It travels straight through."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "The two mirrors are set at 45°, so the light turns a right angle at each one: first down the tube, then out to the eye."
   },
   {
@@ -390,10 +390,10 @@
    "options": [
     "55°",
     "70°",
-    "145°",
-    "35°"
+    "35°",
+    "145°"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "The picture shows that angle i = angle r. The light bounces off at the same angle, measured from the normal."
   },
   {
@@ -405,12 +405,12 @@
    "subskill": "Refraction",
    "stem": "A fisherman at a pond sees a fish that looks close to the water surface, but his spear misses. Where should he aim?",
    "options": [
-    "exactly where the fish seems to be",
     "lower than where the fish seems to be",
+    "exactly where the fish seems to be",
     "higher than where the fish seems to be",
     "at the shadow of the boat"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Light from the fish bends as it leaves the water, so the fish looks higher (shallower) than it really is. He must aim lower."
   },
   {
@@ -423,11 +423,11 @@
    "stem": "At lunch, Priya’s friends dare her to look straight at the bright Sun for a few seconds. What should she do?",
    "options": [
     "Look quickly through sunglasses",
-    "Look for just one second",
     "Say no, because it can damage her eyes for ever",
+    "Look for just one second",
     "Look only if she squints"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Never look directly at the Sun, even with sunglasses. Its light is strong enough to damage the retina permanently."
   },
   {
@@ -494,11 +494,11 @@
    },
    "options": [
     "They pass straight through, unchanged.",
-    "They bend as they go into and out of the glass.",
     "They stop at the lens.",
+    "They bend as they go into and out of the glass.",
     "They turn into different colours."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "A convex lens refracts light: the rays change direction in the glass, and the bent rays can meet to make an image."
   },
   {
@@ -530,11 +530,11 @@
    },
    "options": [
     "white light, but dimmer",
-    "red, green and blue light",
+    "only red light",
     "no light at all",
-    "only red light"
+    "red, green and blue light"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "The red filter absorbs the other colours and lets only red light through. The filter is an example of a material that absorbs some light."
   },
   {

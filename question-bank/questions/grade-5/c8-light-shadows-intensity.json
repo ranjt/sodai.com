@@ -64,12 +64,12 @@
    "subskill": "Transparent, translucent, opaque",
    "stem": "Which material would make the darkest shadow?",
    "options": [
-    "clear glass",
-    "tracing paper",
     "cardboard",
+    "tracing paper",
+    "clear glass",
     "water"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Cardboard is opaque, so it blocks all the light. Clear glass and water let light pass, and tracing paper lets some through."
   },
   {
@@ -160,11 +160,11 @@
    "stem": "Why are shadows longer in the morning and evening than at midday?",
    "options": [
     "The Sun is brighter.",
-    "The Sun is low in the sky.",
+    "The shadow is pushed by the wind.",
     "The object grows taller.",
-    "The shadow is pushed by the wind."
+    "The Sun is low in the sky."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "When the Sun is low, its light hits objects at a slant and makes long shadows. At midday the Sun is highest, so shadows are shortest."
   },
   {
@@ -250,10 +250,10 @@
    "options": [
     "decibel",
     "newton",
-    "degree",
-    "lux"
+    "lux",
+    "degree"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Light intensity (how bright light is) is measured with a light meter in lux."
   },
   {
@@ -324,11 +324,11 @@
    "image_alt": "A stick and its shadow at morning, midday and evening as the Sun moves across the sky.",
    "options": [
     "morning",
-    "evening",
     "midday",
+    "evening",
     "it is always the same"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "At midday the Sun is highest in the sky, so the shadow is shortest. In the morning and evening it is long."
   },
   {
@@ -355,12 +355,12 @@
    "image": "diagrams/shadow-setup.svg",
    "image_alt": "A torch, an object and its shadow on a screen.",
    "options": [
-    "It gets bigger.",
     "It gets smaller.",
+    "It gets bigger.",
     "It disappears.",
     "It changes colour."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "A nearer object blocks more of the light from the torch, so its shadow is bigger (and a little more blurred)."
   },
   {
@@ -374,12 +374,12 @@
    "image": "diagrams/shadow-setup.svg",
    "image_alt": "A torch, an object and its shadow on a screen.",
    "options": [
-    "move the screen away",
     "turn or tilt the object",
+    "move the screen away",
     "use a brighter torch",
     "make the room darker"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "The shadow is the outline of the object as seen from the light. Turning or tilting the object changes the outline, so the shape changes."
   },
   {
@@ -395,10 +395,10 @@
    "options": [
     "The torch gives out dark light.",
     "The screen absorbs all the light.",
-    "The object makes its own darkness.",
-    "The opaque object blocks the light."
+    "The opaque object blocks the light.",
+    "The object makes its own darkness."
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Light cannot go through an opaque object or bend round it, so the screen behind it receives no light."
   },
   {
@@ -410,12 +410,12 @@
    "subskill": "Shadow size and shape",
    "stem": "Rafi is putting on a shadow puppet show with a lamp and a cloth screen. How can he make a puppet’s shadow bigger?",
    "options": [
-    "move it closer to the lamp",
+    "use a coloured paper puppet",
     "move it closer to the screen",
     "move it further from the lamp",
-    "use a coloured paper puppet"
+    "move it closer to the lamp"
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "The closer the puppet is to the lamp, the more light it blocks and the bigger the shadow. Colour makes no difference to a shadow."
   },
   {
@@ -462,10 +462,10 @@
    "options": [
     "The stick slowly turns round on the ground.",
     "The wind pushes the shadow round the stick.",
-    "The Sun gets bigger and then smaller.",
-    "The Sun seems to move as the Earth spins."
+    "The Sun seems to move as the Earth spins.",
+    "The Sun gets bigger and then smaller."
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Shadows always point away from the Sun. As the Sun seems to move from east to west, the shadow moves round, so the sundial can tell the time."
   },
   {
@@ -547,12 +547,12 @@
    "subskill": "Shadow size and shape",
    "stem": "In Jamal’s test, which change would make the test unfair?",
    "options": [
-    "using the same torch every time",
     "using a bigger puppet for the 30 cm trial",
+    "using the same torch every time",
     "keeping the screen 60 cm from the torch",
     "measuring the shadow height each time"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Only the distance from the torch may change. A different puppet size would change the shadow too, so we could not tell what caused the difference."
   },
   {

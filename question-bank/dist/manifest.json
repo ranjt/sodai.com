@@ -5,13 +5,13 @@
    "grade": 0,
    "grade_name": "KG",
    "file": "dist/kg.json",
-   "questions": 160,
+   "questions": 240,
    "modes": {
-    "core": 53,
-    "picture": 66,
-    "real-life": 26,
-    "simulation": 0,
-    "olympiad": 15
+    "core": 76,
+    "picture": 99,
+    "real-life": 41,
+    "simulation": 2,
+    "olympiad": 22
    },
    "topics": [
     {
@@ -229,6 +229,114 @@
       "truefalse": 4,
       "order": 1
      }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "B3",
+     "title": "Clean and Safe Spaces",
+     "strand": "earth",
+     "site_skill": "E3",
+     "worksheet": "worksheets/kg-science/pdf/b3-clean-and-safe-spaces-study-pack.pdf",
+     "file": "questions/kg/b3-clean-and-safe-spaces.json",
+     "count": 20,
+     "modes": {
+      "core": 5,
+      "picture": 9,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "mcq": 8,
+      "multi": 2,
+      "sort": 1,
+      "match": 1,
+      "fill": 2,
+      "truefalse": 5,
+      "order": 1
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "C1",
+     "title": "Materials Around Us",
+     "strand": "physical",
+     "site_skill": "P1",
+     "worksheet": "worksheets/kg-science/pdf/c1-materials-around-us-study-pack.pdf",
+     "file": "questions/kg/c1-materials-around-us.json",
+     "count": 20,
+     "modes": {
+      "core": 6,
+      "picture": 8,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "mcq": 7,
+      "match": 1,
+      "sort": 2,
+      "multi": 2,
+      "truefalse": 5,
+      "fill": 2,
+      "order": 1
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "C2",
+     "title": "Pushes and Pulls",
+     "strand": "physical",
+     "site_skill": "P2",
+     "worksheet": "worksheets/kg-science/pdf/c2-pushes-and-pulls-study-pack.pdf",
+     "file": "questions/kg/c2-pushes-and-pulls.json",
+     "count": 20,
+     "modes": {
+      "core": 6,
+      "picture": 8,
+      "real-life": 3,
+      "simulation": 2,
+      "olympiad": 1
+     },
+     "types": {
+      "sort": 1,
+      "mcq": 8,
+      "truefalse": 6,
+      "fill": 1,
+      "match": 1,
+      "order": 1,
+      "multi": 2
+     }
+    },
+    {
+     "grade": 0,
+     "grade_name": "KG",
+     "topic": "C3",
+     "title": "Light and Sound",
+     "strand": "physical",
+     "site_skill": "P3",
+     "worksheet": "worksheets/kg-science/pdf/c3-light-and-sound-study-pack.pdf",
+     "file": "questions/kg/c3-light-and-sound.json",
+     "count": 20,
+     "modes": {
+      "core": 6,
+      "picture": 8,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 2
+     },
+     "types": {
+      "multi": 2,
+      "sort": 1,
+      "mcq": 8,
+      "match": 1,
+      "truefalse": 5,
+      "order": 1,
+      "fill": 2
+     }
     }
    ]
   },
@@ -236,13 +344,13 @@
    "grade": 1,
    "grade_name": "Grade 1",
    "file": "dist/grade-1.json",
-   "questions": 168,
+   "questions": 264,
    "modes": {
-    "core": 66,
-    "picture": 44,
-    "real-life": 37,
-    "simulation": 0,
-    "olympiad": 21
+    "core": 101,
+    "picture": 69,
+    "real-life": 60,
+    "simulation": 2,
+    "olympiad": 32
    },
    "topics": [
     {
@@ -440,6 +548,118 @@
       "order": 1,
       "short": 1
      }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "C1",
+     "title": "Materials and Their Shapes",
+     "strand": "physical",
+     "site_skill": "P1",
+     "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+     "file": "questions/grade-1/c1-materials-and-their-shapes.json",
+     "count": 24,
+     "modes": {
+      "core": 10,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 10,
+      "sort": 2,
+      "truefalse": 5,
+      "fill": 2,
+      "match": 2,
+      "short": 1,
+      "order": 1,
+      "multi": 1
+     }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "C2",
+     "title": "Heating, Cooling and Dissolving",
+     "strand": "physical",
+     "site_skill": "P2",
+     "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+     "file": "questions/grade-1/c2-heating-cooling-and-dissolving.json",
+     "count": 24,
+     "modes": {
+      "core": 8,
+      "picture": 6,
+      "real-life": 7,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "sort": 2,
+      "mcq": 9,
+      "multi": 2,
+      "truefalse": 5,
+      "fill": 2,
+      "match": 2,
+      "order": 1,
+      "short": 1
+     }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "C3",
+     "title": "Light and Sound",
+     "strand": "physical",
+     "site_skill": "P3",
+     "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+     "file": "questions/grade-1/c3-light-and-sound.json",
+     "count": 24,
+     "modes": {
+      "core": 8,
+      "picture": 7,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "multi": 2,
+      "sort": 1,
+      "truefalse": 6,
+      "fill": 2,
+      "match": 1,
+      "mcq": 10,
+      "order": 1,
+      "short": 1
+     }
+    },
+    {
+     "grade": 1,
+     "grade_name": "Grade 1",
+     "topic": "C4",
+     "title": "Electricity",
+     "strand": "physical",
+     "site_skill": "P4",
+     "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+     "file": "questions/grade-1/c4-electricity.json",
+     "count": 24,
+     "modes": {
+      "core": 9,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 2,
+      "olympiad": 2
+     },
+     "types": {
+      "truefalse": 7,
+      "mcq": 9,
+      "match": 1,
+      "sort": 2,
+      "fill": 2,
+      "order": 1,
+      "multi": 1,
+      "short": 1
+     }
     }
    ]
   },
@@ -447,13 +667,13 @@
    "grade": 2,
    "grade_name": "Grade 2",
    "file": "dist/grade-2.json",
-   "questions": 208,
+   "questions": 312,
    "modes": {
-    "core": 99,
-    "picture": 48,
-    "real-life": 34,
-    "simulation": 0,
-    "olympiad": 27
+    "core": 148,
+    "picture": 68,
+    "real-life": 50,
+    "simulation": 7,
+    "olympiad": 39
    },
    "topics": [
     {
@@ -679,6 +899,118 @@
       "order": 1,
       "short": 2
      }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "B2",
+     "title": "Rocks, Minerals and Soils",
+     "strand": "earth",
+     "site_skill": "E2",
+     "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+     "file": "questions/grade-2/b2-rocks-minerals-and-soils.json",
+     "count": 26,
+     "modes": {
+      "core": 14,
+      "picture": 5,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 11,
+      "match": 2,
+      "truefalse": 4,
+      "fill": 2,
+      "multi": 2,
+      "order": 2,
+      "short": 2,
+      "sort": 1
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "C1",
+     "title": "States of Matter",
+     "strand": "physical",
+     "site_skill": "P1",
+     "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+     "file": "questions/grade-2/c1-states-of-matter.json",
+     "count": 26,
+     "modes": {
+      "core": 12,
+      "picture": 5,
+      "real-life": 4,
+      "simulation": 2,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 11,
+      "sort": 2,
+      "match": 2,
+      "truefalse": 5,
+      "fill": 2,
+      "multi": 1,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "C2",
+     "title": "Forces and Motion",
+     "strand": "physical",
+     "site_skill": "P2",
+     "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+     "file": "questions/grade-2/c2-forces-and-motion.json",
+     "count": 26,
+     "modes": {
+      "core": 11,
+      "picture": 5,
+      "real-life": 4,
+      "simulation": 3,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 11,
+      "sort": 1,
+      "match": 1,
+      "fill": 2,
+      "truefalse": 6,
+      "short": 2,
+      "order": 1,
+      "multi": 2
+     }
+    },
+    {
+     "grade": 2,
+     "grade_name": "Grade 2",
+     "topic": "C3",
+     "title": "Hearing and Sound",
+     "strand": "physical",
+     "site_skill": "P3",
+     "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+     "file": "questions/grade-2/c3-hearing-and-sound.json",
+     "count": 26,
+     "modes": {
+      "core": 12,
+      "picture": 5,
+      "real-life": 4,
+      "simulation": 2,
+      "olympiad": 3
+     },
+     "types": {
+      "mcq": 11,
+      "match": 2,
+      "sort": 2,
+      "order": 1,
+      "fill": 1,
+      "truefalse": 4,
+      "multi": 3,
+      "short": 2
+     }
     }
    ]
   },
@@ -686,13 +1018,13 @@
    "grade": 3,
    "grade_name": "Grade 3",
    "file": "dist/grade-3.json",
-   "questions": 196,
+   "questions": 392,
    "modes": {
-    "core": 90,
-    "picture": 41,
-    "real-life": 33,
-    "simulation": 3,
-    "olympiad": 29
+    "core": 175,
+    "picture": 78,
+    "real-life": 64,
+    "simulation": 18,
+    "olympiad": 57
    },
    "topics": [
     {
@@ -866,10 +1198,122 @@
     {
      "grade": 3,
      "grade_name": "Grade 3",
+     "topic": "B1",
+     "title": "The Solar System",
+     "strand": "earth",
+     "site_skill": "E1",
+     "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+     "file": "questions/grade-3/b1-the-solar-system.json",
+     "count": 28,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 4,
+      "simulation": 3,
+      "olympiad": 3
+     },
+     "types": {
+      "order": 2,
+      "match": 4,
+      "truefalse": 5,
+      "fill": 1,
+      "mcq": 12,
+      "multi": 1,
+      "sort": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "B2",
+     "title": "Day, Night, Seasons and the Moon",
+     "strand": "earth",
+     "site_skill": "E2",
+     "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+     "file": "questions/grade-3/b2-day-night-seasons-and-the-moon.json",
+     "count": 28,
+     "modes": {
+      "core": 12,
+      "picture": 6,
+      "real-life": 4,
+      "simulation": 2,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 12,
+      "fill": 2,
+      "truefalse": 6,
+      "order": 1,
+      "match": 2,
+      "multi": 2,
+      "sort": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "B3",
+     "title": "Waste and Our World",
+     "strand": "earth",
+     "site_skill": "E3",
+     "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+     "file": "questions/grade-3/b3-waste-and-our-world.json",
+     "count": 28,
+     "modes": {
+      "core": 15,
+      "picture": 5,
+      "real-life": 4,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "fill": 3,
+      "match": 2,
+      "sort": 2,
+      "multi": 2,
+      "truefalse": 4,
+      "order": 1,
+      "mcq": 12,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "C1",
+     "title": "Material Properties",
+     "strand": "physical",
+     "site_skill": "P1",
+     "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+     "file": "questions/grade-3/c1-material-properties.json",
+     "count": 28,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 12,
+      "match": 2,
+      "fill": 3,
+      "truefalse": 4,
+      "sort": 2,
+      "multi": 2,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
      "topic": "C2",
      "title": "Sound",
      "strand": "physical",
-     "site_skill": "P1",
+     "site_skill": "P2",
      "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
      "file": "questions/grade-3/c2-sound.json",
      "count": 28,
@@ -890,6 +1334,90 @@
       "order": 1,
       "short": 2
      }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "C3",
+     "title": "Heat and Temperature",
+     "strand": "physical",
+     "site_skill": "P3",
+     "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+     "file": "questions/grade-3/c3-heat-and-temperature.json",
+     "count": 28,
+     "modes": {
+      "core": 11,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 3,
+      "olympiad": 4
+     },
+     "types": {
+      "fill": 2,
+      "multi": 2,
+      "match": 2,
+      "sort": 3,
+      "order": 2,
+      "mcq": 12,
+      "truefalse": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "C4",
+     "title": "Electricity and Magnets",
+     "strand": "physical",
+     "site_skill": "P4",
+     "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+     "file": "questions/grade-3/c4-electricity-and-magnets.json",
+     "count": 28,
+     "modes": {
+      "core": 10,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 4,
+      "olympiad": 4
+     },
+     "types": {
+      "match": 1,
+      "truefalse": 4,
+      "fill": 3,
+      "order": 1,
+      "mcq": 11,
+      "sort": 3,
+      "multi": 3,
+      "short": 2
+     }
+    },
+    {
+     "grade": 3,
+     "grade_name": "Grade 3",
+     "topic": "C5",
+     "title": "Simple Machines",
+     "strand": "physical",
+     "site_skill": "P5",
+     "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+     "file": "questions/grade-3/c5-simple-machines.json",
+     "count": 28,
+     "modes": {
+      "core": 11,
+      "picture": 6,
+      "real-life": 4,
+      "simulation": 3,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 11,
+      "multi": 2,
+      "fill": 3,
+      "match": 3,
+      "sort": 1,
+      "truefalse": 5,
+      "order": 1,
+      "short": 2
+     }
     }
    ]
   },
@@ -897,13 +1425,13 @@
    "grade": 4,
    "grade_name": "Grade 4",
    "file": "dist/grade-4.json",
-   "questions": 330,
+   "questions": 600,
    "modes": {
-    "core": 146,
-    "picture": 60,
-    "real-life": 59,
-    "simulation": 11,
-    "olympiad": 54
+    "core": 268,
+    "picture": 105,
+    "real-life": 105,
+    "simulation": 28,
+    "olympiad": 94
    },
    "topics": [
     {
@@ -1077,6 +1605,146 @@
     {
      "grade": 4,
      "grade_name": "Grade 4",
+     "topic": "A6",
+     "title": "Humans and the Environment",
+     "strand": "living",
+     "site_skill": "L6",
+     "worksheet": "worksheets/grade-4-science/pdf/a6-humans-and-the-environment-study-pack.pdf",
+     "file": "questions/grade-4/a6-humans-and-the-environment.json",
+     "count": 30,
+     "modes": {
+      "core": 15,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 12,
+      "fill": 3,
+      "match": 2,
+      "sort": 3,
+      "truefalse": 3,
+      "multi": 3,
+      "order": 1,
+      "short": 3
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "B1",
+     "title": "Weather and Climate",
+     "strand": "earth",
+     "site_skill": "E1",
+     "worksheet": "worksheets/grade-4-science/pdf/b1-weather-and-climate-study-pack.pdf",
+     "file": "questions/grade-4/b1-weather-and-climate.json",
+     "count": 30,
+     "modes": {
+      "core": 15,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 13,
+      "sort": 2,
+      "fill": 2,
+      "match": 4,
+      "truefalse": 3,
+      "order": 1,
+      "multi": 2,
+      "short": 3
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "B2",
+     "title": "Storms, Cyclones and Climate Change",
+     "strand": "earth",
+     "site_skill": "E2",
+     "worksheet": "worksheets/grade-4-science/pdf/b2-storms-cyclones-and-climate-change-study-pack.pdf",
+     "file": "questions/grade-4/b2-storms-cyclones-and-climate-change.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 3,
+      "olympiad": 4
+     },
+     "types": {
+      "order": 2,
+      "fill": 2,
+      "match": 2,
+      "sort": 2,
+      "multi": 2,
+      "truefalse": 6,
+      "mcq": 12,
+      "short": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "B3",
+     "title": "Changing Landscapes",
+     "strand": "earth",
+     "site_skill": "E3",
+     "worksheet": "worksheets/grade-4-science/pdf/b3-changing-landscapes-study-pack.pdf",
+     "file": "questions/grade-4/b3-changing-landscapes.json",
+     "count": 30,
+     "modes": {
+      "core": 15,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "match": 3,
+      "sort": 2,
+      "fill": 3,
+      "truefalse": 4,
+      "mcq": 13,
+      "order": 1,
+      "multi": 2,
+      "short": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "B4",
+     "title": "Earth's Resources and Sustainability",
+     "strand": "earth",
+     "site_skill": "E4",
+     "worksheet": "worksheets/grade-4-science/pdf/b4-earth-s-resources-and-sustainability-study-pack.pdf",
+     "file": "questions/grade-4/b4-earth-s-resources-and-sustainability.json",
+     "count": 30,
+     "modes": {
+      "core": 15,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "sort": 2,
+      "match": 2,
+      "fill": 2,
+      "truefalse": 4,
+      "mcq": 13,
+      "multi": 4,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
      "topic": "C1",
      "title": "Matter: States, Elements and Compounds",
      "strand": "physical",
@@ -1213,6 +1881,118 @@
       "order": 1,
       "short": 2
      }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "C6",
+     "title": "Electricity and Circuits",
+     "strand": "physical",
+     "site_skill": "P6",
+     "worksheet": "worksheets/grade-4-science/pdf/c6-electricity-and-circuits-study-pack.pdf",
+     "file": "questions/grade-4/c6-electricity-circuits.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 5,
+      "real-life": 6,
+      "simulation": 3,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 13,
+      "match": 2,
+      "sort": 2,
+      "truefalse": 3,
+      "fill": 3,
+      "multi": 3,
+      "order": 1,
+      "short": 3
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "C7",
+     "title": "Magnets and Electromagnets",
+     "strand": "physical",
+     "site_skill": "P7",
+     "worksheet": "worksheets/grade-4-science/pdf/c7-magnets-and-electromagnets-study-pack.pdf",
+     "file": "questions/grade-4/c7-magnets-electromagnets.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 4,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 13,
+      "sort": 2,
+      "match": 2,
+      "truefalse": 5,
+      "fill": 3,
+      "order": 1,
+      "multi": 1,
+      "short": 3
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "C8",
+     "title": "Energy and Work",
+     "strand": "physical",
+     "site_skill": "P8",
+     "worksheet": "worksheets/grade-4-science/pdf/c8-energy-and-work-study-pack.pdf",
+     "file": "questions/grade-4/c8-energy-work.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 3,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 13,
+      "match": 3,
+      "sort": 2,
+      "fill": 4,
+      "order": 3,
+      "truefalse": 1,
+      "short": 3,
+      "multi": 1
+     }
+    },
+    {
+     "grade": 4,
+     "grade_name": "Grade 4",
+     "topic": "C9",
+     "title": "Light and Sound",
+     "strand": "physical",
+     "site_skill": "P9",
+     "worksheet": "worksheets/grade-4-science/pdf/c9-light-and-sound-study-pack.pdf",
+     "file": "questions/grade-4/c9-light-sound.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 4,
+      "olympiad": 4
+     },
+     "types": {
+      "mcq": 13,
+      "match": 1,
+      "sort": 1,
+      "fill": 3,
+      "truefalse": 6,
+      "order": 1,
+      "multi": 2,
+      "short": 3
+     }
     }
    ]
   },
@@ -1220,13 +2000,13 @@
    "grade": 5,
    "grade_name": "Grade 5",
    "file": "dist/grade-5.json",
-   "questions": 450,
+   "questions": 720,
    "modes": {
-    "core": 181,
-    "picture": 86,
-    "real-life": 86,
-    "simulation": 24,
-    "olympiad": 73
+    "core": 294,
+    "picture": 134,
+    "real-life": 135,
+    "simulation": 40,
+    "olympiad": 117
    },
    "topics": [
     {
@@ -1372,6 +2152,90 @@
     {
      "grade": 5,
      "grade_name": "Grade 5",
+     "topic": "A5",
+     "title": "Plants: Seeds, Germination and Growth",
+     "strand": "living",
+     "site_skill": "L5",
+     "worksheet": "worksheets/grade-5-science/pdf/a5-plants-seeds-germination-and-growth-study-pack.pdf",
+     "file": "questions/grade-5/a5-plants-seeds-germination-growth.json",
+     "count": 30,
+     "modes": {
+      "core": 14,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 13,
+      "match": 2,
+      "sort": 1,
+      "order": 1,
+      "fill": 3,
+      "truefalse": 4,
+      "multi": 3,
+      "short": 3
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "A6",
+     "title": "Flowering Plants: Reproduction and Life Cycles",
+     "strand": "living",
+     "site_skill": "L6",
+     "worksheet": "worksheets/grade-5-science/pdf/a6-flowering-plants-reproduction-and-life-cycles-study-pack.pdf",
+     "file": "questions/grade-5/a6-flowering-plants-reproduction.json",
+     "count": 30,
+     "modes": {
+      "core": 15,
+      "picture": 5,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 4
+     },
+     "types": {
+      "match": 2,
+      "sort": 1,
+      "order": 2,
+      "truefalse": 4,
+      "fill": 3,
+      "mcq": 13,
+      "multi": 2,
+      "short": 3
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "A7",
+     "title": "Living Things in Their Environment",
+     "strand": "living",
+     "site_skill": "L7",
+     "worksheet": "worksheets/grade-5-science/pdf/a7-living-things-in-their-environment-study-pack.pdf",
+     "file": "questions/grade-5/a7-living-things-environment.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 6,
+      "real-life": 6,
+      "simulation": 2,
+      "olympiad": 4
+     },
+     "types": {
+      "match": 1,
+      "truefalse": 5,
+      "fill": 2,
+      "sort": 2,
+      "order": 1,
+      "mcq": 13,
+      "multi": 3,
+      "short": 3
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
      "topic": "B1",
      "title": "Water for Life and the Water Cycle",
      "strand": "earth",
@@ -1507,6 +2371,34 @@
       "truefalse": 5,
       "multi": 3,
       "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "B6",
+     "title": "Systems, Models and Technologies",
+     "strand": "earth",
+     "site_skill": "E6",
+     "worksheet": "worksheets/grade-5-science/pdf/b6-systems-models-and-technologies-study-pack.pdf",
+     "file": "questions/grade-5/b6-systems-models-technologies.json",
+     "count": 30,
+     "modes": {
+      "core": 13,
+      "picture": 5,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 6
+     },
+     "types": {
+      "mcq": 13,
+      "truefalse": 4,
+      "match": 2,
+      "fill": 2,
+      "sort": 2,
+      "multi": 2,
+      "order": 2,
+      "short": 3
      }
     },
     {
@@ -1648,29 +2540,169 @@
       "multi": 4,
       "short": 2
      }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C6",
+     "title": "Mechanical Systems",
+     "strand": "physical",
+     "site_skill": "P6",
+     "worksheet": "worksheets/grade-5-science/pdf/c6-mechanical-systems-study-pack.pdf",
+     "file": "questions/grade-5/c6-mechanical-systems.json",
+     "count": 30,
+     "modes": {
+      "core": 11,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 4,
+      "olympiad": 5
+     },
+     "types": {
+      "mcq": 12,
+      "match": 3,
+      "sort": 1,
+      "fill": 2,
+      "truefalse": 6,
+      "multi": 3,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C7",
+     "title": "Light: Sources, Reflection and Refraction",
+     "strand": "physical",
+     "site_skill": "P7",
+     "worksheet": "worksheets/grade-5-science/pdf/c7-light-sources-reflection-and-refraction-study-pack.pdf",
+     "file": "questions/grade-5/c7-light-reflection-refraction.json",
+     "count": 30,
+     "modes": {
+      "core": 11,
+      "picture": 6,
+      "real-life": 5,
+      "simulation": 3,
+      "olympiad": 5
+     },
+     "types": {
+      "sort": 1,
+      "mcq": 13,
+      "truefalse": 4,
+      "fill": 3,
+      "match": 3,
+      "multi": 3,
+      "order": 1,
+      "short": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C8",
+     "title": "Light: Shadows and Intensity",
+     "strand": "physical",
+     "site_skill": "P8",
+     "worksheet": "worksheets/grade-5-science/pdf/c8-light-shadows-and-intensity-study-pack.pdf",
+     "file": "questions/grade-5/c8-light-shadows-intensity.json",
+     "count": 30,
+     "modes": {
+      "core": 14,
+      "picture": 5,
+      "real-life": 6,
+      "simulation": 0,
+      "olympiad": 5
+     },
+     "types": {
+      "sort": 1,
+      "mcq": 12,
+      "fill": 2,
+      "truefalse": 7,
+      "match": 1,
+      "multi": 3,
+      "order": 1,
+      "short": 3
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C9",
+     "title": "Heat Transfer: Conduction, Convection and Radiation",
+     "strand": "physical",
+     "site_skill": "P9",
+     "worksheet": "worksheets/grade-5-science/pdf/c9-heat-transfer-conduction-convection-and-radiation-study-pack.pdf",
+     "file": "questions/grade-5/c9-heat-transfer.json",
+     "count": 30,
+     "modes": {
+      "core": 12,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 3,
+      "olympiad": 5
+     },
+     "types": {
+      "sort": 2,
+      "mcq": 12,
+      "fill": 2,
+      "truefalse": 5,
+      "short": 3,
+      "multi": 3,
+      "order": 1,
+      "match": 2
+     }
+    },
+    {
+     "grade": 5,
+     "grade_name": "Grade 5",
+     "topic": "C10",
+     "title": "Energy Resources: Renewable, Non-renewable and Green Energy",
+     "strand": "physical",
+     "site_skill": "P10",
+     "worksheet": "worksheets/grade-5-science/pdf/c10-energy-resources-renewable-non-renewable-and-green-energy-study-pack.pdf",
+     "file": "questions/grade-5/c10-energy-resources.json",
+     "count": 30,
+     "modes": {
+      "core": 11,
+      "picture": 5,
+      "real-life": 5,
+      "simulation": 4,
+      "olympiad": 5
+     },
+     "types": {
+      "sort": 1,
+      "truefalse": 4,
+      "fill": 3,
+      "mcq": 12,
+      "match": 2,
+      "multi": 4,
+      "order": 2,
+      "short": 2
+     }
     }
    ]
   }
  ],
  "totals": {
-  "questions": 1512,
-  "topics": 56,
+  "questions": 2528,
+  "topics": 93,
   "modes": {
-   "core": 635,
-   "picture": 345,
-   "real-life": 275,
-   "simulation": 38,
-   "olympiad": 219
+   "core": 1062,
+   "picture": 553,
+   "real-life": 455,
+   "simulation": 97,
+   "olympiad": 361
   },
   "types": {
-   "fill": 157,
-   "match": 116,
-   "mcq": 625,
-   "multi": 147,
-   "order": 76,
-   "short": 93,
-   "sort": 104,
-   "truefalse": 194
+   "fill": 243,
+   "match": 188,
+   "mcq": 1048,
+   "multi": 229,
+   "order": 122,
+   "short": 167,
+   "sort": 165,
+   "truefalse": 366
   }
  },
  "modes": {

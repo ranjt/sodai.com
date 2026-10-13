@@ -4937,10 +4937,3276 @@
   {
    "grade": 3,
    "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-001",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Stars, planets and moons",
+   "stem": "Put the steps in order to show how we see the Moon shine at night.",
+   "sequence": [
+    "The Sun shines light on the Moon.",
+    "The light hits the Moon's surface.",
+    "The light bounces (reflects) off the Moon.",
+    "The light reaches our eyes.",
+    "We see the Moon shining."
+   ],
+   "explanation": "The Moon has no light of its own. It reflects sunlight, and the reflected light travels to our eyes."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Stars, planets and moons",
+   "stem": "Match each space object to what it is.",
+   "pairs": [
+    [
+     "star",
+     "a ball of hot glowing gas"
+    ],
+    [
+     "planet",
+     "travels around a star"
+    ],
+    [
+     "moon",
+     "travels around a planet"
+    ],
+    [
+     "meteor",
+     "a space rock that burns up in our air"
+    ],
+    [
+     "satellite",
+     "sends TV and phone signals"
+    ]
+   ],
+   "explanation": "A star makes its own light. A planet orbits a star and a moon orbits a planet. A meteor is a \"shooting star\" and a satellite can send signals to us."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-003",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The solar system",
+   "stem": "Put the first six planets in order, starting nearest the Sun.",
+   "sequence": [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn"
+   ],
+   "explanation": "The order from the Sun is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. \"My Very Easy Method Just Speeds Up Naming\" helps you remember."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Stars, planets and moons",
+   "stem": "The Moon makes its own light.",
+   "answer": false,
+   "explanation": "The Moon only looks bright because it reflects light from the Sun. The Sun is a star and makes its own light."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How the solar system works",
+   "stem": "The Earth takes one ___ to go once around the ___.",
+   "blanks": [
+    [
+     "year"
+    ],
+    [
+     "Sun",
+     "sun"
+    ]
+   ],
+   "bank": [
+    "year",
+    "Sun",
+    "day",
+    "Moon"
+   ],
+   "explanation": "The Earth orbits the Sun once in a year. The Moon orbits the Earth."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How the solar system works",
+   "stem": "What keeps the planets going around the Sun?",
+   "options": [
+    "gravity",
+    "wind",
+    "magnets",
+    "rivers of fire"
+   ],
+   "answer": 0,
+   "explanation": "The Sun's gravity pulls on the planets and keeps them in their paths (orbits)."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Stars, planets and moons",
+   "stem": "Which of these are planets in our solar system? Choose all that are right.",
+   "options": [
+    "Mars",
+    "Jupiter",
+    "the Sun",
+    "the Moon",
+    "Saturn"
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "explanation": "Mars, Jupiter and Saturn are planets. The Sun is a star and the Moon is a moon that orbits the Earth."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-008",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Stars, planets and moons",
+   "stem": "Sort each object into star, planet or moon.",
+   "categories": [
+    "Star",
+    "Planet",
+    "Moon"
+   ],
+   "items": [
+    [
+     "the Sun",
+     "Star"
+    ],
+    [
+     "the twinkling stars at night",
+     "Star"
+    ],
+    [
+     "Earth",
+     "Planet"
+    ],
+    [
+     "Jupiter",
+     "Planet"
+    ],
+    [
+     "our Moon",
+     "Moon"
+    ],
+    [
+     "one of the four moons Galileo saw near Jupiter",
+     "Moon"
+    ]
+   ],
+   "explanation": "Stars make their own light. Planets travel around a star, and moons travel around a planet."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-009",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Scientists who studied the sky",
+   "stem": "Match each scientist to what they discovered or said.",
+   "pairs": [
+    [
+     "Aryabhata",
+     "said the Earth spins"
+    ],
+    [
+     "Copernicus",
+     "said the planets go around the Sun"
+    ],
+    [
+     "Galileo",
+     "found four moons around Jupiter"
+    ],
+    [
+     "Dr Jamal Nazrul Islam",
+     "wrote about how the universe began"
+    ]
+   ],
+   "explanation": "Aryabhata said the Earth spins, Copernicus put the Sun at the centre, Galileo used a telescope to find Jupiter's moons, and Dr Jamal Nazrul Islam of Chattogram studied the universe."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Stars, planets and moons",
+   "stem": "Why does the Moon shine at night if it has no light of its own?",
+   "model_answer": "Sunlight bounces off (reflects from) the Moon and reaches our eyes.",
+   "keywords": [
+    [
+     "sun",
+     "sunlight",
+     "light from the sun"
+    ],
+    [
+     "bounce",
+     "bounces",
+     "reflect",
+     "reflects",
+     "reflected",
+     "bounced"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "We see the Moon because it reflects the Sun's light, just like a mirror reflects a torch beam."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The solar system",
+   "stem": "Earth is the only planet we know that has living things.",
+   "answer": true,
+   "explanation": "Earth has water, air and the right temperature for life. Scientists have not found living things on any other planet yet."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Stars, planets and moons",
+   "stem": "A meteor, or \"shooting star\", is really a…",
+   "options": [
+    "star that has fallen to Earth",
+    "satellite that is switching off",
+    "planet that is breaking apart",
+    "space rock burning up in our air"
+   ],
+   "answer": 3,
+   "explanation": "A meteor is a small space rock that burns up as it hurtles through the air around Earth, making a bright streak. It is not a real star."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Satellites",
+   "stem": "An artificial satellite is a machine that people send into space to orbit a planet.",
+   "answer": true,
+   "explanation": "People build artificial satellites for TV, phones and weather. Bangabandhu Satellite-1 orbits the Earth and is Bangladesh's first."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The solar system",
+   "stem": "Look at the planets in order from the Sun. Which number is the Earth?",
+   "image": "diagrams/solar-system-numbered.svg",
+   "image_alt": "The Sun and eight planets in a row, numbered 1 to 8 from the Sun (not to scale).",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Earth is the third planet from the Sun, after Mercury (1) and Venus (2). Mars is number 4."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The solar system",
+   "stem": "Which number is Jupiter, the biggest planet?",
+   "image": "diagrams/solar-system-numbered.svg",
+   "image_alt": "The Sun and eight planets in a row, numbered 1 to 8 from the Sun (not to scale).",
+   "options": [
+    "4",
+    "6",
+    "7",
+    "5"
+   ],
+   "answer": 3,
+   "explanation": "Jupiter is the fifth planet from the Sun and the biggest planet in the solar system. Saturn (6) comes next."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "The solar system",
+   "stem": "Match each number in the picture to its planet.",
+   "image": "diagrams/solar-system-numbered.svg",
+   "image_alt": "The Sun and eight planets in a row, numbered 1 to 8 from the Sun (not to scale).",
+   "pairs": [
+    [
+     "1",
+     "Mercury"
+    ],
+    [
+     "3",
+     "Earth"
+    ],
+    [
+     "6",
+     "Saturn"
+    ],
+    [
+     "8",
+     "Neptune"
+    ]
+   ],
+   "explanation": "Counting out from the Sun: 1 Mercury, 2 Venus, 3 Earth, 4 Mars, 5 Jupiter, 6 Saturn, 7 Uranus, 8 Neptune."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-017",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "The solar system",
+   "stem": "In the picture, number 4 is Mars. Mars is nearer to the Sun than Earth is.",
+   "image": "diagrams/solar-system-numbered.svg",
+   "image_alt": "The Sun and eight planets in a row, numbered 1 to 8 from the Sun (not to scale).",
+   "answer": false,
+   "explanation": "Earth is number 3 and Mars is number 4, so Mars is further from the Sun than Earth."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-018",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Stars, planets and moons",
+   "stem": "Match each picture to what it is.",
+   "pairs": [
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "a star"
+    ],
+    [
+     {
+      "text": "ringed planet",
+      "image": "openmoji/ringed-planet.svg"
+     },
+     "a planet"
+    ],
+    [
+     {
+      "text": "full moon",
+      "image": "openmoji/full-moon.svg"
+     },
+     "a moon"
+    ],
+    [
+     {
+      "text": "shooting star",
+      "image": "openmoji/shooting-star.svg"
+     },
+     "a meteor"
+    ],
+    [
+     {
+      "text": "satellite",
+      "image": "openmoji/satellite.svg"
+     },
+     "a satellite"
+    ]
+   ],
+   "explanation": "The Sun is a star. Saturn is a planet with rings. The Moon travels around the Earth, a meteor streaks across the sky, and a satellite is a machine that orbits."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Staying safe",
+   "stem": "Moung wants to see the Sun better, so he plans to look at it through dark sunglasses. What is the right advice?",
+   "options": [
+    "It is safe for a minute.",
+    "Never look at the Sun.",
+    "Use two pairs of sunglasses.",
+    "Look only at midday."
+   ],
+   "answer": 1,
+   "explanation": "Never look at the Sun, even through sunglasses or a telescope. It can damage your eyes."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Satellites",
+   "stem": "Nadia's family lives on an island where it is hard to lay cables. How can they get TV and internet?",
+   "options": [
+    "by signals from the Moon's light",
+    "by signals from a meteor",
+    "by signals from a satellite",
+    "by signals from the wind"
+   ],
+   "answer": 2,
+   "explanation": "A satellite such as Bangabandhu Satellite-1 sends TV and internet signals across Bangladesh, even to islands and hills."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Satellites",
+   "stem": "A weather satellite sees a cyclone forming over the Bay of Bengal. How does this help people on the coast?",
+   "options": [
+    "It warns them early so they can reach a shelter.",
+    "It turns the cyclone away.",
+    "It makes the sea calmer.",
+    "It stops the rain."
+   ],
+   "answer": 0,
+   "explanation": "Weather satellites help people see cyclones coming. An early warning gives families time to move to a cyclone shelter."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "The solar system",
+   "stem": "Raju makes a model of the solar system with eight balls of the same size. What can his model **not** show well?",
+   "options": [
+    "the order of the planets",
+    "that there are eight planets",
+    "how big each planet really is",
+    "that the Sun is in the middle"
+   ],
+   "answer": 2,
+   "explanation": "His model shows the order and the number of planets, but the real planets are very different sizes (Jupiter is the biggest). Models also cannot show the huge distances."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "How the solar system works",
+   "stem": "In the simulation, what does the Moon do while the Earth moves?",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun, Earth and Moon, then press play. Watch the Moon for a while. You can tick the box that shows the paths."
+   },
+   "options": [
+    "It disappears from view.",
+    "It stays still in the middle.",
+    "It travels around the Sun only.",
+    "It travels around the Earth."
+   ],
+   "answer": 3,
+   "explanation": "The Moon orbits the Earth. At the same time, the Earth and Moon travel together around the Sun."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How the solar system works",
+   "stem": "In the simulation, the Earth goes once around the Sun in one year.",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun and Earth, then press play. Watch the clock until the Earth has gone once around the Sun."
+   },
+   "answer": true,
+   "explanation": "The clock in the simulation shows that one orbit of the Earth around the Sun takes about one year."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-025",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How the solar system works",
+   "stem": "In the simulation, you turn gravity off while the Earth is moving. What happens to the Earth?",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun and Earth, then press play. While the Earth is going round, turn gravity off and watch what happens."
+   },
+   "options": [
+    "It keeps going round in a circle.",
+    "It moves off in a straight line.",
+    "It falls into the Sun.",
+    "It stops at once."
+   ],
+   "answer": 1,
+   "explanation": "Gravity pulls the Earth towards the Sun and bends its path into an orbit. With no gravity, nothing pulls it, so it moves off in a straight line."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Scientists who studied the sky",
+   "stem": "In 1610 Galileo saw four moons going around Jupiter. Why did this help Copernicus's idea?",
+   "options": [
+    "It showed that Jupiter is the biggest planet.",
+    "It showed that the Sun is a star.",
+    "It showed that the Moon makes its own light.",
+    "It showed that not everything goes around the Earth."
+   ],
+   "answer": 3,
+   "explanation": "Copernicus said the planets go around the Sun. If four moons go around Jupiter, then Earth is not the centre of everything, which supported his idea."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Stars, planets and moons",
+   "stem": "Mina says, \"The Sun is a planet because it is big and round.\" What is the best correction?",
+   "options": [
+    "The Sun is a planet because the Earth orbits it.",
+    "The Sun is a moon because it is very hot.",
+    "The Sun is a star that makes its own light.",
+    "The Sun is a meteor because it is bright."
+   ],
+   "answer": 2,
+   "explanation": "A star is a ball of hot, glowing gas that makes its own light. The planets, including Earth, travel around our star, the Sun."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B1",
+   "title": "The Solar System",
+   "strand": "earth",
+   "site_skill": "E1",
+   "worksheet": "worksheets/grade-3-science/pdf/b1-the-solar-system-study-pack.pdf",
+   "id": "g3-b1-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "The solar system",
+   "stem": "Why do you think there is life on Earth but not on Mercury?",
+   "model_answer": "Earth has water, air and the right temperature. Mercury is too hot by day, too cold by night, and has no air.",
+   "keywords": [
+    [
+     "water",
+     "air",
+     "oxygen",
+     "atmosphere"
+    ],
+    [
+     "temperature",
+     "warm",
+     "right",
+     "hot",
+     "cold",
+     "too hot",
+     "too cold",
+     "heat"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Living things need water, air and a suitable temperature. Earth has all three. Mercury is very hot in the day, very cold at night, and has almost no air."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "Why do we have day and night?",
+   "options": [
+    "The Sun goes around the Earth.",
+    "The Earth spins.",
+    "Clouds cover the Sun.",
+    "The Moon pushes the Sun away."
+   ],
+   "answer": 1,
+   "explanation": "The Earth spins (rotates) once every 24 hours. The side facing the Sun has day and the side facing away has night. The Sun does not really move around us."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-002",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "The Earth spins once every ___ hours. The Earth goes around the ___ once a year.",
+   "blanks": [
+    [
+     "24",
+     "twenty-four",
+     "twenty four"
+    ],
+    [
+     "Sun",
+     "sun"
+    ]
+   ],
+   "bank": [
+    "24",
+    "Sun",
+    "Moon",
+    "365"
+   ],
+   "explanation": "One spin takes 24 hours, which gives us day and night. One trip around the Sun takes a year."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "The Sun moves around the Earth every day.",
+   "answer": false,
+   "explanation": "The Earth spins, so the Sun only seems to move across the sky from east to west."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Sun across the sky",
+   "stem": "A shadow stick has its shortest shadow at midday.",
+   "answer": true,
+   "explanation": "At midday the Sun is highest in the sky, so the shadow is shortest. It is long in the morning and long again in the evening."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-005",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "The Moon and its phases",
+   "stem": "Put the phases of the Moon in order, starting at the new moon.",
+   "sequence": [
+    "new moon",
+    "waxing crescent",
+    "first quarter",
+    "waxing gibbous",
+    "full moon",
+    "waning gibbous",
+    "last quarter"
+   ],
+   "explanation": "The Moon goes from new moon to full moon as more of its lit side comes into view, then shrinks again through the waning phases."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Day and night",
+   "stem": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "rotate",
+     "spin around"
+    ],
+    [
+     "orbit",
+     "travel around"
+    ],
+    [
+     "axis",
+     "the imaginary line the Earth spins around"
+    ],
+    [
+     "phase",
+     "the shape of the lit part of the Moon we see"
+    ],
+    [
+     "tide",
+     "the sea going up and down each day"
+    ]
+   ],
+   "explanation": "The Earth rotates on its axis and orbits the Sun. A phase is the Moon's shape and a tide is the rise and fall of the sea."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Seasons",
+   "stem": "How do the seasons affect living things? Choose all that are right.",
+   "options": [
+    "Farmers plant crops at the right season.",
+    "Some birds fly to Bangladesh in winter.",
+    "Trees grow new leaves in spring.",
+    "The Moon grows bigger in summer.",
+    "The Earth stops spinning in the rainy season."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "People, animals and plants all follow the seasons. The Moon's shape and the Earth's spin do not depend on the season."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-008",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Movements of the Earth and Moon",
+   "stem": "Sort each event by the movement that causes it.",
+   "categories": [
+    "Earth spinning",
+    "Earth going around the Sun",
+    "Moon going around the Earth"
+   ],
+   "items": [
+    [
+     "day and night",
+     "Earth spinning"
+    ],
+    [
+     "the Sun seeming to rise in the east",
+     "Earth spinning"
+    ],
+    [
+     "a year of 365¼ days",
+     "Earth going around the Sun"
+    ],
+    [
+     "the seasons",
+     "Earth going around the Sun"
+    ],
+    [
+     "the phases of the Moon",
+     "Moon going around the Earth"
+    ],
+    [
+     "a month",
+     "Moon going around the Earth"
+    ]
+   ],
+   "explanation": "The spin of the Earth gives day and night. The Earth's trip around the Sun (with its tilt) gives the year and the seasons. The Moon's trip around the Earth gives the phases."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-009",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "When it is day in Bangladesh, it is night in America. Why?",
+   "model_answer": "Bangladesh faces the Sun while America is on the other side of the spinning Earth, facing away from the Sun.",
+   "keywords": [
+    [
+     "face",
+     "faces",
+     "facing",
+     "toward",
+     "towards",
+     "lit",
+     "sunlight"
+    ],
+    [
+     "other side",
+     "away",
+     "opposite",
+     "dark",
+     "not facing"
+    ],
+    [
+     "earth",
+     "spin",
+     "spins",
+     "spinning",
+     "rotate",
+     "rotates",
+     "round"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The Earth is a ball, so the Sun lights only half of it at a time. When Bangladesh faces the Sun it has day while the far side has night."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Seasons",
+   "stem": "It is hotter in summer because the Sun is higher in the sky, so its light is stronger.",
+   "answer": true,
+   "explanation": "In summer our part of the Earth leans towards the Sun. The Sun is high, the light is strong and the weather is warmer."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Moon and its phases",
+   "stem": "The Moon travels around the Earth about once a month.",
+   "answer": true,
+   "explanation": "The Moon orbits the Earth in about a month. As it moves, we see different amounts of its lit side, which are the phases."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-012",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Moon and its phases",
+   "stem": "The Moon has no light of its own. It ___ sunlight.",
+   "blanks": [
+    [
+     "reflects",
+     "reflect",
+     "bounces",
+     "bounces back"
+    ]
+   ],
+   "bank": [
+    "reflects",
+    "makes",
+    "absorbs"
+   ],
+   "explanation": "We see the Moon because sunlight bounces off it. The part we see lit changes as the Moon moves round the Earth."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "The Sun across the sky",
+   "stem": "Look at the stick and its shadow at three times of the day. When is the shadow shortest?",
+   "image": "diagrams/sun-path.svg",
+   "image_alt": "A stick and its shadow in the morning, at midday and in the evening as the Sun moves across the sky.",
+   "options": [
+    "early in the morning",
+    "in the evening",
+    "at midnight",
+    "at midday"
+   ],
+   "answer": 3,
+   "explanation": "At midday the Sun is at its highest, so the shadow is shortest. When the Sun is low in the morning and evening the shadow is long."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Day and night",
+   "stem": "Look at the picture of the Earth and the Sun. Which part of the Earth has daytime?",
+   "image": "diagrams/day-night.svg",
+   "image_alt": "The Sun lighting one half of the spinning Earth: day on the side facing the Sun and night on the other side.",
+   "options": [
+    "the side facing away from the Sun",
+    "the whole Earth at once",
+    "the side facing the Sun",
+    "only the North Pole"
+   ],
+   "answer": 2,
+   "explanation": "The Sun lights the side of the Earth that faces it, so that side has day. The side facing away is in the dark, so it has night."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Seasons",
+   "stem": "The Earth is tilted. When the top half of the Earth leans towards the Sun, what season does that half have?",
+   "image": "diagrams/seasons-orbit.svg",
+   "image_alt": "The tilted Earth at different places in its orbit around the Sun.",
+   "options": [
+    "summer",
+    "winter",
+    "night",
+    "a new year"
+   ],
+   "answer": 0,
+   "explanation": "Leaning towards the Sun means the Sun is higher and its light is stronger, so that half has summer. Six months later it leans away and has winter."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The Moon and its phases",
+   "stem": "Which number shows the full moon?",
+   "image": "diagrams/moon-phases-numbered.svg",
+   "image_alt": "Eight shapes of the Moon numbered 1 to 8 in order through a month.",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "7"
+   ],
+   "answer": 2,
+   "explanation": "Number 5 is the full moon, when the whole lit side faces us. Number 1 is the new moon, when we cannot see the lit side at all."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "The Moon and its phases",
+   "stem": "Match each number in the picture to its Moon phase.",
+   "image": "diagrams/moon-phases-numbered.svg",
+   "image_alt": "Eight shapes of the Moon numbered 1 to 8 in order through a month.",
+   "pairs": [
+    [
+     "1",
+     "new moon"
+    ],
+    [
+     "3",
+     "first quarter"
+    ],
+    [
+     "5",
+     "full moon"
+    ],
+    [
+     "7",
+     "last quarter"
+    ]
+   ],
+   "explanation": "The phases go in order: 1 new moon, 2 waxing crescent, 3 first quarter, 4 waxing gibbous, 5 full moon, 6 waning gibbous, 7 last quarter, 8 waning crescent."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-018",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "The Moon and its phases",
+   "stem": "Number 2 is a waxing crescent. This thin Moon will look bigger on the next few nights.",
+   "image": "diagrams/moon-phases-numbered.svg",
+   "image_alt": "Eight shapes of the Moon numbered 1 to 8 in order through a month.",
+   "answer": true,
+   "explanation": "\"Waxing\" means growing. After the crescent comes the first quarter, then the bigger gibbous Moon, and then the full moon."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The Moon and its phases",
+   "stem": "Rafi's father is a fisher on the coast. Why does he watch the Moon?",
+   "options": [
+    "The Moon heats the sea.",
+    "The Moon makes the wind blow.",
+    "The Moon calls the fish.",
+    "The Moon affects the tides."
+   ],
+   "answer": 3,
+   "explanation": "The Moon's pull makes the tides rise and fall. At full moon and new moon the tides are very high and very low, so fishers plan when to go out and come in."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "The Moon and its phases",
+   "stem": "Families look for the thin new crescent moon. What does it tell them?",
+   "options": [
+    "The Moon has stopped moving.",
+    "A new Islamic month has begun.",
+    "The year has ended.",
+    "The tide has turned."
+   ],
+   "answer": 1,
+   "explanation": "The Islamic months begin when the new crescent moon is seen, so it also tells people when Eid will be celebrated."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Seasons",
+   "stem": "Why do farmers in Bangladesh plant different crops in different seasons?",
+   "options": [
+    "The Moon tells crops when to grow.",
+    "The Earth stops spinning in some seasons.",
+    "The weather changes through the year.",
+    "Crops grow only at night."
+   ],
+   "answer": 2,
+   "explanation": "Seasons bring different weather, such as heat, rain or cooler dry days. Farmers pick the crops that grow best in each one."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "The Sun across the sky",
+   "stem": "At 8 am Imran's school shadow stick has a long shadow pointing west. Where will its shadow point at 4 pm?",
+   "options": [
+    "to the east",
+    "to the west",
+    "straight up",
+    "there will be no shadow"
+   ],
+   "answer": 0,
+   "explanation": "In the morning the Sun is in the east, so the shadow points west. In the afternoon the Sun is in the west, so the shadow points east and is long again."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-023",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Movements of the Earth and Moon",
+   "stem": "In the simulation, the Earth stays still while the Sun goes around it.",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun and Earth, then press play. Watch the clock until the Earth has made one trip around the Sun."
+   },
+   "answer": false,
+   "explanation": "The Earth is the one that moves: it goes around the Sun once a year, which the clock in the simulation shows. The Sun only seems to move across our sky because the Earth spins."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-024",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Movements of the Earth and Moon",
+   "stem": "In the simulation, what does the Moon go around?",
+   "sim": {
+    "id": "gravity-and-orbits",
+    "task": "Open Gravity and Orbits. Choose Sun, Earth and Moon, press play and tick the box that shows the paths. Watch where the Moon goes."
+   },
+   "options": [
+    "the Earth",
+    "Mars",
+    "nothing at all"
+   ],
+   "answer": 0,
+   "explanation": "The Moon orbits the Earth about once a month, while the Earth and Moon travel together around the Sun."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "The Sun across the sky",
+   "stem": "Class 3A measured a shadow stick: 8 am 80 cm, 10 am 40 cm, 12 noon 15 cm, 2 pm 35 cm, 4 pm 75 cm. What is the best prediction for 5 pm?",
+   "options": [
+    "about 15 cm",
+    "about 40 cm",
+    "no shadow",
+    "about 100 cm"
+   ],
+   "answer": 3,
+   "explanation": "As the Sun sinks lower in the evening, the shadow gets longer. At 4 pm it was 75 cm, so at 5 pm it should be longer than that."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Seasons",
+   "stem": "Priya says, \"It is summer because the Earth moves closer to the Sun.\" What is the best correction?",
+   "options": [
+    "The Earth spins faster in summer.",
+    "The Earth is tilted, so in summer our part leans towards the Sun.",
+    "The Moon is brighter in summer.",
+    "The Sun moves nearer in summer."
+   ],
+   "answer": 1,
+   "explanation": "Seasons are caused by the tilt of the Earth as it goes around the Sun. When we lean towards the Sun it is high in the sky and its light is stronger."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Day and night",
+   "stem": "Explain how the spinning Earth makes the Sun seem to move across the sky from east to west.",
+   "model_answer": "The Earth spins, so the Sun only seems to move. It looks as if it rises in the east and sets in the west.",
+   "keywords": [
+    [
+     "earth",
+     "spin",
+     "spins",
+     "spinning",
+     "rotate",
+     "rotates",
+     "turns"
+    ],
+    [
+     "seems",
+     "seem",
+     "appears",
+     "looks",
+     "not really",
+     "only"
+    ],
+    [
+     "east",
+     "west",
+     "rise",
+     "rises",
+     "set",
+     "sets"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "It is the Earth that turns, not the Sun. As our part of the Earth turns towards the Sun we see it rise in the east, and as it turns away we see it set in the west."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B2",
+   "title": "Day, Night, Seasons and the Moon",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-3-science/pdf/b2-day-night-seasons-and-the-moon-study-pack.pdf",
+   "id": "g3-b2-028",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Patterns we can predict",
+   "stem": "Which of these can people predict from patterns in the sky? Choose all that are right.",
+   "options": [
+    "The Sun will rise in the east tomorrow.",
+    "The Moon will pass through its phases again in about a month.",
+    "Summer will come again next year.",
+    "Exactly how much rain will fall next Tuesday."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The spin of the Earth, the Moon's orbit and the Earth's orbit repeat in regular patterns, so we can predict them. Exact rainfall depends on changing weather."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-001",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Kinds of waste",
+   "stem": "___ is rotted plant waste that makes soil rich.",
+   "blanks": [
+    [
+     "compost",
+     "Compost"
+    ]
+   ],
+   "bank": [
+    "compost",
+    "plastic",
+    "smoke"
+   ],
+   "explanation": "Compost is made when plant waste such as peels and leaves rots. It adds goodness to the soil."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The three Rs",
+   "stem": "Match each of the three Rs to its meaning.",
+   "pairs": [
+    [
+     "reduce",
+     "use less"
+    ],
+    [
+     "reuse",
+     "use again"
+    ],
+    [
+     "recycle",
+     "make into something new"
+    ]
+   ],
+   "explanation": "Reduce means use less, reuse means use things again, and recycle means turn old things into new ones."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-003",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Kinds of waste",
+   "stem": "Sort each waste into solid, liquid or gas.",
+   "categories": [
+    "Solid",
+    "Liquid",
+    "Gas"
+   ],
+   "items": [
+    [
+     "food scraps",
+     "Solid"
+    ],
+    [
+     "plastic packets",
+     "Solid"
+    ],
+    [
+     "dirty water from washing",
+     "Liquid"
+    ],
+    [
+     "dirty water from a factory",
+     "Liquid"
+    ],
+    [
+     "smoke from a cooking fire",
+     "Gas"
+    ],
+    [
+     "carbon dioxide we breathe out",
+     "Gas"
+    ]
+   ],
+   "explanation": "Food scraps and plastic are solids. Dirty water is a liquid. Smoke and the carbon dioxide we breathe out are gases."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-004",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Which of these can be composted? Choose all that are right.",
+   "options": [
+    "fruit and vegetable peels",
+    "dead leaves",
+    "egg shells",
+    "a plastic bag",
+    "a metal can"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Plant and food waste rots and becomes compost. Plastic and metal do not rot, so they do not belong in a compost pit."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Harm from waste",
+   "stem": "A plastic bag buried in the soil will rot away within a few weeks.",
+   "answer": false,
+   "explanation": "Plastic does not rot. A plastic bag buried for four weeks shows no change, so it stays in the environment for a very long time."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Kinds of waste",
+   "stem": "The oxygen that plants release is a gas waste that is useful to us.",
+   "answer": true,
+   "explanation": "Plants give out oxygen as a waste gas, and we need it to breathe. Not all waste is harmful."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Put the steps in order to show how a community makes compost.",
+   "sequence": [
+    "Workers collect food and vegetable waste from homes.",
+    "The waste is piled in boxes at a compost plant.",
+    "Worms and microbes break the waste down.",
+    "After about two months it becomes dark, crumbly compost.",
+    "Farmers and gardeners use the compost on their soil."
+   ],
+   "explanation": "Food waste rots easily, so decomposers such as worms and microbes turn it into compost. Less rubbish goes to the dump and farmers get good soil."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "The three Rs",
+   "stem": "Which is an example of **reusing**?",
+   "options": [
+    "giving old paper to the bhangari collector",
+    "using an old jar as a pencil pot",
+    "buying food with less packaging",
+    "making peels into compost"
+   ],
+   "answer": 1,
+   "explanation": "Reuse means using something again, so a jar can become a pencil pot. Giving paper to a collector is recycling, buying less packaging is reducing, and peels make compost."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "The three Rs",
+   "stem": "Taking a cloth bag to the shop is an example of…",
+   "options": [
+    "reducing waste",
+    "recycling waste",
+    "burning waste",
+    "composting waste"
+   ],
+   "answer": 0,
+   "explanation": "A cloth bag can be used many times, so you use fewer plastic bags. Using less is called reducing."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Harm from waste",
+   "stem": "How can plastic bags cause floods in a city?",
+   "model_answer": "They block the drains, so rain water cannot flow away.",
+   "keywords": [
+    [
+     "block",
+     "blocks",
+     "blocked",
+     "clog",
+     "clogs",
+     "clogged",
+     "stuck",
+     "jam",
+     "jams",
+     "fill",
+     "fills"
+    ],
+    [
+     "drain",
+     "drains",
+     "pipe",
+     "pipes",
+     "water cannot",
+     "cannot flow",
+     "can't flow"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Plastic bags do not rot. They collect in drains and stop rain water flowing away, so the streets flood."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-011",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Why is compost good for a garden?",
+   "options": [
+    "It makes the soil hard like a brick.",
+    "It stops rain from falling on plants.",
+    "It keeps all the worms away.",
+    "It makes soil rich for plants."
+   ],
+   "answer": 3,
+   "explanation": "Compost adds goodness to the soil, so plants get what they need to grow well."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Harm from waste",
+   "stem": "Rubbish heaps attract rats and flies that can spread disease.",
+   "answer": true,
+   "explanation": "Rats and flies live and feed on rubbish. They can carry germs, so piles of waste can make people ill."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "The three Rs",
+   "stem": "To reduce is to use ___. To reuse is to use things ___.",
+   "blanks": [
+    [
+     "less",
+     "fewer"
+    ],
+    [
+     "again"
+    ]
+   ],
+   "bank": [
+    "less",
+    "again",
+    "more",
+    "once"
+   ],
+   "explanation": "Reduce means use less. Reuse means use the same thing again instead of throwing it away."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-014",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Kinds of waste",
+   "stem": "Animals breathe out a waste gas called ___.",
+   "blanks": [
+    [
+     "carbon dioxide",
+     "carbon-dioxide",
+     "CO2",
+     "co2"
+    ]
+   ],
+   "bank": [
+    "carbon dioxide",
+    "oxygen",
+    "smoke"
+   ],
+   "explanation": "Animals breathe in oxygen and breathe out carbon dioxide. Plants use carbon dioxide to make their food."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-015",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Harm from waste",
+   "stem": "Dirty water from factories can pollute rivers like the Buriganga.",
+   "answer": true,
+   "explanation": "Factory waste water often carries chemicals. When it flows into a river it pollutes the water and harms fish and the people who use the river."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-016",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Sort the pictures into compost, recycle or reuse.",
+   "categories": [
+    "Compost",
+    "Recycle",
+    "Reuse"
+   ],
+   "items": [
+    [
+     {
+      "text": "banana peel",
+      "image": "openmoji/banana.svg"
+     },
+     "Compost"
+    ],
+    [
+     {
+      "text": "dead leaves",
+      "image": "openmoji/fallen-leaf.svg"
+     },
+     "Compost"
+    ],
+    [
+     {
+      "text": "newspaper",
+      "image": "openmoji/newspaper.svg"
+     },
+     "Recycle"
+    ],
+    [
+     {
+      "text": "metal can",
+      "image": "openmoji/tin-can.svg"
+     },
+     "Recycle"
+    ],
+    [
+     {
+      "text": "cloth bag",
+      "image": "openmoji/reusable-bag.svg"
+     },
+     "Reuse"
+    ],
+    [
+     {
+      "text": "old jeans",
+      "image": "openmoji/jeans.svg"
+     },
+     "Reuse"
+    ]
+   ],
+   "explanation": "Peels and leaves rot into compost. Paper and metal cans can be made into new things. A cloth bag and old clothes can be used again."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-017",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Which picture shows waste that can be composted?",
+   "options": [
+    {
+     "text": "metal can",
+     "image": "openmoji/tin-can.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "banana peel",
+     "image": "openmoji/banana.svg"
+    },
+    {
+     "text": "glass bottle",
+     "image": "openmoji/glass-bottle.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A banana peel is plant waste. It rots and turns into compost. Plastic, metal and glass do not rot."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Kinds of waste",
+   "stem": "Which picture shows a gas waste from vehicles?",
+   "options": [
+    {
+     "text": "spilled oil",
+     "image": "openmoji/oil-spill.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "banana peel",
+     "image": "openmoji/banana.svg"
+    },
+    {
+     "text": "exhaust fumes",
+     "image": "openmoji/car-exhaust.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "Exhaust fumes are gas waste. Spilled oil is a liquid, and a bottle and a banana peel are solids."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-019",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Kinds of waste",
+   "stem": "Match each picture to the kind of waste it shows.",
+   "pairs": [
+    [
+     {
+      "text": "plastic bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "solid waste"
+    ],
+    [
+     {
+      "text": "spilled oil",
+      "image": "openmoji/oil-spill.svg"
+     },
+     "liquid waste"
+    ],
+    [
+     {
+      "text": "factory smoke",
+      "image": "openmoji/factory-smoke.svg"
+     },
+     "gas waste"
+    ]
+   ],
+   "explanation": "A bottle is a solid, oil is a liquid and smoke is a gas. Factories and vehicles make all three kinds of waste."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-020",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "The three Rs",
+   "stem": "Which picture shows a good way to reduce waste when shopping?",
+   "options": [
+    {
+     "text": "lots of packaging",
+     "image": "openmoji/package.svg"
+    },
+    {
+     "text": "a new plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "a cloth bag",
+     "image": "openmoji/reusable-bag.svg"
+    },
+    {
+     "text": "a full bin",
+     "image": "openmoji/wastebasket.svg"
+    }
+   ],
+   "answer": 2,
+   "explanation": "A cloth bag can be used again and again, so you need fewer plastic bags. Lots of packaging and new bottles make more waste."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Harm from waste",
+   "stem": "After heavy rain a street in Dhaka floods because plastic bags block the drain. What is the best long-term fix?",
+   "options": [
+    "Use fewer plastic bags and bin used ones.",
+    "Burn the bags at the side of the street.",
+    "Throw the bags into the river instead.",
+    "Wait for the rain to stop falling."
+   ],
+   "answer": 0,
+   "explanation": "Using fewer bags and binning the rest stops plastic reaching drains. Burning makes smoke, and rivers are polluted by plastic too."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Mina's family has vegetable peels every day. What is the best thing to do with them?",
+   "options": [
+    "Throw them into the river.",
+    "Put them in a compost pit.",
+    "Burn them near the house.",
+    "Put them with the plastic for recycling."
+   ],
+   "answer": 1,
+   "explanation": "Vegetable peels rot and become compost, which makes soil rich for plants. Rivers and the air should not be polluted."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-023",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "Lina's family wants to give things to the bhangari collector for recycling. Which can they give? Choose all that are right.",
+   "options": [
+    "old newspapers",
+    "empty metal cans",
+    "some plastic bottles",
+    "banana peels"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Paper, metal and some plastic can be made into new things. Banana peels are best for compost."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Harm from waste",
+   "stem": "Arif's neighbour burns a pile of rubbish behind the house. What is the problem?",
+   "options": [
+    "The smoke makes the air unhealthy.",
+    "The fire makes the rubbish disappear safely.",
+    "The smoke cleans the air.",
+    "The ashes will turn into compost."
+   ],
+   "answer": 0,
+   "explanation": "Smoke from burning rubbish is gas waste. It makes the air unhealthy to breathe, so it is better to compost, reuse or recycle."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Harm from waste",
+   "stem": "Class 3B buried four things for four weeks. Banana peel: mostly gone. Paper: soft and falling apart. Plastic bag: no change. Metal bottle cap: no change, a little rust. Which conclusion is best?",
+   "options": [
+    "Everything rots completely in four weeks.",
+    "Metal rots faster than paper does in soil.",
+    "Plant waste rots; plastic and metal do not.",
+    "Plastic bags rot faster than banana peels do."
+   ],
+   "answer": 2,
+   "explanation": "The banana peel and the paper came from plants, and decomposers broke them down. Plastic and metal showed no change, so they stay in the environment for a very long time."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-026",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Harm from waste",
+   "stem": "Why is a plastic bag in a river a bigger problem than a banana peel?",
+   "model_answer": "Plastic does not rot, so it stays for a very long time and can harm fish and turtles. A banana peel rots away.",
+   "keywords": [
+    [
+     "not rot",
+     "does not rot",
+     "doesn't rot",
+     "never rot",
+     "stays",
+     "stay",
+     "long time",
+     "forever",
+     "for ever",
+     "years"
+    ],
+    [
+     "harm",
+     "harms",
+     "hurt",
+     "fish",
+     "turtles",
+     "animals",
+     "block",
+     "drains",
+     "pollute",
+     "pollutes",
+     "pollution"
+    ],
+    [
+     "peel rots",
+     "rots",
+     "rot away",
+     "decompose",
+     "breaks down"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A banana peel rots and becomes part of the soil. Plastic does not rot, so it keeps polluting and can harm animals or block drains."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Compost, recycling and reuse",
+   "stem": "In an example neighbourhood, 40 families each make 2 kg of food waste a day. All of it is made into compost. How much food waste is kept out of the dump in 5 days?",
+   "options": [
+    "80 kg",
+    "200 kg",
+    "400 kg",
+    "10 kg"
+   ],
+   "answer": 2,
+   "explanation": "40 families × 2 kg = 80 kg every day. Over 5 days that is 80 × 5 = 400 kg. 80 kg is only one day."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "B3",
+   "title": "Waste and Our World",
+   "strand": "earth",
+   "site_skill": "E3",
+   "worksheet": "worksheets/grade-3-science/pdf/b3-waste-and-our-world-study-pack.pdf",
+   "id": "g3-b3-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Kinds of waste",
+   "stem": "Imran says, \"Smoke from a fire is not waste because it just disappears into the air.\" What is the best reply?",
+   "options": [
+    "Smoke is useful waste, just like the oxygen from plants.",
+    "Smoke is solid waste, so it can be recycled easily.",
+    "Smoke is only waste if you can see it clearly.",
+    "Smoke is gas waste, and it makes the air unhealthy."
+   ],
+   "answer": 3,
+   "explanation": "Smoke does not disappear: it spreads through the air and can harm our breathing. Smoke from fires, vehicles and factories is gas waste."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Property words",
+   "stem": "A **property** of a material tells us…",
+   "options": [
+    "who made the material",
+    "where the material was bought",
+    "how much the material costs",
+    "what the material is like"
+   ],
+   "answer": 3,
+   "explanation": "A property describes what a material is like, for example hard, shiny or waterproof. Every material has its own properties."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Property words",
+   "stem": "Match each property word to its meaning.",
+   "pairs": [
+    [
+     "hard",
+     "does not dent easily"
+    ],
+    [
+     "flexible",
+     "bends easily"
+    ],
+    [
+     "transparent",
+     "you can see through it"
+    ],
+    [
+     "waterproof",
+     "keeps water out"
+    ],
+    [
+     "absorbent",
+     "soaks up water"
+    ]
+   ],
+   "explanation": "These property words help us describe materials. A towel is absorbent, a raincoat is waterproof and a window is transparent."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Property words",
+   "stem": "Opposite words: shiny and ___; flexible and ___.",
+   "blanks": [
+    [
+     "dull"
+    ],
+    [
+     "stiff",
+     "rigid"
+    ]
+   ],
+   "bank": [
+    "dull",
+    "stiff",
+    "absorbent",
+    "weak"
+   ],
+   "explanation": "A shiny material reflects light, so its opposite is dull. A flexible material bends easily, so its opposite is stiff."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Magnetic materials",
+   "stem": "All metals are attracted by a magnet.",
+   "answer": false,
+   "explanation": "A magnet attracts iron and steel (and a few others such as nickel). Aluminium, copper, gold and silver are metals that a magnet does not attract."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Sorting materials",
+   "stem": "Sort these materials into hard and soft.",
+   "categories": [
+    "Hard",
+    "Soft"
+   ],
+   "items": [
+    [
+     "stone",
+     "Hard"
+    ],
+    [
+     "cotton wool",
+     "Soft"
+    ],
+    [
+     "steel",
+     "Hard"
+    ],
+    [
+     "sponge",
+     "Soft"
+    ],
+    [
+     "glass",
+     "Hard"
+    ],
+    [
+     "wool",
+     "Soft"
+    ]
+   ],
+   "explanation": "Hard materials do not dent when you press them. Soft materials squash easily."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Magnetic materials",
+   "stem": "A magnet attracts things made of ___ and steel.",
+   "blanks": [
+    [
+     "iron"
+    ]
+   ],
+   "bank": [
+    "iron",
+    "wood",
+    "copper",
+    "plastic"
+   ],
+   "explanation": "Magnetic materials are iron and steel. Wood, plastic and copper are not magnetic."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-007",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "A magnet is held near each object. Which objects will it pull? Choose all that are right.",
+   "options": [
+    "an iron nail",
+    "an aluminium drink can",
+    "a steel paper clip",
+    "a plastic ruler",
+    "a steel pin"
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "explanation": "Iron and steel are magnetic, so the nail, the paper clip and the pin are pulled. Aluminium and plastic are not magnetic."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Choosing materials",
+   "stem": "Glass is used for windows because it is…",
+   "options": [
+    "transparent",
+    "absorbent",
+    "magnetic",
+    "flexible"
+   ],
+   "answer": 0,
+   "explanation": "Glass is transparent, so light comes in and we can see out. Wood is opaque, so it would block the light."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing materials",
+   "stem": "A paper umbrella would be a good idea for the monsoon.",
+   "answer": false,
+   "explanation": "Paper is absorbent and weak. It would get soggy and tear in the rain. An umbrella needs a waterproof material."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Fair test",
+   "stem": "Put the steps of a fair test in order to find which material soaks up the most water.",
+   "sequence": [
+    "Cut a square of the same size from each material.",
+    "Pour the same amount of water into each dish.",
+    "Put one square into each dish for one minute.",
+    "Lift the squares out and measure the water left in each dish.",
+    "Work out how much water each material soaked up."
+   ],
+   "explanation": "A fair test keeps everything the same (size, water, time) except the material. The water left tells you how much was soaked up."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-011",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Choosing materials",
+   "stem": "Why is a window made of glass and not wood?",
+   "model_answer": "Glass is transparent, so light comes in and we can see through it. Wood is opaque and blocks the light.",
+   "keywords": [
+    [
+     "transparent",
+     "see through",
+     "see-through",
+     "clear",
+     "see out"
+    ],
+    [
+     "wood",
+     "opaque",
+     "cannot see",
+     "can't see",
+     "block",
+     "blocks"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "Windows must let light in, so they need a transparent material. Wood is opaque: you cannot see through it."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Jute, the golden fibre",
+   "stem": "Jute is used to make sacks and rope because the fibres are…",
+   "options": [
+    "hard and see-through",
+    "weak and stiff",
+    "strong and flexible",
+    "magnetic and heavy"
+   ],
+   "answer": 2,
+   "explanation": "Jute fibres are strong and flexible, so they can be twisted into rope and woven into sacks and bags."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-013",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Property words",
+   "stem": "A material that soaks up water is ___. A material that keeps water out is ___.",
+   "blanks": [
+    [
+     "absorbent"
+    ],
+    [
+     "waterproof"
+    ]
+   ],
+   "bank": [
+    "absorbent",
+    "waterproof",
+    "transparent",
+    "flexible"
+   ],
+   "explanation": "A towel is absorbent, so it soaks up water. A plastic raincoat is waterproof, so water stays outside."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Property words",
+   "stem": "Which picture shows something **transparent**?",
+   "options": [
+    {
+     "text": "door",
+     "image": "openmoji/door.svg"
+    },
+    {
+     "text": "window",
+     "image": "openmoji/window.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "wooden log",
+     "image": "openmoji/wood.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "You can see through the glass in a window, so it is transparent. A door, a brick and a log are opaque: you cannot see through them."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "A magnet is held over these pictures. Which one will it pick up?",
+   "options": [
+    {
+     "text": "paper clip",
+     "image": "openmoji/paperclip.svg"
+    },
+    {
+     "text": "plastic bottle",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "wooden log",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "feather",
+     "image": "openmoji/feather.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "A paper clip is made of steel, and steel is magnetic. Feathers, plastic and wood are not magnetic."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sorting materials",
+   "stem": "Match each picture to the material it is mostly made of.",
+   "pairs": [
+    [
+     {
+      "text": "brick",
+      "image": "openmoji/brick.svg"
+     },
+     "clay"
+    ],
+    [
+     {
+      "text": "glass bottle",
+      "image": "openmoji/glass-bottle.svg"
+     },
+     "glass"
+    ],
+    [
+     {
+      "text": "newspaper",
+      "image": "openmoji/newspaper.svg"
+     },
+     "paper"
+    ],
+    [
+     {
+      "text": "jeans",
+      "image": "openmoji/jeans.svg"
+     },
+     "cotton cloth"
+    ],
+    [
+     {
+      "text": "tin can",
+      "image": "openmoji/tin-can.svg"
+     },
+     "metal"
+    ]
+   ],
+   "explanation": "Everyday objects are made from materials such as clay, glass, paper, cloth and metal."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-017",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "Sort these things into magnetic and not magnetic.",
+   "categories": [
+    "Magnetic",
+    "Not magnetic"
+   ],
+   "items": [
+    [
+     {
+      "text": "paper clip",
+      "image": "openmoji/paperclip.svg"
+     },
+     "Magnetic"
+    ],
+    [
+     {
+      "text": "plastic bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "Not magnetic"
+    ],
+    [
+     {
+      "text": "safety pin",
+      "image": "openmoji/safety-pin.svg"
+     },
+     "Magnetic"
+    ],
+    [
+     {
+      "text": "feather",
+      "image": "openmoji/feather.svg"
+     },
+     "Not magnetic"
+    ],
+    [
+     {
+      "text": "sewing needle",
+      "image": "openmoji/sewing-needle.svg"
+     },
+     "Magnetic"
+    ],
+    [
+     {
+      "text": "wooden log",
+      "image": "openmoji/wood.svg"
+     },
+     "Not magnetic"
+    ],
+    [
+     {
+      "text": "glass bottle",
+      "image": "openmoji/glass-bottle.svg"
+     },
+     "Not magnetic"
+    ]
+   ],
+   "explanation": "Paper clips, safety pins and sewing needles are made of steel, so a magnet attracts them. Plastic, feathers, wood and glass are not magnetic."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Property words",
+   "stem": "Which picture shows something that is both **hard** and **opaque**?",
+   "options": [
+    {
+     "text": "sponge",
+     "image": "openmoji/sponge.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "window",
+     "image": "openmoji/window.svg"
+    },
+    {
+     "text": "yarn",
+     "image": "openmoji/yarn.svg"
+    }
+   ],
+   "answer": 1,
+   "explanation": "A brick is hard and you cannot see through it. A sponge and yarn are soft, and a window is hard but transparent."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Jute, the golden fibre",
+   "stem": "Mina is going to the bazar. She wants a strong bag that rots away safely when it is thrown out. Which bag should she take?",
+   "options": [
+    "a thin plastic bag",
+    "a bag made of foil",
+    "a bag made of cotton wool",
+    "a jute bag"
+   ],
+   "answer": 3,
+   "explanation": "Jute is strong and rots away in the soil. A thin plastic bag stays for hundreds of years and can block drains."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-020",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing materials",
+   "stem": "It is the monsoon. Anika needs a coat for the walk to school. Which material is best for the outside of the coat?",
+   "options": [
+    "a thick woollen blanket",
+    "a thin sheet of paper",
+    "a waterproof plastic sheet",
+    "a soft cotton towel"
+   ],
+   "answer": 2,
+   "explanation": "A raincoat must keep water out, so its outer layer must be waterproof. Wool, paper and towel cloth soak up water."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnetic materials",
+   "stem": "Imran drops a steel needle into a pile of sand. What is the quickest way to find it?",
+   "options": [
+    "Wave a plastic ruler over the sand.",
+    "Pour water over the sand.",
+    "Move a magnet over the sand.",
+    "Shine a torch on the sand."
+   ],
+   "answer": 2,
+   "explanation": "Steel is magnetic, so the needle jumps to the magnet. Sand is not magnetic and stays behind."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-022",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Choosing materials",
+   "stem": "A pot for cooking rice on a stove needs the right material. Which properties does the material need? Choose all that are right.",
+   "options": [
+    "strong",
+    "does not melt on a stove",
+    "absorbent like a sponge",
+    "breaks easily"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "A cooking pot must be strong and must not melt on the stove. An absorbent or easily broken pot would be no use."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-023",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Jute, the golden fibre",
+   "stem": "Farmers in Bangladesh store rice in jute sacks. Jute is a good material for sacks because the fibres are strong.",
+   "answer": true,
+   "explanation": "Strong fibres do not tear easily, so jute sacks can hold heavy rice and be used again and again."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair test",
+   "stem": "Class 3A put a 10 cm square of each material into 50 ml of water for one minute. Water left in the dish: cotton towel 20 ml, paper towel 30 ml, newspaper 40 ml, plastic 50 ml. Which statement is correct?",
+   "options": [
+    "The plastic soaked up the most: 50 ml.",
+    "The newspaper soaked up 40 ml.",
+    "The paper towel soaked up more than the cotton towel.",
+    "The cotton towel soaked up the most: 30 ml."
+   ],
+   "answer": 3,
+   "explanation": "Water soaked up = 50 ml minus water left. Cotton towel 30 ml, paper towel 20 ml, newspaper 10 ml, plastic 0 ml. The plastic left all 50 ml behind, so it soaked up nothing."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Fair test",
+   "stem": "Lina tests which cloth soaks up the most water. She puts a 10 cm square of cotton in 50 ml of water and a 20 cm square of wool in 100 ml of water. Why is this not a fair test?",
+   "options": [
+    "She changed the size of the cloth and the amount of water, not only the material.",
+    "She should have used only one cloth in the whole test.",
+    "She used cloth instead of paper in the test.",
+    "She should have used no water in the test."
+   ],
+   "answer": 0,
+   "explanation": "In a fair test only one thing changes (here the material). Size, amount of water and time must stay the same."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-026",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Magnetic materials",
+   "stem": "Aisha says: \"A coin is made of metal, so a magnet will always pick it up.\" Aisha is right.",
+   "answer": false,
+   "explanation": "Some coins contain steel and stick to a magnet, but others are made of metals that are not magnetic. You must test each one."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Choosing materials",
+   "stem": "A builder needs a material for a footbridge over a canal. Which properties must it have? Give two.",
+   "model_answer": "It must be strong and stiff, and waterproof or not rot or rust in water.",
+   "keywords": [
+    [
+     "strong",
+     "strength",
+     "hard to break"
+    ],
+    [
+     "stiff",
+     "hard",
+     "does not bend"
+    ],
+    [
+     "waterproof",
+     "rust",
+     "rot",
+     "water"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A bridge carries heavy loads, so it must be strong and stiff. It also stays outdoors in rain, so it must not rot or rust easily."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C1",
+   "title": "Material Properties",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-3-science/pdf/c1-material-properties-study-pack.pdf",
+   "id": "g3-c1-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Magnetic materials",
+   "stem": "Four things are tested with a magnet. Which one is the odd one out?",
+   "options": [
+    "the iron nail",
+    "the aluminium can",
+    "the steel pin",
+    "the paper clip"
+   ],
+   "answer": 1,
+   "explanation": "The nail, the pin and the paper clip are made of iron or steel, so a magnet attracts them. Aluminium is not magnetic."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-001",
    "mode": "core",
@@ -4964,7 +8230,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-002",
    "mode": "core",
@@ -4999,7 +8265,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-003",
    "mode": "core",
@@ -5017,7 +8283,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-004",
    "mode": "core",
@@ -5035,7 +8301,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-005",
    "mode": "core",
@@ -5070,7 +8336,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-006",
    "mode": "core",
@@ -5099,7 +8365,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-007",
    "mode": "core",
@@ -5146,7 +8412,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-008",
    "mode": "core",
@@ -5170,7 +8436,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-009",
    "mode": "core",
@@ -5194,7 +8460,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-010",
    "mode": "core",
@@ -5232,7 +8498,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-011",
    "mode": "core",
@@ -5261,7 +8527,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-012",
    "mode": "core",
@@ -5285,7 +8551,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-013",
    "mode": "picture",
@@ -5311,7 +8577,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-014",
    "mode": "picture",
@@ -5337,7 +8603,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-015",
    "mode": "picture",
@@ -5363,7 +8629,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-016",
    "mode": "picture",
@@ -5410,7 +8676,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-017",
    "mode": "picture",
@@ -5436,7 +8702,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-018",
    "mode": "real-life",
@@ -5460,7 +8726,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-019",
    "mode": "real-life",
@@ -5484,7 +8750,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-020",
    "mode": "real-life",
@@ -5502,7 +8768,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-021",
    "mode": "real-life",
@@ -5531,7 +8797,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-022",
    "mode": "simulation",
@@ -5559,7 +8825,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-023",
    "mode": "simulation",
@@ -5587,7 +8853,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-024",
    "mode": "simulation",
@@ -5609,7 +8875,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-025",
    "mode": "olympiad",
@@ -5633,7 +8899,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-026",
    "mode": "olympiad",
@@ -5657,7 +8923,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-027",
    "mode": "olympiad",
@@ -5700,7 +8966,7 @@
    "topic": "C2",
    "title": "Sound",
    "strand": "physical",
-   "site_skill": "P1",
+   "site_skill": "P2",
    "worksheet": "worksheets/grade-3-science/pdf/c2-sound-study-pack.pdf",
    "id": "g3-c2-028",
    "mode": "core",
@@ -5717,6 +8983,2481 @@
    ],
    "answer": 0,
    "explanation": "Volume (loudness) is how loud or quiet a sound is. Pitch is how high or low it is."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-001",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sources of heat",
+   "stem": "Heat is a kind of ___ that makes things warmer.",
+   "blanks": [
+    [
+     "energy"
+    ]
+   ],
+   "bank": [
+    "energy",
+    "colour",
+    "metal",
+    "sound"
+   ],
+   "explanation": "Heat is a kind of energy. When you rub your hands together, they get warm."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-002",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Sources of heat",
+   "stem": "Which of these are sources of heat? Choose all that are right.",
+   "options": [
+    "the Sun",
+    "a fire",
+    "an electric heater",
+    "an ice cube",
+    "a light bulb"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "explanation": "The Sun, fire, electric heaters and light bulbs all give out heat. An ice cube is cold: it takes in heat and melts."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring temperature",
+   "stem": "Match each thing to its temperature.",
+   "pairs": [
+    [
+     "ice melts",
+     "0 °C"
+    ],
+    [
+     "a healthy human body",
+     "about 37 °C"
+    ],
+    [
+     "water boils",
+     "100 °C"
+    ]
+   ],
+   "explanation": "Temperature is measured in degrees Celsius. Ice melts at 0 °C, our body is about 37 °C and water boils at 100 °C."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring temperature",
+   "stem": "We measure temperature in degrees ___ using a ___.",
+   "blanks": [
+    [
+     "Celsius",
+     "centigrade"
+    ],
+    [
+     "thermometer"
+    ]
+   ],
+   "bank": [
+    "Celsius",
+    "thermometer",
+    "ruler",
+    "kilograms"
+   ],
+   "explanation": "Temperature is measured in degrees Celsius (°C) with a thermometer. The liquid inside rises when it gets warmer."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Is heat added or removed? Sort these changes.",
+   "categories": [
+    "Heat added",
+    "Heat removed"
+   ],
+   "items": [
+    [
+     "ice cream melts",
+     "Heat added"
+    ],
+    [
+     "water freezes in the freezer",
+     "Heat removed"
+    ],
+    [
+     "rice cooks",
+     "Heat added"
+    ],
+    [
+     "hot tea cools down",
+     "Heat removed"
+    ],
+    [
+     "wet clothes dry in the sun",
+     "Heat added"
+    ],
+    [
+     "melted wax goes hard",
+     "Heat removed"
+    ]
+   ],
+   "explanation": "Melting, cooking and drying need heat to be added. Freezing, cooling and setting hard happen when heat is taken away."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-006",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How heat travels",
+   "stem": "Rafi stirs hot tea with a metal spoon. Put the steps in order to show how the heat reaches his fingers.",
+   "sequence": [
+    "The hot tea heats the bottom of the spoon.",
+    "Heat travels up through the metal.",
+    "The handle of the spoon gets hot.",
+    "Rafi's fingers feel the heat."
+   ],
+   "explanation": "Heat travels through the solid metal from the hot end to the cold end. This is called conduction."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How heat travels",
+   "stem": "Heat always moves from…",
+   "options": [
+    "colder places to hotter places",
+    "bigger things to smaller things",
+    "hotter places to colder places",
+    "heavier things to lighter things"
+   ],
+   "answer": 2,
+   "explanation": "Heat always moves from hotter places to colder places. That is why a hot drink cools down and a cold drink warms up."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How heat travels",
+   "stem": "Match each way heat travels to what happens.",
+   "pairs": [
+    [
+     "conduction",
+     "heat travels through a solid"
+    ],
+    [
+     "convection",
+     "warm water or air rises and cool water or air sinks"
+    ],
+    [
+     "radiation",
+     "heat travels as invisible rays"
+    ]
+   ],
+   "explanation": "Conduction is for solids, convection is for liquids and gases that move, and radiation needs no material at all: it is how the Sun warms us."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-009",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Conductors and insulators",
+   "stem": "Sort these into conductors and insulators of heat.",
+   "categories": [
+    "Conductor",
+    "Insulator"
+   ],
+   "items": [
+    [
+     "steel spoon",
+     "Conductor"
+    ],
+    [
+     "wooden spoon",
+     "Insulator"
+    ],
+    [
+     "aluminium pot",
+     "Conductor"
+    ],
+    [
+     "wool",
+     "Insulator"
+    ],
+    [
+     "iron nail",
+     "Conductor"
+    ],
+    [
+     "plastic handle",
+     "Insulator"
+    ]
+   ],
+   "explanation": "Metals let heat through easily, so they are conductors. Wood, wool and plastic do not, so they are insulators."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conductors and insulators",
+   "stem": "A woolly jumper keeps you warm because wool makes its own heat.",
+   "answer": false,
+   "explanation": "Wool does not make heat. It is an insulator and traps air, so your body heat stays in."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-011",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conductors and insulators",
+   "stem": "Why do cooking pots have wooden or plastic handles?",
+   "model_answer": "Wood and plastic are insulators, so the handle does not get too hot to hold.",
+   "keywords": [
+    [
+     "insulator",
+     "insulators",
+     "not conduct",
+     "not let heat",
+     "does not get hot",
+     "doesn't get hot",
+     "not get hot",
+     "stay cool",
+     "stays cool"
+    ],
+    [
+     "hold",
+     "burn",
+     "burnt",
+     "touch",
+     "too hot"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "The pot is metal, which conducts heat. A wooden or plastic handle is an insulator, so you can hold it without burning your hand."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Measuring temperature",
+   "stem": "Look at the thermometers. Which one could show the temperature of a healthy person?",
+   "image": "diagrams/thermometers-def.svg",
+   "image_alt": "Three thermometers A, B and C reading 12 °C, 37 °C and 48 °C.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 1,
+   "explanation": "A healthy body is about 37 °C, so thermometer B is the one. A (12 °C) is much too cold and C (48 °C) is much too hot."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring temperature",
+   "stem": "What temperature does thermometer C show?",
+   "image": "diagrams/thermometers-abc.svg",
+   "image_alt": "Three thermometers A, B and C reading 5 °C, 25 °C and 40 °C.",
+   "options": [
+    "30 °C",
+    "35 °C",
+    "40 °C",
+    "45 °C"
+   ],
+   "answer": 2,
+   "explanation": "Thermometer C reads 40 °C. Thermometer A reads 5 °C and B reads 25 °C."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How heat travels",
+   "stem": "Which picture shows heat travelling through a solid?",
+   "image": "diagrams/heat-transfer-lettered.svg",
+   "image_alt": "Three pictures: A a spoon in a hot drink, B a pot of water over a flame with arrows, C the Sun warming a hand.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": 0,
+   "explanation": "In picture A the heat travels along the metal spoon: that is conduction. B shows convection in water and C shows radiation from the Sun."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-015",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Sources of heat",
+   "stem": "Sort these pictures into things that give out heat and things that do not.",
+   "categories": [
+    "Gives out heat",
+    "Does not give out heat"
+   ],
+   "items": [
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Gives out heat"
+    ],
+    [
+     {
+      "text": "ice cube",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "Does not give out heat"
+    ],
+    [
+     {
+      "text": "fire",
+      "image": "openmoji/fire.svg"
+     },
+     "Gives out heat"
+    ],
+    [
+     {
+      "text": "snowflake",
+      "image": "openmoji/snowflake.svg"
+     },
+     "Does not give out heat"
+    ],
+    [
+     {
+      "text": "light bulb",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Gives out heat"
+    ],
+    [
+     {
+      "text": "iceberg",
+      "image": "openmoji/iceberg.svg"
+     },
+     "Does not give out heat"
+    ],
+    [
+     {
+      "text": "candle",
+      "image": "openmoji/candle.svg"
+     },
+     "Gives out heat"
+    ],
+    [
+     {
+      "text": "snowman",
+      "image": "openmoji/snowman.svg"
+     },
+     "Does not give out heat"
+    ]
+   ],
+   "explanation": "The Sun, fire, light bulbs and candles are sources of heat. Ice, snow and icebergs are cold."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Heating and cooling",
+   "stem": "The four cups hold the same amount of hot water. Only one thing is different. What is being changed in this investigation?",
+   "image": "diagrams/insulation-cups.svg",
+   "image_alt": "Four cups of hot water: one with no cover and others wrapped in newspaper, wool and foil.",
+   "options": [
+    "the cover on each cup",
+    "the first temperature",
+    "the size of the cups",
+    "the amount of water"
+   ],
+   "answer": 0,
+   "explanation": "The cups are the same and have the same hot water. Only the cover is different (none, newspaper, wool or foil), so the test finds out which cover keeps heat in best."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heat safety",
+   "stem": "Priya touches a hot pan by accident and gets a small burn on her finger. What should she do first?",
+   "options": [
+    "Put it near the fire to dry it and carry on cooking.",
+    "Hold it under clean running water for 20 minutes and tell an adult.",
+    "Wrap it in a dry cloth and tell nobody about it.",
+    "Rub it hard with a rough cloth and wait."
+   ],
+   "answer": 1,
+   "explanation": "Cool a burn under clean running water for 20 minutes and tell an adult. Hiding a burn or rubbing it can make it worse."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Heat safety",
+   "stem": "On a cold winter night in the north of Bangladesh, Nadia wants to stay warm safely. Which is the best choice?",
+   "options": [
+    "Sleep on the cold floor under a thin sheet.",
+    "Wear one thin shirt and open the window.",
+    "Sleep very close to the open fire.",
+    "Wear warm layers and use a thick quilt."
+   ],
+   "answer": 3,
+   "explanation": "Layers and a quilt trap air, which is an insulator, so body heat stays in. Sleeping close to an open fire is dangerous."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-019",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Heat safety",
+   "stem": "Tuli's family sits near a small open fire on a cold night. Which rules are safe? Choose all that are right.",
+   "options": [
+    "Sit at a safe distance.",
+    "Tie back loose clothes such as an orna.",
+    "Go to sleep and leave the fire burning.",
+    "Keep water or sand nearby.",
+    "Hang a shawl over the fire to dry it."
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Sit away from the fire, tie back loose clothes and keep water or sand nearby. Never leave a fire alone or put cloth near it."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-020",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Heat safety",
+   "stem": "Joy's clothes catch fire. Put the safe steps in order.",
+   "sequence": [
+    "Stop moving.",
+    "Drop to the ground.",
+    "Roll over to put out the flames."
+   ],
+   "explanation": "Stop, drop and roll. Running makes the flames bigger and rolling smothers them."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-021",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heat safety",
+   "stem": "It is safe to touch the flat plate of an electric iron to check whether it is hot.",
+   "answer": false,
+   "explanation": "Irons, stoves, hot oil and steam can burn you. Never touch them to test them."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-022",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "In the simulation, what happens to the thermometer reading in the water?",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Drag the beaker of water onto the stand above the burner and drag a thermometer into the water. Slide the burner control up to heat the water and watch the thermometer for a minute."
+   },
+   "options": [
+    "It goes up.",
+    "It goes down.",
+    "It stays the same."
+   ],
+   "answer": 0,
+   "explanation": "The burner adds heat to the water, so the water gets hotter and the thermometer reading rises."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "How heat travels",
+   "stem": "In the simulation, what happens to the two thermometers?",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Drag one thermometer onto the iron block and one onto the brick block. Heat the iron block with the burner, then move it so that it touches the cooler brick block. Watch both thermometers."
+   },
+   "options": [
+    "Both readings go up.",
+    "The iron's reading goes down and the brick's reading goes up.",
+    "Both readings go down.",
+    "Neither reading changes."
+   ],
+   "answer": 1,
+   "explanation": "Heat moves from the hotter iron block to the cooler brick block. The iron loses heat and cools, and the brick gains heat and warms, until they are the same temperature."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "In the simulation, when the burner is set to the blue cooling side under the water, the temperature of the water goes down.",
+   "sim": {
+    "id": "energy-forms-and-changes",
+    "task": "Open Energy Forms and Changes and choose the Intro screen. Put the beaker of water on the stand above the burner and drag a thermometer into the water. Slide the burner control to the blue cooling side and watch the thermometer for a minute."
+   },
+   "answer": true,
+   "explanation": "Cooling takes heat away from the water, so its temperature falls."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Conductors and insulators",
+   "stem": "Class 3A filled four cups with hot water at 80 °C and covered three of them. After 20 minutes the temperatures were: no cover 45 °C, newspaper 52 °C, wool 60 °C, foil 55 °C. Which statement is best supported?",
+   "options": [
+    "Foil was the best insulator of the four.",
+    "Newspaper was a better insulator than wool.",
+    "The cup with no cover kept the most heat.",
+    "Wool was the best insulator of the four."
+   ],
+   "answer": 3,
+   "explanation": "The hottest water after 20 minutes (60 °C) was in the wool cup, so wool let the least heat escape. The cup with no cover cooled the most (45 °C)."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Conductors and insulators",
+   "stem": "Raju wraps one cold bottle of water in a woollen scarf and leaves another bottle unwrapped on the table. After an hour the unwrapped bottle is warmer. Why?",
+   "options": [
+    "Wool gives out cold and chills the bottle.",
+    "Wool is a good conductor, so it carried heat away.",
+    "Wool is an insulator, so it slowed the heat moving into the wrapped bottle.",
+    "The unwrapped bottle was heavier than the other."
+   ],
+   "answer": 2,
+   "explanation": "Insulators slow heat down in both directions: they keep warm things warm and cold things cold. Wool does not give out cold."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Conductors and insulators",
+   "stem": "Design a box to keep a lunch of hot rice warm. Which materials would you use and why?",
+   "model_answer": "A metal tiffin box wrapped in wool or cloth and put in a plastic bag. These insulators trap the heat so the rice stays warm.",
+   "keywords": [
+    [
+     "wool",
+     "cloth",
+     "cotton",
+     "quilt",
+     "towel",
+     "blanket",
+     "foam",
+     "plastic",
+     "newspaper",
+     "paper",
+     "kantha"
+    ],
+    [
+     "insulator",
+     "insulators",
+     "insulate",
+     "trap",
+     "keep the heat",
+     "keeps the heat",
+     "keep heat",
+     "keeps heat",
+     "heat in",
+     "stop heat",
+     "stops heat",
+     "not let heat",
+     "heat escape"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "To keep heat in, wrap the food in insulators such as wool, cloth or foam. Air trapped in these materials slows the heat escaping."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C3",
+   "title": "Heat and Temperature",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-3-science/pdf/c3-heat-and-temperature-study-pack.pdf",
+   "id": "g3-c3-028",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Conductors and insulators",
+   "stem": "In an example experiment, a dot of wax is put on the end of four spoons. The other ends are put in the same hot water. The wax melts after 40 seconds on the aluminium spoon and 60 seconds on the steel spoon. After 5 minutes the wax on the wooden and plastic spoons has not melted. Which conclusion is best?",
+   "options": [
+    "Wood and plastic are the best conductors.",
+    "Steel conducts heat faster than aluminium.",
+    "Metals are good conductors and wood and plastic are insulators.",
+    "All four spoons conduct heat equally well."
+   ],
+   "answer": 2,
+   "explanation": "Heat reached the wax fastest through aluminium, then steel, so metals conduct well. It did not reach the wax through wood or plastic, so they are insulators."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-001",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a circuit",
+   "stem": "Match each part of a circuit to its job.",
+   "pairs": [
+    [
+     "cell",
+     "stores electricity"
+    ],
+    [
+     "lamp",
+     "gives out light"
+    ],
+    [
+     "switch",
+     "opens or closes a gap in the circuit"
+    ],
+    [
+     "buzzer",
+     "makes a sound"
+    ],
+    [
+     "wire",
+     "joins the parts together"
+    ]
+   ],
+   "explanation": "A circuit needs a cell to push the electricity round, wires to carry it, and something to use it, such as a lamp or buzzer. A switch lets us turn it on and off."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-002",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "A lamp will light only if the circuit is a complete loop.",
+   "answer": true,
+   "explanation": "Electricity can flow only if there is no gap. If the loop is complete, the lamp lights."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Electricity can flow only if the circuit is a complete ___.",
+   "blanks": [
+    [
+     "loop",
+     "circle"
+    ]
+   ],
+   "bank": [
+    "loop",
+    "gap",
+    "switch",
+    "magnet"
+   ],
+   "explanation": "A circuit is a loop. Electricity flows from one end of the cell, through the wires and the lamp, and back to the other end."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-004",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Put the steps in order to show what happens when you close the switch in a working circuit.",
+   "sequence": [
+    "The switch is closed.",
+    "The gap in the circuit is closed.",
+    "Electricity flows all the way round the loop.",
+    "The lamp lights."
+   ],
+   "explanation": "Closing the switch fills the gap. With a complete loop, electricity can flow round and the lamp lights."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-005",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Model of current",
+   "stem": "In the model of electric current, tiny particles in the wires…",
+   "options": [
+    "flow round the whole circuit",
+    "stay still inside the cell",
+    "are all used up by the lamp",
+    "fly out of the wires into the air"
+   ],
+   "answer": 0,
+   "explanation": "In the model, the cell pushes the particles and they flow all the way round the loop, like children in a ring passing a ball. They are not used up."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-006",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Magnetic metals",
+   "stem": "Sort these objects into those a magnet attracts and those it does not.",
+   "categories": [
+    "Attracted by a magnet",
+    "Not attracted"
+   ],
+   "items": [
+    [
+     "iron nail",
+     "Attracted by a magnet"
+    ],
+    [
+     "aluminium foil",
+     "Not attracted"
+    ],
+    [
+     "steel pin",
+     "Attracted by a magnet"
+    ],
+    [
+     "copper wire",
+     "Not attracted"
+    ],
+    [
+     "steel spoon",
+     "Attracted by a magnet"
+    ],
+    [
+     "plastic toy",
+     "Not attracted"
+    ]
+   ],
+   "explanation": "Magnets attract iron and steel. Aluminium, copper and plastic are not magnetic."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-007",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Attract and repel",
+   "stem": "Will the magnets attract or repel? Sort these.",
+   "categories": [
+    "Attract",
+    "Repel"
+   ],
+   "items": [
+    [
+     "north pole facing south pole",
+     "Attract"
+    ],
+    [
+     "north pole facing north pole",
+     "Repel"
+    ],
+    [
+     "south pole facing north pole",
+     "Attract"
+    ],
+    [
+     "south pole facing south pole",
+     "Repel"
+    ]
+   ],
+   "explanation": "Different poles attract. Two poles that are the same repel, which means they push apart."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Magnetic metals",
+   "stem": "Which materials does a magnet attract? Choose all that are right.",
+   "options": [
+    "iron",
+    "steel",
+    "aluminium",
+    "copper",
+    "plastic"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "A magnet attracts iron and steel. Aluminium and copper are metals that are not attracted, and plastic is not a metal at all."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Attract and repel",
+   "stem": "Each magnet has two ends called ___: north and south.",
+   "blanks": [
+    [
+     "poles",
+     "pole"
+    ]
+   ],
+   "bank": [
+    "poles",
+    "cells",
+    "wires",
+    "loops"
+   ],
+   "explanation": "The two ends of a magnet are its poles, a north pole (N) and a south pole (S)."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Model of current",
+   "stem": "Use the particle model to explain why the lamp goes out when you open the switch.",
+   "model_answer": "Opening the switch makes a gap, so the ring of particles is broken. The particles cannot flow round the circuit, so the lamp goes out.",
+   "keywords": [
+    [
+     "gap",
+     "break",
+     "broken",
+     "open",
+     "opens"
+    ],
+    [
+     "particles",
+     "flow",
+     "flows",
+     "current",
+     "electricity",
+     "ring",
+     "loop",
+     "stop",
+     "stops"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The particles can only flow round a complete loop, like children passing a ball in a ring. If the ring breaks, everything stops."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-011",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Look at the circuit. What will the lamp do?",
+   "image": "diagrams/circuit-closed.svg",
+   "image_alt": "A circuit with a cell, a lamp and a closed switch.",
+   "options": [
+    "It will make a sound.",
+    "It will stay dark.",
+    "It will light up."
+   ],
+   "answer": 2,
+   "explanation": "The cell, wires, lamp and closed switch make a complete loop, so electricity flows and the lamp lights."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Look at the circuit. Why is the lamp off?",
+   "image": "diagrams/circuit-open.svg",
+   "image_alt": "A circuit with a cell, a lamp and an open switch.",
+   "options": [
+    "The lamp has been put in the circuit the wrong way round.",
+    "There are too many wires in the circuit.",
+    "The wires in the circuit are too short.",
+    "The open switch makes a gap in the loop."
+   ],
+   "answer": 3,
+   "explanation": "An open switch is a gap in the circuit. Electricity cannot flow across the gap, so the lamp stays off."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Compared with one lamp in a circuit with one cell, how bright are the two lamps in this picture?",
+   "image": "diagrams/circuit-two-lamps.svg",
+   "image_alt": "A circuit with one cell and two lamps in a loop.",
+   "options": [
+    "brighter",
+    "dimmer",
+    "just the same",
+    "much brighter"
+   ],
+   "answer": 1,
+   "explanation": "The two lamps share the electricity from one cell, so each is dimmer than a single lamp would be."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Attract and repel",
+   "stem": "Look at the bar magnets. What happens when two north poles face each other?",
+   "image": "diagrams/bar-magnets.svg",
+   "image_alt": "Bar magnets: north facing south attract; north facing north repel.",
+   "options": [
+    "They attract: they pull together.",
+    "They repel: they push apart.",
+    "Nothing happens.",
+    "They stick and cannot be moved."
+   ],
+   "answer": 1,
+   "explanation": "Two poles that are the same repel each other. Different poles attract."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-015",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Parts of a circuit",
+   "stem": "Sort these pictures into things that need electricity to work and things that do not.",
+   "categories": [
+    "Needs electricity",
+    "Does not need electricity"
+   ],
+   "items": [
+    [
+     {
+      "text": "fan",
+      "image": "openmoji/fan.svg"
+     },
+     "Needs electricity"
+    ],
+    [
+     {
+      "text": "bicycle",
+      "image": "openmoji/bicycle.svg"
+     },
+     "Does not need electricity"
+    ],
+    [
+     {
+      "text": "television",
+      "image": "openmoji/television.svg"
+     },
+     "Needs electricity"
+    ],
+    [
+     {
+      "text": "candle",
+      "image": "openmoji/candle.svg"
+     },
+     "Does not need electricity"
+    ],
+    [
+     {
+      "text": "mobile phone",
+      "image": "openmoji/mobile-phone.svg"
+     },
+     "Needs electricity"
+    ],
+    [
+     {
+      "text": "broom",
+      "image": "openmoji/broom.svg"
+     },
+     "Does not need electricity"
+    ],
+    [
+     {
+      "text": "light bulb",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Needs electricity"
+    ],
+    [
+     {
+      "text": "hammer",
+      "image": "openmoji/hammer.svg"
+     },
+     "Does not need electricity"
+    ]
+   ],
+   "explanation": "Fans, televisions, phones and light bulbs all use electricity. A bicycle, a candle, a broom and a hammer do not."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Electricity at home",
+   "stem": "Rafi finds a loose wire sticking out of a wall socket. What is the safe thing to do?",
+   "options": [
+    "Push it back into the socket with a pencil.",
+    "Pull it out of the socket with wet hands.",
+    "Cover it with a wet cloth and walk away.",
+    "Do not touch it and tell an adult."
+   ],
+   "answer": 3,
+   "explanation": "Mains electricity is very dangerous and can kill. Never touch sockets or wires, and never use wet hands. Tell an adult."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-017",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Raju's torch does not light. Which could be the reason? Choose all that are right.",
+   "options": [
+    "The cell is flat (used up).",
+    "The switch is off.",
+    "A wire has come loose, leaving a gap.",
+    "The torch is too heavy.",
+    "The torch case is red."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A torch needs a cell with electricity and a complete loop. A flat cell, an open switch or a gap all stop it working. Weight and colour make no difference."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Magnetic metals",
+   "stem": "A scrapyard crane has a huge magnet to lift scrap. Which scrap can it lift?",
+   "options": [
+    "old iron bars",
+    "aluminium drink cans",
+    "copper pipes",
+    "plastic bottles"
+   ],
+   "answer": 0,
+   "explanation": "Iron is magnetic, so the crane magnet pulls it up. Aluminium, copper and plastic are not magnetic."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-019",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "A solar home system in a village has a solar panel, a battery, wires, switches and lamps. At night the battery lights the lamps.",
+   "answer": true,
+   "explanation": "The solar panel charges the battery in the day. At night the battery sends electricity round the circuit to the lamps."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-020",
+   "mode": "real-life",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Parts of a circuit",
+   "stem": "In a solar home system, the solar panel turns ___ into electricity, which is stored in a ___.",
+   "blanks": [
+    [
+     "sunlight",
+     "light",
+     "Sun",
+     "sun"
+    ],
+    [
+     "battery",
+     "cell"
+    ]
+   ],
+   "bank": [
+    "sunlight",
+    "battery",
+    "wire",
+    "magnet"
+   ],
+   "explanation": "Solar panels turn sunlight into electricity. The battery stores it so that families can use lamps at night without smoky kerosene lamps."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-021",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and breaks",
+   "stem": "In the simulation, what happens to the bulb when you open the switch?",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC. Drag a battery, a light bulb, a switch and some wires onto the board and join them in one loop with the switch closed, so the bulb is lit. Now click the switch to open it."
+   },
+   "options": [
+    "It gets brighter.",
+    "It stays on.",
+    "It goes out."
+   ],
+   "answer": 2,
+   "explanation": "Opening the switch makes a gap in the loop, so electricity stops flowing and the bulb goes out."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-022",
+   "mode": "simulation",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Magnetic metals",
+   "stem": "In the simulation, which objects make the bulb light? Choose all that are right.",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC and choose the Lab screen. Join a battery and a bulb with wires but leave a gap in the loop. Put each object in the gap one at a time: the paper clip, the coin, the eraser and the dollar bill. Watch the bulb."
+   },
+   "options": [
+    "the paper clip",
+    "the coin",
+    "the eraser",
+    "the dollar bill"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Metals such as the paper clip and coin let electricity through and complete the circuit. The eraser and the dollar bill do not."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "In the simulation, what happens to the brightness of the bulbs when you add a second bulb in the same loop?",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC. Build a loop with one battery and one bulb and look at how bright it is. Then add a second bulb in the same loop (in a line with the first) and compare."
+   },
+   "options": [
+    "They are dimmer than one bulb alone.",
+    "They are brighter than one bulb alone.",
+    "They stay the same as one bulb alone."
+   ],
+   "answer": 0,
+   "explanation": "The two bulbs share the electricity from one battery, so each is dimmer."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Attract and repel",
+   "stem": "In the simulation, when you flip the bar magnet over, the compass needle turns to point the opposite way.",
+   "sim": {
+    "id": "magnet-and-compass",
+    "task": "Open Magnet and Compass. Drag the compass close to one end of the bar magnet and see which way the needle points. Now flip the magnet over and watch the needle."
+   },
+   "answer": true,
+   "explanation": "A compass needle is a small magnet. When the poles of the bar magnet swap places, the needle swaps too."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and breaks",
+   "stem": "A circuit has one cell, a closed switch and two lamps joined in one loop. Both lamps are lit. Imran unscrews one lamp from its holder. What happens to the other lamp?",
+   "options": [
+    "It gets brighter, because it now gets all the electricity.",
+    "It stays the same, because electricity goes round the gap.",
+    "It flickers for a moment, then stays lit.",
+    "It goes out too, because the loop is broken."
+   ],
+   "answer": 3,
+   "explanation": "Unscrewing a lamp makes a gap in the only loop. Electricity cannot flow anywhere, so the other lamp goes out too."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Attract and repel",
+   "stem": "Class 3B hung paper clips in a chain from each magnet until no more would stick. Results: bar magnet 8, horseshoe magnet 12, ring magnet 5, fridge magnet 2. Which statement is correct?",
+   "options": [
+    "The ring magnet held more clips than the bar magnet.",
+    "The horseshoe magnet held 4 more clips than the bar magnet.",
+    "The fridge magnet held 5 clips.",
+    "The bar magnet was the strongest magnet."
+   ],
+   "answer": 1,
+   "explanation": "12 minus 8 is 4, so the horseshoe held 4 more than the bar. The horseshoe held the most clips, so it was the strongest."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-027",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Complete circuits and breaks",
+   "stem": "Nadia's lamp does not light because there is a gap in a wire. Using a stronger cell will make it light.",
+   "answer": false,
+   "explanation": "Electricity cannot cross a gap, however strong the cell is. She must close the gap to make a complete loop."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C4",
+   "title": "Electricity and Magnets",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-3-science/pdf/c4-electricity-and-magnets-study-pack.pdf",
+   "id": "g3-c4-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Magnetic metals",
+   "stem": "How could you use a magnet to separate iron nails from sand?",
+   "model_answer": "Move a magnet through the mixture. The iron nails stick to the magnet and the sand stays behind.",
+   "keywords": [
+    [
+     "magnet"
+    ],
+    [
+     "nails",
+     "nail",
+     "iron",
+     "stick",
+     "sticks",
+     "attract",
+     "attracted",
+     "pull",
+     "pulls",
+     "pick",
+     "picks"
+    ],
+    [
+     "sand",
+     "stays",
+     "left",
+     "behind"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Iron is magnetic and sand is not. The magnet picks up the nails and leaves the sand."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What a simple machine is",
+   "stem": "A simple machine is a tool that…",
+   "options": [
+    "needs a motor to work",
+    "makes work easier",
+    "has hundreds of moving parts",
+    "always uses electricity"
+   ],
+   "answer": 1,
+   "explanation": "A simple machine has few or no moving parts and makes work easier. It can let us use less force, change the direction of a force, or move something further or faster."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-002",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What a simple machine is",
+   "stem": "Which of these are simple machines? Choose all that are right.",
+   "options": [
+    "a lever",
+    "a ramp",
+    "a pulley",
+    "a mobile phone",
+    "a television"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Levers, ramps and pulleys are simple machines. Phones and televisions are complicated electrical devices."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "A lever is a bar that turns on a point called the ___.",
+   "blanks": [
+    [
+     "fulcrum",
+     "pivot"
+    ]
+   ],
+   "bank": [
+    "fulcrum",
+    "load",
+    "effort",
+    "gear"
+   ],
+   "explanation": "The fulcrum (pivot) is the point a lever turns on. The effort is your push or pull, and the load is the thing being moved."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-004",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "Match each lever word to its meaning.",
+   "pairs": [
+    [
+     "effort",
+     "the push or pull you give"
+    ],
+    [
+     "load",
+     "the thing being moved"
+    ],
+    [
+     "fulcrum",
+     "the point a lever turns on"
+    ]
+   ],
+   "explanation": "When you press a spoon under a tin lid, your push is the effort, the lid is the load and the rim of the tin is the fulcrum."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-005",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Machines in daily life",
+   "stem": "Sort these into levers, ramps, and pulleys or gears.",
+   "categories": [
+    "Lever",
+    "Ramp",
+    "Pulley or gear"
+   ],
+   "items": [
+    [
+     "see-saw",
+     "Lever"
+    ],
+    [
+     "wheelchair slope",
+     "Ramp"
+    ],
+    [
+     "flag rope on a pole",
+     "Pulley or gear"
+    ],
+    [
+     "scissors",
+     "Lever"
+    ],
+    [
+     "zig-zag hill road",
+     "Ramp"
+    ],
+    [
+     "bucket rope at a well",
+     "Pulley or gear"
+    ],
+    [
+     "dheki",
+     "Lever"
+    ],
+    [
+     "egg beater",
+     "Pulley or gear"
+    ]
+   ],
+   "explanation": "Levers turn on a fulcrum. Ramps are slopes. Pulleys use a wheel and rope, and gears are wheels with teeth."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Ramps",
+   "stem": "A ramp lets you use less force, but you must move the load further.",
+   "answer": true,
+   "explanation": "It is easier to push a heavy load up a ramp than to lift it straight up, but the path is longer."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "Why is it easier to open a tin lid with a long spoon than with a coin?",
+   "options": [
+    "The spoon is heavier, so the lid feels lighter to open.",
+    "The spoon is made of a different metal, so the lid is lighter.",
+    "The effort is further from the fulcrum, so less force is needed.",
+    "A coin has sharp edges, so it cannot touch the lid."
+   ],
+   "answer": 2,
+   "explanation": "The longer the handle, the further your push is from the fulcrum, and the less force you need. The lid does not get lighter."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Pulleys and gears",
+   "stem": "Put the steps in order to show how a flag is raised with a pulley.",
+   "sequence": [
+    "The flag is tied to the rope.",
+    "The rope goes over the pulley wheel at the top of the pole.",
+    "Someone pulls down on the rope.",
+    "The flag goes up the pole."
+   ],
+   "explanation": "A pulley is a wheel with a rope over it. Pulling down on the rope lifts the flag up."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Pulleys and gears",
+   "stem": "A pulley is a wheel with a ___ over it. Gears are wheels with ___ that turn each other.",
+   "blanks": [
+    [
+     "rope",
+     "string"
+    ],
+    [
+     "teeth"
+    ]
+   ],
+   "bank": [
+    "rope",
+    "teeth",
+    "hooks",
+    "spokes"
+   ],
+   "explanation": "Pulleys lift buckets from wells and flags up poles. Gears, in bicycles, clocks and rice mills, turn each other with their teeth."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-010",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Pulleys and gears",
+   "stem": "How does a pulley help someone raise a flag?",
+   "model_answer": "Pulling down on the rope makes the flag go up, so the person can stay on the ground and pull in an easy direction.",
+   "keywords": [
+    [
+     "pull down",
+     "pulling down",
+     "pull the rope down",
+     "pulls down",
+     "down"
+    ],
+    [
+     "up",
+     "raise",
+     "raises",
+     "lift",
+     "lifts",
+     "higher"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A pulley changes the direction of the force. Pulling down is easier than climbing the pole to push the flag up."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Ramps",
+   "stem": "A ramp makes a heavy load lighter.",
+   "answer": false,
+   "explanation": "The load keeps the same weight. A ramp lets you move it a longer way with less force at a time."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-012",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "Look at the see-saw lever. Which number shows the **fulcrum**?",
+   "image": "diagrams/lever-numbered.svg",
+   "image_alt": "A see-saw lever with three parts numbered: 1 effort, 2 fulcrum, 3 load.",
+   "options": [
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "The fulcrum (pivot) is the point the see-saw turns on: number 2. Number 1 is the effort (push) and number 3 is the load."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-013",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "What a simple machine is",
+   "stem": "Look at the six simple machines. Match each letter to its name.",
+   "image": "diagrams/simple-machines-lettered.svg",
+   "image_alt": "Six simple machines lettered A to F: lever, pulley, wheel and axle, inclined plane, wedge and screw.",
+   "pairs": [
+    [
+     "A",
+     "lever"
+    ],
+    [
+     "B",
+     "pulley"
+    ],
+    [
+     "C",
+     "wheel and axle"
+    ],
+    [
+     "D",
+     "ramp (inclined plane)"
+    ]
+   ],
+   "explanation": "A is a lever, B a pulley, C a wheel and axle, and D an inclined plane (ramp). E is a wedge and F is a screw."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Machines in daily life",
+   "stem": "The handle of a hand tubewell is a lever. Which number shows the handle you push?",
+   "image": "diagrams/tubewell-numbered.svg",
+   "image_alt": "A hand tubewell: 1 handle, 2 pivot, 3 pump body, 4 spout, 5 pipe to underground water.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "Number 1 is the handle, which is the lever. Number 2 is the pivot (fulcrum). A long handle makes it easier to lift the water."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Ramps",
+   "stem": "Lifting the box straight up needs 10 N. Pulling it up the ramp needs 4 N. What does the picture show?",
+   "image": "diagrams/ramp-lift.svg",
+   "image_alt": "Lifting a box straight up needs 10 N; pulling it up a ramp needs 4 N.",
+   "options": [
+    "The ramp needs more force than lifting.",
+    "The ramp makes the box lighter.",
+    "The ramp needs the same force but is shorter.",
+    "The ramp needs less force but a longer path."
+   ],
+   "answer": 3,
+   "explanation": "The ramp lets you use less force (4 N instead of 10 N), but the box travels a longer way."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-016",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Machines in daily life",
+   "stem": "Match each picture to the simple machine it shows.",
+   "pairs": [
+    [
+     {
+      "text": "scissors",
+      "image": "openmoji/scissors.svg"
+     },
+     "lever"
+    ],
+    [
+     {
+      "text": "slide",
+      "image": "openmoji/playground-slide.svg"
+     },
+     "ramp (inclined plane)"
+    ],
+    [
+     {
+      "text": "gear",
+      "image": "openmoji/gear.svg"
+     },
+     "gear"
+    ],
+    [
+     {
+      "text": "wheel",
+      "image": "openmoji/wheel.svg"
+     },
+     "wheel and axle"
+    ]
+   ],
+   "explanation": "Scissors are two levers joined at a pivot. A slide is a ramp. Gears are wheels with teeth. A wheel turns on an axle."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-017",
+   "mode": "picture",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Investigating ramps",
+   "stem": "The forcemeter shows ___ newtons (N).",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter reading 7 newtons.",
+   "blanks": [
+    [
+     "7",
+     "seven"
+    ]
+   ],
+   "explanation": "Read the pointer on the scale: it points to 7 N."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Ramps",
+   "stem": "Nadia must put a heavy sack of rice onto a truck. Which way needs the least force?",
+   "options": [
+    "Push it up a long, gentle ramp.",
+    "Push it up a short, steep ramp.",
+    "Throw it onto the truck.",
+    "Lift it straight up by hand."
+   ],
+   "answer": 0,
+   "explanation": "A long, gentle ramp needs the least force. A short, steep ramp is hard work, and lifting straight up needs the most force."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Machines in daily life",
+   "stem": "In many villages women husk rice with a long wooden dheki, which turns on a pivot. What kind of simple machine is a dheki?",
+   "options": [
+    "a pulley",
+    "a ramp",
+    "a lever",
+    "a gear"
+   ],
+   "answer": 2,
+   "explanation": "A dheki is a long beam that turns on a pivot. One end is stepped on and the other end lifts and thumps down, so it is a lever."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Machines in daily life",
+   "stem": "A tubewell handle is a lever. Pumping the long handle takes less force than lifting the water straight up by hand.",
+   "answer": true,
+   "explanation": "The long handle is a lever. The longer the handle, the less force you need to lift the water."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-021",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "What a simple machine is",
+   "stem": "Imran must raise a heavy box into the back of a truck. Which things could help? Choose all that are right.",
+   "options": [
+    "a long plank used as a ramp",
+    "a pulley and rope fixed above",
+    "a long bar used as a lever",
+    "shaking the box",
+    "pushing it with no tool"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A ramp, a pulley and a lever are simple machines that make the job easier. Shaking the box or pushing with no tool does not help."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-022",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "In the simulation, what happens to the plank when you remove the supports?",
+   "sim": {
+    "id": "balancing-act",
+    "task": "Open Balancing Act and choose the Intro screen. Drag one brick onto the left side of the plank and an identical brick onto the right side at the same distance from the pivot. Then remove the supports under the plank."
+   },
+   "options": [
+    "It stays level.",
+    "The left side goes down.",
+    "The right side goes down."
+   ],
+   "answer": 0,
+   "explanation": "Two identical bricks at equal distances from the pivot pull down equally, so the plank balances."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-023",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "In the simulation, which side goes down?",
+   "sim": {
+    "id": "balancing-act",
+    "task": "Open Balancing Act and choose the Intro screen. Put one brick on the left side of the plank, far from the pivot. Put an identical brick on the right side, close to the pivot. Then remove the supports under the plank."
+   },
+   "options": [
+    "The right side, where the brick is closer to the pivot.",
+    "Both sides go down together.",
+    "Neither side, because the bricks weigh the same.",
+    "The left side, where the brick is further from the pivot."
+   ],
+   "answer": 3,
+   "explanation": "The two bricks weigh the same, but the one further from the pivot has a bigger turning effect, so the plank tips on that side."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-024",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "In the simulation, one brick on the left and two bricks on the right at the same distance from the pivot make the right side go down.",
+   "sim": {
+    "id": "balancing-act",
+    "task": "Open Balancing Act and choose the Intro screen. Put one brick on the left side and two bricks on the right side, both at the same distance from the pivot. Then remove the supports under the plank."
+   },
+   "answer": true,
+   "explanation": "More weight at the same distance gives a bigger turning effect, so the heavier side goes down."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Investigating ramps",
+   "stem": "Class 3C pulled a toy truck up ramps with a forcemeter. Force needed: 10 cm ramp 3 N, 20 cm ramp 5 N, 30 cm ramp 7 N, lifting straight up 10 N. Which statement is correct?",
+   "options": [
+    "The 10 cm ramp needed 7 N.",
+    "The 30 cm ramp needed 3 N less than lifting straight up.",
+    "The 20 cm ramp needed more force than the 30 cm ramp.",
+    "Lifting straight up needed the least force."
+   ],
+   "answer": 1,
+   "explanation": "10 N minus 7 N is 3 N. The lower the ramp, the less force is needed: 3 N, 5 N, 7 N and then 10 N for lifting straight up."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Levers: fulcrum, effort, load",
+   "stem": "Rafi is heavier than his little sister Tuli. They want to balance on a see-saw. Where should Tuli sit?",
+   "options": [
+    "closer to the middle than Rafi",
+    "the same distance from the middle as Rafi",
+    "on the same side as Rafi",
+    "further from the middle than Rafi"
+   ],
+   "answer": 3,
+   "explanation": "A lighter person further from the pivot can balance a heavier person who sits closer to it."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-027",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Pulleys and gears",
+   "stem": "Design a machine to lift a bucket of sand to a first-floor window. Name the simple machines you use.",
+   "model_answer": "Fix a pulley above the window and put a rope over it. Tie the bucket to one end and pull down on the other end from the ground. A winding handle (wheel and axle) could make it easier.",
+   "keywords": [
+    [
+     "pulley",
+     "pulleys",
+     "wheel and axle",
+     "lever",
+     "ramp"
+    ],
+    [
+     "rope",
+     "string",
+     "chain",
+     "handle"
+    ],
+    [
+     "bucket",
+     "sand",
+     "lift",
+     "raise",
+     "window",
+     "up"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A pulley with a rope lets you stand on the ground and pull down to raise the load. Other simple machines can help too."
+  },
+  {
+   "grade": 3,
+   "grade_name": "Grade 3",
+   "topic": "C5",
+   "title": "Simple Machines",
+   "strand": "physical",
+   "site_skill": "P5",
+   "worksheet": "worksheets/grade-3-science/pdf/c5-simple-machines-study-pack.pdf",
+   "id": "g3-c5-028",
+   "mode": "olympiad",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Ramps",
+   "stem": "A steeper ramp needs less force than a gentle ramp to lift the same load.",
+   "answer": false,
+   "explanation": "The gentler (lower) the ramp, the less force is needed. A steep ramp is closer to lifting the load straight up."
   }
  ]
 }

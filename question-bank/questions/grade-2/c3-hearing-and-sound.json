@@ -15,12 +15,12 @@
    "subskill": "How we hear",
    "stem": "All sounds are made when something…",
    "options": [
-    "vibrates",
     "gets hot",
+    "vibrates",
     "changes colour",
     "stands still"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "A vibration is a very fast shaking backwards and forwards. A drum skin, a bell and your voice box all vibrate to make sound."
   },
   {
@@ -417,11 +417,11 @@
    "stem": "Rafi works with a loud machine in a factory all day. What should he wear?",
    "options": [
     "a hat",
-    "ear muffs",
     "sunglasses",
+    "ear muffs",
     "a raincoat"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Ear muffs block loud sound and protect his hearing. Loud sound for a long time can damage the ears."
   },
   {
@@ -435,10 +435,10 @@
    "options": [
     "Shout loudly at the drivers.",
     "Honk back as loudly as they can.",
-    "Make posters and politely ask drivers not to honk.",
-    "Play loud music for the patients."
+    "Play loud music for the patients.",
+    "Make posters and politely ask drivers not to honk."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "A quiet, polite message can help drivers remember. Patients need quiet so they can rest and get better, and shouting or loud music adds more noise."
   },
   {
@@ -450,12 +450,12 @@
    "subskill": "Noise and blocking sound",
    "stem": "A loudspeaker at a fair is so loud that Mina's ears hurt. What should she do?",
    "options": [
-    "Cover her ears and move away.",
-    "Stand closer to it.",
     "Shout to be heard over it.",
+    "Stand closer to it.",
+    "Cover her ears and move away.",
     "Put her fingers deep in her ears."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "Very loud sound can damage hearing. Covering your ears and moving further away protects them, and nothing should go inside your ears."
   },
   {
@@ -503,12 +503,12 @@
    "subskill": "Noise and blocking sound",
    "stem": "Class 2C covered a ticking clock with different materials and scored how loud it was (5 = very loud, 1 = very quiet): nothing 5, paper 4, cloth 3, cotton wool 1. Which conclusion is best?",
    "options": [
-    "Paper blocked the most sound.",
+    "Cotton wool blocked the most sound.",
     "Every material blocked the same amount.",
     "Cloth made the clock louder.",
-    "Cotton wool blocked the most sound."
+    "Paper blocked the most sound."
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "The lowest score means the quietest sound, so cotton wool blocked the most. Paper blocked only a little and the cloth was in between."
   },
   {
@@ -594,11 +594,11 @@
    "stem": "A bat finds insects in the dark by using…",
    "options": [
     "bright light",
-    "echoes",
     "smell only",
+    "echoes",
     "its eyes only"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "A bat makes sounds and listens for the echoes that bounce back from insects. This is how it finds food in the dark."
   }
  ]

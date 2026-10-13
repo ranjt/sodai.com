@@ -231,12 +231,12 @@
    "subskill": "Loudness and pitch",
    "stem": "Anika wants a louder sound from her dhol. What should she do?",
    "options": [
-    "Hit the drum skin harder.",
+    "Stand much further away from the drum.",
     "Hit the drum skin more gently.",
     "Cover the drum skin with a thick cloth.",
-    "Stand much further away from the drum."
+    "Hit the drum skin harder."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "A harder hit makes a bigger vibration, and a bigger vibration makes a louder sound. A cloth would muffle the sound."
   },
   {
@@ -355,12 +355,12 @@
    "image": "diagrams/instruments.svg",
    "image_alt": "A dhol (drum), an ektara (string instrument) and a banshi (flute).",
    "options": [
-    "the dhol (drum)",
-    "the ektara (string)",
     "the banshi (flute)",
+    "the ektara (string)",
+    "the dhol (drum)",
     "the dhol and the ektara"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Blowing into the flute makes the column of air inside vibrate. The drum skin vibrates in the dhol, and the string vibrates in the ektara."
   },
   {
@@ -373,11 +373,11 @@
    "stem": "The school hall in Chattogram has bare walls and a tiled floor, and every shout makes an echo. What would help most?",
    "options": [
     "Paint the walls with shiny gloss paint.",
-    "Cover the floor with more tiles.",
+    "Hang thick curtains and lay carpets.",
     "Take all the furniture out of the hall.",
-    "Hang thick curtains and lay carpets."
+    "Cover the floor with more tiles."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "Soft, thick materials absorb sound, so there is less to bounce back. Hard, shiny and empty spaces make echoes worse."
   },
   {
@@ -390,11 +390,11 @@
    "stem": "On a sunny day in Chattogram, Nadia wears a black shirt and Priya wears a white shirt. Who feels hotter, and why?",
    "options": [
     "Priya, because white colours absorb more light.",
-    "Nadia, because dark colours absorb more light.",
+    "Both the same, because the Sun heats everyone equally.",
     "Nadia, because black shirts reflect more light.",
-    "Both the same, because the Sun heats everyone equally."
+    "Nadia, because dark colours absorb more light."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Dark objects absorb most of the light that hits them and warm up. White objects reflect much of it, so they stay cooler."
   },
   {
@@ -417,12 +417,12 @@
    "subskill": "Data and reasoning",
    "stem": "During a storm in Sylhet, Sumi sees a flash of lightning and hears the thunder six seconds later. Why does she see it first?",
    "options": [
-    "Light travels much faster than sound.",
     "Sound travels faster than light.",
+    "Light travels much faster than sound.",
     "Her eyes work faster than her ears.",
     "The thunder is made later than the lightning."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Light travels about 300 000 km every second, while sound in air travels only about 340 m a second. They start together, but the light arrives first."
   },
   {
@@ -461,11 +461,11 @@
    },
    "options": [
     "The sound gets louder.",
-    "The pitch gets higher.",
     "The sound gets quieter.",
+    "The pitch gets higher.",
     "The sound stops."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Frequency is how many vibrations happen each second. More vibrations each second give a higher pitch, and the waves are drawn closer together."
   },
   {
@@ -496,12 +496,12 @@
     "task": "Open Sound Waves and choose the Air Pressure screen. Turn the sound on and listen. Then remove the air from around the speaker and listen again."
    },
    "options": [
-    "It gets louder.",
-    "It gets higher in pitch.",
     "It gets quieter.",
+    "It gets higher in pitch.",
+    "It gets louder.",
     "It stays just the same."
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "With less air there are fewer particles to pass on the vibrations, so less sound reaches you. With no particles at all there would be silence."
   },
   {
@@ -528,12 +528,12 @@
    "subskill": "Data and reasoning",
    "stem": "Class 4D covered a box with a beeping phone using different materials and measured the loudness 1 m away: no cover 80 dB, newspaper 68 dB, foil 72 dB, bubble wrap 60 dB, cotton wool 52 dB. Which material muffled the sound most, and by how much?",
    "options": [
-    "bubble wrap, by 20 dB",
     "cotton wool, by 28 dB",
+    "bubble wrap, by 20 dB",
     "newspaper, by 12 dB",
     "foil, by 8 dB"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "The lowest reading is the best muffler. Cotton wool gave 52 dB, which is 80 - 52 = 28 dB less than with no cover."
   },
   {
@@ -579,10 +579,10 @@
    "options": [
     "about 100 m",
     "about 340 m",
-    "about 1 km",
-    "about 10 km"
+    "about 10 km",
+    "about 1 km"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "The light reaches her almost at once, so the 3 seconds is the sound travelling. 340 m × 3 = 1020 m, which is about 1 km."
   },
   {

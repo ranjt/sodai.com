@@ -269,16 +269,16 @@
    "stem": "Mr Paul heats clay pots in a kiln. What happens?",
    "options": [
     {
-     "text": "The clay becomes hard."
+     "text": "The clay turns into water."
     },
     {
      "text": "The clay goes soft again."
     },
     {
-     "text": "The clay turns into water."
+     "text": "The clay becomes hard."
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "Heating in the kiln makes the clay hard. It will never go soft again."
   },
@@ -292,16 +292,16 @@
    "stem": "Joy wants a toy he can squash and shape. Which is best?",
    "options": [
     {
-     "text": "stone"
+     "text": "clay"
     },
     {
      "text": "glass"
     },
     {
-     "text": "clay"
+     "text": "stone"
     }
    ],
-   "answer": 2,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "Clay is soft and can be squashed into new shapes. Stone and glass are hard."
   },
@@ -587,15 +587,15 @@
      "image": "openmoji/rock.svg"
     },
     {
-     "text": "plastic",
-     "image": "openmoji/plastic-bottle.svg"
-    },
-    {
      "text": "wood",
      "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "plastic",
+     "image": "openmoji/plastic-bottle.svg"
     }
    ],
-   "answer": 1,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "A plastic bottle is made by people in a factory. Wood and stone come from nature."
   }

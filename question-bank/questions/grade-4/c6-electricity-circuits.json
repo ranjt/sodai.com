@@ -15,12 +15,12 @@
    "subskill": "Complete circuits",
    "stem": "What do we call a complete path that electricity flows round?",
    "options": [
-    "a switch",
     "a circuit",
+    "a switch",
     "a conductor",
     "an insulator"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "A circuit is a complete path with no gaps. Electricity flows from one end of the cell, through the wires and components, and back to the other end."
   },
   {
@@ -286,12 +286,12 @@
    "image": "diagrams/circuit-open.svg",
    "image_alt": "A circuit with a cell, a lamp and an open switch; the lamp is off.",
    "options": [
-    "The switch is open, so there is a gap.",
-    "The wires are the wrong colour.",
     "The lamp is too close to the cell.",
+    "The wires are the wrong colour.",
+    "The switch is open, so there is a gap.",
     "The cell is too small to push electricity."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "An open switch is a gap in the loop. Electricity cannot flow round, so the lamp stays off. Closing the switch would complete the circuit."
   },
   {
@@ -306,11 +306,11 @@
    "image_alt": "A circuit with one cell and two lamps in one loop. Both lamps are on.",
    "options": [
     "Each lamp is brighter.",
-    "Both lamps are the same brightness as one lamp alone.",
     "Each lamp is dimmer.",
+    "Both lamps are the same brightness as one lamp alone.",
     "Only the first lamp lights."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "The cell has to push electricity through two lamps, so it is shared. Each lamp gets less and looks dimmer than a single lamp."
   },
   {
@@ -440,11 +440,11 @@
    "stem": "Tuli has just washed her hands and they are wet. She needs to plug in her phone charger. What should she do?",
    "options": [
     "Plug it in quickly while her hands are wet.",
-    "Wrap a wet cloth round the plug.",
     "Dry her hands well first.",
+    "Wrap a wet cloth round the plug.",
     "Push the plug in with a metal spoon."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Water can conduct electricity, so wet hands near a socket can give a dangerous shock. Always dry your hands first and never push a metal object into a socket."
   },
   {
@@ -456,12 +456,12 @@
    "subskill": "Switches and safety",
    "stem": "Raju's kite gets caught on a power line. What should he do?",
    "options": [
-    "Leave it there and tell an adult.",
-    "Pull the string hard to get it down.",
     "Climb the pole to reach it.",
+    "Pull the string hard to get it down.",
+    "Leave it there and tell an adult.",
     "Throw a stick at the wire."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "Power lines carry very strong electricity, and a wet string or stick can let it travel down to you. Never touch the kite and always tell an adult."
   },
   {
@@ -473,12 +473,12 @@
    "subskill": "Switches and safety",
    "stem": "Lina plugs a fan, a TV, a heater and three chargers into one socket with an adaptor. Why is this dangerous?",
    "options": [
-    "The electricity will stop flowing to every device.",
     "Too much electricity can overheat the wires and start a fire.",
+    "The electricity will stop flowing to every device.",
     "The electricity will leak out of the unused holes.",
     "The devices will all run too fast."
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Each device draws electricity. If too much flows through one socket the wires get hot, which can cause a fire. Use fewer plugs in each socket."
   },
   {
@@ -561,10 +561,10 @@
    "options": [
     "The bulb gets brighter.",
     "The bulb gets a little dimmer.",
-    "The bulb goes out.",
-    "The bulb stays lit."
+    "The bulb stays lit.",
+    "The bulb goes out."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "Opening the switch makes a gap in the loop, so no electricity flows and the bulb goes out. Closing it lights the bulb again."
   },
   {
@@ -604,12 +604,12 @@
     "task": "Open Circuit Construction Kit. Build a loop with one battery and one bulb and note how bright it is. Then add a second bulb into the same loop (one after the other). Compare the brightness."
    },
    "options": [
-    "It gets brighter.",
     "It gets dimmer.",
+    "It gets brighter.",
     "It goes out.",
     "It stays just as bright."
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "The battery has to push electricity through both bulbs, so each one is dimmer than a single bulb on its own."
   },
   {
@@ -638,12 +638,12 @@
    "subskill": "Fair tests and data",
    "stem": "Joy tests whether wire length changes bulb brightness. Test 1 uses a 10 cm wire and a new cell. Test 2 uses a 30 cm wire and an old cell. Why is her test unfair?",
    "options": [
-    "She changed two things, the wire length and the cell.",
     "She measured the brightness with a light meter.",
+    "She changed two things, the wire length and the cell.",
     "She used a bulb in both tests.",
     "She tested only two lengths."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "In a fair test only one thing is changed. Joy changed the wire and the cell, so she cannot tell which one made the difference."
   },
   {

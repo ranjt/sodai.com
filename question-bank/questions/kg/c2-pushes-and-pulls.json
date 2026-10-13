@@ -101,19 +101,19 @@
    "stem": "Which one shows a pull?",
    "options": [
     {
-     "text": "pull it",
-     "image": "openmoji/bucket.svg"
+     "text": "shut it",
+     "image": "openmoji/door.svg"
     },
     {
      "text": "kick it",
      "image": "openmoji/football.svg"
     },
     {
-     "text": "shut it",
-     "image": "openmoji/door.svg"
+     "text": "pull it",
+     "image": "openmoji/bucket.svg"
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "Pulling up a bucket on a rope is a pull. Kicking a ball and shutting a door are pushes."
   },
@@ -231,19 +231,19 @@
    "stem": "Which will roll down a slope?",
    "options": [
     {
-     "text": "book",
-     "image": "openmoji/notebook.svg"
-    },
-    {
      "text": "ball",
      "image": "openmoji/football.svg"
+    },
+    {
+     "text": "book",
+     "image": "openmoji/notebook.svg"
     },
     {
      "text": "box",
      "image": "openmoji/package.svg"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "A ball is round, so it rolls down a slope. A flat book or a box slides but does not roll."
   },
@@ -341,16 +341,16 @@
    },
    "options": [
     {
-     "text": "to the red side"
+     "text": "to the blue side"
     },
     {
-     "text": "to the blue side"
+     "text": "to the red side"
     },
     {
      "text": "it stays still"
     }
    ],
-   "answer": 0,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "Two pullers pull harder than one puller. The cart goes to the red side where there are more pullers."
   },

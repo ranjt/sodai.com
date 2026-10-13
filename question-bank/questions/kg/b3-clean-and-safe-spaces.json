@@ -20,15 +20,15 @@
      "image": "openmoji/teddy-bear.svg"
     },
     {
-     "text": "ball",
-     "image": "openmoji/football.svg"
-    },
-    {
      "text": "fire",
      "image": "openmoji/fire.svg"
+    },
+    {
+     "text": "ball",
+     "image": "openmoji/football.svg"
     }
    ],
-   "answer": 2,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "Fire is hot and can burn us. A teddy bear and a ball are safe to play with."
   },
@@ -139,19 +139,19 @@
    "stem": "The light is red. What does Mina do?",
    "options": [
     {
-     "text": "walk across",
-     "image": "openmoji/person-walking.svg"
-    },
-    {
      "text": "stop",
      "image": "openmoji/stop-sign.svg"
+    },
+    {
+     "text": "walk across",
+     "image": "openmoji/person-walking.svg"
     },
     {
      "text": "run across",
      "image": "openmoji/person-running.svg"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "A red light means stop. Mina stops and waits for green before she goes."
   },
@@ -230,19 +230,19 @@
    "stem": "Which one helps keep our hands clean?",
    "options": [
     {
-     "text": "soap",
-     "image": "openmoji/soap.svg"
+     "text": "crayon",
+     "image": "openmoji/crayon.svg"
     },
     {
      "text": "sweets",
      "image": "openmoji/candy.svg"
     },
     {
-     "text": "crayon",
-     "image": "openmoji/crayon.svg"
+     "text": "soap",
+     "image": "openmoji/soap.svg"
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "Soap and water wash germs and dirt off our hands. Sweets and crayons do not clean us."
   },
@@ -352,19 +352,19 @@
    "image_alt": "A tin can.",
    "options": [
     {
-     "text": "river",
-     "image": "openmoji/water-wave.svg"
-    },
-    {
      "text": "bin",
      "image": "openmoji/wastebasket.svg"
+    },
+    {
+     "text": "river",
+     "image": "openmoji/water-wave.svg"
     },
     {
      "text": "tree",
      "image": "openmoji/deciduous-tree.svg"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "Empty cans go in the bin. Rubbish in a river or under a tree makes the place dirty."
   },
@@ -380,19 +380,19 @@
    "image_alt": "A pill.",
    "options": [
     {
-     "text": "tell a grown-up",
-     "image": "openmoji/adult.svg"
-    },
-    {
      "text": "taste it",
      "image": "openmoji/tongue.svg"
+    },
+    {
+     "text": "tell a grown-up",
+     "image": "openmoji/adult.svg"
     },
     {
      "text": "play with it",
      "image": "openmoji/yo-yo.svg"
     }
    ],
-   "answer": 0,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "Medicine can be dangerous if we take it by ourselves. Tuli tells a grown-up."
   },
@@ -434,15 +434,15 @@
      "image": "openmoji/tin-can.svg"
     },
     {
-     "text": "bottles",
-     "image": "openmoji/plastic-bottle.svg"
-    },
-    {
      "text": "paper",
      "image": "openmoji/newspaper.svg"
+    },
+    {
+     "text": "bottles",
+     "image": "openmoji/plastic-bottle.svg"
     }
    ],
-   "answer": 2,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "Count each one. There were 4 papers, which is more than 3 bottles or 2 cans."
   },
@@ -456,16 +456,16 @@
    "stem": "A ball rolls onto the road. What should Joy do?",
    "options": [
     {
-     "text": "Stop and ask a grown-up"
+     "text": "Close her eyes"
     },
     {
      "text": "Run after it"
     },
     {
-     "text": "Close her eyes"
+     "text": "Stop and ask a grown-up"
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "Joy should stop and ask a grown-up. Running onto the road is dangerous."
   },

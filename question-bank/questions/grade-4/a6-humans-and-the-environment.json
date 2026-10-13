@@ -161,12 +161,12 @@
    "subskill": "Human impacts on habitats",
    "stem": "Why is it a problem to catch too many young fish?",
    "options": [
-    "Not enough fish grow up to breed.",
+    "Fishing nets get damaged.",
     "The remaining fish grow too large.",
     "Young fish are too small to taste good.",
-    "Fishing nets get damaged."
+    "Not enough fish grow up to breed."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Young fish that are caught cannot grow up and have babies, so the number of fish falls. Laws protect fish while they breed."
   },
   {
@@ -222,12 +222,12 @@
    "subskill": "Pollution and plastic",
    "stem": "A plastic bottle left on the ground can take how long to break down?",
    "options": [
-    "only a few weeks",
-    "about one whole year",
     "hundreds of years",
+    "about one whole year",
+    "only a few weeks",
     "around ten years"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Plastic breaks down very slowly, so one bottle can stay in the environment for hundreds of years."
   },
   {
@@ -298,10 +298,10 @@
    "options": [
     "leaving the light on in an empty room",
     "keeping the television on all day",
-    "running the fan with nobody in the room",
-    "switching off the fan when you leave"
+    "switching off the fan when you leave",
+    "running the fan with nobody in the room"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Switching off lights and fans when you leave a room uses less electricity."
   },
   {
@@ -353,15 +353,15 @@
      "image": "openmoji/car-exhaust.svg"
     },
     {
-     "text": "reusable bag",
-     "image": "openmoji/reusable-bag.svg"
-    },
-    {
      "text": "oil spill",
      "image": "openmoji/oil-spill.svg"
+    },
+    {
+     "text": "reusable bag",
+     "image": "openmoji/reusable-bag.svg"
     }
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "A reusable bag lets you use fewer plastic bags. Factory smoke, car exhaust and oil spills pollute the air and water."
   },
   {
@@ -558,10 +558,10 @@
    "options": [
     "Plant more trees near the school gate.",
     "Make the playground a little bigger.",
-    "Stop the learners from drinking water.",
-    "Put more bins next to the snack shop."
+    "Put more bins next to the snack shop.",
+    "Stop the learners from drinking water."
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Good actions use the evidence. Wrappers come from snacks, so bins near the snack shop (or snacks without wrappers) would help most."
   },
   {
@@ -625,12 +625,12 @@
    "subskill": "Human impacts on habitats",
    "stem": "A new road will cross a wetland where fish, frogs and birds live. What is the best plan?",
    "options": [
-    "Look for a route that goes round the wetland.",
+    "Cut down all the trees around the wetland.",
     "Fill in the wetland quickly because it is only mud.",
     "Build the road fast and tell nobody about it.",
-    "Cut down all the trees around the wetland."
+    "Look for a route that goes round the wetland."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Filling in wetlands destroys the homes of fish, frogs and birds. A good plan protects the habitat and still meets people's needs."
   },
   {
@@ -717,12 +717,12 @@
    "subskill": "Reduce, reuse, recycle",
    "stem": "Raju says: \"Recycling means using something again, like using a jar to store rice.\" What is wrong with this?",
    "options": [
-    "Nothing is wrong, because recycling just means using things again and again.",
-    "Recycling means using less of something every single day.",
     "That is reusing; recycling means making used materials into new things.",
+    "Recycling means using less of something every single day.",
+    "Nothing is wrong, because recycling just means using things again and again.",
     "Recycling means throwing things away safely in the right bin."
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Using a jar again is reusing. Recycling changes used paper, glass, metal or plastic into new things."
   },
   {

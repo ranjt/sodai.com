@@ -18,19 +18,19 @@
    "image_alt": "A pencil.",
    "options": [
     {
-     "text": "wood",
-     "image": "openmoji/wood.svg"
-    },
-    {
      "text": "glass",
      "image": "openmoji/glass-bottle.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
     },
     {
      "text": "cloth",
      "image": "openmoji/yarn.svg"
     }
    ],
-   "answer": 0,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "A pencil is made of wood. Wood comes from trees."
   },
@@ -148,15 +148,15 @@
      "image": "openmoji/newspaper.svg"
     },
     {
-     "text": "plastic",
-     "image": "openmoji/plastic-bottle.svg"
-    },
-    {
      "text": "wool",
      "image": "openmoji/yarn.svg"
+    },
+    {
+     "text": "plastic",
+     "image": "openmoji/plastic-bottle.svg"
     }
    ],
-   "answer": 1,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "Plastic keeps rain out. Paper gets soggy and wool soaks up water."
   },
@@ -170,19 +170,19 @@
    "stem": "Which one can we see through?",
    "options": [
     {
-     "text": "wood door",
-     "image": "openmoji/door.svg"
-    },
-    {
      "text": "glass",
      "image": "openmoji/glass-bottle.svg"
+    },
+    {
+     "text": "wood door",
+     "image": "openmoji/door.svg"
     },
     {
      "text": "brick wall",
      "image": "openmoji/brick.svg"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "We can see through clear glass. We cannot see through wood or brick."
   },
@@ -319,19 +319,19 @@
    "stem": "A strong wind is coming. Which house is safest?",
    "options": [
     {
-     "text": "brick house",
-     "image": "openmoji/brick.svg"
-    },
-    {
      "text": "paper house",
      "image": "openmoji/newspaper.svg"
+    },
+    {
+     "text": "brick house",
+     "image": "openmoji/brick.svg"
     },
     {
      "text": "stick house",
      "image": "openmoji/wood.svg"
     }
    ],
-   "answer": 0,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "The brick house stayed up in the story. Bricks are strong, but paper and sticks are blown away or fall down."
   },
@@ -420,19 +420,19 @@
    "stem": "Example: 5 wood, 3 plastic, 2 metal things. Which was most?",
    "options": [
     {
-     "text": "plastic",
-     "image": "openmoji/plastic-bottle.svg"
+     "text": "wood",
+     "image": "openmoji/wood.svg"
     },
     {
      "text": "metal",
      "image": "openmoji/key.svg"
     },
     {
-     "text": "wood",
-     "image": "openmoji/wood.svg"
+     "text": "plastic",
+     "image": "openmoji/plastic-bottle.svg"
     }
    ],
-   "answer": 2,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "Count each group. Wood has 5, which is more than 3 or 2."
   },

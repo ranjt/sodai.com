@@ -411,12 +411,12 @@
    "image": "diagrams/cyclone-numbered.svg",
    "image_alt": "A tropical cyclone from above with parts numbered 1 to 4.",
    "options": [
-    "number 1, the eye",
+    "number 2, the eye wall",
     "number 3, the rain bands",
     "number 4, the spin arrows",
-    "number 2, the eye wall"
+    "number 1, the eye"
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "The eye wall (2) has the strongest winds and rain. The eye (1) in the middle is calm."
   },
   {
@@ -446,11 +446,11 @@
    "stem": "After heavy monsoon rain, the lanes of a Dhaka neighbourhood stay flooded because the drains are blocked with rubbish. Which old idea would help most?",
    "options": [
     "building new houses closer to the river bank",
-    "covered drains that carry dirty water away",
+    "using a shadoof to lift the flood water to the fields",
     "digging shallow wells in the middle of the lane",
-    "using a shadoof to lift the flood water to the fields"
+    "covered drains that carry dirty water away"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Covered drains, kept clear, carry water and waste away. This idea is more than 4000 years old and is still the basis of modern sewers."
   },
   {
@@ -480,11 +480,11 @@
    "stem": "Mina makes a water cycle model in a plastic bag taped to a window. Which is a limitation of her model?",
    "options": [
     "it shows that water can evaporate and condense",
-    "it needs only water and sunlight to work",
+    "it is tiny and leaves out real seas and rivers",
     "it can be watched for several days at school",
-    "it is tiny and leaves out real seas and rivers"
+    "it needs only water and sunlight to work"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "The bag shows evaporation and condensation well, but it is very small and leaves out real seas, rivers and clouds. All models have limits."
   },
   {
@@ -558,10 +558,10 @@
    "options": [
     "house C will cool down too slowly to be measured",
     "the lamp will be too far away from house C",
-    "the test is no longer fair, as two things changed",
-    "the thermometer in house C will break"
+    "the thermometer in house C will break",
+    "the test is no longer fair, as two things changed"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "In a fair test only one thing changes. If distance changes too, we cannot tell whether the tower, the wet cloth or the fan distance caused the difference."
   },
   {
@@ -573,12 +573,12 @@
    "subskill": "Models and their limits",
    "stem": "Rafi says, \"The test proves that a wet cloth will cool every real house by 7 °C.\" What is the best reply?",
    "options": [
-    "A tiny shoe-box model cannot show everything about real houses",
     "He is right, because the numbers were measured with a thermometer",
+    "A tiny shoe-box model cannot show everything about real houses",
     "He is right, because house C was the coolest of the three",
     "He is wrong, because a wet cloth always warms things up"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "The model is tiny. Real houses are bigger, have people and rooms, and real wind changes. The model suggests an idea but does not prove it for real houses."
   },
   {

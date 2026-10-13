@@ -20,19 +20,19 @@
      "image": "openmoji/milk.svg"
     },
     {
-     "text": "a rock",
-     "image": "openmoji/rock.svg"
+     "text": "a water drop",
+     "image": "openmoji/droplet.svg"
     },
     {
      "text": "air in a balloon",
      "image": "openmoji/balloon.svg"
     },
     {
-     "text": "a water drop",
-     "image": "openmoji/droplet.svg"
+     "text": "a rock",
+     "image": "openmoji/rock.svg"
     }
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "A solid keeps its own shape. Liquids take the shape of their container and gases spread out to fill the space."
   },
   {
@@ -104,12 +104,12 @@
    "image": "diagrams/states-particles.svg",
    "image_alt": "Three boxes of tiny particles from left to right: a solid, a liquid and a gas.",
    "options": [
-    "the right box",
-    "the left box",
     "the middle box",
+    "the left box",
+    "the right box",
     "no box"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "In a gas the particles are far apart and move about quickly, so the gas spreads out to fill the space. The box on the left is a solid and the middle box is a liquid."
   },
   {
@@ -288,12 +288,12 @@
    "subskill": "Melting and freezing",
    "stem": "Melting is the reverse of…",
    "options": [
-    "boiling",
+    "freezing",
     "floating",
     "pouring",
-    "freezing"
+    "boiling"
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "Melting turns a solid into a liquid. Freezing turns a liquid back into a solid, so they are opposites."
   },
   {
@@ -305,12 +305,12 @@
    "subskill": "Melting and freezing",
    "stem": "Joy left a bar of chocolate in her school bag on a hot day. What will she find?",
    "options": [
-    "The chocolate has melted.",
     "The chocolate has frozen hard.",
+    "The chocolate has melted.",
     "The chocolate has turned to steam.",
     "The chocolate has not changed at all."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Heat makes the chocolate melt. If she puts it in the fridge, it cools and becomes a solid again."
   },
   {
@@ -406,12 +406,12 @@
    "subskill": "Water and steam",
    "stem": "Tuli sees steam coming out of the kettle on the stove. What is the safe thing to do?",
    "options": [
-    "Touch the steam to feel it.",
-    "Lift the lid and look inside.",
     "Ask an adult for help.",
+    "Lift the lid and look inside.",
+    "Touch the steam to feel it.",
     "Hold her hand over the spout."
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Steam and boiling water can burn you badly. Always ask an adult to help with anything that is being heated."
   },
   {
@@ -440,12 +440,12 @@
    "subskill": "Melting and freezing",
    "stem": "The ice cream seller keeps lots of ice in a thick-walled box in his cart. Why?",
    "options": [
-    "It keeps the ice cream cold so it stays solid.",
+    "It makes the cart lighter.",
     "It makes the ice cream hotter.",
     "It turns the ice cream into steam.",
-    "It makes the cart lighter."
+    "It keeps the ice cream cold so it stays solid."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "The ice stays cold and keeps the ice cream from melting. By the evening most of the ice has melted into water, a liquid."
   },
   {
@@ -511,11 +511,11 @@
    "stem": "Imran says, \"Air is not matter because I cannot see it.\" Which test shows that he is wrong?",
    "options": [
     "Hold a stone in your hand.",
-    "Look at a glass of water.",
+    "Blow up a balloon: the air fills it.",
     "Shout across the field.",
-    "Blow up a balloon: the air fills it."
+    "Look at a glass of water."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "Air takes up space: it fills the balloon and makes it bigger. Anything that has mass and takes up space is matter, even if we cannot see it."
   },
   {

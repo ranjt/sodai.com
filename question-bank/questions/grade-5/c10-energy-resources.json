@@ -98,12 +98,12 @@
    "subskill": "Renewable and non-renewable",
    "stem": "A renewable energy resource is one that…",
    "options": [
-    "is replaced naturally and will not run out",
-    "is made in a factory and sold in shops",
     "formed from buried plants over millions of years",
+    "is made in a factory and sold in shops",
+    "is replaced naturally and will not run out",
     "can be used only once by one power station"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "Sunlight, wind and moving water are renewable. The resource formed from buried plants over millions of years describes a fossil fuel, which is non-renewable."
   },
   {
@@ -201,11 +201,11 @@
    "stem": "Why is burning fossil fuels a **global** problem?",
    "options": [
     "It only harms the town where the fuel is burned.",
-    "It makes all the fuel renewable.",
     "The carbon dioxide spreads through the air and affects the whole planet.",
+    "It makes all the fuel renewable.",
     "It makes the air colder everywhere."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Carbon dioxide from any country mixes in the air and traps heat everywhere. That is why countries must act together."
   },
   {
@@ -249,12 +249,12 @@
    "subskill": "Energy data",
    "stem": "About 685 million people in the world still had no electricity at home in 2022 (Tracking SDG7). In which region do most of them live?",
    "options": [
-    "Europe",
+    "Sub-Saharan Africa",
     "North America",
     "Australia",
-    "Sub-Saharan Africa"
+    "Europe"
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "Most people without electricity live in Sub-Saharan Africa. Energy access is a global issue as well as a climate issue."
   },
   {
@@ -271,19 +271,19 @@
      "image": "openmoji/factory-smoke.svg"
     },
     {
-     "text": "wind turbines",
-     "image": "openmoji/wind-energy.svg"
+     "text": "oil spill",
+     "image": "openmoji/oil-spill.svg"
     },
     {
      "text": "car exhaust",
      "image": "openmoji/car-exhaust.svg"
     },
     {
-     "text": "oil spill",
-     "image": "openmoji/oil-spill.svg"
+     "text": "wind turbines",
+     "image": "openmoji/wind-energy.svg"
     }
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Wind turbines use renewable wind and release no smoke. The other pictures show pollution from burning or using fossil fuels."
   },
   {
@@ -380,15 +380,15 @@
      "image": "openmoji/snowman.svg"
     },
     {
-     "text": "cyclone",
-     "image": "openmoji/cyclone.svg"
-    },
-    {
      "text": "desert",
      "image": "openmoji/desert.svg"
+    },
+    {
+     "text": "cyclone",
+     "image": "openmoji/cyclone.svg"
     }
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "Climate change brings stronger cyclones, floods and sea-level rise to Bangladesh. Volcanoes, snow and deserts are not the main risks."
   },
   {
@@ -430,11 +430,11 @@
    "stem": "Rafi’s school wants to cut its electricity bill. Which change helps most without lowering learning?",
    "options": [
     "leave the lights on all day",
-    "buy more fans and keep them on",
+    "swap old bulbs for LED bulbs",
     "run the computers overnight",
-    "swap old bulbs for LED bulbs"
+    "buy more fans and keep them on"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "LED bulbs give the same light with less electricity. The cleanest energy is the energy we do not waste."
   },
   {
@@ -447,11 +447,11 @@
    "stem": "A family on a remote char far from the national grid wants clean electricity for lights and a phone charger. What is a good choice?",
    "options": [
     "a coal-fired generator",
-    "a solar home system",
     "a big hydro dam",
+    "a solar home system",
     "a nuclear power station"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Solar home systems use sunlight, release no pollution, and are already used by millions of homes in Bangladesh. The other options are far too large or polluting for one family."
   },
   {
@@ -496,12 +496,12 @@
    "subskill": "Making electricity",
    "stem": "Nadia’s family in a village keeps cows. How could they get a renewable fuel for cooking?",
    "options": [
-    "a biogas plant that uses dung",
+    "collecting natural gas from the ground",
     "burning plastic bottles",
     "buying coal from the market",
-    "collecting natural gas from the ground"
+    "a biogas plant that uses dung"
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Biogas is made from animal dung and plants, so it can be replaced all the time. Coal and natural gas are fossil fuels, and burning plastic is harmful."
   },
   {
@@ -517,12 +517,12 @@
     "task": "Open Greenhouse Effect. Turn on the sunlight. Watch the thermometer, then add more greenhouse gases to the air and watch again."
    },
    "options": [
-    "It goes down.",
     "It goes up.",
+    "It goes down.",
     "It stays exactly the same.",
     "It goes up and then falls back to zero."
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Greenhouse gases trap heat that tries to escape from the ground, so the air warms. This is why burning fossil fuels causes climate change."
   },
   {
@@ -574,11 +574,11 @@
    },
    "options": [
     "a solar power station",
-    "a nuclear power station",
     "a hydro power station",
+    "a nuclear power station",
     "a coal power station"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Moving water turns the generator, just as in a hydro plant like Kaptai. Water is a renewable resource."
   },
   {
@@ -612,12 +612,12 @@
    "subskill": "Energy data",
    "stem": "Bangladesh made 55% of its electricity from natural gas, 20% from oil, 14% from coal and 11% from imports, hydro and solar (2023, PGCB data reported by Reuters). The world made 22% from gas and 34% from coal (2024, Ember). Which comparison is correct?",
    "options": [
-    "Bangladesh used a bigger share of gas than the world did.",
-    "Bangladesh used a bigger share of coal than the world did.",
     "Bangladesh made over half its electricity from renewables.",
+    "Bangladesh used a bigger share of coal than the world did.",
+    "Bangladesh used a bigger share of gas than the world did.",
     "The world made most of its electricity from gas."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "55% is bigger than 22% for gas. For coal, Bangladesh (14%) used a smaller share than the world (34%). Neither made most of its electricity from renewables."
   },
   {

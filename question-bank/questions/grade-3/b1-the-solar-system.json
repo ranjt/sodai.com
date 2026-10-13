@@ -265,11 +265,11 @@
    "stem": "A meteor, or \"shooting star\", is really a…",
    "options": [
     "star that has fallen to Earth",
-    "space rock burning up in our air",
+    "satellite that is switching off",
     "planet that is breaking apart",
-    "satellite that is switching off"
+    "space rock burning up in our air"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "A meteor is a small space rock that burns up as it hurtles through the air around Earth, making a bright streak. It is not a real star."
   },
   {
@@ -421,11 +421,11 @@
    "stem": "Moung wants to see the Sun better, so he plans to look at it through dark sunglasses. What is the right advice?",
    "options": [
     "It is safe for a minute.",
-    "Use two pairs of sunglasses.",
     "Never look at the Sun.",
+    "Use two pairs of sunglasses.",
     "Look only at midday."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Never look at the Sun, even through sunglasses or a telescope. It can damage your eyes."
   },
   {
@@ -437,12 +437,12 @@
    "subskill": "Satellites",
    "stem": "Nadia's family lives on an island where it is hard to lay cables. How can they get TV and internet?",
    "options": [
-    "by signals from a satellite",
-    "by signals from a meteor",
     "by signals from the Moon's light",
+    "by signals from a meteor",
+    "by signals from a satellite",
     "by signals from the wind"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "A satellite such as Bangabandhu Satellite-1 sends TV and internet signals across Bangladesh, even to islands and hills."
   },
   {
@@ -454,12 +454,12 @@
    "subskill": "Satellites",
    "stem": "A weather satellite sees a cyclone forming over the Bay of Bengal. How does this help people on the coast?",
    "options": [
-    "It turns the cyclone away.",
     "It warns them early so they can reach a shelter.",
+    "It turns the cyclone away.",
     "It makes the sea calmer.",
     "It stops the rain."
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Weather satellites help people see cyclones coming. An early warning gives families time to move to a cyclone shelter."
   },
   {
@@ -473,10 +473,10 @@
    "options": [
     "the order of the planets",
     "that there are eight planets",
-    "that the Sun is in the middle",
-    "how big each planet really is"
+    "how big each planet really is",
+    "that the Sun is in the middle"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "His model shows the order and the number of planets, but the real planets are very different sizes (Jupiter is the biggest). Models also cannot show the huge distances."
   },
   {
@@ -492,12 +492,12 @@
     "task": "Open Gravity and Orbits. Choose Sun, Earth and Moon, then press play. Watch the Moon for a while. You can tick the box that shows the paths."
    },
    "options": [
-    "It travels around the Earth.",
+    "It disappears from view.",
     "It stays still in the middle.",
     "It travels around the Sun only.",
-    "It disappears from view."
+    "It travels around the Earth."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "The Moon orbits the Earth. At the same time, the Earth and Moon travel together around the Sun."
   },
   {
@@ -529,11 +529,11 @@
    },
    "options": [
     "It keeps going round in a circle.",
-    "It falls into the Sun.",
     "It moves off in a straight line.",
+    "It falls into the Sun.",
     "It stops at once."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Gravity pulls the Earth towards the Sun and bends its path into an orbit. With no gravity, nothing pulls it, so it moves off in a straight line."
   },
   {
@@ -546,11 +546,11 @@
    "stem": "In 1610 Galileo saw four moons going around Jupiter. Why did this help Copernicus's idea?",
    "options": [
     "It showed that Jupiter is the biggest planet.",
-    "It showed that not everything goes around the Earth.",
+    "It showed that the Sun is a star.",
     "It showed that the Moon makes its own light.",
-    "It showed that the Sun is a star."
+    "It showed that not everything goes around the Earth."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Copernicus said the planets go around the Sun. If four moons go around Jupiter, then Earth is not the centre of everything, which supported his idea."
   },
   {
@@ -562,12 +562,12 @@
    "subskill": "Stars, planets and moons",
    "stem": "Mina says, \"The Sun is a planet because it is big and round.\" What is the best correction?",
    "options": [
-    "The Sun is a star that makes its own light.",
-    "The Sun is a moon because it is very hot.",
     "The Sun is a planet because the Earth orbits it.",
+    "The Sun is a moon because it is very hot.",
+    "The Sun is a star that makes its own light.",
     "The Sun is a meteor because it is bright."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "A star is a ball of hot, glowing gas that makes its own light. The planets, including Earth, travel around our star, the Sun."
   },
   {

@@ -184,12 +184,12 @@
    "subskill": "How cyclones form",
    "stem": "Why do cyclones get weaker after they move over land?",
    "options": [
-    "They lose the warm sea water that feeds them.",
-    "The Earth spins more slowly when they are over land.",
     "Trees on land push the whole cyclone back out to sea.",
+    "The Earth spins more slowly when they are over land.",
+    "They lose the warm sea water that feeds them.",
     "Land is always much colder than the sea at night."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "A cyclone gets its energy from warm sea water. Over land there is no warm water to feed it, so it loses energy."
   },
   {
@@ -202,11 +202,11 @@
    "stem": "Which warning signals mean great danger and tell people on the coast to go to a shelter?",
    "options": [
     "1, 2, 3 and 4",
-    "3, 4 and 5",
     "8, 9 and 10",
+    "3, 4 and 5",
     "5, 6 and 7"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Bangladesh warning signals go from 1 to 11 for the sea ports. The higher the number, the greater the danger. Signals 8, 9 and 10 mean great danger."
   },
   {
@@ -335,23 +335,23 @@
    "stem": "Which picture shows a storm that forms over warm sea water?",
    "options": [
     {
-     "text": "snowflake",
-     "image": "openmoji/snowflake.svg"
+     "text": "cyclone",
+     "image": "openmoji/cyclone.svg"
     },
     {
      "text": "cactus",
      "image": "openmoji/cactus.svg"
     },
     {
-     "text": "cyclone",
-     "image": "openmoji/cyclone.svg"
+     "text": "snowflake",
+     "image": "openmoji/snowflake.svg"
     },
     {
      "text": "iceberg",
      "image": "openmoji/iceberg.svg"
     }
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Cyclones form over warm seas. Snow, deserts and icebergs belong to cold or dry places."
   },
   {
@@ -435,11 +435,11 @@
    "stem": "Rahima hears on the radio that the warning signal has gone up to 9. What should her family do?",
    "options": [
     "Wait to see if the wind gets stronger.",
-    "Go to the cyclone shelter now.",
+    "Go to the river to see the waves.",
     "Stay at home and cook dinner.",
-    "Go to the river to see the waves."
+    "Go to the cyclone shelter now."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Signal 9 means great danger. The family must go to the shelter straight away, before the winds and the storm surge arrive."
   },
   {
@@ -452,11 +452,11 @@
    "stem": "Rahima's family has goats and chickens. How can they keep the animals safe?",
    "options": [
     "Tie them tightly to a tree in the open field.",
-    "Lock them inside the house until it is over.",
+    "Take them to raised ground near the shelter.",
     "Leave them tied up in the field overnight.",
-    "Take them to raised ground near the shelter."
+    "Lock them inside the house until it is over."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "Animals can drown in a storm surge. Raised ground near the shelter (many shelters have space for animals) is much safer."
   },
   {
@@ -468,12 +468,12 @@
    "subskill": "Staying safe",
    "stem": "Rahima's grandmother cannot walk far. What is the best plan?",
    "options": [
-    "Leave early and ask neighbours to help carry her.",
+    "Let her walk to the shelter on her own.",
     "Leave her at home with plenty of food and water.",
     "Wait until the storm starts, then decide what to do.",
-    "Let her walk to the shelter on her own."
+    "Leave early and ask neighbours to help carry her."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Older people, babies and people who are ill need extra help. Leaving early gives time to reach the shelter safely."
   },
   {
@@ -544,11 +544,11 @@
    },
    "options": [
     "They let all of it escape straight into space.",
-    "They trap some of it and send some back.",
     "They change the heat into sunlight again.",
+    "They trap some of it and send some back.",
     "They make the heat disappear completely."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Heat leaving the ground is absorbed by greenhouse gases, and some is sent back towards the surface. This is how the gases act like a blanket."
   },
   {
@@ -576,11 +576,11 @@
    "stem": "The centre of Cyclone Sidr was at 15 °N on 13 November, 17.5 °N on 14 November and 21 °N on 15 November (rounded values). About how far north did it move each day on average between 13 and 15 November?",
    "options": [
     "1.5 degrees of latitude",
-    "3 degrees of latitude",
+    "7.5 degrees of latitude",
     "6 degrees of latitude",
-    "7.5 degrees of latitude"
+    "3 degrees of latitude"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "21 − 15 = 6 degrees in 2 days, and 6 ÷ 2 = 3 degrees a day. Tracking the position each day helps scientists predict when a cyclone will reach land."
   },
   {
@@ -593,11 +593,11 @@
    "stem": "Example sea temperatures in the Bay of Bengal: 25 °C in January and 30 °C in May. In which month is a cyclone more likely, and why?",
    "options": [
     "January, because the sea is cooler.",
-    "January, because the sea is warmer than 27 °C.",
+    "May, because the sea is warmer than 27 °C.",
     "May, because the sea is colder than 27 °C.",
-    "May, because the sea is warmer than 27 °C."
+    "January, because the sea is warmer than 27 °C."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "Cyclones need sea water warmer than about 27 °C. May's 30 °C is above that and January's 25 °C is below it."
   },
   {

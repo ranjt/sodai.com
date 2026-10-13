@@ -5038,6 +5038,3005 @@
    ],
    "answer": 2,
    "explanation": "Food and metal together are 5 + 2 = 7. Paper is 12. 12 take away 7 is 5, so food and metal together are 5 fewer."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Which picture shows a natural material?",
+   "options": [
+    {
+     "text": "plastic",
+     "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "glass",
+     "image": "openmoji/glass-bottle.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Wood comes from trees, so it is natural. Plastic and glass are made by people."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Natural and made materials",
+   "stem": "Natural or made by people? Sort the pictures.",
+   "categories": [
+    "Natural",
+    "Made by people"
+   ],
+   "items": [
+    [
+     {
+      "text": "wood",
+      "image": "openmoji/wood.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "stone",
+      "image": "openmoji/rock.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "wool",
+      "image": "openmoji/yarn.svg"
+     },
+     "Natural"
+    ],
+    [
+     {
+      "text": "plastic",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "Made by people"
+    ],
+    [
+     {
+      "text": "glass",
+      "image": "openmoji/glass-bottle.svg"
+     },
+     "Made by people"
+    ],
+    [
+     {
+      "text": "paper",
+      "image": "openmoji/newspaper.svg"
+     },
+     "Made by people"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Wood, stone and wool come from nature. Plastic, glass and paper are made by people."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Wool is a natural material.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Wool comes from sheep, so it is natural."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Paper is found in nature. People do not make it.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "People make paper in factories or by hand. It is not found in nature."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-005",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Changing shape",
+   "stem": "We can ___ a sponge by pressing it hard.",
+   "blanks": [
+    [
+     "squash",
+     "squeeze",
+     "press"
+    ]
+   ],
+   "bank": [
+    "squash",
+    "stretch",
+    "twist"
+   ],
+   "read_aloud": true,
+   "explanation": "Pressing hard on a sponge squashes it."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Changing shape",
+   "stem": "Match each action to the thing you do it to.",
+   "pairs": [
+    [
+     "squash",
+     "a sponge"
+    ],
+    [
+     "stretch",
+     "a rubber band"
+    ],
+    [
+     "twist",
+     "a wet towel"
+    ],
+    [
+     "bend",
+     "a pipe cleaner"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We squash a sponge, stretch a rubber band, twist a wet towel and bend a pipe cleaner."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Changing shape",
+   "stem": "Which one can we stretch?",
+   "options": [
+    {
+     "text": "balloon",
+     "image": "openmoji/balloon.svg"
+    },
+    {
+     "text": "stone",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A balloon stretches when we blow it up. A stone and a brick do not stretch."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-008",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changing shape",
+   "stem": "Which goes back to its shape after squashing?",
+   "options": [
+    {
+     "text": "clay"
+    },
+    {
+     "text": "sponge"
+    },
+    {
+     "text": "wet sand"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A sponge goes back to its shape. Clay stays in its new shape."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-009",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Choosing materials",
+   "stem": "Why is a ball made of rubber, not stone?",
+   "model_answer": "Rubber bounces and is soft. A stone is hard and would hurt.",
+   "keywords": [
+    [
+     "bounce",
+     "bounces",
+     "bouncy",
+     "soft",
+     "squash",
+     "squashy",
+     "hurt",
+     "hard",
+     "heavy"
+    ]
+   ],
+   "min_keywords": 1,
+   "read_aloud": true,
+   "explanation": "Rubber is soft and bounces. A stone is hard and does not bounce."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-010",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Clay and the potter",
+   "stem": "Put the steps in order to make a clay pot.",
+   "sequence": [
+    "Dig clay from the river bank.",
+    "Squash and shape the clay on the wheel.",
+    "Dry the pot in the sun.",
+    "Heat the pot in a hot kiln."
+   ],
+   "read_aloud": true,
+   "explanation": "Mr Paul digs the clay, shapes it on the wheel, dries the pot and then heats it in the kiln."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Clay and the potter",
+   "stem": "Mr Paul heats clay pots in a kiln. What happens?",
+   "options": [
+    {
+     "text": "The clay turns into water."
+    },
+    {
+     "text": "The clay goes soft again."
+    },
+    {
+     "text": "The clay becomes hard."
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Heating in the kiln makes the clay hard. It will never go soft again."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Choosing materials",
+   "stem": "Joy wants a toy he can squash and shape. Which is best?",
+   "options": [
+    {
+     "text": "clay"
+    },
+    {
+     "text": "glass"
+    },
+    {
+     "text": "stone"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Clay is soft and can be squashed into new shapes. Stone and glass are hard."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-013",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Changing shape",
+   "stem": "Nadia twists a wet towel to dry it. This changes its shape.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Twisting changes the shape of a towel and squeezes the water out."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-014",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Which are made by people? Choose all that are right.",
+   "options": [
+    {
+     "text": "plastic"
+    },
+    {
+     "text": "stone"
+    },
+    {
+     "text": "glass"
+    },
+    {
+     "text": "wool"
+    },
+    {
+     "text": "paper"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Plastic, glass and paper are made by people. Stone and wool come from nature."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-015",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Choosing materials",
+   "stem": "Match each picture to its material.",
+   "pairs": [
+    [
+     {
+      "text": "chair",
+      "image": "openmoji/chair.svg"
+     },
+     "wood"
+    ],
+    [
+     {
+      "text": "key",
+      "image": "openmoji/key.svg"
+     },
+     "metal"
+    ],
+    [
+     {
+      "text": "bottle",
+      "image": "openmoji/plastic-bottle.svg"
+     },
+     "plastic"
+    ],
+    [
+     {
+      "text": "socks",
+      "image": "openmoji/socks.svg"
+     },
+     "cloth"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A chair is made of wood, a key of metal and a bottle of plastic. Socks are made of cloth."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Choosing materials",
+   "stem": "Which picture shows something made of metal?",
+   "options": [
+    {
+     "text": "teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    },
+    {
+     "text": "key",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "newspaper",
+     "image": "openmoji/newspaper.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A key is made of metal. A newspaper is paper and a teddy bear is cloth."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-017",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Changing shape",
+   "stem": "A sponge stays flat after you squash it and let go.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "A sponge goes back to its shape. Clay is the one that stays flat."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-018",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Changing shape",
+   "stem": "Squashing, bending, twisting and ___ change the shape of materials.",
+   "blanks": [
+    [
+     "stretching",
+     "stretch",
+     "stretches"
+    ]
+   ],
+   "bank": [
+    "stretching",
+    "freezing",
+    "shining"
+   ],
+   "read_aloud": true,
+   "explanation": "The four ways to change shape are squashing, bending, twisting and stretching."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair test and stretching",
+   "stem": "Class 1 test: thin band 14 cm, medium 11 cm, thick 8 cm. Which stretched most?",
+   "options": [
+    {
+     "text": "medium"
+    },
+    {
+     "text": "thin"
+    },
+    {
+     "text": "thick"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "The thin band became the longest, 14 cm, so it stretched the most."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-020",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Fair test and stretching",
+   "stem": "Thin band: 14 cm. Thick band: 8 cm. How much longer is the thin band?",
+   "options": [
+    {
+     "text": "4 cm"
+    },
+    {
+     "text": "8 cm"
+    },
+    {
+     "text": "6 cm"
+    },
+    {
+     "text": "22 cm"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "14 minus 8 is 6, so the thin band was 6 cm longer."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-021",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Changing shape",
+   "stem": "Rafi squashes clay and a sponge, then lets go. What happens?",
+   "options": [
+    {
+     "text": "The clay stays flat. The sponge springs back."
+    },
+    {
+     "text": "Both go back to their shape."
+    },
+    {
+     "text": "Both stay squashed."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Clay stays squashed. A sponge goes back to its shape."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-022",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changing shape",
+   "stem": "Sort by what happens after you squash or stretch.",
+   "categories": [
+    "Goes back",
+    "Stays in new shape"
+   ],
+   "items": [
+    [
+     "sponge",
+     "Goes back"
+    ],
+    [
+     "rubber band",
+     "Goes back"
+    ],
+    [
+     "clay",
+     "Stays in new shape"
+    ],
+    [
+     "play dough",
+     "Stays in new shape"
+    ],
+    [
+     "bent pipe cleaner",
+     "Stays in new shape"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A sponge and a rubber band go back to their shape. Clay, play dough and a bent pipe cleaner stay in the new shape."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-023",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Jute is a natural material.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Jute comes from plants, so it is a natural material."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C1",
+   "title": "Materials and Their Shapes",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-1-science/pdf/c1-materials-and-their-shapes-study-pack.pdf",
+   "id": "g1-c1-024",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Natural and made materials",
+   "stem": "Which picture shows something made by people?",
+   "options": [
+    {
+     "text": "stone",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "wood",
+     "image": "openmoji/wood.svg"
+    },
+    {
+     "text": "plastic",
+     "image": "openmoji/plastic-bottle.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A plastic bottle is made by people in a factory. Wood and stone come from nature."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-001",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Is it heating or cooling? Sort the changes.",
+   "categories": [
+    "Heating",
+    "Cooling"
+   ],
+   "items": [
+    [
+     "ice melts",
+     "Heating"
+    ],
+    [
+     "an egg cooks",
+     "Heating"
+    ],
+    [
+     "water boils",
+     "Heating"
+    ],
+    [
+     "water freezes",
+     "Cooling"
+    ],
+    [
+     "jelly sets",
+     "Cooling"
+    ],
+    [
+     "melted chocolate goes hard",
+     "Cooling"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Ice melts, an egg cooks and water boils when they are heated. Water freezes, jelly sets and melted chocolate goes hard when they are cooled."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "An ice cube sits in the hot sun. What will it become?",
+   "image": "openmoji/ice-cube.svg",
+   "image_alt": "An ice cube.",
+   "options": [
+    {
+     "text": "snow",
+     "image": "openmoji/snowflake.svg"
+    },
+    {
+     "text": "a rock",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "water",
+     "image": "openmoji/droplet.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Heat melts ice into water."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Which picture shows something that melts in the sun?",
+   "options": [
+    {
+     "text": "a heavy rock",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "ice cream",
+     "image": "openmoji/ice-cream.svg"
+    },
+    {
+     "text": "a metal coin",
+     "image": "openmoji/coin.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Ice cream melts when it gets warm. A rock and a coin do not melt in the sun."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-004",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Which can melt when heated? Choose all that are right.",
+   "options": [
+    {
+     "text": "ice",
+     "image": "openmoji/ice-cube.svg"
+    },
+    {
+     "text": "brick",
+     "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "chocolate",
+     "image": "openmoji/chocolate.svg"
+    },
+    {
+     "text": "key",
+     "image": "openmoji/key.svg"
+    },
+    {
+     "text": "ice cream",
+     "image": "openmoji/ice-cream.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "Ice, chocolate and ice cream melt when they are heated. A brick and a key do not melt in everyday heat."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Heating and cooling",
+   "stem": "Water boils and turns to steam.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "When water is heated until it boils, it turns into steam."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-006",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changes that can go back",
+   "stem": "This egg is cooked. It can turn back into a raw egg.",
+   "image": "openmoji/frying-egg.svg",
+   "image_alt": "A fried egg in a pan.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "A cooked egg cannot go back. Cooking is a change that cannot go back."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Heating and cooling",
+   "stem": "Water turns into ice when it is ___.",
+   "blanks": [
+    [
+     "cooled",
+     "cooled down",
+     "chilled",
+     "cold"
+    ]
+   ],
+   "bank": [
+    "cooled",
+    "heated",
+    "stirred"
+   ],
+   "read_aloud": true,
+   "explanation": "Cooling water makes it freeze into ice."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Dissolving",
+   "stem": "Salt ___ in water and seems to disappear.",
+   "blanks": [
+    [
+     "dissolves",
+     "dissolve",
+     "dissolved"
+    ]
+   ],
+   "bank": [
+    "dissolves",
+    "boils",
+    "freezes"
+   ],
+   "read_aloud": true,
+   "explanation": "Salt dissolves in water. It mixes in and seems to disappear."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-009",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Heating and cooling",
+   "stem": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "melt",
+     "solid to liquid"
+    ],
+    [
+     "freeze",
+     "liquid to solid"
+    ],
+    [
+     "dissolve",
+     "mixes into water"
+    ],
+    [
+     "boil",
+     "water turns to steam"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Melt is solid to liquid. Freeze is liquid to solid. Dissolve is mixing into water and seeming to disappear. Boil is water turning to steam."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-010",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "understand",
+   "subskill": "Cooking and pitha",
+   "stem": "Put the steps in order to make pitha.",
+   "sequence": [
+    "Mix rice flour and water into dough.",
+    "Steam the pitha over hot water.",
+    "The dough turns into a firm cake.",
+    "Share the warm pitha."
+   ],
+   "read_aloud": true,
+   "explanation": "Grandma mixes flour and water into dough. She steams it over hot water. The dough turns into a firm cake."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-011",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Mina leaves butter in the hot sun. What happens?",
+   "options": [
+    {
+     "text": "It melts."
+    },
+    {
+     "text": "It freezes."
+    },
+    {
+     "text": "It dissolves."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Heat melts butter."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Heating and cooling",
+   "stem": "Rina wants ice cubes for a drink. Where should she put water?",
+   "options": [
+    {
+     "text": "on the stove"
+    },
+    {
+     "text": "in the freezer"
+    },
+    {
+     "text": "in the sun"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "Cooling water makes it freeze. A freezer is very cold."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Dissolving",
+   "stem": "Imran stirs sugar in his tea. What happens to the sugar?",
+   "options": [
+    {
+     "text": "It turns to ice."
+    },
+    {
+     "text": "It boils away."
+    },
+    {
+     "text": "It dissolves."
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Sugar dissolves in hot tea. It mixes in and seems to disappear."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-014",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Cooking and pitha",
+   "stem": "Only grown-ups use the stove and hot water.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Stoves and hot water can burn us. Children ask a grown-up for help."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-015",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Changes that can go back",
+   "stem": "Joy puts melted chocolate in the fridge. It goes hard again.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Cooling makes melted chocolate go hard again. This change can go back."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "Steam rises from a hot drink. When steam cools, it turns into...",
+   "image": "openmoji/hot-drink.svg",
+   "image_alt": "A hot drink with steam.",
+   "options": [
+    {
+     "text": "water drops",
+     "image": "openmoji/droplet.svg"
+    },
+    {
+     "text": "ice cubes",
+     "image": "openmoji/ice-cube.svg"
+    },
+    {
+     "text": "black smoke",
+     "image": "openmoji/factory-smoke.svg"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Steam turns back into water drops when it cools."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "Match each picture to what happens.",
+   "pairs": [
+    [
+     {
+      "text": "ice",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "melts when heated"
+    ],
+    [
+     {
+      "text": "egg",
+      "image": "openmoji/frying-egg.svg"
+     },
+     "cooks and goes hard"
+    ],
+    [
+     {
+      "text": "water",
+      "image": "openmoji/droplet.svg"
+     },
+     "freezes when cooled"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Ice melts when heated. A fried egg cooks and goes hard. Water drops freeze into ice when cooled."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-018",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Heating and cooling",
+   "stem": "Why does ice cream melt on a hot day?",
+   "model_answer": "The hot day heats the ice cream, so it melts into a liquid.",
+   "keywords": [
+    [
+     "heat",
+     "hot",
+     "warm",
+     "warms",
+     "sun",
+     "warmer"
+    ],
+    [
+     "melt",
+     "melts",
+     "melted",
+     "liquid",
+     "runny",
+     "soft"
+    ]
+   ],
+   "min_keywords": 1,
+   "read_aloud": true,
+   "explanation": "Heat from the air and sun warms the ice cream. A solid ice cream turns into a liquid."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-019",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Dissolving",
+   "stem": "Which things dissolve in water? Choose all that are right.",
+   "options": [
+    {
+     "text": "salt"
+    },
+    {
+     "text": "sand"
+    },
+    {
+     "text": "sugar"
+    },
+    {
+     "text": "rice"
+    },
+    {
+     "text": "coin"
+    }
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "read_aloud": true,
+   "explanation": "Salt and sugar dissolve in water. Sand, rice and coins do not."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-020",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Changes that can go back",
+   "stem": "Can the change go back? Sort the changes.",
+   "categories": [
+    "Can go back",
+    "Cannot go back"
+   ],
+   "items": [
+    [
+     "ice melts into water",
+     "Can go back"
+    ],
+    [
+     "melted chocolate goes hard",
+     "Can go back"
+    ],
+    [
+     "water freezes into ice",
+     "Can go back"
+    ],
+    [
+     "an egg cooks",
+     "Cannot go back"
+    ],
+    [
+     "pitha is steamed",
+     "Cannot go back"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "Ice melting, chocolate melting and water freezing can go back. A cooked egg and steamed pitha cannot."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-021",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Melting test",
+   "stem": "Melting times: sun 10 minutes, classroom 25, fridge 60. Where did ice melt fastest?",
+   "options": [
+    {
+     "text": "in the fridge"
+    },
+    {
+     "text": "in the sun"
+    },
+    {
+     "text": "in the classroom"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "The shortest time was in the sun, 10 minutes, so ice melted fastest there."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Melting test",
+   "stem": "Fridge: 60 minutes. Sun: 10 minutes. How many more minutes in the fridge?",
+   "options": [
+    {
+     "text": "35"
+    },
+    {
+     "text": "50"
+    },
+    {
+     "text": "70"
+    },
+    {
+     "text": "15"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "60 minus 10 is 50, so the ice took 50 minutes longer in the fridge."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Melting test",
+   "stem": "Is it a fair test to use ice cubes of different sizes?",
+   "options": [
+    {
+     "text": "No, same size is needed."
+    },
+    {
+     "text": "Yes, any size will work."
+    },
+    {
+     "text": "Yes, ice never melts."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Big ice cubes take longer to melt. For a fair test the ice cubes must be the same size."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C2",
+   "title": "Heating, Cooling and Dissolving",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-1-science/pdf/c2-heating-cooling-and-dissolving-study-pack.pdf",
+   "id": "g1-c2-024",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Dissolving",
+   "stem": "Sand dissolves in water.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "Sand does not dissolve. It sinks to the bottom."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-001",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light sources",
+   "stem": "Which are light sources? Choose all that are right.",
+   "options": [
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "moon",
+     "image": "openmoji/moon.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "mirror",
+     "image": "openmoji/mirror.svg"
+    },
+    {
+     "text": "torch",
+     "image": "openmoji/flashlight.svg"
+    },
+    {
+     "text": "bottle",
+     "image": "openmoji/glass-bottle.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    4
+   ],
+   "read_aloud": true,
+   "explanation": "The Sun, a candle and a torch give out light. The Moon only reflects the Sun's light and a mirror reflects light."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Light sources",
+   "stem": "Does it give out light? Sort the pictures.",
+   "categories": [
+    "Gives out light",
+    "Does not give out light"
+   ],
+   "items": [
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "candle",
+      "image": "openmoji/candle.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "lamp",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Gives out light"
+    ],
+    [
+     {
+      "text": "moon",
+      "image": "openmoji/moon.svg"
+     },
+     "Does not give out light"
+    ],
+    [
+     {
+      "text": "mirror",
+      "image": "openmoji/mirror.svg"
+     },
+     "Does not give out light"
+    ],
+    [
+     {
+      "text": "book",
+      "image": "openmoji/notebook.svg"
+     },
+     "Does not give out light"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "The Sun, a candle and a light bulb give out light. The Moon, a mirror and a book do not."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-003",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Light sources",
+   "stem": "The Moon is a light source.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "The Moon does not make light. It reflects light from the Sun."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Shadows",
+   "stem": "A shadow forms when light is blocked.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "When something blocks the light, a dark shadow forms behind it."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sounds and vibrations",
+   "stem": "Sounds are made by vibrations.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A vibration is a very fast shake. Every sound starts with one."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Darkness and seeing",
+   "stem": "Darkness is when there is no ___.",
+   "blanks": [
+    [
+     "light"
+    ]
+   ],
+   "bank": [
+    "light",
+    "sound",
+    "shadow"
+   ],
+   "read_aloud": true,
+   "explanation": "Darkness means there is no light, so we cannot see."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Sounds and vibrations",
+   "stem": "To vibrate means to shake very ___.",
+   "blanks": [
+    [
+     "fast",
+     "quickly",
+     "quick",
+     "hard"
+    ]
+   ],
+   "bank": [
+    "fast",
+    "slowly",
+    "quietly"
+   ],
+   "read_aloud": true,
+   "explanation": "Vibrate means to shake very fast. A drum skin vibrates when you hit it."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-008",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sounds and vibrations",
+   "stem": "Match each instrument to how we make its sound.",
+   "pairs": [
+    [
+     {
+      "text": "drum",
+      "image": "openmoji/drum.svg"
+     },
+     "hit it"
+    ],
+    [
+     {
+      "text": "guitar",
+      "image": "openmoji/guitar.svg"
+     },
+     "pluck it"
+    ],
+    [
+     {
+      "text": "maracas",
+      "image": "openmoji/maracas.svg"
+     },
+     "shake it"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We hit a drum, pluck the strings of a guitar and shake maracas. Each one vibrates to make sound."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-009",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Shadows",
+   "stem": "Look at the picture. What blocks the light?",
+   "image": "diagrams/shadow-setup.svg",
+   "image_alt": "A torch, an object and its shadow on a screen.",
+   "options": [
+    {
+     "text": "the object"
+    },
+    {
+     "text": "the screen"
+    },
+    {
+     "text": "the torch"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "The object stops the light from the torch reaching the screen. The dark shape behind it is the shadow."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-010",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sounds and vibrations",
+   "stem": "Which picture shows something that makes a sound?",
+   "options": [
+    {
+     "text": "mirror",
+     "image": "openmoji/mirror.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    },
+    {
+     "text": "bell",
+     "image": "openmoji/bell.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A bell makes a sound when it rings. A candle and a mirror do not make sound."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-011",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Sounds and vibrations",
+   "stem": "Which picture shows what we hear with?",
+   "options": [
+    {
+     "text": "nose",
+     "image": "openmoji/nose.svg"
+    },
+    {
+     "text": "ear",
+     "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "We hear sounds with our ears."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-012",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Darkness and seeing",
+   "stem": "The lights go out at night. What can Nadia use to see?",
+   "options": [
+    {
+     "text": "a torch"
+    },
+    {
+     "text": "a mirror"
+    },
+    {
+     "text": "a radio"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A torch gives out light, so Nadia can see. A mirror and a radio do not make light."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Shadows",
+   "stem": "Sumi holds a card between a lamp and the wall. What forms?",
+   "options": [
+    {
+     "text": "a rainbow"
+    },
+    {
+     "text": "a sound"
+    },
+    {
+     "text": "a shadow"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "The card blocks the light, so a dark shadow forms on the wall."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-014",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Sounds and vibrations",
+   "stem": "Imran plucks a rubber band. It makes a sound. Why?",
+   "options": [
+    {
+     "text": "The band gives light."
+    },
+    {
+     "text": "The band vibrates."
+    },
+    {
+     "text": "The band gets hot."
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A plucked band shakes very fast. This vibration makes the sound."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-015",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Darkness and seeing",
+   "stem": "Moung can see his toys in a completely dark room.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "We cannot see anything when there is no light."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-016",
+   "mode": "real-life",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Shadows",
+   "stem": "Put the steps in order for a shadow puppet show.",
+   "sequence": [
+    "Switch on the lamp.",
+    "Hold a puppet between the lamp and the cloth.",
+    "A dark shadow forms on the cloth."
+   ],
+   "read_aloud": true,
+   "explanation": "The lamp gives light. The puppet blocks the light. Then a dark shadow forms on the cloth."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-017",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Sounds and vibrations",
+   "stem": "Why does a drum make a sound when you hit it?",
+   "model_answer": "The drum skin vibrates (shakes very fast) when you hit it.",
+   "keywords": [
+    [
+     "vibrate",
+     "vibrates",
+     "vibrating",
+     "vibration",
+     "shake",
+     "shakes",
+     "shaking",
+     "move",
+     "moves"
+    ]
+   ],
+   "min_keywords": 1,
+   "read_aloud": true,
+   "explanation": "Hitting the drum makes the drum skin shake very fast. This vibration makes the sound."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-018",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Shadow size",
+   "stem": "Toy far: shadow 8 cm. Middle: 14 cm. Near: 25 cm. What happens as it gets nearer?",
+   "options": [
+    {
+     "text": "The shadow gets smaller."
+    },
+    {
+     "text": "The shadow stays the same."
+    },
+    {
+     "text": "The shadow gets bigger."
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "The shadow grows from 8 cm to 25 cm as the toy gets nearer the torch."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-019",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Shadow size",
+   "stem": "Near shadow: 25 cm. Far shadow: 8 cm. How much bigger is the near one?",
+   "options": [
+    {
+     "text": "11 cm"
+    },
+    {
+     "text": "17 cm"
+    },
+    {
+     "text": "33 cm"
+    },
+    {
+     "text": "6 cm"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "25 minus 8 is 17, so the near shadow is 17 cm bigger."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-020",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Light sources",
+   "stem": "Lina says the Moon is bright, so it makes light. Is she right?",
+   "options": [
+    {
+     "text": "No, it reflects the Sun."
+    },
+    {
+     "text": "Yes, the Moon is a big lamp."
+    },
+    {
+     "text": "Yes, it makes light like a star."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "The Moon only looks bright because it reflects light from the Sun. It is not a light source."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-021",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sounds and vibrations",
+   "stem": "Which make sounds? Choose all that are right.",
+   "options": [
+    {
+     "text": "drum",
+     "image": "openmoji/drum.svg"
+    },
+    {
+     "text": "rock",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "speaker",
+     "image": "openmoji/loudspeaker.svg"
+    },
+    {
+     "text": "barking dog",
+     "image": "openmoji/dog.svg"
+    },
+    {
+     "text": "candle",
+     "image": "openmoji/candle.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "read_aloud": true,
+   "explanation": "A drum, a loudspeaker and a barking dog all make sounds. A rock and a candle do not."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-022",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Darkness and seeing",
+   "stem": "We need light to see things.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Without light we cannot see anything."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-023",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Light sources",
+   "stem": "What is the biggest light source for Earth?",
+   "options": [
+    {
+     "text": "a candle"
+    },
+    {
+     "text": "the Sun"
+    },
+    {
+     "text": "a lamp"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "The Sun is the biggest light source. It lights up the day."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C3",
+   "title": "Light and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-1-science/pdf/c3-light-and-sound-study-pack.pdf",
+   "id": "g1-c3-024",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Shadows",
+   "stem": "A shadow has the same shape as the thing blocking the light.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A shadow has the shape of the object that blocks the light."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-001",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Complete circuits and switches",
+   "stem": "The lamp in this circuit will light.",
+   "image": "diagrams/circuit-closed.svg",
+   "image_alt": "A circuit with a cell, a lamp and a closed switch.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "The loop is complete and the switch is closed, so electricity flows round and the lamp lights."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Complete circuits and switches",
+   "stem": "Why is the lamp off in this circuit?",
+   "image": "diagrams/circuit-open.svg",
+   "image_alt": "A circuit with a cell, a lamp and an open switch.",
+   "options": [
+    {
+     "text": "The loop has a gap."
+    },
+    {
+     "text": "The cell is too big."
+    },
+    {
+     "text": "The wire is too long."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "The open switch makes a gap in the loop. Electricity cannot flow round, so the lamp stays off."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-003",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Parts of a circuit",
+   "stem": "Match each part of a circuit to its job.",
+   "pairs": [
+    [
+     {
+      "text": "cell",
+      "image": "openmoji/battery.svg"
+     },
+     "pushes electricity round"
+    ],
+    [
+     "wire",
+     "carries electricity"
+    ],
+    [
+     "switch",
+     "turns it on and off"
+    ],
+    [
+     {
+      "text": "lamp",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "gives light"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A cell pushes electricity round. A wire carries it. A switch turns the circuit on and off. A lamp gives light."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-004",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Electrical safety",
+   "stem": "Is it safe or not safe? Sort the actions.",
+   "categories": [
+    "Safe",
+    "Not safe"
+   ],
+   "items": [
+    [
+     "using a torch with batteries",
+     "Safe"
+    ],
+    [
+     "asking an adult to plug in",
+     "Safe"
+    ],
+    [
+     "keeping water away from sockets",
+     "Safe"
+    ],
+    [
+     "touching a switch with wet hands",
+     "Not safe"
+    ],
+    [
+     "poking a socket",
+     "Not safe"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "We use torches with batteries and ask an adult to plug things in. We never touch switches with wet hands or poke sockets."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Things that use electricity",
+   "stem": "Does it use electricity? Sort the pictures.",
+   "categories": [
+    "Uses electricity",
+    "Does not use electricity"
+   ],
+   "items": [
+    [
+     {
+      "text": "fan",
+      "image": "openmoji/fan.svg"
+     },
+     "Uses electricity"
+    ],
+    [
+     {
+      "text": "television",
+      "image": "openmoji/television.svg"
+     },
+     "Uses electricity"
+    ],
+    [
+     {
+      "text": "phone",
+      "image": "openmoji/mobile-phone.svg"
+     },
+     "Uses electricity"
+    ],
+    [
+     {
+      "text": "ball",
+      "image": "openmoji/football.svg"
+     },
+     "Does not use electricity"
+    ],
+    [
+     {
+      "text": "chair",
+      "image": "openmoji/chair.svg"
+     },
+     "Does not use electricity"
+    ],
+    [
+     {
+      "text": "teddy bear",
+      "image": "openmoji/teddy-bear.svg"
+     },
+     "Does not use electricity"
+    ]
+   ],
+   "read_aloud": true,
+   "explanation": "A fan, a television and a mobile phone use electricity. A ball, a chair and a teddy bear do not."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits and switches",
+   "stem": "A circuit is a loop.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "A circuit is a complete loop. Electricity flows round it from the cell, through the lamp and back."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Electrical safety",
+   "stem": "Electricity from the wall is safe to touch.",
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "Electricity from the wall is dangerous. Never touch sockets or wires."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-008",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits and switches",
+   "stem": "A switch can make a gap in a circuit.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Opening a switch makes a gap, so the circuit is off. Closing it fills the gap."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-009",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Complete circuits and switches",
+   "stem": "A lamp lights when the circuit is ___.",
+   "blanks": [
+    [
+     "complete",
+     "closed",
+     "joined"
+    ]
+   ],
+   "bank": [
+    "complete",
+    "broken",
+    "open"
+   ],
+   "read_aloud": true,
+   "explanation": "Electricity can only flow round a complete circuit with no gaps."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of a circuit",
+   "stem": "A cell is a battery that stores ___.",
+   "blanks": [
+    [
+     "electricity"
+    ]
+   ],
+   "bank": [
+    "electricity",
+    "water",
+    "light"
+   ],
+   "read_aloud": true,
+   "explanation": "A cell stores electricity and pushes it round the circuit."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-011",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Complete circuits and switches",
+   "stem": "Put the steps in order to make a lamp light.",
+   "sequence": [
+    "Join the cell, wires and lamp in a loop.",
+    "Check there are no gaps.",
+    "Close the switch.",
+    "The lamp lights."
+   ],
+   "read_aloud": true,
+   "explanation": "Join the parts in a loop, check there are no gaps, close the switch and then the lamp lights."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Complete circuits and switches",
+   "stem": "Which part turns a circuit on and off?",
+   "options": [
+    {
+     "text": "battery"
+    },
+    {
+     "text": "switch"
+    },
+    {
+     "text": "lamp"
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "A switch opens and closes the circuit. A lamp gives light and a wire carries electricity."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-013",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Where electricity comes from",
+   "stem": "Which picture shows where solar electricity comes from?",
+   "options": [
+    {
+     "text": "wind",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "river",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "Sun",
+     "image": "openmoji/sun.svg"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "A solar panel turns sunlight into electricity."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-014",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Where electricity comes from",
+   "stem": "Where does electricity come from? Choose all that are right.",
+   "options": [
+    {
+     "text": "sunlight",
+     "image": "openmoji/solar-energy.svg"
+    },
+    {
+     "text": "a stone",
+     "image": "openmoji/rock.svg"
+    },
+    {
+     "text": "wind",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "moving water",
+     "image": "openmoji/water-wave.svg"
+    },
+    {
+     "text": "a teddy bear",
+     "image": "openmoji/teddy-bear.svg"
+    }
+   ],
+   "answer": [
+    0,
+    2,
+    3
+   ],
+   "read_aloud": true,
+   "explanation": "Sunlight, wind and moving water can all make electricity. A stone and a teddy bear cannot."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-015",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Where electricity comes from",
+   "stem": "There are no wires on Shuvo's char. Where does his electricity come from?",
+   "options": [
+    {
+     "text": "a solar panel"
+    },
+    {
+     "text": "a wall socket far away"
+    },
+    {
+     "text": "a big tree"
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "Shuvo's family has a solar panel on the roof. It turns sunlight into electricity."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Electrical safety",
+   "stem": "Anika's hands are wet. A switch is on the wall. What should she do?",
+   "options": [
+    {
+     "text": "Touch it quickly."
+    },
+    {
+     "text": "Poke it with a pin."
+    },
+    {
+     "text": "Ask an adult."
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "Wet hands and electricity are dangerous. Anika asks an adult for help."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Complete circuits and switches",
+   "stem": "Mina's toy light does not work. A wire has fallen off the cell. Why?",
+   "options": [
+    {
+     "text": "The room is too cold."
+    },
+    {
+     "text": "The loop is broken."
+    },
+    {
+     "text": "The lamp is too happy."
+    }
+   ],
+   "answer": 1,
+   "read_aloud": true,
+   "explanation": "The wire is part of the loop. With a wire off, there is a gap and electricity cannot flow."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-018",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Where electricity comes from",
+   "stem": "At night, Shuvo's battery lights the lamps.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "The solar panel charges the battery in the day. At night the battery lights the lamps."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-019",
+   "mode": "real-life",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Where electricity comes from",
+   "stem": "Why is a solar panel useful on the char?",
+   "model_answer": "There are no electricity wires on the char, so the solar panel makes electricity from sunlight.",
+   "keywords": [
+    [
+     "no wires",
+     "no electricity",
+     "no power",
+     "island",
+     "char",
+     "far",
+     "no cables",
+     "without wires"
+    ],
+    [
+     "sun",
+     "sunlight",
+     "sunny",
+     "light"
+    ]
+   ],
+   "min_keywords": 1,
+   "read_aloud": true,
+   "explanation": "There are no electricity wires on the char. A solar panel makes electricity from sunlight."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-020",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Complete circuits and switches",
+   "stem": "What happens to the bulb in a complete loop?",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC. Drag a battery, a light bulb and wires onto the board. Join them in one complete loop with no gaps. Watch the bulb."
+   },
+   "options": [
+    {
+     "text": "It lights up."
+    },
+    {
+     "text": "It goes out."
+    },
+    {
+     "text": "It turns blue."
+    }
+   ],
+   "answer": 0,
+   "read_aloud": true,
+   "explanation": "A bulb lights only when the loop is complete. Electricity flows from the battery through the bulb and back."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-021",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Complete circuits and switches",
+   "stem": "The bulb stays lit when the switch is open.",
+   "sim": {
+    "id": "circuit-construction-kit-dc",
+    "task": "Open Circuit Construction Kit: DC. Make a loop with a battery, a bulb and wires, and add a switch. Click the switch to open it, then click it again to close it. Watch the bulb each time."
+   },
+   "answer": false,
+   "read_aloud": true,
+   "explanation": "An open switch makes a gap in the loop, so the bulb goes out. Closing the switch lights it again."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Complete circuits and switches",
+   "stem": "A wire is off the loop. You close the switch. Does the lamp light?",
+   "options": [
+    {
+     "text": "Yes, the switch fixes it."
+    },
+    {
+     "text": "Yes, but it is dim."
+    },
+    {
+     "text": "No, it still has a gap."
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "The missing wire leaves a gap, so closing the switch does not help."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Parts of a circuit",
+   "stem": "Each torch uses 2 cells. How many cells do 3 torches need?",
+   "options": [
+    {
+     "text": "4"
+    },
+    {
+     "text": "5"
+    },
+    {
+     "text": "6"
+    },
+    {
+     "text": "8"
+    }
+   ],
+   "answer": 2,
+   "read_aloud": true,
+   "explanation": "2 + 2 + 2 = 6, so 3 torches need 6 cells."
+  },
+  {
+   "grade": 1,
+   "grade_name": "Grade 1",
+   "topic": "C4",
+   "title": "Electricity",
+   "strand": "physical",
+   "site_skill": "P4",
+   "worksheet": "worksheets/grade-1-science/pdf/c4-electricity-study-pack.pdf",
+   "id": "g1-c4-024",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Metals and electricity",
+   "stem": "Metal things such as a coin let electricity pass through.",
+   "answer": true,
+   "read_aloud": true,
+   "explanation": "Metals let electricity through. Things like a rubber eraser do not."
   }
  ]
 }

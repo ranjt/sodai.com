@@ -162,12 +162,12 @@
    "subskill": "The three Rs",
    "stem": "Which is an example of **reusing**?",
    "options": [
-    "using an old jar as a pencil pot",
     "giving old paper to the bhangari collector",
+    "using an old jar as a pencil pot",
     "buying food with less packaging",
     "making peels into compost"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Reuse means using something again, so a jar can become a pencil pot. Giving paper to a collector is recycling, buying less packaging is reducing, and peels make compost."
   },
   {
@@ -179,12 +179,12 @@
    "subskill": "The three Rs",
    "stem": "Taking a cloth bag to the shop is an example of…",
    "options": [
-    "recycling waste",
     "reducing waste",
+    "recycling waste",
     "burning waste",
     "composting waste"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "A cloth bag can be used many times, so you use fewer plastic bags. Using less is called reducing."
   },
   {
@@ -234,10 +234,10 @@
    "options": [
     "It makes the soil hard like a brick.",
     "It stops rain from falling on plants.",
-    "It makes soil rich for plants.",
-    "It keeps all the worms away."
+    "It keeps all the worms away.",
+    "It makes soil rich for plants."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "Compost adds goodness to the soil, so plants get what they need to grow well."
   },
   {
@@ -379,23 +379,23 @@
    "stem": "Which picture shows waste that can be composted?",
    "options": [
     {
-     "text": "banana peel",
-     "image": "openmoji/banana.svg"
+     "text": "metal can",
+     "image": "openmoji/tin-can.svg"
     },
     {
      "text": "plastic bottle",
      "image": "openmoji/plastic-bottle.svg"
     },
     {
-     "text": "metal can",
-     "image": "openmoji/tin-can.svg"
+     "text": "banana peel",
+     "image": "openmoji/banana.svg"
     },
     {
      "text": "glass bottle",
      "image": "openmoji/glass-bottle.svg"
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "A banana peel is plant waste. It rots and turns into compost. Plastic, metal and glass do not rot."
   },
   {
@@ -416,15 +416,15 @@
      "image": "openmoji/plastic-bottle.svg"
     },
     {
-     "text": "exhaust fumes",
-     "image": "openmoji/car-exhaust.svg"
-    },
-    {
      "text": "banana peel",
      "image": "openmoji/banana.svg"
+    },
+    {
+     "text": "exhaust fumes",
+     "image": "openmoji/car-exhaust.svg"
     }
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "Exhaust fumes are gas waste. Spilled oil is a liquid, and a bottle and a banana peel are solids."
   },
   {
@@ -474,19 +474,19 @@
      "image": "openmoji/package.svg"
     },
     {
-     "text": "a cloth bag",
-     "image": "openmoji/reusable-bag.svg"
-    },
-    {
      "text": "a new plastic bottle",
      "image": "openmoji/plastic-bottle.svg"
+    },
+    {
+     "text": "a cloth bag",
+     "image": "openmoji/reusable-bag.svg"
     },
     {
      "text": "a full bin",
      "image": "openmoji/wastebasket.svg"
     }
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "A cloth bag can be used again and again, so you need fewer plastic bags. Lots of packaging and new bottles make more waste."
   },
   {
@@ -553,12 +553,12 @@
    "subskill": "Harm from waste",
    "stem": "Arif's neighbour burns a pile of rubbish behind the house. What is the problem?",
    "options": [
-    "The ashes will turn into compost.",
+    "The smoke makes the air unhealthy.",
     "The fire makes the rubbish disappear safely.",
     "The smoke cleans the air.",
-    "The smoke makes the air unhealthy."
+    "The ashes will turn into compost."
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "Smoke from burning rubbish is gas waste. It makes the air unhealthy to breathe, so it is better to compost, reuse or recycle."
   },
   {
@@ -571,11 +571,11 @@
    "stem": "Class 3B buried four things for four weeks. Banana peel: mostly gone. Paper: soft and falling apart. Plastic bag: no change. Metal bottle cap: no change, a little rust. Which conclusion is best?",
    "options": [
     "Everything rots completely in four weeks.",
-    "Plant waste rots; plastic and metal do not.",
     "Metal rots faster than paper does in soil.",
+    "Plant waste rots; plastic and metal do not.",
     "Plastic bags rot faster than banana peels do."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "The banana peel and the paper came from plants, and decomposers broke them down. Plastic and metal showed no change, so they stay in the environment for a very long time."
   },
   {
@@ -650,12 +650,12 @@
    "subskill": "Kinds of waste",
    "stem": "Imran says, \"Smoke from a fire is not waste because it just disappears into the air.\" What is the best reply?",
    "options": [
-    "Smoke is gas waste, and it makes the air unhealthy.",
+    "Smoke is useful waste, just like the oxygen from plants.",
     "Smoke is solid waste, so it can be recycled easily.",
     "Smoke is only waste if you can see it clearly.",
-    "Smoke is useful waste, just like the oxygen from plants."
+    "Smoke is gas waste, and it makes the air unhealthy."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Smoke does not disappear: it spreads through the air and can harm our breathing. Smoke from fires, vehicles and factories is gas waste."
   }
  ]

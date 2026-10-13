@@ -166,10 +166,10 @@
    "options": [
     "colder places to hotter places",
     "bigger things to smaller things",
-    "heavier things to lighter things",
-    "hotter places to colder places"
+    "hotter places to colder places",
+    "heavier things to lighter things"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Heat always moves from hotter places to colder places. That is why a hot drink cools down and a cold drink warms up."
   },
   {
@@ -417,12 +417,12 @@
    "image": "diagrams/insulation-cups.svg",
    "image_alt": "Four cups of hot water: one with no cover and others wrapped in newspaper, wool and foil.",
    "options": [
-    "the amount of water",
+    "the cover on each cup",
     "the first temperature",
     "the size of the cups",
-    "the cover on each cup"
+    "the amount of water"
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "The cups are the same and have the same hot water. Only the cover is different (none, newspaper, wool or foil), so the test finds out which cover keeps heat in best."
   },
   {
@@ -435,11 +435,11 @@
    "stem": "Priya touches a hot pan by accident and gets a small burn on her finger. What should she do first?",
    "options": [
     "Put it near the fire to dry it and carry on cooking.",
-    "Wrap it in a dry cloth and tell nobody about it.",
     "Hold it under clean running water for 20 minutes and tell an adult.",
+    "Wrap it in a dry cloth and tell nobody about it.",
     "Rub it hard with a rough cloth and wait."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Cool a burn under clean running water for 20 minutes and tell an adult. Hiding a burn or rubbing it can make it worse."
   },
   {
@@ -451,12 +451,12 @@
    "subskill": "Heat safety",
    "stem": "On a cold winter night in the north of Bangladesh, Nadia wants to stay warm safely. Which is the best choice?",
    "options": [
-    "Wear warm layers and use a thick quilt.",
+    "Sleep on the cold floor under a thin sheet.",
     "Wear one thin shirt and open the window.",
     "Sleep very close to the open fire.",
-    "Sleep on the cold floor under a thin sheet."
+    "Wear warm layers and use a thick quilt."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Layers and a quilt trap air, which is an insulator, so body heat stays in. Sleeping close to an open fire is dangerous."
   },
   {
@@ -573,11 +573,11 @@
    "stem": "Class 3A filled four cups with hot water at 80 °C and covered three of them. After 20 minutes the temperatures were: no cover 45 °C, newspaper 52 °C, wool 60 °C, foil 55 °C. Which statement is best supported?",
    "options": [
     "Foil was the best insulator of the four.",
-    "Wool was the best insulator of the four.",
+    "Newspaper was a better insulator than wool.",
     "The cup with no cover kept the most heat.",
-    "Newspaper was a better insulator than wool."
+    "Wool was the best insulator of the four."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "The hottest water after 20 minutes (60 °C) was in the wool cup, so wool let the least heat escape. The cup with no cover cooled the most (45 °C)."
   },
   {
@@ -650,10 +650,10 @@
    "options": [
     "Wood and plastic are the best conductors.",
     "Steel conducts heat faster than aluminium.",
-    "All four spoons conduct heat equally well.",
-    "Metals are good conductors and wood and plastic are insulators."
+    "Metals are good conductors and wood and plastic are insulators.",
+    "All four spoons conduct heat equally well."
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Heat reached the wax fastest through aluminium, then steel, so metals conduct well. It did not reach the wax through wood or plastic, so they are insulators."
   }
  ]

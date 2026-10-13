@@ -16,11 +16,11 @@
    "stem": "A force is a…",
    "options": [
     "colour or a shape",
-    "push or a pull",
     "sound or a smell",
+    "push or a pull",
     "speed or a size"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Every push and every pull is a force. Forces can start things moving, stop them, or change their shape."
   },
   {
@@ -188,12 +188,12 @@
    "image": "diagrams/forcemeter-7n.svg",
    "image_alt": "A forcemeter with its pointer at 7 newtons.",
    "options": [
-    "the bag that shows 7 N",
     "the bag that shows 4 N",
+    "the bag that shows 7 N",
     "both bags weigh the same",
     "we cannot tell"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "The heavier a bag is, the more force you need to lift it, so the bigger reading belongs to the heavier bag."
   },
   {
@@ -267,12 +267,12 @@
    "subskill": "Motion",
    "stem": "In 5 seconds toy car A goes 2 metres and toy car B goes 4 metres. Which car is moving faster?",
    "options": [
-    "car A",
-    "they are moving at the same speed",
     "car B",
+    "they are moving at the same speed",
+    "car A",
     "neither car is moving"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Car B goes further in the same time, so it is moving faster."
   },
   {
@@ -492,11 +492,11 @@
    "stem": "Mina rolls a car down a tall ramp onto sand. Raju rolls the same car down a short ramp onto a smooth floor. Why is this not a fair test of friction?",
    "options": [
     "The surfaces are different from each other.",
-    "The ramps are different heights.",
     "They used the same car both times.",
+    "The ramps are different heights.",
     "They did both tests in one room."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "In a fair test only the surface should change. A taller ramp gives the car a faster start, so the ramp must be the same height each time."
   },
   {

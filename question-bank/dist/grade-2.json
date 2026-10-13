@@ -6262,6 +6262,2974 @@
    ],
    "min_keywords": 2,
    "explanation": "A flood can bring rich new soil for crops, which is good. It can also wash away river banks and homes, which is bad."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Types of rock",
+   "stem": "Which rock is soft, white and crumbly, and is used to write on boards?",
+   "options": [
+    "granite",
+    "chalk",
+    "marble",
+    "slate"
+   ],
+   "answer": 1,
+   "explanation": "Chalk is a soft, white, crumbly rock, so it leaves marks on a board. Granite, marble and slate are much harder."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Types of rock",
+   "stem": "Look at the five rocks. Which letter shows slate, the rock that splits into thin flat sheets?",
+   "image": "diagrams/rocks-lettered.svg",
+   "image_alt": "Five kinds of rock drawn and lettered A to E.",
+   "options": [
+    "A",
+    "B",
+    "D",
+    "E"
+   ],
+   "answer": 2,
+   "explanation": "D is slate. It splits into thin, flat sheets, so it is used for roofs and writing boards. A is granite, B sandstone, C marble and E chalk."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Types of rock",
+   "stem": "Look at the five rocks. Which letter shows marble, the smooth rock that can be polished for floors and statues?",
+   "image": "diagrams/rocks-lettered.svg",
+   "image_alt": "Five kinds of rock drawn and lettered A to E.",
+   "options": [
+    "C",
+    "A",
+    "B",
+    "D",
+    "E"
+   ],
+   "answer": 0,
+   "explanation": "C is marble. It is smooth and can be polished until it shines, so it is used for floors and statues."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Match each picture to what it is made from or grown in.",
+   "pairs": [
+    [
+     {
+      "text": "brick",
+      "image": "openmoji/brick.svg"
+     },
+     "clay soil baked in a fire"
+    ],
+    [
+     {
+      "text": "salt",
+      "image": "openmoji/salt.svg"
+     },
+     "a mineral we put on food"
+    ],
+    [
+     {
+      "text": "gem stone",
+      "image": "openmoji/gem-stone.svg"
+     },
+     "a shiny mineral"
+    ],
+    [
+     {
+      "text": "potted plant",
+      "image": "openmoji/potted-plant.svg"
+     },
+     "soil"
+    ]
+   ],
+   "explanation": "Bricks are made by baking clay soil. Salt and gems are minerals. Plants grow in soil."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-005",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Uses of rocks",
+   "stem": "Match each rock to its use.",
+   "pairs": [
+    [
+     "slate",
+     "roofs"
+    ],
+    [
+     "marble",
+     "floors and statues"
+    ],
+    [
+     "chalk",
+     "writing on boards"
+    ],
+    [
+     "granite",
+     "buildings and kitchen tops"
+    ]
+   ],
+   "explanation": "Each rock is used for what it is good at: slate splits into flat sheets, marble polishes smoothly, chalk is soft and leaves marks, and granite is very hard."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-006",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Minerals",
+   "stem": "Salt is a mineral.",
+   "answer": true,
+   "explanation": "Minerals are natural materials that rocks are made of. Salt is a mineral, and so are gems."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Soil",
+   "stem": "Soil is made only of tiny bits of rock.",
+   "answer": false,
+   "explanation": "Soil is a mixture of tiny bits of rock, humus (rotted plants and animals), water and air."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Minerals",
+   "stem": "Rocks are made of natural materials called ___.",
+   "blanks": [
+    [
+     "minerals",
+     "mineral"
+    ]
+   ],
+   "bank": [
+    "minerals",
+    "humus",
+    "plastics"
+   ],
+   "explanation": "Rocks are made of minerals. Humus is rotted plants and animals in soil."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-009",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Soil",
+   "stem": "What is soil made of? Choose all that are right.",
+   "options": [
+    "tiny bits of rock",
+    "humus (rotted plants and animals)",
+    "water",
+    "air",
+    "plastic bags"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "explanation": "Soil is a mixture of tiny bits of rock, humus, water and air. Plastic is made by people and is not part of natural soil."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-010",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Rocks break down",
+   "stem": "Put the pictures in order to show how a big rock becomes soil.",
+   "sequence": [
+    "a big rock",
+    "cracks in the rock",
+    "small stones",
+    "sand",
+    "soil"
+   ],
+   "explanation": "Rain, heat, cold and roots crack a big rock. The pieces get smaller and smaller until they are sand and then soil. It takes thousands of years."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-011",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Rocks break down",
+   "stem": "Rain, heat and cold can crack rocks.",
+   "answer": true,
+   "explanation": "Water gets into small cracks, and heating and cooling make the rock split. Over a long time this helps break rock into soil."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Rocks break down",
+   "stem": "A tiny plant grows in a crack in a rock. How can its root break the rock?",
+   "model_answer": "The root grows into the crack and pushes, making the crack bigger until the rock breaks.",
+   "keywords": [
+    [
+     "root",
+     "roots",
+     "plant"
+    ],
+    [
+     "push",
+     "pushes",
+     "pushing",
+     "grow",
+     "grows",
+     "growing"
+    ],
+    [
+     "crack",
+     "cracks",
+     "bigger",
+     "wider",
+     "split",
+     "splits",
+     "break",
+     "breaks"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "As the root grows it pushes on the sides of the crack. The crack gets bigger and the rock slowly breaks."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-013",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Sort each thing into rock, mineral or soil.",
+   "categories": [
+    "Rock",
+    "Mineral",
+    "Soil"
+   ],
+   "items": [
+    [
+     "stone for roads",
+     "Rock"
+    ],
+    [
+     "a marble floor",
+     "Rock"
+    ],
+    [
+     "salt for cooking",
+     "Mineral"
+    ],
+    [
+     "copper in a wire",
+     "Mineral"
+    ],
+    [
+     "bricks of baked clay",
+     "Soil"
+    ],
+    [
+     "a field of growing vegetables",
+     "Soil"
+    ]
+   ],
+   "explanation": "Stone and marble are rocks. Salt and copper come from minerals. Bricks are baked clay, a kind of soil, and vegetables grow in soil."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-014",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Soil",
+   "stem": "Look at the layers of soil. Which number shows the solid rock at the bottom?",
+   "image": "diagrams/soil-layers-numbered.svg",
+   "image_alt": "Four layers of soil numbered 1 to 4 from the top.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "explanation": "Number 4 is bedrock, the solid rock under the soil. Number 1 is leaf litter (humus), 2 is topsoil and 3 is subsoil."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-015",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Rocks break down",
+   "stem": "Look at the river. Which number shows rock breaking up into smaller pieces?",
+   "image": "diagrams/river-landscape-numbered.svg",
+   "image_alt": "A river from the hills to the sea with four numbers marking what happens.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "At number 1 the rock cracks and breaks into pieces. At number 2 the river carries the pieces away, and at number 3 they settle as new land by the sea (4)."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Raju wants to know what builders in Bangladesh use to make walls, because there are very few rocks on the surface. What do they use?",
+   "options": [
+    "walls of cut slate sheets",
+    "lumps of salt and sand",
+    "blocks of pressed chalk",
+    "bricks baked from clay"
+   ],
+   "answer": 3,
+   "explanation": "Builders dig up clay soil, shape it into blocks and bake it in a brick kiln. This gives hard bricks for houses, schools and roads."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Soil",
+   "stem": "Lina has a paddy field in the haor that must hold water for the rice. Which soil is best?",
+   "options": [
+    "sand, because it drains very fast",
+    "sand, because it is light and soft",
+    "clay, because it holds water well",
+    "gravel, because it is made of stones"
+   ],
+   "answer": 2,
+   "explanation": "In the class test only 20 ml of water dripped through clay, so it holds water best. Sand lets water drain away."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Rocks break down",
+   "stem": "Nadia finds smooth, round pebbles at the river. Why are they smooth?",
+   "options": [
+    "Moving water rolls and rubs them.",
+    "People polish them with cloth.",
+    "They were smooth from the start.",
+    "The Sun melts their sharp edges."
+   ],
+   "answer": 0,
+   "explanation": "Rivers roll stones along, and the stones rub against each other. The sharp edges wear off and the stones become smooth and small."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-019",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "evaluate",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "A brick kiln has a tall chimney near a village. Which are problems that kilns can cause? Choose all that are right.",
+   "options": [
+    "The smoke makes the air dirty.",
+    "They use up good farm soil.",
+    "They make bricks for new houses.",
+    "They are very quiet."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Brick kilns make smoke and use farm soil, and these are problems. Making bricks for houses is a good thing about kilns."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-020",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Soil",
+   "stem": "Class 2C poured 100 ml of water on each soil. Water that dripped through: sand 80 ml, garden soil 50 ml, clay 20 ml. Tuli says, \"Sand holds the most water because it has the biggest number.\" What is the best reply?",
+   "options": [
+    "Yes. A bigger number always means more water held.",
+    "No. The number shows water that went through.",
+    "Yes. Sand is the heaviest soil of all.",
+    "No. Sand holds 80 ml and clay holds 20 ml."
+   ],
+   "answer": 1,
+   "explanation": "The number is the water that dripped through. Sand let 80 ml through and kept about 20 ml. Clay let 20 ml through and kept about 80 ml, so clay held the most."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-021",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Bangladesh has very few rocks on the surface, but there are many brick kilns. Explain why.",
+   "model_answer": "There is little rock for building, but there is plenty of clay soil that can be baked into hard bricks.",
+   "keywords": [
+    [
+     "few",
+     "little",
+     "not many",
+     "no rock",
+     "no rocks",
+     "not enough"
+    ],
+    [
+     "clay",
+     "soil",
+     "mud"
+    ],
+    [
+     "brick",
+     "bricks"
+    ],
+    [
+     "bake",
+     "baked",
+     "baking",
+     "fire",
+     "burn",
+     "burnt",
+     "hard"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Builders cannot dig much stone, so they use clay soil. Baking the clay in a kiln makes it hard enough for walls."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Soil",
+   "stem": "Imran tests sand with 100 ml of water. Anika tests clay with 200 ml of water. Why is their test not fair?",
+   "options": [
+    "Sand is too dry to be tested.",
+    "Clay cannot be tested with water.",
+    "The water amounts were different.",
+    "Imran and Anika are different ages."
+   ],
+   "answer": 2,
+   "explanation": "In a fair test only one thing changes: the type of soil. The amount of water, the funnel and the amount of soil must stay the same."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-023",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Put the steps in order to show how a brick is made.",
+   "sequence": [
+    "dig up clay soil",
+    "mix it with water",
+    "shape it into blocks",
+    "bake the blocks in a hot fire",
+    "hard bricks are ready"
+   ],
+   "explanation": "Clay is dug up, mixed with water and shaped into blocks. Baking it in a very hot fire turns the soft clay into hard bricks."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-024",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Soil",
+   "stem": "Rotted plants and animals in soil are called ___.",
+   "blanks": [
+    [
+     "humus"
+    ]
+   ],
+   "bank": [
+    "humus",
+    "sand",
+    "minerals"
+   ],
+   "explanation": "Humus is made of dead plants and animals that have rotted. It makes soil good for growing plants."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-025",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Minerals",
+   "stem": "Metals such as iron and copper come from…",
+   "options": [
+    "minerals in rocks",
+    "rain clouds",
+    "the air around us",
+    "dead leaves"
+   ],
+   "answer": 0,
+   "explanation": "Gold, iron and copper are taken from minerals in rocks. People use them to make tools, wires and jewellery."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "B2",
+   "title": "Rocks, Minerals and Soils",
+   "strand": "earth",
+   "site_skill": "E2",
+   "worksheet": "worksheets/grade-2-science/pdf/b2-rocks-minerals-and-soils-study-pack.pdf",
+   "id": "g2-b2-026",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Using rocks, minerals and soil",
+   "stem": "Bangladesh has lots of big rocks on the surface, so most houses are built of stone.",
+   "answer": false,
+   "explanation": "Bangladesh has very few rocks on the surface. Builders make bricks by baking clay soil instead."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-001",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Which of these keeps its own shape?",
+   "options": [
+    {
+     "text": "milk",
+     "image": "openmoji/milk.svg"
+    },
+    {
+     "text": "a water drop",
+     "image": "openmoji/droplet.svg"
+    },
+    {
+     "text": "air in a balloon",
+     "image": "openmoji/balloon.svg"
+    },
+    {
+     "text": "a rock",
+     "image": "openmoji/rock.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "A solid keeps its own shape. Liquids take the shape of their container and gases spread out to fill the space."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-002",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Sort the pictures into solid or liquid.",
+   "categories": [
+    "Solid",
+    "Liquid"
+   ],
+   "items": [
+    [
+     {
+      "text": "ice cube",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "Solid"
+    ],
+    [
+     {
+      "text": "brick",
+      "image": "openmoji/brick.svg"
+     },
+     "Solid"
+    ],
+    [
+     {
+      "text": "rock",
+      "image": "openmoji/rock.svg"
+     },
+     "Solid"
+    ],
+    [
+     {
+      "text": "milk",
+      "image": "openmoji/milk.svg"
+     },
+     "Liquid"
+    ],
+    [
+     {
+      "text": "droplet",
+      "image": "openmoji/droplet.svg"
+     },
+     "Liquid"
+    ],
+    [
+     {
+      "text": "water glass",
+      "image": "openmoji/water-glass.svg"
+     },
+     "Liquid"
+    ]
+   ],
+   "explanation": "Ice, bricks and rocks keep their shape, so they are solids. Milk, a water drop and water in a glass can be poured, so they are liquids."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Solids, liquids and gases",
+   "stem": "The boxes show tiny particles. Which box shows a gas, with particles far apart?",
+   "image": "diagrams/states-particles.svg",
+   "image_alt": "Three boxes of tiny particles from left to right: a solid, a liquid and a gas.",
+   "options": [
+    "the middle box",
+    "the left box",
+    "the right box",
+    "no box"
+   ],
+   "answer": 2,
+   "explanation": "In a gas the particles are far apart and move about quickly, so the gas spreads out to fill the space. The box on the left is a solid and the middle box is a liquid."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Match each picture to its state of matter.",
+   "pairs": [
+    [
+     {
+      "text": "ice cube",
+      "image": "openmoji/ice-cube.svg"
+     },
+     "solid"
+    ],
+    [
+     {
+      "text": "milk",
+      "image": "openmoji/milk.svg"
+     },
+     "liquid"
+    ],
+    [
+     {
+      "text": "air in a balloon",
+      "image": "openmoji/balloon.svg"
+     },
+     "gas"
+    ]
+   ],
+   "explanation": "Ice keeps its shape, milk can be poured, and the air inside a balloon is a gas that spreads out to fill it."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-005",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Solids, liquids and gases",
+   "stem": "In the picture, the particles in the box on the left are packed close together in rows.",
+   "image": "diagrams/states-particles.svg",
+   "image_alt": "Three boxes of tiny particles from left to right: a solid, a liquid and a gas.",
+   "answer": true,
+   "explanation": "In a solid the particles are packed tightly in rows and only jiggle in place. That is why a solid keeps its shape."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-006",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Match each state of matter to how it behaves.",
+   "pairs": [
+    [
+     "solid",
+     "keeps its shape"
+    ],
+    [
+     "liquid",
+     "takes the shape of its container"
+    ],
+    [
+     "gas",
+     "spreads out to fill the space"
+    ]
+   ],
+   "explanation": "A solid keeps its shape, a liquid takes the shape of its container, and a gas spreads out to fill all the space it can."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-007",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "What is matter",
+   "stem": "Air is matter because it takes up space.",
+   "answer": true,
+   "explanation": "Matter is anything that has mass and takes up space. You cannot see air, but it fills a balloon, so it is matter."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-008",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "What is matter",
+   "stem": "Everything that has mass and takes up ___ is called matter.",
+   "blanks": [
+    [
+     "space",
+     "room"
+    ]
+   ],
+   "bank": [
+    "space",
+    "colour",
+    "light"
+   ],
+   "explanation": "Matter has mass and takes up space. Solids, liquids and gases are all matter."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-009",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Solids, liquids and gases",
+   "stem": "Which of these are liquids? Choose all that are right.",
+   "options": [
+    "milk",
+    "cooking oil",
+    "ice",
+    "juice",
+    "steam"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Milk, oil and juice can be poured and take the shape of their container. Ice is a solid and steam is a gas."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-010",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Melting and freezing",
+   "stem": "Ice ___ into water when it is warm. Water ___ into ice in a freezer.",
+   "blanks": [
+    [
+     "melts",
+     "melt"
+    ],
+    [
+     "freezes",
+     "freeze"
+    ]
+   ],
+   "bank": [
+    "melts",
+    "freezes",
+    "boils",
+    "sand"
+   ],
+   "explanation": "A solid turns into a liquid when it melts. A liquid turns into a solid when it freezes."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-011",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Water and steam",
+   "stem": "Put the steps in order to show what happens when water boils in a pot with a lid.",
+   "sequence": [
+    "The water is heated.",
+    "The water boils.",
+    "Steam rises from the water.",
+    "Steam touches the cold lid.",
+    "Water drops form on the lid."
+   ],
+   "explanation": "Heating makes water boil and turn into steam, which is a gas. When the steam touches the cold lid it turns back into drops of water."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Melting and freezing",
+   "stem": "Melting is the reverse of…",
+   "options": [
+    "freezing",
+    "floating",
+    "pouring",
+    "boiling"
+   ],
+   "answer": 0,
+   "explanation": "Melting turns a solid into a liquid. Freezing turns a liquid back into a solid, so they are opposites."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-013",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Melting and freezing",
+   "stem": "Joy left a bar of chocolate in her school bag on a hot day. What will she find?",
+   "options": [
+    "The chocolate has frozen hard.",
+    "The chocolate has melted.",
+    "The chocolate has turned to steam.",
+    "The chocolate has not changed at all."
+   ],
+   "answer": 1,
+   "explanation": "Heat makes the chocolate melt. If she puts it in the fridge, it cools and becomes a solid again."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-014",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Water and steam",
+   "stem": "Rina puts a lid on a pot of boiling water. Later the lid is wet inside. Why?",
+   "model_answer": "Steam from the water touched the cold lid and turned back into drops of water.",
+   "keywords": [
+    [
+     "steam",
+     "gas",
+     "vapour",
+     "vapor"
+    ],
+    [
+     "cold",
+     "cool",
+     "cooler"
+    ],
+    [
+     "lid",
+     "drops",
+     "drop",
+     "water",
+     "liquid"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Steam is water as a gas. When it touches the cooler lid it turns back into water drops."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-015",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Melting and freezing",
+   "stem": "Sort each change into melting, freezing or water turning into steam.",
+   "categories": [
+    "Melting",
+    "Freezing",
+    "Water turning into steam"
+   ],
+   "items": [
+    [
+     "an ice cube in the sun",
+     "Melting"
+    ],
+    [
+     "butter on a hot roti",
+     "Melting"
+    ],
+    [
+     "water in the freezer",
+     "Freezing"
+    ],
+    [
+     "juice made into an ice lolly",
+     "Freezing"
+    ],
+    [
+     "water boiling in a kettle",
+     "Water turning into steam"
+    ],
+    [
+     "a pot of rice with bubbling water",
+     "Water turning into steam"
+    ]
+   ],
+   "explanation": "Melting is a solid turning into a liquid. Freezing is a liquid turning into a solid. Boiling water turns into steam."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-016",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water and steam",
+   "stem": "Steam is a liquid.",
+   "answer": false,
+   "explanation": "Steam is water as a gas. Liquid water turns into steam when it is heated until it boils."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Water and steam",
+   "stem": "Tuli sees steam coming out of the kettle on the stove. What is the safe thing to do?",
+   "options": [
+    "Ask an adult for help.",
+    "Lift the lid and look inside.",
+    "Touch the steam to feel it.",
+    "Hold her hand over the spout."
+   ],
+   "answer": 0,
+   "explanation": "Steam and boiling water can burn you badly. Always ask an adult to help with anything that is being heated."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Melting and freezing",
+   "stem": "Mina wants to make ice at home in Dhaka. Where should she put a tray of water?",
+   "options": [
+    "on the table by the fan",
+    "in the freezer of the fridge",
+    "in the garden at night",
+    "in the shade outside"
+   ],
+   "answer": 1,
+   "explanation": "Water only freezes below 0 degrees Celsius. In Bangladesh it is not that cold outside, even in winter, so you need a fridge freezer."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Melting and freezing",
+   "stem": "The ice cream seller keeps lots of ice in a thick-walled box in his cart. Why?",
+   "options": [
+    "It makes the cart lighter.",
+    "It makes the ice cream hotter.",
+    "It turns the ice cream into steam.",
+    "It keeps the ice cream cold so it stays solid."
+   ],
+   "answer": 3,
+   "explanation": "The ice stays cold and keeps the ice cream from melting. By the evening most of the ice has melted into water, a liquid."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-020",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Heating and cooling",
+   "stem": "In the simulation, when you heat the water, the particles move faster.",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and choose the States screen. Pick water and press Solid. Then use the heat slider to heat the water and watch the particles."
+   },
+   "answer": true,
+   "explanation": "Heat gives the particles more energy, so they move faster. That is why a solid melts to a liquid and a liquid becomes a gas as it is heated."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-021",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Solids, liquids and gases",
+   "stem": "In the simulation, which state of water has particles far apart and moving about very fast?",
+   "sim": {
+    "id": "states-of-matter-basics",
+    "task": "Open States of Matter Basics and choose the States screen. Pick water. Press the Solid, Liquid and Gas buttons one at a time and watch the particles each time."
+   },
+   "options": [
+    "solid",
+    "liquid",
+    "gas",
+    "all three states"
+   ],
+   "answer": 2,
+   "explanation": "In a gas the particles are far apart and zoom about. In a solid they are packed in rows, and in a liquid they are close but slide around."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Heating and cooling",
+   "stem": "Class 2A timed ice cubes of the same size until they melted: in the sun 10 minutes, on a table 25, in the shade 30, in a cool box 90. How much longer did the ice last in the cool box than in the shade?",
+   "options": [
+    "120 minutes",
+    "60 minutes",
+    "80 minutes",
+    "30 minutes"
+   ],
+   "answer": 1,
+   "explanation": "90 minus 30 is 60 minutes. The cool box kept the ice colder than any other place, so the ice melted slowest there."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-023",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "What is matter",
+   "stem": "Imran says, \"Air is not matter because I cannot see it.\" Which test shows that he is wrong?",
+   "options": [
+    "Hold a stone in your hand.",
+    "Blow up a balloon: the air fills it.",
+    "Shout across the field.",
+    "Look at a glass of water."
+   ],
+   "answer": 1,
+   "explanation": "Air takes up space: it fills the balloon and makes it bigger. Anything that has mass and takes up space is matter, even if we cannot see it."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-024",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Heating and cooling",
+   "stem": "Ice cubes of the same size were put in the sun and in a cool box. The ice in the sun melted much faster. Explain why.",
+   "model_answer": "The sun makes the ice warm so it melts quickly, but the cool box keeps the ice cold so it melts slowly.",
+   "keywords": [
+    [
+     "sun",
+     "sunny",
+     "warm",
+     "warmer",
+     "hot",
+     "hotter",
+     "heat"
+    ],
+    [
+     "cold",
+     "cool",
+     "colder",
+     "cooler"
+    ],
+    [
+     "melt",
+     "melts",
+     "melted",
+     "melting"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Heat makes ice melt. The sun is the warmest place so the ice melts fastest there. A thick cool box keeps heat out so the ice stays solid longer."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-025",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Water and steam",
+   "stem": "When steam touches a cold lid, it turns back into drops of water.",
+   "answer": true,
+   "explanation": "Cooling turns steam (a gas) back into liquid water. This is the opposite of boiling."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C1",
+   "title": "States of Matter",
+   "strand": "physical",
+   "site_skill": "P1",
+   "worksheet": "worksheets/grade-2-science/pdf/c1-states-of-matter-study-pack.pdf",
+   "id": "g2-c1-026",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Melting and freezing",
+   "stem": "Water turns into ice when it is…",
+   "options": [
+    "cooled",
+    "heated",
+    "stirred",
+    "poured"
+   ],
+   "answer": 0,
+   "explanation": "Cooling a liquid enough makes it freeze into a solid. Water freezes into ice below 0 degrees Celsius."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Pushes and pulls",
+   "stem": "A force is a…",
+   "options": [
+    "colour or a shape",
+    "sound or a smell",
+    "push or a pull",
+    "speed or a size"
+   ],
+   "answer": 2,
+   "explanation": "Every push and every pull is a force. Forces can start things moving, stop them, or change their shape."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Pushes and pulls",
+   "stem": "Sort each action into push or pull.",
+   "categories": [
+    "Push",
+    "Pull"
+   ],
+   "items": [
+    [
+     "pushing a pram",
+     "Push"
+    ],
+    [
+     "kicking a ball",
+     "Push"
+    ],
+    [
+     "pressing a button",
+     "Push"
+    ],
+    [
+     "opening a drawer",
+     "Pull"
+    ],
+    [
+     "pulling a rope",
+     "Pull"
+    ],
+    [
+     "flying a kite",
+     "Pull"
+    ]
+   ],
+   "explanation": "When you kick, press or push a pram, you push away from yourself. When you open a drawer, pull a rope or hold a kite string, you pull towards yourself."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-003",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What forces do",
+   "stem": "Match each action to what the force does.",
+   "pairs": [
+    [
+     "squashing clay",
+     "changes its shape"
+    ],
+    [
+     "catching a ball",
+     "stops it"
+    ],
+    [
+     "pushing a swing",
+     "starts it moving"
+    ],
+    [
+     "hitting a ball with a bat",
+     "changes its direction"
+    ]
+   ],
+   "explanation": "Forces can change shape, start movement, stop movement and change the way something moves."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-004",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Gravity and friction",
+   "stem": "A mango falls down because of ___. A ball stops on grass because of ___. A force is a push or a ___.",
+   "blanks": [
+    [
+     "gravity"
+    ],
+    [
+     "friction"
+    ],
+    [
+     "pull"
+    ]
+   ],
+   "bank": [
+    "gravity",
+    "friction",
+    "pull",
+    "light"
+   ],
+   "explanation": "Gravity pulls things down towards the Earth. Friction slows things that rub together, such as a ball on grass."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-005",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Gravity and friction",
+   "stem": "Friction is a force that slows things down when they rub together.",
+   "answer": true,
+   "explanation": "Friction happens when two surfaces rub. A ball rolls far on a smooth floor but stops quickly on rough grass."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-006",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring forces",
+   "stem": "We measure forces with a ___, and the unit is the ___.",
+   "blanks": [
+    [
+     "forcemeter",
+     "force meter",
+     "newton meter",
+     "newtonmeter"
+    ],
+    [
+     "newton",
+     "newtons",
+     "N"
+    ]
+   ],
+   "bank": [
+    "forcemeter",
+    "newton",
+    "ruler",
+    "metre"
+   ],
+   "explanation": "A forcemeter has a spring inside. The harder you pull, the more it stretches, and the reading is in newtons (N)."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-007",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Measuring forces",
+   "stem": "Look at the forcemeter. What force does it show?",
+   "image": "diagrams/forcemeter-4n.svg",
+   "image_alt": "A forcemeter with its pointer at 4 newtons.",
+   "options": [
+    "2 N",
+    "7 N",
+    "4 N",
+    "10 N"
+   ],
+   "answer": 2,
+   "explanation": "The pointer is at 4, so the force is 4 newtons (4 N). A forcemeter reads the size of a force."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-008",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Weight and force",
+   "stem": "This forcemeter lifts a bag and shows 7 N. A second bag shows 4 N. Which bag is heavier?",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter with its pointer at 7 newtons.",
+   "options": [
+    "the bag that shows 4 N",
+    "the bag that shows 7 N",
+    "both bags weigh the same",
+    "we cannot tell"
+   ],
+   "answer": 1,
+   "explanation": "The heavier a bag is, the more force you need to lift it, so the bigger reading belongs to the heavier bag."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-009",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Measuring forces",
+   "stem": "Look at the box. How much force is needed to lift it straight up?",
+   "image": "diagrams/ramp-lift.svg",
+   "image_alt": "A box lifted straight up with a force of 10 newtons, and pulled up a ramp with a force of 4 newtons.",
+   "options": [
+    "4 N",
+    "10 N",
+    "7 N",
+    "14 N"
+   ],
+   "answer": 1,
+   "explanation": "The picture says lifting the box straight up needs 10 N. Pulling it up the ramp needs only 4 N, but the path is longer."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-010",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Gravity and friction",
+   "stem": "Look at the arrows on the aeroplane. Which force pulls it down towards the Earth?",
+   "image": "diagrams/flight-forces.svg",
+   "image_alt": "An aeroplane with four arrows: lift up, weight down, thrust forward and drag backward.",
+   "options": [
+    "lift",
+    "thrust",
+    "drag",
+    "weight"
+   ],
+   "answer": 3,
+   "explanation": "Weight is how hard gravity pulls on something, so the arrow pointing down is weight. The other arrows point up, forwards and backwards."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-011",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Weight and force",
+   "stem": "The forcemeter shows 7 N. If a lighter bag is hung on it, the reading will go down.",
+   "image": "diagrams/forcemeter-7n.svg",
+   "image_alt": "A forcemeter with its pointer at 7 newtons.",
+   "answer": true,
+   "explanation": "A lighter bag needs less force to hold it up, so the pointer moves back towards a smaller number."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-012",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Motion",
+   "stem": "Motion means a change in position over time.",
+   "answer": true,
+   "explanation": "If something is in a different place after some time, it has moved. A car that goes further in the same time is moving faster."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Motion",
+   "stem": "In 5 seconds toy car A goes 2 metres and toy car B goes 4 metres. Which car is moving faster?",
+   "options": [
+    "car B",
+    "they are moving at the same speed",
+    "car A",
+    "neither car is moving"
+   ],
+   "answer": 0,
+   "explanation": "Car B goes further in the same time, so it is moving faster."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-014",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Gravity and friction",
+   "stem": "Why is it easier to slide on a wet, smooth floor than on a rough mat?",
+   "model_answer": "The smooth floor has less friction, so you slide. The rough mat has more friction.",
+   "keywords": [
+    [
+     "less friction",
+     "little friction",
+     "not much friction",
+     "smooth",
+     "slippery"
+    ],
+    [
+     "rough",
+     "more friction",
+     "grips",
+     "grip",
+     "mat"
+    ],
+    [
+     "slide",
+     "slides",
+     "slip",
+     "slippery"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Friction is the force between two surfaces that rub. A smooth, wet floor has less of it, so things slide easily. A rough mat has more, so it slows you down."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-015",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Gravity and friction",
+   "stem": "Put the steps of a fair test in order to find which surface has the most friction.",
+   "sequence": [
+    "Roll a toy car down a ramp onto the smooth floor.",
+    "Measure how far the car went.",
+    "Roll the same car down the same ramp onto the mat.",
+    "Measure how far it went this time.",
+    "Compare the two distances."
+   ],
+   "explanation": "We keep the car and ramp the same and change only the surface. The surface where the car stops soonest has the most friction."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-016",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "What forces do",
+   "stem": "What can a force do to an object? Choose all that are right.",
+   "options": [
+    "start it moving",
+    "stop it moving",
+    "change its shape",
+    "change its colour",
+    "change its direction"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "explanation": "Forces can start and stop movement, change direction and change shape, such as squashing clay. A force does not change colour."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Weight and force",
+   "stem": "Kamal drives a rickshaw van. Why is it harder to pedal when the van is full of potatoes?",
+   "options": [
+    "The van is heavier and needs more force.",
+    "The potatoes make the road much smoother.",
+    "Gravity stops pulling on the loaded van.",
+    "The wheels turn the wrong way round."
+   ],
+   "answer": 0,
+   "explanation": "Heavier things need more force to move. A full van has more weight, so Kamal must push the pedals harder."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Gravity and friction",
+   "stem": "On a wet road the van slides more when Kamal brakes. Why should he go slowly?",
+   "options": [
+    "There is more friction, so it stops at once.",
+    "There is less friction, so it stops slowly.",
+    "The brakes make it go faster instead.",
+    "Gravity is weaker on wet roads here."
+   ],
+   "answer": 1,
+   "explanation": "Water makes the road slippery, so there is less friction between the tyres and the road. The van needs more space to stop."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-019",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Gravity and friction",
+   "stem": "Which are ways that friction helps us? Choose all that are right.",
+   "options": [
+    "Shoes grip the ground so we do not slip.",
+    "Bicycle brakes stop the wheels.",
+    "A wet, smooth floor lets us slide.",
+    "A mango falls from the tree."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Shoes grip because of friction, and brakes use friction to slow the wheels. Sliding on a smooth floor means very little friction, and a falling mango is gravity."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-020",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Gravity and friction",
+   "stem": "After rain the school corridor is wet and smooth. Sumi walks slowly because there is less friction and she could slip.",
+   "answer": true,
+   "explanation": "A wet, smooth floor has less friction, so shoes grip less and it is easy to slip. Walking slowly is the safe choice."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-021",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Pushes and pulls",
+   "stem": "In the simulation, what happens to the cart when the same-size pullers pull equally on both ropes?",
+   "sim": {
+    "id": "forces-and-motion-basics",
+    "task": "Open Forces and Motion: Basics and choose the Net Force screen. Put one medium puller on the left rope and one medium puller on the right rope, then press Go."
+   },
+   "options": [
+    "It moves to the left.",
+    "It moves to the right.",
+    "It does not move.",
+    "It spins around."
+   ],
+   "answer": 2,
+   "explanation": "Equal pulls in opposite directions cancel each other, so the cart stays still. The side with the bigger total pull wins."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-022",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Gravity and friction",
+   "stem": "In the simulation, a crate you have pushed slows down and stops faster when the friction is set to lots.",
+   "sim": {
+    "id": "forces-and-motion-basics",
+    "task": "Open Forces and Motion: Basics and choose the Friction screen. Push the crate so it moves, then set the push back to zero. Do this once with the friction slider on a little and once on lots."
+   },
+   "answer": true,
+   "explanation": "More friction means a bigger force slowing the crate. With little friction it slides much further."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-023",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Weight and force",
+   "stem": "In the simulation, with the same push, the heavy fridge speeds up more slowly than the crate.",
+   "sim": {
+    "id": "forces-and-motion-basics",
+    "task": "Open Forces and Motion: Basics and choose the Motion screen. Set friction to none. Push the crate with the applied force slider and watch its speed. Then use the same push on the fridge."
+   },
+   "answer": true,
+   "explanation": "A heavier object needs a bigger force to speed up. The same push makes the lighter crate speed up faster than the fridge."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-024",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Gravity and friction",
+   "stem": "Class 2B rolled a toy car down a ramp: smooth floor 150 cm, mat 80 cm, sand 20 cm. They now try a polished tile with even less friction than the smooth floor. What is the best prediction?",
+   "options": [
+    "It goes about 80 cm, like the mat.",
+    "It goes less than 20 cm, like sand.",
+    "It goes exactly 150 cm again.",
+    "It goes further than 150 cm."
+   ],
+   "answer": 3,
+   "explanation": "The less friction a surface has, the further the car rolls. The smooth floor went furthest so far, so a surface with even less friction should take the car further."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-025",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Gravity and friction",
+   "stem": "Mina rolls a car down a tall ramp onto sand. Raju rolls the same car down a short ramp onto a smooth floor. Why is this not a fair test of friction?",
+   "options": [
+    "The surfaces are different from each other.",
+    "They used the same car both times.",
+    "The ramps are different heights.",
+    "They did both tests in one room."
+   ],
+   "answer": 2,
+   "explanation": "In a fair test only the surface should change. A taller ramp gives the car a faster start, so the ramp must be the same height each time."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C2",
+   "title": "Forces and Motion",
+   "strand": "physical",
+   "site_skill": "P2",
+   "worksheet": "worksheets/grade-2-science/pdf/c2-forces-and-motion-study-pack.pdf",
+   "id": "g2-c2-026",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Gravity and friction",
+   "stem": "Tuli says, \"Gravity only pulls on things that are falling.\" A book is lying on a table. Is Tuli right? Explain.",
+   "model_answer": "No. Gravity pulls on everything all the time. The book does not fall because the table holds it up.",
+   "keywords": [
+    [
+     "no",
+     "wrong",
+     "not right",
+     "not correct"
+    ],
+    [
+     "everything",
+     "all",
+     "always",
+     "book",
+     "pulls"
+    ],
+    [
+     "table",
+     "holds",
+     "stops",
+     "supports"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Gravity pulls on every object, even when it is still. The book stays where it is because the table is in the way, so it cannot fall."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-001",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How we hear",
+   "stem": "All sounds are made when something…",
+   "options": [
+    "gets hot",
+    "vibrates",
+    "changes colour",
+    "stands still"
+   ],
+   "answer": 1,
+   "explanation": "A vibration is a very fast shaking backwards and forwards. A drum skin, a bell and your voice box all vibrate to make sound."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-002",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Parts of the ear",
+   "stem": "Look at the ear. Which number is the eardrum, the thin skin that vibrates?",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "Cross-section of the ear with six parts numbered 1 to 6.",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "Number 3 is the eardrum. Sound makes it vibrate like a tiny drum. Number 1 is the outer ear, 5 the cochlea and 6 the nerve to the brain."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-003",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Parts of the ear",
+   "stem": "Which number is the snail-shaped part that turns vibrations into messages?",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "Cross-section of the ear with six parts numbered 1 to 6.",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Number 5 is the cochlea, in the inner ear. It looks like a snail shell and turns vibrations into messages for the brain."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-004",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Parts of the ear",
+   "stem": "Match each number in the picture to the right part of the ear.",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "Cross-section of the ear with six parts numbered 1 to 6.",
+   "pairs": [
+    [
+     "1",
+     "outer ear"
+    ],
+    [
+     "3",
+     "eardrum"
+    ],
+    [
+     "5",
+     "cochlea"
+    ],
+    [
+     "6",
+     "nerve to the brain"
+    ]
+   ],
+   "explanation": "The outer ear collects sound, the eardrum vibrates, the cochlea turns vibrations into messages, and the nerve carries the messages to the brain."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-005",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Sources of light and sound",
+   "stem": "Sort the pictures into sound sources and light sources.",
+   "categories": [
+    "Sound source",
+    "Light source"
+   ],
+   "items": [
+    [
+     {
+      "text": "bell",
+      "image": "openmoji/bell.svg"
+     },
+     "Sound source"
+    ],
+    [
+     {
+      "text": "drum",
+      "image": "openmoji/drum.svg"
+     },
+     "Sound source"
+    ],
+    [
+     {
+      "text": "bird",
+      "image": "openmoji/bird.svg"
+     },
+     "Sound source"
+    ],
+    [
+     {
+      "text": "sun",
+      "image": "openmoji/sun.svg"
+     },
+     "Light source"
+    ],
+    [
+     {
+      "text": "lamp",
+      "image": "openmoji/light-bulb.svg"
+     },
+     "Light source"
+    ],
+    [
+     {
+      "text": "candle",
+      "image": "openmoji/candle.svg"
+     },
+     "Light source"
+    ]
+   ],
+   "explanation": "A bell, a drum and a bird make sound. The Sun, a lamp and a candle make light. A source is where light or sound comes from."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-006",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "How we hear",
+   "stem": "Put the steps in order to show how you hear a sound.",
+   "sequence": [
+    "The outer ear collects the sound.",
+    "The sound travels down the ear canal.",
+    "The eardrum vibrates.",
+    "The cochlea turns the vibrations into messages.",
+    "A nerve carries the messages to the brain.",
+    "The brain tells you what you hear."
+   ],
+   "explanation": "Sound goes in through the outer ear and makes the eardrum vibrate. The cochlea changes the vibrations into messages, and a nerve carries them to the brain."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-007",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "How we hear",
+   "stem": "Sounds are made when things ___. Sound makes the ___ vibrate. A ___ carries messages to the brain.",
+   "blanks": [
+    [
+     "vibrate",
+     "vibrates"
+    ],
+    [
+     "eardrum",
+     "ear drum"
+    ],
+    [
+     "nerve"
+    ]
+   ],
+   "bank": [
+    "vibrate",
+    "eardrum",
+    "nerve",
+    "nose"
+   ],
+   "explanation": "Vibrations make sound. The sound makes the eardrum vibrate, and a nerve takes the message to the brain."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-008",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Why hearing matters",
+   "stem": "Match each animal to how it uses hearing.",
+   "pairs": [
+    [
+     {
+      "text": "deer",
+      "image": "openmoji/deer.svg"
+     },
+     "listens for danger such as a tiger"
+    ],
+    [
+     {
+      "text": "owl",
+      "image": "openmoji/owl.svg"
+     },
+     "hunts mice by listening in the dark"
+    ],
+    [
+     {
+      "text": "bat",
+      "image": "openmoji/bat.svg"
+     },
+     "finds insects using echoes"
+    ]
+   ],
+   "explanation": "Many animals depend on hearing. Deer listen for danger, owls hear mice in the dark, and bats use echoes to find insects."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-009",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Noise and blocking sound",
+   "stem": "Very loud sound for a long time can damage your hearing.",
+   "answer": true,
+   "explanation": "Loud sound can harm the ear. If a sound is so loud that it hurts, cover your ears and move away."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "It is safe to push a small stick into your ear to clean it.",
+   "answer": false,
+   "explanation": "Never put anything inside your ear. You could hurt your eardrum. Ask an adult if you think your ear needs care."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-011",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Noise and blocking sound",
+   "stem": "Which of these are sources of noise pollution? Choose all that are right.",
+   "options": [
+    "car horns",
+    "loudspeakers",
+    "noisy machines",
+    "a whisper in the library"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Noise pollution is too much unwanted loud sound. Horns, loudspeakers and machines are common sources. A quiet whisper is not."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-012",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Noise and blocking sound",
+   "stem": "Which things can help block sound? Choose all that are right.",
+   "options": [
+    "thick curtains",
+    "foam",
+    "ear muffs",
+    "a wide open window"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Soft materials such as curtains and foam soak up sound, and ear muffs cover the ears. An open window lets noise straight in."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Noise and blocking sound",
+   "stem": "Which of these is best for blocking noise?",
+   "options": [
+    "glass",
+    "metal",
+    "a plastic ruler",
+    "thick cloth"
+   ],
+   "answer": 3,
+   "explanation": "Soft, thick materials such as cloth soak up sound vibrations. Hard materials like glass and metal let more sound through."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-014",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Why hearing matters",
+   "stem": "How does hearing help to keep you safe when you cross the road?",
+   "model_answer": "I can hear cars and horns coming, even when I cannot see them.",
+   "keywords": [
+    [
+     "hear",
+     "hears",
+     "listen",
+     "listens",
+     "hearing"
+    ],
+    [
+     "car",
+     "cars",
+     "horn",
+     "horns",
+     "bus",
+     "rickshaw",
+     "traffic",
+     "vehicle",
+     "vehicles"
+    ],
+    [
+     "safe",
+     "danger",
+     "coming",
+     "see",
+     "warn",
+     "warning"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Hearing warns us about things we cannot see. A car horn or an engine tells us something is coming."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-015",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "Sort each into things that block sound and things that let sound through.",
+   "categories": [
+    "Blocks sound",
+    "Lets sound through"
+   ],
+   "items": [
+    [
+     "cotton wool",
+     "Blocks sound"
+    ],
+    [
+     "thick curtains",
+     "Blocks sound"
+    ],
+    [
+     "ear muffs",
+     "Blocks sound"
+    ],
+    [
+     "an open window",
+     "Lets sound through"
+    ],
+    [
+     "an open door",
+     "Lets sound through"
+    ],
+    [
+     "a gap under the door",
+     "Lets sound through"
+    ]
+   ],
+   "explanation": "Soft, thick things stop sound. Open spaces let sound pass straight through, so closing windows and doors helps."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-016",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "Priya's classroom is next to a noisy road. Which two changes will make it quieter?",
+   "options": [
+    "Close the windows and hang thick curtains.",
+    "Open the windows and turn on a fan.",
+    "Open the doors and take the curtains down.",
+    "Paint the walls and move the desks."
+   ],
+   "answer": 0,
+   "explanation": "Closed windows and thick curtains block and soak up sound. Opening windows and doors lets more noise in."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-017",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "Rafi works with a loud machine in a factory all day. What should he wear?",
+   "options": [
+    "a hat",
+    "sunglasses",
+    "ear muffs",
+    "a raincoat"
+   ],
+   "answer": 2,
+   "explanation": "Ear muffs block loud sound and protect his hearing. Loud sound for a long time can damage the ears."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-018",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "Drivers keep honking near a hospital in Dhaka, but sick people need quiet. What could children do?",
+   "options": [
+    "Shout loudly at the drivers.",
+    "Honk back as loudly as they can.",
+    "Play loud music for the patients.",
+    "Make posters and politely ask drivers not to honk."
+   ],
+   "answer": 3,
+   "explanation": "A quiet, polite message can help drivers remember. Patients need quiet so they can rest and get better, and shouting or loud music adds more noise."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-019",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Noise and blocking sound",
+   "stem": "A loudspeaker at a fair is so loud that Mina's ears hurt. What should she do?",
+   "options": [
+    "Shout to be heard over it.",
+    "Stand closer to it.",
+    "Cover her ears and move away.",
+    "Put her fingers deep in her ears."
+   ],
+   "answer": 2,
+   "explanation": "Very loud sound can damage hearing. Covering your ears and moving further away protects them, and nothing should go inside your ears."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-020",
+   "mode": "simulation",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How we hear",
+   "stem": "In the simulation, when you make the amplitude bigger, the sound gets louder.",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Single Source screen. Turn the sound on so you can hear the speaker. Move the amplitude slider from low to high and listen."
+   },
+   "answer": true,
+   "explanation": "Amplitude is how big the vibrations are. Bigger vibrations make a louder sound."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-021",
+   "mode": "simulation",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "How we hear",
+   "stem": "In the simulation, what happens to the sound as you take the air out of the box?",
+   "sim": {
+    "id": "sound-waves",
+    "task": "Open Sound Waves and choose the Air Pressure screen. Turn the sound on so you can hear the speaker, then take the air out of the box and listen."
+   },
+   "options": [
+    "It gets louder.",
+    "It gets quieter.",
+    "It gets higher.",
+    "It stays exactly the same."
+   ],
+   "answer": 1,
+   "explanation": "Sound needs air to carry the vibrations to your ear. With less air around the speaker, less sound reaches you."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-022",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Noise and blocking sound",
+   "stem": "Class 2C covered a ticking clock with different materials and scored how loud it was (5 = very loud, 1 = very quiet): nothing 5, paper 4, cloth 3, cotton wool 1. Which conclusion is best?",
+   "options": [
+    "Cotton wool blocked the most sound.",
+    "Every material blocked the same amount.",
+    "Cloth made the clock louder.",
+    "Paper blocked the most sound."
+   ],
+   "answer": 0,
+   "explanation": "The lowest score means the quietest sound, so cotton wool blocked the most. Paper blocked only a little and the cloth was in between."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-023",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Noise and blocking sound",
+   "stem": "In the clock test, which things must stay the same to make it a fair test? Choose all that are right.",
+   "options": [
+    "the clock",
+    "the box",
+    "where the child stands",
+    "the material that covers the box"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Only one thing should change: the material. The clock, the box and the child's place must stay the same, or we cannot tell what caused the difference."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-024",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "create",
+   "subskill": "Noise and blocking sound",
+   "stem": "A school is next to a noisy generator. Give two ways to make a classroom quieter and say why they work.",
+   "model_answer": "Close the windows and hang thick curtains or foam on the walls, because soft thick things soak up and block sound.",
+   "keywords": [
+    [
+     "window",
+     "windows",
+     "curtain",
+     "curtains",
+     "foam",
+     "cloth",
+     "ear muffs",
+     "wool",
+     "further away",
+     "move away",
+     "trees"
+    ],
+    [
+     "block",
+     "blocks",
+     "stop",
+     "stops",
+     "soak",
+     "absorb",
+     "quieter",
+     "quiet",
+     "less sound",
+     "less noise"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Closing windows and using soft, thick materials such as curtains or foam stops sound getting in. Moving the class further from the noise also helps."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-025",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Parts of the ear",
+   "stem": "In the picture, number 3 is the eardrum, which vibrates when sound reaches it.",
+   "image": "diagrams/ear-numbered.svg",
+   "image_alt": "Cross-section of the ear with six parts numbered 1 to 6.",
+   "answer": true,
+   "explanation": "The eardrum is a thin skin in the middle ear. Sound makes it vibrate like a tiny drum."
+  },
+  {
+   "grade": 2,
+   "grade_name": "Grade 2",
+   "topic": "C3",
+   "title": "Hearing and Sound",
+   "strand": "physical",
+   "site_skill": "P3",
+   "worksheet": "worksheets/grade-2-science/pdf/c3-hearing-and-sound-study-pack.pdf",
+   "id": "g2-c3-026",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Why hearing matters",
+   "stem": "A bat finds insects in the dark by using…",
+   "options": [
+    "bright light",
+    "smell only",
+    "echoes",
+    "its eyes only"
+   ],
+   "answer": 2,
+   "explanation": "A bat makes sounds and listens for the echoes that bounce back from insects. This is how it finds food in the dark."
   }
  ]
 }

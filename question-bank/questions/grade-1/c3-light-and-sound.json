@@ -234,16 +234,16 @@
    "image_alt": "A torch, an object and its shadow on a screen.",
    "options": [
     {
-     "text": "the screen"
+     "text": "the object"
     },
     {
-     "text": "the object"
+     "text": "the screen"
     },
     {
      "text": "the torch"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "The object stops the light from the torch reaching the screen. The dark shape behind it is the shadow."
   },
@@ -257,19 +257,19 @@
    "stem": "Which picture shows something that makes a sound?",
    "options": [
     {
-     "text": "bell",
-     "image": "openmoji/bell.svg"
+     "text": "mirror",
+     "image": "openmoji/mirror.svg"
     },
     {
      "text": "candle",
      "image": "openmoji/candle.svg"
     },
     {
-     "text": "mirror",
-     "image": "openmoji/mirror.svg"
+     "text": "bell",
+     "image": "openmoji/bell.svg"
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "A bell makes a sound when it rings. A candle and a mirror do not make sound."
   },
@@ -335,13 +335,13 @@
      "text": "a rainbow"
     },
     {
-     "text": "a shadow"
+     "text": "a sound"
     },
     {
-     "text": "a sound"
+     "text": "a shadow"
     }
    ],
-   "answer": 1,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "The card blocks the light, so a dark shadow forms on the wall."
   },
@@ -355,16 +355,16 @@
    "stem": "Imran plucks a rubber band. It makes a sound. Why?",
    "options": [
     {
-     "text": "The band vibrates."
+     "text": "The band gives light."
     },
     {
-     "text": "The band gives light."
+     "text": "The band vibrates."
     },
     {
      "text": "The band gets hot."
     }
    ],
-   "answer": 0,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "A plucked band shakes very fast. This vibration makes the sound."
   },
@@ -557,13 +557,13 @@
      "text": "a candle"
     },
     {
-     "text": "a lamp"
+     "text": "the Sun"
     },
     {
-     "text": "the Sun"
+     "text": "a lamp"
     }
    ],
-   "answer": 2,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "The Sun is the biggest light source. It lights up the day."
   },

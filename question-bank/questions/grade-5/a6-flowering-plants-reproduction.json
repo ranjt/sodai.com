@@ -190,11 +190,11 @@
    "stem": "Which part of a flower becomes the fruit?",
    "options": [
     "the petal",
-    "the ovary",
     "the stigma",
+    "the ovary",
     "the anther"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "After fertilisation the petals wither and fall, and the ovary grows into the fruit that protects the seeds."
   },
   {
@@ -265,11 +265,11 @@
    "stem": "Why do wind-pollinated flowers such as grasses make huge amounts of pollen?",
    "options": [
     "They need to attract insects with bright colours.",
-    "Their heavy pollen drops straight to the ground.",
+    "Most of the pollen blown by the wind is lost.",
     "They do not have any stigma to catch the pollen.",
-    "Most of the pollen blown by the wind is lost."
+    "Their heavy pollen drops straight to the ground."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "Wind blows pollen everywhere, so only a tiny amount lands on a stigma. A huge supply makes sure that some of it arrives."
   },
   {
@@ -281,12 +281,12 @@
    "subskill": "Fertilisation and seeds",
    "stem": "What does the pollen tube do?",
    "options": [
-    "It carries the male cell to the ovule.",
+    "It carries ripe seeds out of the flower.",
     "It catches the pollen grains on the stigma.",
     "It carries sugary nectar to the visiting bees.",
-    "It carries ripe seeds out of the flower."
+    "It carries the male cell to the ovule."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "After pollen lands on the stigma it grows a thin tube down through the style to the ovary. The male cell travels down the tube to the ovule."
   },
   {
@@ -422,23 +422,23 @@
    "stem": "In winter, mustard flowers are pollinated while an animal collects nectar from them. Which one is it?",
    "options": [
     {
-     "text": "water buffalo",
-     "image": "openmoji/water-buffalo.svg"
+     "text": "honeybee",
+     "image": "openmoji/honeybee.svg"
     },
     {
      "text": "tropical fish",
      "image": "openmoji/tropical-fish.svg"
     },
     {
-     "text": "honeybee",
-     "image": "openmoji/honeybee.svg"
+     "text": "water buffalo",
+     "image": "openmoji/water-buffalo.svg"
     },
     {
      "text": "hedgehog",
      "image": "openmoji/hedgehog.svg"
     }
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Bees drink nectar, and sticky pollen rubs onto their hairy bodies. At the next flower some of it brushes off onto the stigma."
   },
   {
@@ -469,12 +469,12 @@
    "subskill": "Pollination",
    "stem": "Ayesha moves her bee boxes next to a mustard field. Why are the farmers pleased?",
    "options": [
-    "Bees pollinate the flowers, so the plants make more seeds.",
-    "Bees dig the soil so that all the seeds can germinate quickly.",
     "Bees keep insect pests away from every leaf and stem.",
+    "Bees dig the soil so that all the seeds can germinate quickly.",
+    "Bees pollinate the flowers, so the plants make more seeds.",
     "Bees give the plants water from their hives in summer."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "As bees visit flowers for nectar they carry pollen from one flower to the next. More pollination means more seeds, and more seeds mean more mustard oil."
   },
   {
@@ -487,11 +487,11 @@
    "stem": "Some farmers spray pesticides on mustard flowers. Why is it better to spray in the late evening?",
    "options": [
     "The flowers are closed so the spray cannot reach them.",
-    "The pesticide works better in the dark.",
     "The bees are back in their hives, so fewer are killed.",
+    "The pesticide works better in the dark.",
     "Bees only visit the field in the late evening."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Pesticide that kills pests can also kill bees. Spraying when the bees are in their hives protects the pollinators that help the crop."
   },
   {
@@ -514,12 +514,12 @@
    "subskill": "Seed dispersal",
    "stem": "In the Sundarbans, a mangrove tree drops its seedlings into the water. How do they reach new places?",
    "options": [
-    "The wind blows them like a parachute.",
+    "The water carries them away.",
     "They burst out of a dry pod.",
     "They stick to the tiger's fur.",
-    "The water carries them away."
+    "The wind blows them like a parachute."
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "Mangrove seedlings float, so tides and rivers can carry them to new mud banks where they take root."
   },
   {
@@ -570,11 +570,11 @@
    "stem": "After a walk through the long grass, Mina's socks are covered in tiny sticky seeds. How were the seeds being dispersed?",
    "options": [
     "The seeds float away on the water in the field.",
-    "Hooks on the seeds catch on animals and clothes.",
+    "The seeds are eaten by animals and dropped later.",
     "The seeds burst out of a dry pod with a loud bang.",
-    "The seeds are eaten by animals and dropped later."
+    "Hooks on the seeds catch on animals and clothes."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Burrs such as the seeds of chorkanta grass have tiny hooks that catch on fur and clothes. The animal carries the seed away from the parent plant."
   },
   {
@@ -586,12 +586,12 @@
    "subskill": "Plants, animals and data",
    "stem": "Class 5B dropped paper helicopters with different wing lengths three times each. Times in seconds: 4 cm wings: 1.2, 1.3, 1.1. 6 cm: 1.6, 1.5, 1.7. 8 cm: 2.0, 2.1, 1.9. 10 cm: 2.4, 1.5, 2.6. Which result does not fit the pattern?",
    "options": [
-    "4 cm wings, the third drop (1.1 s)",
-    "6 cm wings, the second drop (1.5 s)",
     "10 cm wings, second drop (1.5 s)",
+    "6 cm wings, the second drop (1.5 s)",
+    "4 cm wings, the third drop (1.1 s)",
     "8 cm wings, the first drop (2.0 s)"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Longer wings should fall more slowly, so the 10 cm helicopter should take more than 2.0 s. A time of 1.5 s is out of line, perhaps because it was dropped badly or the stopwatch was started late."
   },
   {
@@ -618,12 +618,12 @@
    "subskill": "Plants, animals and data",
    "stem": "Karim grew mustard in two fields of the same size, with the same seeds, soil and water. Field A (next to bee boxes) gave 180 kg of seed. Field B (no bees nearby) gave 150 kg. Which conclusion is best supported?",
    "options": [
-    "Bees probably helped Field A make more seed.",
-    "Field A must have had much richer soil than Field B.",
     "Bees make the mustard seeds grow taller and heavier.",
+    "Field A must have had much richer soil than Field B.",
+    "Bees probably helped Field A make more seed.",
     "Both fields made exactly the same amount of seed."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "The fields were the same except for the bees, so the extra 30 kg is probably because bees pollinated more flowers in Field A. More pollination means more fertilised ovules and more seeds."
   },
   {

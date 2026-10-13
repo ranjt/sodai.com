@@ -1,0 +1,698 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "B3",
+ "title": "Changing Landscapes",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-4-science/pdf/b3-changing-landscapes-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-b3-001",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weathering, erosion and deposition",
+   "stem": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "weathering",
+     "breaking rocks into small pieces"
+    ],
+    [
+     "erosion",
+     "carrying away soil and rock"
+    ],
+    [
+     "deposition",
+     "dropping mud and sand in a new place"
+    ],
+    [
+     "landslide",
+     "soil and rocks sliding down a hill"
+    ]
+   ],
+   "explanation": "Weathering breaks rocks up, erosion carries the pieces away, and deposition drops them somewhere new."
+  },
+  {
+   "id": "g4-b3-002",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Weathering, erosion and deposition",
+   "stem": "Sort these into water erosion and wind erosion.",
+   "categories": [
+    "Water erosion",
+    "Wind erosion"
+   ],
+   "items": [
+    [
+     "waves hitting a cliff",
+     "Water erosion"
+    ],
+    [
+     "sand blown onto a field",
+     "Wind erosion"
+    ],
+    [
+     "a river bank falling in",
+     "Water erosion"
+    ],
+    [
+     "sand dunes moving on a beach",
+     "Wind erosion"
+    ],
+    [
+     "rain washing soil off a hill",
+     "Water erosion"
+    ],
+    [
+     "dust storms in dry land",
+     "Wind erosion"
+    ]
+   ],
+   "explanation": "Moving water and moving air can both carry soil and sand away. Wind erosion is strongest where the land is dry and bare."
+  },
+  {
+   "id": "g4-b3-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Weathering, erosion and deposition",
+   "stem": "When moving water or wind carries away soil and rock, this is called ___.",
+   "blanks": [
+    [
+     "erosion"
+    ]
+   ],
+   "bank": [
+    "erosion",
+    "weathering",
+    "deposition",
+    "system"
+   ],
+   "explanation": "Erosion carries pieces of rock and soil away. Weathering breaks the rock first, and deposition drops the pieces in a new place."
+  },
+  {
+   "id": "g4-b3-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Rivers and land",
+   "stem": "Rivers only take land away; they never build new land.",
+   "answer": false,
+   "explanation": "Rivers drop mud and sand where the water slows down. Most of Bangladesh was built from mud carried by the Padma, Jamuna and Meghna rivers."
+  },
+  {
+   "id": "g4-b3-005",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Rivers and land",
+   "stem": "What is a char?",
+   "options": [
+    "a sand island that forms in a river",
+    "a tree that grows on a river bank",
+    "a long wall that holds back the sea",
+    "a boat that carries mud"
+   ],
+   "answer": 0,
+   "explanation": "A char is a sand island that appears in the middle of a river where sand and mud are dropped."
+  },
+  {
+   "id": "g4-b3-006",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Rivers and land",
+   "stem": "Where does a river flow fastest and wear away its bank on a bend?",
+   "options": [
+    "on the inside of the bend",
+    "on the outside of the bend",
+    "where the river meets the sea",
+    "in the shallow middle of the bend"
+   ],
+   "answer": 1,
+   "explanation": "On the outside of a bend the water flows fastest and wears the bank away. On the inside the water slows down and drops mud."
+  },
+  {
+   "id": "g4-b3-007",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Rivers and land",
+   "stem": "Put the steps in order to show how a river builds new land.",
+   "sequence": [
+    "Rain falls on the hills and flows into streams.",
+    "Fast-flowing water carries mud and sand down the river.",
+    "The river slows down near the sea.",
+    "The river drops the mud and sand and new land builds up."
+   ],
+   "explanation": "Fast water carries sediment. When the water slows down it can no longer carry it, so it drops the mud and sand."
+  },
+  {
+   "id": "g4-b3-008",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Slowing erosion",
+   "stem": "Which of these help to slow down erosion? Choose all that are right.",
+   "options": [
+    "planting trees and grass",
+    "cutting steps (terraces) into a hillside",
+    "placing geo-bags along a river bank",
+    "cutting down all the trees on a hillside",
+    "leaving soil bare and dry"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Roots hold soil, terraces slow the water running down a hill, and geo-bags protect a river bank. Cutting trees and leaving soil bare make erosion worse."
+  },
+  {
+   "id": "g4-b3-009",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Slowing erosion",
+   "stem": "Match each way of slowing erosion to how it works.",
+   "pairs": [
+    [
+     "plant trees and grass",
+     "roots hold the soil in place"
+    ],
+    [
+     "embankment",
+     "a raised wall keeps river or sea water back"
+    ],
+    [
+     "geo-bags",
+     "bags of sand placed along a river bank"
+    ],
+    [
+     "terraces",
+     "steps cut into a hill slow the water running down"
+    ],
+    [
+     "windbreak",
+     "a row of trees slows the wind near the ground"
+    ]
+   ],
+   "explanation": "Each solution works in a different way and has good points and problems."
+  },
+  {
+   "id": "g4-b3-010",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Slowing erosion",
+   "stem": "Which way of slowing erosion is quick to put in place along a river bank but can be washed away?",
+   "options": [
+    "terraces",
+    "windbreaks",
+    "geo-bags",
+    "a planted forest"
+   ],
+   "answer": 2,
+   "explanation": "Geo-bags are quick to place but a strong river can wash them away. Trees and terraces take longer to make."
+  },
+  {
+   "id": "g4-b3-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 2,
+   "bloom": "remember",
+   "subskill": "Systems",
+   "stem": "A system is a group of ___ that work together to do a job that no single part can do alone.",
+   "blanks": [
+    [
+     "parts",
+     "things",
+     "pieces"
+    ]
+   ],
+   "bank": [
+    "parts",
+    "rivers",
+    "islands",
+    "banks"
+   ],
+   "explanation": "A river is a system: rain, streams, the main river, its banks and the sea all work together to move water and mud."
+  },
+  {
+   "id": "g4-b3-012",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Systems",
+   "stem": "Why is a coastal defence made of mangroves, an embankment and sluice gates called a system?",
+   "options": [
+    "All the parts are made of exactly the same material.",
+    "It is very big and it is also very old.",
+    "Only one person builds all the different parts.",
+    "The parts work together to do a job."
+   ],
+   "answer": 3,
+   "explanation": "The mangroves slow the waves, the embankment holds back the water, and the gates let rain water out but keep the sea out. If one part fails, the whole system is weaker."
+  },
+  {
+   "id": "g4-b3-013",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Systems",
+   "stem": "If one part of a system stops working, the whole system is weaker.",
+   "answer": true,
+   "explanation": "The parts of a system depend on each other. If the sluice gates fail, for example, the embankment cannot keep the sea out."
+  },
+  {
+   "id": "g4-b3-014",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "analyse",
+   "subskill": "Weathering, erosion and deposition",
+   "stem": "Why is erosion worse on a hill where all the trees have been cut down?",
+   "model_answer": "With no roots to hold the soil and no leaves to slow the rain, the rain washes the soil straight down the hill, causing erosion and landslides.",
+   "keywords": [
+    [
+     "roots",
+     "root",
+     "hold",
+     "holds",
+     "leaves",
+     "trees",
+     "plants"
+    ],
+    [
+     "rain",
+     "water",
+     "washes",
+     "wash",
+     "washed"
+    ],
+    [
+     "soil",
+     "erosion",
+     "landslide",
+     "landslides",
+     "slides"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "Tree roots hold the soil and leaves slow the falling rain. Without them the rain washes the bare soil away."
+  },
+  {
+   "id": "g4-b3-015",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Wind and land",
+   "stem": "A row of trees or a fence that slows the wind is called a ___.",
+   "blanks": [
+    [
+     "windbreak",
+     "wind break"
+    ]
+   ],
+   "bank": [
+    "windbreak",
+    "embankment",
+    "terrace",
+    "landslide"
+   ],
+   "explanation": "A windbreak slows the wind near the ground, so less sand and soil is blown away. It protects fields and homes."
+  },
+  {
+   "id": "g4-b3-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Weathering, erosion and deposition",
+   "stem": "Where does the picture show new land forming where the river meets the sea?",
+   "image": "diagrams/river-landscape-numbered.svg",
+   "image_alt": "A river from hills to the sea with processes numbered.",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "Number 3 is deposition: the river slows down and drops mud and sand, building a delta. Number 2 is erosion and number 1 is weathering."
+  },
+  {
+   "id": "g4-b3-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Weathering, erosion and deposition",
+   "stem": "Look at the river picture. Match each number to what is happening.",
+   "image": "diagrams/river-landscape-numbered.svg",
+   "image_alt": "A river from hills to the sea with processes numbered.",
+   "pairs": [
+    [
+     "1",
+     "weathering: rock breaks up"
+    ],
+    [
+     "2",
+     "erosion: the river carries rock and soil"
+    ],
+    [
+     "3",
+     "deposition: a delta forms"
+    ],
+    [
+     "4",
+     "the sea"
+    ]
+   ],
+   "explanation": "Weathering breaks the rock, erosion carries the pieces away and deposition drops them in a new place."
+  },
+  {
+   "id": "g4-b3-018",
+   "mode": "picture",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Slowing erosion",
+   "stem": "Sort these pictures into things that can wear away land and things that help to protect it.",
+   "categories": [
+    "Can wear away land",
+    "Helps to protect land"
+   ],
+   "items": [
+    [
+     {
+      "text": "water wave",
+      "image": "openmoji/water-wave.svg"
+     },
+     "Can wear away land"
+    ],
+    [
+     {
+      "text": "palm tree",
+      "image": "openmoji/palm-tree.svg"
+     },
+     "Helps to protect land"
+    ],
+    [
+     {
+      "text": "flood",
+      "image": "openmoji/flood.svg"
+     },
+     "Can wear away land"
+    ],
+    [
+     {
+      "text": "evergreen tree",
+      "image": "openmoji/evergreen-tree.svg"
+     },
+     "Helps to protect land"
+    ],
+    [
+     {
+      "text": "strong wind",
+      "image": "openmoji/wind-face.svg"
+     },
+     "Can wear away land"
+    ],
+    [
+     {
+      "text": "seedling",
+      "image": "openmoji/seedling.svg"
+     },
+     "Helps to protect land"
+    ],
+    [
+     {
+      "text": "tornado",
+      "image": "openmoji/tornado.svg"
+     },
+     "Can wear away land"
+    ],
+    [
+     {
+      "text": "deciduous tree",
+      "image": "openmoji/deciduous-tree.svg"
+     },
+     "Helps to protect land"
+    ]
+   ],
+   "explanation": "Moving water and wind wear land away. Trees and plants protect it with their roots and leaves."
+  },
+  {
+   "id": "g4-b3-019",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Wind and land",
+   "stem": "Wind builds sand dunes along the coast, like at Cox's Bazar. Which picture shows a place where you might find sand dunes?",
+   "options": [
+    {
+     "text": "beach",
+     "image": "openmoji/beach.svg"
+    },
+    {
+     "text": "city",
+     "image": "openmoji/city.svg"
+    },
+    {
+     "text": "snow-capped mountain",
+     "image": "openmoji/snow-capped-mountain.svg"
+    },
+    {
+     "text": "house with garden",
+     "image": "openmoji/house-with-garden.svg"
+    }
+   ],
+   "answer": 0,
+   "explanation": "Wind blows dry sand into hills called dunes, along beaches. Mountains, cities and gardens do not have blowing sand dunes."
+  },
+  {
+   "id": "g4-b3-020",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Rivers and land",
+   "stem": "In the river picture, the river deposits (drops) mud and sand where its water slows down near the sea.",
+   "image": "diagrams/river-landscape-numbered.svg",
+   "image_alt": "A river from hills to the sea with processes numbered.",
+   "answer": true,
+   "explanation": "Slow water cannot carry much. It drops its mud and sand, which builds up new land such as a delta."
+  },
+  {
+   "id": "g4-b3-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Slowing erosion",
+   "stem": "Imran pours water on a pile of bare soil and on a pile of soil covered with grass. Which pile washes away faster, and why?",
+   "options": [
+    "The grass-covered soil, because the grass is heavy.",
+    "Both piles wash away at exactly the same speed.",
+    "The bare soil, because grass protects the soil.",
+    "Neither pile washes away at all, even after a lot of rain."
+   ],
+   "answer": 2,
+   "explanation": "Plants protect soil. The roots hold it and the leaves slow the water. This is why hillsides with no plants suffer landslides."
+  },
+  {
+   "id": "g4-b3-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Slowing erosion",
+   "stem": "Farmers want to grow crops on a steep hillside without the soil washing away. What could they build?",
+   "options": [
+    "a straight, very steep slope with no steps",
+    "a deep pond at the top of the hill",
+    "a windbreak of tall trees along the hill",
+    "terraces: steps cut into the hillside"
+   ],
+   "answer": 3,
+   "explanation": "Terraces slow the water running down a hill, so less soil is washed away. They are good for farming on hills but hard work to build."
+  },
+  {
+   "id": "g4-b3-023",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Wind and land",
+   "stem": "Joy's family has a farm near a beach. Sand blows onto the fields. Which would help? Choose all that are right.",
+   "options": [
+    "a row of trees as a windbreak",
+    "a fence along the edge of the field",
+    "keeping the soil covered or damp",
+    "leaving the field bare and dry",
+    "cutting down the trees around the field"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Windbreaks, fences and damp or covered soil slow the wind or keep the sand in place. Bare, dry soil and no trees would make it worse."
+  },
+  {
+   "id": "g4-b3-024",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Systems",
+   "stem": "A storm surge is coming. What would happen if the sluice gates in an embankment were left open?",
+   "options": [
+    "Rain water could never drain away.",
+    "Sea water would flow into the fields behind the embankment.",
+    "The embankment would grow taller.",
+    "The mangroves would stop all the water."
+   ],
+   "answer": 1,
+   "explanation": "Sluice gates let rain water out but must be closed to keep the sea out. If they are left open, sea water floods the fields and makes the soil salty."
+  },
+  {
+   "id": "g4-b3-025",
+   "mode": "real-life",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Rivers and land",
+   "stem": "A new char can be washed away by floods.",
+   "answer": true,
+   "explanation": "Chars are made of loose sand and mud. A family on a new char gets new land, but a flood can take it away again."
+  },
+  {
+   "id": "g4-b3-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Comparing solutions",
+   "stem": "Class 4B put 200 g of dry sand in each tray and blew air over it for 1 minute. Sand lost: tray A (nothing) 90 g, tray B (windbreak) 30 g, tray C (windbreak and damp sand) 5 g. Which conclusion is best supported?",
+   "options": [
+    "The windbreak made no difference to the sand lost.",
+    "A windbreak cut the sand lost by 60 g, and damp sand lost even less.",
+    "Damp sand lost more sand than dry sand.",
+    "Tray A kept the most sand."
+   ],
+   "answer": 1,
+   "explanation": "90 − 30 = 60 g less sand was lost with the windbreak. Tray C lost only 5 g, so damp sand with a windbreak lost the least."
+  },
+  {
+   "id": "g4-b3-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Comparing solutions",
+   "stem": "The land lost to the river at one village in five years (example data) was 12, 30, 8, 22 and 10 hectares. What was the total land lost?",
+   "options": [
+    "82 hectares",
+    "72 hectares",
+    "92 hectares",
+    "102 hectares"
+   ],
+   "answer": 0,
+   "explanation": "12 + 30 + 8 + 22 + 10 = 82 hectares. The two worst years (30 and 22) were the years with very big monsoon floods."
+  },
+  {
+   "id": "g4-b3-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Comparing solutions",
+   "stem": "Why might protecting one part of a river bank make erosion worse further along the river?",
+   "model_answer": "The water cannot wear away the protected bank, so it is pushed with more force against the next unprotected bank and erodes it faster.",
+   "keywords": [
+    [
+     "protected",
+     "protect",
+     "blocked",
+     "cannot wear",
+     "stronger",
+     "wall",
+     "geo-bags",
+     "concrete"
+    ],
+    [
+     "pushed",
+     "push",
+     "force",
+     "more",
+     "faster",
+     "harder",
+     "speed"
+    ],
+    [
+     "next",
+     "further",
+     "other",
+     "unprotected",
+     "downstream",
+     "elsewhere",
+     "somewhere else"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "The river still has the same energy. If one place is protected, the water may attack another place harder."
+  },
+  {
+   "id": "g4-b3-029",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Comparing solutions",
+   "stem": "A fast river is eating away a village bank. Geo-bags are quick and cheaper but can be washed away. Trees are cheap and natural but too slow to help now. Which plan is best?",
+   "options": [
+    "Only plant trees and wait years for them to grow.",
+    "Do nothing, because the river will always win.",
+    "Only use geo-bags and never plant anything else.",
+    "Geo-bags now, then grass and trees behind them."
+   ],
+   "answer": 3,
+   "explanation": "The best plan uses the strengths of both: geo-bags work quickly, and the roots of trees and grass give long-term protection."
+  },
+  {
+   "id": "g4-b3-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Comparing solutions",
+   "stem": "Class 4B tests two trays. Tray A has no windbreak and a fan blows for 1 minute. Tray B has a windbreak and the fan blows for 2 minutes. Why is this not a fair test?",
+   "options": [
+    "Both trays have the same amount of dry sand in them.",
+    "A fan was used instead of real wind outdoors.",
+    "The fan time is different as well as the windbreak.",
+    "Tray B has more than one stick in the windbreak."
+   ],
+   "answer": 2,
+   "explanation": "In a fair test only one thing changes (the windbreak). The fan time, speed, distance and amount of sand must stay the same."
+  }
+ ]
+}

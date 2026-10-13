@@ -16,11 +16,11 @@
    "stem": "Which of these would a magnet attract?",
    "options": [
     "a copper wire",
-    "an aluminium can",
     "an iron nail",
+    "an aluminium can",
     "a plastic ruler"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Iron, steel, nickel and cobalt are magnetic materials. Copper and aluminium are metals but are not magnetic, and plastic is not magnetic either."
   },
   {
@@ -225,12 +225,12 @@
    "subskill": "Magnet strength and Earth",
    "stem": "Why does a compass needle swing round to point north?",
    "options": [
-    "The Sun pulls the needle towards the north.",
     "Earth behaves like a giant magnet.",
+    "The Sun pulls the needle towards the north.",
     "The wind always blows the needle northwards.",
     "The north is the lightest direction to turn."
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "A compass needle is a small magnet. The Earth acts like a huge magnet, so the needle lines up with it and points north."
   },
   {
@@ -284,10 +284,10 @@
    "options": [
     "They will pull tightly together.",
     "They will stay exactly where they are.",
-    "They will lose their poles for a while.",
-    "They will push each other apart."
+    "They will push each other apart.",
+    "They will lose their poles for a while."
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Two like poles (N and N) repel. The magnets only attract when a north pole faces a south pole."
   },
   {
@@ -308,15 +308,15 @@
      "image": "openmoji/plastic-bottle.svg"
     },
     {
-     "text": "paper clip",
-     "image": "openmoji/paperclip.svg"
-    },
-    {
      "text": "glass bottle",
      "image": "openmoji/glass-bottle.svg"
+    },
+    {
+     "text": "paper clip",
+     "image": "openmoji/paperclip.svg"
     }
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "A steel paper clip contains iron, so a magnet attracts it. Wood, plastic and glass are not magnetic."
   },
   {
@@ -504,11 +504,11 @@
    "stem": "A fisher is far out on the Bay of Bengal on a cloudy night and cannot see the stars. How can a compass help?",
    "options": [
     "It shows how deep the water is below the boat.",
-    "It tells him where the fish are swimming.",
+    "It shows which way is north.",
     "It warns him when a cyclone is coming.",
-    "It shows which way is north."
+    "It tells him where the fish are swimming."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "The magnetic needle always swings to point north, so the fisher can work out which way to travel even when he cannot see landmarks."
   },
   {
@@ -532,11 +532,11 @@
    "stem": "Tuli's electromagnet lifts only 4 paper clips, but she wants it to lift 10. What should she change?",
    "options": [
     "Take one cell away.",
-    "Wrap more coils of wire round the nail.",
     "Swap the iron nail for a long wooden stick.",
+    "Wrap more coils of wire round the nail.",
     "Let the wire hang loosely off the nail."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "More coils make the electromagnet stronger. Fewer cells, a wooden core or a loose wire would make it weaker."
   },
   {
@@ -574,11 +574,11 @@
    },
    "options": [
     "The poles stay exactly where they were.",
-    "The magnet disappears.",
     "The north and south poles swap ends.",
+    "The magnet disappears.",
     "Both ends become north poles."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Reversing the battery reverses the direction of the electricity, so the north and south poles swap. You can see it from the compass needle turning round."
   },
   {
@@ -595,11 +595,11 @@
    },
    "options": [
     "It stays pointing in exactly the same way.",
-    "It flips round to point the other way.",
     "It spins round and round for ever.",
+    "It flips round to point the other way.",
     "It disappears."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "The compass needle is a small magnet that lines up with the magnetic field. Flipping the bar magnet flips the field, so the needle turns round."
   },
   {
@@ -627,11 +627,11 @@
    "stem": "Class 4B counted how many sheets of paper each magnet could pull a paper clip through (mean of 3 tries): bar magnet 13, horseshoe magnet 18, fridge magnet 3, small round magnet 21. Which statement does the data support?",
    "options": [
     "The biggest magnet was the strongest.",
-    "The small round magnet was the strongest.",
+    "The horseshoe magnet was the strongest of the four.",
     "The fridge magnet was stronger than the bar magnet.",
-    "The horseshoe magnet was the strongest of the four."
+    "The small round magnet was the strongest."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "The small round magnet held the clip through the most sheets (21), so it was the strongest. The data do not show that bigger magnets are stronger."
   },
   {
@@ -693,10 +693,10 @@
    "options": [
     "a plain iron bar",
     "an aluminium bar",
-    "a magnet",
-    "a copper bar"
+    "a copper bar",
+    "a magnet"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "Plain iron is attracted at both ends but is never pushed away. Only a magnet can repel another magnet's pole, so the bar is a magnet."
   }
  ]

@@ -113,19 +113,19 @@
    "stem": "Which part of us hears sounds?",
    "options": [
     {
-     "text": "eye",
-     "image": "openmoji/eye.svg"
-    },
-    {
      "text": "ear",
      "image": "openmoji/ear.svg"
+    },
+    {
+     "text": "eye",
+     "image": "openmoji/eye.svg"
     },
     {
      "text": "hand",
      "image": "openmoji/hand.svg"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "We hear sounds with our ears. Eyes are for seeing."
   },
@@ -197,19 +197,19 @@
    "stem": "Babu is in the dark. What gives him light?",
    "options": [
     {
-     "text": "torch",
-     "image": "openmoji/flashlight.svg"
+     "text": "ball",
+     "image": "openmoji/football.svg"
     },
     {
      "text": "teddy bear",
      "image": "openmoji/teddy-bear.svg"
     },
     {
-     "text": "ball",
-     "image": "openmoji/football.svg"
+     "text": "torch",
+     "image": "openmoji/flashlight.svg"
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "A torch gives out light, so Babu can see. A teddy bear and a ball give no light."
   },
@@ -226,13 +226,13 @@
      "text": "Louder"
     },
     {
-     "text": "The same"
+     "text": "Quieter"
     },
     {
-     "text": "Quieter"
+     "text": "The same"
     }
    ],
-   "answer": 2,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "The farther we are from a sound, the quieter it is."
   },
@@ -320,16 +320,16 @@
    "image_alt": "A flute.",
    "options": [
     {
-     "text": "hit"
+     "text": "blow"
     },
     {
-     "text": "blow"
+     "text": "hit"
     },
     {
      "text": "shake"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "We blow into a flute. We hit a drum and shake a shaker."
   },
@@ -343,19 +343,19 @@
    "stem": "Which one makes a sound when we shake it?",
    "options": [
     {
-     "text": "shaker",
-     "image": "openmoji/maracas.svg"
+     "text": "torch",
+     "image": "openmoji/flashlight.svg"
     },
     {
      "text": "candle",
      "image": "openmoji/candle.svg"
     },
     {
-     "text": "torch",
-     "image": "openmoji/flashlight.svg"
+     "text": "shaker",
+     "image": "openmoji/maracas.svg"
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "A shaker makes a sound when we shake it. A candle and a torch do not."
   },
@@ -442,13 +442,13 @@
      "text": "rice"
     },
     {
-     "text": "dal"
+     "text": "stones"
     },
     {
-     "text": "stones"
+     "text": "dal"
     }
    ],
-   "answer": 2,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "Count the boxes. Stones have 8, which is more than 5 or 3, so stones were loudest."
   },
@@ -465,13 +465,13 @@
      "text": "Walk away"
     },
     {
-     "text": "Walk closer"
+     "text": "Cover his ears"
     },
     {
-     "text": "Cover his ears"
+     "text": "Walk closer"
     }
    ],
-   "answer": 1,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "A sound is louder when we are closer to it. Walking away makes it quieter."
   },

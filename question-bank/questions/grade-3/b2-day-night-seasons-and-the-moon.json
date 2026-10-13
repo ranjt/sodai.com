@@ -15,12 +15,12 @@
    "subskill": "Day and night",
    "stem": "Why do we have day and night?",
    "options": [
-    "The Earth spins.",
     "The Sun goes around the Earth.",
+    "The Earth spins.",
     "Clouds cover the Sun.",
     "The Moon pushes the Sun away."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "The Earth spins (rotates) once every 24 hours. The side facing the Sun has day and the side facing away has night. The Sun does not really move around us."
   },
   {
@@ -283,10 +283,10 @@
    "options": [
     "early in the morning",
     "in the evening",
-    "at midday",
-    "at midnight"
+    "at midnight",
+    "at midday"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "At midday the Sun is at its highest, so the shadow is shortest. When the Sun is low in the morning and evening the shadow is long."
   },
   {
@@ -301,11 +301,11 @@
    "image_alt": "The Sun lighting one half of the spinning Earth: day on the side facing the Sun and night on the other side.",
    "options": [
     "the side facing away from the Sun",
-    "the side facing the Sun",
     "the whole Earth at once",
+    "the side facing the Sun",
     "only the North Pole"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "The Sun lights the side of the Earth that faces it, so that side has day. The side facing away is in the dark, so it has night."
   },
   {
@@ -399,11 +399,11 @@
    "stem": "Rafi's father is a fisher on the coast. Why does he watch the Moon?",
    "options": [
     "The Moon heats the sea.",
-    "The Moon affects the tides.",
+    "The Moon makes the wind blow.",
     "The Moon calls the fish.",
-    "The Moon makes the wind blow."
+    "The Moon affects the tides."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "The Moon's pull makes the tides rise and fall. At full moon and new moon the tides are very high and very low, so fishers plan when to go out and come in."
   },
   {
@@ -416,11 +416,11 @@
    "stem": "Families look for the thin new crescent moon. What does it tell them?",
    "options": [
     "The Moon has stopped moving.",
-    "The tide has turned.",
+    "A new Islamic month has begun.",
     "The year has ended.",
-    "A new Islamic month has begun."
+    "The tide has turned."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "The Islamic months begin when the new crescent moon is seen, so it also tells people when Eid will be celebrated."
   },
   {

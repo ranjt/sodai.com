@@ -528,13 +528,13 @@
      "text": "Yes, the switch fixes it."
     },
     {
-     "text": "No, it still has a gap."
+     "text": "Yes, but it is dim."
     },
     {
-     "text": "Yes, but it is dim."
+     "text": "No, it still has a gap."
     }
    ],
-   "answer": 1,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "The missing wire leaves a gap, so closing the switch does not help."
   },

@@ -308,10 +308,10 @@
    "options": [
     "grass",
     "grasshopper",
-    "frog",
-    "snake"
+    "snake",
+    "frog"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "The snake eats the frog and is not eaten by anything else in this chain, so it is the top predator. The grass is the producer."
   },
   {
@@ -369,12 +369,12 @@
    "image": "diagrams/mangrove.svg",
    "image_alt": "A mangrove tree with breathing roots and prop roots standing in salty mud and salty water.",
    "options": [
-    "to take in air",
+    "to make seeds for the tree",
     "to find the tiger's footprints",
     "to collect fresh water from the rain",
-    "to make seeds for the tree"
+    "to take in air"
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Mangrove mud is salty and has little air. The special breathing roots stick up above the mud so that the tree can breathe."
   },
   {
@@ -445,12 +445,12 @@
    "subskill": "Food chains and food webs",
    "stem": "A factory pours chemicals into a pond and kills all the algae. In the chain algae → shrimp → fish → kingfisher, which animals lose their food first?",
    "options": [
-    "the kingfishers, because they are at the top",
-    "the tigers, because they are the largest",
     "the shrimp",
+    "the tigers, because they are the largest",
+    "the kingfishers, because they are at the top",
     "the earthworms, because they live in the soil"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "The shrimp eat the algae, so they run short of food first. The fish and kingfishers are affected next as the loss passes along the food chain."
   },
   {
@@ -463,11 +463,11 @@
    "stem": "In 2014 an oil tanker spilled heavy oil in the Shela River inside the Sundarbans. Why could this harm the whole food web?",
    "options": [
     "Oil makes all of the mangrove trees grow far too quickly.",
-    "Producers are harmed, so their consumers lose food.",
     "Oil attracts many more tigers to the river banks to drink.",
+    "Producers are harmed, so their consumers lose food.",
     "Oil turns all of the river water into very salty water."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "The oil coated mud, roots and animals. When producers are damaged, the animals that depend on them lose food, and the harm passes along the web."
   },
   {
@@ -548,12 +548,12 @@
    "subskill": "Learning from nature",
    "stem": "A school classroom roof gets very hot in summer. Which idea copies nature to help?",
    "options": [
-    "Add tall air vents like a termite mound has.",
     "Paint the roof black so it looks like a tiger.",
+    "Add tall air vents like a termite mound has.",
     "Cover the roof with thin sheets of foil.",
     "Add more electric heaters under the roof."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Termite mounds have air channels that keep the nest cool. Tall vents let hot air escape in the same way, without needing electricity."
   },
   {
@@ -571,10 +571,10 @@
    "options": [
     "the ones whose fur is easiest to see against the background",
     "the ones with the longest ears and biggest teeth",
-    "the ones whose fur is hard to see against the background",
-    "none, because wolves catch all of the bunnies equally"
+    "none, because wolves catch all of the bunnies equally",
+    "the ones whose fur is hard to see against the background"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "Wolves find it harder to spot bunnies whose fur matches the background. Those bunnies survive and have babies, so that fur colour becomes more common over the generations."
   },
   {
@@ -618,12 +618,12 @@
    "subskill": "Comparing habitats with data",
    "stem": "Imran throws his quadrat only onto the flowery patches of the football field. Why is this a poor way to compare the two habitats?",
    "options": [
-    "The quadrat is far too big to fit round the flowers.",
+    "He is not sampling at random, so it is unfair.",
     "Flowers are not counted as living things in a quadrat.",
     "He should have counted only the animals he could see.",
-    "He is not sampling at random, so it is unfair."
+    "The quadrat is far too big to fit round the flowers."
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "Throwing the quadrat at random stops you choosing only the interesting spots. Choosing flowery patches would make the field look richer than it really is."
   },
   {
@@ -674,12 +674,12 @@
    "subskill": "Food chains and food webs",
    "stem": "In a pond, algae are eaten by water fleas and tadpoles. Small fish eat both. Herons eat the small fish. A disease kills most of the small fish. What would you expect to happen first?",
    "options": [
-    "Herons have less food, and water fleas and tadpoles increase.",
     "The algae die out and the number of herons grows quickly.",
+    "Herons have less food, and water fleas and tadpoles increase.",
     "The tadpoles have less food and become fewer in number.",
     "Nothing changes at all, because herons eat many different foods."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Fewer small fish means less food for herons. The water fleas and tadpoles are eaten less, so for a while their numbers rise. Everything in a food web is linked."
   }
  ]

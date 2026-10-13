@@ -97,11 +97,11 @@
    "stem": "Heat from the Sun reaches the Earth through empty space. How does it travel?",
    "options": [
     "by conduction",
-    "by convection",
     "by radiation",
+    "by convection",
     "by evaporation"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "Radiation does not need particles, so infrared rays can cross empty space. Conduction and convection need particles."
   },
   {
@@ -266,12 +266,12 @@
    "subskill": "Heat and temperature",
    "stem": "In which direction does heat move?",
    "options": [
-    "from colder things to hotter things",
+    "from hotter things to colder things",
     "only through metals",
     "only upwards",
-    "from hotter things to colder things"
+    "from colder things to hotter things"
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "Heat is energy that moves because of a temperature difference, from hot to cold, until the temperatures are the same."
   },
   {
@@ -350,11 +350,11 @@
    "image_alt": "Three pictures lettered A, B and C: a spoon in a hot drink, a pot of water over a flame with arrows, and the Sun warming a hand.",
    "options": [
     "It becomes heavier than the cool water.",
-    "It expands and becomes less dense.",
     "It is pushed up by the spoon.",
+    "It expands and becomes less dense.",
     "It turns into the flame."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Warm water expands, so it is less dense than the cooler water around it and floats upwards. Cooler, denser water sinks to take its place."
   },
   {
@@ -406,12 +406,12 @@
    "image": "diagrams/insulation-cups.svg",
    "image_alt": "Four cups of hot water: no cover, newspaper, wool and foil.",
    "options": [
-    "the cup wrapped in newspaper",
-    "the cup wrapped in wool",
     "the cup with no cover",
+    "the cup wrapped in wool",
+    "the cup wrapped in newspaper",
     "the cup wrapped in foil"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Without a cover there is nothing to slow the heat loss. Newspaper and wool are insulators, and foil reflects radiation."
   },
   {
@@ -424,11 +424,11 @@
    "stem": "Where should a room heater be placed to warm the whole room best?",
    "options": [
     "near the ceiling",
-    "near the floor",
+    "right next to the door",
     "inside a cupboard",
-    "right next to the door"
+    "near the floor"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Warm air rises, so a low heater sets up a convection current: warm air goes up and cooler air sinks to be warmed."
   },
   {
@@ -442,10 +442,10 @@
    "options": [
     "a black cotton shirt",
     "a dark blue woollen shirt",
-    "a dark nylon shirt",
-    "a light-coloured cotton shirt"
+    "a light-coloured cotton shirt",
+    "a dark nylon shirt"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Light colours reflect more of the Sun’s radiation and absorb less heat, so they stay cooler than dark clothes."
   },
   {
@@ -526,12 +526,12 @@
     "task": "Open Energy Forms and Changes and choose the Intro screen. Heat the iron block with a burner, then move it so that it touches the cooler brick block. Watch both thermometers."
    },
    "options": [
-    "The iron cools down and the brick warms up.",
     "Both stay exactly the same.",
+    "The iron cools down and the brick warms up.",
     "The iron gets hotter and the brick colder.",
     "The brick cools down and the iron warms up."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Heat flows from the hotter object to the colder one by conduction, until they reach about the same temperature."
   },
   {
@@ -655,10 +655,10 @@
    "options": [
     "Hot things always hold more heat than cooler things.",
     "Temperature and heat are two names for the same thing.",
-    "A bucket of warm water holds more heat than a cup of boiling water.",
-    "A thermometer measures how much heat an object holds."
+    "A thermometer measures how much heat an object holds.",
+    "A bucket of warm water holds more heat than a cup of boiling water."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "Temperature is how hot something is. Heat depends on temperature and on how much material there is, so a large bucket can hold more heat than a small cup."
   }
  ]

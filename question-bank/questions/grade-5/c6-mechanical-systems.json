@@ -16,11 +16,11 @@
    "stem": "Simple machines help us by changing…",
    "options": [
     "the mass of the load that is lifted",
-    "the size or the direction of a force",
     "the amount of material in the machine",
+    "the size or the direction of a force",
     "the gravity pulling on the load"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "A machine can make a force smaller, bigger or point a different way. It does not change the load’s mass or the pull of gravity."
   },
   {
@@ -157,12 +157,12 @@
    "subskill": "Levers and the pivot",
    "stem": "The dheki is a long beam on a pivot. A person presses one end with a foot and the other end lifts, then drops onto the rice. Which simple machine is the dheki?",
    "options": [
-    "a pulley",
     "a lever",
+    "a pulley",
     "a wedge",
     "a screw"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "The beam turns on a pivot, so the dheki is a lever. The heavy head at the far end does the husking."
   },
   {
@@ -356,12 +356,12 @@
    "image": "diagrams/pulley-gears.svg",
    "image_alt": "A pulley lifting a bucket from a well, and two gears turning each other.",
    "options": [
-    "It changes the direction of the force.",
     "It makes the bucket lighter.",
+    "It changes the direction of the force.",
     "It removes all the friction.",
     "It makes the rope stronger."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "A fixed pulley does not make the load lighter. It lets you pull down, which is easier than pulling up, to lift the bucket."
   },
   {
@@ -392,12 +392,12 @@
    "subskill": "Ramps, wedges and screws",
    "stem": "Raju must load a heavy rice sack onto a truck. What is the safest and easiest way?",
    "options": [
-    "lift it straight up in one go",
+    "slide it up a long plank used as a ramp",
     "throw it up from the ground",
     "roll it up a short, very steep plank",
-    "slide it up a long plank used as a ramp"
+    "lift it straight up in one go"
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "A long, gentle ramp needs a smaller force. A short, steep plank needs more force and is unsafe."
   },
   {
@@ -409,12 +409,12 @@
    "subskill": "Levers and the pivot",
    "stem": "Moung must lift a heavy stone with a crowbar. Where should he push down to need the least force?",
    "options": [
-    "at the far end of the bar",
-    "close to the pivot",
     "on the stone itself",
+    "close to the pivot",
+    "at the far end of the bar",
     "in the middle of the bar"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "The further the effort is from the pivot, the less force is needed. That is why crowbars are long."
   },
   {
@@ -460,11 +460,11 @@
    "stem": "A rickshaw puller finds it very hard to go up a bridge with three passengers. Which change in the rickshaw system would help most?",
    "options": [
     "using a higher gear to pedal faster",
-    "squeezing the brakes while pedalling",
     "using a lower gear",
+    "squeezing the brakes while pedalling",
     "taking the chain off the gears"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "A lower gear means a smaller force on the pedals for each turn. Brakes use friction against the movement, and no chain means no drive to the wheels."
   },
   {
@@ -496,11 +496,11 @@
    },
    "options": [
     "closer to the pivot than the stack",
-    "further from the pivot than the stack",
+    "anywhere on the plank",
     "exactly the same distance as the stack",
-    "anywhere on the plank"
+    "further from the pivot than the stack"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "A lighter load further from the pivot can balance a heavier load closer to it. The same idea explains why a long crowbar helps."
   },
   {
@@ -582,12 +582,12 @@
    "subskill": "Levers and the pivot",
    "stem": "Example: a 4 kg bag hangs 1 m to the left of the pivot of a plank. A 2 kg bag hangs on the right. Where must it hang to balance the plank?",
    "options": [
-    "2 m from the pivot",
+    "4 m from the pivot",
     "0.5 m from the pivot",
     "1 m from the pivot",
-    "4 m from the pivot"
+    "2 m from the pivot"
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Half the mass must be twice as far from the pivot: 4 kg × 1 m = 2 kg × 2 m. A 1 m position would make the left side win."
   },
   {
@@ -599,12 +599,12 @@
    "subskill": "Ramps, wedges and screws",
    "stem": "A car jack lifts a heavy car when you turn its handle many times. Which simple machine does it use and why?",
    "options": [
-    "a pulley, a rope round a wheel, so many turns make the car much lighter",
-    "a wedge, a sharp edge, so many pushes split the car from the ground",
     "a screw, a ramp wrapped round a rod, so many turns make a long path with a small force",
+    "a wedge, a sharp edge, so many pushes split the car from the ground",
+    "a pulley, a rope round a wheel, so many turns make the car much lighter",
     "a lever, a handle on a pivot, so each turn gives one big push"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "A screw is a ramp wrapped around a rod. The long path of many turns means each turn needs only a small force."
   },
   {

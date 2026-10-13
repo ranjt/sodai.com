@@ -59,19 +59,19 @@
    "image_alt": "An ice cube.",
    "options": [
     {
-     "text": "water",
-     "image": "openmoji/droplet.svg"
+     "text": "snow",
+     "image": "openmoji/snowflake.svg"
     },
     {
      "text": "a rock",
      "image": "openmoji/rock.svg"
     },
     {
-     "text": "snow",
-     "image": "openmoji/snowflake.svg"
+     "text": "water",
+     "image": "openmoji/droplet.svg"
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "read_aloud": true,
    "explanation": "Heat melts ice into water."
   },
@@ -89,15 +89,15 @@
      "image": "openmoji/rock.svg"
     },
     {
-     "text": "a metal coin",
-     "image": "openmoji/coin.svg"
-    },
-    {
      "text": "ice cream",
      "image": "openmoji/ice-cream.svg"
+    },
+    {
+     "text": "a metal coin",
+     "image": "openmoji/coin.svg"
     }
    ],
-   "answer": 2,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "Ice cream melts when it gets warm. A rock and a coin do not melt in the sun."
   },
@@ -363,19 +363,19 @@
    "image_alt": "A hot drink with steam.",
    "options": [
     {
-     "text": "ice cubes",
-     "image": "openmoji/ice-cube.svg"
-    },
-    {
      "text": "water drops",
      "image": "openmoji/droplet.svg"
+    },
+    {
+     "text": "ice cubes",
+     "image": "openmoji/ice-cube.svg"
     },
     {
      "text": "black smoke",
      "image": "openmoji/factory-smoke.svg"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "Steam turns back into water drops when it cools."
   },
@@ -523,16 +523,16 @@
    "stem": "Melting times: sun 10 minutes, classroom 25, fridge 60. Where did ice melt fastest?",
    "options": [
     {
-     "text": "in the sun"
+     "text": "in the fridge"
     },
     {
-     "text": "in the fridge"
+     "text": "in the sun"
     },
     {
      "text": "in the classroom"
     }
    ],
-   "answer": 0,
+   "answer": 1,
    "read_aloud": true,
    "explanation": "The shortest time was in the sun, 10 minutes, so ice melted fastest there."
   },
@@ -572,16 +572,16 @@
    "stem": "Is it a fair test to use ice cubes of different sizes?",
    "options": [
     {
-     "text": "Yes, any size will work."
+     "text": "No, same size is needed."
     },
     {
-     "text": "No, same size is needed."
+     "text": "Yes, any size will work."
     },
     {
      "text": "Yes, ice never melts."
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "read_aloud": true,
    "explanation": "Big ice cubes take longer to melt. For a fair test the ice cubes must be the same size."
   },

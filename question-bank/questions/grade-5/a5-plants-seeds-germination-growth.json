@@ -15,12 +15,12 @@
    "subskill": "Parts of a seed",
    "stem": "What is the job of the food store inside a seed?",
    "options": [
-    "It protects the seed from damage and drying out.",
-    "It catches light energy for the seed to use.",
     "It gives the embryo its energy.",
+    "It catches light energy for the seed to use.",
+    "It protects the seed from damage and drying out.",
     "It takes in water from the soil for the seed."
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "The embryo has no leaves yet, so it cannot make food. The food store gives it energy until the leaves grow. The seed coat is the part that protects the seed."
   },
   {
@@ -165,12 +165,12 @@
    "subskill": "Plants and light",
    "stem": "Which green substance in leaves traps light energy?",
    "options": [
-    "chlorophyll",
     "nutrients",
+    "chlorophyll",
     "the embryo",
     "the food store"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Chlorophyll traps light energy so that the leaf can make food. Nutrients are minerals taken in from the soil."
   },
   {
@@ -240,11 +240,11 @@
    "stem": "Where do plants make their food?",
    "options": [
     "in their roots and stem",
-    "in their leaves",
     "in the soil around them",
+    "in their leaves",
     "in their seeds and fruits"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Plants make food in their leaves, using light energy. The roots take in water and nutrients from the soil, but the soil is not their food."
   },
   {
@@ -333,10 +333,10 @@
    "options": [
     "water",
     "warmth",
-    "light",
-    "air"
+    "air",
+    "light"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "A plant without light cannot make food. It grows tall and thin, with pale leaves, as it stretches to look for light."
   },
   {
@@ -350,12 +350,12 @@
    "image": "diagrams/plant-needs.svg",
    "image_alt": "Four potted plants: a healthy plant, a wilted plant with no water, a tall pale plant with no light and a very small plant that is too cold.",
    "options": [
-    "warmth",
-    "light",
     "water",
+    "light",
+    "warmth",
     "a food store"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "A plant that is too cold grows very slowly, so it stays small. A plant without water would droop, and one without light would be tall and pale."
   },
   {
@@ -442,11 +442,11 @@
    "stem": "A farmer plants rice seeds in a field covered by flood water. Few seeds germinate. Why?",
    "options": [
     "The flood water blocks light that the seeds need.",
-    "The seeds need dry soil to absorb water.",
+    "They cannot get enough air under the flood water.",
     "Flood water is far too bright for seeds.",
-    "They cannot get enough air under the flood water."
+    "The seeds need dry soil to absorb water."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "Seeds need air (oxygen) as well as water to germinate. Under deep flood water they cannot get enough air and may rot. Seeds do not need light to germinate."
   },
   {
@@ -458,12 +458,12 @@
    "subskill": "Germination",
    "stem": "Rice farmers in Bangladesh first grow seeds in a small, wet seedbed. Why is the wet soil important?",
    "options": [
-    "The seeds need water to germinate.",
+    "The seeds need to stay in the dark.",
     "The seeds need the Sun to be hot.",
     "The seeds need less air.",
-    "The seeds need to stay in the dark."
+    "The seeds need water to germinate."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Germination begins when a seed absorbs water and swells. A warm, wet seedbed gives the seeds what they need."
   },
   {
@@ -543,12 +543,12 @@
    "subskill": "Fair tests and data",
    "stem": "Class 5A put 20 cress seeds in each dish. Dish 1: warm, wet, in the light. Dish 2: warm, wet, in the dark. Dish 3: cold, wet, in the dark. Dish 4: warm, dry, in the light. Which two dishes should they compare to find out if seeds need warmth?",
    "options": [
-    "Dish 2 and Dish 3",
     "Dish 1 and Dish 2",
+    "Dish 2 and Dish 3",
     "Dish 1 and Dish 4",
     "Dish 3 and Dish 4"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Dishes 2 and 3 differ in only one thing: temperature. Dishes 1 and 2 test light, and Dishes 1 and 4 test water. Dishes 3 and 4 differ in several ways, so they would not be a fair comparison."
   },
   {
@@ -576,12 +576,12 @@
    "subskill": "Plants and light",
    "stem": "Plant B (in the dark cupboard) went from 5 leaves in week 4 to 4 leaves in week 5. What is the best explanation?",
    "options": [
-    "The plant grew a new leaf and lost two.",
     "Without light it could not make food.",
+    "The plant grew a new leaf and lost two.",
     "Plants in the dark need a lot more water.",
     "The seed's food store had been used up."
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "A plant with leaves needs light to make food. In the dark it weakens, its leaves turn yellow and some fall off. The food store belongs to the seed, which is long gone."
   },
   {

@@ -16,11 +16,11 @@
    "stem": "A simple machine is a tool that…",
    "options": [
     "needs a motor to work",
-    "has hundreds of moving parts",
     "makes work easier",
+    "has hundreds of moving parts",
     "always uses electricity"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "A simple machine has few or no moving parts and makes work easier. It can let us use less force, change the direction of a force, or move something further or faster."
   },
   {
@@ -160,12 +160,12 @@
    "subskill": "Levers: fulcrum, effort, load",
    "stem": "Why is it easier to open a tin lid with a long spoon than with a coin?",
    "options": [
-    "The effort is further from the fulcrum, so less force is needed.",
-    "The spoon is made of a different metal, so the lid is lighter.",
     "The spoon is heavier, so the lid feels lighter to open.",
+    "The spoon is made of a different metal, so the lid is lighter.",
+    "The effort is further from the fulcrum, so less force is needed.",
     "A coin has sharp edges, so it cannot touch the lid."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "The longer the handle, the further your push is from the fulcrum, and the less force you need. The lid does not get lighter."
   },
   {
@@ -329,10 +329,10 @@
    "options": [
     "The ramp needs more force than lifting.",
     "The ramp makes the box lighter.",
-    "The ramp needs less force but a longer path.",
-    "The ramp needs the same force but is shorter."
+    "The ramp needs the same force but is shorter.",
+    "The ramp needs less force but a longer path."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "The ramp lets you use less force (4 N instead of 10 N), but the box travels a longer way."
   },
   {
@@ -402,12 +402,12 @@
    "subskill": "Ramps",
    "stem": "Nadia must put a heavy sack of rice onto a truck. Which way needs the least force?",
    "options": [
-    "Lift it straight up by hand.",
+    "Push it up a long, gentle ramp.",
     "Push it up a short, steep ramp.",
     "Throw it onto the truck.",
-    "Push it up a long, gentle ramp."
+    "Lift it straight up by hand."
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "A long, gentle ramp needs the least force. A short, steep ramp is hard work, and lifting straight up needs the most force."
   },
   {
@@ -420,11 +420,11 @@
    "stem": "In many villages women husk rice with a long wooden dheki, which turns on a pivot. What kind of simple machine is a dheki?",
    "options": [
     "a pulley",
-    "a lever",
     "a ramp",
+    "a lever",
     "a gear"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "A dheki is a long beam that turns on a pivot. One end is stepped on and the other end lifts and thumps down, so it is a lever."
   },
   {
@@ -494,11 +494,11 @@
    },
    "options": [
     "The right side, where the brick is closer to the pivot.",
-    "The left side, where the brick is further from the pivot.",
+    "Both sides go down together.",
     "Neither side, because the bricks weigh the same.",
-    "Both sides go down together."
+    "The left side, where the brick is further from the pivot."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "The two bricks weigh the same, but the one further from the pivot has a bigger turning effect, so the plank tips on that side."
   },
   {
@@ -525,12 +525,12 @@
    "subskill": "Investigating ramps",
    "stem": "Class 3C pulled a toy truck up ramps with a forcemeter. Force needed: 10 cm ramp 3 N, 20 cm ramp 5 N, 30 cm ramp 7 N, lifting straight up 10 N. Which statement is correct?",
    "options": [
-    "The 30 cm ramp needed 3 N less than lifting straight up.",
     "The 10 cm ramp needed 7 N.",
+    "The 30 cm ramp needed 3 N less than lifting straight up.",
     "The 20 cm ramp needed more force than the 30 cm ramp.",
     "Lifting straight up needed the least force."
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "10 N minus 7 N is 3 N. The lower the ramp, the less force is needed: 3 N, 5 N, 7 N and then 10 N for lifting straight up."
   },
   {
@@ -544,10 +544,10 @@
    "options": [
     "closer to the middle than Rafi",
     "the same distance from the middle as Rafi",
-    "further from the middle than Rafi",
-    "on the same side as Rafi"
+    "on the same side as Rafi",
+    "further from the middle than Rafi"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "A lighter person further from the pivot can balance a heavier person who sits closer to it."
   },
   {

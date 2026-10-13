@@ -96,12 +96,12 @@
    "subskill": "Model of current",
    "stem": "In the model of electric current, tiny particles in the wires…",
    "options": [
-    "stay still inside the cell",
     "flow round the whole circuit",
+    "stay still inside the cell",
     "are all used up by the lamp",
     "fly out of the wires into the air"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "In the model, the cell pushes the particles and they flow all the way round the loop, like children in a ring passing a ball. They are not used up."
   },
   {
@@ -262,11 +262,11 @@
    "image": "diagrams/circuit-closed.svg",
    "image_alt": "A circuit with a cell, a lamp and a closed switch.",
    "options": [
-    "It will light up.",
+    "It will make a sound.",
     "It will stay dark.",
-    "It will make a sound."
+    "It will light up."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "The cell, wires, lamp and closed switch make a complete loop, so electricity flows and the lamp lights."
   },
   {
@@ -282,10 +282,10 @@
    "options": [
     "The lamp has been put in the circuit the wrong way round.",
     "There are too many wires in the circuit.",
-    "The open switch makes a gap in the loop.",
-    "The wires in the circuit are too short."
+    "The wires in the circuit are too short.",
+    "The open switch makes a gap in the loop."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "An open switch is a gap in the circuit. Electricity cannot flow across the gap, so the lamp stays off."
   },
   {
@@ -319,11 +319,11 @@
    "image_alt": "Bar magnets: north facing south attract; north facing north repel.",
    "options": [
     "They attract: they pull together.",
-    "They stick and cannot be moved.",
+    "They repel: they push apart.",
     "Nothing happens.",
-    "They repel: they push apart."
+    "They stick and cannot be moved."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "Two poles that are the same repel each other. Different poles attract."
   },
   {
@@ -409,10 +409,10 @@
    "options": [
     "Push it back into the socket with a pencil.",
     "Pull it out of the socket with wet hands.",
-    "Do not touch it and tell an adult.",
-    "Cover it with a wet cloth and walk away."
+    "Cover it with a wet cloth and walk away.",
+    "Do not touch it and tell an adult."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "Mains electricity is very dangerous and can kill. Never touch sockets or wires, and never use wet hands. Tell an adult."
   },
   {
@@ -507,10 +507,10 @@
    },
    "options": [
     "It gets brighter.",
-    "It goes out.",
-    "It stays on."
+    "It stays on.",
+    "It goes out."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Opening the switch makes a gap in the loop, so electricity stops flowing and the bulb goes out."
   },
   {

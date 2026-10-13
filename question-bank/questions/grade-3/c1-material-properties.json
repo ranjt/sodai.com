@@ -17,10 +17,10 @@
    "options": [
     "who made the material",
     "where the material was bought",
-    "what the material is like",
-    "how much the material costs"
+    "how much the material costs",
+    "what the material is like"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "A property describes what a material is like, for example hard, shiny or waterproof. Every material has its own properties."
   },
   {
@@ -259,10 +259,10 @@
    "options": [
     "hard and see-through",
     "weak and stiff",
-    "magnetic and heavy",
-    "strong and flexible"
+    "strong and flexible",
+    "magnetic and heavy"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Jute fibres are strong and flexible, so they can be twisted into rope and woven into sacks and bags."
   },
   {
@@ -328,8 +328,8 @@
    "stem": "A magnet is held over these pictures. Which one will it pick up?",
    "options": [
     {
-     "text": "feather",
-     "image": "openmoji/feather.svg"
+     "text": "paper clip",
+     "image": "openmoji/paperclip.svg"
     },
     {
      "text": "plastic bottle",
@@ -340,11 +340,11 @@
      "image": "openmoji/wood.svg"
     },
     {
-     "text": "paper clip",
-     "image": "openmoji/paperclip.svg"
+     "text": "feather",
+     "image": "openmoji/feather.svg"
     }
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "A paper clip is made of steel, and steel is magnetic. Feathers, plastic and wood are not magnetic."
   },
   {
@@ -473,19 +473,19 @@
      "image": "openmoji/sponge.svg"
     },
     {
-     "text": "window",
-     "image": "openmoji/window.svg"
-    },
-    {
      "text": "brick",
      "image": "openmoji/brick.svg"
+    },
+    {
+     "text": "window",
+     "image": "openmoji/window.svg"
     },
     {
      "text": "yarn",
      "image": "openmoji/yarn.svg"
     }
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "A brick is hard and you cannot see through it. A sponge and yarn are soft, and a window is hard but transparent."
   },
   {
@@ -499,10 +499,10 @@
    "options": [
     "a thin plastic bag",
     "a bag made of foil",
-    "a jute bag",
-    "a bag made of cotton wool"
+    "a bag made of cotton wool",
+    "a jute bag"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "Jute is strong and rots away in the soil. A thin plastic bag stays for hundreds of years and can block drains."
   },
   {
@@ -516,10 +516,10 @@
    "options": [
     "a thick woollen blanket",
     "a thin sheet of paper",
-    "a soft cotton towel",
-    "a waterproof plastic sheet"
+    "a waterproof plastic sheet",
+    "a soft cotton towel"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "A raincoat must keep water out, so its outer layer must be waterproof. Wool, paper and towel cloth soak up water."
   },
   {
@@ -531,12 +531,12 @@
    "subskill": "Magnetic materials",
    "stem": "Imran drops a steel needle into a pile of sand. What is the quickest way to find it?",
    "options": [
-    "Move a magnet over the sand.",
-    "Pour water over the sand.",
     "Wave a plastic ruler over the sand.",
+    "Pour water over the sand.",
+    "Move a magnet over the sand.",
     "Shine a torch on the sand."
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "Steel is magnetic, so the needle jumps to the magnet. Sand is not magnetic and stays behind."
   },
   {
@@ -596,12 +596,12 @@
    "subskill": "Fair test",
    "stem": "Lina tests which cloth soaks up the most water. She puts a 10 cm square of cotton in 50 ml of water and a 20 cm square of wool in 100 ml of water. Why is this not a fair test?",
    "options": [
-    "She should have used only one cloth in the whole test.",
     "She changed the size of the cloth and the amount of water, not only the material.",
+    "She should have used only one cloth in the whole test.",
     "She used cloth instead of paper in the test.",
     "She should have used no water in the test."
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "In a fair test only one thing changes (here the material). Size, amount of water and time must stay the same."
   },
   {

@@ -1,0 +1,661 @@
+{
+ "grade": 4,
+ "grade_name": "Grade 4",
+ "topic": "B4",
+ "title": "Earth's Resources and Sustainability",
+ "strand": "earth",
+ "worksheet": "worksheets/grade-4-science/pdf/b4-earth-s-resources-and-sustainability-study-pack.pdf",
+ "questions": [
+  {
+   "id": "g4-b4-001",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Renewable and finite resources",
+   "stem": "Sort these resources into renewable and finite.",
+   "categories": [
+    "Renewable (can be replaced)",
+    "Finite (will run out)"
+   ],
+   "items": [
+    [
+     "sunlight",
+     "Renewable (can be replaced)"
+    ],
+    [
+     "oil",
+     "Finite (will run out)"
+    ],
+    [
+     "wind",
+     "Renewable (can be replaced)"
+    ],
+    [
+     "iron",
+     "Finite (will run out)"
+    ],
+    [
+     "trees",
+     "Renewable (can be replaced)"
+    ],
+    [
+     "coal",
+     "Finite (will run out)"
+    ],
+    [
+     "fish",
+     "Renewable (can be replaced)"
+    ],
+    [
+     "natural gas",
+     "Finite (will run out)"
+    ]
+   ],
+   "explanation": "Sunlight, wind, trees and fish are replaced naturally if we use them carefully. Oil, coal, gas and metals took millions of years to form and will run out."
+  },
+  {
+   "id": "g4-b4-002",
+   "mode": "core",
+   "type": "match",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Conserving resources",
+   "stem": "Match each action to the resource it saves.",
+   "pairs": [
+    [
+     "fixing a dripping tap",
+     "water"
+    ],
+    [
+     "switching off the fan",
+     "electricity"
+    ],
+    [
+     "not catching young hilsa",
+     "fish"
+    ],
+    [
+     "using a cleaner cookstove",
+     "wood"
+    ]
+   ],
+   "explanation": "Each action helps a resource last longer. Conserving means using resources carefully so that they do not run out."
+  },
+  {
+   "id": "g4-b4-003",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Resources that cycle",
+   "stem": "Water ___ round and round in the water cycle, but coal and gas will one day ___.",
+   "blanks": [
+    [
+     "cycles",
+     "goes",
+     "moves",
+     "travels",
+     "circulates"
+    ],
+    [
+     "run out",
+     "end"
+    ]
+   ],
+   "bank": [
+    "cycles",
+    "run out",
+    "grow",
+    "stay"
+   ],
+   "explanation": "Water is used and returns to the environment to be used again. Coal and gas are finite: once they are used up, they are gone."
+  },
+  {
+   "id": "g4-b4-004",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Renewable and finite resources",
+   "stem": "Natural gas is a renewable resource.",
+   "answer": false,
+   "explanation": "Natural gas took millions of years to form and cannot be replaced, so it is finite. When it is used up, it is gone."
+  },
+  {
+   "id": "g4-b4-005",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Conserving resources",
+   "stem": "What does it mean to **conserve** a resource?",
+   "options": [
+    "use it as fast as possible",
+    "throw it away when finished",
+    "use it carefully so it lasts",
+    "sell it all to other countries"
+   ],
+   "answer": 2,
+   "explanation": "To conserve means to use something carefully so that it lasts for a long time."
+  },
+  {
+   "id": "g4-b4-006",
+   "mode": "core",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Renewable and finite resources",
+   "stem": "Which of these are renewable if we use them carefully? Choose all that are right.",
+   "options": [
+    "sunlight",
+    "wind",
+    "coal",
+    "trees",
+    "natural gas"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Sunlight, wind and trees are replaced naturally. Coal and natural gas are finite. Trees are renewable only if we plant new ones and do not cut them faster than they grow."
+  },
+  {
+   "id": "g4-b4-007",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Renewable and finite resources",
+   "stem": "Most of Bangladesh's electricity has been made by burning natural gas. Why is this a worry for the future?",
+   "options": [
+    "Gas can only be used in the winter.",
+    "The gas fields are slowly running out.",
+    "Gas makes the electricity too cold.",
+    "There are far too many gas fields."
+   ],
+   "answer": 1,
+   "explanation": "Natural gas is finite. As the fields run out, the country is building more solar power and buying fuel from abroad."
+  },
+  {
+   "id": "g4-b4-008",
+   "mode": "core",
+   "type": "order",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Resources that cycle",
+   "stem": "Put the steps of the water cycle in order.",
+   "sequence": [
+    "Water evaporates from rivers and seas.",
+    "The water vapour cools and condenses into clouds.",
+    "Rain falls from the clouds.",
+    "The water flows back to the sea."
+   ],
+   "explanation": "Water goes round and round: it evaporates, forms clouds, falls as rain, and flows back to the rivers and sea."
+  },
+  {
+   "id": "g4-b4-009",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Technology: help or harm",
+   "stem": "Which is a problem with some tube-wells in Bangladesh?",
+   "options": [
+    "Some of the water contains arsenic, a poison.",
+    "The water is always too hot to drink.",
+    "They use up the coal under the ground.",
+    "They only work in the dry season."
+   ],
+   "answer": 0,
+   "explanation": "Tube-wells give safe water instead of dirty ponds, but some wells have arsenic. Too much pumping can also lower the water underground."
+  },
+  {
+   "id": "g4-b4-010",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Technology: help or harm",
+   "stem": "Solar panels cause no problems at all.",
+   "answer": false,
+   "explanation": "Solar panels give clean electricity, but old panels and batteries must be recycled safely so they do not pollute."
+  },
+  {
+   "id": "g4-b4-011",
+   "mode": "core",
+   "type": "fill",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Conserving resources",
+   "stem": "In social forestry, communities plant and care for ___.",
+   "blanks": [
+    [
+     "trees",
+     "forests",
+     "forest"
+    ]
+   ],
+   "bank": [
+    "trees",
+    "fish",
+    "rivers",
+    "tractors"
+   ],
+   "explanation": "Planting and protecting forests helps to conserve wood, soil and wildlife."
+  },
+  {
+   "id": "g4-b4-012",
+   "mode": "core",
+   "type": "short",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Conserving resources",
+   "stem": "Why is it a problem if people catch fish faster than the fish can breed?",
+   "model_answer": "There will be fewer and fewer fish until they run out, so there is no food or work later.",
+   "keywords": [
+    [
+     "fewer",
+     "less",
+     "run out",
+     "runs out",
+     "none",
+     "disappear",
+     "disappears",
+     "gone",
+     "no fish",
+     "end"
+    ]
+   ],
+   "min_keywords": 1,
+   "explanation": "A renewable resource only stays renewable if it is not used faster than it is replaced. That is why there is a ban on catching hilsa while they lay eggs."
+  },
+  {
+   "id": "g4-b4-013",
+   "mode": "core",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Sudden and gradual change",
+   "stem": "Which of these is a **sudden** change to a resource?",
+   "options": [
+    "the water underground getting lower each year",
+    "a forest slowly growing taller",
+    "fish numbers slowly falling each year",
+    "a cyclone knocks down a forest in one day"
+   ],
+   "answer": 3,
+   "explanation": "A cyclone can destroy a forest in a day. Changes that take years, like falling groundwater, are gradual."
+  },
+  {
+   "id": "g4-b4-014",
+   "mode": "core",
+   "type": "sort",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Sudden and gradual change",
+   "stem": "Sort these changes into sudden and gradual.",
+   "categories": [
+    "Sudden change",
+    "Gradual change"
+   ],
+   "items": [
+    [
+     "a cyclone destroys a forest",
+     "Sudden change"
+    ],
+    [
+     "groundwater gets lower each year",
+     "Gradual change"
+    ],
+    [
+     "a flash flood washes away a crop",
+     "Sudden change"
+    ],
+    [
+     "fish numbers fall slowly over many years",
+     "Gradual change"
+    ],
+    [
+     "a landslide blocks a road",
+     "Sudden change"
+    ],
+    [
+     "the soil slowly becomes more salty",
+     "Gradual change"
+    ]
+   ],
+   "explanation": "Sudden changes happen in a day or less. Gradual changes happen slowly and are harder to notice, but they are just as important."
+  },
+  {
+   "id": "g4-b4-015",
+   "mode": "core",
+   "type": "truefalse",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Sudden and gradual change",
+   "stem": "Scientists measure resources every year because slow changes are hard to notice but just as important as sudden ones.",
+   "answer": true,
+   "explanation": "Measuring every year shows gradual changes, such as groundwater falling, before it is too late to act."
+  },
+  {
+   "id": "g4-b4-016",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "remember",
+   "subskill": "Resources that cycle",
+   "stem": "Which number shows **evaporation** in the water cycle?",
+   "image": "diagrams/water-cycle-numbered.svg",
+   "image_alt": "The water cycle with stages numbered.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "In evaporation (1) the Sun heats water in seas and rivers and it turns into vapour. Condensation (2) forms clouds and rain (3) falls from them."
+  },
+  {
+   "id": "g4-b4-017",
+   "mode": "picture",
+   "type": "match",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Resources that cycle",
+   "stem": "Look at the water cycle. Match each number to what happens.",
+   "image": "diagrams/water-cycle-numbered.svg",
+   "image_alt": "The water cycle with stages numbered.",
+   "pairs": [
+    [
+     "1",
+     "water turns into vapour"
+    ],
+    [
+     "2",
+     "vapour cools and forms clouds"
+    ],
+    [
+     "3",
+     "rain falls to the ground"
+    ],
+    [
+     "4",
+     "water collects in rivers and seas"
+    ]
+   ],
+   "explanation": "The numbers show evaporation, condensation, precipitation (rain) and collection."
+  },
+  {
+   "id": "g4-b4-018",
+   "mode": "picture",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Renewable and finite resources",
+   "stem": "Which picture shows a way to make electricity from a renewable resource?",
+   "options": [
+    {
+     "text": "factory smoke",
+     "image": "openmoji/factory-smoke.svg"
+    },
+    {
+     "text": "car exhaust",
+     "image": "openmoji/car-exhaust.svg"
+    },
+    {
+     "text": "oil spill",
+     "image": "openmoji/oil-spill.svg"
+    },
+    {
+     "text": "solar energy",
+     "image": "openmoji/solar-energy.svg"
+    }
+   ],
+   "answer": 3,
+   "explanation": "Solar panels make electricity from sunlight, which is renewable. The others come from burning or spilling fuels, which are finite."
+  },
+  {
+   "id": "g4-b4-019",
+   "mode": "picture",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "understand",
+   "subskill": "Renewable and finite resources",
+   "stem": "Which pictures show resources that are renewable if we use them carefully? Choose all that are right.",
+   "options": [
+    {
+     "text": "sun",
+     "image": "openmoji/sun.svg"
+    },
+    {
+     "text": "wind",
+     "image": "openmoji/wind-energy.svg"
+    },
+    {
+     "text": "fish",
+     "image": "openmoji/fish.svg"
+    },
+    {
+     "text": "gem stone",
+     "image": "openmoji/gem-stone.svg"
+    }
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Sunlight, wind and fish are replaced naturally. A gem stone is a mineral that took a very long time to form and cannot be replaced."
+  },
+  {
+   "id": "g4-b4-020",
+   "mode": "picture",
+   "type": "truefalse",
+   "difficulty": 1,
+   "bloom": "understand",
+   "subskill": "Resources that cycle",
+   "stem": "In the picture, water vapour cools and forms clouds at number 2.",
+   "image": "diagrams/water-cycle-numbered.svg",
+   "image_alt": "The water cycle with stages numbered.",
+   "answer": true,
+   "explanation": "Number 2 is condensation: water vapour cools and turns back into tiny drops of water that make clouds."
+  },
+  {
+   "id": "g4-b4-021",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 1,
+   "bloom": "apply",
+   "subskill": "Conserving resources",
+   "stem": "Sumi notices that a tap in the school yard drips all day. What should she do?",
+   "options": [
+    "Leave it, because water never runs out.",
+    "Open it fully to wash the drain.",
+    "Tell a teacher so it can be fixed.",
+    "Ignore it, because it is only a drop."
+   ],
+   "answer": 2,
+   "explanation": "A dripping tap wastes a lot of water over a day. Reporting leaks helps to save water."
+  },
+  {
+   "id": "g4-b4-022",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Technology: help or harm",
+   "stem": "A test kit shows that the water from a family's tube-well has arsenic in it. What should they do?",
+   "options": [
+    "Use a safe well or tested water instead.",
+    "Drink it because it is cold and clear.",
+    "Keep drinking it for just one more week.",
+    "Wait for the arsenic to sink to the bottom of the jug."
+   ],
+   "answer": 0,
+   "explanation": "Arsenic is a poison and cannot be seen or tasted. Scientists made test kits so families can find safe wells."
+  },
+  {
+   "id": "g4-b4-023",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Conserving resources",
+   "stem": "On the south-west coast, pond and underground water have become salty. Why is rainwater stored in a clean tank a good choice for drinking?",
+   "options": [
+    "Rainwater has extra salt from the sea.",
+    "Rain is fresh water and is not salty.",
+    "Rainwater only falls in the dry season.",
+    "Rainwater is always very cold."
+   ],
+   "answer": 1,
+   "explanation": "Rain is fresh water. The monsoon brings plenty, so a family can store it for the dry season. Rain is also a renewable resource."
+  },
+  {
+   "id": "g4-b4-024",
+   "mode": "real-life",
+   "type": "multi",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Conserving resources",
+   "stem": "Which actions save water at home? Choose all that are right.",
+   "options": [
+    "turning taps off tightly",
+    "fixing leaks",
+    "collecting rainwater",
+    "leaving the tap running while brushing teeth",
+    "washing the floor with fresh drinking water every day"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Turning off taps, fixing leaks and collecting rainwater save water. Leaving the tap running and washing floors with drinking water waste it."
+  },
+  {
+   "id": "g4-b4-025",
+   "mode": "real-life",
+   "type": "mcq",
+   "difficulty": 2,
+   "bloom": "apply",
+   "subskill": "Science solving problems",
+   "stem": "Nadia's family cooks on a stove that uses a lot of wood and makes a lot of smoke. What would help most?",
+   "options": [
+    "a bigger fire",
+    "burning plastic as well",
+    "a cleaner cookstove that uses less wood",
+    "cooking all day long"
+   ],
+   "answer": 2,
+   "explanation": "Scientists have designed cleaner cookstoves that use less wood and make less smoke. This saves trees and is better for health."
+  },
+  {
+   "id": "g4-b4-026",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Conserving resources",
+   "stem": "A dripping tap wastes 50 ml of water in 10 minutes. How much water does it waste in one day (24 hours)?",
+   "options": [
+    "1.2 litres",
+    "7.2 litres",
+    "12 litres",
+    "72 litres"
+   ],
+   "answer": 1,
+   "explanation": "In one hour there are six 10-minute periods: 6 × 50 = 300 ml. In 24 hours: 24 × 300 = 7200 ml = 7.2 litres."
+  },
+  {
+   "id": "g4-b4-027",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "apply",
+   "subskill": "Conserving resources",
+   "stem": "1 mm of rain falling on 1 square metre of roof gives 1 litre of water. A school roof has an area of 40 square metres. In one storm 50 mm of rain falls. How much water can be collected?",
+   "options": [
+    "90 litres",
+    "200 litres",
+    "2000 litres",
+    "20 000 litres"
+   ],
+   "answer": 2,
+   "explanation": "40 × 50 = 2000 litres. Rainwater harvesting can store this for the dry season."
+  },
+  {
+   "id": "g4-b4-028",
+   "mode": "olympiad",
+   "type": "short",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Renewable and finite resources",
+   "stem": "\"Trees are renewable, so we can cut down as many as we like.\" Do you agree? Explain.",
+   "model_answer": "No. Trees are only renewable if we plant new ones and let them grow. If we cut them faster than they grow, forests disappear.",
+   "keywords": [
+    [
+     "no",
+     "not",
+     "disagree",
+     "don't agree",
+     "do not agree"
+    ],
+    [
+     "plant",
+     "replant",
+     "grow",
+     "new",
+     "faster",
+     "disappear",
+     "replace",
+     "run out"
+    ]
+   ],
+   "min_keywords": 2,
+   "explanation": "A resource is renewable only if it is replaced as fast as we use it."
+  },
+  {
+   "id": "g4-b4-029",
+   "mode": "olympiad",
+   "type": "multi",
+   "difficulty": 3,
+   "bloom": "evaluate",
+   "subskill": "Technology: help or harm",
+   "stem": "Which statements about technology are fair? Choose all that are right.",
+   "options": [
+    "Tube-wells gave many people safe water, but some wells have arsenic.",
+    "Plastic is cheap and light, but it lasts hundreds of years as litter.",
+    "Solar panels give clean electricity, but old panels must be recycled safely.",
+    "Motor boats and cars burn no fuel.",
+    "Technology never has any problems."
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Technology can both help and harm. Tube-wells, plastic and solar panels each have good points and problems."
+  },
+  {
+   "id": "g4-b4-030",
+   "mode": "olympiad",
+   "type": "mcq",
+   "difficulty": 3,
+   "bloom": "analyse",
+   "subskill": "Conserving resources",
+   "stem": "A pond has 100 fish. Each year 30 new fish are born (example). What is the most the villagers can catch each year if the number of fish is not to go down?",
+   "options": [
+    "30 fish",
+    "15 fish",
+    "60 fish",
+    "100 fish"
+   ],
+   "answer": 0,
+   "explanation": "If they catch only as many as are born (30), the pond stays at 100 fish. Catching more means the number of fish falls every year, which is not sustainable."
+  }
+ ]
+}

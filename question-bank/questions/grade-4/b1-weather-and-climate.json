@@ -16,11 +16,11 @@
    "stem": "Which sentence describes the **climate** of a place?",
    "options": [
     "It is very windy at school this afternoon.",
-    "Sylhet gets a lot of rain every year.",
     "Tomorrow morning will be foggy in Dhaka.",
+    "Sylhet gets a lot of rain every year.",
     "It rained heavily here all night last night."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Climate is the usual weather of a place over many years. The other sentences describe the weather on one day, which can change in a few hours."
   },
   {
@@ -160,12 +160,12 @@
    "subskill": "Moving air",
    "stem": "Why is the air near the ceiling of a room warmer than the air near the floor?",
    "options": [
-    "Warm air rises to the ceiling.",
+    "Heat cannot reach the floor.",
     "Warm air sinks to the floor.",
     "The ceiling gives out heat.",
-    "Heat cannot reach the floor."
+    "Warm air rises to the ceiling."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "When air is warmed it spreads out, becomes lighter and rises. Cooler air stays lower down."
   },
   {
@@ -289,12 +289,12 @@
    "subskill": "Clouds and forecasts",
    "stem": "White, puffy clouds in a blue sky usually mean…",
    "options": [
-    "a storm is coming",
-    "heavy rain is on the way",
     "fine weather",
+    "heavy rain is on the way",
+    "a storm is coming",
     "a cyclone is near"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "White, puffy clouds mean fine weather. Dark grey clouds hold more water and often bring rain."
   },
   {
@@ -413,12 +413,12 @@
    "image": "diagrams/sea-breeze.svg",
    "image_alt": "Daytime sea breeze: warm air rises over the land and cooler air moves in from the sea.",
    "options": [
-    "from the land to the sea",
+    "from the sea to the land",
     "straight up into the sky",
     "straight down into the sea",
-    "from the sea to the land"
+    "from the land to the sea"
    ],
-   "answer": 3,
+   "answer": 0,
    "explanation": "The land warms faster than the sea, so warm air rises over the land and cooler air moves in from the sea to take its place."
   },
   {
@@ -489,11 +489,11 @@
    "stem": "Rina's class sets up a weather station. Where should they keep the thermometer to measure the air temperature?",
    "options": [
     "on the tin roof of the shed in the sun",
-    "on the hot concrete in the sunshine",
     "in the shade, about 1.5 m above the ground",
+    "on the hot concrete in the sunshine",
     "inside a closed cupboard"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "The air temperature should be measured in the shade, away from heat from the ground and the Sun. A tin roof or concrete in the sun would read much too high."
   },
   {
@@ -506,11 +506,11 @@
    "stem": "On a hot afternoon, Joy wants to cool her room. It has one window near the floor and one near the ceiling. What should she do?",
    "options": [
     "Open only the low window.",
-    "Open both windows.",
     "Open only the high window.",
+    "Open both windows.",
     "Close both windows."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Cool air comes in through the low window and warm air rises out through the high window, so opening both keeps the air moving."
   },
   {
@@ -522,12 +522,12 @@
    "subskill": "Clouds and forecasts",
    "stem": "Tomorrow is Sports Day. This afternoon the barometer is falling, the wind has changed direction and tall dark clouds are growing. What is the best forecast?",
    "options": [
-    "A storm with heavy rain is likely.",
+    "Cold, foggy weather is likely.",
     "Hot, dry and sunny weather is likely.",
     "Calm, clear weather is likely.",
-    "Cold, foggy weather is likely."
+    "A storm with heavy rain is likely."
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Falling pressure, a change of wind direction and tall dark (cumulonimbus) clouds are signs of a storm."
   },
   {
@@ -550,12 +550,12 @@
    "subskill": "Weather and climate",
    "stem": "Why do farmers in Bangladesh plant rice when the monsoon rains arrive?",
    "options": [
-    "Rice grows best in cold dry weather.",
     "Rice needs a lot of water to grow.",
+    "Rice grows best in cold dry weather.",
     "Rain keeps birds away from the rice.",
     "The monsoon makes the soil harder."
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Weather and climate affect living things. The monsoon brings the water that rice plants need."
   },
   {
