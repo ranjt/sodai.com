@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>KG 2 Art: Magic Shapes</title>
+<style>
+@font-face{font-family:Fredoka;font-weight:600;src:url(assets/fredoka-latin-600-normal.woff2)}
+@font-face{font-family:Hand;src:url(assets/patrick-hand-latin-400-normal.woff2)}
+@font-face{font-family:Andika;font-weight:700;src:url(assets/andika-latin-700-normal.woff2)}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:210mm;height:297mm;padding:9mm 11mm;font-family:Hand,sans-serif;color:#111;display:flex;flex-direction:column;gap:3.5mm;overflow:hidden}
+.head{display:flex;align-items:center;gap:6mm}
+.head img{height:25mm;width:auto}
+.title{flex:1;text-align:center}
+.title h1{font-family:Fredoka;font-size:36pt;line-height:1}
+.title p{font-size:14pt;margin-top:1mm;letter-spacing:.5px}
+.who{width:52mm;font-size:13pt;display:flex;flex-direction:column;gap:3mm}
+.who span{border-bottom:1.6px solid #111;padding-bottom:1px;display:block;height:8mm}
+.how{border:2px solid #111;border-radius:6mm;padding:2.5mm 5mm;font-size:15pt;display:flex;align-items:center;gap:4mm}
+.how b{font-family:Andika;font-size:13pt}
+.how .n{flex:none;width:9mm;height:9mm;border-radius:50%;background:#111;color:#fff;display:grid;place-items:center;font-family:Fredoka;font-size:14pt}
+.frame{position:relative;border:2.4px solid #111;border-radius:6mm;overflow:hidden}
+.frame svg{position:absolute;inset:0;width:100%;height:100%}
+.tag{position:absolute;left:4mm;top:3mm;background:#111;color:#fff;border-radius:4mm;padding:.6mm 4mm;font-family:Fredoka;font-size:12pt;z-index:2}
+.idea{position:absolute;right:4mm;bottom:2.5mm;font-size:12pt;z-index:2;background:#fff;padding:0 2mm;border-radius:3mm}
+.big{height:136mm}
+.row{display:flex;gap:3.5mm}
+.row .frame{flex:1;height:70mm}
+.foot{display:flex;align-items:flex-end;gap:6mm;font-size:15pt}
+.foot .l{flex:1;display:flex;align-items:flex-end;gap:2mm}
+.foot .l i{flex:1;border-bottom:1.6px solid #111;height:8mm;display:block}
+.stars{font-size:20pt;letter-spacing:2px}
+.small{font-size:9.5pt;text-align:center;color:#444}
+</style></head><body>
+<div class="head">
+  <img src="assets/school-logo.png" alt="Pledge Harbor International School">
+  <div class="title"><h1>Magic Shapes!</h1><p>KG 2 &nbsp;·&nbsp; Art and Imagination</p></div>
+  <div class="who"><span>Name:</span><span>Date:</span></div>
+</div>
+
+<div class="how">
+  <div class="n">1</div><div>Look at the shape. <b>What can it become?</b></div>
+  <div class="n">2</div><div>Add <b>lines, faces, legs, petals</b> and <b>colours</b>.</div>
+  <div class="n">3</div><div>Use your <b>imagination!</b></div>
+</div>
+
+<div class="frame big">
+  <span class="tag">1 &nbsp;Circle</span>
+  <span class="idea">a sun? a face? a wheel? a flower? a ball? ...</span>
+  <svg viewBox="0 0 100 62" preserveAspectRatio="xMidYMid meet"><circle cx="50" cy="32" r="21" fill="none" stroke="#111" stroke-width=".9" stroke-dasharray="2.2 1.8" stroke-linecap="round"/></svg>
+</div>
+
+<div class="row">
+  <div class="frame"><span class="tag">2 &nbsp;Cloud</span>
+    <svg viewBox="0 0 60 60"><path d="M17 41h27a9 9 0 0 0 1.5-17.9A11 11 0 0 0 24.6 19 12 12 0 0 0 17 41z" fill="none" stroke="#111" stroke-width=".9" stroke-dasharray="2.2 1.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1 3)"/></svg></div>
+  <div class="frame"><span class="tag">3 &nbsp;Wiggly line</span>
+    <svg viewBox="0 0 60 60"><path d="M7 35 C14 15 20 15 24 32 S35 52 40 32 S49 18 54 30" fill="none" stroke="#111" stroke-width="1.1" stroke-dasharray="2.2 1.8" stroke-linecap="round"/></svg></div>
+  <div class="frame"><span class="tag">4 &nbsp;Triangle</span>
+    <svg viewBox="0 0 60 60"><path d="M30 14 L48 46 H12 Z" fill="none" stroke="#111" stroke-width=".9" stroke-dasharray="2.2 1.8" stroke-linejoin="round" transform="translate(0 2)"/></svg></div>
+</div>
+
+<div class="foot">
+  <div class="l">I made a <i></i></div>
+  <div>My art is colourful: <span class="stars">☆ ☆ ☆</span></div>
+</div>
+<p class="small">Grown-ups: ask “Tell me about your art!” and write their words on the line. There is no wrong answer.</p>
+</body></html>
